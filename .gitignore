@@ -1,0 +1,21 @@
+# Fichiers de sauvegarde et backups
+*.bak
+*.backup
+*~
+*.swp
+
+# Scripts de travail (à déplacer éventuellement dans automata/)
+*.py
+*.ps1
+
+# Dossiers temporaires
+!TEMPO/backup/
+!TEMPO/tools/
+!TEMPO/ideas/
+!TEMPO/images/
+
+# Fichiers vides (pages de guidage non remplies)
+*.md.empty
+
+# Fichiers de configuration local
+.local.*

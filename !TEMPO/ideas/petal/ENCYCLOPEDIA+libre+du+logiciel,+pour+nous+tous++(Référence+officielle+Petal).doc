@@ -1,0 +1,428 @@
+Date: Wed, 4 Dec 2024 14:14:28 +0000 (UTC)
+Message-ID: <2134543705.31.1733321668657@eee5c11846ed>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_30_165962706.1733321668656"
+
+------=_Part_30_165962706.1733321668656
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>ENCYCLOPEDIA libre du logiciel, pour nous tous ! (R=C3=A9f=C3=A9=
+rence officielle Petal)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>ENCYCLOPEDIA libre du logiciel, pour nous tous ! (R=C3=A9f=C3=A9ren=
+ce officielle Petal)</h1>
+    <div class=3D"Section1">
+        <div class=3D"panel" style=3D"background-color: #EAE6FF;border-widt=
+h: 1px;">
+<style>[data-colorid=3Ddu3c67hrp8]{color:#403294} html[data-color-mode=3Dda=
+rk] [data-colorid=3Ddu3c67hrp8]{color:#796bcd}[data-colorid=3Dpy5yq8w1tc]{c=
+olor:#403294} html[data-color-mode=3Ddark] [data-colorid=3Dpy5yq8w1tc]{colo=
+r:#796bcd}</style>
+<div class=3D"panelContent" style=3D"background-color: #EAE6FF;">
+<p><span data-colorid=3D"py5yq8w1tc">C'est ainsi que nous communiquons =C3=
+=A0 notre best </span><img class=3D"emoticon emoticon-wink" data-emoji-id=
+=3D"1f609" data-emoji-shortname=3D":wink:" data-emoji-fallback=3D"=F0=9F=98=
+=89" src=3D"4b607f4d35860b473ccca61e82d32380829e64a2b97f852e60a3a4589a95096=
+c" width=3D"16" height=3D"16" data-emoticon-name=3D"wink" alt=3D"(clin d'=
+=C5=93il)"><br><span data-colorid=3D"du3c67hrp8">Unifiant la m=C3=AAme sour=
+ce wikipedia-ich, dictionnaire, lexique, glossaire=E2=80=A6 incluant les ac=
+ronymes, terminologies=E2=80=A6 exemples et/ou guides d=E2=80=99utilisation=
+.</span></p>
+</div>
+</div>
+<div class=3D"contentLayout2">
+<style>[data-colorid=3Dh2d5qdg6b2]{color:#006644} html[data-color-mode=3Dda=
+rk] [data-colorid=3Dh2d5qdg6b2]{color:#99ffdd}[data-colorid=3Dt84ihoce6x]{c=
+olor:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dt84ihoce6x]{colo=
+r:#99ffdd}[data-colorid=3Daqcaa9c96k]{color:#006644} html[data-color-mode=
+=3Ddark] [data-colorid=3Daqcaa9c96k]{color:#99ffdd}[data-colorid=3Dvsefrclo=
+jz]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dvsefrclojz]=
+{color:#99ffdd}[data-colorid=3Ddzx76v211t]{color:#006644} html[data-color-m=
+ode=3Ddark] [data-colorid=3Ddzx76v211t]{color:#99ffdd}[data-colorid=3Dbxge8=
+5p0xy]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dbxge85p0=
+xy]{color:#99ffdd}</style>
+<div class=3D"columnLayout three-equal" data-layout=3D"three-equal">
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<div class=3D"panel" style=3D"background-color: #FFFFFF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #FFFFFF;">
+<p><strong><span data-colorid=3D"bxge85p0xy">L=E2=80=99information est just=
+e et r=C3=A9vis=C3=A9e ?</span></strong><br><span data-colorid=3D"h2d5qdg6b=
+2">Veuillez utiliser les r=C3=A9actions de la page.</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<div class=3D"panel" style=3D"background-color: #FFFFFF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #FFFFFF;">
+<p><strong><span data-colorid=3D"vsefrclojz">L=E2=80=99information peut =C3=
+=AAtre am=C3=A9lior=C3=A9e ?</span></strong><br><span data-colorid=3D"aqcaa=
+9c96k">Veuillez utiliser les commentaires.</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<div class=3D"panel" style=3D"background-color: #FFFFFF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #FFFFFF;">
+<p><strong><span data-colorid=3D"dzx76v211t">La section est vide ou le suje=
+t est manquant ?</span></strong><br><span data-colorid=3D"t84ihoce6x">Soyez=
+ la premi=C3=A8re personne =C3=A0 remplir ce vide </span><img class=3D"emot=
+icon emoticon-smile" data-emoji-id=3D"1f642" data-emoji-shortname=3D":sligh=
+t_smile:" data-emoji-fallback=3D"=F0=9F=99=82" src=3D"c632d19b2ce8e6cdcf840=
+c6a049aef3833be285d6d7e3649f89200952fbab997" width=3D"16" height=3D"16" dat=
+a-emoticon-name=3D"smile" alt=3D"(sourire)"></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"columnLayout fixed-width" data-layout=3D"fixed-width">
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<p></p>
+</div>
+</div>
+</div>
+</div>
+<p style=3D"text-align: center;"></p>
+<div class=3D"search-macro search-macro-large">
+<div class=3D"aui-dd-parent"></div>
+<form class=3D"aui aui-dd-parent" name=3D"livesearchForm" method=3D"POST" a=
+ction=3D"/wiki/dosearchsite.action">
+<fieldset class=3D"search-macro-fields">
+<div class=3D"search-macro-query">
+<input class=3D"text" type=3D"text" name=3D"queryString" autocomplete=3D"of=
+f" placeholder=3D"Search"> <span class=3D"livesearch-macro-search-icon">
+<svg width=3D"24" height=3D"24" viewbox=3D"0 0 24 24" role=3D"presentation"=
+>
+<path fill=3D"#5E6C84" d=3D"M16.436 15.085l3.94 4.01a1 1 0 01-1.425 1.402l-=
+3.938-4.006a7.5 7.5 0 111.423-1.406zM10.5 16a5.5 5.5 0 100-11 5.5 5.5 0 000=
+ 11z" fill-rule=3D"evenodd" />
+</svg></span>
+</div><input type=3D"hidden" name=3D"where" value=3D""> <input type=3D"hidd=
+en" name=3D"additional" value=3D"none"> <input type=3D"hidden" name=3D"labe=
+ls" value=3D"definition"> <input type=3D"hidden" name=3D"contentType" value=
+=3D"">
+</fieldset>
+</form>
+</div>
+<br>
+Recherche alternative directement dans la page : ctrl+f(win) ou cmd+f(mac)
+<p></p>
+<p></p>
+<div class=3D"plugin_pagetree">
+<ul class=3D"plugin_pagetree_children_list plugin_pagetree_children_list_no=
+leftspace">
+<div class=3D"plugin_pagetree_children">
+</div>
+</ul>
+<fieldset class=3D"hidden">
+<input type=3D"hidden" name=3D"treeId" value=3D""> <input type=3D"hidden" n=
+ame=3D"treeRequestId" value=3D"/wiki/plugins/pagetree/naturalchildren.actio=
+n?decorator=3Dnone&amp;excerpt=3Dtrue&amp;sort=3Dnatural&amp;reverse=3Dfals=
+e&amp;disableLinks=3Dfalse&amp;expandCurrent=3Dfalse"> <input type=3D"hidde=
+n" name=3D"treePageId" value=3D"2003403933"> <input type=3D"hidden" name=3D=
+"noRoot" value=3D"false"> <input type=3D"hidden" name=3D"rootPageId" value=
+=3D"2003403933"> <input type=3D"hidden" name=3D"rootPage" value=3D""> <inpu=
+t type=3D"hidden" name=3D"startDepth" value=3D"2"> <input type=3D"hidden" n=
+ame=3D"spaceKey" value=3D"QA"> <input type=3D"hidden" name=3D"i18n-pagetree=
+.loading" value=3D"Chargement en cours..."> <input type=3D"hidden" name=3D"=
+i18n-pagetree.error.permission" value=3D"Impossible de charger l'arborescen=
+ce des pages. Vous n'=C3=AAtes apparemment pas autoris=C3=A9 =C3=A0 affiche=
+r la page racine."> <input type=3D"hidden" name=3D"i18n-pagetree.eeror.gene=
+ral" value=3D"Un probl=C3=A8me a =C3=A9t=C3=A9 d=C3=A9tect=C3=A9 lors de la=
+ r=C3=A9cup=C3=A9ration de l'arborescence des pages. Veuillez consulter le =
+fichier journal du serveur pour plus d'informations."> <input type=3D"hidde=
+n" name=3D"loginUrl" value=3D"/wiki/login.action?os_destination=3D%2Fexport=
+word%3FpageId%3D2003403933"> <input type=3D"hidden" name=3D"mobile" value=
+=3D"false">
+<fieldset class=3D"hidden">
+<input type=3D"hidden" name=3D"ancestorId" value=3D"2003403933">
+</fieldset>
+</fieldset>
+</div>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_30_165962706.1733321668656
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/4b607f4d35860b473ccca61e82d32380829e64a2b97f852e60a3a4589a95096c
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAKfwAACn8AG1cEgF
+AAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpu
+czptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9
+Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRm
+OkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8v
+bnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3Rp
+ZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+Cjwv
+eDp4bXBtZXRhPgpMwidZAAAC1klEQVQ4EV1TS08TURT+zp1HHyAPaYgNLmpCYnSFGjExrqRhZUF/
+AC7YVP0BRne4IS5Y6EKRGI2JK+PGR4wJARYGQ8BQ0OjCUGMMQgkRaK2lnencez130IjM887M+b7z
+nW/OIfCm9ZAgGlLhevF8N5QcBKiHP6SgQRD0la9TIPGAup7N7cbQX7DmQJnLjFqulUXcBip1wA85
+AUcAMQuoSSDAGI49v0zE9CbxDhtIL/SNU3s0rdeq6sdWVbY2RS3bJqGZg4MNk1RKWyIRFSj5E+h6
+0WtImBpQnNmAP02veiP3c/T09RdnuxYIg+QDXIKARY6I24Si76HJSWOhf9RgyX93rttpdGffvllW
+UzPf6MpAF7UlYkDdpGbVnsSTV3mUKx5SB1uQPt2hozFHQ/Cu6ZRwLGsQDqEh7sir2ZPU2uRia6Nm
+srK7gG0JZHpSuHjhCPY3RzB8d45KJTajgX1is0nn+pZYXidrVQiUuPP4Az4vFXDz2lnEYxzEBKVi
+DbPv13G0s5WdYz8jtkok40J7Ki+g9KFQri9FrRZgKV9AbsJD8acHuBY2N6u4/WgBuY9rGBmbQaVa
+R+JAXKjtgCvUKdLzmTpLtQ0zsUcT09+xXChjoP8wbFvgV8U3lWAfy5fsR6nsh6UYA5kh+FdCXZlf
+FToPJgrtD/iVxWvjhzFVMZV5lvxzHSH4nuciaZKbpBN1LbkzBHG/rKyU2fU6ku3x0MjV9W00Nbro
+SDZAMymRkIxheXLSZvaH3GFZjrRMY/BO0YiN68NTWF8JhaK9A7h1ozd8CGM4NuxKxrIehuYy99AS
+yWLT85jBJduijY0qpucLIejMiSTa2mKcXWpuLTYhEkHRG6PjLy/tEJiBWewbR7ObZhLFhkqyhRU2
+i6FQXH2gJGe3GPx/K+8MEwvn3jascIWgZscxYO1LmNOsw3f8LYz5Mwe7hmlozzhrHmf9/zgbs03N
+e8b5N97yXqEQUVj4AAAAAElFTkSuQmCC
+------=_Part_30_165962706.1733321668656
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/c632d19b2ce8e6cdcf840c6a049aef3833be285d6d7e3649f89200952fbab997
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAKfwAACn8AG1cEgF
+AAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpu
+czptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9
+Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRm
+OkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8v
+bnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3Rp
+ZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+Cjwv
+eDp4bXBtZXRhPgpMwidZAAACNElEQVQ4EY1TTY9MURA9dV/3vCZh0JJJzCxELNg1C2Jhg4iQFktr
+EsO/mH/BLFhb+oogTCIWE9+9QyKGZJpMaGYiae/N63fLqXpamghucm9uquqc+hbwqM4EkZno/86J
+PYh6itKDVGyFQhBkge8cJFyU1pVHoxgZgtUMn7fPoxam0UiAbyVQOCdQD8AayjLKBpjFrqvnREhv
+jis2gjvH72B87JD2ckOVNCACRPqJdEA0EmmmASurd9G6dthIKgPz7OAsl5qIpEmdxkOwMQSTmU57
+WW62Hi0VopZz0Ieaxyh1kd6nTF68+YJ9rQkkVYAoo2K+s4Sd2zaiubmhWqhKGgKi7A3UnvacGTb5
+5PaDd9h/5jFeLSyD9fBrf5OZzmz4lI5hsQOzP+AFq3Km7j+O2VqR2SmJT9oDUiYsEpgjer0Mf02h
+2YAO2DKLQzAQfdou2Oua+XWSxOh4hy00hR1rZalQXgebjARMQd66EiyJsbJgJLS6m0l17G8y6n6A
+o2OIDVTM2ZB4n1m0Dx/7uD+/iH6/oL06n/1NZjorrNvaYEHu/dpGxhNLlcs3X+PGrZeYmhr3CLqL
+Kzh2ZAdOHt2OkHB4I3620ePUZ+0L2JBO6+c8l4AxhCDd91/RXaJHnsmJtZjcso4pMKaIVdmUpljO
+Z2X39bMVge3ByCgzz5I5Jky4mkaDFYxN/zDK1TKxEpxtZ7UJW1+vUxI0H8Cu/U3m00fPwz0YWSZu
+1b/WmQVjZy79vs7fAdlwN9BZNtNNAAAAAElFTkSuQmCC
+------=_Part_30_165962706.1733321668656--

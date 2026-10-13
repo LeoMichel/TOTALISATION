@@ -1,0 +1,1578 @@
+Date: Fri, 3 Jul 2026 21:15:39 +0000 (UTC)
+Message-ID: <1815704833.11.1783113339412@20a89d8d5e37>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_10_1888382625.1783113339412"
+
+------=_Part_10_1888382625.1783113339412
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Les tests (niveau * interface * angle * type)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Les tests (niveau * interface * angle * type)</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"72c9a804">Cette page d=C3=A9finit les quatre axes es=
+sentiels pour d=C3=A9crire correctement une validation logicielle : le <str=
+ong>niveau d=E2=80=99int=C3=A9gration</strong>, l=E2=80=99<strong>interface=
+ observ=C3=A9e</strong>, l=E2=80=99<strong>angle d=E2=80=99observation</str=
+ong> et le <strong>type de validation</strong>. L=E2=80=99objectif n=E2=80=
+=99est pas de d=C3=A9cider ici quoi automatiser, ni de reproduire une pyram=
+ide de tests, mais de donner un langage commun pour d=C3=A9crire pr=C3=A9ci=
+s=C3=A9ment <strong>ce qui est valid=C3=A9</strong>, <strong>=C3=A0 quelle =
+fronti=C3=A8re</strong>, <strong>avec quelle visibilit=C3=A9</strong> et <s=
+trong>pour quelle propri=C3=A9t=C3=A9 attendue</strong>.</p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"4589790f"><strong>Note terminologique :</strong> cette page =
+explique le cadre d=C3=A9taill=C3=A9 des validations logicielles : niveau d=
+=E2=80=99int=C3=A9gration, interface observ=C3=A9e, angle d=E2=80=99observa=
+tion et type de validation. Les d=C3=A9finitions courtes et transversales d=
+es termes sont maintenues dans le <a href=3D"https://opal-rt.atlassian.net/=
+wiki/spaces/ACAQ/pages/3258843163/Lexique+officiel+OPAL-RT+terminologies+de=
++r+f+rence" data-linked-resource-id=3D"3258843163" data-linked-resource-ver=
+sion=3D"13" data-linked-resource-type=3D"page">Lexique / Terminologies</a>.=
+ Cette page pr=C3=A9cise leur usage op=C3=A9rationnel et p=C3=A9dagogique, =
+sans remplacer le lexique comme source de r=C3=A9f=C3=A9rence.</p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"1e0fbd22">Un m=C3=AAme type de test peut exister =C3=A0 plus=
+ieurs niveaux d=E2=80=99int=C3=A9gration. Par exemple, un test de performan=
+ce, de s=C3=A9curit=C3=A9, de r=C3=A9silience ou de compatibilit=C3=A9 peut=
+ =C3=AAtre r=C3=A9alis=C3=A9 en <strong>small</strong>, <strong>medium</str=
+ong> ou <strong>large</strong>, et tout autant en <strong>black-box</strong=
+>, <strong>white-box</strong> ou <strong>gray-box</strong>, selon le p=C3=
+=A9rim=C3=A8tre et l=E2=80=99angle d=E2=80=99observation vis=C3=A9s.</p>
+</div>
+</div>
+<p local-id=3D"edaddee97f65">Cette distinction s=E2=80=99aligne avec l=E2=
+=80=99approche Opal-RT o=C3=B9 les sp=C3=A9cifications doivent =C3=AAtre <s=
+trong>testables</strong>, <strong>tra=C3=A7ables</strong> et utilisables pa=
+r toutes les disciplines, depuis D=C3=89FINIR jusqu=E2=80=99=C3=A0 IMPL=C3=
+=89MENTER, DIFFUSER et CONFIRMER. Les niveaux ci-dessous servent donc =C3=
+=A0 structurer la validation des comportements d=C3=A9crits dans les sp=C3=
+=A9cifications, et non =C3=A0 imposer une recette unique.</p>
+<style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1783113339352 {padding: 0px;}
+div.rbtoc1783113339352 ul {list-style: disc;margin-left: 0px;}
+div.rbtoc1783113339352 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1783113339352">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Principefondamental:q=
+uatreaxesdistincts">Principe fondamental : quatre axes distincts</a></li>
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Niveauxd=E2=80=99int=
+=C3=A9gration">Niveaux d=E2=80=99int=C3=A9gration</a>
+<ul class=3D"toc-indentation">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Clarifierlesmotsdelaf=
+amille=C2=ABint=C3=A9grer=C2=BB">Clarifier les mots de la famille =C2=AB in=
+t=C3=A9grer =C2=BB</a></li>
+</ul>
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Vued=E2=80=99ensemble=
+">Vue d=E2=80=99ensemble</a></li>
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Small">Small</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Pourquoi=C2=ABsmall=
+=C2=BBplut=C3=B4tque=C2=ABunitaire=C2=BB">Pourquoi =C2=AB small =C2=BB plut=
+=C3=B4t que =C2=AB unitaire =C2=BB</a></li>
+</ul></li>
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Medium">Medium</a></l=
+i>
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Large">Large</a></li>
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Small,mediumetlargeda=
+nstroisinterfaces">Small, medium et large dans trois interfaces</a></li>
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Exemplesdecombinaison=
+s">Exemples de combinaisons</a></li>
+</ul></li>
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Anglesd=E2=80=99obser=
+vation:white-box,gray-boxetblack-box">Angles d=E2=80=99observation : white-=
+box, gray-box et black-box</a></li>
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Cequecesniveauxnesont=
+pas">Ce que ces niveaux ne sont pas</a></li>
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Typesdevalidation">Ty=
+pes de validation</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Listedesprincipauxtyp=
+esdetest">Liste des principaux types de test</a></li>
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Pr=C3=A9cisionsutiles=
+surcertainstypes">Pr=C3=A9cisions utiles sur certains types</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Testsdesant=C3=A9">Te=
+sts de sant=C3=A9</a></li>
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Testsd=E2=80=99int=C3=
+=A9grit=C3=A9">Tests d=E2=80=99int=C3=A9grit=C3=A9</a></li>
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Testsdelimite">Tests =
+de limite</a></li>
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Testsder=C3=A9silienc=
+e">Tests de r=C3=A9silience</a></li>
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-TestsUI,UXetutilisabi=
+lit=C3=A9">Tests UI, UX et utilisabilit=C3=A9</a></li>
+</ul></li>
+</ul></li>
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Matricedecombinaison:=
+niveau=C3=97type">Matrice de combinaison : niveau =C3=97 type</a></li>
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Exemplesappliqu=C3=A9=
+s">Exemples appliqu=C3=A9s</a></li>
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Lienaveclessp=C3=A9ci=
+ficationsatomiques">Lien avec les sp=C3=A9cifications atomiques</a></li>
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Rep=C3=A8respratiques=
+d=E2=80=99utilisation">Rep=C3=A8res pratiques d=E2=80=99utilisation</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Quandchoisirsmall">Qu=
+and choisir small</a></li>
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Quandchoisirmedium">Q=
+uand choisir medium</a></li>
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Quandchoisirlarge">Qu=
+and choisir large</a></li>
+</ul></li>
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-Erreursfr=C3=A9quente=
+s=C3=A0=C3=A9viter">Erreurs fr=C3=A9quentes =C3=A0 =C3=A9viter</a></li>
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-R=C3=A9sum=C3=A9op=C3=
+=A9rationnel">R=C3=A9sum=C3=A9 op=C3=A9rationnel</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#Lestests(niveau*interface*angle*type)-=F0=9F=93=9AR=C3=A9f=
+=C3=A9rences">=F0=9F=93=9A R=C3=A9f=C3=A9rences</a></li>
+</ul></li>
+</ul>
+</div>
+<h1 local-id=3D"00265c2e" id=3D"Lestests(niveau*interface*angle*type)-Princ=
+ipefondamental:quatreaxesdistincts">Principe fondamental : quatre axes dist=
+incts</h1>
+<p local-id=3D"13a2e1d8">Un test ne devrait pas =C3=AAtre d=C3=A9crit avec =
+un seul mot comme =C2=AB unitaire =C2=BB, =C2=AB int=C3=A9gration =C2=BB, =
+=C2=AB E2E =C2=BB ou =C2=AB performance =C2=BB. Pour =C3=AAtre pr=C3=A9cis,=
+ il faut distinguer quatre axes :</p>
+<ul local-id=3D"4924adb3">
+<li local-id=3D"1fa9c55e">
+<p local-id=3D"408b6255"><strong>Niveau d=E2=80=99int=C3=A9gration</strong>=
+ : jusqu=E2=80=99o=C3=B9 on assemble r=C3=A9ellement pour valider un compor=
+tement.</p></li>
+<li local-id=3D"1f0a4518">
+<p local-id=3D"2714e105"><strong>Interface observ=C3=A9e</strong> : par que=
+lle fronti=C3=A8re on observe le syst=C3=A8me : interface utilisateur, inte=
+rface applicative ou interface machine.</p></li>
+<li local-id=3D"61a4e143">
+<p local-id=3D"40d137ab"><strong>Angle d=E2=80=99observation</strong> : ave=
+c quelle visibilit=C3=A9 sur l=E2=80=99int=C3=A9rieur du syst=C3=A8me on r=
+=C3=A9alise la validation : white-box, gray-box ou black-box.</p></li>
+<li local-id=3D"32026313">
+<p local-id=3D"7a17dbb4"><strong>Type de validation</strong> : quelle propr=
+i=C3=A9t=C3=A9, qualit=C3=A9 ou risque on cherche =C3=A0 observer : fonctio=
+nnel, performance, s=C3=A9curit=C3=A9, r=C3=A9silience, int=C3=A9grit=C3=A9=
+, compatibilit=C3=A9, etc.</p></li>
+</ul>
+<p local-id=3D"33eccbeb">Autrement dit, on peut prendre un m=C3=AAme compor=
+tement sp=C3=A9cifi=C3=A9 et le d=C3=A9crire comme une combinaison, par exe=
+mple : <strong>medium =C3=97 interface applicative =C3=97 gray-box =C3=97 c=
+ontrat</strong>, ou <strong>large =C3=97 interface utilisateur =C3=97 black=
+-box =C3=97 fonctionnel</strong>.</p>
+<ul local-id=3D"415f7ef8">
+<li local-id=3D"6f3a9566">
+<p local-id=3D"240aeaff"><strong>small</strong>, <strong>medium</strong> ou=
+ <strong>large</strong> selon le p=C3=A9rim=C3=A8tre r=C3=A9ellement assemb=
+l=C3=A9 ;</p></li>
+<li local-id=3D"7a60da1e">
+<p local-id=3D"2e3c9905"><strong>interface utilisateur</strong>, <strong>in=
+terface applicative</strong> ou <strong>interface machine</strong> selon la=
+ fronti=C3=A8re observ=C3=A9e ;</p></li>
+<li local-id=3D"761ee304">
+<p local-id=3D"7765ea8d"><strong>white-box</strong>, <strong>gray-box</stro=
+ng> ou <strong>black-box</strong> selon la visibilit=C3=A9 disponible ;</p>=
+</li>
+<li local-id=3D"6d59887a">
+<p local-id=3D"39f26a95">avec un type de validation comme <strong>fonctionn=
+el</strong>, <strong>performance</strong>, <strong>s=C3=A9curit=C3=A9</stro=
+ng>, <strong>r=C3=A9silience</strong>, <strong>contrat</strong>, <strong>in=
+t=C3=A9grit=C3=A9</strong> ou <strong>compatibilit=C3=A9</strong>.</p></li>
+</ul>
+<div class=3D"panel" style=3D"background-color: #EAE6FF;border-color: #998D=
+D9;border-width: 1px;">
+<div class=3D"panelContent" style=3D"background-color: #EAE6FF;">
+<p local-id=3D"a93cd1dfdf33">Il faut =C3=A9viter de traiter <strong>white-b=
+ox</strong>, <strong>gray-box</strong> et <strong>black-box</strong> comme =
+des niveaux d=E2=80=99int=C3=A9gration. Ce sont des <strong>approches d=E2=
+=80=99observation</strong>, pas des paliers d=E2=80=99assemblage du syst=C3=
+=A8me.</p>
+</div>
+</div>
+<h1 local-id=3D"52f64743803f" id=3D"Lestests(niveau*interface*angle*type)-N=
+iveauxd=E2=80=99int=C3=A9gration">Niveaux d=E2=80=99int=C3=A9gration</h1>
+<p local-id=3D"1fa6cc33">Les niveaux d=E2=80=99int=C3=A9gration repr=C3=A9s=
+entent l=E2=80=99ampleur du syst=C3=A8me impliqu=C3=A9 pour valider une sp=
+=C3=A9cification. Ils ne d=C3=A9crivent pas seulement des tests techniques =
+ou du code : ils d=C3=A9crivent <strong>jusqu=E2=80=99o=C3=B9 on assemble</=
+strong> pour observer un comportement attendu, que ce soit dans l=E2=80=99i=
+nterface utilisateur, l=E2=80=99interface applicative ou l=E2=80=99interfac=
+e machine.</p>
+<div class=3D"panel" style=3D"background-color: #EAE6FF;border-color: #998D=
+D9;border-width: 1px;">
+<div class=3D"panelContent" style=3D"background-color: #EAE6FF;">
+<h3 local-id=3D"3952a307" id=3D"Lestests(niveau*interface*angle*type)-Clari=
+fierlesmotsdelafamille=C2=ABint=C3=A9grer=C2=BB">Clarifier les mots de la f=
+amille =C2=AB int=C3=A9grer =C2=BB</h3>
+<p local-id=3D"2eb72a0c">Avant de parler de niveaux d=E2=80=99int=C3=A9grat=
+ion, il est utile de distinguer quelques mots proches qui sont souvent m=C3=
+=A9lang=C3=A9s, mais qui ne d=C3=A9signent pas la m=C3=AAme chose.</p>
+<p local-id=3D"29d6954c">Les d=C3=A9finitions de r=C3=A9f=C3=A9rence de <st=
+rong>int=C3=A9gration</strong>, <strong>int=C3=A9gr=C3=A9</strong>, <strong=
+>int=C3=A9gralit=C3=A9</strong>, <strong>int=C3=A9grit=C3=A9</strong>, <str=
+ong>int=C3=A9gral</strong> et <strong>int=C3=A8gre</strong> sont maintenues=
+ dans le <a href=3D"https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/32=
+58843163/Lexique+officiel+OPAL-RT+terminologies+de+r+f+rence" data-linked-r=
+esource-id=3D"3258843163" data-linked-resource-version=3D"13" data-linked-r=
+esource-type=3D"page">Lexique / Terminologies</a>. Dans cette page, le mot =
+<strong>int=C3=A9gration</strong> est utilis=C3=A9 principalement au sens o=
+p=C3=A9rationnel suivant : assembler des =C3=A9l=C3=A9ments distincts et va=
+lider que leur collaboration produit le comportement attendu.</p>
+<p local-id=3D"453127ac">Cette distinction permet ensuite de comprendre les=
+ niveaux <strong>small</strong>, <strong>medium</strong> et <strong>large</=
+strong> sans confondre int=C3=A9gration, int=C3=A9grit=C3=A9 ou int=C3=A9gr=
+alit=C3=A9 d=E2=80=99un p=C3=A9rim=C3=A8tre.</p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"6bb3b4f4">Pour vulgariser au maximum la diff=C3=A9rence entr=
+e les niveaux, on peut repr=C3=A9senter une interaction simple entre deux =
+=C3=A9l=C3=A9ments <strong>A</strong> et <strong>B</strong> :</p>
+<ul local-id=3D"24e462ea">
+<li local-id=3D"6478eb96">
+<p local-id=3D"3f1838f7"><strong>Small</strong> : on valide le composant lu=
+i-m=C3=AAme, donc <strong>A</strong> ou <strong>B</strong> isol=C3=A9ment.<=
+/p></li>
+<li local-id=3D"286d944e">
+<p local-id=3D"4b66eb4f"><strong>Medium</strong> : on valide l=E2=80=99alle=
+r entre deux =C3=A9l=C3=A9ments, donc <strong>A =E2=86=92 B</strong>.</p></=
+li>
+<li local-id=3D"37510961">
+<p local-id=3D"342f27a4"><strong>Large</strong> : on valide l=E2=80=99aller=
+-retour complet et le r=C3=A9sultat observable, donc <strong>A =E2=86=92 B =
+=E2=86=92 A</strong>, souvent dans une logique E2E.</p></li>
+</ul>
+<p local-id=3D"4c206501">Cette repr=C3=A9sentation est volontairement simpl=
+ifi=C3=A9e. Elle sert =C3=A0 mieux visualiser le p=C3=A9rim=C3=A8tre d=E2=
+=80=99int=C3=A9gration : small isole une partie, medium valide une interact=
+ion, et large confirme qu=E2=80=99un flux complet revient avec le r=C3=A9su=
+ltat attendu.</p>
+</div>
+</div>
+<h2 local-id=3D"ca5f8efe2298" id=3D"Lestests(niveau*interface*angle*type)-V=
+ued=E2=80=99ensemble">Vue d=E2=80=99ensemble</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1062" data-layout=3D"center" data-local-id=3D"6c=
+e39b8f9d4f" data-table-display-mode=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 169.0px;">
+<col style=3D"width: 313.0px;">
+<col style=3D"width: 290.0px;">
+<col style=3D"width: 290.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"ac922fcb-9e47-495a-9e4e-9bc47c943320">
+<th data-local-id=3D"68bf24f7-122a-4c99-a148-1ccc626d6836" valign=3D"top" c=
+lass=3D"confluenceTh">
+<p local-id=3D"254d1da9f695">Niveau</p></th>
+<th data-local-id=3D"d61e7075-dcb8-4015-81e3-e5b4f37d2cb3" valign=3D"top" c=
+lass=3D"confluenceTh">
+<p local-id=3D"de6db5dca100">D=C3=A9finition</p></th>
+<th data-local-id=3D"9f44813d-e5ec-4bbd-8807-fadce716fcbd" valign=3D"top" c=
+lass=3D"confluenceTh">
+<p local-id=3D"cdfdc671db52">P=C3=A9rim=C3=A8tre typique</p></th>
+<th data-local-id=3D"563bcded-5366-4770-b1ed-222077d29fa3" valign=3D"top" c=
+lass=3D"confluenceTh">
+<p local-id=3D"b3b1aa8af76e">But principal</p></th>
+</tr>
+<tr data-local-id=3D"f096d553-5cdd-4dc5-a2df-c76708dc6a40">
+<td data-local-id=3D"3b686a4e-0b42-4ee3-b549-7b50ad3bae94" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"f19ea4c20c18"><strong>Small</strong></p></td>
+<td data-local-id=3D"141dd558-25c5-4588-b65a-0e00e4b02a14" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"d6c15f439c05">Validation du plus petit comportement isolable=
+.</p></td>
+<td data-local-id=3D"21b7000f-cbea-4f38-93d0-f0aef4011a2c" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"32ae4d75">Fonction, r=C3=A8gle, composant UI, service, modul=
+e logique ou =C3=A9l=C3=A9ment machine isol=C3=A9.</p></td>
+<td data-local-id=3D"e0399617-c208-4200-b69e-8f0ad9adcc93" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"f12af0832f92">Confirmer qu=E2=80=99un comportement atomique =
+est correct sans d=C3=A9pendre d=E2=80=99un assemblage plus large.</p></td>
+</tr>
+<tr data-local-id=3D"d83ad95d-63d2-447e-8217-b23037ae21cd">
+<td data-local-id=3D"2c2720a6-c029-427e-800c-f3f760170397" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"875f08074be7"><strong>Medium</strong></p></td>
+<td data-local-id=3D"2349ee48-bb80-43e3-83e3-3f3a9f2103b9" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"026cbbdc7d93">Validation de l=E2=80=99int=C3=A9gration entre=
+ plusieurs =C3=A9l=C3=A9ments small.</p></td>
+<td data-local-id=3D"d679653d-ba59-4b23-aec1-f09d67584704" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"bf186a9602dc">Deux ou plusieurs composants, services, module=
+s ou couches en interaction.</p></td>
+<td data-local-id=3D"6cb58679-90d1-46ad-9486-03c17b60bc1d" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"e2b2ac80d3e1">Confirmer que les contrats, =C3=A9changes et d=
+=C3=A9pendances fonctionnent ensemble.</p></td>
+</tr>
+<tr data-local-id=3D"7a33b875-c655-4a9f-97a7-5af78ece5131">
+<td data-local-id=3D"b7f0698c-27d7-4df2-9fc9-4342fa6390ce" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"77c6154aece4"><strong>Large</strong></p></td>
+<td data-local-id=3D"f9f29ea3-c89c-485c-ab57-c97fb7a220ea" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"9aab146229e6">Validation d=E2=80=99un ensemble complet orien=
+t=C3=A9 usage ou mission.</p></td>
+<td data-local-id=3D"ccbc83a1-59f0-4bb9-8ff9-c3c9d9b17a4a" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"c4b52eda837f">Cha=C3=AEne compl=C3=A8te, sc=C3=A9nario utili=
+sateur, syst=C3=A8me bout en bout, environnement quasi r=C3=A9el ou r=C3=A9=
+el.</p></td>
+<td data-local-id=3D"5c3214b4-6861-4658-ab0a-4b4f55363b76" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"3280d4280a57">Confirmer qu=E2=80=99un flux complet produit l=
+e r=C3=A9sultat attendu du point de vue du syst=C3=A8me ou de l=E2=80=99uti=
+lisateur.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 local-id=3D"4cebfd80ad04" id=3D"Lestests(niveau*interface*angle*type)-S=
+mall">Small</h2>
+<p local-id=3D"11be62b6"><strong>Small</strong> correspond au plus petit co=
+mportement qu=E2=80=99on peut valider de fa=C3=A7on claire et isol=C3=A9e. =
+Ce n=E2=80=99est pas r=C3=A9ellement un niveau d=E2=80=99int=C3=A9gration a=
+u sens strict, car on n=E2=80=99est pas encore dans l=E2=80=99assemblage si=
+gnificatif de plusieurs =C3=A9l=C3=A9ments; c=E2=80=99est plut=C3=B4t le <s=
+trong>plus petit divisible testable</strong>, peu importe qu=E2=80=99il soi=
+t situ=C3=A9 dans le code, l=E2=80=99interface utilisateur, l=E2=80=99inter=
+face applicative ou l=E2=80=99interface machine.</p>
+<div class=3D"panel" style=3D"background-color: #EAE6FF;border-color: #998D=
+D9;border-width: 1px;">
+<div class=3D"panelContent" style=3D"background-color: #EAE6FF;">
+<h3 local-id=3D"303b48a3" id=3D"Lestests(niveau*interface*angle*type)-Pourq=
+uoi=C2=ABsmall=C2=BBplut=C3=B4tque=C2=ABunitaire=C2=BB">Pourquoi =C2=AB sma=
+ll =C2=BB plut=C3=B4t que =C2=AB unitaire =C2=BB</h3>
+<p local-id=3D"34b25f5c">Traditionnellement, ce niveau est souvent associ=
+=C3=A9 au <strong>test unitaire</strong>. Le terme reste utile dans plusieu=
+rs contextes, mais il est devenu ambigu : selon les =C3=A9quipes, il peut d=
+=C3=A9signer un niveau d=E2=80=99int=C3=A9gration, un style de test, un out=
+il, ou simplement une habitude de d=C3=A9veloppement.</p>
+<p local-id=3D"3c275fd1">Par exemple, on peut faire des tests unitaires de =
+code sur une fonction ou une classe, mais aussi des tests unitaires UI sur =
+un composant visuel isol=C3=A9. =C3=80 l=E2=80=99inverse, un test =C3=A9cri=
+t avec un outil comme JUnit peut tr=C3=A8s bien exercer un sc=C3=A9nario be=
+aucoup plus large, incluant une base de donn=C3=A9es, des services ou m=C3=
+=AAme un flux quasi E2E. Le nom de l=E2=80=99outil ne suffit donc pas =C3=
+=A0 d=C3=A9terminer le niveau r=C3=A9el du test.</p>
+<p local-id=3D"2465d65b">C=E2=80=99est pourquoi la nomenclature <strong>sma=
+ll / medium / large</strong> est plus pr=C3=A9cise : elle d=C3=A9crit le <s=
+trong>p=C3=A9rim=C3=A8tre d=E2=80=99int=C3=A9gration r=C3=A9ellement observ=
+=C3=A9</strong>, ind=C3=A9pendamment de la technologie, du framework ou du =
+nom historique donn=C3=A9 au test.</p>
+</div>
+</div>
+<p local-id=3D"a59d49e1b679">On l=E2=80=99utilise pour valider :</p>
+<ul local-id=3D"1fc324e4">
+<li local-id=3D"1af33774">
+<p local-id=3D"12dc383e">une r=C3=A8gle m=C3=A9tier atomique ;</p></li>
+<li local-id=3D"647b56f0">
+<p local-id=3D"1b2b2190">un calcul ;</p></li>
+<li local-id=3D"67bb2987">
+<p local-id=3D"63cf85c4">une transformation de donn=C3=A9es ;</p></li>
+<li local-id=3D"7e94c79a">
+<p local-id=3D"191aacd6">une validation d=E2=80=99entr=C3=A9e ;</p></li>
+<li local-id=3D"6044f91b">
+<p local-id=3D"45f828e3">une d=C3=A9cision locale ;</p></li>
+<li local-id=3D"0826f8db">
+<p local-id=3D"226f0028">un comportement attendu d=E2=80=99une unit=C3=A9 l=
+ogique ;</p></li>
+<li local-id=3D"0c1d0925">
+<p local-id=3D"34a21195">un composant UI isol=C3=A9 ;</p></li>
+<li local-id=3D"18785841">
+<p local-id=3D"7078109d">un script, un agent, un driver ou un module machin=
+e isol=C3=A9.</p></li>
+</ul>
+<p local-id=3D"da74fa7f6d7b">Le niveau small permet de r=C3=A9pondre =C3=A0=
+ la question : <strong>est-ce que cette partie isol=C3=A9e fait exactement =
+ce qu=E2=80=99elle doit faire ?</strong></p>
+<h2 local-id=3D"a41e69c3eb9f" id=3D"Lestests(niveau*interface*angle*type)-M=
+edium">Medium</h2>
+<p local-id=3D"e91c1afabdc6"><strong>Medium</strong> correspond =C3=A0 une =
+validation d=E2=80=99int=C3=A9gration entre plusieurs =C3=A9l=C3=A9ments sm=
+all. On ne valide plus seulement un comportement isol=C3=A9, mais la <stron=
+g>collaboration</strong> entre au moins deux parties significatives.</p>
+<p local-id=3D"006a220ec3ca">On l=E2=80=99utilise notamment pour valider :<=
+/p>
+<ul local-id=3D"fa200160-ad5c-4b48-b838-af9089b74b34">
+<li local-id=3D"cdda5058-cafe-41ff-8318-b42f18eb877a">
+<p local-id=3D"a9dd25ced521">un appel entre deux modules ;</p></li>
+<li local-id=3D"a2a763e4-5491-4dd8-a6c5-c1cea3fc5cde">
+<p local-id=3D"334ff2933278">un contrat d=E2=80=99API ;</p></li>
+<li local-id=3D"f8e94999-03eb-4800-b329-e689015d54a5">
+<p local-id=3D"b9d83f9bdaf3">une interaction entre couches applicatives ;</=
+p></li>
+<li local-id=3D"4dc129bb-eda2-4070-835c-d0b83c25530d">
+<p local-id=3D"3ecd9242129b">un =C3=A9change de donn=C3=A9es entre composan=
+ts ;</p></li>
+<li local-id=3D"718c4485-8c67-465d-a28b-f88900278cdc">
+<p local-id=3D"8aeb139c5cca">un traitement qui d=C3=A9pend d=E2=80=99une ba=
+se de donn=C3=A9es, d=E2=80=99un service ou d=E2=80=99un adaptateur ;</p></=
+li>
+<li local-id=3D"80a7734b-03d4-4b73-93b5-16f9af8783d4">
+<p local-id=3D"5158f63a8943">une orchestration partielle.</p></li>
+</ul>
+<p local-id=3D"735025f9f1b1">Le niveau medium permet de r=C3=A9pondre =C3=
+=A0 la question : <strong>est-ce que ces =C3=A9l=C3=A9ments s=E2=80=99int=
+=C3=A8grent correctement entre eux ?</strong></p>
+<h2 local-id=3D"6dadebabdfe9" id=3D"Lestests(niveau*interface*angle*type)-L=
+arge">Large</h2>
+<p local-id=3D"27190089c532"><strong>Large</strong> correspond =C3=A0 la va=
+lidation d=E2=80=99un ensemble coh=C3=A9rent de comportements assembl=C3=A9=
+s dans un but pr=C3=A9cis. Ici, on cherche =C3=A0 observer un <strong>flux =
+complet</strong> qui envoie quelque chose au syst=C3=A8me et obtient une r=
+=C3=A9ponse ou un r=C3=A9sultat observable.</p>
+<p local-id=3D"ba684f0f7790">On parle souvent ici de <strong>bout en bout</=
+strong> (<em>end-to-end</em>, E2E), mais le terme large est plus large que =
+le seul parcours interface utilisateur : il peut couvrir tout sc=C3=A9nario=
+ complet orient=C3=A9 mission, syst=C3=A8me ou client.</p>
+<p local-id=3D"db12c7035ad5">On l=E2=80=99utilise pour valider :</p>
+<ul local-id=3D"32570be3-330d-429b-a432-d409be8ed6c8">
+<li local-id=3D"a32398db-061e-4653-abf0-fddc571980c9">
+<p local-id=3D"c03b05db478a">un parcours utilisateur complet ;</p></li>
+<li local-id=3D"a8c2ccd8-ab55-4cba-8805-d59bf536c21b">
+<p local-id=3D"4b8332f4114f">un sc=C3=A9nario inter-syst=C3=A8mes ;</p></li=
+>
+<li local-id=3D"35f507cc-f7bb-4d4b-a3d2-c52ca5fa1163">
+<p local-id=3D"557415775739">une cha=C3=AEne de traitement de bout en bout =
+;</p></li>
+<li local-id=3D"35a9e420-c81d-4ae7-a501-ca3011b05e74">
+<p local-id=3D"d0d1e64c29a7">une op=C3=A9ration r=C3=A9elle ou quasi r=C3=
+=A9elle avec ses d=C3=A9pendances importantes ;</p></li>
+<li local-id=3D"d29dc80d-3c2c-4af1-a9d9-502aa8477778">
+<p local-id=3D"a0957813c621">une confirmation qu=E2=80=99un objectif m=C3=
+=A9tier ou syst=C3=A8me est atteint.</p></li>
+</ul>
+<p local-id=3D"03fc70ebefba">Le niveau large permet de r=C3=A9pondre =C3=A0=
+ la question : <strong>est-ce que l=E2=80=99ensemble du comportement attend=
+u fonctionne vraiment dans son contexte global ?</strong></p>
+<h2 local-id=3D"52cd127a" id=3D"Lestests(niveau*interface*angle*type)-Small=
+,mediumetlargedanstroisinterfaces">Small, medium et large dans trois interf=
+aces</h2>
+<p local-id=3D"65372ab4">Pour =C3=A9viter l=E2=80=99ambigu=C3=AFt=C3=A9 du =
+terme =C2=AB unitaire =C2=BB, les niveaux <strong>small</strong>, <strong>m=
+edium</strong> et <strong>large</strong> peuvent =C3=AAtre appliqu=C3=A9s =
+=C3=A0 plusieurs interfaces du syst=C3=A8me. On ne parle donc pas seulement=
+ de code : on peut raisonner sur l=E2=80=99interface utilisateur, l=E2=80=
+=99interface applicative et l=E2=80=99interface machine.</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"960" data-layout=3D"wide" data-local-id=3D"4983b=
+e51" data-table-display-mode=3D"default" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"2f929867">
+<th data-local-id=3D"56aea7ae" valign=3D"top" class=3D"confluenceTh">
+<p local-id=3D"74ebb1fc">Interface</p></th>
+<th data-local-id=3D"64fcdeb2" valign=3D"top" class=3D"confluenceTh">
+<p local-id=3D"42f44c4f">Small</p></th>
+<th data-local-id=3D"6296e569" valign=3D"top" class=3D"confluenceTh">
+<p local-id=3D"32571390">Medium</p></th>
+<th data-local-id=3D"327ad83d" valign=3D"top" class=3D"confluenceTh">
+<p local-id=3D"1fcc924c">Large</p></th>
+</tr>
+<tr data-local-id=3D"7e3714bf">
+<td data-local-id=3D"672b00a6" valign=3D"top" class=3D"confluenceTd">
+<p local-id=3D"3c5eac82"><strong>Interface utilisateur</strong></p></td>
+<td data-local-id=3D"6d34f6ec" valign=3D"top" class=3D"confluenceTd">
+<p local-id=3D"7072ceae">Composant visuel isol=C3=A9, r=C3=A8gle d=E2=80=99=
+affichage locale ou interaction =C3=A9l=C3=A9mentaire.</p></td>
+<td data-local-id=3D"5767fcf5" valign=3D"top" class=3D"confluenceTd">
+<p local-id=3D"049ed9b1">Interaction entre vues, navigation partielle, =C3=
+=A9tat partag=C3=A9 entre composants.</p></td>
+<td data-local-id=3D"58e23879" valign=3D"top" class=3D"confluenceTd">
+<p local-id=3D"3c43add3">Parcours utilisateur complet, sc=C3=A9nario bout e=
+n bout observable dans l=E2=80=99interface.</p></td>
+</tr>
+<tr data-local-id=3D"62366e6c">
+<td data-local-id=3D"5e1e9e64" valign=3D"top" class=3D"confluenceTd">
+<p local-id=3D"50b65180"><strong>Interface applicative</strong></p></td>
+<td data-local-id=3D"4195b517" valign=3D"top" class=3D"confluenceTd">
+<p local-id=3D"40a7b598">Fonction, service, r=C3=A8gle m=C3=A9tier, transfo=
+rmation ou contrat local isol=C3=A9.</p></td>
+<td data-local-id=3D"27f7a513" valign=3D"top" class=3D"confluenceTd">
+<p local-id=3D"4ad2aa38">Contrat entre services, =C3=A9change entre couches=
+, orchestration partielle.</p></td>
+<td data-local-id=3D"199f1a2b" valign=3D"top" class=3D"confluenceTd">
+<p local-id=3D"6d38da5f">Cha=C3=AEne compl=C3=A8te d=E2=80=99appels, flux t=
+ransactionnel ou sc=C3=A9nario applicatif de bout en bout.</p></td>
+</tr>
+<tr data-local-id=3D"0ff314b4">
+<td data-local-id=3D"63ca98d9" valign=3D"top" class=3D"confluenceTd">
+<p local-id=3D"01379352"><strong>Interface machine</strong></p></td>
+<td data-local-id=3D"2020d5e6" valign=3D"top" class=3D"confluenceTd">
+<p local-id=3D"3f083d8a">Script, agent, driver, module syst=C3=A8me ou comp=
+ortement machine isol=C3=A9.</p></td>
+<td data-local-id=3D"55ddf652" valign=3D"top" class=3D"confluenceTd">
+<p local-id=3D"798297ac">Int=C3=A9gration entre composants syst=C3=A8me, pr=
+otocole, communication inter-processus ou d=C3=A9pendance mat=C3=A9rielle s=
+imul=C3=A9e.</p></td>
+<td data-local-id=3D"6387632f" valign=3D"top" class=3D"confluenceTd">
+<p local-id=3D"67d99985">Syst=C3=A8me complet d=C3=A9ploy=C3=A9, environnem=
+ent quasi r=C3=A9el, simulation temps r=C3=A9el ou sc=C3=A9nario machine co=
+mplet.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"5fb4da00">Cette grille donne <strong>3 niveaux =C3=97 3 inte=
+rfaces</strong>. Elle permet de situer pr=C3=A9cis=C3=A9ment une validation=
+, de mod=C3=A9liser les sc=C3=A9narios d=E2=80=99int=C3=A9gration, d=E2=80=
+=99identifier les contrats =C3=A0 respecter, de pr=C3=A9voir les mappings n=
+=C3=A9cessaires et de choisir les mocks ou simulateurs appropri=C3=A9s.</p>
+<h2 local-id=3D"028a3a16" id=3D"Lestests(niveau*interface*angle*type)-Exemp=
+lesdecombinaisons">Exemples de combinaisons</h2>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"20c978db">Les exemples d=C3=A9taill=C3=A9s de combinaisons <=
+strong>niveau =C3=97 interface =C3=97 angle =C3=97 type</strong> sont maint=
+enus dans la page d=C3=A9di=C3=A9e <a href=3D"https://opal-rt.atlassian.net=
+/wiki/spaces/ACAQ/pages/3259990023/Exemples+concrets+de+combinaisons+niveau=
++interface+angle+type" data-linked-resource-id=3D"3259990023" data-linked-r=
+esource-version=3D"4" data-linked-resource-type=3D"page">Exemples concrets =
+de combinaisons</a>. Cette page-ci garde le cadre conceptuel; la page d=E2=
+=80=99exemples sert de compagnon pratique et peut =C3=A9voluer avec de nouv=
+eaux cas concrets.</p>
+</div>
+</div>
+<h1 local-id=3D"eabc8835d2cc" id=3D"Lestests(niveau*interface*angle*type)-A=
+nglesd=E2=80=99observation:white-box,gray-boxetblack-box">Angles d=E2=80=99=
+observation : white-box, gray-box et black-box</h1>
+<p local-id=3D"1c5203a19bec">Les notions <strong>white-box</strong>, <stron=
+g>gray-box</strong> et <strong>black-box</strong> d=C3=A9crivent le degr=C3=
+=A9 de visibilit=C3=A9 sur l=E2=80=99int=C3=A9rieur du syst=C3=A8me pendant=
+ la validation. Elles peuvent s=E2=80=99appliquer =C3=A0 <strong>n=E2=80=99=
+importe quel niveau</strong>.</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"98=
+429915c8ec" data-table-display-mode=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 160.0px;">
+<col style=3D"width: 280.0px;">
+<col style=3D"width: 300.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"8662ac49-ba38-4653-bc4b-073fb6d903fc">
+<th data-local-id=3D"813c2383-c15b-4432-a4ec-bd4c23033517" valign=3D"top" c=
+lass=3D"confluenceTh">
+<p local-id=3D"4c800da2643d">Approche</p></th>
+<th data-local-id=3D"7d76efa1-cb8e-4c73-b64f-608f808a082e" valign=3D"top" c=
+lass=3D"confluenceTh">
+<p local-id=3D"4d9cfb8ea6c6">Ce qu=E2=80=99on conna=C3=AEt</p></th>
+<th data-local-id=3D"9c2710f3-a086-4b80-b59c-9d763bc22297" valign=3D"top" c=
+lass=3D"confluenceTh">
+<p local-id=3D"15948504f606">Usage typique</p></th>
+</tr>
+<tr data-local-id=3D"26ff5cf7-4220-40fa-8ced-9ba63a726f71">
+<td data-local-id=3D"f8ac7dbb-4804-46b4-b6bf-2628ebafbfea" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"0b54b160e1e0"><strong>White-box</strong></p></td>
+<td data-local-id=3D"e960bc13-6fe1-4b94-86fe-8a549c253082" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"5f397271a694">La structure interne, le code, les branches, l=
+es =C3=A9tats ou les m=C3=A9canismes internes sont connus et exploit=C3=A9s=
+.</p></td>
+<td data-local-id=3D"12bdc256-4f7d-45d2-a91a-6fc8bcc79ebe" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"8403f410ac18">Validation fine d=E2=80=99algorithmes, chemins=
+ logiques, conditions internes, instrumentation technique.</p></td>
+</tr>
+<tr data-local-id=3D"315d9090-50d1-4d2f-bcf4-2e8106105dcb">
+<td data-local-id=3D"9f415c8c-5de6-4268-ab3d-2486d1a43091" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"9642a4d1156a"><strong>Gray-box</strong></p></td>
+<td data-local-id=3D"87f81a48-eb9a-4018-a2e2-7be590267299" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"c938395e233c">Une partie de l=E2=80=99interne est connue, sa=
+ns tout exposer ni tout piloter.</p></td>
+<td data-local-id=3D"7cc09766-b666-4869-93de-74cd7fe395f6" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"868db79a5ab7">Validation d=E2=80=99int=C3=A9gration, observa=
+tion d=E2=80=99=C3=A9tats interm=C3=A9diaires, diagnostic de comportements,=
+ contrats techniques.</p></td>
+</tr>
+<tr data-local-id=3D"646ee6aa-c2fb-49c9-aeab-422edff8a40f">
+<td data-local-id=3D"82c113e2-59c1-4e5c-8964-86985a75b6c3" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"2d46b772b16f"><strong>Black-box</strong></p></td>
+<td data-local-id=3D"5e07e079-b175-49bf-87ad-42a5dd2e8e4e" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"5863bda36a43">On observe uniquement les entr=C3=A9es, sortie=
+s et effets visibles, sans se baser sur l=E2=80=99impl=C3=A9mentation inter=
+ne.</p></td>
+<td data-local-id=3D"49c7b13d-5580-4352-865b-4ff97ea5cd32" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"47e99917b2cd">Validation fonctionnelle, comportement utilisa=
+teur, conformit=C3=A9 aux sp=C3=A9cifications observables.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"0cc73719cd04">Une m=C3=AAme sp=C3=A9cification peut =C3=AAtr=
+e valid=C3=A9e en <strong>black-box large</strong> pour un parcours complet=
+ utilisateur, puis en <strong>white-box small</strong> pour s=C3=A9curiser =
+une r=C3=A8gle critique, puis en <strong>gray-box medium</strong> pour diag=
+nostiquer l=E2=80=99int=C3=A9gration entre deux services.</p>
+</div>
+</div>
+<h1 local-id=3D"dc2ed2fdc8c1" id=3D"Lestests(niveau*interface*angle*type)-C=
+equecesniveauxnesontpas">Ce que ces niveaux ne sont pas</h1>
+<ul local-id=3D"ad061913-ec08-46f8-8691-1bde552b0799">
+<li local-id=3D"3d92b766-3d87-4084-860b-32a771138535">
+<p local-id=3D"2c043ad50305">Ils ne sont pas une strat=C3=A9gie d=E2=80=99a=
+utomatisation =C3=A0 eux seuls.</p></li>
+<li local-id=3D"755c6d86-bb2c-438e-8a74-1da700a6eb9f">
+<p local-id=3D"84e2baca67ce">Ils ne remplacent pas le jugement qualit=C3=A9=
+ ni l=E2=80=99analyse de risque.</p></li>
+<li local-id=3D"c9c82364-cdb9-4022-a397-c7a60ec578e3">
+<p local-id=3D"c8b680cff598">Ils ne disent pas automatiquement quels tests =
+sont manuels ou automatis=C3=A9s.</p></li>
+<li local-id=3D"eb422324-5e2f-4327-9439-fef240d81c74">
+<p local-id=3D"6ba2a10d0fda">Ils ne sont pas synonymes de white-box, gray-b=
+ox ou black-box.</p></li>
+<li local-id=3D"eb8fc253-ef25-4c82-8763-65321def6eda">
+<p local-id=3D"d5c46459d748">Ils ne doivent pas =C3=AAtre r=C3=A9duits =C3=
+=A0 une simple pyramide de tests.</p></li>
+</ul>
+<p local-id=3D"46a6235a100a">La pyramide peut parfois servir =C3=A0 discute=
+r d=E2=80=99un <strong>=C3=A9quilibre d=E2=80=99automatisation</strong>, ma=
+is elle ne d=C3=A9finit pas les niveaux d=E2=80=99int=C3=A9gration. Ici, on=
+ cherche avant tout =C3=A0 nommer correctement <strong>le p=C3=A9rim=C3=A8t=
+re valid=C3=A9</strong>.</p>
+<div class=3D"confluence-information-macro confluence-information-macro-not=
+e">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-warning confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"1e14bfaacf41">Confondre <strong>niveau d=E2=80=99int=C3=A9gr=
+ation</strong>, <strong>type de test</strong> et <strong>niveau d=E2=80=99a=
+utomatisation</strong> m=C3=A8ne =C3=A0 des discussions floues, =C3=A0 des =
+trous de couverture et =C3=A0 une tra=C3=A7abilit=C3=A9 faible entre sp=C3=
+=A9cifications et validation.</p>
+</div>
+</div>
+<h1 local-id=3D"4d4bb469" id=3D"Lestests(niveau*interface*angle*type)-Types=
+devalidation">Types de validation</h1>
+<p local-id=3D"03f0d128">Les types de validation d=C3=A9crivent <strong>ce =
+qu=E2=80=99on cherche =C3=A0 apprendre ou =C3=A0 prouver</strong> =C3=A0 pa=
+rtir d=E2=80=99une sp=C3=A9cification. Cette page en pr=C3=A9sente les prin=
+cipaux pour expliquer le mod=C3=A8le global, mais le catalogue d=C3=A9taill=
+=C3=A9 des cat=C3=A9gories et types de tests est maintenu dans une page d=
+=C3=A9di=C3=A9e.</p>
+<h2 local-id=3D"c7fc494d73e4" id=3D"Lestests(niveau*interface*angle*type)-L=
+istedesprincipauxtypesdetest">Liste des principaux types de test</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"960" data-layout=3D"wide" data-local-id=3D"e611e=
+a095042" data-table-display-mode=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 180.0px;">
+<col style=3D"width: 360.0px;">
+<col style=3D"width: 240.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"c07408e2-655d-4893-b363-6feb34c290f3">
+<th data-local-id=3D"9cb4df46-4b97-4e90-8442-c144c1666681" valign=3D"top" c=
+lass=3D"confluenceTh">
+<p local-id=3D"11e00b89dfb1">Type</p></th>
+<th data-local-id=3D"530334c3-2a78-4828-9878-5faa12499c33" valign=3D"top" c=
+lass=3D"confluenceTh">
+<p local-id=3D"1d46194c5823">Description</p></th>
+<th data-local-id=3D"8fbe3a0b-6360-4293-b8d9-a18c62dad2b5" valign=3D"top" c=
+lass=3D"confluenceTh">
+<p local-id=3D"5a601f3d32e7">Question =C3=A0 laquelle il r=C3=A9pond</p></t=
+h>
+</tr>
+<tr data-local-id=3D"20239d57-4102-47f7-b7b7-a719fa71ac51">
+<td data-local-id=3D"8b5d179a-61a1-4205-a297-7583cbcf4e51" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"d1a93bbdd6eb"><strong>Fonctionnel</strong></p></td>
+<td data-local-id=3D"daca92bd-3fad-4672-a1a9-28aad16617d2" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"7e456cbf">V=C3=A9rifie que le comportement livr=C3=A9 corres=
+pond aux <strong>sp=C3=A9cifications IF=E2=80=A6 THEN=E2=80=A6</strong> et =
+aux r=C3=A8gles applicables.</p></td>
+<td data-local-id=3D"8bb8415c-a10b-434a-9f25-8167687228f4" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"4267409bd20a">Est-ce que le syst=C3=A8me fait ce qui est sp=
+=C3=A9cifi=C3=A9 ?</p></td>
+</tr>
+<tr data-local-id=3D"b833e6d6-b7b8-40f9-b171-b2706c1a26c1">
+<td data-local-id=3D"50cf62af-31ca-4d3e-81eb-8c387de35430" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"e0deb82e7555"><strong>Sant=C3=A9</strong></p></td>
+<td data-local-id=3D"819c6fc2-fc46-44e6-a099-e958a678c33f" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"bbbc368caa1e">Validation rapide et cibl=C3=A9e d=E2=80=99une=
+ capacit=C3=A9 essentielle pour confirmer qu=E2=80=99un syst=C3=A8me est ut=
+ilisable =C3=A0 un niveau minimal.</p></td>
+<td data-local-id=3D"1c4f6dfb-150a-47da-9db3-109a00848cf5" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"670d8a182e40">Le syst=C3=A8me semble-t-il vivant et globalem=
+ent utilisable ?</p></td>
+</tr>
+<tr data-local-id=3D"74b8add0-874b-4036-b5b4-41b791338f20">
+<td data-local-id=3D"4b573639-78db-45ba-bf51-910ab5054771" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"8dbc4665a9be"><strong>Int=C3=A9grit=C3=A9</strong></p></td>
+<td data-local-id=3D"25503c5e-2584-48e4-8b91-cd1e74f22f08" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"57e68a5737fd">V=C3=A9rifie la coh=C3=A9rence, la compl=C3=A9=
+tude et la non-corruption des donn=C3=A9es, =C3=A9tats, traitements ou arte=
+facts.</p></td>
+<td data-local-id=3D"4bd105f0-c1b2-4f51-b115-0e21ea5b86b8" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"9d3c8f17f040">Les donn=C3=A9es et =C3=A9tats restent-ils coh=
+=C3=A9rents et fiables ?</p></td>
+</tr>
+<tr data-local-id=3D"3da5b18b-ffab-4ae7-99cb-cd6ae2d65590">
+<td data-local-id=3D"97a7a5bb-43f9-4f94-9fba-4ca2df4660ab" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"644a2b69a39d"><strong>R=C3=A9gression</strong></p></td>
+<td data-local-id=3D"57283910-799d-4250-ab17-7e865de26305" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"4b7b2290dad8">V=C3=A9rifie qu=E2=80=99un changement n=E2=80=
+=99a pas d=C3=A9grad=C3=A9 des comportements d=C3=A9j=C3=A0 conformes.</p><=
+/td>
+<td data-local-id=3D"b3ecb963-05cd-40ea-94ce-0d00dcc3037e" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"7329b258a037">Avons-nous cass=C3=A9 quelque chose qui foncti=
+onnait d=C3=A9j=C3=A0 ?</p></td>
+</tr>
+<tr data-local-id=3D"d1fafd8f-0fe6-47bd-bcd0-c5b1d3faf4f2">
+<td data-local-id=3D"d00ee167-9e9e-47fe-8b3f-81789401ec0a" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"7fa7f4a5adab"><strong>Limite</strong></p></td>
+<td data-local-id=3D"01542e16-10ce-4875-a8d9-f570c1410aa6" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"8d720d6f713d">V=C3=A9rifie le comportement aux fronti=C3=A8r=
+es : tailles maximales, minimums, seuils, valeurs extr=C3=AAmes, saturation=
+.</p></td>
+<td data-local-id=3D"233012a7-b755-4dda-8da3-c03e4b840329" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"323bfc2b04b4">Le syst=C3=A8me tient-il correctement aux born=
+es de son domaine ?</p></td>
+</tr>
+<tr data-local-id=3D"0e3219e2-8ba5-4ee8-a4b5-0af7ae4dfb7c">
+<td data-local-id=3D"825a4eed-b7fb-448d-81c0-9493cfc11b80" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"a4e3f86fa2e4"><strong>R=C3=A9silience</strong></p></td>
+<td data-local-id=3D"d67fbad2-3249-41d6-9210-a15a237aad7a" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"f3c675f8f419">V=C3=A9rifie la capacit=C3=A9 =C3=A0 continuer=
+, se d=C3=A9grader proprement, r=C3=A9cup=C3=A9rer ou tol=C3=A9rer des pert=
+urbations.</p></td>
+<td data-local-id=3D"da80c6a6-d300-4da9-bd16-41ae428ac973" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"8628d3deb9fa">Que se passe-t-il quand tout ne va pas comme p=
+r=C3=A9vu ?</p></td>
+</tr>
+<tr data-local-id=3D"0c8bc4aa-f1b7-4714-ad64-88180af609d6">
+<td data-local-id=3D"330d0c25-8494-4476-9083-2ed8bd1b2286" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"912d9bc8abfe"><strong>Performance</strong></p></td>
+<td data-local-id=3D"f9ec47e4-c659-40c5-8106-78fc28f3b5c9" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"bf67c2bc9ca9">Mesure le temps de r=C3=A9ponse, le d=C3=A9bit=
+, la latence, l=E2=80=99utilisation des ressources ou la tenue sous charge.=
+</p></td>
+<td data-local-id=3D"b34e5e7a-58af-4a00-86ea-7e2350d985f0" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"1ff6317086ec">Le syst=C3=A8me est-il assez rapide et stable =
+pour l=E2=80=99usage vis=C3=A9 ?</p></td>
+</tr>
+<tr data-local-id=3D"0a0b068f-c09d-4d00-a1dc-94135667e0fc">
+<td data-local-id=3D"8a106e1f-37da-480b-8b0f-212dd6cc79b9" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"60c64226c2a7"><strong>S=C3=A9curit=C3=A9</strong></p></td>
+<td data-local-id=3D"f79d1751-121a-43f4-baf5-d96c03987092" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"0d13f65f218a">V=C3=A9rifie la protection contre les acc=C3=
+=A8s non autoris=C3=A9s, les vuln=C3=A9rabilit=C3=A9s, les fuites, les =C3=
+=A9l=C3=A9vations de privil=C3=A8ges et usages malveillants.</p></td>
+<td data-local-id=3D"e327559f-542e-4be7-8b6c-d0254721f1c3" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"ac944b7a991a">Le syst=C3=A8me prot=C3=A8ge-t-il correctement=
+ ses actifs et ses utilisateurs ?</p></td>
+</tr>
+<tr data-local-id=3D"8b664aad-49f4-4983-9810-d160ec2fd3cb">
+<td data-local-id=3D"a89d4d74-5a43-4e55-8f56-4c89aba960e6" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"f5f3ba86bdd9"><strong>Compatibilit=C3=A9</strong></p></td>
+<td data-local-id=3D"ff003859-5bf6-41ab-983a-cf6fe1a78cbb" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"0d6d160e61b0">V=C3=A9rifie le comportement sur diff=C3=A9ren=
+ts environnements, syst=C3=A8mes, navigateurs, versions, mat=C3=A9riels ou =
+d=C3=A9pendances.</p></td>
+<td data-local-id=3D"f77af568-c3c8-474b-bb4b-1dbbf1d6608f" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"07e0f149dbda">Le comportement reste-t-il correct dans les co=
+ntextes support=C3=A9s ?</p></td>
+</tr>
+<tr data-local-id=3D"12839784-570d-46df-8e01-3ad736f7c061">
+<td data-local-id=3D"156cb644-e377-432f-b3a3-f9f5bbe252e7" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"12a86ef4bde6"><strong>Installation / d=C3=A9ploiement</stron=
+g></p></td>
+<td data-local-id=3D"8ff62108-ceea-4223-9516-04cc5fb1343d" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"91e272862101">V=C3=A9rifie l=E2=80=99installation, la mise =
+=C3=A0 jour, la configuration, le rollback et le d=C3=A9marrage op=C3=A9rat=
+ionnel.</p></td>
+<td data-local-id=3D"52543db4-c782-43ab-a853-00e5e0aef81d" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"05aec1b009c5">Peut-on livrer, installer et remettre en =C3=
+=A9tat correctement ?</p></td>
+</tr>
+<tr data-local-id=3D"faebb394-0b3b-4205-9660-e147a572e6e0">
+<td data-local-id=3D"c080a20a-7c08-4d2d-aaeb-8b9f5a9bd342" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"040d9d94d601"><strong>UI</strong></p></td>
+<td data-local-id=3D"06dfbd02-0b26-4119-96c9-1fb46c99c403" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"babdef964ab7">V=C3=A9rifie l=E2=80=99interface utilisateur :=
+ rendu, interactions, =C3=A9tats visuels, composants, navigation visible.</=
+p></td>
+<td data-local-id=3D"a18fa8d5-6064-43a2-a4c1-108ef0692b87" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"c2d0640187d4">L=E2=80=99interface se comporte-t-elle comme a=
+ttendu ?</p></td>
+</tr>
+<tr data-local-id=3D"bd057c3d-e8a3-43f4-a2b9-4ed2240acb86">
+<td data-local-id=3D"f3a8de56-9cb3-4fc0-8012-7356fe4e4ab6" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"32ccda1404cb"><strong>UX</strong></p></td>
+<td data-local-id=3D"279800fa-a6a5-48a0-96ec-fc8dcccf4506" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"8b0167a22947">V=C3=A9rifie l=E2=80=99exp=C3=A9rience d=E2=80=
+=99usage : compr=C3=A9hension, fluidit=C3=A9, friction, encha=C3=AEnement, =
+clart=C3=A9, efficacit=C3=A9 per=C3=A7ue.</p></td>
+<td data-local-id=3D"972d1523-9ed7-4918-be44-4df7a3f3ae5d" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"763453fa3802">L=E2=80=99exp=C3=A9rience utilisateur fait-ell=
+e du sens et soutient-elle l=E2=80=99objectif ?</p></td>
+</tr>
+<tr data-local-id=3D"c7e37bd6-6b33-45af-9188-9238d5c8dbae">
+<td data-local-id=3D"530c8f0b-28e7-49b4-9569-d4adfcc54215" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"440ee20641e9"><strong>Utilisabilit=C3=A9</strong></p></td>
+<td data-local-id=3D"8a730158-94bc-4bb2-88d0-b3860e608d44" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"affa4485639a">=C3=89value la facilit=C3=A9 d=E2=80=99apprent=
+issage, d=E2=80=99ex=C3=A9cution, de compr=C3=A9hension et de pr=C3=A9venti=
+on des erreurs pour le profil vis=C3=A9.</p></td>
+<td data-local-id=3D"6bf4d375-742a-4fa0-8c95-42779345e73a" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"1b55a7be1eca">Un utilisateur cible peut-il utiliser le produ=
+it correctement et sans effort excessif ?</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 local-id=3D"7f71eaf1926e" id=3D"Lestests(niveau*interface*angle*type)-P=
+r=C3=A9cisionsutilessurcertainstypes">Pr=C3=A9cisions utiles sur certains t=
+ypes</h2>
+<h3 local-id=3D"bfc8037e3a22" id=3D"Lestests(niveau*interface*angle*type)-T=
+estsdesant=C3=A9">Tests de sant=C3=A9</h3>
+<p local-id=3D"406afbf0c97f">Les tests de sant=C3=A9 servent =C3=A0 confirm=
+er rapidement qu=E2=80=99une capacit=C3=A9 essentielle r=C3=A9pond encore. =
+Ils sont utiles apr=C3=A8s un d=C3=A9ploiement, une int=C3=A9gration import=
+ante ou une correction urgente. Ils ne remplacent pas une validation compl=
+=C3=A8te.</p>
+<h3 local-id=3D"6081baf0e8a2" id=3D"Lestests(niveau*interface*angle*type)-T=
+estsd=E2=80=99int=C3=A9grit=C3=A9">Tests d=E2=80=99int=C3=A9grit=C3=A9</h3>
+<p local-id=3D"a0250b6077cd">Les tests d=E2=80=99int=C3=A9grit=C3=A9 visent=
+ la coh=C3=A9rence du syst=C3=A8me : donn=C3=A9es non corrompues, transitio=
+ns valides, r=C3=A9f=C3=A9rentiels align=C3=A9s, r=C3=A9sultats non contrad=
+ictoires, absence de perte silencieuse.</p>
+<h3 local-id=3D"0c90316ffeb1" id=3D"Lestests(niveau*interface*angle*type)-T=
+estsdelimite">Tests de limite</h3>
+<p local-id=3D"1d4e5267efc0">Les limites ne concernent pas seulement des ch=
+iffres extr=C3=AAmes. Elles incluent aussi les tailles de lots, les dur=C3=
+=A9es, les nombres d=E2=80=99utilisateurs, les capacit=C3=A9s m=C3=A9moire,=
+ les fronti=C3=A8res de formats, les transitions d=E2=80=99=C3=A9tat inhabi=
+tuelles et les seuils m=C3=A9tier.</p>
+<h3 local-id=3D"499d5dda77a3" id=3D"Lestests(niveau*interface*angle*type)-T=
+estsder=C3=A9silience">Tests de r=C3=A9silience</h3>
+<p local-id=3D"9f734e2c4201">La r=C3=A9silience v=C3=A9rifie le comportemen=
+t en pr=C3=A9sence d=E2=80=99=C3=A9checs : r=C3=A9seau indisponible, d=C3=
+=A9pendance lente, service absent, red=C3=A9marrage, donn=C3=A9es partielle=
+s, comp=C3=A9tition d=E2=80=99=C3=A9v=C3=A9nements, reprise apr=C3=A8s inci=
+dent.</p>
+<h3 local-id=3D"be484a805a6c" id=3D"Lestests(niveau*interface*angle*type)-T=
+estsUI,UXetutilisabilit=C3=A9">Tests UI, UX et utilisabilit=C3=A9</h3>
+<p local-id=3D"7580e589686c">Ces trois dimensions sont li=C3=A9es mais diff=
+=C3=A9rentes :</p>
+<ul local-id=3D"0bae0f29-483a-433a-afea-a9413d592e31">
+<li local-id=3D"55eccae9-6563-45df-b3b4-e3586bc8704c">
+<p local-id=3D"3427b5658ddd"><strong>UI</strong> : l=E2=80=99interface se r=
+end-elle et r=C3=A9agit-elle correctement ?</p></li>
+<li local-id=3D"154ca61c-9a4d-4ed1-865e-717f02df5192">
+<p local-id=3D"b731a694277a"><strong>UX</strong> : l=E2=80=99encha=C3=AEnem=
+ent global est-il logique, fluide et pertinent ?</p></li>
+<li local-id=3D"c92050fe-422b-4199-92d1-4ec922d2d4ef">
+<p local-id=3D"52517e5ae46d"><strong>Utilisabilit=C3=A9</strong> : un utili=
+sateur cible peut-il accomplir sa t=C3=A2che avec clart=C3=A9 et efficacit=
+=C3=A9 ?</p></li>
+</ul>
+<h1 local-id=3D"756adcd10e67" id=3D"Lestests(niveau*interface*angle*type)-M=
+atricedecombinaison:niveau=C3=97type">Matrice de combinaison : niveau =C3=
+=97 type</h1>
+<p local-id=3D"95506c3ed418">Les types de test peuvent =C3=AAtre appliqu=C3=
+=A9s =C3=A0 tous les niveaux. La bonne question n=E2=80=99est donc pas <em>=
+=C2=AB ce type appartient-il =C3=A0 ce niveau ? =C2=BB</em>, mais plut=C3=
+=B4t <em>=C2=AB =C3=A0 quel niveau ce type apporte-t-il la preuve la plus u=
+tile ? =C2=BB</em>.</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"960" data-layout=3D"wide" data-local-id=3D"fa699=
+4d90a2d" data-table-display-mode=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 180.0px;">
+<col style=3D"width: 180.0px;">
+<col style=3D"width: 220.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"6a206e03-9d33-4c7e-aa5f-e1b2757b5985">
+<th data-local-id=3D"6659a0dc-d5be-4209-bc04-563927195e51" valign=3D"top" c=
+lass=3D"confluenceTh">
+<p local-id=3D"e1ac75fdd2e4">Type de validation</p></th>
+<th data-local-id=3D"7198f13c-bfa7-4b6e-960a-9a2a4ccdb9f0" valign=3D"top" c=
+lass=3D"confluenceTh">
+<p local-id=3D"5e115d92a545">En small</p></th>
+<th data-local-id=3D"2715fa7b-496b-4e1d-a255-6c243af152de" valign=3D"top" c=
+lass=3D"confluenceTh">
+<p local-id=3D"137ba0c29bc6">En medium</p></th>
+<th data-local-id=3D"32b5ab22-a9d1-44ce-b9b9-ccf1797063c4" valign=3D"top" c=
+lass=3D"confluenceTh">
+<p local-id=3D"217ee55f84e5">En large</p></th>
+</tr>
+<tr data-local-id=3D"a822912e-dd1f-4843-900d-7479e1b0a7e1">
+<td data-local-id=3D"bd7d49a0-b3dd-4251-9e91-e41c37c51f9d" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"4b2582ad44f1"><strong>Fonctionnel</strong></p></td>
+<td data-local-id=3D"e6256d56-0bed-410d-bae1-8e20952a9d76" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"5e82d497439a">R=C3=A8gle isol=C3=A9e correcte.</p></td>
+<td data-local-id=3D"9c5de947-8096-4e63-bac5-04c69f9caa1f" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"b7115aa2aa20">Contrat entre composants correct.</p></td>
+<td data-local-id=3D"b6679e8f-41d1-4e8d-9290-c49cf6b19563" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"001d010c80b2">Flux complet conforme aux attentes.</p></td>
+</tr>
+<tr data-local-id=3D"9e1d700a-8a7a-414c-9244-40f4376eaf7f">
+<td data-local-id=3D"fadf573f-0d28-4c4f-b886-8cf2a59bd952" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"84b0baf09a33"><strong>Performance</strong></p></td>
+<td data-local-id=3D"b4128d59-1ec9-49e8-ae98-821e1ca9d688" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"9c153e071937">Co=C3=BBt d=E2=80=99un algorithme ou d=E2=80=
+=99une fonction.</p></td>
+<td data-local-id=3D"79969d47-467d-4dfd-b4ee-d42996621bf7" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"1c15cff99ec8">Temps d=E2=80=99=C3=A9change entre modules ou =
+services.</p></td>
+<td data-local-id=3D"35f0be82-e518-4cef-ba7c-3f6b6692b0e3" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"b3f804692051">Temps de r=C3=A9ponse global et tenue sous cha=
+rge.</p></td>
+</tr>
+<tr data-local-id=3D"0eedb11a-de44-4b7d-98f4-7c3bd53956a9">
+<td data-local-id=3D"25c2c75e-3a4d-4689-8317-965011561d16" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"38d17f397abe"><strong>S=C3=A9curit=C3=A9</strong></p></td>
+<td data-local-id=3D"89ffd620-2a86-47b9-916f-c475ece299a2" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"2a3c52ff667f">Validation locale d=E2=80=99autorisations ou c=
+ontr=C3=B4les.</p></td>
+<td data-local-id=3D"1b89da0c-83e7-4bdb-b893-dd343578c072" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"2b5a1bab24ac">Contrats s=C3=A9curis=C3=A9s entre couches ou =
+services.</p></td>
+<td data-local-id=3D"117bebf3-9203-4692-ae52-fc0e1bf6298f" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"b92395871ab9">Sc=C3=A9nario complet d=E2=80=99acc=C3=A8s, se=
+ssion, permissions et exposition.</p></td>
+</tr>
+<tr data-local-id=3D"21683e2a-1e3e-4477-84d0-069b9c764039">
+<td data-local-id=3D"ad4d7d22-8986-4010-aff2-5251023bfd35" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"ab47e0f5d377"><strong>R=C3=A9silience</strong></p></td>
+<td data-local-id=3D"858501be-4118-4082-8ba9-4f5bac2a0112" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"3029cdace337">Gestion locale d=E2=80=99erreur ou de repli.</=
+p></td>
+<td data-local-id=3D"46df7b4d-f0cf-496d-84bb-f5bd28ad3957" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"01bc9aba98ee">Comportement entre d=C3=A9pendances en cas de =
+panne.</p></td>
+<td data-local-id=3D"544b8731-b96b-4d01-96a3-b433152f2074" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"322f098f964a">Comportement global du syst=C3=A8me en situati=
+on d=C3=A9grad=C3=A9e.</p></td>
+</tr>
+<tr data-local-id=3D"9f15f583-ffcf-4037-90bd-b9c94b1ce4a7">
+<td data-local-id=3D"d70a7f7f-dbbd-4888-ba71-82fdd9211849" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"338f7f8c83a2"><strong>Compatibilit=C3=A9</strong></p></td>
+<td data-local-id=3D"a87ef411-8339-471e-943e-3832b84fe311" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"8472d682e705">Composant compatible avec un runtime ou format=
+ pr=C3=A9cis.</p></td>
+<td data-local-id=3D"c0c7cc45-a1e1-4de4-b8d5-c9990a750868" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"62323e4c025e">Interaction compatible entre versions ou inter=
+faces.</p></td>
+<td data-local-id=3D"b7eadb62-32d1-4c18-97ed-76a3c78640ea" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"f3c6e0b9de87">Parcours complet compatible avec l=E2=80=99env=
+ironnement cible.</p></td>
+</tr>
+<tr data-local-id=3D"ab4ff467-5b06-4730-b607-42ea088c9206">
+<td data-local-id=3D"6dbe7a60-3e46-4e0e-bf84-8c374deb0889" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"ce86b503b0b6"><strong>UI / UX / utilisabilit=C3=A9</strong><=
+/p></td>
+<td data-local-id=3D"15d2275c-2f53-4e36-b9ac-56288726f0ab" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"e3bbedd57b6b">Composant ou comportement visuel local.</p></t=
+d>
+<td data-local-id=3D"adfc30da-afe4-451b-982c-d16bf9f5b240" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"edb787b07c23">Interaction entre vues, =C3=A9tats et navigati=
+on partielle.</p></td>
+<td data-local-id=3D"6d5bd7bb-b583-47e5-805e-ea92f173f753" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"e9e27a25f18d">Exp=C3=A9rience compl=C3=A8te utilisateur du d=
+=C3=A9but =C3=A0 la fin.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 local-id=3D"0e086a99" id=3D"Lestests(niveau*interface*angle*type)-Exemp=
+lesappliqu=C3=A9s">Exemples appliqu=C3=A9s</h1>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"1bb7d304">Les exemples appliqu=C3=A9s, dont l=E2=80=99exempl=
+e d=E2=80=99application web, sont maintenus dans la page d=C3=A9di=C3=A9e <=
+a href=3D"https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3259990023/E=
+xemples+concrets+de+combinaisons+niveau+interface+angle+type" data-linked-r=
+esource-id=3D"3259990023" data-linked-resource-version=3D"4" data-linked-re=
+source-type=3D"page">Exemples concrets de combinaisons</a>. Cette page-ci c=
+onserve le cadre conceptuel afin d=E2=80=99=C3=A9viter de dupliquer les exe=
+mples et de maintenir une seule source pratique =C3=A0 jour.</p>
+</div>
+</div>
+<h1 local-id=3D"a440c89c5f37" id=3D"Lestests(niveau*interface*angle*type)-L=
+ienaveclessp=C3=A9cificationsatomiques">Lien avec les sp=C3=A9cifications a=
+tomiques</h1>
+<p local-id=3D"8a31b0000e87">Dans l=E2=80=99approche D=C3=89FINIR, chaque s=
+p=C3=A9cification atomique doit permettre de d=C3=A9river clairement :</p>
+<ul local-id=3D"cc8af603-b9a7-46f6-8457-0423533fdd2f">
+<li local-id=3D"bb4cb052-4985-4567-ac36-089d5e8f4fb9">
+<p local-id=3D"dbd495eb37cd">le <strong>small</strong> minimal =C3=A0 valid=
+er ;</p></li>
+<li local-id=3D"f5dcfdc3-4244-404d-8080-679813bdde3c">
+<p local-id=3D"04e45fafcc14">les <strong>int=C3=A9grations medium</strong> =
+=C3=A0 s=C3=A9curiser ;</p></li>
+<li local-id=3D"80374e5a-54d5-46e0-b1aa-01bf0a9d5fcd">
+<p local-id=3D"2086b072e668">les <strong>sc=C3=A9narios large</strong> qui =
+prouvent la valeur compl=C3=A8te ;</p></li>
+<li local-id=3D"ea517e94-aa61-435e-8b3c-15bc7aac74bb">
+<p local-id=3D"f581bb9c4c35">les <strong>types de validation</strong> perti=
+nents selon les risques fonctionnels et non fonctionnels.</p></li>
+</ul>
+<p local-id=3D"ab6a5d1ee95f">Une bonne sp=C3=A9cification ne dit pas seulem=
+ent <em>quoi construire</em> ; elle rend visible <em>comment prouver que c=
+=E2=80=99est correct</em>.</p>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"07a86791031b">Une sp=C3=A9cification de qualit=C3=A9 permet =
+de relier explicitement <strong>besoin =E2=86=92 sp=C3=A9cification =E2=86=
+=92 niveaux de validation =E2=86=92 types de test =E2=86=92 r=C3=A9sultats<=
+/strong>.</p>
+</div>
+</div>
+<h1 local-id=3D"21cfde68d797" id=3D"Lestests(niveau*interface*angle*type)-R=
+ep=C3=A8respratiquesd=E2=80=99utilisation">Rep=C3=A8res pratiques d=E2=80=
+=99utilisation</h1>
+<h2 local-id=3D"e0ef81ed5159" id=3D"Lestests(niveau*interface*angle*type)-Q=
+uandchoisirsmall">Quand choisir small</h2>
+<ul local-id=3D"dd51c183-f7a8-4be1-b021-f3c05600b5cf">
+<li local-id=3D"c6cda7fb-f040-4a76-970f-3941d6a725dc">
+<p local-id=3D"7123f5f0b8db">quand le comportement est atomique et isolable=
+ ;</p></li>
+<li local-id=3D"41e298a3-fb89-4376-8c52-01d1a829d1c0">
+<p local-id=3D"7bc26ebb2115">quand on veut un diagnostic rapide et pr=C3=A9=
+cis ;</p></li>
+<li local-id=3D"222e919c-4642-4e36-902b-272394db141f">
+<p local-id=3D"441b257f6ff7">quand on veut s=C3=A9curiser une r=C3=A8gle cr=
+itique au plus pr=C3=A8s ;</p></li>
+<li local-id=3D"f0993724-a392-4e9d-910b-6f3a85ef6590">
+<p local-id=3D"7b1daa90745b">quand on veut r=C3=A9duire le bruit caus=C3=A9=
+ par des d=C3=A9pendances externes.</p></li>
+</ul>
+<h2 local-id=3D"2f4c71bb1181" id=3D"Lestests(niveau*interface*angle*type)-Q=
+uandchoisirmedium">Quand choisir medium</h2>
+<ul local-id=3D"64ac1e3f-fcd9-47fb-9efd-369d3075d160">
+<li local-id=3D"d6b2c0e4-a464-49b7-bdc6-7f2e631ee7a5">
+<p local-id=3D"d8cb07c040c2">quand le risque principal est dans l=E2=80=99i=
+nt=C3=A9gration ;</p></li>
+<li local-id=3D"d4768273-03a5-489a-b18d-d69f36fc7b01">
+<p local-id=3D"7b4f967ab823">quand plusieurs composants doivent coop=C3=A9r=
+er ;</p></li>
+<li local-id=3D"65828627-caad-44e5-9f05-89103279aade">
+<p local-id=3D"c4c1e55ba1ea">quand le contrat entre modules, services ou co=
+uches est critique ;</p></li>
+<li local-id=3D"d745c746-9b91-4ce0-a66b-a5846019293d">
+<p local-id=3D"745e486113b7">quand un d=C3=A9faut n=E2=80=99appara=C3=AEt q=
+u=E2=80=99au contact de d=C3=A9pendances r=C3=A9elles ou simul=C3=A9es.</p>=
+</li>
+</ul>
+<h2 local-id=3D"f9cb0e7b2cae" id=3D"Lestests(niveau*interface*angle*type)-Q=
+uandchoisirlarge">Quand choisir large</h2>
+<ul local-id=3D"24677198-a38c-4a31-8bb2-392a63c65270">
+<li local-id=3D"7aa2eeec-4084-466d-97fd-0ee3a82f7e1a">
+<p local-id=3D"5ce8e89ce818">quand il faut prouver la valeur compl=C3=A8te =
+;</p></li>
+<li local-id=3D"a6e245d6-3355-49f5-8b92-afac7cef917e">
+<p local-id=3D"c7e9ada55c48">quand l=E2=80=99observable important est c=C3=
+=B4t=C3=A9 utilisateur ou syst=C3=A8me global ;</p></li>
+<li local-id=3D"f2690d14-544c-4c4b-b7c5-084d71f0a32a">
+<p local-id=3D"15ed060cf300">quand la d=C3=A9cision de livraison exige une =
+preuve bout en bout ;</p></li>
+<li local-id=3D"5b40fdf7-c0f2-41f9-9414-c262e8824a0c">
+<p local-id=3D"dbf460565b18">quand les risques majeurs =C3=A9mergent seulem=
+ent dans le flux complet.</p></li>
+</ul>
+<h1 local-id=3D"1c0a5dba326b" id=3D"Lestests(niveau*interface*angle*type)-E=
+rreursfr=C3=A9quentes=C3=A0=C3=A9viter">Erreurs fr=C3=A9quentes =C3=A0 =C3=
+=A9viter</h1>
+<ul local-id=3D"32acd11f-1b43-44f3-a8dc-919f6e3d64c5">
+<li local-id=3D"e8ae2b23-a937-4803-80e5-35333fb9e7ad">
+<p local-id=3D"0686fec2">Utiliser le mot <strong>unitaire</strong> sans pr=
+=C3=A9ciser le p=C3=A9rim=C3=A8tre r=C3=A9el : small UI, small applicatif, =
+small machine, ou au contraire validation d=C3=A9j=C3=A0 medium ou large.</=
+p></li>
+<li local-id=3D"68fc2ba7-5f27-4520-93ef-88c0a54d895d">
+<p local-id=3D"dc10a8e7280d">Supposer que <strong>large</strong> signifie t=
+oujours interface graphique seulement.</p></li>
+<li local-id=3D"6bfd5047-2964-4f24-883a-e7688b0eef53">
+<p local-id=3D"c3c3292c6e38">Croire qu=E2=80=99un test <strong>black-box</s=
+trong> est forc=C3=A9ment <strong>large</strong>.</p></li>
+<li local-id=3D"357035a1-d3d9-4a91-8981-6e83d5c07517">
+<p local-id=3D"d9cc7cc3b80c">Confondre <strong>type de test</strong> et <st=
+rong>niveau d=E2=80=99int=C3=A9gration</strong>.</p></li>
+<li local-id=3D"b3597721-b774-4eae-b566-3fabb80f237c">
+<p local-id=3D"0b63b1e0cb9b">R=C3=A9duire la discussion =C3=A0 l=E2=80=99au=
+tomatisation au lieu de parler d=E2=80=99abord du besoin de preuve.</p></li=
+>
+<li local-id=3D"49f9007d-b9a1-4f54-b7d1-69d36f543f01">
+<p local-id=3D"dbc5f3e611b4">Oublier que les aspects non fonctionnels doive=
+nt aussi =C3=AAtre d=C3=A9riv=C3=A9s des sp=C3=A9cifications.</p></li>
+</ul>
+<h1 local-id=3D"63004eb2b07b" id=3D"Lestests(niveau*interface*angle*type)-R=
+=C3=A9sum=C3=A9op=C3=A9rationnel">R=C3=A9sum=C3=A9 op=C3=A9rationnel</h1>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"08=
+cc9bfdf9da" data-table-display-mode=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 220.0px;">
+<col style=3D"width: 420.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"4cf96309-c02b-4f19-b6fc-d699aed6ac59">
+<th data-local-id=3D"e8d5ff61-899b-42ee-9d6a-4ee077773dee" valign=3D"top" c=
+lass=3D"confluenceTh">
+<p local-id=3D"302d0862d1b9">Question</p></th>
+<th data-local-id=3D"8be41932-110d-40da-9b6a-add3f7e40384" valign=3D"top" c=
+lass=3D"confluenceTh">
+<p local-id=3D"24d491dc2730">R=C3=A9ponse courte</p></th>
+</tr>
+<tr data-local-id=3D"01fdca00-fd34-402c-a781-1e63460e4e6d">
+<td data-local-id=3D"93979323-0cf7-4287-bb9d-7a8b6ec1e10e" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"3297e24fead4"><strong>Que sont les niveaux d=E2=80=99int=C3=
+=A9gration ?</strong></p></td>
+<td data-local-id=3D"b538a9a7-ca48-47de-884a-d1745f837bfe" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"63c27ec5952b">Le p=C3=A9rim=C3=A8tre assembl=C3=A9 du syst=
+=C3=A8me qu=E2=80=99on valide : small, medium, large.</p></td>
+</tr>
+<tr data-local-id=3D"779e9e19-7ef0-4aaa-a904-aa32b53a73f3">
+<td data-local-id=3D"1d4d1997-ed2d-4a80-8bc6-a49a8919d580" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"7ee1ac4ad16b"><strong>Que sont les types de test ?</strong><=
+/p></td>
+<td data-local-id=3D"a2bf310a-194f-407f-8aeb-332db48bb57d" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"8218784d6d5b">L=E2=80=99angle de qualit=C3=A9 ou de risque q=
+u=E2=80=99on cherche =C3=A0 valider : fonctionnel, s=C3=A9curit=C3=A9, perf=
+ormance, r=C3=A9silience, etc.</p></td>
+</tr>
+<tr data-local-id=3D"936a07d4-b83f-43a0-b287-5265028f3c3a">
+<td data-local-id=3D"b19552ad-506b-4311-89d2-64d2edb3bd45" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"da184cda68f8"><strong>Que sont white-box, gray-box, black-bo=
+x ?</strong></p></td>
+<td data-local-id=3D"dce5b3c4-bd26-43ed-97ad-91f1df7b49ae" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"ced269110193">Des approches d=E2=80=99observation applicable=
+s =C3=A0 n=E2=80=99importe quel niveau.</p></td>
+</tr>
+<tr data-local-id=3D"7a791c2a-c169-4256-91ee-e33340aaeb83">
+<td data-local-id=3D"19dafb8a-6ffa-4444-9395-a839fab2e7e5" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"4939c717ae17"><strong>Peut-on faire de la performance ou de =
+la s=C3=A9curit=C3=A9 en small ?</strong></p></td>
+<td data-local-id=3D"bae26848-a515-411d-889f-7ae0c1b21e8d" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"a171be9d2576">Oui. Ces types de validation peuvent exister =
+=C3=A0 tous les niveaux.</p></td>
+</tr>
+<tr data-local-id=3D"3d31bade-fd0b-4368-a259-e0417f0dbf56">
+<td data-local-id=3D"eb95ef72-5246-4053-ac72-3692f5df5923" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"42e303112004"><strong>La pyramide de tests d=C3=A9finit-elle=
+ ces niveaux ?</strong></p></td>
+<td data-local-id=3D"c9494cff-1788-4184-827c-bacdabfd78b6" valign=3D"top" c=
+lass=3D"confluenceTd">
+<p local-id=3D"5ae40e8b1fc8">Non. Elle peut aider =C3=A0 parler d=E2=80=99a=
+utomatisation, mais elle ne d=C3=A9finit pas les niveaux d=E2=80=99int=C3=
+=A9gration.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 local-id=3D"4eb29350" id=3D"Lestests(niveau*interface*angle*type)-=F0=
+=9F=93=9AR=C3=A9f=C3=A9rences">=F0=9F=93=9A R=C3=A9f=C3=A9rences</h2>
+<ul local-id=3D"09f556e3">
+<li local-id=3D"489a9267">
+<p local-id=3D"3f52f7bb"><a href=3D"https://opal-rt.atlassian.net/wiki/spac=
+es/ACAQ/pages/3258843163/Lexique+officiel+OPAL-RT+terminologies+de+r+f+renc=
+e" data-linked-resource-id=3D"3258843163" data-linked-resource-version=3D"1=
+3" data-linked-resource-type=3D"page">Lexique / Terminologies</a> =E2=80=94=
+ d=C3=A9finitions de r=C3=A9f=C3=A9rence des termes utilis=C3=A9s dans ce c=
+adre.</p></li>
+<li local-id=3D"4081400d">
+<p local-id=3D"114e3cf1"><a href=3D"https://opal-rt.atlassian.net/wiki/spac=
+es/ACAQ/pages/3259990023/Exemples+concrets+de+combinaisons+niveau+interface=
++angle+type" data-linked-resource-id=3D"3259990023" data-linked-resource-ve=
+rsion=3D"4" data-linked-resource-type=3D"page">Exemples concrets de combina=
+isons (niveau =C3=97 interface =C3=97 angle =C3=97 type)</a> =E2=80=94 exem=
+ples pratiques appliquant le cadre de cette page.</p></li>
+<li local-id=3D"435e4f2e">
+<p local-id=3D"7ba90820"><a href=3D"https://opal-rt.atlassian.net/wiki/spac=
+es/ACAQ/pages/3229089932/SDLC+officiel+OPAL-RT+cycle+de+vie+de+la+r+alisati=
+on+du+produit+logiciel" data-linked-resource-id=3D"3229089932" data-linked-=
+resource-version=3D"18" data-linked-resource-type=3D"page">SDLC officiel OP=
+AL-RT</a> =E2=80=94 cadre global dans lequel les validations s=E2=80=99insc=
+rivent, de D=C3=89FINIR =C3=A0 CONFIRMER.</p></li>
+<li local-id=3D"147f44ec">
+<p local-id=3D"19eee671"><a href=3D"https://opal-rt.atlassian.net/wiki/spac=
+es/ACAQ/pages/3212017712/Contrat+qualit+officiel+OPAL-RT+standards+conformi=
+t+l+gal" data-linked-resource-id=3D"3212017712" data-linked-resource-versio=
+n=3D"16" data-linked-resource-type=3D"page">Contrat qualit=C3=A9 officiel O=
+PAL-RT</a> =E2=80=94 exigences et r=C3=A8gles qualit=C3=A9 auxquelles les v=
+alidations doivent contribuer.</p></li>
+<li local-id=3D"0b74b077">
+<p local-id=3D"3554092b"><a href=3D"https://opal-rt.atlassian.net/wiki/spac=
+es/ACAQ/pages/3210903592/RACI+officiel+OPAL-RT+r+les+et+responsabilit+s+pos=
+ture+qualit" data-linked-resource-id=3D"3210903592" data-linked-resource-ve=
+rsion=3D"12" data-linked-resource-type=3D"page">RACI officiel OPAL-RT</a> =
+=E2=80=94 r=C3=B4les et responsabilit=C3=A9s associ=C3=A9s =C3=A0 la d=C3=
+=A9finition, l=E2=80=99ex=C3=A9cution, la revue et l=E2=80=99approbation de=
+s validations.</p></li>
+<li local-id=3D"1d8b22b5">
+<p local-id=3D"2ab28d97"><a href=3D"https://opal-rt.atlassian.net/wiki/spac=
+es/ACAQ/pages/3212509258/Qualim+trie+officielle+OPAL-RT" data-linked-resour=
+ce-id=3D"3212509258" data-linked-resource-version=3D"19" data-linked-resour=
+ce-type=3D"page">Qualim=C3=A9trie officielle OPAL-RT</a> =E2=80=94 vision o=
+fficielle de la mesure de la qualit=C3=A9 et de l=E2=80=99am=C3=A9lioration=
+ continue.</p></li>
+<li local-id=3D"3c7213f5">
+<p local-id=3D"2fc9d198"><a href=3D"https://opal-rt.atlassian.net/wiki/spac=
+es/ACAQ/pages/3221061683/Les+m+triques+de+la+qualim+trie" data-linked-resou=
+rce-id=3D"3221061683" data-linked-resource-version=3D"8" data-linked-resour=
+ce-type=3D"page">Les m=C3=A9triques de la qualim=C3=A9trie</a> =E2=80=94 r=
+=C3=A9f=C3=A9rentiel op=C3=A9rationnel des KPI et signaux li=C3=A9s =C3=A0 =
+la qualit=C3=A9 des validations.</p></li>
+<li local-id=3D"1f629a11">
+<p local-id=3D"7f31b303"><a href=3D"https://opal-rt.atlassian.net/wiki/spac=
+es/ACAQ/pages/3259760668/SP+CIFICATION" data-linked-resource-id=3D"32597606=
+68" data-linked-resource-version=3D"5" data-linked-resource-type=3D"page">S=
+P=C3=89CIFICATION</a> =E2=80=94 cadre de r=C3=A9f=C3=A9rence pour formuler =
+des sp=C3=A9cifications IF=E2=80=A6 THEN=E2=80=A6 testables et tra=C3=A7abl=
+es.</p></li>
+<li local-id=3D"58489d40">
+<p local-id=3D"77326489"><a href=3D"https://opal-rt.atlassian.net/wiki/spac=
+es/ACAQ/pages/3219980322/Comment+d+finir" data-linked-resource-id=3D"321998=
+0322" data-linked-resource-version=3D"9" data-linked-resource-type=3D"page"=
+>Comment d=C3=A9finir</a> =E2=80=94 pratiques de d=C3=A9finition qui renden=
+t les validations d=C3=A9rivables des sp=C3=A9cifications.</p></li>
+<li local-id=3D"28139587">
+<p local-id=3D"7d0042b2"><a href=3D"https://opal-rt.atlassian.net/wiki/spac=
+es/ACAQ/pages/3259007069/Formation+continue" data-linked-resource-id=3D"325=
+9007069" data-linked-resource-version=3D"8" data-linked-resource-type=3D"pa=
+ge">Formation continue</a> =E2=80=94 parcours d=E2=80=99adoption des pratiq=
+ues SDLC, de sp=C3=A9cification, de validation et de qualim=C3=A9trie.</p><=
+/li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_10_1888382625.1783113339412--

@@ -1,0 +1,697 @@
+Date: Wed, 4 Dec 2024 14:15:41 +0000 (UTC)
+Message-ID: <1360145622.33.1733321741141@31d3d8c23d4d>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_32_1296485599.1733321741140"
+
+------=_Part_32_1296485599.1733321741140
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>La qu=C3=AAte qualit=C3=A9 des connaissances acquises (qualit=C3=
+=A9 101)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>La qu=C3=AAte qualit=C3=A9 des connaissances acquises (qualit=C3=A9=
+ 101)</h1>
+    <div class=3D"Section1">
+        <div class=3D"panel" style=3D"background-color: #EAE6FF;border-widt=
+h: 1px;">
+<style>[data-colorid=3Dqtt1zai0eo]{color:#403294} html[data-color-mode=3Dda=
+rk] [data-colorid=3Dqtt1zai0eo]{color:#796bcd}</style>
+<div class=3D"panelContent" style=3D"background-color: #EAE6FF;">
+<p><span data-colorid=3D"qtt1zai0eo">Cette section de la formation "Qualit=
+=C3=A9 101" est d=C3=A9di=C3=A9e =C3=A0 l'=C3=A9valuation pratique des conn=
+aissances acquises par les participants. L'objectif principal est de v=C3=
+=A9rifier si les concepts cl=C3=A9s de la qualit=C3=A9 ont =C3=A9t=C3=A9 bi=
+en assimil=C3=A9s et si les participants sont capables de les appliquer de =
+mani=C3=A8re pratique.</span></p>
+</div>
+</div>
+<ol start=3D"1">
+<li>
+<p><strong>Mise en situation :</strong> Vous travaillez sur une application=
+ critique pour l'entreprise et vous remarquez que les utilisateurs se plaig=
+nent de temps de r=C3=A9ponse plus longs que d'habitude. Cela pourrait affe=
+cter la satisfaction des clients et la productivit=C3=A9 de l'=C3=A9quipe.<=
+br><strong>Question :</strong> Quels outils et m=C3=A9thodes utiliseriez-vo=
+us pour identifier et r=C3=A9soudre ce probl=C3=A8me ?<br><strong>Quel endr=
+oit trouverez-vous la bonne information pour y r=C3=A9pondre :</strong></p>
+<ol start=3D"1">
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+</ol></li>
+<li>
+<p><strong>Mise en situation :</strong> Un utilisateur signale une potentie=
+lle faille de s=C3=A9curit=C3=A9 dans le syst=C3=A8me, ce qui pourrait expo=
+ser des donn=C3=A9es sensibles. Vous devez agir rapidement pour =C3=A9value=
+r la situation et prendre les mesures appropri=C3=A9es.<br><strong>Question=
+ :</strong> Quels sont les premiers pas =C3=A0 suivre pour =C3=A9valuer et =
+rem=C3=A9dier =C3=A0 cette situation ?<br><strong>Quel endroit trouverez-vo=
+us la bonne information pour y r=C3=A9pondre :</strong></p>
+<ol start=3D"1">
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+</ol></li>
+<li>
+<p><strong>Mise en situation :</strong> Vous =C3=AAtes en charge de la revu=
+e de code d'un coll=C3=A8gue pour une nouvelle fonctionnalit=C3=A9 importan=
+te. Une revue de code efficace peut pr=C3=A9venir des bugs et am=C3=A9liore=
+r la qualit=C3=A9 du code.<br><strong>Question :</strong> Quels aspects de =
+la qualit=C3=A9 devez-vous v=C3=A9rifier et comment documenteriez-vous vos =
+observations ?<br><strong>Quel endroit trouverez-vous la bonne information =
+pour y r=C3=A9pondre :</strong></p>
+<ol start=3D"1">
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+</ol></li>
+<li>
+<p><strong>Mise en situation :</strong> Une nouvelle fonctionnalit=C3=A9 a =
+=C3=A9t=C3=A9 ajout=C3=A9e au produit et vous =C3=AAtes responsable de mett=
+re =C3=A0 jour la documentation. Une documentation pr=C3=A9cise est essenti=
+elle pour que les utilisateurs comprennent et utilisent correctement la nou=
+velle fonctionnalit=C3=A9.<br><strong>Question :</strong> Comment mettriez-=
+vous =C3=A0 jour la documentation pour refl=C3=A9ter ce changement ?<br><st=
+rong>Quel endroit trouverez-vous la bonne information pour y r=C3=A9pondre =
+:</strong></p>
+<ol start=3D"1">
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+</ol></li>
+<li>
+<p><strong>Mise en situation :</strong> Avant de d=C3=A9ployer une nouvelle=
+ version de l'application, vous devez effectuer des tests de r=C3=A9gressio=
+n pour vous assurer que les nouvelles modifications n'ont pas introduit de =
+bugs dans les fonctionnalit=C3=A9s existantes.<br><strong>Question :</stron=
+g> Quels tests automatis=C3=A9s utiliseriez-vous et comment vous assureriez=
+-vous que tous les aspects critiques sont couverts ?<br><strong>Quel endroi=
+t trouverez-vous la bonne information pour y r=C3=A9pondre :</strong></p>
+<ol start=3D"1">
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+</ol></li>
+<li>
+<p><strong>Mise en situation :</strong> Vous devez pr=C3=A9parer un rapport=
+ sur les tests E2E (End-to-End) pour une pr=C3=A9sentation =C3=A0 l'=C3=A9q=
+uipe de direction. Vous avez besoin d'informations d=C3=A9taill=C3=A9es sur=
+ les tests verticaux et horizontaux pour compl=C3=A9ter votre rapport.<br><=
+strong>Question :</strong> O=C3=B9 pouvez-vous trouver ces informations ?<b=
+r><strong>Quel endroit trouverez-vous la bonne information pour y r=C3=A9po=
+ndre :</strong></p>
+<ol start=3D"1">
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+</ol></li>
+<li>
+<p><strong>Mise en situation :</strong> Vous travaillez sur un projet compl=
+exe qui n=C3=A9cessite une compr=C3=A9hension claire des diff=C3=A9rents ni=
+veaux applicatifs pour une meilleure architecture et conception du syst=C3=
+=A8me.<br><strong>Question :</strong> Quels sont ces niveaux ?<br><strong>Q=
+uel endroit trouverez-vous la bonne information pour y r=C3=A9pondre :</str=
+ong></p>
+<ol start=3D"1">
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+</ol></li>
+<li>
+<p><strong>Mise en situation :</strong> Lors d'une r=C3=A9union de planific=
+ation de tests, on vous demande d'expliquer les niveaux fonctionnels des te=
+sts pour s'assurer que toutes les couches du syst=C3=A8me sont correctement=
+ test=C3=A9es.<br><strong>Question :</strong> Quels sont ces niveaux ?<br><=
+strong>Quel endroit trouverez-vous la bonne information pour y r=C3=A9pondr=
+e :</strong></p>
+<ol start=3D"1">
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+</ol></li>
+<li>
+<p><strong>Mise en situation :</strong> Vous devez cr=C3=A9er une Definitio=
+n of Done (DoD) pour votre =C3=A9quipe afin de garantir que toutes les t=C3=
+=A2ches sont compl=C3=A8tes et de haute qualit=C3=A9 avant d'=C3=AAtre cons=
+id=C3=A9r=C3=A9es comme termin=C3=A9es.<br><strong>Question :</strong> Comm=
+ent proc=C3=A9dez-vous ?<br><strong>Quel endroit trouverez-vous la bonne in=
+formation pour y r=C3=A9pondre :</strong></p>
+<ol start=3D"1">
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+</ol></li>
+<li>
+<p><strong>Mise en situation :</strong> Vous entendez parler de QDD (Qualit=
+y Driven Development) lors d'une conf=C3=A9rence et souhaitez en savoir plu=
+s pour l'appliquer =C3=A0 vos projets.<br><strong>Question :</strong> O=C3=
+=B9 pouvez-vous trouver cette information ?<br><strong>Quel endroit trouver=
+ez-vous la bonne information pour y r=C3=A9pondre :</strong></p>
+<ol start=3D"1">
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+</ol></li>
+<li>
+<p><strong>Mise en situation :</strong> Vous devez expliquer les 6 phases d=
+u cycle de vie logiciel/produit en shift-left et shift-right =C3=A0 un nouv=
+eau membre de l'=C3=A9quipe pour qu'il comprenne mieux le processus de d=C3=
+=A9veloppement.<br><strong>Question :</strong> O=C3=B9 trouvez-vous ces inf=
+ormations ?<br><strong>Quel endroit trouverez-vous la bonne information pou=
+r y r=C3=A9pondre :</strong></p>
+<ol start=3D"1">
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+</ol></li>
+<li>
+<p><strong>Mise en situation :</strong> Vous souhaitez commencer =C3=A0 uti=
+liser Playwright pour les tests automatis=C3=A9s afin d'am=C3=A9liorer l'ef=
+ficacit=C3=A9 et la couverture des tests de votre projet.<br><strong>Questi=
+on :</strong> Par o=C3=B9 commencez-vous ?<br><strong>Quel endroit trouvere=
+z-vous la bonne information pour y r=C3=A9pondre :</strong></p>
+<ol start=3D"1">
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+</ol></li>
+<li>
+<p><strong>Mise en situation :</strong> Vous devez =C3=A9crire des sp=C3=A9=
+cifications en utilisant le format Gherkin pour un nouveau projet et souhai=
+tez vous assurer que les titres sont bien r=C3=A9dig=C3=A9s.<br><strong>Que=
+stion :</strong> O=C3=B9 pouvez-vous trouver des recommandations pour bien =
+=C3=A9crire les titres ?<br><strong>Quel endroit trouverez-vous la bonne in=
+formation pour y r=C3=A9pondre :</strong></p>
+<ol start=3D"1">
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+</ol></li>
+<li>
+<p><strong>Mise en situation :</strong> Vous avez une id=C3=A9e pour am=C3=
+=A9liorer la qualit=C3=A9 du produit et souhaitez la partager avec l'=C3=A9=
+quipe pour qu'elle soit prise en compte.<br><strong>Question :</strong> Que=
+ faites-vous ?<br><strong>Quel endroit trouverez-vous la bonne information =
+pour y r=C3=A9pondre :</strong></p>
+<ol start=3D"1">
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+</ol></li>
+<li>
+<p><strong>Mise en situation :</strong> Vous remarquez une erreur dans le s=
+yst=C3=A8me qui pourrait affecter les utilisateurs.<br><strong>Question :</=
+strong> Que faites-vous ?<br><strong>Quel endroit trouverez-vous la bonne i=
+nformation pour y r=C3=A9pondre :</strong></p>
+<ol start=3D"1">
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+</ol></li>
+<li>
+<p><strong>Mise en situation :</strong> Vous avez une id=C3=A9e de sujet po=
+ur la Communaut=C3=A9 de Pratique (CoP) qui pourrait b=C3=A9n=C3=A9ficier =
+=C3=A0 l'=C3=A9quipe.<br><strong>Question :</strong> Que faites-vous ?<br><=
+strong>Quel endroit trouverez-vous la bonne information pour y r=C3=A9pondr=
+e :</strong></p>
+<ol start=3D"1">
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+</ol></li>
+<li>
+<p><strong>Mise en situation :</strong> Vous avez besoin de savoir quels se=
+rvices le Staff QA peut offrir pour mieux planifier vos activit=C3=A9s de t=
+est.<br><strong>Question :</strong> O=C3=B9 trouvez-vous cette information =
+?<br><strong>Quel endroit trouverez-vous la bonne information pour y r=C3=
+=A9pondre :</strong></p>
+<ol start=3D"1">
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+</ol></li>
+<li>
+<p><strong>Mise en situation :</strong> Vous devez pr=C3=A9senter la vision=
+ qualit=C3=A9 de Petal =C3=A0 un nouveau membre de l'=C3=A9quipe pour qu'il=
+ comprenne les objectifs et les priorit=C3=A9s de l'entreprise en mati=C3=
+=A8re de qualit=C3=A9.<br><strong>Question :</strong> O=C3=B9 trouvez-vous =
+cette information ?<br><strong>Quel endroit trouverez-vous la bonne informa=
+tion pour y r=C3=A9pondre :</strong></p>
+<ol start=3D"1">
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+</ol></li>
+<li>
+<p><strong>Mise en situation :</strong> Vous devez aligner votre projet ave=
+c la politique/strat=C3=A9gie globale de l=E2=80=99entreprise pour garantir=
+ que vos objectifs sont en phase avec ceux de l'organisation.<br><strong>Qu=
+estion :</strong> O=C3=B9 trouvez-vous cette information ?<br><strong>Quel =
+endroit trouverez-vous la bonne information pour y r=C3=A9pondre :</strong>=
+</p>
+<ol start=3D"1">
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+</ol></li>
+<li>
+<p><strong>Mise en situation :</strong> Vous devez =C3=A9valuer le niveau d=
+e qualit=C3=A9 global de votre produit pour pr=C3=A9parer un rapport destin=
+=C3=A9 =C3=A0 la direction. Cette =C3=A9valuation est cruciale pour identif=
+ier les points forts et les domaines =C3=A0 am=C3=A9liorer.<br><strong>Ques=
+tion :</strong> O=C3=B9 trouvez-vous cette information ?<br><strong>Quel en=
+droit trouverez-vous la bonne information pour y r=C3=A9pondre :</strong></=
+p>
+<ol start=3D"1">
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+</ol></li>
+<li>
+<p><strong>Mise en situation :</strong> Vous devez fixer des objectifs qual=
+it=C3=A9 pour votre =C3=A9quipe afin de garantir que les efforts sont align=
+=C3=A9s avec les attentes de l'entreprise et d'am=C3=A9liorer continuelleme=
+nt les processus.<br><strong>Question :</strong> O=C3=B9 trouvez-vous ces i=
+nformations ?<br><strong>Quel endroit trouverez-vous la bonne information p=
+our y r=C3=A9pondre :</strong></p>
+<ol start=3D"1">
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/l/cp/RudDv1DW" class=3D"externa=
+l-link" rel=3D"nofollow">https://petalmd.atlassian.net/l/cp/RudDv1DW</a></p=
+></li>
+</ol></li>
+</ol>
+    </div>
+</body>
+</html>
+------=_Part_32_1296485599.1733321741140--

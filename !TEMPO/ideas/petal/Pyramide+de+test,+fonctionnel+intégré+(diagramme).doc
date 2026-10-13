@@ -1,0 +1,655 @@
+Date: Wed, 4 Dec 2024 14:13:42 +0000 (UTC)
+Message-ID: <1744595017.25.1733321622534@570a79382bb7>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_24_1942258341.1733321622534"
+
+------=_Part_24_1942258341.1733321622534
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Manifest (qualit=C3=A9)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Manifest (qualit=C3=A9)</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"Manifest(qualit=C3=A9)-Transformationqualit=C3=A9imminent=
+e">
+<style>[data-colorid=3Dvz4vab63fo]{color:#006644} html[data-color-mode=3Dda=
+rk] [data-colorid=3Dvz4vab63fo]{color:#99ffdd}</style><strong>Transformatio=
+n qualit=C3=A9 imminente</strong></h1>
+<h2 id=3D"Manifest(qualit=C3=A9)-Led=C3=A9clin">Le d=C3=A9clin</h2>
+<p>De nos jours, l'industrie du logiciel est confront=C3=A9e =C3=A0 un d=C3=
+=A9fi majeur : la qualit=C3=A9 logicielle est en d=C3=A9clin. Cette tendanc=
+e alarmante est particuli=C3=A8rement visible au Qu=C3=A9bec, o=C3=B9 l'on =
+observe une r=C3=A9partition des responsabilit=C3=A9s qualit=C3=A9 d=C3=A9s=
+=C3=A9quilibr=C3=A9e, avec une charge excessive pesant sur les =C3=A9quipes=
+ QA et un sentiment de d=C3=A9sengagement vis-=C3=A0-vis de la qualit=C3=A9=
+ de la part du reste des acteurs. Cette situation, unique dans son domaine,=
+ a pour cons=C3=A9quence directe une prolif=C3=A9ration de logiciels de qua=
+lit=C3=A9 m=C3=A9diocre, au point o=C3=B9 certains se demandent si cette m=
+=C3=A9diocrit=C3=A9 n'est pas en train de devenir la norme.</p>
+<p>Malgr=C3=A9 l'adoption de m=C3=A9thodologies comme Agile et Lean ou m=C3=
+=AAme les efforts de normalisation par ISTQB par exemple, ou tout autres ap=
+proches, la qualit=C3=A9 logicielle continue de se d=C3=A9grader. Dans cett=
+e situation, l'=C3=A9volution n'est clairement pas un signe d'am=C3=A9liora=
+tion, mais simplement de changement. Avons-nous manqu=C3=A9 une information=
+ cruciale ?</p>
+<h2 id=3D"Manifest(qualit=C3=A9)-Enqu=C3=AAted'excellence"><strong>En qu=C3=
+=AAte d'excellence</strong></h2>
+<h3 id=3D"Manifest(qualit=C3=A9)-C=E2=80=99estl=C3=A0qu=E2=80=99arriveleman=
+ifestequalit=C3=A9inspir=C3=A9dumanifesteAgile.">C=E2=80=99est l=C3=A0 qu=
+=E2=80=99arrive le manifeste qualit=C3=A9 inspir=C3=A9 du manifeste Agile.<=
+/h3>
+<ul>
+<li>
+<p>Ce n=E2=80=99est pas une gr=C3=A8ve, c=E2=80=99est plut=C3=B4t une manif=
+estation pour prendre conscience et nous rappeler que la qualit=C3=A9 est f=
+ondamental et aussi que c=E2=80=99est ensemble que cela fonctionnera.</p></=
+li>
+<li>
+<p>Nous sommes dans une p=C3=A9riode de transformation, o=C3=B9 le contr=C3=
+=B4le par une personne de qualit=C3=A9 devient assurance qualit=C3=A9 colle=
+ctive.</p></li>
+<li>
+<p>Le manifeste qualit=C3=A9 liste des principes qui aideront les =C3=A9qui=
+pes =C3=A0&nbsp;livrer rapidement&nbsp;des applications de&nbsp;haute quali=
+t=C3=A9.</p></li>
+<li>
+<p>Manifeste Qualit=C3=A9 est au c=C5=93ur de la confiance et de la satisfa=
+ction</p></li>
+<li>
+<p>La qualit=C3=A9 logicielle n'est pas une question de chance, un accident=
+ ou de la magie, c'est une question de culture.</p></li>
+<li>
+<p>En cr=C3=A9ant et en pr=C3=A9servant la confiance dans tous les aspects =
+du d=C3=A9veloppement logiciel, nous pouvons atteindre une satisfaction cli=
+ent durable et une r=C3=A9ussite globale.</p></li>
+<li>
+<p>Le Manifeste Qualit=C3=A9 repose sur une philosophie fondamentale : Comm=
+ent faire pour que la qualit=C3=A9 soit l'affaire de tous !</p></li>
+<li>
+<p>C'est une fa=C3=A7on d'=C3=AAtre, une culture partag=C3=A9e par tous les=
+ membres de l'=C3=A9quipe, de l'organisation et des clients, quelle que soi=
+t la m=C3=A9thodologie de d=C3=A9veloppement choisie.</p></li>
+<li>
+<p>Ce n=E2=80=99est pas de s'accuser, de crier, de chialer, de faire du gra=
+buge, mais bien de s=E2=80=99encourager <img class=3D"emoticon emoticon-win=
+k" data-emoji-id=3D"1f609" data-emoji-shortname=3D":wink:" data-emoji-fallb=
+ack=3D"=F0=9F=98=89" src=3D"4b607f4d35860b473ccca61e82d32380829e64a2b97f852=
+e60a3a4589a95096c" width=3D"16" height=3D"16" data-emoticon-name=3D"wink" a=
+lt=3D"(clin d'=C5=93il)"></p></li>
+</ul>
+<h3 id=3D"Manifest(qualit=C3=A9)-Pointd=E2=80=99entr=C3=A9everslesucc=C3=A8=
+s!">Point d=E2=80=99entr=C3=A9e vers le succ=C3=A8s !</h3>
+<p>Tout d=E2=80=99abord, commen=C3=A7ons et faisons en sorte qu=E2=80=99il =
+s=E2=80=99agisse d=E2=80=99une continuit=C3=A9 d=E2=80=99avoir un =C3=A9tat=
+ d=E2=80=99esprit, une mentalit=C3=A9 et/ou une culture de qualit=C3=A9. Le=
+ <a href=3D"/wiki/spaces/QA/pages/1939147360/QDD+D+veloppement+pilot+par+la=
++qualit+Quality-Driven+Development" data-linked-resource-id=3D"1939147360" =
+data-linked-resource-version=3D"4" data-linked-resource-type=3D"page">QDD, =
+D=C3=A9veloppement pilot=C3=A9 par la qualit=C3=A9, Quality-Driven Developm=
+ent</a> est <strong>la premi=C3=A8re d=C3=A9marche =C3=A0 mettre en =C5=93u=
+vre au sein d=E2=80=99une organisation</strong> pour mener au succ=C3=A8s l=
+a prise en main de l=E2=80=99assurance qualit=C3=A9.</p>
+<h2 id=3D"Manifest(qualit=C3=A9)-Lesprincipesdumanifestequalit=C3=A9">Les p=
+rincipes du manifeste qualit=C3=A9</h2>
+<ol start=3D"1">
+<li>
+<p>Prioriser la satisfaction du client : Comprendre et anticiper les besoin=
+s de tous les acteurs</p>
+<ul>
+<li>
+<p><strong>L'utilisateur au c=C5=93ur </strong>: Recueillir et analyser les=
+ retours d'information des utilisateurs finaux pour comprendre leurs besoin=
+s, leurs attentes et leurs points de frustration.</p></li>
+<li>
+<p><strong>Vision de l'organisation </strong>: Prendre en compte la vision =
+strat=C3=A9gique de l'organisation et les objectifs commerciaux pour aligne=
+r les efforts de d=C3=A9veloppement logiciel sur la mission globale.</p></l=
+i>
+<li>
+<p><strong>Le march=C3=A9 et les tendances </strong>: Rester inform=C3=A9 d=
+es tendances du march=C3=A9, des besoins des clients potentiels et des exig=
+ences concurrentielles pour assurer la pertinence et la durabilit=C3=A9 du =
+logiciel.</p></li>
+<li>
+<p><strong>Vendeurs et partenaires </strong>: Collaborer =C3=A9troitement a=
+vec les vendeurs et les partenaires pour garantir une int=C3=A9gration harm=
+onieuse des solutions logicielles et une exp=C3=A9rience utilisateur coh=C3=
+=A9rente.</p></li>
+<li>
+<p><strong>Responsabilit=C3=A9 partag=C3=A9e </strong>: Impliquer les d=C3=
+=A9veloppeurs, les testeurs et les autres membres de l'=C3=A9quipe dans la =
+compr=C3=A9hension des besoins des clients et la recherche de solutions inn=
+ovantes.</p></li>
+<li>
+<p><strong>=C3=89coute active </strong>: Favoriser une communication ouvert=
+e et transparente entre toutes les parties prenantes pour identifier les be=
+soins, les contraintes et les opportunit=C3=A9s potentiels.</p></li>
+</ul></li>
+<li>
+<p>Int=C3=A9grer la qualit=C3=A9 d=C3=A8s le d=C3=A9part : Une approche pro=
+active et collaborative</p>
+<ul>
+<li>
+<p><strong>Pr=C3=A9vention des d=C3=A9fauts </strong>: Int=C3=A9grer des pr=
+atiques de test et d'assurance qualit=C3=A9 d=C3=A8s les premi=C3=A8res =C3=
+=A9tapes du cycle de d=C3=A9veloppement, en mettant l'accent sur la pr=C3=
+=A9vention des d=C3=A9fauts plut=C3=B4t que sur la correction tardive.</p><=
+/li>
+<li>
+<p><strong>Conception ax=C3=A9e sur la qualit=C3=A9 </strong>: Impliquer le=
+s =C3=A9quipes d'assurance qualit=C3=A9 dans le processus de conception pou=
+r identifier les risques potentiels et proposer des solutions pr=C3=A9venti=
+ves.</p></li>
+<li>
+<p><strong>Revue de code r=C3=A9guli=C3=A8re </strong>: Mettre en place des=
+ revues de code r=C3=A9guli=C3=A8res pour identifier et corriger les probl=
+=C3=A8mes de qualit=C3=A9 d=C3=A8s le stade du d=C3=A9veloppement.</p></li>
+<li>
+<p><strong>Tests automatis=C3=A9s </strong>: Int=C3=A9grer des tests automa=
+tis=C3=A9s dans le processus de d=C3=A9veloppement pour une ex=C3=A9cution =
+rapide et fiable des tests.</p></li>
+<li>
+<p><strong>Culture de la qualit=C3=A9 </strong>: Cultiver une culture o=C3=
+=B9 la qualit=C3=A9 est une priorit=C3=A9 partag=C3=A9e par tous les membre=
+s de l'=C3=A9quipe.</p></li>
+</ul></li>
+<li>
+<p>Tests cibl=C3=A9s et pertinents : Optimiser l'efficacit=C3=A9 et la vale=
+ur des tests</p>
+<ul>
+<li>
+<p><strong>Identifier les zones =C3=A0 haut risque </strong>: Prioriser les=
+ tests sur les fonctionnalit=C3=A9s critiques, les modules sensibles et les=
+ zones pr=C3=A9sentant un historique de probl=C3=A8mes.</p></li>
+<li>
+<p><strong>Vari=C3=A9t=C3=A9 des approches de test </strong>: Utiliser une =
+vari=C3=A9t=C3=A9 de techniques de test, telles que les tests unitaires, le=
+s tests d'int=C3=A9gration, les tests de bout en bout et les tests de perfo=
+rmance, pour une couverture compl=C3=A8te.</p></li>
+<li>
+<p><strong>Automatiser les tests r=C3=A9p=C3=A9titifs </strong>: Automatise=
+r les tests manuels r=C3=A9p=C3=A9titifs pour lib=C3=A9rer du temps pour de=
+s tests exploratoires et plus cr=C3=A9atifs.</p></li>
+<li>
+<p><strong>Mesurer l'efficacit=C3=A9 des tests </strong>: Analyser les r=C3=
+=A9sultats des tests pour identifier les domaines d'am=C3=A9lioration et op=
+timiser l'efficacit=C3=A9 des efforts de test.</p></li>
+<li>
+<p><strong>Adapter les strat=C3=A9gies de test </strong>: Adapter les strat=
+=C3=A9gies de test en fonction de l'=C3=A9volution du projet, des risques e=
+t des priorit=C3=A9s.</p></li>
+</ul></li>
+<li>
+<p>Communication et collaboration : Favoriser une culture d'information par=
+tag=C3=A9e</p>
+<ul>
+<li>
+<p><strong>Feedback constructif </strong>: Encourager un retour d'informati=
+on constructif et respectueux pour identifier les opportunit=C3=A9s d'am=C3=
+=A9lioration et favoriser la croissance individuelle et collective.</p></li=
+>
+<li>
+<p><strong>Outils de collaboration </strong>: Utiliser des outils de collab=
+oration efficaces pour faciliter la communication, le partage de fichiers e=
+t la gestion des t=C3=A2ches.</p></li>
+</ul></li>
+<li>
+<p>Am=C3=A9lioration continue : Apprendre et s'adapter pour l'excellence</p=
+>
+<ul>
+<li>
+<p><strong>Culture d'apprentissage </strong>: Cultiver une culture d'appren=
+tissage continu o=C3=B9 les membres de l'=C3=A9quipe sont encourag=C3=A9s =
+=C3=A0 d=C3=A9velopper leurs comp=C3=A9tences, =C3=A0 explorer de nouvelles=
+ technologies et =C3=A0 adopter de meilleures pratiques.</p></li>
+<li>
+<p><strong>R=C3=A9trospective r=C3=A9guli=C3=A8re </strong>: Organiser des =
+r=C3=A9trospectives r=C3=A9guli=C3=A8res pour examiner les processus, ident=
+ifier les domaines d'am=C3=A9lioration et mettre en =C5=93uvre des changeme=
+nts positifs.</p></li>
+<li>
+<p><strong>Mesurer et analyser </strong>: Mesurer les indicateurs cl=C3=A9s=
+ de performance (KPIs) li=C3=A9s =C3=A0 la qualit=C3=A9 du logiciel pour su=
+ivre les progr=C3=A8s et identifier les tendances.</p></li>
+<li>
+<p><strong>Exp=C3=A9rimentation et innovation </strong>: Encourager l'exp=
+=C3=A9rimentation et l'innovation pour trouver de nouvelles fa=C3=A7ons d'a=
+m=C3=A9liorer les processus, les outils et les approches d'assurance qualit=
+=C3=A9.</p></li>
+<li>
+<p><strong>Adaptabilit=C3=A9 </strong>: Rester adaptable et pr=C3=AAt =C3=
+=A0 ajuster les strat=C3=A9gies et les pratiques en fonction des changement=
+s de contexte, des besoins des clients et des nouvelles technologies.</p></=
+li>
+</ul></li>
+<li>
+<p>R=C3=A9flexe qualit=C3=A9 : Int=C3=A9grer la responsabilit=C3=A9 et la p=
+roactivit=C3=A9</p>
+<ul>
+<li>
+<p><strong>Responsabilit=C3=A9 individuelle </strong>: Responsabiliser chaq=
+ue membre de l'=C3=A9quipe pour la qualit=C3=A9 de son travail, en encourag=
+eant la proactivit=C3=A9 dans l'identification, la pr=C3=A9vention et la r=
+=C3=A9solution des probl=C3=A8mes.</p></li>
+<li>
+<p><strong>Sensibilisation =C3=A0 la qualit=C3=A9 </strong>: Sensibiliser t=
+ous les membres de l'=C3=A9quipe =C3=A0 l'importance de la qualit=C3=A9 et =
+aux pratiques de d=C3=A9veloppement et op=C3=A9rations pour l'assurance qua=
+lit=C3=A9 efficaces.</p></li>
+<li>
+<p><strong>Formation et mentorat </strong>: Proposer des formations et des =
+opportunit=C3=A9s de mentorat pour d=C3=A9velopper les comp=C3=A9tences et =
+les connaissances en mati=C3=A8re d'assurance qualit=C3=A9 au sein de l'=C3=
+=A9quipe.</p></li>
+<li>
+<p><strong>Outils de d=C3=A9tection de d=C3=A9fauts </strong>: Mettre =C3=
+=A0 disposition des outils efficaces de d=C3=A9tection de d=C3=A9fauts pour=
+ faciliter l'identification et le signalement des probl=C3=A8mes de qualit=
+=C3=A9.</p></li>
+<li>
+<p><strong>R=C3=A9compenser la qualit=C3=A9 </strong>: Reconna=C3=AEtre et =
+r=C3=A9compenser les individus et les =C3=A9quipes qui contribuent =C3=A0 l=
+'am=C3=A9lioration de la qualit=C3=A9 du logiciel.</p></li>
+<li>
+<p><strong>Favoriser la qualit=C3=A9 </strong>: =C3=8Atre Agile, Lean=E2=80=
+=A6 les m=C3=A9thodologies et l=E2=80=99utilisation des outils ne doit pas =
+=C3=AAtre utilis=C3=A9s au d=C3=A9triment de la qualit=C3=A9 !</p></li>
+</ul></li>
+<li>
+<p>Livrer des logiciels de valeur : Atteindre la satisfaction client et les=
+ objectifs commerciaux</p>
+<ul>
+<li>
+<p><strong>Comprendre la valeur m=C3=A9tier </strong>: Aligner les efforts =
+de d=C3=A9veloppement logiciel sur les objectifs commerciaux et les besoins=
+ des clients pour maximiser la valeur m=C3=A9tier du logiciel.</p></li>
+<li>
+<p><strong>Mesurer l'impact </strong>: Mesurer l'impact du logiciel sur les=
+ utilisateurs et l'organisation pour identifier les domaines d'am=C3=A9lior=
+ation et d=C3=A9montrer la valeur de la qualit=C3=A9.</p></li>
+<li>
+<p><strong>Am=C3=A9lioration continue de la valeur </strong>: Adopter une a=
+pproche d'am=C3=A9lioration continue pour optimiser en permanence la valeur=
+ du logiciel pour les clients et l'organisation.</p></li>
+<li>
+<p><strong>Satisfaction client </strong>: Prioriser la satisfaction du clie=
+nt en recueillant et en analysant les retours d'information, en r=C3=A9pond=
+ant aux probl=C3=A8mes et en am=C3=A9liorant continuellement l'exp=C3=A9rie=
+nce utilisateur.</p></li>
+<li>
+<p><strong>Succ=C3=A8s commercial </strong>: Contribuer au succ=C3=A8s comm=
+ercial en livrant des logiciels qui r=C3=A9pondent aux besoins des clients,=
+ g=C3=A9n=C3=A8rent des revenus et stimulent la croissance de l'organisatio=
+n.</p></li>
+</ul></li>
+<li>
+<p>La s=C3=A9curit=C3=A9 fait partie int=C3=A9gralement de la qualit=C3=A9 =
+: Assurer la protection, =C3=AAtre s=C3=A9curis=C3=A9=E2=80=A6 =C3=AAtre s=
+=C3=A9curitaire=E2=80=A6 c=E2=80=99est de la qualit=C3=A9.</p>
+<ul>
+<li>
+<p><strong>S=C3=A9curit=C3=A9 d=C3=A8s la conception </strong>: Int=C3=A9gr=
+er des pratiques de s=C3=A9curit=C3=A9 d=C3=A8s les premi=C3=A8res =C3=A9ta=
+pes du d=C3=A9veloppement logiciel pour anticiper et pr=C3=A9venir les vuln=
+=C3=A9rabilit=C3=A9s potentielles.</p></li>
+<li>
+<p><strong>Analyse des risques </strong>: Effectuer des analyses de risques=
+ r=C3=A9guli=C3=A8res pour identifier les menaces potentielles et mettre en=
+ place des mesures de mitigation appropri=C3=A9es.</p></li>
+<li>
+<p><strong>Tests de s=C3=A9curit=C3=A9 </strong>: Inclure des tests de s=C3=
+=A9curit=C3=A9, tels que les tests de p=C3=A9n=C3=A9tration et les analyses=
+ de vuln=C3=A9rabilit=C3=A9, dans le cycle de d=C3=A9veloppement pour d=C3=
+=A9tecter et corriger les failles de s=C3=A9curit=C3=A9.</p></li>
+<li>
+<p><strong>Mise =C3=A0 jour et patching </strong>: Assurer une gestion proa=
+ctive des mises =C3=A0 jour et des correctifs pour prot=C3=A9ger contre les=
+ nouvelles vuln=C3=A9rabilit=C3=A9s et les menaces =C3=A9mergentes.</p></li=
+>
+<li>
+<p><strong>Formation et sensibilisation </strong>: Former les membres de l=
+=E2=80=99=C3=A9quipe aux meilleures pratiques de s=C3=A9curit=C3=A9 et les =
+sensibiliser aux menaces courantes, telles que le phishing et les attaques =
+par ing=C3=A9nierie sociale.</p></li>
+<li>
+<p><strong>Gestion des acc=C3=A8s </strong>: Mettre en place des contr=C3=
+=B4les d=E2=80=99acc=C3=A8s stricts pour garantir que seules les personnes =
+autoris=C3=A9es peuvent acc=C3=A9der aux donn=C3=A9es sensibles et aux syst=
+=C3=A8mes critiques.</p></li>
+<li>
+<p><strong>Surveillance continue </strong>: Mettre en =C5=93uvre des syst=
+=C3=A8mes de surveillance continue pour d=C3=A9tecter les activit=C3=A9s su=
+spectes et r=C3=A9agir rapidement aux incidents de s=C3=A9curit=C3=A9.</p><=
+/li>
+<li>
+<p><strong>Cryptage des donn=C3=A9es</strong>: Utiliser des techniques de c=
+ryptage pour prot=C3=A9ger les donn=C3=A9es sensibles, tant en transit qu=
+=E2=80=99au repos, afin de garantir leur confidentialit=C3=A9 et leur int=
+=C3=A9grit=C3=A9.</p></li>
+<li>
+<p><strong>Conformit=C3=A9 r=C3=A9glementaire </strong>: S=E2=80=99assurer =
+que le logiciel respecte les r=C3=A9glementations et les normes de s=C3=A9c=
+urit=C3=A9 applicables, telles que le RGPD, pour =C3=A9viter les sanctions =
+et prot=C3=A9ger la r=C3=A9putation de l=E2=80=99organisation.</p></li>
+<li>
+<p><strong>Plan de r=C3=A9ponse aux incidents</strong>: D=C3=A9velopper et =
+tester r=C3=A9guli=C3=A8rement un plan de r=C3=A9ponse aux incidents pour =
+=C3=AAtre pr=C3=AAt =C3=A0 r=C3=A9agir efficacement en cas de violation de =
+la s=C3=A9curit=C3=A9.</p></li>
+<li>
+<p><strong>Fortification</strong> : Renforcer la s=C3=A9curit=C3=A9 pour un=
+e protection optimale<strong>, </strong>mettre en place des mesures de s=C3=
+=A9curit=C3=A9 avanc=C3=A9es pour prot=C3=A9ger les syst=C3=A8mes contre to=
+ute formes d=E2=80=99attaques, d=E2=80=99intrusion ou de vole.</p></li>
+</ul></li>
+</ol>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>En cr=C3=A9ant une culture de communication et de collaboration ouvertes=
+, les organisations peuvent briser les silos, am=C3=A9liorer l'alignement e=
+t acc=C3=A9l=C3=A9rer la livraison de logiciels de haute qualit=C3=A9.</p>
+<p>En adoptant une approche d'am=C3=A9lioration continue, les organisations=
+ peuvent maintenir une longueur d'avance, s'adapter aux changements dynamiq=
+ues et offrir une valeur croissante =C3=A0 leurs clients.</p>
+<p>En cultivant un r=C3=A9flexe qualit=C3=A9 au sein de l'=C3=A9quipe, les =
+organisations peuvent cr=C3=A9er un environnement o=C3=B9 la qualit=C3=A9 e=
+st une priorit=C3=A9 constante et o=C3=B9 tous les membres de l'=C3=A9quipe=
+ sont investis dans la livraison de logiciels de haute qualit=C3=A9.</p>
+<p>En mettant l'accent sur la livraison de logiciels de valeur, les organis=
+ations peuvent fid=C3=A9liser leurs clients, atteindre leurs objectifs comm=
+erciaux et =C3=A9tablir une r=C3=A9putation d'excellence en mati=C3=A8re de=
+ qualit=C3=A9.</p>
+</div>
+</div>
+<h3 id=3D"Manifest(qualit=C3=A9)-Conclusion:Lepouvoirtransformateurd'unecul=
+turedelaqualit=C3=A9">Conclusion : Le pouvoir transformateur d'une culture =
+de la qualit=C3=A9</h3>
+<p>Le Manifeste Qualit=C3=A9 pr=C3=A9sente une vision holistique de la qual=
+it=C3=A9 logicielle, allant au-del=C3=A0 des tests et des pratiques d'assur=
+ance qualit=C3=A9 traditionnelles pour englober tous les aspects du process=
+us de d=C3=A9veloppement logiciel.</p>
+<p>La qualit=C3=A9 n'est pas une destination, c'est un voyage continu. En s=
+'engageant dans ce voyage et en adoptant une approche proactive et r=C3=A9f=
+l=C3=A9chie de la qualit=C3=A9 logicielle, les organisations peuvent d=C3=
+=A9bloquer leur plein potentiel et =C3=A9tablir une position durable d'exce=
+llence dans un monde en constante =C3=A9volution.</p>
+<p>Le Manifeste Qualit=C3=A9 est une invitation =C3=A0 l'action. C'est un a=
+ppel =C3=A0 remettre en question le statu quo, =C3=A0 repenser la fa=C3=A7o=
+n dont nous abordons la qualit=C3=A9 logicielle et =C3=A0 cr=C3=A9er un ave=
+nir o=C3=B9 la qualit=C3=A9 est au c=C5=93ur de tout ce que nous faisons.</=
+p>
+<p>Ensemble, nous pouvons transformer l'industrie du logiciel et cr=C3=A9er=
+ un monde o=C3=B9 les logiciels de haute qualit=C3=A9 sont la norme, et non=
+ l'exception.</p>
+<p>Rejoignez-nous dans ce voyage et adoptez le Manifeste Qualit=C3=A9 aujou=
+rd'hui!</p>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"vz4vab63fo">Parfois le changement peut-=C3=
+=AAtre trop d=E2=80=99un seul coup, commen=C3=A7ons par =C3=AAtre</span></s=
+trong> <a href=3D"/wiki/spaces/QA/pages/1939147360/QDD+D+veloppement+pilot+=
+par+la+qualit+Quality-Driven+Development" data-linked-resource-id=3D"193914=
+7360" data-linked-resource-version=3D"4" data-linked-resource-type=3D"page"=
+>QDD, D=C3=A9veloppement pilot=C3=A9 par la qualit=C3=A9, Quality-Driven De=
+velopment</a></p>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_24_1942258341.1733321622534
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/4b607f4d35860b473ccca61e82d32380829e64a2b97f852e60a3a4589a95096c
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAKfwAACn8AG1cEgF
+AAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpu
+czptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9
+Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRm
+OkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8v
+bnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3Rp
+ZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+Cjwv
+eDp4bXBtZXRhPgpMwidZAAAC1klEQVQ4EV1TS08TURT+zp1HHyAPaYgNLmpCYnSFGjExrqRhZUF/
+AC7YVP0BRne4IS5Y6EKRGI2JK+PGR4wJARYGQ8BQ0OjCUGMMQgkRaK2lnencez130IjM887M+b7z
+nW/OIfCm9ZAgGlLhevF8N5QcBKiHP6SgQRD0la9TIPGAup7N7cbQX7DmQJnLjFqulUXcBip1wA85
+AUcAMQuoSSDAGI49v0zE9CbxDhtIL/SNU3s0rdeq6sdWVbY2RS3bJqGZg4MNk1RKWyIRFSj5E+h6
+0WtImBpQnNmAP02veiP3c/T09RdnuxYIg+QDXIKARY6I24Si76HJSWOhf9RgyX93rttpdGffvllW
+UzPf6MpAF7UlYkDdpGbVnsSTV3mUKx5SB1uQPt2hozFHQ/Cu6ZRwLGsQDqEh7sir2ZPU2uRia6Nm
+srK7gG0JZHpSuHjhCPY3RzB8d45KJTajgX1is0nn+pZYXidrVQiUuPP4Az4vFXDz2lnEYxzEBKVi
+DbPv13G0s5WdYz8jtkok40J7Ki+g9KFQri9FrRZgKV9AbsJD8acHuBY2N6u4/WgBuY9rGBmbQaVa
+R+JAXKjtgCvUKdLzmTpLtQ0zsUcT09+xXChjoP8wbFvgV8U3lWAfy5fsR6nsh6UYA5kh+FdCXZlf
+FToPJgrtD/iVxWvjhzFVMZV5lvxzHSH4nuciaZKbpBN1LbkzBHG/rKyU2fU6ku3x0MjV9W00Nbro
+SDZAMymRkIxheXLSZvaH3GFZjrRMY/BO0YiN68NTWF8JhaK9A7h1ozd8CGM4NuxKxrIehuYy99AS
+yWLT85jBJduijY0qpucLIejMiSTa2mKcXWpuLTYhEkHRG6PjLy/tEJiBWewbR7ObZhLFhkqyhRU2
+i6FQXH2gJGe3GPx/K+8MEwvn3jascIWgZscxYO1LmNOsw3f8LYz5Mwe7hmlozzhrHmf9/zgbs03N
+e8b5N97yXqEQUVj4AAAAAElFTkSuQmCC
+------=_Part_24_1942258341.1733321622534--

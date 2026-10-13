@@ -1,0 +1,371 @@
+Date: Wed, 4 Dec 2024 14:26:57 +0000 (UTC)
+Message-ID: <1891382284.43.1733322417840@eee5c11846ed>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_42_2089641246.1733322417839"
+
+------=_Part_42_2089641246.1733322417839
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Anti-patterns</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Anti-patterns</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">
+<style>[data-colorid=3Dsfvua6jiyr]{color:#006644} html[data-color-mode=3Dda=
+rk] [data-colorid=3Dsfvua6jiyr]{color:#99ffdd}[data-colorid=3Dfut2kd90sf]{c=
+olor:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dfut2kd90sf]{colo=
+r:#99ffdd}[data-colorid=3Ddhvouls63m]{color:#006644} html[data-color-mode=
+=3Ddark] [data-colorid=3Ddhvouls63m]{color:#99ffdd}[data-colorid=3Dz4xgrolc=
+6h]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dz4xgrolc6h]=
+{color:#99ffdd}[data-colorid=3Dnqn90b70ps]{color:#006644} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dnqn90b70ps]{color:#99ffdd}[data-colorid=3De0rms=
+7a35v]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3De0rms7a3=
+5v]{color:#99ffdd}</style>
+<div class=3D"columnLayout three-equal" data-layout=3D"three-equal">
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<div class=3D"panel" style=3D"background-color: #FFFFFF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #FFFFFF;">
+<p><strong><span data-colorid=3D"fut2kd90sf">L=E2=80=99information est just=
+e et r=C3=A9vis=C3=A9e ?</span></strong><br><span data-colorid=3D"e0rms7a35=
+v">Veuillez utiliser les r=C3=A9actions de la page.</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<div class=3D"panel" style=3D"background-color: #FFFFFF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #FFFFFF;">
+<p><strong><span data-colorid=3D"nqn90b70ps">L=E2=80=99information peut =C3=
+=AAtre am=C3=A9lior=C3=A9e ?</span></strong><br><span data-colorid=3D"sfvua=
+6jiyr">Veuillez utiliser les commentaires.</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<div class=3D"panel" style=3D"background-color: #FFFFFF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #FFFFFF;">
+<p><strong><span data-colorid=3D"z4xgrolc6h">La section est vide ou le suje=
+t est manquant ?</span></strong><br><span data-colorid=3D"dhvouls63m">Soyez=
+ la premi=C3=A8re personne =C3=A0 remplir ce vide </span><img class=3D"emot=
+icon emoticon-smile" data-emoji-id=3D"1f642" data-emoji-shortname=3D":sligh=
+t_smile:" data-emoji-fallback=3D"=F0=9F=99=82" src=3D"c632d19b2ce8e6cdcf840=
+c6a049aef3833be285d6d7e3649f89200952fbab997" width=3D"16" height=3D"16" dat=
+a-emoticon-name=3D"smile" alt=3D"(sourire)"></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"columnLayout fixed-width" data-layout=3D"fixed-width">
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<p></p>
+</div>
+</div>
+</div>
+</div>
+<p><strong>D=C3=A9finition officielle :</strong></p>Les anti-patterns ou ma=
+uvaise habitudes sont la mauvaise utilisation des bonnes pratiques ou les p=
+ratiques qui sont consid=C3=A9r=C3=A9es comme inefficaces ou contre-product=
+ives. Les anti-patterns peuvent inclure la perte de confiance, la documenta=
+tion ou validation excessive, la sur-ing=C3=A9nierie, la r=C3=A9activit=C3=
+=A9 excessive et la d=C3=A9pendance excessive aux outils.
+<p><strong>Synonyme(s)</strong> : <br><em>Ins=C3=A9rez ici les </em>synonym=
+es.</p>
+<p><strong>Exception(s) et/ou d=C3=A9finition actuellement utilis=C3=A9e/in=
+terpr=C3=A9t=C3=A9e chez P=C3=A9tal :</strong><br><em>Ins=C3=A9rez ici les =
+d=C3=A9finitions qui peuvent =C3=AAtre sujettes =C3=A0 des interpr=C3=A9tat=
+ions vari=C3=A9es ou qui ne correspondent pas =C3=A0 la d=C3=A9finition off=
+icielle.</em><br><em>Indiquez ici les diff=C3=A9rents contextes ou points d=
+e vue o=C3=B9 la d=C3=A9finition peut varier.</em></p>
+<p><strong>Guide d=E2=80=99utilisation (et/ou exemples d=E2=80=99utilisatio=
+n) :</strong><br></p>
+<div class=3D"plugin_pagetree">
+<ul class=3D"plugin_pagetree_children_list plugin_pagetree_children_list_no=
+leftspace">
+<div class=3D"plugin_pagetree_children">
+</div>
+</ul>
+<fieldset class=3D"hidden">
+<input type=3D"hidden" name=3D"treeId" value=3D""> <input type=3D"hidden" n=
+ame=3D"treeRequestId" value=3D"/wiki/plugins/pagetree/naturalchildren.actio=
+n?decorator=3Dnone&amp;excerpt=3Dfalse&amp;sort=3Dposition&amp;reverse=3Dfa=
+lse&amp;disableLinks=3Dfalse&amp;expandCurrent=3Dfalse"> <input type=3D"hid=
+den" name=3D"treePageId" value=3D"1896876288"> <input type=3D"hidden" name=
+=3D"noRoot" value=3D"false"> <input type=3D"hidden" name=3D"rootPageId" val=
+ue=3D"1896876288"> <input type=3D"hidden" name=3D"rootPage" value=3D""> <in=
+put type=3D"hidden" name=3D"startDepth" value=3D"1"> <input type=3D"hidden"=
+ name=3D"spaceKey" value=3D"QA"> <input type=3D"hidden" name=3D"i18n-pagetr=
+ee.loading" value=3D"Chargement en cours..."> <input type=3D"hidden" name=
+=3D"i18n-pagetree.error.permission" value=3D"Impossible de charger l'arbore=
+scence des pages. Vous n'=C3=AAtes apparemment pas autoris=C3=A9 =C3=A0 aff=
+icher la page racine."> <input type=3D"hidden" name=3D"i18n-pagetree.eeror.=
+general" value=3D"Un probl=C3=A8me a =C3=A9t=C3=A9 d=C3=A9tect=C3=A9 lors d=
+e la r=C3=A9cup=C3=A9ration de l'arborescence des pages. Veuillez consulter=
+ le fichier journal du serveur pour plus d'informations."> <input type=3D"h=
+idden" name=3D"loginUrl" value=3D"/wiki/login.action?os_destination=3D%2Fex=
+portword%3FpageId%3D1896876288"> <input type=3D"hidden" name=3D"mobile" val=
+ue=3D"false">
+<fieldset class=3D"hidden">
+<input type=3D"hidden" name=3D"ancestorId" value=3D"1896876288">
+</fieldset>
+</fieldset>
+</div>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_42_2089641246.1733322417839
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/c632d19b2ce8e6cdcf840c6a049aef3833be285d6d7e3649f89200952fbab997
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAKfwAACn8AG1cEgF
+AAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpu
+czptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9
+Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRm
+OkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8v
+bnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3Rp
+ZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+Cjwv
+eDp4bXBtZXRhPgpMwidZAAACNElEQVQ4EY1TTY9MURA9dV/3vCZh0JJJzCxELNg1C2Jhg4iQFktr
+EsO/mH/BLFhb+oogTCIWE9+9QyKGZJpMaGYiae/N63fLqXpamghucm9uquqc+hbwqM4EkZno/86J
+PYh6itKDVGyFQhBkge8cJFyU1pVHoxgZgtUMn7fPoxam0UiAbyVQOCdQD8AayjLKBpjFrqvnREhv
+jis2gjvH72B87JD2ckOVNCACRPqJdEA0EmmmASurd9G6dthIKgPz7OAsl5qIpEmdxkOwMQSTmU57
+WW62Hi0VopZz0Ieaxyh1kd6nTF68+YJ9rQkkVYAoo2K+s4Sd2zaiubmhWqhKGgKi7A3UnvacGTb5
+5PaDd9h/5jFeLSyD9fBrf5OZzmz4lI5hsQOzP+AFq3Km7j+O2VqR2SmJT9oDUiYsEpgjer0Mf02h
+2YAO2DKLQzAQfdou2Oua+XWSxOh4hy00hR1rZalQXgebjARMQd66EiyJsbJgJLS6m0l17G8y6n6A
+o2OIDVTM2ZB4n1m0Dx/7uD+/iH6/oL06n/1NZjorrNvaYEHu/dpGxhNLlcs3X+PGrZeYmhr3CLqL
+Kzh2ZAdOHt2OkHB4I3620ePUZ+0L2JBO6+c8l4AxhCDd91/RXaJHnsmJtZjcso4pMKaIVdmUpljO
+Z2X39bMVge3ByCgzz5I5Jky4mkaDFYxN/zDK1TKxEpxtZ7UJW1+vUxI0H8Cu/U3m00fPwz0YWSZu
+1b/WmQVjZy79vs7fAdlwN9BZNtNNAAAAAElFTkSuQmCC
+------=_Part_42_2089641246.1733322417839--

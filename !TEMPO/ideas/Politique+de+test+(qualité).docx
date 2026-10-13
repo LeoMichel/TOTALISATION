@@ -1,0 +1,2007 @@
+Date: Wed, 4 Dec 2024 14:18:29 +0000 (UTC)
+Message-ID: <1963014281.29.1733321909512@570a79382bb7>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_28_1246487553.1733321909511"
+
+------=_Part_28_1246487553.1733321909511
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Politique de test (qualit=C3=A9)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Politique de test (qualit=C3=A9)</h1>
+    <div class=3D"Section1">
+        <a href=3D"/wiki/spaces/QA/pages/1887765937/Politique+de+test" data=
+-linked-resource-id=3D"1887765937" data-linked-resource-version=3D"7" data-=
+linked-resource-type=3D"page">Politique de test</a>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>Ici est notre strat=C3=A9gie de test unifi=C3=A9e (ma=C3=AEtresse, commu=
+ne, transversale, globale) pour le comment allons-nous g=C3=A9rer les tests=
+.</p>
+<p>Il est essentiel de respecter notre orientation global par le <a href=3D=
+"/wiki/spaces/QA/pages/1939147360/QDD+D+veloppement+pilot+par+la+qualit+Qua=
+lity-Driven+Development" data-linked-resource-id=3D"1939147360" data-linked=
+-resource-version=3D"4" data-linked-resource-type=3D"page">QDD, D=C3=A9velo=
+ppement pilot=C3=A9 par la qualit=C3=A9, Quality-Driven Development</a></p>
+</div>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1800" data-layout=3D"full-width" data-local-id=
+=3D"c19d0d98-f465-4f13-8db5-b71f7762e25f" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 300.0px;">
+<col style=3D"width: 345.0px;">
+<col style=3D"width: 1155.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour=3D"#ffffff" colspan=3D"3" class=3D"confluenceTh">
+<div class=3D"toc-macro">
+<a href=3D"#Politiquedetest(qualit=C3=A9)-Miseencontexte">Mise en contexte<=
+/a> | <a href=3D"#Politiquedetest(qualit=C3=A9)-Port=C3=A9e">Port=C3=A9e</a=
+> | <a href=3D"#Politiquedetest(qualit=C3=A9)-Orientation">Orientation</a> =
+| <a href=3D"#Politiquedetest(qualit=C3=A9)-Approches(tactiques)">Approches=
+ (tactiques)</a> | <a href=3D"#Politiquedetest(qualit=C3=A9)-M=C3=A9thodolo=
+gie">M=C3=A9thodologie</a> | <a href=3D"#Politiquedetest(qualit=C3=A9)-Crit=
+=C3=A8resdesniveauxd=E2=80=99adoption">Crit=C3=A8res des niveaux d=E2=80=99=
+adoption</a> | <a href=3D"#Politiquedetest(qualit=C3=A9)-Document(s)duposit=
+ionnement">Document(s) du positionnement</a> | <a href=3D"#Politiquedetest(=
+qualit=C3=A9)-R=C3=A9f=C3=A9rences">R=C3=A9f=C3=A9rences</a> | <a href=3D"#=
+Politiquedetest(qualit=C3=A9)-Testervosconnaissances">Tester vos connaissan=
+ces</a> | <a href=3D"#Politiquedetest(qualit=C3=A9)-Introduction">Introduct=
+ion</a> | <a href=3D"#Politiquedetest(qualit=C3=A9)-D=C3=A9finition">D=C3=
+=A9finition</a> | <a href=3D"#Politiquedetest(qualit=C3=A9)-Contexte">Conte=
+xte</a> | <a href=3D"#Politiquedetest(qualit=C3=A9)-Objectifs">Objectifs</a=
+> | <a href=3D"#Politiquedetest(qualit=C3=A9)-M=C3=A9thodologie.1">M=C3=A9t=
+hodologie</a> | <a href=3D"#Politiquedetest(qualit=C3=A9)-Exemples">Exemple=
+s</a> | <a href=3D"#Politiquedetest(qualit=C3=A9)-Bonnespratiques">Bonnes p=
+ratiques</a> | <a href=3D"#Politiquedetest(qualit=C3=A9)-R=C3=A9f=C3=A9renc=
+esetsources">R=C3=A9f=C3=A9rences et sources</a>
+</div></th>
+</tr>
+<tr>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest, #F4F=
+5F7)" class=3D"confluenceTh">
+<h3 id=3D"Politiquedetest(qualit=C3=A9)-Miseencontexte">Mise en contexte</h=
+3></th>
+<td colspan=3D"2" class=3D"confluenceTd">
+<p>Cela garantit que chaque =C3=A9tape du processus de test contribue =C3=
+=A0 maintenir et =C3=A0 am=C3=A9liorer les normes de qualit=C3=A9 que nous =
+nous fixons en tant qu=E2=80=99organisation.</p>
+<p>La <strong>politique de test</strong> est un =C3=A9l=C3=A9ment essentiel=
+ du processus de d=C3=A9veloppement et op=C3=A9rations logiciel. Elle perme=
+t de d=C3=A9finir l=E2=80=99objectif d'approche commune des tests, de se me=
+surer en vue de s=E2=80=99am=C3=A9liorer. C=E2=80=99est la strat=C3=A9gie d=
+e test dans une vue commune, transversale et globale.</p>
+<p>Voici pourquoi il est important de documenter la politique de test :</p>
+<ul>
+<li>
+<p><strong>Clart=C3=A9 et coh=C3=A9rence</strong> : Un <strong>document de =
+la politique de test</strong> fournit un guide claire pour tous. Il d=C3=A9=
+finit les conventions des param=C3=A8tres tels que les types de test, les r=
+=C3=B4les et responsabilit=C3=A9s, etc. Lorsque cette politique de test est=
+ bien document=C3=A9e, tous ont une compr=C3=A9hension commune de la mani=
+=C3=A8re dont les tests seront effectu=C3=A9s, ce qui garantit la coh=C3=A9=
+rence de l=E2=80=99approche.</p></li>
+<li>
+<p><strong>R=C3=A9duction des risques</strong> : Une politique de test bien=
+ d=C3=A9finie permet d=E2=80=99identifier les risques potentiels li=C3=A9s =
+=C3=A0 la qualit=C3=A9 du logiciel. En documentant les objectifs de test, l=
+es crit=C3=A8res d=E2=80=99acceptation et les =C3=A9ch=C3=A9ances, l=E2=80=
+=99=C3=A9quipe peut anticiper et att=C3=A9nuer les probl=C3=A8mes avant qu=
+=E2=80=99ils ne deviennent critiques, pr=C3=A9venir, =C3=AAtre r=C3=A9actif=
+=E2=80=A6</p></li>
+<li>
+<p><strong>Communication efficace</strong> : La documentation de la politiq=
+ue de test facilite la communication entre les membres des =C3=A9quipes, le=
+s parties prenantes et les responsables. Tout le monde sait =C3=A0 quoi s=
+=E2=80=99attendre, ce qui r=C3=A9duit les malentendus et les conflits poten=
+tiels.</p></li>
+<li>
+<p><strong>Tra=C3=A7abilit=C3=A9</strong> : Une documentation de la politiq=
+ue de test permet de suivre les progr=C3=A8s et de v=C3=A9rifier si les obj=
+ectifs sont atteints. Il sert =C3=A9galement de r=C3=A9f=C3=A9rence pour le=
+s audits et les revues.</p></li>
+</ul>
+<p>En r=C3=A9sum=C3=A9, documenter la politique de test =C3=A0 l=E2=80=99=
+=C3=A9chelle de l=E2=80=99organisation logicielle garantit une approche coh=
+=C3=A9rente, r=C3=A9duit les risques et facilite la communication et l'entr=
+aide entre les =C3=A9quipes. C=E2=80=99est un =E2=80=9Coutil=E2=80=9D pr=C3=
+=A9cieux pour assurer la qualit=C3=A9 des produits logiciels.</p>
+<p></p>
+<p>Ici nous r=C3=A9f=C3=A9rerons les pratiques dans une strat=C3=A9gie de t=
+est de diff=C3=A9rentes vues en lien avec la maturit=C3=A9 d=E2=80=99adopti=
+on des pratiques et des objectifs d=E2=80=99am=C3=A9lioration en continue. =
+Il sera important de ne pas dupliquer les informations similaires. Pensons =
+=C3=A0 =C3=AAtre modulaires, car ce ne sont que <strong>des vues diff=C3=A9=
+rentes</strong> de la strat=C3=A9gie de test globale. La politique de test =
+de test sert de guide pour organiser et mettre en =C5=93uvre le <a href=3D"=
+/wiki/spaces/QA/pages/1939147360/QDD+D+veloppement+pilot+par+la+qualit+Qual=
+ity-Driven+Development" data-linked-resource-id=3D"1939147360" data-linked-=
+resource-version=3D"4" data-linked-resource-type=3D"page">QDD, D=C3=A9velop=
+pement pilot=C3=A9 par la qualit=C3=A9, Quality-Driven Development</a>. Ell=
+e d=C3=A9crit en d=C3=A9tail la mani=C3=A8re dont les principes QDD seront =
+appliqu=C3=A9s, en tenant compte des besoins et des contraintes sp=C3=A9cif=
+iques.</p>
+<ul>
+<li>
+<p>La politique de test est un document <strong>qui d=C3=A9coule du QDD</st=
+rong>.</p></li>
+<li>
+<p>Elle fournit des directives sur la mani=C3=A8re dont les tests doivent =
+=C3=AAtre effectu=C3=A9s pour garantir la qualit=C3=A9 du logiciel.</p></li=
+>
+<li>
+<p>Elle est au niveau organisationnel.</p></li>
+</ul>
+<p>Cela peut inclure des d=C3=A9cisions sur les types de tests =C3=A0 privi=
+l=C3=A9gier, les niveaux de test =C3=A0 couvrir, les approches de test (man=
+uelles, automatis=C3=A9es, etc.), les crit=C3=A8res d=E2=80=99acceptation, =
+etc. selon le contexte et recommandations.</p></td>
+</tr>
+<tr>
+<th rowspan=3D"4" class=3D"confluenceTh">
+<h4 id=3D"Politiquedetest(qualit=C3=A9)-Cequecen'estpas"><strong>Ce que ce =
+n'est pas</strong></h4></th>
+<td class=3D"confluenceTd">
+<p><strong>Plan de test ou Pratique (politique) de test</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Le <a href=3D"/wiki/spaces/QA/pages/1888256101/Plan+de+test+definition" =
+data-linked-resource-id=3D"1888256101" data-linked-resource-version=3D"15" =
+data-linked-resource-type=3D"page">Plan de test</a> l=E2=80=99engagement su=
+r la planification des tests pour une livraison tandis que la <a href=3D"/w=
+iki/spaces/QA/pages/1887765937/Politique+de+test" data-linked-resource-id=
+=3D"1887765937" data-linked-resource-version=3D"7" data-linked-resource-typ=
+e=3D"page">Politique de test</a> est l=E2=80=99engagement sur les conventio=
+ns/ententes/adoptions communes(politique) ou contextuels(strat=C3=A9gique) =
+pour les tests</p></td>
+</tr>
+<tr>
+<th data-highlight-colour=3D"#ffffff" class=3D"confluenceTh">
+<p><strong>La couverture de test</strong></p></th>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<th data-highlight-colour=3D"#ffffff" class=3D"confluenceTh">
+<p><strong>Une liste de cas de tests</strong></p></th>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<th data-highlight-colour=3D"#ffffff" class=3D"confluenceTh">
+<p><strong>Test manuel</strong></p></th>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh">
+<h4 id=3D"Politiquedetest(qualit=C3=A9)-Cequec=E2=80=99est"><strong>Ce que =
+c=E2=80=99est</strong></h4></th>
+<td class=3D"confluenceTd">
+<p><strong>Inclus d=E2=80=99autres politiques</strong></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p>la politique d=E2=80=99automatisation des tests</p></li>
+<li>
+<p>la politique d=E2=80=99ex=C3=A9cution des tests</p></li>
+<li>
+<p>la politique du choix d=E2=80=99outil d=E2=80=99automatisation des tests=
+</p></li>
+<li>
+<p>la politique du choix d=E2=80=99outil de gestion/documentation des tests=
+</p></li>
+<li>
+<p>la politique de la planification des tests</p></li>
+<li>
+<p>la politique des phases de test</p></li>
+<li>
+<p>la politique des types de test</p></li>
+<li>
+<p>la politique de documentation/gestion de test</p></li>
+<li>
+<p>la politique de la gouvernance/responsabilit=C3=A9 pour les tests</p></l=
+i>
+<li>
+<p>la politique des m=C3=A9triques et reporting de test</p></li>
+<li>
+<p>la politique de test Agile</p></li>
+<li>
+<p>la politique des donn=C3=A9es de test</p></li>
+<li>
+<p>la politique des environnements de test</p></li>
+<li>
+<p>la politique des mocks de test</p></li>
+<li>
+<p>la politique des niveaux de test</p></li>
+<li>
+<p>=E2=80=A6</p></li>
+</ul></td>
+</tr>
+<tr>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest, #F4F=
+5F7)" rowspan=3D"3" class=3D"confluenceTh">
+<h3 id=3D"Politiquedetest(qualit=C3=A9)-Port=C3=A9e">Port=C3=A9e</h3></th>
+<td class=3D"confluenceTd">
+<h4 id=3D"Politiquedetest(qualit=C3=A9)-Transversalit=C3=A9etuniformit=C3=
+=A9">Transversalit=C3=A9 et uniformit=C3=A9</h4></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p><strong>Source commune</strong> : La politique de test (gestion de test)=
+ est fait de fa=C3=A7on global et transverse moderne en documentation vivan=
+te, modulaire et intelligente incluant la strat=C3=A9gie de test, conventio=
+ns, procedures et processus uniformis=C3=A9s =C3=A0 l=E2=80=99ensemble du d=
+=C3=A9veloppement et op=C3=A9rations.</p></li>
+<li>
+<p><strong>Adoption par produit/=C3=A9quipe(s)</strong> : Dans chaque fonct=
+ionnalit=C3=A9 syst=C3=A8me, produit ou =C3=A9quipe, il n=E2=80=99y a pas d=
+e strat=C3=A9gie sp=C3=A9cifique mais plut=C3=B4t un constat de l=E2=80=99a=
+doption de la politique de test dans un format d'audit.</p></li>
+<li>
+<p><strong>En mode r=C3=A9f=C3=A9rence/modularit=C3=A9</strong> : Vous pouv=
+ez cependant tr=C3=A8s bien mettre en r=C3=A9f=C3=A9rence cette documentati=
+on.</p></li>
+</ul></td>
+</tr>
+<tr>
+<th data-highlight-colour=3D"#ffffff" class=3D"confluenceTh">
+<h4 id=3D"Politiquedetest(qualit=C3=A9)-Respectetengagement">Respect et eng=
+agement</h4></th>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p><strong>Uniformit=C3=A9</strong> : Il est important d=E2=80=99avoir tous=
+ les m=C3=AAmes objectifs.</p></li>
+<li>
+<p><strong>Posture</strong> : La formule de la politique de test est rigour=
+euse tout en =C3=A9tant accommodante et progressivement flexible par la str=
+at=C3=A9gie de test (Guide d=E2=80=99utilisation de la politique de test). =
+Ce qui signifie qu'elle est r=C3=A9alis=C3=A9e en respectant tous les conte=
+xtes et/ou exceptions tout en ayant des actions pour atteindre des objectif=
+s communs si n=C3=A9cessaire bien s=C3=BBr.</p></li>
+<li>
+<p><strong>Dans l=E2=80=99action</strong> : Les exceptions devront =C3=AAtr=
+e d=C3=A9montr=C3=A9es, approuv=C3=A9es et constamment r=C3=A9=C3=A9valu=C3=
+=A9es en fonction des changements de la situation relative.</p></li>
+</ul></td>
+</tr>
+<tr>
+<th data-highlight-colour=3D"#ffffff" class=3D"confluenceTh">
+<h4 id=3D"Politiquedetest(qualit=C3=A9)-Servicesofferts">Services offerts</=
+h4></th>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p><strong>Assistance</strong> : L=E2=80=99adoption de la politique de test=
+ est une question d=E2=80=99am=C3=A9lioration continue encadr=C3=A9e par le=
+s staff QA. C=E2=80=99est de l=E2=80=99assistance complet, des =C3=A9valuat=
+ions, formations, ateliers=E2=80=A6</p></li>
+<li>
+<p>c=E2=80=99est d l'adoption en am=C3=A9lioration continue qui est disponi=
+ble pour atteindre les objectifs de la politique de test.</p></li>
+</ul></td>
+</tr>
+<tr>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest, #F4F=
+5F7)" class=3D"confluenceTh">
+<h3 id=3D"Politiquedetest(qualit=C3=A9)-Orientation">Orientation</h3></th>
+<th data-highlight-colour=3D"#ffffff" colspan=3D"2" class=3D"confluenceTh">
+<p><a href=3D"/wiki/spaces/QA/pages/1939147360/QDD+D+veloppement+pilot+par+=
+la+qualit+Quality-Driven+Development" data-linked-resource-id=3D"1939147360=
+" data-linked-resource-version=3D"4" data-linked-resource-type=3D"page">QDD=
+, D=C3=A9veloppement pilot=C3=A9 par la qualit=C3=A9, Quality-Driven Develo=
+pment</a></p></th>
+</tr>
+<tr>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest, #F4F=
+5F7)" class=3D"confluenceTh">
+<h3 id=3D"Politiquedetest(qualit=C3=A9)-Approches(tactiques)">Approches (ta=
+ctiques)</h3></th>
+<th data-highlight-colour=3D"#ffffff" colspan=3D"2" class=3D"confluenceTh">
+<ul>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1936363370/Test+holistique+en+continue+=
+pratique" data-linked-resource-id=3D"1936363370" data-linked-resource-versi=
+on=3D"5" data-linked-resource-type=3D"page">Test holistique en continue (pr=
+atique)</a></p></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/wiki/spaces/PT/pages/1936395185=
+/Optimisation+liminer+le+superflu" data-card-appearance=3D"inline" rel=3D"n=
+ofollow">https://petalmd.atlassian.net/wiki/spaces/PT/pages/1936395185/Opti=
+misation+liminer+le+superflu</a></p></li>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1936363439/Hyperautomatisation+pratique=
+" data-linked-resource-id=3D"1936363439" data-linked-resource-version=3D"4"=
+ data-linked-resource-type=3D"page">Hyperautomatisation (pratique)</a></p><=
+/li>
+</ul></th>
+</tr>
+<tr>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest, #F4F=
+5F7)" class=3D"confluenceTh">
+<h3 id=3D"Politiquedetest(qualit=C3=A9)-M=C3=A9thodologie">M=C3=A9thodologi=
+e</h3></th>
+<td colspan=3D"2" class=3D"confluenceTd">
+<p>Nous utilisons Confluence de fa=C3=A7on modulaire pour d=C3=A9finir la p=
+olitique de test.</p>
+<ul>
+<li>
+<p>Nous r=C3=A9f=C3=A9ren=C3=A7ons les pratiques relatifs au test dans la s=
+ection <a class=3D"createlink" href=3D"/wiki/pages/createpage.action?spaceK=
+ey=3DQA&amp;title=3DPOSITIONN%C3%89ES%20%28pratiques%29&amp;linkCreation=3D=
+true&amp;fromPageId=3D1990592136">POSITIONN=C3=89ES (pratiques)</a></p></li=
+>
+<li>
+<p>Nous r=C3=A9f=C3=A9ren=C3=A7ons les outils relatifs au test dans la sect=
+ion <a class=3D"createlink" href=3D"/wiki/pages/createpage.action?spaceKey=
+=3DQA&amp;title=3DPOSITIONN%C3%89S%20%28outils%29&amp;linkCreation=3Dtrue&a=
+mp;fromPageId=3D1990592136">POSITIONN=C3=89S (outils)</a></p></li>
+</ul></td>
+</tr>
+<tr>
+<th rowspan=3D"5" class=3D"confluenceTh">
+<h3 id=3D"Politiquedetest(qualit=C3=A9)-Crit=C3=A8resdesniveauxd=E2=80=99ad=
+option">Crit=C3=A8res des niveaux d=E2=80=99adoption</h3></th>
+<td class=3D"confluenceTd">
+<p><img class=3D"emoticon emoticon-blue-star" data-emoji-id=3D"1f6a8" data-=
+emoji-shortname=3D":rotating_light:" data-emoji-fallback=3D"=F0=9F=9A=A8" s=
+rc=3D"fe68196951cddba5bbfd6c96d9c3507ffc4e3727de293297072ee4a9e7736fbe" wid=
+th=3D"16" height=3D"16" data-emoticon-name=3D"blue-star" alt=3D"(=C3=A9toil=
+e bleue)"><br>
+Neutre (improvis=C3=A9)</p></td>
+<td class=3D"confluenceTd">
+<p>=C3=80 ce niveau, l=E2=80=99=C3=A9quipe peut avoir quelques bases, mais =
+elle est souvent guid=C3=A9e par l=E2=80=99instinct ou une confiance encore=
+ floue. Il s=E2=80=99agit d=E2=80=99une phase exploratoire o=C3=B9 il n=E2=
+=80=99y a pas d=E2=80=99objectifs et/ou sans engagement formel.</p></td>
+</tr>
+<tr>
+<th data-highlight-colour=3D"#ffffff" class=3D"confluenceTh">
+<p><img class=3D"emoticon emoticon-blue-star" data-emoji-id=3D"1f4d9" data-=
+emoji-shortname=3D":orange_book:" data-emoji-fallback=3D"=F0=9F=93=99" src=
+=3D"1a65096ebedf73350a80421ada5c71a0ee6cf7dafad3ba2dd3aa89cd8cc6fc42" width=
+=3D"16" height=3D"16" data-emoticon-name=3D"blue-star" alt=3D"(=C3=A9toile =
+bleue)"> <br>
+Initial (conscient)</p></th>
+<td class=3D"confluenceTd">
+<p>L=E2=80=99=C3=A9quipe prend conscience de l=E2=80=99importance de la pol=
+itique de test. Les discussions initiales se concentrent sur la sensibilisa=
+tion, la compr=C3=A9hension, les ateliers et les formations. Cette phase co=
+nsiste =C3=A0 prendre connaissance des diff=C3=A9rentes approches et =C3=A0=
+ =C3=A9valuer leur pertinence pour l=E2=80=99organisation.</p></td>
+</tr>
+<tr>
+<th data-highlight-colour=3D"#ffffff" class=3D"confluenceTh">
+<p><img class=3D"emoticon emoticon-blue-star" data-emoji-id=3D"1f31e" data-=
+emoji-shortname=3D":sun_with_face:" data-emoji-fallback=3D"=F0=9F=8C=9E" sr=
+c=3D"a462a7645211d0497bb8bdeb21f1b2f6aae35bc55bf4536e404cae2c713bd1a2" widt=
+h=3D"16" height=3D"16" data-emoticon-name=3D"blue-star" alt=3D"(=C3=A9toile=
+ bleue)"> <br>
+D=C3=A9fini (clair)</p></th>
+<td class=3D"confluenceTd">
+<p>=C3=80 ce stade, la politique de test est bien d=C3=A9finie. L=E2=80=99=
+=C3=A9quipe reconna=C3=AEt l=E2=80=99importance de la politique de test et =
+commence =C3=A0 explorer activement les points d=E2=80=99action sp=C3=A9cif=
+iques. Des processus sont mis en place, et l=E2=80=99approche est formalis=
+=C3=A9e. La documentation et la communication interne sont essentielles =C3=
+=A0 ce niveau.</p></td>
+</tr>
+<tr>
+<th data-highlight-colour=3D"#ffffff" class=3D"confluenceTh">
+<p><img class=3D"emoticon emoticon-blue-star" data-emoji-id=3D"1f34f" data-=
+emoji-shortname=3D":green_apple:" data-emoji-fallback=3D"=F0=9F=8D=8F" src=
+=3D"0297ee26b9e90c479195ee52958998d0cfc04dfa47a3928fffd956288221a6f9" width=
+=3D"16" height=3D"16" data-emoticon-name=3D"blue-star" alt=3D"(=C3=A9toile =
+bleue)"> <br>
+Mesurable (grandissant)</p></th>
+<td class=3D"confluenceTd">
+<p>L=E2=80=99=C3=A9quipe met en place des m=C3=A9triques et des indicateurs=
+ pour =C3=A9valuer l=E2=80=99efficacit=C3=A9 de la politique de test. On pe=
+ut mesurer la couverture des tests, la qualit=C3=A9 du code, le taux de d=
+=C3=A9fauts, etc. L=E2=80=99accent est mis sur la collecte de donn=C3=A9es =
+objectives.</p></td>
+</tr>
+<tr>
+<th data-highlight-colour=3D"#ffffff" class=3D"confluenceTh">
+<p><img class=3D"emoticon emoticon-blue-star" data-emoji-id=3D"atlassian-bl=
+ue_star" data-emoji-shortname=3D":blue_star:" data-emoji-fallback=3D":blue_=
+star:" src=3D"f41e16cdc0a8efccb84b6424405207411b05bdaa564b66332bef52999094f=
+bd4" width=3D"16" height=3D"16" data-emoticon-name=3D"blue-star" alt=3D"(=
+=C3=A9toile bleue)"> <br>
+Optimisation (objectif atteint)</p></th>
+<td class=3D"confluenceTd">
+<p>=C3=80 ce niveau, les donn=C3=A9es collect=C3=A9es permettent d=E2=80=99=
+identifier les domaines =C3=A0 am=C3=A9liorer et utilise les mesures pour o=
+ptimiser continuellement la politique de test. Les retours d=E2=80=99exp=C3=
+=A9rience sont pris en compte, et des ajustements sont apport=C3=A9s pour a=
+m=C3=A9liorer la qualit=C3=A9 du processus de test. L=E2=80=99objectif est =
+d=E2=80=99atteindre une efficacit=C3=A9 maximale tout en restant =C3=A0 jou=
+r et adaptable aux changements.</p></td>
+</tr>
+<tr>
+<th rowspan=3D"2" class=3D"confluenceTh">
+<h3 id=3D"Politiquedetest(qualit=C3=A9)-Document(s)dupositionnement">Docume=
+nt(s) du positionnement</h3></th>
+<td class=3D"confluenceTd">
+<p>TSA</p></td>
+<td class=3D"confluenceTd">
+<p>n/a</p></td>
+</tr>
+<tr>
+<th data-highlight-colour=3D"#ffffff" class=3D"confluenceTh">
+<p>ADR</p></th>
+<td class=3D"confluenceTd">
+<p>n/a</p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh">
+<h3 id=3D"Politiquedetest(qualit=C3=A9)-R=C3=A9f=C3=A9rences">R=C3=A9f=C3=
+=A9rences</h3></th>
+<td colspan=3D"2" class=3D"confluenceTd">
+<ul>
+<li>
+<p><a href=3D"https://en.wikipedia.org/wiki/Test_strategy" class=3D"externa=
+l-link" rel=3D"nofollow">Test strategy - Wikipedia</a></p></li>
+<li>
+<p><a href=3D"https://www.iso.org/fr/standard/81291.html" class=3D"external=
+-link" rel=3D"nofollow">ISO/IEC/IEEE 29119-1:2022 - Ing=C3=A9nierie du logi=
+ciel et des syst=C3=A8mes =E2=80=94 Essais du logiciel =E2=80=94 Partie 1: =
+Concepts g=C3=A9n=C3=A9raux</a><br>
+Le pr=C3=A9sent document d=C3=A9finit les concepts g=C3=A9n=C3=A9raux relat=
+ifs aux tests logiciels et pr=C3=A9sente les principaux concepts employ=C3=
+=A9s dans la s=C3=A9rie ISO/IEC/IEEE 29119.</p></li>
+<li>
+<p><a href=3D"https://latavernedutesteur.fr/2019/08/19/politique-strategie-=
+et-plans-de-test/" class=3D"external-link" rel=3D"nofollow">Politique, stra=
+t=C3=A9gie et plans de test - La taverne du testeur</a></p></li>
+<li>
+<p><a href=3D"https://testsigma.com/blog/test-strategy-vs-test-plan/" class=
+=3D"external-link" rel=3D"nofollow">Test Strategy vs Test Plan: Key Differe=
+nces (testsigma.com)</a></p></li>
+<li>
+<p><a href=3D"https://blog-gestion-de-projet.com/strategie-de-test/" class=
+=3D"external-link" rel=3D"nofollow">Strat=C3=A9gie de test : D=C3=A9finitio=
+n, =C3=A9tapes et limites + Mod=C3=A8le (blog-gestion-de-projet.com)</a></p=
+></li>
+<li>
+<p><a href=3D"https://www.oreilly.com/library/view/advanced-testing-of/9781=
+786307491/c03.xhtml" class=3D"external-link" rel=3D"nofollow">3 Test Policy=
+ and Test Strategy - Advanced Testing of Systems-of-Systems, Volume 1 [Book=
+] (oreilly.com)</a></p></li>
+<li>
+<p><a href=3D"https://www.researchgate.net/publication/366359810_Test_Polic=
+y_and_Test_Strategy" class=3D"external-link" rel=3D"nofollow">Test Policy a=
+nd Test Strategy (researchgate.net)</a></p></li>
+<li>
+<p><a href=3D"https://onlinelibrary.wiley.com/doi/abs/10.1002/9781394188451=
+.ch3" class=3D"external-link" rel=3D"nofollow">Test Policy and Test Strateg=
+y - Advanced Testing of Systems=E2=80=90of=E2=80=90Systems 1 - Wiley Online=
+ Library</a></p></li>
+<li>
+<p><a href=3D"https://www.testingchat.com/fundamentals/test-process/test-pl=
+anning-and-control/test-plan-vs-test-strategy/" class=3D"external-link" rel=
+=3D"nofollow">Test Plan vs Test Strategy: The Key Differences You Need to K=
+now (testingchat.com)</a></p></li>
+<li>
+<p><a href=3D"https://latavernedutesteur.fr/?s=3Dstrat%C3%A9gie+de+test" cl=
+ass=3D"external-link" rel=3D"nofollow">Vous avez cherch=C3=A9 strat=C3=A9gi=
+e de test - La taverne du testeur</a></p></li>
+<li>
+<p><a href=3D"https://muuktest.com/blog/test-strategy" class=3D"external-li=
+nk" rel=3D"nofollow">A Guide to Mastering Test Strategy (muuktest.com)</a><=
+/p></li>
+<li>
+<p><a href=3D"https://blog.testlodge.com/what-is-test-strategy/" class=3D"e=
+xternal-link" rel=3D"nofollow">What is a Test Strategy and How to Build One=
+ - TestLodge Blog</a></p></li>
+<li>
+<p><a href=3D"https://betterqa.co/software-testing-services/test-strategy/"=
+ class=3D"external-link" rel=3D"nofollow">Test Strategy - BetterQA</a></p><=
+/li>
+<li>
+<p><a href=3D"https://tryqa.com/what-is-test-strategy-types-of-strategies-w=
+ith-examples/" class=3D"external-link" rel=3D"nofollow">What is Test Strate=
+gy? Types of strategies with examples (tryqa.com)</a></p></li>
+<li>
+<p><a href=3D"https://developer.skao.int/en/latest/policies/ska-testing-pol=
+icy-and-strategy.html" class=3D"external-link" rel=3D"nofollow">Software Te=
+sting Policy and Strategy =E2=80=94 developer.skao.int 1.0.0 documentation<=
+/a></p></li>
+<li>
+<p><a href=3D"https://www.spiria.com/en/blog/quality-assurance/what-is-an-a=
+gile-test-plan/" class=3D"external-link" rel=3D"nofollow">What is an Agile =
+Test Plan? | Spiria</a></p></li>
+<li>
+<p><a href=3D"https://agileseeds.com/agile-test-plan-template-samples-best-=
+practices/" class=3D"external-link" rel=3D"nofollow">Agile Test Plan Templa=
+te =E2=80=93 Samples &amp; Best Practices =E2=80=93 Agile Seeds</a></p></li=
+>
+<li>
+<p><a href=3D"https://www.testmonitor.com/blog/what-is-an-agile-test-plan" =
+class=3D"external-link" rel=3D"nofollow">What Is an Agile Test Plan? (testm=
+onitor.com)</a></p></li>
+<li>
+<p><a href=3D"https://www.spiria.com/fr/blogue/assurance-qualite/quest-ce-q=
+uun-plan-de-tests-agile/" class=3D"external-link" rel=3D"nofollow">Qu=E2=80=
+=99est-ce qu=E2=80=99un plan de tests Agile? | Spiria</a></p></li>
+<li>
+<p><a href=3D"https://www.testrail.com/blog/create-a-test-plan/" class=3D"e=
+xternal-link" rel=3D"nofollow">How To Create A Test Plan (Steps, Examples, =
+&amp; Template) - TestRail</a></p></li>
+</ul></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh">
+<h3 id=3D"Politiquedetest(qualit=C3=A9)-Testervosconnaissances"><strong>Tes=
+ter vos connaissances</strong></h3></th>
+<td colspan=3D"2" class=3D"confluenceTd"><a href=3D"https://forms.office.co=
+m/r/5hisDv5jWk" data-layout=3D"center" data-width=3D"100.00" data-card-appe=
+arance=3D"embed" class=3D"external-link" rel=3D"nofollow">https://forms.off=
+ice.com/r/5hisDv5jWk</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<hr>
+<p>=C3=A0 trier=E2=80=A6</p>
+<p>La politique de test est de la documentation qui =C3=A9nonce les princip=
+es et les directives g=C3=A9n=C3=A9rales en mati=C3=A8re de tests au sein d=
+=E2=80=99une organisation. Elle d=C3=A9finit les valeurs, les objectifs et =
+les normes de qualit=C3=A9 li=C3=A9s aux tests. La politique de test sert d=
+e base pour =C3=A9laborer <strong>la </strong><a href=3D"/wiki/spaces/QA/pa=
+ges/1887735166/Strat+gie+de+test" data-linked-resource-id=3D"1887735166" da=
+ta-linked-resource-version=3D"23" data-linked-resource-type=3D"page">Strat=
+=C3=A9gie de test</a> et ensuite pour soutenir les <a href=3D"/wiki/spaces/=
+QA/pages/1888256101/Plan+de+test+definition" data-linked-resource-id=3D"188=
+8256101" data-linked-resource-version=3D"15" data-linked-resource-type=3D"p=
+age">Plan de test</a>. La politique de test =C3=A9tablit les bases pour la =
+gestion du test dans l=E2=80=99ensemble de l=E2=80=99organisation.</p>
+<p>La Politique de test constitue le document de niveau sup=C3=A9rieur qui =
+=C3=A9tablit les principes fondamentaux et les directives qui r=C3=A9gissen=
+t les activit=C3=A9s de test au sein de l'organisation. Elle d=C3=A9finit l=
+es objectifs globaux du test, les responsabilit=C3=A9s, les approches et le=
+s normes =C3=A0 respecter pour tous les projets de test.</p>
+<p><strong>Exemple de ce que l=E2=80=99on peut y retrouver</strong> :</p>
+<ul>
+<li>
+<p>Une politique de test d=C3=A9finit les principes et les r=C3=A8gles qui =
+guident l=E2=80=99ensemble du processus de test au sein d=E2=80=99une organ=
+isation.</p></li>
+<li>
+<p>Exemple de politique de test :</p>
+<ul>
+<li>
+<p><strong>Primaire :</strong></p>
+<ul>
+<li>
+<p>Holistique en continue</p></li>
+<li>
+<p>Optimisation (=C3=A9liminer le superflu)</p></li>
+<li>
+<p>Hyperautomatisation</p></li>
+<li>
+<p>Environnements</p></li>
+</ul></li>
+<li>
+<p><strong>Secondaire </strong>(relatif aux politiques primaires)<strong> :=
+</strong></p>
+<ul>
+<li>
+<p>Utiliser une approche de test agile pour s=E2=80=99adapter aux changemen=
+ts fr=C3=A9quents.</p></li>
+<li>
+<p>Prioriser les tests en fonction de l=E2=80=99impact commercial et de la =
+criticit=C3=A9.</p></li>
+<li>
+<p>Automatiser les tests de r=C3=A9gression pour acc=C3=A9l=C3=A9rer les cy=
+cles de d=C3=A9veloppement.</p></li>
+<li>
+<p>Collaborer avec les d=C3=A9veloppeurs pour cr=C3=A9er des sc=C3=A9narios=
+ de test complets.</p></li>
+<li>
+<p>Tous les codes doivent =C3=AAtre test=C3=A9s avant d=E2=80=99=C3=AAtre d=
+=C3=A9ploy=C3=A9s en production.</p></li>
+<li>
+<p>Les tests unitaires doivent couvrir au moins 80 % du code.</p></li>
+<li>
+<p>Les tests d=E2=80=99int=C3=A9gration doivent =C3=AAtre ex=C3=A9cut=C3=A9=
+s sur l=E2=80=99environnement de pr=C3=A9-production.</p></li>
+<li>
+<p>Les bogues critiques doivent =C3=AAtre corrig=C3=A9s dans les 24 heures =
+suivant leur signalement.</p></li>
+</ul></li>
+</ul></li>
+</ul>
+<p></p>
+<p></p>
+<p></p>
+<p>TODO :</p>
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"1990592136">
+<li data-inline-task-id=3D"271"><span class=3D"placeholder-inline-tasks">Li=
+ster les pratique qui faut adopter en lien avec tester</span></li>
+<li data-inline-task-id=3D"272"><span class=3D"placeholder-inline-tasks">Si=
+ les niveau ne peut =C3=AAtre appliqu=C3=A9 ou adopt=C3=A9, devrait t-on av=
+oir une justification doit =C3=AAtre fournie et =C3=AAtre approuv=C3=A9e.</=
+span></li>
+<li data-inline-task-id=3D"273"><span class=3D"placeholder-inline-tasks">Le=
+s niveaux d=E2=80=99adoptions doivent =C3=AAtres uniforme avec les autres d=
+ocuments. (challenge ici)</span></li>
+</ul>
+<p></p>
+<p>NOTES :</p>
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"1990592136">
+<li data-inline-task-id=3D"274"><span class=3D"placeholder-inline-tasks">Vo=
+ir si les pratiques et outils positionn=C3=A9s et adopt=C3=A9s peuvent =C3=
+=AAtre plac=C3=A9s dans la section ORIENTATION ? <a class=3D"confluence-use=
+rlink user-mention current-user-mention" data-account-id=3D"712020:71bdc2d5=
+-750c-442f-bb2e-6b6d99190424" href=3D"https://petalmd.atlassian.net/wiki/pe=
+ople/712020:71bdc2d5-750c-442f-bb2e-6b6d99190424?ref=3Dconfluence" target=
+=3D"_blank" data-linked-resource-id=3D"1858502694" data-linked-resource-ver=
+sion=3D"1" data-linked-resource-type=3D"userinfo" data-base-url=3D"https://=
+petalmd.atlassian.net/wiki">Michel Belanger</a> </span></li>
+</ul>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p><span class=3D"confluence-embedded-file-wrapper confluence-embedded-=
+manual-size"><img class=3D"confluence-embedded-image confluence-external-re=
+source" height=3D"291" width=3D"261" src=3D"/wiki/download/attachments/1990=
+592136/Diagramme%20sans%20nom-1719516726649.drawio.png?api=3Dv2" data-image=
+-src=3D"/wiki/download/attachments/1990592136/Diagramme%20sans%20nom-171951=
+6726649.drawio.png?api=3Dv2" loading=3D"lazy"></span>
+<hr>
+<p><img class=3D"emoticon emoticon-blue-star" data-emoji-id=3D"2705" data-e=
+moji-shortname=3D":white_check_mark:" data-emoji-fallback=3D"=E2=9C=85" src=
+=3D"97847e991cc065c8d056f41162f7484e548c227caf0bf6580a1efe15324ee3e1" width=
+=3D"16" height=3D"16" data-emoticon-name=3D"blue-star" alt=3D"(=C3=A9toile =
+bleue)">&nbsp;Action items pour la compl=C3=A9tion de la strat=C3=A9gie de =
+test</p>
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"1990592136">
+<li data-inline-task-id=3D"275"><span class=3D"placeholder-inline-tasks">Se=
+ positionner sur la compatibilit=C3=A9 (fr/en, devices, plateformes, os, br=
+owsers, versions=E2=80=A6)</span></li>
+<li data-inline-task-id=3D"276"><span class=3D"placeholder-inline-tasks">St=
+rat=C3=A9gie unique avec des Suivi d=E2=80=99adoption/plan d=E2=80=99action=
+s/engagement (le suivi remplace la strat=C3=A9gie par =C3=A9quipe) et des p=
+rofils par produit/fonctionnalit=C3=A9s. Plan de la strat=C3=A9gie de test =
+et d'assurance qualit=C3=A9.</span></li>
+<li data-inline-task-id=3D"277"><span class=3D"placeholder-inline-tasks">Je=
+ux de donn=C3=A9es</span></li>
+<li data-inline-task-id=3D"278"><span class=3D"placeholder-inline-tasks">Mo=
+ck</span></li>
+<li data-inline-task-id=3D"279"><span class=3D"placeholder-inline-tasks">En=
+vironnements</span></li>
+<li data-inline-task-id=3D"280"><span class=3D"placeholder-inline-tasks">Ty=
+pes de Test</span></li>
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"1990592136">
+<li data-inline-task-id=3D"281"><span class=3D"placeholder-inline-tasks"><i=
+mg class=3D"emoticon emoticon-smile" data-emoji-id=3D"1f642" data-emoji-sho=
+rtname=3D":slight_smile:" data-emoji-fallback=3D"=F0=9F=99=82" src=3D"c632d=
+19b2ce8e6cdcf840c6a049aef3833be285d6d7e3649f89200952fbab997" width=3D"16" h=
+eight=3D"16" data-emoticon-name=3D"smile" alt=3D"(sourire)"> Happy path, In=
+tegrity/Smoke=E2=80=A6</span></li>
+<li data-inline-task-id=3D"282"><span class=3D"placeholder-inline-tasks">Co=
+mpatibilit=C3=A9, convention des browsers, mobile view first=E2=80=A6</span=
+></li>
+</ul>
+<li data-inline-task-id=3D"283"><span class=3D"placeholder-inline-tasks">Ph=
+ases, flow, =C3=A9tapes, cycle de vie</span></li>
+<li data-inline-task-id=3D"284"><span class=3D"placeholder-inline-tasks">Ni=
+veaux</span></li>
+<li data-inline-task-id=3D"285"><span class=3D"placeholder-inline-tasks">Ma=
+trice de test Agile (quadrants de test)</span></li>
+<li data-inline-task-id=3D"286"><span class=3D"placeholder-inline-tasks">Su=
+ivi de livraison, Analyse qualit=C3=A9, Plan de test.</span></li>
+<li data-inline-task-id=3D"287"><span class=3D"placeholder-inline-tasks">Ma=
+intenance des tests</span></li>
+<li data-inline-task-id=3D"288"><span class=3D"placeholder-inline-tasks">In=
+vestigation des fail ex=C3=A9cutions</span></li>
+<li data-inline-task-id=3D"289"><span class=3D"placeholder-inline-tasks">Ce=
+ntraliser les dashboards of tests/qualit=C3=A9 indicators</span></li>
+<li data-inline-task-id=3D"290"><span class=3D"placeholder-inline-tasks">Mo=
+del-based testing</span></li>
+<li data-inline-task-id=3D"291"><span class=3D"placeholder-inline-tasks">Bu=
+siness rules and functional rules</span></li>
+<li data-inline-task-id=3D"292"><span class=3D"placeholder-inline-tasks">Co=
+uverture de tests</span></li>
+<li data-inline-task-id=3D"293"><span class=3D"placeholder-inline-tasks">Pr=
+ioriser les tests</span></li>
+<li data-inline-task-id=3D"294"><span class=3D"placeholder-inline-tasks">ro=
+llback</span></li>
+<li data-inline-task-id=3D"295"><span class=3D"placeholder-inline-tasks">St=
+rat=C3=A9gie d'alertage</span></li>
+<li data-inline-task-id=3D"296"><span class=3D"placeholder-inline-tasks">Br=
+anch preview, pair PR testing, tout tester le code avant le rebase/merge en=
+ real ci-cd</span></li>
+<li data-inline-task-id=3D"297"><span class=3D"placeholder-inline-tasks">Qu=
+elle est la couleur de votre bo=C3=AEte : blanche, grise ou noire ?</span><=
+/li>
+<li data-inline-task-id=3D"298"><span class=3D"placeholder-inline-tasks">Qu=
+oi/Comment tester dans le cycle complet (D=C3=A9finir, Planifier, Impl=C3=
+=A9menter, D=C3=A9ployer, Op=C3=A9rer, Veiller)</span></li>
+<li data-inline-task-id=3D"299"><span class=3D"placeholder-inline-tasks">=
+=E2=80=9CStrat=C3=A9gie de test=E2=80=9D =C3=A0 ne plus utiliser comme term=
+e, car elle porte =C3=A0 confusion et est vague sur l=E2=80=99intention !</=
+span></li>
+<li data-inline-task-id=3D"300"><span class=3D"placeholder-inline-tasks">Pr=
+incipes&nbsp;</span></li>
+<li data-inline-task-id=3D"301"><span class=3D"placeholder-inline-tasks">Ap=
+proches&nbsp;</span></li>
+<li data-inline-task-id=3D"302"><span class=3D"placeholder-inline-tasks">Ta=
+ctiques&nbsp;</span></li>
+<li data-inline-task-id=3D"303"><span class=3D"placeholder-inline-tasks">Pl=
+anification/Livraison&nbsp;</span></li>
+<li data-inline-task-id=3D"304"><span class=3D"placeholder-inline-tasks">Le=
+s m=C3=A9triques&nbsp;</span></li>
+<li data-inline-task-id=3D"305"><span class=3D"placeholder-inline-tasks">Ou=
+tils / coffre =C3=A0 outils&nbsp;</span></li>
+<li data-inline-task-id=3D"306"><span class=3D"placeholder-inline-tasks">Le=
+ comment faire / mode d=E2=80=99emploi / utilisation</span></li>
+<li data-inline-task-id=3D"307"><span class=3D"placeholder-inline-tasks">Co=
+nvention/Gabarit sur les plan de tests</span></li>
+<li data-inline-task-id=3D"308"><span class=3D"placeholder-inline-tasks">Re=
+spect des normes et standards internationaux : Les normes et standards inte=
+rnationaux en mati=C3=A8re de qualit=C3=A9 logicielle doivent =C3=AAtre res=
+pect=C3=A9s pour garantir la qualit=C3=A9 des produits logiciels.&nbsp;</sp=
+an></li>
+<li data-inline-task-id=3D"309"><span class=3D"placeholder-inline-tasks">Qu=
+alit=C3=A9 dans les processus (de test) logiciels : Les processus de d=C3=
+=A9veloppement, de test et de maintenance des logiciels doivent =C3=AAtre g=
+=C3=A9r=C3=A9s de mani=C3=A8re =C3=A0 garantir la qualit=C3=A9 des produits=
+ logiciels.&nbsp;</span></li>
+<li data-inline-task-id=3D"310"><span class=3D"placeholder-inline-tasks">Me=
+sures et m=C3=A9triques : Des mesures et des m=C3=A9triques doivent =C3=AAt=
+re utilis=C3=A9es pour =C3=A9valuer la qualit=C3=A9 des produits logiciels =
+et pour identifier les domaines =C3=A0 am=C3=A9liorer.&nbsp;</span></li>
+<li data-inline-task-id=3D"311"><span class=3D"placeholder-inline-tasks">Va=
+lidation et v=C3=A9rification : Des tests doivent =C3=AAtre effectu=C3=A9s =
+pour valider et v=C3=A9rifier que les produits logiciels r=C3=A9pondent aux=
+ exigences sp=C3=A9cifi=C3=A9es et fonctionnent comme pr=C3=A9vu.&nbsp;</sp=
+an></li>
+<li data-inline-task-id=3D"312"><span class=3D"placeholder-inline-tasks">te=
+ster un bug</span></li>
+<li data-inline-task-id=3D"313"><span class=3D"placeholder-inline-tasks">Te=
+ster est un vrai m=C3=A9tier, il faut de vrais r=C3=B4les de testeurs disti=
+ncts des programmeurs.</span></li>
+<li data-inline-task-id=3D"314"><span class=3D"placeholder-inline-tasks">Le=
+ test ne doit pas =C3=AAtre sous-=C3=A9valu=C3=A9, de l=E2=80=99ordre de 25=
+ =C3=A0 30% de l=E2=80=99effort d=E2=80=99un projet de d=C3=A9veloppement.<=
+/span></li>
+<li data-inline-task-id=3D"315"><span class=3D"placeholder-inline-tasks">L'=
+environnement de test et les jeux de donn=C3=A9es de test doivent =C3=AAtre=
+ d=C3=A9finis, configurables, =C3=A0 la demande, stables et accessibles en =
+mock ou non le plus t=C3=B4t possible dans le cycle de vie pour =C3=A9limin=
+er les erreurs de conception et faciliter le travail des =C3=A9quipes de te=
+st/d=C3=A9veloppement.</span></li>
+<li data-inline-task-id=3D"316"><span class=3D"placeholder-inline-tasks">Un=
+e application doit toujours =C3=AAtre con=C3=A7ue de mani=C3=A8re =C3=A0 =
+=C3=AAtre testable, et un bon d=C3=A9coupage en composants est une aide pr=
+=C3=A9cieuse sur ce point.</span></li>
+<li data-inline-task-id=3D"317"><span class=3D"placeholder-inline-tasks">Il=
+ convient d=E2=80=99investir sur toutes les dimensions du test y compris l=
+=E2=80=99acceptation par les utilisateurs et l=E2=80=99ergonomie.</span></l=
+i>
+<li data-inline-task-id=3D"318"><span class=3D"placeholder-inline-tasks">Il=
+ faut d=C3=A9finir les conditions d=E2=80=99exploitation du syst=C3=A8me et=
+ tester les configurations, la mont=C3=A9e en charge ou le comportement en =
+cas de coupure r=C3=A9seau et non le moindre, qui est le moins test=C3=A9 =
+=E2=86=92 "la s=C3=A9curit=C3=A9".</span></li>
+<li data-inline-task-id=3D"319"><span class=3D"placeholder-inline-tasks">C=
+=E2=80=99est toujours une bonne id=C3=A9e d=E2=80=99investir sur l=E2=80=99=
+automatisation pour l=E2=80=99ensemble des tests et en particulier pour val=
+ider la non-r=C3=A9gression. L=E2=80=99automatisation des tests est aussi u=
+n vrai m=C3=A9tier, il faut de vrais r=C3=B4les d=E2=80=99automaticiens dis=
+tincts des QA et programmeurs.</span></li>
+<li data-inline-task-id=3D"320"><span class=3D"placeholder-inline-tasks">Le=
+s plans de test sont du d=C3=A9veloppement qui font partie de la gestion de=
+s versions/livraisons.</span></li>
+<li data-inline-task-id=3D"321"><span class=3D"placeholder-inline-tasks">Co=
+mme pour le d=C3=A9veloppement, un travail partiel bien cibl=C3=A9 permet d=
+e couvrir l=E2=80=99essentiel selon une r=C3=A8gle de 80/20. Il vaut mieux =
+commencer par cela et am=C3=A9liorer par it=C3=A9ration, que chercher =C3=
+=A0 tout prix une exhaustivit=C3=A9 utopique.</span></li>
+<li data-inline-task-id=3D"322"><span class=3D"placeholder-inline-tasks">=
+=C3=8Atre strat=C3=A9gique en =C3=A9tablissant nos conventions, ma=C3=AEtri=
+sant l=E2=80=99adoption des meilleurs pratiques et =C3=A9vitant les anti-pa=
+tterns.<br>
+Voici l=E2=80=99exemple d=E2=80=99une super bonne pratique : Le d=C3=A9cala=
+ge vers la gauche pr=C3=A9sente de nombreux avantages autres que de facilit=
+er les validations et les efforts de d=C3=A9veloppement sur une base contin=
+ue (valider au fur et =C3=A0 mesure).&nbsp;</span></li>
+<li data-inline-task-id=3D"323"><span class=3D"placeholder-inline-tasks">Co=
+mment n=C3=A9gocier avec le legacy=E2=80=A6&nbsp;<br>
+exemple : Ne pas transf=C3=A9rer d=E2=80=99un coup tous les vieux tests dan=
+s un nouveau syst=C3=A8me ! Il faut avant tout, prioriser et proc=C3=A9der =
+de fa=C3=A7on it=C3=A9rative le transf=C3=A8re selon les conventions en vig=
+ueurs&nbsp;<br>
+exemple : L=E2=80=99application n=E2=80=99est pas d=C3=A9couplable par nive=
+aux et donc pas moquable, l'=C3=A9valuation de la valeur ajout=C3=A9e sera =
+diff=C3=A9rente.&nbsp;</span></li>
+<li data-inline-task-id=3D"324"><span class=3D"placeholder-inline-tasks">Co=
+mment n=C3=A9gocier/tester avec les 3rd parties ?&nbsp;<br>
+Comment assurer la qualit=C3=A9 sans l=E2=80=99acc=C3=A8s au d=C3=A9veloppe=
+ment ?&nbsp;</span></li>
+<li data-inline-task-id=3D"325"><span class=3D"placeholder-inline-tasks">So=
+uvent lors de l=E2=80=99embauche, il n=E2=80=99est =C3=A9crit nul part qu=
+=E2=80=99elle sont vos/nos responsabilit=C3=A9s en mati=C3=A8re d'assurance=
+ qualit=C3=A9 !<br>
+Cela occasion beaucoup de friction ! C=E2=80=99est pourquoi une strat=C3=A9=
+gie des responsabilit=C3=A9s (test) qualit=C3=A9 existe !&nbsp;</span></li>
+<li data-inline-task-id=3D"326"><span class=3D"placeholder-inline-tasks">Pr=
+ioriser les tests</span></li>
+<li data-inline-task-id=3D"327"><span class=3D"placeholder-inline-tasks">D=
+=C3=A9finition d=E2=80=99un test&nbsp;</span></li>
+</ul>
+<ol start=3D"1">
+<li>
+<p>Clart=C3=A9&nbsp;</p></li>
+<li>
+<p>Maintenabilit=C3=A9&nbsp;</p></li>
+<li>
+<p>R=C3=A9utilisabilit=C3=A9&nbsp;</p></li>
+<li>
+<p>Simultan=C3=A9it=C3=A9/autonome (unitaire)&nbsp;</p></li>
+</ol>
+<p>Gardez =C3=A0 l=E2=80=99esprit le principe de coh=C3=A9rence =C3=A9lev=
+=C3=A9e&nbsp;</p>
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"1990592136">
+<li data-inline-task-id=3D"328"><span>&nbsp;</span></li>
+</ul>
+<p>Exemple d=E2=80=99un tableau d=E2=80=99evaluation du delta</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"6d=
+ea84bd-303e-4337-ba74-4dd9b42b58b6" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Projet&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Jira projet X&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>=C3=89quipe produit&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Team X&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>Responsable AQ<code>&nbsp;</code><br>
+(QA lead)&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>QA lead X&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#e9f2ff" class=3D"confluenceTd">
+<p>&nbsp;&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>Valider au plus vite/t=C3=B4t possible&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>0&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>Avoir le moins de tests possible&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>0&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>Automatiser le plus possible&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>1&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#e9f2ff" class=3D"confluenceTd">
+<p>&nbsp;&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>S=C3=A9curit=C3=A9&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>0&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>Compatibilit=C3=A9&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>1&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>Performance&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>0&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>Utilisabilit=C3=A9&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>0&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>Accessibilit=C3=A9&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>0&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>Localisation&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>1&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#e9f2ff" class=3D"confluenceTd">
+<p>&nbsp;&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>DevOps&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>0&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>Ci/Cd&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>0&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>Environnements de test&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>1&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>Donn=C3=A9es de test&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>1&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>Mock&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>1&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>D=C3=A9ploiements&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>1&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#e9f2ff" class=3D"confluenceTd">
+<p>&nbsp;&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>Gestion de test&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>1&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>Modularit=C3=A9 des tests&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>0&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>Plan de test&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>0&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#e9f2ff" class=3D"confluenceTd">
+<p>&nbsp;&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>Organisation Jira/SDLC&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>0&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>Am=C3=A9lioration en continue&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>0&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>Story documentation&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>0&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#e9f2ff" class=3D"confluenceTd">
+<p>&nbsp;&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>Gestion de livraison&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>0&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>&nbsp;&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>&nbsp;&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>Communication/entraide&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>1&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>&nbsp;&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>&nbsp;&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>Gestion des anomalies&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>1&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>Tra=C3=A7abilit=C3=A9/pr=C3=A9vention des anomalies&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>0&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>&nbsp;&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>&nbsp;&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>Documentation vivante =C3=A0 source unique&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>0&nbsp;</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#dcfff1" class=3D"confluenceTd">
+<p>&nbsp;&nbsp;</p></td>
+<td data-highlight-colour=3D"transparent" class=3D"confluenceTd">
+<p>&nbsp;&nbsp;</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<h3 id=3D"Politiquedetest(qualit=C3=A9)-Introduction">Introduction</h3>
+<p>La <strong>strat=C3=A9gie de test</strong> pour un projet logiciel est u=
+n ensemble de directives et d=E2=80=99approches visant =C3=A0 garantir la q=
+ualit=C3=A9 du produit final. Elle englobe tous les aspects du test, de la =
+planification =C3=A0 l=E2=80=99ex=C3=A9cution, en passant par l=E2=80=99=C3=
+=A9valuation des r=C3=A9sultats.</p>
+<h3 id=3D"Politiquedetest(qualit=C3=A9)-D=C3=A9finition">D=C3=A9finition</h=
+3>
+<p>La <strong>strat=C3=A9gie de test</strong> est la mani=C3=A8re dont une =
+=C3=A9quipe de test organise ses activit=C3=A9s pour atteindre les objectif=
+s de test. Elle tient compte des sp=C3=A9cificit=C3=A9s du projet, des cont=
+raintes budg=C3=A9taires, des d=C3=A9lais et des ressources disponibles.</p=
+>
+<h3 id=3D"Politiquedetest(qualit=C3=A9)-Contexte">Contexte</h3>
+<p>Le contexte d=E2=80=99un projet logiciel peut varier :</p>
+<ul>
+<li>
+<p><strong>Type de logiciel</strong> : Application web, application mobile,=
+ logiciel embarqu=C3=A9, etc.</p></li>
+<li>
+<p><strong>Industrie</strong> : Sant=C3=A9, finance, jeux, etc.</p></li>
+<li>
+<p><strong>Taille de l=E2=80=99=C3=A9quipe</strong> : Petite =C3=A9quipe ag=
+ile ou grande =C3=A9quipe traditionnelle.</p></li>
+</ul>
+<h3 id=3D"Politiquedetest(qualit=C3=A9)-Objectifs">Objectifs</h3>
+<ol start=3D"1">
+<li>
+<p><strong>Validation des exigences</strong> : S=E2=80=99assurer que le log=
+iciel r=C3=A9pond aux sp=C3=A9cifications fonctionnelles et non fonctionnel=
+les.</p></li>
+<li>
+<p><strong>D=C3=A9tection pr=C3=A9coce des anomalies</strong> : Identifier =
+les d=C3=A9fauts d=C3=A8s que possible pour minimiser les co=C3=BBts de cor=
+rection.</p></li>
+<li>
+<p><strong>Optimisation des ressources</strong> : Utiliser efficacement les=
+ ressources (humaines, mat=C3=A9rielles, logicielles).</p></li>
+<li>
+<p><strong>R=C3=A9duction des risques</strong> : Identifier et g=C3=A9rer l=
+es risques li=C3=A9s =C3=A0 la qualit=C3=A9 du logiciel.</p></li>
+</ol>
+<h3 id=3D"Politiquedetest(qualit=C3=A9)-M=C3=A9thodologie.1">M=C3=A9thodolo=
+gie</h3>
+<ol start=3D"1">
+<li>
+<p><strong>Planification</strong> :</p>
+<ul>
+<li>
+<p>=C3=89tablir un plan de test d=C3=A9taill=C3=A9.</p></li>
+<li>
+<p>Identifier les sc=C3=A9narios de test, les cas de test et les crit=C3=A8=
+res d=E2=80=99acceptation.</p></li>
+<li>
+<p>Allouer les ressources (testeurs, environnements de test).</p></li>
+</ul></li>
+<li>
+<p><strong>Conception des cas de test</strong> :</p>
+<ul>
+<li>
+<p>Cr=C3=A9er des cas de test couvrant toutes les fonctionnalit=C3=A9s du l=
+ogiciel.</p></li>
+<li>
+<p>Inclure des tests unitaires, d=E2=80=99int=C3=A9gration, de syst=C3=A8me=
+ et de r=C3=A9gression.</p></li>
+</ul></li>
+<li>
+<p><strong>Ex=C3=A9cution des tests</strong> :</p>
+<ul>
+<li>
+<p>Appliquer les cas de test selon le plan.</p></li>
+<li>
+<p>Utiliser des outils de test automatis=C3=A9 si possible.</p></li>
+<li>
+<p>Documenter les r=C3=A9sultats.</p></li>
+</ul></li>
+<li>
+<p><strong>=C3=89valuation des r=C3=A9sultats</strong> :</p>
+<ul>
+<li>
+<p>Analyser les rapports de test.</p></li>
+<li>
+<p>Prioriser les corrections en fonction de l=E2=80=99impact sur l=E2=80=99=
+utilisateur.</p></li>
+<li>
+<p>R=C3=A9p=C3=A9ter les tests apr=C3=A8s chaque modification.</p></li>
+</ul></li>
+</ol>
+<h3 id=3D"Politiquedetest(qualit=C3=A9)-Exemples">Exemples</h3>
+<ul>
+<li>
+<p><strong>Sc=C3=A9nario de test</strong> :</p>
+<ul>
+<li>
+<p><strong>Objectif</strong> : V=C3=A9rifier la fonctionnalit=C3=A9 d=E2=80=
+=99inscription d=E2=80=99un utilisateur.</p></li>
+<li>
+<p><strong>=C3=89tapes</strong> :</p>
+<ol start=3D"1">
+<li>
+<p>Acc=C3=A9der =C3=A0 la page d=E2=80=99inscription.</p></li>
+<li>
+<p>Saisir les informations requises (nom, e-mail, mot de passe).</p></li>
+<li>
+<p>Valider l=E2=80=99inscription.</p></li>
+<li>
+<p>V=C3=A9rifier si l=E2=80=99utilisateur peut se connecter avec les m=C3=
+=AAmes informations.</p></li>
+</ol></li>
+</ul></li>
+</ul>
+<h3 id=3D"Politiquedetest(qualit=C3=A9)-Bonnespratiques">Bonnes pratiques</=
+h3>
+<ul>
+<li>
+<p>Impliquer les parties prenantes (d=C3=A9veloppeurs, testeurs, utilisateu=
+rs) d=C3=A8s le d=C3=A9but.</p></li>
+<li>
+<p>Adapter la strat=C3=A9gie en fonction des changements dans le projet.</p=
+></li>
+<li>
+<p>Documenter les d=C3=A9cisions prises et les le=C3=A7ons apprises.</p></l=
+i>
+</ul>
+<h3 id=3D"Politiquedetest(qualit=C3=A9)-R=C3=A9f=C3=A9rencesetsources">R=C3=
+=A9f=C3=A9rences et sources</h3>
+<ul>
+<li>
+<p>Wikipedia sur la strat=C3=A9gie de test</p></li>
+<li>
+<p>Norme ISO/IEC/IEEE 29119 sur le test logiciel</p></li>
+</ul>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p>Liens Confluence =C3=A0 faire le m=C3=A9nage</p>
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"1990592136">
+<li data-inline-task-id=3D"329"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/BsttwUXf" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/BsttwUXf</a> </span></li>
+<li data-inline-task-id=3D"330"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/3qrpgwWb" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/3qrpgwWb</a> / <a href=3D"https://petalmd.atlassian.net/l/cp/X=
+NBht3KX" data-card-appearance=3D"inline" class=3D"external-link" rel=3D"nof=
+ollow">https://petalmd.atlassian.net/l/cp/XNBht3KX</a> </span></li>
+<li data-inline-task-id=3D"331"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/7RDAf1VF" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/7RDAf1VF</a> </span></li>
+<li data-inline-task-id=3D"332"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/1N6Ax80R" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/1N6Ax80R</a> </span></li>
+<li data-inline-task-id=3D"333"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/rKP10en1" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/rKP10en1</a> </span></li>
+<li data-inline-task-id=3D"334"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/5q4bs0ky" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/5q4bs0ky</a> </span></li>
+<li data-inline-task-id=3D"335"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/d5NY9PQs" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/d5NY9PQs</a> </span></li>
+<li data-inline-task-id=3D"336"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/05ptZonV" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/05ptZonV</a> </span></li>
+<li data-inline-task-id=3D"337"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/Abk5M0ZH" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/Abk5M0ZH</a> </span></li>
+<li data-inline-task-id=3D"338"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/8HuVJdaQ" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/8HuVJdaQ</a> </span></li>
+<li data-inline-task-id=3D"339"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/uSh6FXJW" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/uSh6FXJW</a> </span></li>
+<li data-inline-task-id=3D"340"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/1n1brqrB" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/1n1brqrB</a> </span></li>
+<li data-inline-task-id=3D"341"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/rT0UZ3Ee" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/rT0UZ3Ee</a> </span></li>
+<li data-inline-task-id=3D"342"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/4r5y8vTF" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/4r5y8vTF</a> </span></li>
+<li data-inline-task-id=3D"343"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/8RwKG9GC" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/8RwKG9GC</a> </span></li>
+<li data-inline-task-id=3D"344"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/pSC2qu71" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/pSC2qu71</a> </span></li>
+<li data-inline-task-id=3D"345"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/L1st7mb1" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/L1st7mb1</a> </span></li>
+<li data-inline-task-id=3D"346"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/Sj59jkV1" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/Sj59jkV1</a> </span></li>
+<li data-inline-task-id=3D"347"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/zC81FHsk" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/zC81FHsk</a> </span></li>
+<li data-inline-task-id=3D"348"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/F00j5DZu" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/F00j5DZu</a> </span></li>
+<li data-inline-task-id=3D"349"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/wVaFme8E" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/wVaFme8E</a> </span></li>
+<li data-inline-task-id=3D"350"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/ozu52v1i" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/ozu52v1i</a> </span></li>
+<li data-inline-task-id=3D"351"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/iVbXAd8H" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/iVbXAd8H</a> </span></li>
+<li data-inline-task-id=3D"352"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/KQT4Bd1r" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/KQT4Bd1r</a> </span></li>
+<li data-inline-task-id=3D"353"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/NVfbhuYx" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/NVfbhuYx</a> </span></li>
+<li data-inline-task-id=3D"354"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/U8JTvUzF" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/U8JTvUzF</a> </span></li>
+<li data-inline-task-id=3D"355"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/a2BMwZnX" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/a2BMwZnX</a> </span></li>
+<li data-inline-task-id=3D"356"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/G1FtLV7H" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/G1FtLV7H</a> </span></li>
+<li data-inline-task-id=3D"357"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/w1w1X5dD" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/w1w1X5dD</a> </span></li>
+<li data-inline-task-id=3D"358"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/114ky6e0" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/114ky6e0</a> </span></li>
+<li data-inline-task-id=3D"359"><span class=3D"placeholder-inline-tasks"><a=
+ href=3D"https://petalmd.atlassian.net/l/cp/otn7iiKR" data-card-appearance=
+=3D"inline" class=3D"external-link" rel=3D"nofollow">https://petalmd.atlass=
+ian.net/l/cp/otn7iiKR</a> </span></li>
+<li data-inline-task-id=3D"360"><span>&nbsp;</span></li>
+</ul>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<ol start=3D"1">
+<li>
+<p>Adh=C3=A9rer =C3=A0 l=E2=80=99id=C3=A9e !</p>
+<ul>
+<li>
+<p>Mesurer le niveau actuel de la politique de test</p></li>
+<li>
+<p>Fixer des objectifs pour atteindre le gold</p></li>
+</ul></li>
+<li>
+<p>Selon le principe de la culture qualit=C3=A9 qui est d'<strong>=C3=AAtre=
+ proactif</strong>, voici les recommandations =C3=A0 mettre en place :</p>
+<ul>
+<li>
+<p><strong>Cartographier les bugs et les tests dans le produit, le o=C3=B9 =
+!</strong> Le MBT (Model-Based Testing) est id=C3=A9al pour les application=
+s complexes. Il permet de r=C3=A9duire l=E2=80=99inconnu en identifiant les=
+ zones =C3=A0 risque, d=E2=80=99anticiper les impacts des changements et d=
+=E2=80=99am=C3=A9liorer continuellement le produit en proposant des optimis=
+ations.</p></li>
+<li>
+<p><strong>Chronologiser les bugs et les tests dans le SDLC, le quand !</st=
+rong> Planifier et suivre les tests =C3=A0 chaque phase du SDLC permet de d=
+=C3=A9tecter les bugs t=C3=B4t et de les corriger avant qu=E2=80=99ils ne d=
+eviennent majeurs, de r=C3=A9duire les r=C3=A9gressions en assurant la stab=
+ilit=C3=A9 avec des tests r=C3=A9guliers, et d=E2=80=99analyser les tendanc=
+es pour identifier les phases =C3=A0 risque.</p></li>
+<li>
+<p><strong>Lier les bugs aux tests !</strong> Des concepts comme 1 bug - 1 =
+test et z=C3=A9ro bug aident =C3=A0 relier chaque bug =C3=A0 un test sp=C3=
+=A9cifique, =C3=A0 pr=C3=A9venir leur r=C3=A9apparition et =C3=A0 am=C3=A9l=
+iorer la qualit=C3=A9 globale du produit gr=C3=A2ce =C3=A0 une approche sys=
+t=C3=A9matique et tra=C3=A7able.</p></li>
+<li>
+<p><strong>=C3=89tablir un niveau critique</strong> D=C3=A9finir des niveau=
+x critiques pour les bugs et les tests permet de prioriser les efforts de c=
+orrection et de pr=C3=A9vention, en se concentrant sur les probl=C3=A8mes l=
+es plus impactants pour la qualit=C3=A9 du produit.</p></li>
+<li>
+<p><strong>Alerter et pr=C3=A9voir des proc=C3=A9dures/processus de support=
+ et/ou d=E2=80=99intervention</strong> Mettre en place des syst=C3=A8mes d=
+=E2=80=99alerte et des proc=C3=A9dures de support et d=E2=80=99intervention=
+ permet de r=C3=A9agir rapidement aux probl=C3=A8mes identifi=C3=A9s, minim=
+isant ainsi leur impact et facilitant une r=C3=A9solution rapide et efficac=
+e.</p></li>
+<li>
+<p><strong>Analyser les statistiques et m=C3=A9triques pour en d=C3=A9finir=
+ les besoins/solutions !</strong> Utiliser des outils d=E2=80=99analyse pou=
+r examiner les donn=C3=A9es de performance et de qualit=C3=A9 permet d=E2=
+=80=99identifier les tendances et les probl=C3=A8mes r=C3=A9currents. Cela =
+aide =C3=A0 d=C3=A9finir des besoins pr=C3=A9cis et =C3=A0 proposer des sol=
+utions adapt=C3=A9es, am=C3=A9liorant ainsi la qualit=C3=A9 du produit de m=
+ani=C3=A8re continue.</p></li>
+<li>
+<p><strong>Planifier la qualit=C3=A9 pour chaque release de la r=C3=A9alisa=
+tion de nos besoins/solutions !</strong> Int=C3=A9grer la planification de =
+la qualit=C3=A9 dans chaque cycle de release assure que les besoins et solu=
+tions identifi=C3=A9s sont syst=C3=A9matiquement pris en compte. Cela perme=
+t de garantir que chaque nouvelle version du produit r=C3=A9pond aux standa=
+rds de qualit=C3=A9 d=C3=A9finis, tout en anticipant et en =C3=A9vitant les=
+ probl=C3=A8mes potentiels.</p></li>
+</ul></li>
+<li>
+<p>Selon le principe de la culture qualit=C3=A9 qui est de <strong>se mesur=
+er</strong>, voici les recommandations =C3=A0 mettre en place :</p>
+<ul>
+<li>
+<p>Gestion et <strong>tra=C3=A7abilit=C3=A9 des bugs</strong></p></li>
+<li>
+<p>Couverture et <strong>tra=C3=A7abilit=C3=A9 des tests</strong> (couvertu=
+re de test)</p></li>
+<li>
+<p>Mesurer la <strong>satisfaction</strong>/confiance</p></li>
+</ul></li>
+<li>
+<p>Selon le principe de la culture qualit=C3=A9 qui est de rendre la qualit=
+=C3=A9 une <strong>n=C3=A9cessit=C3=A9</strong>, voici les recommandations =
+=C3=A0 mettre en place :</p>
+<ul>
+<li>
+<p>Prise de conscience du pacte avec la strat=C3=A9gie de test, c=E2=80=99e=
+st notre travail que d=E2=80=99assurer la qualit=C3=A9.</p></li>
+<li>
+<p>Un ambassadeur qualit=C3=A9 fait la promotion de la qualit=C3=A9. Il est=
+ aussi la personne responsable de faire le suivi, d=E2=80=99escalader et pa=
+rtager les difficult=C3=A9s au besoin (=C3=A0 la communaut=C3=A9, aux staff=
+ qualit=C3=A9 et ou staff dev=E2=80=A6) Un ambassadeur qualit=C3=A9 peut =
+=C3=AAtre autant un gestionnaire, un leader, un PM, un Dev, un analyste, un=
+ Scrum/Flow master=E2=80=A6 Attente de communiquer r=C3=A9guli=C3=A8rement(=
+weekly) le staff qualit=C3=A9 pour faire un suivi de l'=C3=A9tat de la stra=
+t=C3=A9gie produit.</p></li>
+</ul></li>
+</ol>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p><strong>Exemple de ce que l=E2=80=99on peut y retrouver</strong> :</p>
+<ul>
+<li>
+<p>Une strat=C3=A9gie de test est une approche globale pour atteindre les o=
+bjectifs de test selon un contexte. (de la politique)</p></li>
+<li>
+<p>Elle guide la s=C3=A9lection des m=C3=A9thodes, des outils et des ressou=
+rces pour ex=C3=A9cuter les tests. (de la politique)</p></li>
+</ul>
+<p>Contexte de strat=C3=A9gie de test :</p>
+<ul>
+<li>
+<p><strong>Dans le contexte d=E2=80=99=C3=A9quipe</strong> :</p>
+<ul>
+<li>
+<p>Cette strat=C3=A9gie se concentre sur les pratiques sp=C3=A9cifiques d=
+=E2=80=99une =C3=A9quipe de d=C3=A9veloppement ou de test.</p></li>
+<li>
+<p>Objectif : Optimiser les processus de test au sein de l=E2=80=99=C3=A9qu=
+ipe.</p></li>
+<li>
+<p>M=C3=A9thodes :</p>
+<ul>
+<li>
+<p>D=C3=A9finir des r=C3=B4les et des responsabilit=C3=A9s clairs pour les =
+membres de l=E2=80=99=C3=A9quipe.</p></li>
+<li>
+<p>Choisir les pratiques en fonction de la maturit=C3=A9 de l'=C3=A9quipe.<=
+/p></li>
+<li>
+<p>Organiser des post-mortems pour am=C3=A9liorer les objectifs de la quali=
+t=C3=A9.</p></li>
+</ul></li>
+</ul></li>
+<li>
+<p><strong>Dans le contexte produit ou fonctionnalit=C3=A9</strong> :</p>
+<ul>
+<li>
+<p>Cette strat=C3=A9gie se concentre sur un produit sp=C3=A9cifique ou une =
+fonctionnalit=C3=A9 particuli=C3=A8re.</p></li>
+<li>
+<p>Objectif : Tester en profondeur les fonctionnalit=C3=A9s critiques.</p><=
+/li>
+<li>
+<p>M=C3=A9thodes :</p>
+<ul>
+<li>
+<p>Identifier les cas d=E2=80=99utilisation cl=C3=A9s et les sc=C3=A9narios=
+ de test.</p></li>
+<li>
+<p>Prioriser les tests en fonction de l=E2=80=99impact commercial et des ri=
+sques.</p></li>
+<li>
+<p>Utiliser des techniques de test sp=C3=A9cifiques, telles que les tests d=
+e s=C3=A9curit=C3=A9 ou les tests de performance.</p></li>
+</ul></li>
+</ul></li>
+<li>
+<p><strong>Dans le contexte de la stack technologique</strong> :</p>
+<ul>
+<li>
+<p>Cette strat=C3=A9gie prend en compte les technologies utilis=C3=A9es (la=
+ngages de programmation, bases de donn=C3=A9es, frameworks, etc.).</p></li>
+<li>
+<p>Objectif : Adapter les m=C3=A9thodes de test aux sp=C3=A9cificit=C3=A9s =
+techniques.</p></li>
+<li>
+<p>M=C3=A9thodes :</p>
+<ul>
+<li>
+<p>S=C3=A9lectionner des outils de test compatibles avec la stack technolog=
+ique.</p></li>
+<li>
+<p>Tester les int=C3=A9grations entre les composants techniques.</p></li>
+<li>
+<p>V=C3=A9rifier la compatibilit=C3=A9 avec les navigateurs, les syst=C3=A8=
+mes d=E2=80=99exploitation, etc.</p></li>
+</ul></li>
+</ul></li>
+<li>
+<p><strong>Dans le contexte du secteur d=E2=80=99activit=C3=A9</strong> :</=
+p>
+<ul>
+<li>
+<p>Cette strat=C3=A9gie tient compte des particularit=C3=A9s du domaine d=
+=E2=80=99activit=C3=A9 (finance, sant=C3=A9, e-commerce, etc.).</p></li>
+<li>
+<p>Objectif : R=C3=A9pondre aux exigences sp=C3=A9cifiques du secteur.</p><=
+/li>
+<li>
+<p>M=C3=A9thodes :</p>
+<ul>
+<li>
+<p>Comprendre les r=C3=A9glementations et les normes applicables.</p></li>
+<li>
+<p>Effectuer des tests de conformit=C3=A9 et de s=C3=A9curit=C3=A9 sp=C3=A9=
+cifiques au secteur.</p></li>
+<li>
+<p>Adapter les sc=C3=A9narios de test aux cas d=E2=80=99utilisation r=C3=A9=
+els.</p></li>
+</ul></li>
+</ul></li>
+</ul>
+<p></p>
+<p></p>
+<h2 id=3D"Politiquedetest(qualit=C3=A9)-Contenutypiquedelapolitique">Conten=
+u typique de la politique</h2>
+<p><strong>Introduction :</strong> Importance des tests pour garantir la qu=
+alit=C3=A9 des produits.</p>
+<p><strong>Objectifs :</strong> D=C3=A9tecter et corriger les d=C3=A9fauts =
+avant la mise en production.</p>
+<p><strong>Principes directeurs :</strong> Tests automatis=C3=A9s et manuel=
+s, couverture de test compl=C3=A8te.</p>
+<p><strong>Engagements :</strong> Maintenir des standards =C3=A9lev=C3=A9s =
+de qualit=C3=A9, r=C3=A9duire les bugs en production.</p>
+<p><strong>M=C3=A9canismes de feedback :</strong> Rapports de test, feedbac=
+k des =C3=A9quipes de d=C3=A9veloppement.</p>
+<p><strong>=C3=89valuation et am=C3=A9lioration continue :</strong> Analyse=
+ des r=C3=A9sultats de test, am=C3=A9lioration des scripts et des processus=
+ de test.</p>
+<h2 id=3D"Politiquedetest(qualit=C3=A9)-Templatepourlastrat=C3=A9giedecette=
+politique">Template pour la strat=C3=A9gie de cette politique</h2>
+<p><strong>Objectifs :</strong> D=C3=A9crire les objectifs sp=C3=A9cifiques=
+ de la strat=C3=A9gie (ex. : augmenter la couverture de test =C3=A0 90% en =
+six mois).</p>
+<p><strong>Analyse de la Situation Actuelle :</strong> R=C3=A9sumer l=E2=80=
+=99=C3=A9tat actuel des tests, identifier les points forts et les domaines =
+=C3=A0 am=C3=A9liorer.</p>
+<p><strong>Actions =C3=A0 Entreprendre :</strong> D=C3=A9tail des actions s=
+p=C3=A9cifiques =C3=A0 mettre en place (ex. : d=C3=A9veloppement de nouveau=
+x scripts de test, formation des =C3=A9quipes).</p>
+<p><strong>Ressources N=C3=A9cessaires :</strong> Identifier les ressources=
+ humaines, financi=C3=A8res et mat=C3=A9rielles n=C3=A9cessaires pour mettr=
+e en =C5=93uvre la strat=C3=A9gie.</p>
+<p><strong>Indicateurs de Performance :</strong> D=C3=A9finir les KPI (Key =
+Performance Indicators) pour mesurer le succ=C3=A8s de la strat=C3=A9gie.</=
+p>
+<p><strong>Plan de Communication :</strong> D=C3=A9crire comment la strat=
+=C3=A9gie sera communiqu=C3=A9e en interne et en externe.</p>
+<p><strong>=C3=89valuation et Ajustements :</strong> Expliquer comment et q=
+uand la strat=C3=A9gie sera =C3=A9valu=C3=A9e et ajust=C3=A9e en fonction d=
+es r=C3=A9sultats obtenus.</p>
+    </div>
+</body>
+</html>
+------=_Part_28_1246487553.1733321909511
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/fe68196951cddba5bbfd6c96d9c3507ffc4e3727de293297072ee4a9e7736fbe
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAwFBMVEVHcEzdLkTM1t2ZqrXdLkTd
+LkSZqrWZqrXM1t3dLkTdLkSZqrWZqrXdLkTdLkSZqrXdLkTM1t3dLkTdLkSZqrXdLkTdLkTdLkTd
+LkTM1t2ZqrXsna3dLkTqlaW+GTHifI7jhJbWW2/cbH/EHTXKITjhSl7XKT/PJDvBITnbLEPpiJnS
+U2fKOlDEKkHlZnnBGjLlbH/edIbIMUffPFHYY3fojp/eNUvGHjbogZPiUWXgQ1jPS2DSJj3MQljD
+Izrmc4aMYNRLAAAAGXRSTlMAZN+/EK/fgEC/QO9wn8+PIDCAj2DfUO8wIoupNwAAAoJJREFUeF6k
+l8lu2zAQQGPAOliAjUCB2gJDUvvmfd+y9P//qhqJDQ2a43aSd/GcHjz2k0Q93RKEgsFk8ORmOBFM
+xm7RSLB5cXkG4gs8O0QeKVhPSVHA2mwKO0rkOUSCBKCgRCOO6AqwpEThveeZFF0AfguKe5HvlDRv
+1SkBiE75W+MUDR+Jdkc9lLlq2QAAfmafrqsR+XeiwIjkoeg0meqIAWChkFWFgt0Ziv8TnfHXbXKl
+gZa5nrNSXCTI44OQxkZ0lADTrdJsUTRTmo816BqMiO6xAAD5qkXvKNr/teKea7tIOuw1tKS1QhKc
+o94zw3lqF0n32GQxmg7deimOEqc66sZtaRVJi3K1lYAkrSgCpG53lIDMVPaoyF/CUPZLINFC9cNc
+7fth07orq0gq7JPOEJHamMbQcaixp4Yu8sftF0JqCTYmqMoSuXvUJc7BQaI6VlZIbtFK9SRwR6w0
+JSnyrM2QGCwkXnLWbh7ZY6U09StYpJ+inCxycitazGf7SIKLKE3e204zskht2RXLNIJ/Em+Wl6s2
+uURLYHF2FOl/XeQ7RNzVHKKBYP7YVJGB4P/9tIgfJOIRPXIvETGyRNyLligyFNzbiMHqkXtjMwwJ
+EetWi/hWj/ybPy3iP46QwAqb8YCkRdgj85HtLvIFBbxDhGFE9Mg61iChJeIdtIgif6KAdfQjikQB
+5zBKhTREAft4bEREj8SBnSagRfQrBC0yPTJfagyeJeK8ZhFFjsW3CIke+XxDRBTJEdAh/WmWDk4A
+CKEghoYvqKAggpdv/4VuEeawKeAdhtmRz8UGIoUCeip1D5pXadIcqLEcaFEcqHjQcKDBlfofpG3k
+PZtT35l6+ADOXuchuy5uMgAAAABJRU5ErkJggg==
+------=_Part_28_1246487553.1733321909511
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/97847e991cc065c8d056f41162f7484e548c227caf0bf6580a1efe15324ee3e1
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAARVBMVEVHcEx3slV3slV3slV3slV3
+slX///93slWAt2D3+vSRwHXM4r+72aqz1J/u9eqIvGrm8d+qz5WZxYDd7NXV58rE3bWiyor8Z4cF
+AAAABnRSTlMAYO8gz79WeQLOAAABcUlEQVR4Xu3YWY6DQAwEUEjA7pV1uf9RR1lGcjqtFGr3SPOR
+OsCD+imEm1vanhXp2+aRa8fKdNe7c2F1Ljep4wrpmqblKmmbvg7UN1wpfwZ9IbO4GtDoicgGNTRa
+usdroZWemXVQpN9MCMLFnlFBG9WBDuFsCshYAR0KaEteCEO4mDXlkBkEFLkc2oWzcjm0yGJjAimK
+FUMhKVYKORJxCmgSTuBySBabGECniymgVTg7l0NROIMph+Sa0cIAUhQDECiGILxmGHLekvUGrBmG
+jseTrcNrlofSBtaBYgCKRLlvqE/WDEMrCQmsGYaklF8zDO0k4z/MNIBGSqR8MQxxeJeGzJphiOOr
+tJr8mmGI51dpkqwD0EfpQzEA8WLzzsAISuPy0gIhLOXXDEM8Tu/FTAnEZsoVwxCWPBdCbDzhNcNQ
+ukIHKyAhbayCOIhiKohne3MGx1qITQxh/n+/ol+o2pGl2tmn1iGq2mms3rGu2vnwB/HSjdEb7tSV
+AAAAAElFTkSuQmCC
+------=_Part_28_1246487553.1733321909511
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/0297ee26b9e90c479195ee52958998d0cfc04dfa47a3928fffd956288221a6f9
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAulBMVEVHcEx3slV3slV3slV3slV3
+slV3slV3slV3slV3slV3slV3slU+ch13slV3slU+ch0+ch0+ch1mIRNmIRNmIRM+ch0+ch0+ch0+
+ch1mIRM+ch1mIRNmIRM+ch0+ch1mIRM+ch1mIRNmIRNmIRNmIRNmIRNmIRM+ch1tXy93slVmIRNm
+IRM+ch0+ch13slVmIRNMgis+ch1spktelj1vajRTijJJfihzjkV1oE10l0lpokdbkjl2qVFXjjZ/
+Qy5gAAAALnRSTlMAQM+PMIDf7xCfv1BAIHDPn2CPnxDvIDAQv4+AQN+AIL9gr1DvzzBQcK/fcK9w
+OE0mWwAAAdRJREFUeF7t19ly2kAQhtHWSLMhg22MscFr9r2Fl6zL+79W6CocedQiDH+Rm1TOpS6+
+YlojiaFc46Y5ox04a5Yo13RPnJD2rMkPvTo4vlm5vuzEJs+lM6YcU8m09g/pkSPpHFGew5vUxR49
+OJfOiwkhJTGnlZmEzinbQbe0f0riSi0MLI0ldEXbuOwtvV12nlILmtN7opfN0hPa0slFp/SB3klo
+Qts6naeh46lsohkBprLFW9ezx5s6BMpV2YG7vfv46XdpNaJQR8OC3cBWtEGwjh/cfrv7/nOxWEjo
+tX3DCWcD/YH1rEnoMyve0jqV4R5fJPSVe5hqTcdznx8S4l6+yu6I+6a55/xSMAwweuQlQ0rqGDJo
+SKnIoEgpzyBPiZphdcaogXEPGDbIGBEwJMbxPxwK/2e00c425E4fkd2HLMNsEhoxbJSECoYVSSgw
+LFDCMcj9ra/ICJ91qmJQRR0OH1Eq4iNK1QypSfEM8KRFbGVaDa5Mc9g90yz2CtEC+MBqERu1NgT/
+P2oR+0Ha0PMWfKC1LHjLNIftIa0AX/paCS5MM5zF0CbBI3cs/9ymz2lACeros23+WVYLZRtwZbFU
+urZTBspXRC8VE4v2ipGKlyt9fgHsFzkMCfjFhwAAAABJRU5ErkJggg==
+------=_Part_28_1246487553.1733321909511
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/f41e16cdc0a8efccb84b6424405207411b05bdaa564b66332bef52999094fbd4
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAsSwAALEsBpT2WqQAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1s
+bnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpS
+REYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMj
+Ij4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6
+dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmll
+bnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAg
+PC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAAiJJREFUOBF9U71rFHEQffPbvdwZEfS6iOVd
+ItqIBxFbg2irEGuRgLU2gob4eYWNhZ3pbL1A/oEEbFMc2KgxQcHGdJcgend7l93xvb0P5JQMzO78
+Zt6b33zsAkfIbN23Zl/41hEQhMng4juP5Jt77tfDFOZDEfNn635NvlFM9kj+SfBtY5jUcAdOGDUD
+bco4NmLzbcrakOMToY+pZj730k97H19hKA2xHYtR+fLAfsDd8JSRc+QyGDduWToEoTbjhSbQJ3kp
+lFDKujhUjPYx2ks0n9VWETefWF9+XWwc1D3ee5X2Ceop6knqDHWyPXaCPeoBdZ/6k3VsKIFHx9ln
+ly6jEubjmnj+S0zjVVrOhVUh/c03OVfSX+jmxD4SkjkHQSaEPsXYXiKsOJZhQXeiWvcL5tjkyspZ
+D0qRr3IihSpMudooS9DiKBd2H9mHUHvjBRlkXGRg20JOVr+TkinGC7aFFUfc0Lxr/cprL35etu8s
+Z8UKOe//CaZYhGNFWHHEzSd9psWyKSzrsuVNDS7nIFLp4DSYsTA6jzixDu/z2dNwXMo3oIE50qg4
+mEWaIGViDTHH8DnmyG36+s6/8vJhG7u8saxVRVpTG+sCR9O4kWrNbIwFtuJpVD/et5a4YbEx+GB6
+HdSMW+Am1Oc+Cbd3lu2mVDbJB3mMGGGVmJ9iCA39AxT2sucJ2t7FGsut7jy0t9CfSZUdAirewxo3
+1RFWHP0/fwCUx+0VJQXcvwAAAABJRU5ErkJggg==
+------=_Part_28_1246487553.1733321909511
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/a462a7645211d0497bb8bdeb21f1b2f6aae35bc55bf4536e404cae2c713bd1a2
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAXVBMVEVHcEz0kAz0kAz0kAz0kAz0
+kAz0kAz0kAz0kAz0kAz0kAz0kAz0kAz0kAz0kAz+yEn3oyD1mBT/zE31lBD4pyT8vT36ri38uTn9
+wUH7tjX6sjH3nxz5qij2mxj+xUUUvYt6AAAADnRSTlMAv0DfMGCv7xCAz59QIN/eNp0AAAKtSURB
+VHhevZjXbuMwEEUtmWoul021JP//mYuVCI7FiJYYGjlPCRCdXIIzbJdjWJ6zywcoC6Aof/01ZagA
+oKJ8Qc4MSEoKRJHKBMgCRAWAG7OBbCR2A1AEiLCkYCaQjcTWX857GFYyE8hEyrCSnhal9uslkIlU
+4fciXOH8GCbK8IbjaWO36/3xOlPQYmy4WuDNKDReZ/Bxvyb7FX/Df/KsXEW67pRDV+tVVGb5okw8
+xWPIE0C3XO3AWw0kq8VbUncQM1ce+Azivit6WI3s1Rt6aUUPTz0bBFdv4QKGyz5m6LU6pMZC/rZ8
+BnWC4W1BlZTnXKby4h+bUCcR+yNjaZpVVQLJz4q4RFJVWZoysmQFDOjVaRoYUJjme8IyqwBmWJ60
+jC1oHiLi2orM8BIYWppeCUA4A+0FAEnl0WKBere8uYFqrGz6v8NK7Ua62TJgxfYvBhrr3khsppo2
+CQPb/n/qypFEI/X0NiNzu0Pbb2CZSDTBYuX6Z59UgAgXCaBy++yKcUdEciV2RCOu5VZTFUCz883g
+NLxjb4CiKrcagFPBwPClXvj62UccMCrSAIro9OrZVDpfTbpTBGBVrKCRE3ycJjEoh0FM08iVIzK1
+lINE4UgY8kgRSMSKT4gKZuYsSuTOGw+10PS7BRkIFaTbIoFQi7hNGwQ1rX8ZORhk4y4j3oUNuu59
+lr7W8C5stNRSe8q5466Ed7MEtTIttb7Fv9dYkKJtG0PbCokF3XsWf3c7IpMLedztyLtB8gkeJu7Z
+IH1b9rAbSg++Ldt/iOCjhIN8XYx60CHi6FjT1eSCrDv/seb4oPXdtAvN9/FBK/7oF38Y/fjxOP7A
+HnWFaA6uENGXms9fs5JPXfxYEn4VjbwcR1/X//wBIf5JI/6RJf7ZJ/4hKv5p7Pk3j3Xxz4f/AIgh
+1YPZF1YwAAAAAElFTkSuQmCC
+------=_Part_28_1246487553.1733321909511
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/c632d19b2ce8e6cdcf840c6a049aef3833be285d6d7e3649f89200952fbab997
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAKfwAACn8AG1cEgF
+AAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpu
+czptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9
+Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRm
+OkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8v
+bnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3Rp
+ZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+Cjwv
+eDp4bXBtZXRhPgpMwidZAAACNElEQVQ4EY1TTY9MURA9dV/3vCZh0JJJzCxELNg1C2Jhg4iQFktr
+EsO/mH/BLFhb+oogTCIWE9+9QyKGZJpMaGYiae/N63fLqXpamghucm9uquqc+hbwqM4EkZno/86J
+PYh6itKDVGyFQhBkge8cJFyU1pVHoxgZgtUMn7fPoxam0UiAbyVQOCdQD8AayjLKBpjFrqvnREhv
+jis2gjvH72B87JD2ckOVNCACRPqJdEA0EmmmASurd9G6dthIKgPz7OAsl5qIpEmdxkOwMQSTmU57
+WW62Hi0VopZz0Ieaxyh1kd6nTF68+YJ9rQkkVYAoo2K+s4Sd2zaiubmhWqhKGgKi7A3UnvacGTb5
+5PaDd9h/5jFeLSyD9fBrf5OZzmz4lI5hsQOzP+AFq3Km7j+O2VqR2SmJT9oDUiYsEpgjer0Mf02h
+2YAO2DKLQzAQfdou2Oua+XWSxOh4hy00hR1rZalQXgebjARMQd66EiyJsbJgJLS6m0l17G8y6n6A
+o2OIDVTM2ZB4n1m0Dx/7uD+/iH6/oL06n/1NZjorrNvaYEHu/dpGxhNLlcs3X+PGrZeYmhr3CLqL
+Kzh2ZAdOHt2OkHB4I3620ePUZ+0L2JBO6+c8l4AxhCDd91/RXaJHnsmJtZjcso4pMKaIVdmUpljO
+Z2X39bMVge3ByCgzz5I5Jky4mkaDFYxN/zDK1TKxEpxtZ7UJW1+vUxI0H8Cu/U3m00fPwz0YWSZu
+1b/WmQVjZy79vs7fAdlwN9BZNtNNAAAAAElFTkSuQmCC
+------=_Part_28_1246487553.1733321909511
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/1a65096ebedf73350a80421ada5c71a0ee6cf7dafad3ba2dd3aa89cd8cc6fc42
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAmVBMVEVHcEz0kAz0kAz0kAz0kAz0
+kAz0kAz0kAz0kAz0kAzM1t30kAzM1t3M1t30kAz0kAzM1t3M1t3qokD0kAzM1t3/rDPh6O3lqlrU
+ybbgs3X3lxb8oyfWxanP0tDwoTbox5nZ4efj3dH9pyz8pSn4mxvvpkTP2N/7oiTvmSbg5+z1lBHm
+0rXqokDQ2eDylBntsWDrvH3zlhr+qjHBo5ciAAAAE3RSTlMAr1CfIL/fYO/PIHDPYBAw77+A0lux
+RwAAAR1JREFUeF7t01duwzAQRdGRI5pk7NSn5l7Te/a/uCgjBBYJBDCJyU/Au4CDxwFIh/JRNkRY
+JtPkpxWiGg4c5kIhupP+HANISBpdr/Vk3lYc27wG9/O6AbomiyK05p7vRNy5AdcUES1Y0gyNwNVF
+VA3aMoYsuKcqrIf1LUs1AMMQYiCmXvjiaOtDb1W4xJt8CO/hm9YuFNXN6nuSAAQsN1UlAuFjIwRh
++TtUHtdsCm4VDvnddRePhnxJACqnUtBMCir/HkpQghKUoAQlKEEJSpCSgrQQZEkGMrkMZHOSgYj+
+K3QlBZ0JQWOSgS5PD5CKg3YAnsc9h3QctAdwTU42BtoCsOSWm3Do8xH8xzzJhkLb1rHseGkVAu32
+gNKu8AX4UXkjtj3SXQAAAABJRU5ErkJggg==
+------=_Part_28_1246487553.1733321909511--

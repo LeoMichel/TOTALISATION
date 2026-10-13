@@ -1,0 +1,1339 @@
+--- PAGE 1 ---
+C o l l e c t i o n  T ᵒ T A L i S A T i ᵒ N  —  R é c o n c i l i a t i o n   ·   2 1  L i v r e s
+L16 — Guide Orange
+TᵒTALiSATiᵒN
+Partie A — Le spread : répandre la flamme
+Semaines 1 à 3  ·  Jours 1–21
+Mois 3–4 de 14  ·  Niveau de maturité : STRUCTURATION
+« Une seule équipe excellente dans un désert de chaos,
+ c'est magnifique. Et insuffisant. »
+images et couverture par Soléane Bélanger
+Avant-propos
+Le Guide Rouge a planté une graine. Dans une équipe. Avec soin, avec intention, 
+avec tout le temps nécessaire pour que les racines prennent. Maintenant, cette 
+graine doit devenir une forêt.
+Le Guide Orange est le moment le plus délicat de tout TᵒTALiSATiᵒN. Pas le plus 
+difficile intellectuellement — la plupart des concepts introduits ici ont déjà été vécus 
+dans l'équipe pilote. Mais le plus délicat humainement, organisationnellement, 
+stratégiquement. Parce que passer de « une équipe qui comprend » à « toute 
+une organisation qui pratique » est un saut d'une nature entièrement différente.
+--- PAGE 2 ---
+C'est ici que la plupart des programmes de transformation échouent. Non par 
+manque d'idées. Non par manque de volonté. Mais par manque de méthode de 
+spread — la discipline de répandre une pratique sans la diluer, sans l'imposer, sans 
+la trahir.
+Ce guide vous donne cette méthode.
+TᵒTALiSATiᵒN : être total, pas à moitié
+Rappelons l'étymologie qui fonde tout ce que nous faisons : TᵒTALiSATiᵒN vient de 
+TOTAL + RÉALISATION. Être total. Pas à moitié. Intégral. Complet. Honnête 
+jusqu'au bout de la démarche.
+Le spread vers toutes les équipes, c'est prendre la philosophie TᵒTALiSATiᵒN au 
+sérieux dans sa dimension la plus radicale : soit toute l'organisation est 
+engagée, soit aucune équipe ne peut vraiment l'être. L'excellence isolée crée 
+des silos d'élite. Et les silos d'élite créent du ressentiment — pas de la performance. 
+L'équipe pilote qui brille seule finit par être perçue comme une menace, non comme 
+un modèle.
+TᵒTALiSATiᵒN ne peut pas être partiel. La chaîne Clarté → qualité → confiance → 
+excellence durable ne fonctionne que si tout le monde marche dans la même 
+direction. Une seule équipe qui navigue différemment rompt la chaîne pour tout le 
+monde.
+Ce que ce guide n'est pas
+Ce guide n'est pas un cours magistral sur les principes de TᵒTALiSATiᵒN — vous avez 
+eu le Guide Rouge pour ça. Ce guide est un terrain de jeu structuré : des ateliers 
+concrets, des situations réelles, des erreurs documentées, et les corrections qui ont 
+fonctionné.
+Il ne vous dira pas que le spread est simple. Il ne vous promettra pas que toutes les 
+équipes seront enthousiastes. Il vous donnera les outils pour avancer malgré les 
+résistances, pour maintenir la qualité malgré la vitesse, et pour transformer la 
+flamme d'une équipe en chaleur pour toute une organisation.
+--- PAGE 3 ---
+Vous êtes au mois 3 d'un parcours de 14 mois. La graine est plantée. Il est temps de 
+la répandre.
+Introduction — Le Guide 
+Orange
+Pourquoi l'orange ?
+Chaque guide de la Collection TᵒTALiSATiᵒN porte une couleur. Ces couleurs ne sont 
+pas arbitraires — elles sont des métaphores actives qui orientent votre état d'esprit 
+pendant la période correspondante.
+Le rouge du Guide Rouge, c'était l'intensité : la concentration, la profondeur, 
+l'apprentissage fondateur dans une équipe pilote. Le rouge brûle dans un seul foyer.
+L'orange, c'est différent. L'orange est la couleur de la propagation de la chaleur. 
+Le feu qui part d'un point et réchauffe tout l'espace autour. La lumière du matin qui 
+s'étend progressivement sur l'horizon. L'énergie qui rayonne — pas qui explose, 
+mais qui irradie avec méthode et continuité.
+Le Guide Orange, c'est ça : l'énergie de l'équipe pilote qui rayonne vers 
+toutes les autres équipes d'ÉlanSoft. Marcus et son équipe Core ne sont plus 
+seulement une équipe qui pratique TᵒTALiSATiᵒN — ils deviennent la source de 
+chaleur à partir de laquelle toute l'organisation apprend à se réchauffer.
+La difficulté spécifique du Guide Orange
+Voici ce qui rend le Guide Orange fondamentalement différent du Guide Rouge :
+--- PAGE 4 ---
+● 6 équipes simultanément, non 1 équipe en profondeur
+● 1 seule coach TᵒTALiSATiᵒN interne (Leila), non un coach externe dédié
+● Des ambassadeurs en formation (les leads de l'équipe Core), non des 
+experts confirmés
+● Des équipes sans le contexte du Guide Rouge — elles n'ont pas vécu les 
+8 semaines d'apprentissage fondateur
+● Des profils de résistance variés — de l'enthousiasme débordant au refus 
+passif
+● Une pression de résultats accrue — Sara veut voir des résultats rapides, 
+pas une transformation lente
+Chaque nouvelle équipe est, fonctionnellement, une équipe pilote. Mais sans le luxe 
+du temps, de l'intimité, et de la disponibilité qu'avait l'équipe Core au Guide Rouge. 
+Le spread se fait en parallèle, à vitesse industrielle, sans sacrifier la qualité 
+essentielle. C'est un défi d'ingénierie humaine.
+ÉlanSoft : le contexte de référence
+Tout au long du Guide Orange, nous travaillons dans le contexte d'ÉlanSoft — une 
+entreprise SaaS en hypercroissance développant FlowEdge, une plateforme de 
+gestion de workflows B2B. ÉlanSoft double son équipe tous les 9 mois. La qualité n'a 
+pas suivi la croissance. C'est précisément pourquoi TᵒTALiSATiᵒN est maintenant 
+une priorité stratégique.
+Personnage Rôle Profil TᵒTALiSATiᵒN
+Sara VP Produit Mandante du spread — 
+pragmatique, veut des 
+résultats mesurables
+Marcus Lead équipe Core Ambassadeur 
+TᵒTALiSATiᵒN — a vécu le 
+Guide Rouge de bout en 
+bout
+--- PAGE 5 ---
+Personnage Rôle Profil TᵒTALiSATiᵒN
+Leila Coach TᵒTALiSATiᵒN 
+interne
+Formée pendant le Guide 
+Rouge — prend le relais 
+du coach externe
+Theo B. Lead équipe Intégrations Sceptique constructif — 
+pose les bonnes 
+questions difficiles
+Nina Lead équipe Mobile Enthousiaste mais 
+débordée — veut tout 
+faire, manque de temps
+Omar Lead équipe Analytics Data-driven — veut des 
+preuves chiffrées avant 
+d'embarquer
+Jean-Paul Lead Infrastructure Résistant passif — dit 
+oui, ne fait rien sans 
+accompagnement actif
+Priya Champion du Centre 
+d'Excellence
+Héritée du Guide Rouge 
+— prend la tête du CoE 
+TᵒTALiSATiᵒN
+Tableau de progression TᵒTALiSATiᵒN — 
+Guide Orange
+Voici l'état de chaque élément TᵒTALiSATiᵒN au début du mois 3, la cible à la fin du 
+mois 4, et l'indicateur qui permet de mesurer le succès objectivement.
+Élément 
+TᵒTALiSATiᵒN
+Début mois 3 
+(hérité Guide 
+Rouge)
+Cible fin mois 4 Indicateur de 
+succès
+Qualimétrie 3–5 métriques 
+dans 1 équipe
+Dashboard 
+commun dans 
+toutes les équipes
+Chaque équipe 
+peut expliquer ses 
+métriques
+Spécification 
+IF...THEN...
+Pratiquée dans 1 
+équipe
+Pratiquée dans 
+toutes les équipes
+Chaque équipe a 
+≥3 specs 
+IF...THEN... 
+documentées
+--- PAGE 6 ---
+Élément 
+TᵒTALiSATiᵒN
+Début mois 3 
+(hérité Guide 
+Rouge)
+Cible fin mois 4 Indicateur de 
+succès
+6 phases SDLC Connues dans 1 
+équipe
+Connues et 
+pratiquées partout
+Chaque équipe a 
+complété ≥1 cycle
+Amélioration 
+continue
+1 cycle 
+rétrospectif 
+(équipe Core)
+Rétros régulières 
+multi-équipes
+≥1 rétro croisée 
+inter-équipes 
+complétée
+Contrat qualité v2.0 dans 1 
+équipe
+Chaque équipe a 
+son contrat 
+qualité
+Tous les contrats 
+sont signés
+Rôles et 
+responsabilités
+RACI dans 1 
+équipe
+RACI dans toutes 
+les équipes + 
+chargé de 
+livraison partout
+Chaque équipe 
+sait qui fait quoi
+Centre 
+d'Excellence 
+(CoE)
+1 champion 
+(Priya)
+Structure formelle 
+avec 1 rep/équipe
+CoE tient des 
+réunions 
+régulières
+Les 6 phases du SDLC TᵒTALiSATiᵒN — rappel 
+de référence
+Phase Zone Question 
+centrale
+Livrable clé
+ÉLICITER SENSE Quel est le vrai 
+besoin ?
+Contexte 
+documenté, 
+hypothèses 
+identifiées
+DÉFINIR SENSE Qu'est-ce qu'on 
+s'engage à livrer, 
+exactement ?
+Specs IF...THEN..., 
+critères 
+d'acceptation
+PLANIFIER FORGE Comment on 
+organise le 
+travail ?
+Plan de sprint, 
+estimations, RACI
+IMPLÉMENTER FORGE Est-ce qu'on 
+construit ce qu'on 
+a défini ?
+Code livré, tests 
+passés, specs 
+honorées
+--- PAGE 7 ---
+Phase Zone Question 
+centrale
+Livrable clé
+DIFFUSER FORGE Comment on livre 
+sans casser ?
+Release 
+documentée, 
+retours collectés
+CONFIRMER CARE Qu'est-ce qu'on 
+apprend pour 
+améliorer le 
+prochain cycle ?
+Rétro 
+documentée, 
+boucle retour vers 
+ÉLICITER
+La grande boucle TᵒTALiSATiᵒN : CONFIRMER → ÉLICITER. Chaque fin de cycle 
+nourrit le début du suivant. C'est cette boucle qui construit l'excellence durable.
+SEMAINE 1 — Jours 1 à 5
+·
+Diagnostiquer avant d'étendre — comprendre chaque équipe
+ Aperçu de la semaine 1📋
+Avant de répandre TᵒTALiSATiᵒN, il faut comprendre le terrain. Chaque équipe 
+a sa propre culture, ses propres défis, ses propres résistances. La semaine 1 
+est entièrement consacrée au diagnostic — écouter avant de proposer, 
+comprendre avant d'enseigner. Aucun atelier de la semaine 1 n'enseigne 
+TᵒTALiSATiᵒN : tous cartographient le terrain sur lequel TᵒTALiSATiᵒN va être 
+semé. Ce diagnostic initial est la fondation invisible de tout le spread. Le 
+bâcler, c'est garantir des difficultés dans les semaines 4 à 8.
+JOUR 1 — LUNDI
+--- PAGE 8 ---
+ ATELIER 1 — La cartographie des équipes : portrait de chaque 🎯
+écosystème
+But : Créer un portrait vivant de chaque équipe avant le spread — pas une 
+analyse froide sur papier, mais une conversation authentique qui fait émerger 
+la réalité de terrain.
+Participants : Marcus, Theo B., Nina, Omar, Jean-Paul + Sara + Leila + Priya. 
+Toute l'équipe de leadership présente au même endroit.
+Durée : 3 heures (30 minutes par équipe, 30 minutes de synthèse)
+Instructions pas-à-pas
+Étape 1 — Cadrer l'intention
+ Leila ouvre en expliquant l'objectif de la session : « Aujourd'hui, on ne lance 
+rien. On écoute. Chaque lead va nous parler de son équipe. Pas de jugement, 
+pas de comparaison, pas de solution proposée. On cartographie. »
+Étape 2 — Cinq questions, cinq minutes par équipe
+ Chaque lead répond à ces 5 questions pour son équipe :
+1.  Quel est votre plus grand défi qualité en ce moment ?
+2.  Qu'est-ce qui fonctionne bien dans votre façon de travailler ?
+3.  Qu'est-ce que vous avez entendu dire du Guide Rouge ? (perception, pas 
+réalité)
+4.  Quel est votre niveau de disponibilité pour les ateliers ? (heures/semaine 
+concrètement)
+5.  Qui dans votre équipe pourrait devenir ambassadeur TᵒTALiSATiᵒN ?
+Étape 3 — Documentation en temps réel
+--- PAGE 9 ---
+ Leila anime et documente les réponses dans un document partagé visible par 
+tous. La transparence est intentionnelle : chaque lead voit ce que les autres 
+ont répondu.
+Étape 4 — Identifier les 3 profils de résistance dans la salle
+Profil
+Représentant ÉlanSoft
+Caractéristique
+Stratégie de spread
+Sceptique constructif
+Theo B.
+Pose des questions difficiles mais veut vraiment comprendre
+Répondre aux questions honnêtement — ne jamais esquiver
+Enthousiaste débordé
+Nina
+Veut tout faire, n'a pas le temps, risque de se décourager
+Commencer petit, livrer des victoires rapides, protéger son énergie
+Résistant passif
+Jean-Paul
+Dit oui à tout, ne fait rien sans accompagnement actif
+Créer du momentum visible dans d'autres équipes — laisser la preuve convaincre
+Étape 5 — Définir la stratégie adaptée à chaque profil
+ Avec Leila, Marcus et Sara, définir : quel support spécifique, quelle fréquence 
+d'accompagnement, et quel premier livrable pour chaque équipe selon son 
+--- PAGE 10 ---
+profil.
+ Livrable :📄  Cartographie des 6 équipes — défis documentés, forces 
+identifiées, résistances nommées, ambassadeurs potentiels désignés.
+ ASTUCE DE TERRAIN — Les résistants passifs💡
+Les résistants passifs (type Jean-Paul) sont plus difficiles à gérer que les 
+opposants déclarés. Un opposant vous dit ce qui ne va pas — vous pouvez 
+travailler avec ça. Un résistant passif dit « oui » à tout et ne fait rien. La 
+stratégie qui fonctionne : commencer par les équipes enthousiastes, 
+créer du momentum visible, et laisser le momentum convaincre les 
+résistants passifs. Ne perdez pas d'énergie à tenter de convaincre Jean-Paul 
+au discours. Montrez-lui des résultats. Les résultats parlent.
+😄 ANECDOTE
+Dans une entreprise de 200 développeurs, le lead le plus résistant à 
+l'implantation du SDLC TᵒTALiSATiᵒN était devenu, 6 mois plus tard, son plus 
+grand promoteur interne. Pourquoi ? Parce que ses collègues avaient 
+commencé à obtenir des résultats qu'il voyait chaque jour. Il n'avait jamais eu 
+besoin d'être convaincu par un discours — il avait besoin de voir des preuves. 
+Quand les preuves sont arrivées, il était là. Et il était là pour de vrai.
+ SITUATION ALTERNATIVE — LA DREAM TEAM ORIGINALIUM🎭
+Quand Rania (Lead Technique, ORIGINALIUM) a dû étendre TᵒTALiSATiᵒN à 4 
+--- PAGE 11 ---
+équipes supplémentaires, elle a commis l'erreur classique : organiser une 
+grande réunion de lancement avec un deck PowerPoint de 47 slides. Résultat : 
+3 équipes ont dit « super ! » et rien n'a changé la semaine suivante. La 
+quatrième avait posé des questions pendant 2 heures et était repartie avec 
+l'air sceptique.
+Six semaines plus tard, c'est la quatrième équipe — celle qui avait posé des 
+questions — qui avait le mieux adopté TᵒTALiSATiᵒN, avec les meilleurs 
+résultats mesurables. Leçon : les questions difficiles sont le signe de 
+l'engagement, pas du rejet. Cherchez les sceptiques constructifs. Traitez leurs 
+questions comme des cadeaux.
+JOUR 2 — MARDI
+ ATELIER 2 — Le kit de démarrage TᵒTALiSATiᵒN : ce qu'on répand 🎯
+exactement
+But : Définir précisément ce qui sera transmis à chaque équipe. Pas tout, pas 
+rien — exactement ce qui est nécessaire pour démarrer avec confiance et 
+sans se noyer.
+Durée : 2h30
+Instructions pas-à-pas
+Étape 1 — Le témoignage, pas le cours
+ Marcus présente le Guide Rouge aux autres leads. Non pas comme un cours 
+magistral, mais comme un témoignage authentique : « Voici ce qu'on a fait. 
+Voici ce qui a marché. Voici ce qui était difficile. Et voici ce que j'aurais voulu 
+savoir avant de commencer. » Cette posture de témoignage crée la confiance 
+--- PAGE 12 ---
+que le cours magistral ne crée jamais.
+Étape 2 — Les 7 éléments TᵒTALiSATiᵒN contextualisés
+ Identifier les 7 éléments dans le contexte du Guide Orange : qualimétrie, 
+spécification IF...THEN..., 6 phases SDLC, amélioration continue, contrat 
+qualité, rôles et responsabilités, Centre d'Excellence.
+Étape 3 — La version minimum viable pour le Guide Orange
+Élément
+Version minimum viable — Guide Orange
+Ce qu'on garde pour plus tard
+Qualimétrie
+3 métriques communes : cycle time, taux de bugs critiques, couverture de specs
+Métriques avancées, tendances historiques
+Spécification IF...THEN...
+1 spec IF...THEN... par story MEDIUM ou LARGE
+Specs imbriquées, arbres de décision
+6 phases SDLC
+Nommer les 6 phases dans les cérémonies existantes
+Optimisation avancée par phase
+Amélioration continue
+1 rétro par sprint avec 1 action concrète
+Rétros croisées inter-équipes (semaines 7–8)
+Contrat qualité
+1 page, 5 engagements minimum, signé par le lead
+--- PAGE 13 ---
+Contrat v2.0 avec métriques avancées
+RACI
+3 rôles définis : qui décide, qui fait, qui valide
+RACI complet par phase du SDLC
+Centre d'Excellence
+1 rep par équipe, 1 réunion CoE bi-mensuelle
+Sous-comités, mandats spécialisés
+Étape 4 — Créer le Kit de Démarrage TᵒTALiSATiᵒN v1.0
+ Document partagé, accessible à toutes les équipes. Format : 8 pages 
+maximum. Langage simple, exemples concrets, zéro jargon non défini.
+ Livrable :📄  Kit de Démarrage TᵒTALiSATiᵒN v1.0 — le minimum viable pour 
+démarrer dans une nouvelle équipe.
+ ASTUCE DE TERRAIN — Le piège du spread complet💡
+Le piège le plus fréquent du spread : vouloir transférer 100% de ce que 
+l'équipe pilote a fait. C'est fatal. Les autres équipes n'ont pas eu les 8 
+semaines du Guide Rouge. Elles ont besoin du minimum viable, pas de la 
+version complète. Vous leur donnerez plus au Guide Jaune. Commencez 
+petit, établissez la confiance, approfondissez ensuite. La profondeur 
+prématurée décourage — la légèreté initiale invite.
+😄 ANECDOTE — Le manuel de 340 pages
+--- PAGE 14 ---
+Une équipe a reçu le Manuel TᵒTALiSATiᵒN complet de 340 pages au premier 
+jour du spread. Six semaines plus tard, un sondage confidentiel a révélé que 
+12 personnes sur 15 n'avaient pas dépassé la page 40. Les 3 qui l'avaient lu en 
+entier étaient les leads — et ils avaient passé leur temps à expliquer aux 
+autres ce qu'ils avaient lu, plutôt qu'à le pratiquer. La solution adoptée 
+ensuite : un Kit de Démarrage de 8 pages. Taux de lecture complète : 100%. 
+Morale : moins c'est plus, surtout pour les débuts.
+JOUR 3 — MERCREDI
+ ATELIER 3 — Adapter le SDLC TᵒTALiSATiᵒN à chaque contexte 🎯
+d'équipe
+But : Comprendre et démontrer que TᵒTALiSATiᵒN s'adapte — les 6 phases 
+sont universelles, les pratiques et les noms sont contextuels. TᵒTALiSATiᵒN 
+enrichit ce qui existe ; il ne le remplace pas.
+Durée : 2 heures
+Instructions pas-à-pas
+Étape 1 — Présenter les 6 phases à tous les leads réunis
+ Leila présente les 6 phases : ÉLICITER · DÉFINIR · PLANIFIER · IMPLÉMENTER · 
+DIFFUSER · CONFIRMER. Chaque phase est expliquée en 3 minutes : sa 
+question centrale, son livrable, son erreur classique.
+Étape 2 — Carte de correspondance : le vocabulaire déjà existant
+ Pour chaque équipe, identifier comment les 6 phases se nomment déjà dans 
+leur vocabulaire actuel :
+Phase TᵒTALiSATiᵒN
+--- PAGE 15 ---
+Noms équivalents déjà utilisés chez ÉlanSoft
+ÉLICITER
+« découverte », « discovery », « design sprint », « kickoff », « clarification »
+DÉFINIR
+« spec », « AC », « acceptance criteria », « user story », « définition de fini »
+PLANIFIER
+« sprint planning », « estimation », « grooming », « backlog refinement »
+IMPLÉMENTER
+« dev », « coding », « engineering », « développement », « build »
+DIFFUSER
+« déploiement », « release », « livraison », « go-live », « démo »
+CONFIRMER
+« retro », « review », « post-mortem », « sign-off », « bilan sprint »
+Étape 3 — La règle d'or
+ Ne pas renommer les cérémonies existantes. TᵒTALiSATiᵒN enrichit sans 
+remplacer. La résistance au changement diminue considérablement quand les 
+équipes comprennent qu'elles ne perdent pas leurs pratiques — elles les 
+rendent plus précises et plus efficaces.
+Étape 4 — Cartographie par équipe (15 minutes chacune)
+ Chaque lead répond à la question : « Comment les 6 phases vivent dans 
+notre équipe aujourd'hui ? Quelles cérémonies les représentent ? Lesquelles 
+sont absentes ? »
+ Livrable :📄  Carte de correspondance TᵒTALiSATiᵒN ↔ pratiques existantes 
+pour chaque équipe — un document qui montre que TᵒTALiSATiᵒN est déjà 
+partiellement présent partout, sous d'autres noms.
+--- PAGE 16 ---
+ ASTUCE DE TERRAIN — « Vous faites déjà ça »💡
+La résistance au changement diminue de façon spectaculaire quand on montre 
+que TᵒTALiSATiᵒN n'impose pas de nouvelles cérémonies — il enrichit ce qui 
+existe déjà. La phrase magique à utiliser systématiquement : « Vous faites 
+déjà ça — maintenant faisons-le mieux ensemble. » Cette phrase 
+désarme la résistance parce qu'elle valide le travail actuel avant de proposer 
+une amélioration.
+JOUR 4 — JEUDI
+ ATELIER 4 — Premier diagnostic qualimétrie : où en est chaque équipe ?🎯
+But : Établir la ligne de base des métriques avant le spread — pour mesurer 
+le progrès objectivement et éviter les discussions impressionnistes (« c'est 
+mieux », « c'est pire ») dans les semaines qui suivent.
+Durée : 2 heures
+Instructions pas-à-pas
+Étape 1 — Les 3 métriques communes du Guide Orange
+ Ces métriques sont communes à toutes les équipes ÉlanSoft — elles 
+permettent une comparaison équitable et des discussions inter-équipes 
+cohérentes :
+#
+Métrique
+Objectif fin mois 4
+--- PAGE 17 ---
+Pourquoi cette métrique
+1
+Taux de specs IF...THEN... par story MEDIUM/LARGE
+≥70%
+Mesure directe de l'adoption de la spécification
+2
+Taux de bugs critiques découverts après DIFFUSER (vs avant)
+Réduire de 30%
+Mesure de l'impact qualité du SDLC TᵒTALiSATiᵒN
+3
+Délai moyen ÉLICITER→DÉFINIR pour stories MEDIUM
+≤3 jours
+Mesure de la fluidité de la clarification
+Étape 2 — Mesure de la situation actuelle
+ Chaque équipe mesure sa situation sur ces 3 métriques, en utilisant les 
+données des 4 dernières semaines (sprint passé + sprint en cours).
+Étape 3 — Omar aide les équipes sans données structurées
+ L'équipe Analytics (Omar) est mise à contribution pour aider les équipes qui 
+n'ont pas encore de données mesurées. Si les données n'existent pas : on 
+commence à les collecter maintenant. « Pas de données » est une information 
+précieuse — c'est la première chose à corriger.
+Étape 4 — Créer le dashboard commun
+ Premier tableau de bord commun dans l'outil de métriques de l'organisation. 
+Vue d'ensemble : toutes les équipes, les 3 métriques, la ligne de base. Le 
+dashboard est visible par tous — sans jugement initial.
+--- PAGE 18 ---
+ Livrable :📄  Ligne de base qualimétrie pour chaque équipe + dashboard 
+commun créé et accessible.
+😄 ANECDOTE — « C'est combien, trop ? »
+Quand Omar a demandé à l'équipe Mobile leur taux de bugs critiques post-
+release, Nina a répondu sans hésiter : « On ne le mesure pas formellement, 
+mais on sait que c'est trop. » Omar, impassible : « C'est combien, "trop" ? » 
+Nina : « … » Silence. Puis, après 10 secondes : « On va commencer à le 
+mesurer. » C'est exactement ça, la valeur de la qualimétrie : transformer les 
+intuitions en données, et les données en décisions. « Trop » n'est pas 
+une métrique. Un nombre, c'est une métrique.
+JOUR 5 — VENDREDI
+ ATELIER 5 — Plan de spread sur 60 jours : qui, quoi, quand, comment🎯
+But : Construire le plan détaillé du spread — un plan réaliste, adapté aux 
+contraintes de chaque équipe, avec des jalons clairs et des risques déjà 
+mitigés.
+Durée : 3 heures
+Instructions pas-à-pas
+Étape 1 — Paramètres de spread par équipe
+ Pour chaque équipe, définir :
+--- PAGE 19 ---
+•  Fréquence des ateliers (1x/semaine minimum)
+•  Format : atelier guidé par Leila, auto-animé par l'ambassadeur, ou co-
+animé avec un ambassadeur Core
+•  Ambassadeur TᵒTALiSATiᵒN désigné dans l'équipe
+•  Disponibilité réelle (en heures/semaine, confirmée par le lead)
+Étape 2 — Calendrier de 60 jours avec jalons
+Semaines
+Thème
+Phases SDLC travaillées
+Jalon
+S1 (Partie A)
+Diagnostic
+—
+Cartographie + Kit v1.0
+S2–S3 (Partie A)
+ÉLICITER + DÉFINIR
+ÉLICITER · DÉFINIR
+6 contrats qualité signés + CoE lancé
+S4–S5 (Partie B)
+PLANIFIER + IMPLÉMENTER
+PLANIFIER · IMPLÉMENTER
+RACI complet + premiers cycles SDLC
+--- PAGE 20 ---
+S6 (Partie B)
+Premières rétros croisées
+CONFIRMER → ÉLICITER
+≥1 rétro inter-équipes complétée
+S7–S8 (Partie C)
+DIFFUSER + consolidation
+DIFFUSER · CONFIRMER
+Dashboard commun v2.0 + bilan Guide Orange
+Étape 3 — Les 3 risques principaux du spread et leurs mitigation
+Risque
+Probabilité
+Impact
+Mitigation dès maintenant
+Equipe(s) qui ne progressent pas (résistance passive)
+Élevée
+Élevé
+Commencer par les équipes enthousiastes, créer le momentum
+Leila débordée (1 coach pour 6 équipes)
+Élevée
+Élevé
+Former les ambassadeurs Core à animer en autonomie dès S2
+Dilution qualitative (TᵒTALiSATiᵒN simplifié à l'excès)
+--- PAGE 21 ---
+Moyenne
+Très élevé
+Kit de démarrage avec critères minimaux non négociables
+Étape 4 — Première réunion du Centre d'Excellence
+ 1 heure, ordre du jour simple :
+ (a) Présentation du rôle du CoE dans le Guide Orange
+ (b) Chaque représentant d'équipe se présente et nomme son engagement
+ (c) Adoption de l'agenda CoE pour les 60 prochains jours
+ (d) Validation du Kit de Démarrage v1.0 comme premier livrable collectif
+ Livrable :📄  Plan de spread 60 jours + calendrier CoE + risques documentés 
+avec mitigation + première réunion CoE complétée.
+ Bilan de la Semaine 1📊
+ À retenir :✅  Diagnostiquer avant d'enseigner. La cartographie de la 
+semaine 1 est invisible mais fondamentale. Chaque heure investie ici 
+économise 3 heures de correction ensuite.
+⚠️  Symptômes à observer : Un lead qui évite les questions concrètes sur sa 
+disponibilité. Une équipe qui n'a aucune donnée sur aucune métrique. Un 
+enthousiasme qui semble performatif plutôt qu'authentique.
+ Questions de réflexion :💭  Avons-nous vraiment compris le défi de chaque 
+équipe, ou avons-nous projeté nos propres hypothèses ? Le Kit de Démarrage 
+est-il assez simple pour être lu en entier ?
+ Signal de vigilance :🚨  Si Jean-Paul (ou son équivalent dans votre 
+organisation) n'a pas pu nommer un ambassadeur potentiel dans son équipe 
+après la session de cartographie, c'est le signal que cette équipe nécessite un 
+accompagnement direct de Leila — pas uniquement du momentum des 
+--- PAGE 22 ---
+autres.
+SEMAINE 2 — Jours 6 à 10
+·
+ÉLICITER à l'échelle — faire découvrir le premier besoin réel à chaque équipe
+ Aperçu de la semaine 2📋
+Chaque équipe pratique maintenant ÉLICITER  sur un cas réel de son propre 
+contexte. Marcus et Leila circulent entre les équipes. L'objectif central de la 
+semaine : que chaque équipe ait au moins 1 cas ÉLICITÉ documenté à la fin de 
+vendredi. ÉLICITER est souvent la phase la plus naturelle pour les équipes — 
+poser des questions, c'est instinctif. Ce naturel est un avantage stratégique : 
+commencer par la phase la plus accessible renforce la confiance avant 
+d'aborder DÉFINIR, qui est plus exigeante.
+JOUR 6 — LUNDI
+ ATELIER 6 — ÉLICITER en parallèle dans toutes les équipes🎯
+But : Lancer simultanément la pratique d'ÉLICITER dans toutes les équipes — 
+--- PAGE 23 ---
+chacune sur un cas concret de son propre quotidien.
+Format : Sessions simultanées dans chaque équipe (Leila visite 2–3 équipes 
+dans la matinée)
+Durée par équipe : 1 heure
+Instructions pas-à-pas
+Étape 1 — Choisir un cas qui préoccupe vraiment
+ Chaque équipe choisit un cas concret — un bug récurrent, une story floue, un 
+incident de la semaine passée, une demande client non résolue — qui 
+représente un vrai problème pour l'équipe. Pas un cas théorique. Le cas doit 
+faire légèrement mal.
+Étape 2 — L'ambassadeur Core anime ÉLICITER
+ L'ambassadeur de l'équipe Core anime la session ÉLICITER avec les questions 
+clés :
+•  Quel est le vrai besoin derrière cette demande ? (pas la demande de 
+surface)
+•  Qui est impacté si on ne le résout pas — et comment ?
+•  Quelle valeur mesurable si on le résout bien ?
+•  Quelles hypothèses implicites avons-nous faites sans les valider ?
+•  Y a-t-il des contraintes cachées qu'on n'a pas encore nommées ?
+Étape 3 — Documentation dans l'outil de gestion
+ Le contexte ÉLICITER est documenté dans TrackFlow (ou l'outil de gestion 
+utilisé par l'équipe). Champ dédié : « Contexte ÉLICITER » ajouté au template 
+de story.
+Étape 4 — Leila circule et débloque
+ Leila visite 2–3 équipes pendant la matinée. Son rôle : pas animer, mais 
+observer et débloquer. Elle intervient uniquement si l'ambassadeur est bloqué 
+— et uniquement avec une question, jamais avec une réponse.
+--- PAGE 24 ---
+ Livrable :📄  ≥5 équipes ont un cas ÉLICITÉ documenté dans leur outil de 
+gestion. Le 6e cas (Jean-Paul / Infrastructure) peut nécessiter un 
+accompagnement direct supplémentaire.
+ ASTUCE DE TERRAIN — Préparer l'ambassadeur nerveux💡
+L'ambassadeur qui anime pour la première fois sans coach est souvent 
+nerveux — et cette nervosité est normale. La meilleure préparation n'est pas 
+un cours de facilitation. C'est la répétition. Pratiquer la session ÉLICITER 
+avec son équipe Core 30 minutes avant d'aller l'animer ailleurs. La 
+répétition construit la confiance plus efficacement que n'importe quelle 
+préparation théorique. Et si quelque chose se passe mal lors de la vraie 
+session ? C'est aussi de l'apprentissage.
+ SITUATION ALTERNATIVE — LA DREAM TEAM ORIGINALIUM🎭
+Théo (PO, ORIGINALIUM) avait peur d'animer ses premières sessions ÉLICITER 
+dans une autre équipe. Il avait l'impression de ne pas être légitime — « je ne 
+suis pas coach, je ne suis pas expert. » Karim lui a dit : « Tu n'as pas besoin 
+d'être expert. Tu as besoin d'être curieux. Pose des questions. Écoute les 
+réponses. Documente ce que tu entends. C'est tout. »
+Théo a animé sa première session avec une liste de 7 questions dans sa 
+poche. Il en a posé 3. L'équipe a fourni tout le reste — les bonnes questions, 
+les contradictions, les hypothèses cachées. À la fin de la session, le lead de 
+l'équipe a dit : « C'est la première fois qu'on a eu cette conversation. On 
+devrait le faire à chaque sprint. » La curiosité, pas l'expertise, est le 
+moteur d'ÉLICITER.
+--- PAGE 25 ---
+JOUR 7 — MARDI
+ ATELIER 7 — Les mots dangereux de chaque équipe : glossaire 🎯
+commun en construction
+But : Identifier les mots dangereux spécifiques à chaque équipe et 
+commencer le Glossaire Commun TᵒTALiSATiᵒN ÉlanSoft — le dictionnaire 
+partagé qui rend les conversations inter-équipes efficaces.
+Durée : 2 heures (sessions d'équipe en matinée, mise en commun en après-
+midi)
+Instructions pas-à-pas
+Étape 1 — Lister les mots ambigus par équipe
+ Chaque équipe liste les 5 mots les plus utilisés dans leurs specs et 
+discussions qui sont ambigus dans leur contexte. Pas les mots techniques — 
+les mots qui semblent clairs mais qui sont en réalité compris différemment par 
+des personnes différentes.
+Étape 2 — La mise en commun : trouver les mots dangereux partout
+ Leila compile toutes les listes. Y a-t-il des mots qui sont dangereux dans 
+plusieurs équipes simultanément ? Ce sont les candidats prioritaires au 
+glossaire commun.
+Étape 3 — Priya compile le Glossaire Commun v1.0
+ Le Centre d'Excellence (Priya en lead) prend ownership du glossaire. Format 
+de chaque entrée :
+Champ
+Description
+Exemple
+--- PAGE 26 ---
+Terme
+Le mot exact, tel qu'utilisé dans l'organisation
+« performance »
+Définition officielle
+La définition adoptée par le CoE TᵒTALiSATiᵒN
+« Capacité du système à répondre dans les seuils définis dans la spec »
+Exemple correct
+Comment utiliser ce terme sans ambiguïté
+« Performance : temps de réponse ≤ 2s pour 95% des requêtes »
+Exemple dangereux
+Comment ce terme crée des problèmes quand il est utilisé seul
+« Le système doit être performant » — sans seuil défini
+Étape 4 — Objectif initial
+ Glossaire Commun v1.0 : 20–30 termes définis. Accessible à toutes les 
+équipes. Versionné (le CoE le mettra à jour régulièrement).
+ Livrable :📄  Glossaire Commun TᵒTALiSATiᵒN ÉlanSoft v1.0 — 20–30 termes 
+définis, validés par le CoE.
+😄 ANECDOTE — Le mot « performance » et ses 4 définitions
+Dans une entreprise de logiciels financiers, le mot « performance » avait 4 
+définitions radicalement différentes selon les équipes. Pour l'équipe Core : 
+vitesse de réponse (moins de 2 secondes). Pour l'équipe Analytics : capacité à 
+traiter 1 million de transactions à l'heure. Pour l'équipe Mobile : fluidité de 
+l'interface (60 fps sans saccade). Pour l'équipe Infrastructure : uptime du 
+--- PAGE 27 ---
+système (99,9% sur 30 jours). Quatre personnes, quatre mots identiques, 
+quatre réalités incompatibles. Quand le glossaire a officialisé ces 
+définitions distinctes, les réunions inter-équipes ont raccourci de 
+40%. La clarté des mots, c'est du temps retrouvé.
+JOUR 8 — MERCREDI
+ ATELIER 8 — La spécification IF...THEN... pour les non-initiés : atelier 🎯
+d'initiation
+But : Initier les 5 nouvelles équipes à la spécification IF...THEN... avec un 
+format pédagogique conçu pour les débutants — concret, progressif, et ancré 
+dans le contexte de FlowEdge.
+Durée : 2h30 (format atelier pour toutes les équipes réunies)
+Instructions pas-à-pas
+Étape 1 — Show don't tell : Marcus présente 3 paires
+ Marcus montre 3 paires spec vague → spec IF...THEN... dans le contexte de 
+FlowEdge :
+Spec vague ❌
+Spec IF...THEN... ✅
+« Le workflow doit se déclencher rapidement. »
+IF un workflow est activé par un événement déclencheur THEN le premier nœud 
+s'exécute dans les 500ms suivant la réception de l'événement.
+« Le système doit gérer les erreurs proprement. »
+--- PAGE 28 ---
+IF un nœud du workflow retourne une erreur 5xx THEN le système réessaie 3 fois 
+avec un délai exponentiel (1s, 2s, 4s), THEN notifie l'administrateur si les 3 
+tentatives échouent.
+« L'utilisateur doit être informé de l'avancement. »
+IF le workflow passe à une nouvelle étape THEN une notification en temps réel 
+est envoyée à l'utilisateur propriétaire du workflow dans les 2 secondes, incluant 
+le nom de l'étape et le temps écoulé depuis le démarrage.
+Étape 2 — Exercice individuel (10 minutes)
+ Chacun transforme 1 phrase de son cas ÉLICITÉ (documenté en semaine 1) 
+en spec IF...THEN... Le cas est personnel — c'est leur propre travail, pas un 
+exemple théorique.
+Étape 3 — Peer review en binôme
+ Chaque spec est reviewée par un partenaire avec 3 questions uniquement :
+•  Est-ce testable ? (peut-on écrire un test qui vérifie cette spec ?)
+•  Est-ce mesurable ? (y a-t-il des seuils, des délais, des quantités ?)
+•  Est-ce complet ? (le cas d'erreur est-il couvert ?)
+Étape 4 — Partage collectif
+ 1 spec par équipe est lue à voix haute et commentée par le groupe. Pas de 
+jugement — uniquement des questions pour améliorer.
+ Livrable :📄  ≥1 spec IF...THEN... par personne, peer-reviewée et 
+documentée.
+ ASTUCE DE TERRAIN — La question magique pour forcer la 💡
+précision
+--- PAGE 29 ---
+Pour les équipes qui n'ont jamais fait de specs formelles, la première spec 
+IF...THEN... est souvent trop générale. Exemple fréquent : « IF l'utilisateur 
+clique sur le bouton THEN l'action se produit. » Cette spec ne teste rien. La 
+question magique pour forcer la précision : « Quel bouton ? Quelle action 
+exactement ? Dans combien de temps ? Sous quelles conditions spécifiques ? 
+Et que se passe-t-il si ça ne marche pas ? » Ces 5 sous-questions transforment 
+invariablement une spec vague en spec testable.
+JOUR 9 — JEUDI
+ ATELIER 9 — Contrat qualité adapté : chaque équipe rédige son propre 🎯
+contrat
+But : Chaque équipe adapte le modèle du Contrat Qualité pilote (v2.0, équipe 
+Core) à son propre contexte — et le signe. Un contrat non adapté n'est pas un 
+contrat : c'est un document qu'on ignore.
+Durée : 2h30
+Instructions pas-à-pas
+Étape 1 — Distribuer le modèle
+ Distribuer le Contrat Qualité v2.0 de l'équipe Core comme modèle de 
+référence. Marcus explique l'origine de chaque clause — pourquoi elle a été 
+rédigée, quel problème elle résout.
+Étape 2 — Tri par équipe (30 minutes)
+ Chaque équipe trie les clauses du modèle en 3 catégories :
+•   ✅ S'applique directement à notre contexte
+--- PAGE 30 ---
+•  ✏️  Doit être adaptée à notre réalité spécifique
+•   🚫 Hors contexte pour notre équipe (à justifier)
+Étape 3 — Rédaction du Contrat Qualité v1.0 (45 minutes)
+ Chaque équipe rédige son propre contrat : 1 page, 5 engagements minimum. 
+Les engagements doivent être spécifiques, mesurables, et réalistes dans le 
+contexte de l'équipe. Pas de copier-coller — chaque mot doit être voulu.
+Étape 4 — Lecture croisée
+ Chaque équipe partage son contrat avec une autre équipe pour retour. 
+Questions du reviewer : « Comprenez-vous tous les engagements ? Y a-t-il des 
+ambiguïtés ? Manque-t-il quelque chose d'essentiel ? »
+Étape 5 — Signature symbolique
+ Le lead d'équipe signe le contrat. Pas une formalité administrative — un 
+geste d'engagement public. La signature est un acte de leadership.
+ Livrable :📄  6 Contrats Qualité v1.0 signés — 1 par équipe, adaptés, 
+compris, et voulus.
+ SITUATION ALTERNATIVE — « Et si une équipe refusait de signer ? »🎭
+Ça arrive. Et c'est important de savoir quoi faire. La règle TᵒTALiSATiᵒN : ne 
+jamais forcer une signature. Un contrat signé sous pression est un décor. Il 
+ne crée ni engagement ni responsabilité.
+La solution en 3 étapes :
+1.  Identifier spécifiquement ce qui bloque. Demandez : « Quelle clause 
+vous pose problème et pourquoi ? » Souvent, il s'agit d'une seule clause, pas 
+du contrat entier.
+2.  Retirer cette clause du contrat actuel. Signer sur le reste. Aucun 
+--- PAGE 31 ---
+engagement partiel n'est un aveu d'échec — c'est de l'honnêteté.
+3.  Prévoir de revoir la clause bloquante dans 4 semaines. 
+Documenter explicitement : « Clause X mise en suspens jusqu'à la réunion 
+CoE du [date]. »
+Un contrat de 4 clauses sincèrement voulu vaut infiniment plus qu'un contrat 
+de 6 clauses signé par obéissance.
+JOUR 10 — VENDREDI
+ ATELIER 10 — Première réunion officielle du Centre d'Excellence🎯
+But : Poser les bases institutionnelles du CoE avec tous les représentants 
+d'équipe — créer une structure qui existe indépendamment de Leila, du coach 
+externe, et de Sara.
+Durée : 1h30
+Instructions pas-à-pas
+Étape 1 — Priya anime (pas Leila)
+ Ce détail n'est pas un détail. Le CoE doit être autonome dès le départ. Si Leila 
+anime, le CoE dépend de Leila. Si Priya anime, le CoE est une institution 
+indépendante. La distinction est fondamentale pour la pérennité.
+Étape 2 — Ordre du jour de la première réunion
+1.  Raison d'être du CoE (10 min) — Pourquoi le CoE existe-t-il ? Que 
+protège-t-il ? Que produit-il ?
+2.  Rôles et responsabilités de chaque représentant (20 min) — Ce 
+--- PAGE 32 ---
+que le représentant doit faire, peut faire, et ne fait pas à la place du lead.
+3.  Fréquence et format des réunions (10 min) — Bi-mensuel, 1h, ordre 
+du jour fixe.
+4.  Premier livrable du CoE (20 min) — Le Glossaire Commun v1.0 : 
+validation collective et plan d'amélioration.
+5.  Premier défi CoE (10 min) — Mission assignée : enrichir le Glossaire de 
+10 termes supplémentaires d'ici 2 semaines.
+Étape 3 — Adopter la Charte du CoE TᵒTALiSATiᵒN v1.0
+ 1 page. 5 principes du CoE. 3 livrables annuels. 1 mode de décision 
+(consensus, pas vote). Signée par tous les représentants présents.
+Étape 4 — Premier défi CoE lancé
+ Améliorer le Glossaire Commun avec 10 termes supplémentaires d'ici 2 
+semaines. Chaque représentant d'équipe contribue 2 termes de son contexte.
+ Livrable :📄  Charte CoE TᵒTALiSATiᵒN v1.0 + calendrier CoE 60 jours + 
+premier défi CoE lancé.
+ Bilan de la Semaine 2📊
+ À retenir :✅  ÉLICITER est la porte d'entrée la plus accessible de 
+TᵒTALiSATiᵒN pour les nouvelles équipes. La spécification IF...THEN... est la 
+deuxième compétence la plus importante à installer. Le Glossaire Commun et 
+les Contrats Qualité sont les premiers livrables institutionnels concrets.
+⚠️  Symptômes à observer : Des specs IF...THEN... qui sont encore trop 
+vagues après la peer review — signe que la formation a été trop rapide. Des 
+contrats signés sans avoir été discutés — signe d'un engagement de façade.
+ Questions de réflexion :💭  Est-ce que chaque équipe a maintenant 1 cas 
+ÉLICITÉ documenté dont elle est fière ? Est-ce que le Glossaire résout de 
+--- PAGE 33 ---
+vraies ambiguïtés, ou est-il trop académique ?
+ Signal de vigilance :🚨  Si à la fin de la semaine 2, l'équipe Infrastructure 
+n'a pas de cas ÉLICITÉ documenté et pas de contrat qualité signé — même 
+partiel — c'est le moment d'escalader vers Sara. Le résistant passif a besoin 
+d'un signal de leadership, pas uniquement de méthode.
+SEMAINE 3 — Jours 11 à 15
+·
+DÉFINIR à l'échelle — construire la rigueur dans toutes les équipes
+ Aperçu de la semaine 3📋
+La phase DÉFINIR  est souvent la plus résistante dans le spread. Les équipes 
+savent ÉLICITER instinctivement — poser des questions, c'est naturel, c'est 
+humain. Mais DÉFINIR avec précision demande une discipline qui s'apprend, 
+qui se pratique, et qui crée parfois de l'inconfort. La précision révèle les 
+lacunes, et révéler les lacunes demande de l'humilité. Cette semaine est 
+entièrement consacrée à construire cette discipline dans les 6 équipes — sans 
+précipiter, sans simplifier à l'excès.
+JOUR 11 — LUNDI
+--- PAGE 34 ---
+ ATELIER 11 — Le niveau de détail minimal : adapter DÉFINIR à chaque 🎯
+type de story
+But : Définir ensemble le niveau de détail requis pour chaque taille de story 
+dans le contexte ÉlanSoft — et que chaque équipe calibre ce niveau à sa 
+propre réalité.
+Durée : 2 heures
+Instructions pas-à-pas
+Étape 1 — Présenter la grille de niveau de détail TᵒTALiSATiᵒN
+Taille
+Durée de développement
+Niveau de détail requis
+Livrables de DÉFINIR
+SMALL
+≤ 4 heures de dev
+Minimal
+Description en langage naturel + 1 critère d'acceptation
+MEDIUM
+1–3 jours de dev
+Standard
+Spec IF...THEN... + 2–3 critères d'acceptation + cas d'erreur principal
+LARGE
+> 3 jours de dev
+Complet
+--- PAGE 35 ---
+Spec IF...THEN... complète + cas nominaux + cas d'erreur + dépendances + 
+risques identifiés
+Étape 2 — Calibrer la grille au contexte ÉlanSoft
+ Les SMALL de l'équipe Infrastructure ne sont pas les SMALL de l'équipe 
+Mobile. Chaque équipe adapte les seuils de temps à son propre rythme et à 
+ses propres technologies.
+Étape 3 — Exercice de classification (30 minutes)
+ Chaque équipe classe 10 de ses stories existantes dans 
+SMALL/MEDIUM/LARGE, puis évalue si le niveau de détail actuel de chaque 
+story correspond à ce qui est requis.
+Questions à poser pour chaque story :
+•  Cette story a-t-elle la documentation requise pour sa taille ?
+•  Si non, qu'est-ce qui manque ?
+•  Ce manque a-t-il causé des problèmes lors de l'IMPLÉMENTER ou du 
+DIFFUSER ?
+ Livrable :📄  Grille de niveau de détail adaptée au contexte ÉlanSoft + liste 
+des stories sous-documentées identifiées dans chaque équipe.
+ ASTUCE DE TERRAIN — Le LARGE qui ne se découpe jamais💡
+Le piège le plus fréquent de DÉFINIR : une story LARGE qu'on ne découpe 
+jamais parce qu'on ne sait pas encore exactement ce qu'elle contient. 
+TᵒTALiSATiᵒN a une règle simple : si une story LARGE prend plus de 3 
+jours à DÉFINIR, c'est qu'elle est encore trop grosse. La décomposer en 
+stories MEDIUM ou SMALL, même si la vision complète n'est pas encore claire. 
+On peut ÉLICITER sur des sous-parties. On peut DÉFINIR de façon 
+incrémentale. Ce qu'on ne peut pas faire, c'est attendre que tout soit 
+--- PAGE 36 ---
+parfaitement clair avant de commencer à définir — cette perfection n'arrive 
+jamais.
+JOUR 12 — MARDI
+ ATELIER 12 — Peer review de specs inter-équipes : apprendre des 🎯
+autres
+But : Pratiquer la peer review de spécifications entre équipes différentes — 
+pour obtenir un regard neuf, sans biais du contexte, et pour identifier des 
+patterns d'amélioration à l'échelle de toute l'organisation.
+Durée : 2 heures
+Instructions pas-à-pas
+Étape 1 — Échange inter-équipes de specs
+ Chaque équipe soumet 2 specs IF...THEN... à une autre équipe pour review. 
+La paire est assignée par Leila (non choisie par les équipes elles-mêmes — 
+pour éviter les paires « confortables »).
+Étape 2 — L'équipe reviewer pose 3 questions maximum
+•  Est-ce testable ? Peut-on écrire un test automatisé ou manuel qui valide 
+exactement cette spec ?
+•  Y a-t-il des mots dangereux non définis dans le Glossaire Commun ?
+•  Le cas d'erreur principal est-il couvert ? Que se passe-t-il quand ça ne 
+marche pas ?
+Étape 3 — Révision des specs
+ Chaque équipe reçoit les retours et révise ses specs en 30 minutes. L'objectif 
+--- PAGE 37 ---
+n'est pas la perfection — c'est l'amélioration visible.
+Étape 4 — Discussion collective sur les patterns
+ Qu'est-ce qui revient souvent comme lacune dans les specs de toute 
+l'organisation ? Y a-t-il des angles morts communs ? Cette discussion alimente 
+directement le Glossaire Commun et les prochaines formations.
+ Livrable :📄  Specs révisées par toutes les équipes + liste des patterns 
+d'amélioration identifiés à l'échelle de l'organisation (document partagé dans 
+le CoE).
+😄 ANECDOTE — La question qui a évité un bug de production
+Lors d'une peer review inter-équipes chez ÉlanSoft, l'équipe Analytics a 
+reviewé une spec de l'équipe Mobile. La spec disait : « IF l'utilisateur consulte 
+ses données THEN les données s'affichent en moins de 2 secondes. » L'équipe 
+Analytics a posé la question : « 2 secondes pour combien de données ? Pour 10 
+enregistrements ou pour 1 million d'entrées ? » Silence dans la salle. Puis Nina 
+(Mobile) : « C'est une très bonne question. On n'avait pas pensé à ça. » La spec 
+a été révisée avec 3 seuils distincts selon le volume de données. Cette 
+conversation, qui a duré 8 minutes, a évité un bug de production 
+identifié 6 semaines plus tard lors des tests de charge. Le regard 
+externe voit ce que le regard interne normalise.
+JOUR 13 — MERCREDI
+ ATELIER 13 — RACI étendu : qui fait quoi dans chaque équipe🎯
+--- PAGE 38 ---
+But : Étendre le RACI à toutes les équipes avec un format cohérent — et 
+nommer un chargé de livraison dans chaque équipe, le gardien du SDLC 
+TᵒTALiSATiᵒN.
+Durée : 2h30
+Instructions pas-à-pas
+Étape 1 — Présenter le RACI modèle de l'équipe Core
+ Marcus présente le RACI v2.0 de son équipe. Il explique comment chaque 
+décision a été prise : pourquoi tel rôle est Responsible et non Accountable 
+pour telle phase.
+Étape 2 — Adaptation par équipe (45 minutes)
+ Chaque équipe adapte le RACI à sa propre structure. Les titres varient entre 
+équipes (« Tech Lead » vs « Principal Engineer » vs « Architecte ») — ce qui 
+compte, c'est la clarté des responsabilités, pas l'uniformité des titres.
+Étape 3 — RACI par phase du SDLC TᵒTALiSATiᵒN
+Phase SDLC
+Responsible (fait le travail)
+Accountable (répond du résultat)
+Consulté
+Informé
+ÉLICITER
+PO/PM + équipe
+Lead d'équipe
+Clients/utilisateurs
+Sara, CoE
+--- PAGE 39 ---
+DÉFINIR
+PO/PM + Tech Lead
+Lead d'équipe
+QA, équipes adjacentes
+Sara, CoE
+PLANIFIER
+Équipe de dev
+Lead d'équipe
+PO, Tech Lead
+Sara
+IMPLÉMENTER
+Développeurs
+Tech Lead / Chargé de livraison
+QA, DevOps
+Lead d'équipe
+DIFFUSER
+DevOps/Infra
+Chargé de livraison
+QA, Lead
+Sara, clients
+CONFIRMER
+Toute l'équipe
+--- PAGE 40 ---
+Lead d'équipe
+CoE, Leila
+Sara, CoE global
+Étape 4 — Identifier les zones de RACI « manquant »
+ Les responsabilités que personne n'assume explicitement sont les zones de 
+risque les plus dangereuses. Les nommer, c'est déjà commencer à les 
+résoudre.
+Étape 5 — Nommer le chargé de livraison
+ Dans chaque équipe, un chargé de livraison est nommé formellement. Son 
+rôle : gardien du SDLC TᵒTALiSATiᵒN — s'assurer que les 6 phases sont 
+respectées dans chaque cycle.
+ Livrable :📄  RACI v1.0 pour toutes les équipes + chargé de livraison nommé 
+partout + zones de responsabilité « manquant » documentées.
+ SITUATION ALTERNATIVE — « Tout le monde est responsable de tout »🎭
+C'est la réponse classique des équipes très horizontales — et elle est sincère. 
+Ces équipes valorisent l'autonomie collective et la responsabilité partagée. 
+TᵒTALiSATiᵒN ne remet pas en cause cette valeur.
+Mais « tout le monde est responsable de tout » signifie en pratique que 
+personne n'est responsable de rien quand quelque chose ne va pas. La 
+clarté des rôles n'est pas une hiérarchie — c'est une protection pour chaque 
+membre de l'équipe.
+La question à poser, simple et directe : « Quand quelque chose ne va pas 
+à 23h un jeudi, qui appelle-t-on en premier ? » Invariablement, un nom sort. 
+Parfois deux. Ces personnes sont les Accountable de fait. Le RACI ne fait que 
+rendre visible ce qui existe déjà — et protéger les autres du poids de 
+--- PAGE 41 ---
+responsabilités implicites qu'ils n'ont pas choisies.
+JOUR 14 — JEUDI
+ ATELIER 14 — Les 3 métriques communes : chaque équipe mesure pour🎯  
+la première fois
+But : Que chaque équipe produise sa première mesure réelle sur les 3 
+métriques communes — et que le premier tableau de bord commun soit 
+visible par toute l'organisation.
+Durée : 2 heures
+Instructions pas-à-pas
+Étape 1 — Rappel des 3 métriques communes
+ Définie en semaine 1 : taux de specs IF...THEN... par story MEDIUM/LARGE, 
+taux de bugs critiques post-DIFFUSER, délai ÉLICITER→DÉFINIR.
+Étape 2 — Extraction des données par chaque équipe
+ Chaque équipe extrait ses données du sprint passé ou des 2 dernières 
+semaines. Les données brutes sont acceptées — pas besoin de tableaux de 
+bord sophistiqués. Un fichier texte avec 3 chiffres est suffisant pour 
+commencer.
+Étape 3 — Omar (Analytics) comme ressource partagée
+ Omar met à disposition ses outils et son expertise pour les équipes qui n'ont 
+pas de processus de collecte de données. Son rôle : aider à extraire les 
+données de ce qui existe déjà (logs, Jira, Git, outils de monitoring), pas créer 
+des processus de mesure entiers en une journée.
+Étape 4 — Premier tableau de bord commun
+--- PAGE 42 ---
+ Afficher les résultats de toutes les équipes côte à côte. Le format est 
+intentionnellement simple :
+Équipe
+% Specs IF...THEN... (MEDIUM/LARGE)
+Bugs critiques post-DIFFUSER
+Délai moyen ÉLICITER→DÉFINIR
+Core
+Ligne de base (héritée Guide Rouge)
+Ligne de base
+Ligne de base
+Intégrations
+Première mesure S3
+Première mesure S3
+Première mesure S3
+Mobile
+Première mesure S3
+Première mesure S3
+Première mesure S3
+Analytics
+Première mesure S3
+Première mesure S3
+Première mesure S3
+--- PAGE 43 ---
+Infrastructure
+Première mesure S3
+Première mesure S3
+Première mesure S3
+Support Engineering
+Première mesure S3
+Première mesure S3
+Première mesure S3
+Les données exactes sont remplies par chaque équipe le jour J. Le tableau ci-
+dessus est le format — les chiffres sont les vôtres.
+Étape 5 — 1 action d'amélioration par équipe
+ Chaque équipe identifie la métrique la plus faible et définit 1 action concrète 
+pour l'améliorer d'ici la fin du mois 3. L'action doit être spécifique, assignée à 
+une personne, et mesurable.
+ Livrable :📄  Première mesure de toutes les équipes sur 3 métriques + 
+tableau de bord commun v1.0 publié + 1 action d'amélioration par équipe 
+documentée.
+ ASTUCE DE TERRAIN — Le tableau de bord qui n'est pas un 💡
+palmarès
+Le tableau de bord commun ne doit pas être utilisé comme outil de 
+compétition entre équipes au début du spread. Les équipes qui se sentent 
+jugées dès le départ développent deux comportements contre-productifs : 
+elles minimisent leurs problèmes pour paraître « meilleures », ou elles 
+falsifient inconsciemment leurs données par optimisme non fondé. Mettre 
+--- PAGE 44 ---
+l'accent sur « ce qu'on apprend ensemble » plutôt que « qui est le 
+meilleur ». Le tableau de bord est une ligne de base, pas un classement. Les 
+classements viennent plus tard, quand la confiance est établie.
+JOUR 15 — VENDREDI
+ ATELIER 15 — Premier bilan de spread : ce qu'on voit, ce qu'on ajuste🎯
+But : Évaluer honnêtement les 3 premières semaines et ajuster le plan des 5 
+semaines restantes — avec la même rigueur que TᵒTALiSATiᵒN applique à tout 
+le reste.
+Durée : 2h30 (avec réunion CoE incluse en fin de session)
+Instructions pas-à-pas
+Étape 1 — Revue du plan de spread : semaines 1–3
+ Leila présente le plan original et la réalité observée côte à côte. Pas de 
+jugement — uniquement des faits : ce qui était prévu, ce qui a été accompli, 
+ce qui a pris plus de temps que prévu.
+Étape 2 — Évaluation par équipe sur 4 dimensions
+Équipe
+ÉLICITER
+DÉFINIR
+Contrat Qualité
+RACI
+--- PAGE 45 ---
+Core
+Référence
+Référence
+v2.0 (hérité)
+Complet (hérité)
+Intégrations
+ /  / ✅ ⚠️ 🚨
+ /  / ✅ ⚠️ 🚨
+ /  / ✅ ⚠️ 🚨
+ /  / ✅ ⚠️ 🚨
+Mobile
+ /  / ✅ ⚠️ 🚨
+ /  / ✅ ⚠️ 🚨
+ /  / ✅ ⚠️ 🚨
+ /  / ✅ ⚠️ 🚨
+Analytics
+ /  / ✅ ⚠️ 🚨
+ /  / ✅ ⚠️ 🚨
+ /  / ✅ ⚠️ 🚨
+ /  / ✅ ⚠️ 🚨
+Infrastructure
+ /  / ✅ ⚠️ 🚨
+--- PAGE 46 ---
+ /  / ✅ ⚠️ 🚨
+ /  / ✅ ⚠️ 🚨
+ /  / ✅ ⚠️ 🚨
+Support Eng.
+ /  / ✅ ⚠️ 🚨
+ /  / ✅ ⚠️ 🚨
+ /  / ✅ ⚠️ 🚨
+ /  / ✅ ⚠️ 🚨
+Légende :  En bonne voie  ·  ⚠️  Attention requise  ·   Intervention ✅ 🚨
+nécessaire
+Étape 3 — Identifier les dynamiques de progression
+•  Équipes en avance : Les 2–3 équipes qui progressent le plus vite 
+peuvent devenir des ambassadeurs avancés pour la Partie B. Leur 
+permettre d'aider les équipes en retard.
+•  Équipes en besoin de soutien : Les 1–2 équipes qui ont besoin d'un 
+accompagnement direct supplémentaire. Leila leur consacre une visite 
+hebdomadaire supplémentaire en Partie B.
+Étape 4 — Ajuster le plan des semaines 4–8
+ Le plan ajusté doit refléter la réalité observée — pas le plan idéal du premier 
+jour. Les ajustements sont documentés et partagés avec Sara et le CoE.
+Étape 5 — Deuxième réunion du CoE
+ Bilan des 3 premières semaines. Validation du Glossaire Commun v1.0. 
+Lancement du défi CoE #2 pour la Partie B.
+ Livrable :📄  Rapport de bilan S1–S3 + plan ajusté S4–S8 + actions CoE 
+documentées + évaluation honnête de la progression de chaque équipe.
+--- PAGE 47 ---
+ Bilan de la Semaine 3📊
+ À retenir :✅  DÉFINIR est la phase qui révèle la maturité réelle d'une équipe. 
+La peer review inter-équipes crée un apprentissage organisationnel que la 
+formation individuelle ne peut pas produire. Le RACI n'est pas une contrainte 
+bureaucratique — c'est une protection pour chaque membre de l'équipe.
+⚠️  Symptômes à observer : Des specs qui restent vagues après 3 peer 
+reviews — signe que le niveau de détail minimum n'est pas encore intégré. Un 
+RACI signé sans que les rôles aient été réellement discutés — signe d'un 
+accord de surface.
+ Questions de réflexion :💭  Est-ce que le tableau de bord commun est 
+utilisé pour apprendre, ou pour comparer ? Est-ce que les chargés de livraison 
+nommés comprennent vraiment leur rôle, ou ont-ils été nommés par défaut ?
+ Signal de vigilance :🚨  Si le bilan de vendredi révèle que 2 équipes ou plus 
+sont en mode  sur DÉFINIR, la Partie B doit être réorientée pour consolider 🚨
+ÉLICITER+DÉFINIR avant de passer à PLANIFIER+IMPLÉMENTER. Ne pas 
+avancer sur un fondement fragile — le SDLC TᵒTALiSATiᵒN est une chaîne, et 
+chaque maillon doit tenir.
+Bilan de la Partie A — 
+Semaines 1 à 3
+Ce qui a été accompli en 15 jours
+--- PAGE 48 ---
+Trois semaines. Quinze jours de travail. Et voici ce que le spread TᵒTALiSATiᵒN a 
+produit dans l'organisation ÉlanSoft — non pas dans une équipe pilote, mais dans 
+les 6 équipes simultanément :
+Livrable État à la fin de la 
+Partie A
+Prochaine étape 
+(Partie B)
+Cartographie des 6 
+équipes
+ Complète — défis, ✅
+forces, profils de 
+résistance
+Mise à jour à mi-parcours 
+(S5)
+Kit de Démarrage 
+TᵒTALiSATiᵒN v1.0
+ Distribué et lu dans ✅
+toutes les équipes
+Enrichissement en S6
+Carte de correspondance 
+SDLC ↔ pratiques
+ 6 cartes créées✅ Utilisée pour PLANIFIER 
+en S4
+Ligne de base 
+qualimétrie
+ 3 métriques × 6 ✅
+équipes mesurées
+Révision mensuelle 
+croisée à partir de S4
+Plan de spread 60 jours  Créé + ajusté après ✅
+bilan S3
+S4–S8 en cours 
+d'exécution
+Glossaire Commun v1.0  20–30 termes définis, ✅
+validé par le CoE
+10 termes 
+supplémentaires d'ici S5
+Spécifications IF...THEN...  ≥1 spec par ✅
+personne, peer-reviewée
+Intégration systématique 
+en PLANIFIER (S4)
+6 Contrats Qualité v1.0  6 contrats signés ✅
+(possiblement partiels 
+pour 1–2 équipes)
+Révision et consolidation 
+en S7
+RACI v1.0 pour toutes les 
+équipes
+ + chargés de livraison✅  
+nommés partout
+Application dans 
+IMPLÉMENTER (S5)
+Tableau de bord commun 
+v1.0
+ Toutes équipes, 3 ✅
+métriques, accessible
+Mise à jour bi-mensuelle
+Centre d'Excellence — 
+Charte CoE v1.0
+ 2 réunions tenues, ✅
+Priya en lead, 1 
+rep/équipe
+Réunions bi-mensuelles 
+maintenues
+Ce que la Partie A vous a appris sur votre 
+organisation
+--- PAGE 49 ---
+Au-delà des livrables formels, la Partie A vous a offert quelque chose de plus 
+précieux : une vision réaliste et honnête de votre organisation telle qu'elle est 
+vraiment — pas telle qu'elle devrait être sur le papier.
+Vous savez maintenant :
+● Qui sont les vrais leaders dans chaque équipe (pas toujours ceux qui ont le 
+titre)
+● Où se trouvent les résistances structurelles (et ce qui les alimente 
+réellement)
+● Quelles métriques existaient et lesquelles devaient être créées de zéro
+● Quel vocabulaire votre organisation utilisait — et où ce vocabulaire créait des 
+malentendus invisibles
+● Quelle équipe est prête à avancer vite en Partie B, et laquelle a besoin de 
+plus de soutien
+Cette connaissance est le vrai actif de la Partie A. Elle n'apparaît dans aucun 
+dashboard — mais elle guide chaque décision de la Partie B.
+La chaîne TᵒTALiSATiᵒN en marche
+Après 3 semaines, la chaîne TᵒTALiSATiᵒN a commencé à s'installer dans toutes les 
+équipes :
+Clarté (Glossaire commun, specs IF...THEN..., RACI) → qualité (métriques 
+mesurées, contrats signés) → confiance (en construction — le tableau de bord 
+commun devient le miroir objectif) → excellence durable (l'objectif de la grande 
+boucle : CONFIRMER → ÉLICITER).
+Chaque élément installé en Partie A est un maillon de cette chaîne. Chaque maillon 
+manquant est un risque pour la chaîne entière. C'est pourquoi le bilan honnête de la 
+semaine 3 est si important : identifier les maillons faibles maintenant permet de les 
+renforcer avant que la Partie B les mette sous pression.
+--- PAGE 50 ---
+Ce qui vous attend en Partie B — Semaines 4 
+à 6
+La Partie B couvrira les phases PLANIFIER  et IMPLÉMENTER  à l'échelle de 
+toutes les équipes — et les premières rétrospectives croisées inter-équipes, premier 
+signe concret que la grande boucle TᵒTALiSATiᵒN fonctionne à l'échelle de 
+l'organisation.
+La Partie B est également le moment où les ambassadeurs Core prennent leur plein 
+autonomie — et où Leila commence à diminuer son accompagnement direct pour 
+préparer la pérennité post-Guide Orange.
+ Bilan de la Partie A — Récapitulatif final📊
+ À retenir de la Partie A :✅  Le diagnostic précède toujours le traitement. 
+Le minimum viable est plus puissant que la version complète pour les débuts. 
+Les mots dangereux sont les risques silencieux les plus coûteux. Un contrat 
+signé avec conviction vaut plus qu'un contrat parfait signé par obligation. Le 
+CoE doit être autonome dès la première réunion pour survivre à long terme.
+⚠️  Symptômes à surveiller en entrant en Partie B : Une équipe qui a tous 
+les documents mais aucun changement de comportement observable. Un 
+ambassadeur Core qui perd sa confiance après les premières difficultés. Un 
+tableau de bord commun qui n'est plus mis à jour après 2 semaines.
+ Questions pour préparer la Partie B :💭  Quelle équipe est prête à devenir 
+un modèle pour les autres ? Leila est-elle en train de créer sa propre 
+dépendance, ou de transférer activement ses compétences ? Sara reçoit-elle 
+les preuves dont elle a besoin pour maintenir son engagement ?
+--- PAGE 51 ---
+ Signal de vigilance prioritaire :🚨  Si la métrique « taux de specs 
+IF...THEN... par story MEDIUM/LARGE » est inférieure à 40% dans plus de 3 
+équipes à la fin de la semaine 3, ralentir la Partie B et consacrer les 2 
+premières semaines de la Partie B à consolider DÉFINIR avant de passer à 
+PLANIFIER. La vitesse est secondaire. La qualité du fondement est primaire.
+« Répandre l'excellence, c'est d'abord comprendre ce qu'elle rencontre. »
+La Partie A du Guide Orange pose les fondations invisibles du spread 
+TᵒTALiSATiᵒN. Trois semaines de diagnostic, d'écoute, et de premiers 
+livrables concrets — pour que les 5 semaines suivantes (Parties B et C) 
+construisent sur du solide. TᵒTALiSATiᵒN vient de TOTAL + RÉALISATION. 
+Être total, c'est aussi être patient avec les fondations.
+Léo Michel Bélanger, fondateur d'ORIGINALIUM
+ images et couverture par Soléane Bélanger
+ Collection TᵒTALiSATiᵒN — Réconciliation  ·  21 livres
+ Livre 16 sur 21  ·  Guide Orange  ·  Mois 3–4 de 14
+ Partie A — Semaines 1 à 3  ·  Niveau : STRUCTURATION
+ Phases SDLC TᵒTALiSATiᵒN :
+ ÉLICITER · DÉFINIR · PLANIFIER · IMPLÉMENTER · DIFFUSER · CONFIRMER
+ Zones : SENSE · FORGE · CARE
+--- PAGE 52 ---
+ Chaîne : Clarté → qualité → confiance → excellence durable
+ Grande boucle : CONFIRMER → ÉLICITER

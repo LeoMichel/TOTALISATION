@@ -1,0 +1,881 @@
+Date: Wed, 4 Dec 2024 14:27:41 +0000 (UTC)
+Message-ID: <1017420640.45.1733322461281@eee5c11846ed>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_44_1693200840.1733322461280"
+
+------=_Part_44_1693200840.1733322461280
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Type de test</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Type de test</h1>
+    <div class=3D"Section1">
+        Groupe d'activit=C3=A9s de test bas=C3=A9es sur des objectifs de te=
+st sp=C3=A9cifiques visant ainsi des caract=C3=A9ristiques sp=C3=A9cifiques=
+.
+<h3 id=3D"Typedetest-https://petalmd.atlassian.net/wiki/spaces/PT/pages/198=
+5938232/Tests+de+type+fonctionnels"><a href=3D"https://petalmd.atlassian.ne=
+t/wiki/spaces/PT/pages/1985938232/Tests+de+type+fonctionnels" data-card-app=
+earance=3D"inline" rel=3D"nofollow">https://petalmd.atlassian.net/wiki/spac=
+es/PT/pages/1985938232/Tests+de+type+fonctionnels</a></h3>
+<ul>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1985938017/Exploratoire+type+de+test" d=
+ata-linked-resource-id=3D"1985938017" data-linked-resource-version=3D"3" da=
+ta-linked-resource-type=3D"page">Test de type exploratoire</a></p>
+<ul>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1985938027/Ad-hoc+type+de+test" data-li=
+nked-resource-id=3D"1985938027" data-linked-resource-version=3D"7" data-lin=
+ked-resource-type=3D"page">Test de type ad-hoc</a></p></li>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1985970943/Exploratoire+bas+sur+des+cha=
+rtes+type+de+test" data-linked-resource-id=3D"1985970943" data-linked-resou=
+rce-version=3D"3" data-linked-resource-type=3D"page">Test de type explorato=
+ire bas=C3=A9 sur des chartes</a></p></li>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1985905466/Scientifique+type+de+test" d=
+ata-linked-resource-id=3D"1985905466" data-linked-resource-version=3D"3" da=
+ta-linked-resource-type=3D"page">Test de type scientifique</a></p></li>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1985970963/Tests+de+type+strat+giques+t=
+actiques" data-linked-resource-id=3D"1985970963" data-linked-resource-versi=
+on=3D"2" data-linked-resource-type=3D"page">Tests de type strat=C3=A9giques=
+/tactiques</a></p></li>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1985970988/Gorille+type+de+test" data-l=
+inked-resource-id=3D"1985970988" data-linked-resource-version=3D"3" data-li=
+nked-resource-type=3D"page">Test de type gorille</a></p></li>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1986003766/Singe+monkey+type+de+test" d=
+ata-linked-resource-id=3D"1986003766" data-linked-resource-version=3D"3" da=
+ta-linked-resource-type=3D"page">Test de type singe (monkey testing)</a></p=
+></li>
+</ul></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/wiki/spaces/PT/pages/1986003790=
+/Test+unitaire" data-card-appearance=3D"inline" rel=3D"nofollow">https://pe=
+talmd.atlassian.net/wiki/spaces/PT/pages/1986003790/Test+unitaire</a></p></=
+li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/wiki/spaces/PT/pages/1985905550=
+/Test+d+int+gration" data-card-appearance=3D"inline" rel=3D"nofollow">https=
+://petalmd.atlassian.net/wiki/spaces/PT/pages/1985905550/Test+d+int+gration=
+</a></p></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/wiki/spaces/PT/pages/1986003820=
+/Test+syst+me" data-card-appearance=3D"inline" rel=3D"nofollow">https://pet=
+almd.atlassian.net/wiki/spaces/PT/pages/1986003820/Test+syst+me</a></p></li=
+>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/wiki/spaces/PT/pages/1985971020=
+/Test+de+confirmation" data-card-appearance=3D"inline" rel=3D"nofollow">htt=
+ps://petalmd.atlassian.net/wiki/spaces/PT/pages/1985971020/Test+de+confirma=
+tion</a></p></li>
+<li>
+<p><a href=3D"https://petalmd.atlassian.net/wiki/spaces/PT/pages/1985971043=
+/Test+de+r+gression" data-card-appearance=3D"inline" rel=3D"nofollow">https=
+://petalmd.atlassian.net/wiki/spaces/PT/pages/1985971043/Test+de+r+gression=
+</a></p></li>
+</ul>
+<h3 id=3D"Typedetest-https://petalmd.atlassian.net/wiki/spaces/PT/pages/198=
+5971109/Tests+de+type+non+fonctionnels"><a href=3D"https://petalmd.atlassia=
+n.net/wiki/spaces/PT/pages/1985971109/Tests+de+type+non+fonctionnels" data-=
+card-appearance=3D"inline" rel=3D"nofollow">https://petalmd.atlassian.net/w=
+iki/spaces/PT/pages/1985971109/Tests+de+type+non+fonctionnels</a></h3>
+<ul>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1986004298/Performance+type+de+test" da=
+ta-linked-resource-id=3D"1986004298" data-linked-resource-version=3D"2" dat=
+a-linked-resource-type=3D"page">Test de type performance</a></p></li>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1986004308/Charge+type+de+test" data-li=
+nked-resource-id=3D"1986004308" data-linked-resource-version=3D"3" data-lin=
+ked-resource-type=3D"page">Test de type charge</a></p></li>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1985971484/R+silience+type+de+test" dat=
+a-linked-resource-id=3D"1985971484" data-linked-resource-version=3D"3" data=
+-linked-resource-type=3D"page">Test de type r=C3=A9silience</a></p></li>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1985938464/Stabilisation+type+de+test" =
+data-linked-resource-id=3D"1985938464" data-linked-resource-version=3D"2" d=
+ata-linked-resource-type=3D"page">Test de type stabilisation</a></p></li>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1985906008/Compatibilit+type+de+test" d=
+ata-linked-resource-id=3D"1985906008" data-linked-resource-version=3D"3" da=
+ta-linked-resource-type=3D"page">Test de type compatibilit=C3=A9</a></p></l=
+i>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1985906018/S+curit+type+de+test" data-l=
+inked-resource-id=3D"1985906018" data-linked-resource-version=3D"4" data-li=
+nked-resource-type=3D"page">Test de type s=C3=A9curit=C3=A9</a></p></li>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1985971526/P+n+tration+type+de+test" da=
+ta-linked-resource-id=3D"1985971526" data-linked-resource-version=3D"3" dat=
+a-linked-resource-type=3D"page">Test de type p=C3=A9n=C3=A9tration</a></p><=
+/li>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1986004402/Chaos+engineering+type+de+te=
+st" data-linked-resource-id=3D"1986004402" data-linked-resource-version=3D"=
+3" data-linked-resource-type=3D"page">Test de type chaos engineering</a></p=
+></li>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1985971540/Stabilit+type+de+test" data-=
+linked-resource-id=3D"1985971540" data-linked-resource-version=3D"3" data-l=
+inked-resource-type=3D"page">Test de type stabilit=C3=A9</a></p></li>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1985971557/P+rennit+type+de+test" data-=
+linked-resource-id=3D"1985971557" data-linked-resource-version=3D"3" data-l=
+inked-resource-type=3D"page">Test de type p=C3=A9rennit=C3=A9</a></p></li>
+</ul>
+<h3 id=3D"Typedetest-TestsdeSant=C3=A9(Sanitaires/Int=C3=A9grit=C3=A9)">Tes=
+ts de Sant=C3=A9 (Sanitaires/Int=C3=A9grit=C3=A9)</h3>
+<ul>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1986330710/Fum+e+smoke+type+de+test" da=
+ta-linked-resource-id=3D"1986330710" data-linked-resource-version=3D"2" dat=
+a-linked-resource-type=3D"page">Test de type fum=C3=A9e (smoke)</a></p></li=
+>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1986396280/Donn+e+type+de+test" data-li=
+nked-resource-id=3D"1986396280" data-linked-resource-version=3D"2" data-lin=
+ked-resource-type=3D"page">Test de type donn=C3=A9e</a></p></li>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1986429037/D+ploiement+installation+ou+=
+publication+type+de+test" data-linked-resource-id=3D"1986429037" data-linke=
+d-resource-version=3D"2" data-linked-resource-type=3D"page">Test de type d=
+=C3=A9ploiement, installation ou publication</a></p></li>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1986330731/Configuration+type+de+test" =
+data-linked-resource-id=3D"1986330731" data-linked-resource-version=3D"2" d=
+ata-linked-resource-type=3D"page">Test de type configuration</a></p></li>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1986363524/Clean+Code+propre+type+de+te=
+st" data-linked-resource-id=3D"1986363524" data-linked-resource-version=3D"=
+2" data-linked-resource-type=3D"page">Test de type code propre (clean code)=
+</a></p></li>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1986396329/Mise+en+service+type+de+test=
+" data-linked-resource-id=3D"1986396329" data-linked-resource-version=3D"3"=
+ data-linked-resource-type=3D"page">Test de type mise en service</a></p></l=
+i>
+<li>
+<p><a href=3D"/wiki/spaces/QA/pages/1923219873/E2E+End-to-End+bout+en+bout+=
+type+de+test" data-linked-resource-id=3D"1923219873" data-linked-resource-v=
+ersion=3D"12" data-linked-resource-type=3D"page">Test de type E2E (End-to-E=
+nd), test bout en bout</a></p></li>
+</ul>
+<h3 id=3D"Typedetest-TestsStructurels">Tests Structurels</h3>
+<ul>
+<li>
+<p><strong>Test statique</strong> : Analyse le code sans l=E2=80=99ex=C3=A9=
+cuter (ex. : revue de code, analyse statique).</p></li>
+<li>
+<p><strong>Test de contract</strong> : V=C3=A9rifie que les interfaces entr=
+e les composants respectent les contrats d=C3=A9finis.</p></li>
+</ul>
+<h3 id=3D"Typedetest-TestsdeMonitoring/Statistiques/Analytiques">Tests de M=
+onitoring/Statistiques/Analytiques</h3>
+<ul>
+<li>
+<p><strong>Test de communication</strong> : V=C3=A9rifie la communication e=
+ntre les composants.</p></li>
+<li>
+<p><strong>Test de ping</strong> : V=C3=A9rifie la disponibilit=C3=A9 et la=
+ r=C3=A9activit=C3=A9 du syst=C3=A8me.</p></li>
+<li>
+<p><strong>Tests synth=C3=A9tiques</strong> : Simulent des sc=C3=A9narios s=
+p=C3=A9cifiques pour surveiller la performance et la disponibilit=C3=A9 en =
+temps r=C3=A9el.</p></li>
+<li>
+<p><strong>Tests =C3=A0 diff=C3=A9rentes p=C3=A9riodes de la journ=C3=A9e</=
+strong> : =C3=89valuent la performance et la stabilit=C3=A9 du syst=C3=A8me=
+ =C3=A0 diff=C3=A9rents moments de la journ=C3=A9e.</p></li>
+<li>
+<p><strong>Tests A/B</strong> : Comparent deux versions d=E2=80=99une appli=
+cation ou d=E2=80=99une fonctionnalit=C3=A9 pour d=C3=A9terminer laquelle e=
+st la plus efficace.</p></li>
+</ul>
+<h3 id=3D"Typedetest-TestsManuelsetAutomatis=C3=A9s">Tests Manuels et Autom=
+atis=C3=A9s</h3>
+<ul>
+<li>
+<p><strong>Test manuel</strong> : R=C3=A9alis=C3=A9 par des testeurs humain=
+s sans automatisation.</p></li>
+<li>
+<p><strong>Test automatis=C3=A9</strong> : Utilise des scripts et des outil=
+s pour ex=C3=A9cuter les tests automatiquement.</p></li>
+</ul>
+<h3 id=3D"Typedetest-TestsdeConformit=C3=A9etdeS=C3=A9curit=C3=A9">Tests de=
+ Conformit=C3=A9 et de S=C3=A9curit=C3=A9</h3>
+<ul>
+<li>
+<p><strong>Tests de langue</strong> : V=C3=A9rifient que l=E2=80=99applicat=
+ion fonctionne correctement dans diff=C3=A9rentes langues et localisations.=
+</p></li>
+<li>
+<p><strong>Tests de conformit=C3=A9 du domaine</strong> : V=C3=A9rifient qu=
+e l=E2=80=99application respecte les normes et les r=C3=A9glementations sp=
+=C3=A9cifiques =C3=A0 son domaine.</p></li>
+<li>
+<p><strong>Tests de connexion</strong> : V=C3=A9rifient la connectivit=C3=
+=A9 et la communication entre les diff=C3=A9rents composants du syst=C3=A8m=
+e.</p></li>
+<li>
+<p><strong>Tests de hacker =C3=A9thique</strong> : Simulent des attaques po=
+ur identifier les faiblesses de s=C3=A9curit=C3=A9.</p></li>
+</ul>
+<h3 id=3D"Typedetest-Testsdel=E2=80=99Exp=C3=A9rienceUtilisateur(UX)">Tests=
+ de l=E2=80=99Exp=C3=A9rience Utilisateur (UX)</h3>
+<ul>
+<li>
+<p><strong>Tests d=E2=80=99accessibilit=C3=A9</strong> : V=C3=A9rifient que=
+ l=E2=80=99application est utilisable par des personnes ayant des handicaps=
+, en respectant les normes d=E2=80=99accessibilit=C3=A9.</p></li>
+<li>
+<p><strong>Tests de langue</strong> : V=C3=A9rifient que l=E2=80=99applicat=
+ion fonctionne correctement dans diff=C3=A9rentes langues et localisations.=
+</p></li>
+<li>
+<p><strong>Tests de conformit=C3=A9 du domaine</strong> : V=C3=A9rifient qu=
+e l=E2=80=99application respecte les normes et les r=C3=A9glementations sp=
+=C3=A9cifiques =C3=A0 son domaine.</p></li>
+<li>
+<p><strong>Tests de couleurs/palette/design</strong> : V=C3=A9rifient la co=
+h=C3=A9rence et l=E2=80=99attrait visuel du design.</p></li>
+<li>
+<p><strong>Tests UX (exp=C3=A9rience utilisateur)</strong> : =C3=89valuent =
+la facilit=C3=A9 d=E2=80=99utilisation et l=E2=80=99exp=C3=A9rience globale=
+ de l=E2=80=99utilisateur.</p></li>
+<li>
+<p><strong>Tests user-friendly</strong> : V=C3=A9rifient que l=E2=80=99appl=
+ication est intuitive et facile =C3=A0 utiliser.</p></li>
+<li>
+<p><strong>Tests de termes utilis=C3=A9s</strong> : V=C3=A9rifient que les =
+termes utilis=C3=A9s sont adapt=C3=A9s au domaine et aux standards du march=
+=C3=A9/utilisateur.</p></li>
+<li>
+<p><strong>Tests de standards et habitudes du march=C3=A9/utilisateur</stro=
+ng> : V=C3=A9rifient que l=E2=80=99application respecte les standards et ha=
+bitudes du march=C3=A9 et des utilisateurs.</p></li>
+</ul>
+<h3 id=3D"Typedetest-ValidationpromotiondesphasesSDLC">Validation promotion=
+ des phases SDLC</h3>
+<ul>
+<li>
+<p><strong>Tests UAT (User Acceptance Testing)</strong> : V=C3=A9rifient qu=
+e l=E2=80=99application r=C3=A9pond aux besoins et attentes des utilisateur=
+s finaux.</p></li>
+<li>
+<p><strong>Tests d=E2=80=99acceptation</strong> : V=C3=A9rifient que l=E2=
+=80=99application r=C3=A9pond aux crit=C3=A8res d=E2=80=99acceptation d=C3=
+=A9finis par le client ou les parties prenantes.</p></li>
+<li>
+<p><strong>Validation des besoins</strong> : V=C3=A9rifie que les besoins d=
+es utilisateurs sont correctement compris et pris en compte.</p></li>
+<li>
+<p><strong>Validation des requis</strong> : V=C3=A9rifie que les exigences =
+sp=C3=A9cifi=C3=A9es sont compl=C3=A8tes, correctes et testables.</p></li>
+<li>
+<p><strong>Validation de l=E2=80=99architecture</strong> : V=C3=A9rifie que=
+ l=E2=80=99architecture du syst=C3=A8me r=C3=A9pond aux exigences et est ca=
+pable de supporter les fonctionnalit=C3=A9s pr=C3=A9vues.</p></li>
+<li>
+<p><strong>Validation du design</strong> : V=C3=A9rifie que le design de l=
+=E2=80=99application est conforme aux sp=C3=A9cifications et aux attentes d=
+es utilisateurs.</p></li>
+<li>
+<p><strong>Validation de la solution</strong> : V=C3=A9rifie que la solutio=
+n d=C3=A9velopp=C3=A9e r=C3=A9pond aux besoins et exigences sp=C3=A9cifi=C3=
+=A9s.</p></li>
+<li>
+<p><strong>Validation du d=C3=A9ploiement/diffusion</strong> : V=C3=A9rifie=
+ que le syst=C3=A8me peut =C3=AAtre d=C3=A9ploy=C3=A9 et diffus=C3=A9 corre=
+ctement dans l=E2=80=99environnement cible.</p></li>
+<li>
+<p><strong>Validation de la veille/monitoring/alertage</strong> : V=C3=A9ri=
+fie que les m=C3=A9canismes de veille, de monitoring et d=E2=80=99alertage =
+fonctionnent correctement.</p></li>
+<li>
+<p><strong>Validation des mesures de la qualim=C3=A9trie du produit</strong=
+> : =C3=89value la qualit=C3=A9 du produit en termes de satisfaction client=
+/utilisateur/march=C3=A9/entreprise, de performance, de s=C3=A9curit=C3=A9,=
+ etc.</p></li>
+</ul>
+<p></p>
+<p></p>
+<p></p>
+<p>old</p>
+<hr>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1189" data-layout=3D"default" data-local-id=3D"c=
+1c87cd4-caad-4fbd-b71a-91c195a8d257" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 219.0px;">
+<col style=3D"width: 970.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd">
+<p>Fonctionnels</p></td>
+<td class=3D"confluenceTd">
+<p>Test r=C3=A9alis=C3=A9 pour =C3=A9valuer la conformit=C3=A9 d'un composa=
+nt ou d'un syst=C3=A8me aux exigences fonctionnelles.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Structurels</p></td>
+<td class=3D"confluenceTd">
+<p>Technique de test bas=C3=A9 sur la structure.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Monitoring</p></td>
+<td class=3D"confluenceTd">
+<p>Tests qui permet de s'assurer que les applications et les services sont =
+pris en charge comme pr=C3=A9vu.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Statiques</p></td>
+<td class=3D"confluenceTd">
+<p>Ils ne n=C3=A9cessitent pas l'ex=C3=A9cution du logiciel et l'un de leur=
+s avantages est qu'ils peuvent =C3=AAtre r=C3=A9alis=C3=A9s d=C3=A8s les pr=
+emi=C3=A8res phases du projet. Tant le code que la documentation peuvent b=
+=C3=A9n=C3=A9ficier de ce type de test et, en fonction du produit =C3=A0 te=
+ster, c'est le r=C3=B4le responsable de la conception des tests, de leur ex=
+=C3=A9cution et de l'=C3=A9valuation des r=C3=A9sultats.&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Test sanitaire/int=C3=A9grit=C3=A9 (sant=C3=A9) - Test de fum=C3=A9e (sm=
+oke)&nbsp;</p></td>
+<td class=3D"confluenceTd">
+<p>Le test de fum=C3=A9e est un type de test logiciel qui se concentre sur =
+la v=C3=A9rification de la fonctionnalit=C3=A9 de base d=E2=80=99une applic=
+ation logicielle. Les tests de fum=C3=A9e viennent avant d=E2=80=99autres t=
+ests approfondis et consistent en des tests fonctionnels ou unitaires de fo=
+nctions logicielles critiques. Les tests de fum=C3=A9e r=C3=A9pondent =C3=
+=A0 des questions telles que =E2=80=9CEst-ce que le programme d=C3=A9marre =
+correctement?=E2=80=9D et "Est-ce que les boutons de contr=C3=B4le principa=
+ux fonctionnent?". Le test de fum=C3=A9e est g=C3=A9n=C3=A9ralement utilis=
+=C3=A9 comme premi=C3=A8re =C3=A9tape d=E2=80=99un processus de test plus c=
+omplet.</p>
+<p>Les tests de fum=C3=A9e sont des tests fonctionnels et/ou unitaires de f=
+onctions logicielles critiques qui se concentrent sur la v=C3=A9rification =
+de la fonctionnalit=C3=A9 de base d=E2=80=99une application logicielle1. Le=
+s tests de fum=C3=A9e viennent avant d=E2=80=99autres tests approfondis et =
+r=C3=A9pondent =C3=A0 des questions telles que =E2=80=9CEst-ce que le progr=
+amme d=C3=A9marre correctement?=E2=80=9D et "Est-ce que les boutons de cont=
+r=C3=B4le principaux fonctionnent?&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Test sanitaire/int=C3=A9grit=C3=A9 (sant=C3=A9) - Test de donn=C3=A9e&nb=
+sp;</p></td>
+<td class=3D"confluenceTd">
+<p>Le test de donn=C3=A9e est un processus qui vise =C3=A0 =C3=A9valuer la =
+qualit=C3=A9 des donn=C3=A9es. Il peut inclure des =C3=A9tapes telles que l=
+=E2=80=99exploration des donn=C3=A9es, l=E2=80=99=C3=A9valuation de la qual=
+it=C3=A9 des donn=C3=A9es et le nettoyage des donn=C3=A9es. Les bonnes prat=
+iques pour assurer la qualit=C3=A9 des donn=C3=A9es comprennent la d=C3=A9f=
+inition des donn=C3=A9es, leur nomenclature et leur mod=C3=A8le de gestion.=
+&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Test sanitaire/int=C3=A9grit=C3=A9 (sant=C3=A9) - Test de d=C3=A9ploieme=
+nt, installation ou publication</p></td>
+<td class=3D"confluenceTd">
+<p>Le test de d=C3=A9ploiement est un type de test qui v=C3=A9rifie que le =
+logiciel peut =C3=AAtre d=C3=A9ploy=C3=A9 correctement. Il peut inclure des=
+ tests d=E2=80=99int=C3=A9gration pour v=C3=A9rifier que les diff=C3=A9rent=
+s composants du logiciel fonctionnent ensemble. Le processus de d=C3=A9ploi=
+ement peut =C3=AAtre automatis=C3=A9 pour assurer un passage rapide du code=
+ en d=C3=A9ploiement.&nbsp;</p>
+<p>C'est la validation de la relation, pr=C3=AAt =C3=A0 l'utilisation, entr=
+e l'application et son environnement.</p>
+<p>Le terme =E2=80=9Ctest d=E2=80=99installation=E2=80=9D peut =C3=AAtre ut=
+ilis=C3=A9 pour d=C3=A9crire un test d=E2=80=99int=C3=A9gration qui v=C3=A9=
+rifie que le logiciel peut =C3=AAtre install=C3=A9 correctement. Il peut =
+=C3=A9galement =C3=AAtre utilis=C3=A9 pour d=C3=A9crire un test de d=C3=A9p=
+loiement qui v=C3=A9rifie que le logiciel peut =C3=AAtre d=C3=A9ploy=C3=A9 =
+correctement.</p>
+<p>Publication est un d=C3=A9ploiement web.&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Test sanitaire/int=C3=A9grit=C3=A9 (sant=C3=A9) - Test de configuration<=
+/p></td>
+<td class=3D"confluenceTd">
+<p>Le test de configuration est un type de test de logiciel qui v=C3=A9rifi=
+e les performances du syst=C3=A8me en cours de d=C3=A9veloppement par rappo=
+rt =C3=A0 diverses combinaisons de logiciels et de mat=C3=A9riel pour trouv=
+er la meilleure configuration dans laquelle le syst=C3=A8me peut fonctionne=
+r sans d=C3=A9fauts ni probl=C3=A8mes tout en r=C3=A9pondant =C3=A0 ses exi=
+gences fonctionnelles. Les performances du syst=C3=A8me ou d=E2=80=99une ap=
+plication sont test=C3=A9es par rapport =C3=A0 chacune des configurations m=
+at=C3=A9rielles et logicielles prises en charge.&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Test sanitaire/int=C3=A9grit=C3=A9 (sant=C3=A9) - Test de code propre (c=
+lean code)</p></td>
+<td class=3D"confluenceTd">
+<p>Le "Clean Code" est un type de test qui assure que le code ne contient p=
+as de bogues ou d=E2=80=99erreurs.</p>
+<p>Oui, les tests de code unitaire contribuent grandement au "clean code", =
+mais il y a plus que cela !</p>
+<p>Cela peut inclure des tests, pour s=E2=80=99assurer que le code est clai=
+re, concis, est facile =C3=A0 lire et =C3=A0 comprendre, =C3=A0 maintenir, =
+respect les mod=C3=A8les et le domaine, qu=E2=80=99il est bien structur=C3=
+=A9, modulaire, qu=E2=80=99il suit les normes de codage =C3=A9tablies, les =
+meilleurs pratiques, qu'il est s=C3=A9curitaire...</p>
+<p>Avoir du code propre est tr=C3=A8s large, cela peut m=C3=AAme passer par=
+ l'AI et l'analytique.&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Test non fonctionnel</p></td>
+<td class=3D"confluenceTd">
+<p>Un test non fonctionnel est une cat=C3=A9gorie de test logiciel effectu=
+=C3=A9 pour v=C3=A9rifier les exigences non fonctionnelles de l=E2=80=99app=
+lication.&nbsp;</p>
+<p>Test effectu=C3=A9 pour =C3=A9valuer la conformit=C3=A9 d'un composant o=
+u d'un syst=C3=A8me avec les exigences non fonctionnelles.</p>
+<p>Il existe plusieurs types de tests non fonctionnels, parmi lesquels on p=
+eut citer les tests :&nbsp;</p>
+<ul>
+<li>
+<p>de performances&nbsp;</p></li>
+<li>
+<p>de charge&nbsp;</p></li>
+<li>
+<p>de contraintes&nbsp;</p></li>
+<li>
+<p>de volume&nbsp;</p></li>
+<li>
+<p>de s=C3=A9curit=C3=A9&nbsp;</p></li>
+<li>
+<p>de compatibilit=C3=A9&nbsp;</p></li>
+<li>
+<p>d=E2=80=99installation&nbsp;</p></li>
+<li>
+<p>de r=C3=A9cup=C3=A9ration&nbsp;</p></li>
+<li>
+<p>etc.</p></li>
+</ul>
+<p>Les tests non fonctionnels sont tous les types de tests de logiciels o=
+=C3=B9 les aspects non fonctionnels de la construction du logiciel sont tes=
+t=C3=A9s. Parmi les exemples de tests non fonctionnels, on peut citer les t=
+ests destin=C3=A9s =C3=A0 =C3=A9valuer la capacit=C3=A9, les performances, =
+la facilit=C3=A9 d=E2=80=99utilisation, la r=C3=A9cup=C3=A9ration et la por=
+tabilit=C3=A9. Par exemple, un test de performance v=C3=A9rifie si le logic=
+iel r=C3=A9pond rapidement aux demandes des utilisateurs m=C3=AAme lorsqu=
+=E2=80=99il y a un grand nombre d=E2=80=99utilisateurs simultan=C3=A9s. Un =
+test de s=C3=A9curit=C3=A9 v=C3=A9rifie si le logiciel est prot=C3=A9g=C3=
+=A9 contre les acc=C3=A8s non autoris=C3=A9s...</p>
+<p>Les tests non fonctionnels visent =C3=A0 v=C3=A9rifier les aspects non f=
+onctionnels du logiciel, tels que la performance, la fiabilit=C3=A9, la s=
+=C3=A9curit=C3=A9 et l=E2=80=99utilisabilit=C3=A9. Ces tests peuvent inclur=
+e des tests de charge, des tests de stress, des tests de s=C3=A9curit=C3=A9=
+ et d=E2=80=99autres types de tests qui v=C3=A9rifient les caract=C3=A9rist=
+iques non fonctionnelles du logiciel.&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Test manuel</p></td>
+<td class=3D"confluenceTd">
+<p>Les tests manuels d=C3=A9crivent les tests men=C3=A9s par l'homme pour d=
+=C3=A9tecter les d=C3=A9fauts d'un produit logiciel. Ces tests informent le=
+s acteurs du projet sur la qualit=C3=A9 du produit. En r=C3=A8gle g=C3=A9n=
+=C3=A9rale, le testeur agit en tant qu'utilisateur final et utilise les fon=
+ctionnalit=C3=A9s pour d=C3=A9terminer s'il fonctionne correctement. De plu=
+s, le testeur suit un plan de test pour travailler sur des cas de test sp=
+=C3=A9cifiques. Les tests manuels peuvent augmenter les co=C3=BBts mon=C3=
+=A9taires et de main-d'=C5=93uvre des tests mieux adapt=C3=A9s =C3=A0 l'aut=
+omatisation. Cependant, les sondages qui n=C3=A9cessitent des opinions et d=
+es commentaires al=C3=A9atoires, tels que la convivialit=C3=A9, b=C3=A9n=C3=
+=A9ficient de tests manuels. La plupart des produits n=C3=A9cessitent une c=
+ombinaison de tests automatis=C3=A9s et manuels pour s'assurer qu'ils sont =
+pr=C3=AAts pour le march=C3=A9.&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Test fonctionnel</p></td>
+<td class=3D"confluenceTd">
+<p>Un test fonctionnel est un <strong>type</strong> de test qui vise =C3=A0=
+ v=C3=A9rifier que chaque fonctionnalit=C3=A9 de l=E2=80=99application logi=
+cielle fonctionne conform=C3=A9ment aux exigences du logiciel et aux attent=
+es de l=E2=80=99utilisateur final. Il s=E2=80=99effectue principalement en =
+bo=C3=AEte noire, sans acc=C3=A8s au code source, et peut couvrir des sc=C3=
+=A9narios ou des mod=C3=A8les d=E2=80=99utilisation de bout en bout.</p>
+<p>Les tests fonctionnels visent =C3=A0 v=C3=A9rifier que le logiciel r=C3=
+=A9pond aux exigences fonctionnelles sp=C3=A9cifi=C3=A9es. Ces tests utilis=
+ent des entr=C3=A9es valides et v=C3=A9rifient que le logiciel produit les =
+r=C3=A9sultats attendus. Les tests fonctionnels peuvent inclure des tests d=
+e validation des donn=C3=A9es, des tests de navigation, des tests d=E2=80=
+=99interface utilisateur et d=E2=80=99autres types de tests qui v=C3=A9rifi=
+ent les fonctionnalit=C3=A9s du logiciel.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Test de stabilisation</p></td>
+<td class=3D"confluenceTd">
+<p>Les tests de stabilisation peut =C3=AAtre relatif =C3=A0 une branche ou =
+pas. C'est pour bien d=C3=A9finir, s=C3=A9parer et =C3=A9liminer les erreur=
+s d'environnements versus les erreurs logiciels. C'est une tactique et son =
+but principal est de stabiliser au minimum le fonctionnement de l'applicati=
+on global (pas n=C3=A9cessaire d'=C3=AAtre complet). Donc cela peut aussi i=
+nclure des tests sanitaires mais aussi des tests de non-r=C3=A9gression.&nb=
+sp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>r=C3=A9silience</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Test de singe (monkey testing)</p></td>
+<td class=3D"confluenceTd">
+<p>Le =E2=80=9Cmonkey testing=E2=80=9D est une technique de test logiciel o=
+=C3=B9 l=E2=80=99utilisateur teste l=E2=80=99application ou le syst=C3=A8me=
+ en fournissant des entr=C3=A9es al=C3=A9atoires et en v=C3=A9rifiant le co=
+mportement, ou en v=C3=A9rifiant si l=E2=80=99application ou le syst=C3=A8m=
+e va planter. Le monkey testing est g=C3=A9n=C3=A9ralement mis en =C5=93uvr=
+e sous forme exploratoire.&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Test de non-r=C3=A9gression (ou test de r=C3=A9gression)</p></td>
+<td class=3D"confluenceTd">
+<p>Le test de non-r=C3=A9gression est un type de test qui d=C3=A9termine si=
+ le logiciel continue de fonctionner comme pr=C3=A9vu apr=C3=A8s une mise =
+=C3=A0 jour du code. Le fait de ne pas fournir le r=C3=A9sultat pr=C3=A9vu =
+cr=C3=A9e une r=C3=A9gression (bug de r=C3=A9gression). Ce type de test a p=
+our but de v=C3=A9rifier que les changements ou =C3=A9volution apport=C3=A9=
+s =C3=A0 un syst=C3=A8me (un site ou une application) n=E2=80=99ont pas ind=
+uit des bugs dans celui-ci. Le test de non-r=C3=A9gression permet de limite=
+r les anomalies, les effets de bords et les co=C3=BBts de maintenance.</p>
+<p>Les tests de non-r=C3=A9gression sont g=C3=A9n=C3=A9ralement effectu=C3=
+=A9s apr=C3=A8s chaque modification du code pour s=E2=80=99assurer que les =
+changements n=E2=80=99ont pas affect=C3=A9 les fonctionnalit=C3=A9s existan=
+tes. Ces tests peuvent =C3=AAtre automatis=C3=A9s pour gagner du temps et d=
+e la fiabilit=C3=A9.&nbsp;</p>
+<p>Tests d=E2=80=99un programme pr=C3=A9alablement test=C3=A9, apr=C3=A8s u=
+ne modification, pour s=E2=80=99assurer que des d=C3=A9fauts n=E2=80=99ont =
+pas =C3=A9t=C3=A9 introduits ou d=C3=A9couverts dans des parties non modifi=
+=C3=A9es du logiciel, comme suites des modifications effectu=C3=A9es.</p></=
+td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Test de gorille (gorilla testing)</p></td>
+<td class=3D"confluenceTd">
+<p>Le =E2=80=9Cgorilla testing=E2=80=9D est une technique de test logiciel =
+o=C3=B9 l=E2=80=99utilisateur teste l=E2=80=99application ou le syst=C3=A8m=
+e en fournissant des entr=C3=A9es extr=C3=AAmes et inhabituelles pour v=C3=
+=A9rifier si l=E2=80=99application ou le syst=C3=A8me peut g=C3=A9rer des s=
+ituations impr=C3=A9vues. Le gorilla testing est g=C3=A9n=C3=A9ralement eff=
+ectu=C3=A9 apr=C3=A8s que le monkey testing a =C3=A9t=C3=A9 effectu=C3=A9.<=
+/p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Test de confirmation</p></td>
+<td class=3D"confluenceTd">
+<p>Test de confirmation: il s'agit d'un type de test associ=C3=A9 =C3=A0 un=
+ changement. Il a pour but de confirmer que le d=C3=A9faut initial a =C3=A9=
+t=C3=A9 correctement corrig=C3=A9.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Test unitaire</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Test d=E2=80=99int=C3=A9gration</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Test syst=C3=A8me</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Test de contract</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Test de communication</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Test de ping</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_44_1693200840.1733322461280--

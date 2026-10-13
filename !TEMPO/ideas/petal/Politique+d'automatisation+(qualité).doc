@@ -1,0 +1,278 @@
+Date: Wed, 4 Dec 2024 14:18:54 +0000 (UTC)
+Message-ID: <903008196.41.1733321934242@31d3d8c23d4d>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_40_1924934874.1733321934241"
+
+------=_Part_40_1924934874.1733321934241
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Politique d&#39;automatisation (qualit=C3=A9)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Politique d&#39;automatisation (qualit=C3=A9)</h1>
+    <div class=3D"Section1">
+        <a href=3D"/wiki/spaces/QA/pages/1949012221/Politique+d+automatisat=
+ion" data-linked-resource-id=3D"1949012221" data-linked-resource-version=3D=
+"1" data-linked-resource-type=3D"page">Politique d'automatisation</a>
+<h2 id=3D"Politiqued'automatisation(qualit=C3=A9)-Contenutypiquedelapolitiq=
+ue">Contenu typique de la politique</h2>
+<p><strong>Introduction :</strong> Importance de l=E2=80=99automatisation p=
+our l=E2=80=99efficacit=C3=A9 et la qualit=C3=A9.</p>
+<p><strong>Objectifs :</strong> Automatiser les t=C3=A2ches r=C3=A9p=C3=A9t=
+itives et les tests.</p>
+<p><strong>Principes directeurs :</strong> Utilisation d=E2=80=99outils d=
+=E2=80=99automatisation =C3=A9prouv=C3=A9s, int=C3=A9gration continue.</p>
+<p><strong>Engagements :</strong> Am=C3=A9liorer l=E2=80=99efficacit=C3=A9 =
+des processus, r=C3=A9duire les erreurs humaines.</p>
+<p><strong>M=C3=A9canismes de feedback :</strong> Rapports d=E2=80=99automa=
+tisation, feedback des =C3=A9quipes.</p>
+<p><strong>=C3=89valuation et am=C3=A9lioration continue :</strong> Analyse=
+ des processus automatis=C3=A9s, am=C3=A9lioration des scripts et des outil=
+s.</p>
+<h2 id=3D"Politiqued'automatisation(qualit=C3=A9)-Templatepourlastrat=C3=A9=
+giedecettepolitique">Template pour la strat=C3=A9gie de cette politique</h2=
+>
+<p><strong>Objectifs :</strong> D=C3=A9crire les objectifs sp=C3=A9cifiques=
+ de la strat=C3=A9gie (ex. : automatiser 80% des tests en un an).</p>
+<p><strong>Analyse de la Situation Actuelle :</strong> R=C3=A9sumer l=E2=80=
+=99=C3=A9tat actuel de l=E2=80=99automatisation, identifier les points fort=
+s et les domaines =C3=A0 am=C3=A9liorer.</p>
+<p><strong>Actions =C3=A0 Entreprendre :</strong> D=C3=A9tail des actions s=
+p=C3=A9cifiques =C3=A0 mettre en place (ex. : d=C3=A9veloppement de nouveau=
+x scripts d=E2=80=99automatisation, formation des =C3=A9quipes).</p>
+<p><strong>Ressources N=C3=A9cessaires :</strong> Identifier les ressources=
+ humaines, financi=C3=A8res et mat=C3=A9rielles n=C3=A9cessaires pour mettr=
+e en =C5=93uvre la strat=C3=A9gie.</p>
+<p><strong>Indicateurs de Performance :</strong> D=C3=A9finir les KPI (Key =
+Performance Indicators) pour mesurer le succ=C3=A8s de la strat=C3=A9gie.</=
+p>
+<p><strong>Plan de Communication :</strong> D=C3=A9crire comment la strat=
+=C3=A9gie sera communiqu=C3=A9e en interne et en externe.</p>
+<p><strong>=C3=89valuation et Ajustements :</strong> Expliquer comment et q=
+uand la strat=C3=A9gie sera =C3=A9valu=C3=A9e et ajust=C3=A9e en fonction d=
+es r=C3=A9sultats obtenus.</p>
+    </div>
+</body>
+</html>
+------=_Part_40_1924934874.1733321934241--

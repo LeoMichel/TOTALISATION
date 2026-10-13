@@ -1,0 +1,677 @@
+Date: Wed, 4 Dec 2024 14:17:59 +0000 (UTC)
+Message-ID: <727499835.37.1733321879791@31d3d8c23d4d>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_36_222528225.1733321879791"
+
+------=_Part_36_222528225.1733321879791
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>QDD, D=C3=A9veloppement pilot=C3=A9 par la qualit=C3=A9, Quality=
+-Driven Development (pratique)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>QDD, D=C3=A9veloppement pilot=C3=A9 par la qualit=C3=A9, Quality-Dr=
+iven Development (pratique)</h1>
+    <div class=3D"Section1">
+        <a href=3D"/wiki/spaces/QA/pages/1939147360/QDD+D+veloppement+pilot=
++par+la+qualit+Quality-Driven+Development" data-linked-resource-id=3D"19391=
+47360" data-linked-resource-version=3D"4" data-linked-resource-type=3D"page=
+">
+<style>[data-colorid=3Db0rc4wie7c]{color:#bf2600} html[data-color-mode=3Dda=
+rk] [data-colorid=3Db0rc4wie7c]{color:#ff6640}[data-colorid=3Diex98n5nl3]{c=
+olor:#006644} html[data-color-mode=3Ddark] [data-colorid=3Diex98n5nl3]{colo=
+r:#99ffdd}[data-colorid=3Do3ru3yamyl]{color:#bf2600} html[data-color-mode=
+=3Ddark] [data-colorid=3Do3ru3yamyl]{color:#ff6640}[data-colorid=3Dzgfvzw8t=
+0j]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dzgfvzw8t0j]=
+{color:#99ffdd}[data-colorid=3Dpf4we41jur]{color:#bf2600} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dpf4we41jur]{color:#ff6640}</style>QDD, D=C3=A9v=
+eloppement pilot=C3=A9 par la qualit=C3=A9, Quality-Driven Development</a>
+<p></p>
+<p>Le QDD place la qualit=C3=A9 au c=C5=93ur du d=C3=A9veloppement, au-del=
+=C3=A0 des tests. Il vise =C3=A0 la satisfaction et la confiance globale =
+=C3=A0 travers des objectifs optimum.</p>
+<p><strong>Importance de la Qualit=C3=A9 D=C3=A8s le D=C3=A9but : </strong>=
+Commencer =C3=A0 =C3=A9tablir la qualit=C3=A9 d=C3=A8s les premi=C3=A8res p=
+hases de conception du produit. La qualit=C3=A9 doit guider toutes les =C3=
+=A9tapes du d=C3=A9veloppement, de la d=C3=A9finition =C3=A0 la mise en =C5=
+=93uvre, en passant par la surveillance et l=E2=80=99am=C3=A9lioration cont=
+inue.</p>
+<h1 id=3D"QDD,D=C3=A9veloppementpilot=C3=A9parlaqualit=C3=A9,Quality-Driven=
+Development(pratique)-3principesencontinusdel=E2=80=99assurancequalit=C3=A9=
+">3 principes en continus de l=E2=80=99assurance qualit=C3=A9</h1>
+<ul>
+<li>
+<p><strong>S=E2=80=99identifier</strong> : Chaque membre de l=E2=80=99organ=
+isation doit comprendre son r=C3=B4le en mati=C3=A8re de qualit=C3=A9.</p><=
+/li>
+<li>
+<p><strong>Se mesurer</strong> : Utiliser des m=C3=A9triques pour =C3=A9val=
+uer la qualit=C3=A9.</p></li>
+<li>
+<p><strong>S=E2=80=99am=C3=A9liorer</strong> : Mettre en place des plans de=
+ gestion de la qualit=C3=A9 et des objectifs d=E2=80=99am=C3=A9lioration co=
+ntinue.</p></li>
+</ul>
+<h1 id=3D"QDD,D=C3=A9veloppementpilot=C3=A9parlaqualit=C3=A9,Quality-Driven=
+Development(pratique)-3approchespourseresponsabiliserenverslaqualit=C3=A9">=
+3 approches pour se responsabiliser envers la qualit=C3=A9</h1>
+<ol start=3D"1">
+<li>
+<p><strong>Prendre conscience de la qualit=C3=A9</strong> (responsabilit=C3=
+=A9 partag=C3=A9e pour assurer la qualit=C3=A9)</p>
+<ul>
+<li>
+<p>Mentalit=C3=A9 ax=C3=A9e sur la qualit=C3=A9 : Le QDD commence par un ch=
+angement de mentalit=C3=A9 visant =C3=A0 prioriser la qualit=C3=A9 d=C3=A8s=
+ le d=C3=A9part. Cela implique d=E2=80=99adopter une approche ax=C3=A9e sur=
+ la qualit=C3=A9 dans toute l=E2=80=99organisation, et pas seulement au sei=
+n des =C3=A9quipes de test.</p></li>
+<li>
+<p>Changements culturels et proc=C3=A9duraux : La mise en =C5=93uvre du QDD=
+ n=C3=A9cessite souvent des changements dans la culture organisationnelle e=
+t les processus, y compris une meilleure communication avec la direction su=
+r les impacts des strat=C3=A9gies ax=C3=A9es sur la qualit=C3=A9 et un r=C3=
+=A9alignement des d=C3=A9lais de livraison des projets.</p></li>
+</ul></li>
+<li>
+<p><strong>=C3=8Atre ambassadeur de la qualit=C3=A9</strong> (promotion et =
+suivi de la qualit=C3=A9)</p>
+<ul>
+<li>
+<p>Int=C3=A9gration dans les =C3=A9quipes agiles : Dans les environnements =
+agiles, les ambassadeurs qualit=C3=A9 sont activement impliqu=C3=A9es dans =
+les sessions de raffinement des histoires et dans la d=C3=A9finition des no=
+rmes de qualit=C3=A9 et des crit=C3=A8res d=E2=80=99acceptation. Cela garan=
+tit que la qualit=C3=A9 est int=C3=A9gr=C3=A9e d=C3=A8s le d=C3=A9part.</p>=
+</li>
+<li>
+<p>Collaboration : Le QDD met l=E2=80=99accent sur la collaboration entre l=
+es d=C3=A9veloppeurs, tous les parties prenantes pour s=E2=80=99assurer que=
+ la qualit=C3=A9 est une responsabilit=C3=A9 partag=C3=A9e. Cette approche =
+collaborative aide =C3=A0 =C3=A9quilibrer les efforts de d=C3=A9veloppement=
+ et de QA.</p></li>
+</ul></li>
+<li>
+<p><strong>Prioriser la qualit=C3=A9</strong> (prioriser la qualit=C3=A9 d=
+=C3=A8s le d=C3=A9part et en continue)</p>
+<ul>
+<li>
+<p>Qualit=C3=A9 au c=C5=93ur des processus : Mettre la qualit=C3=A9 au cent=
+re de toutes les activit=C3=A9s de d=C3=A9veloppement. Cela signifie que ch=
+aque d=C3=A9cision et chaque =C3=A9tape du processus de d=C3=A9veloppement =
+doivent =C3=AAtre guid=C3=A9es par des consid=C3=A9rations de qualit=C3=A9.=
+</p>
+<p>Pilot=C3=A9 par la qualit=C3=A9 : =C3=89tablir la qualit=C3=A9 avant le =
+d=C3=A9veloppement permet de bien d=C3=A9finir les attentes et les crit=C3=
+=A8res de qualit=C3=A9 d=C3=A8s le d=C3=A9part. Cela garantit que le d=C3=
+=A9veloppement est align=C3=A9 avec ces crit=C3=A8res, assurant ainsi un pr=
+oduit final de haute qualit=C3=A9. Cela permet aussi que chaque it=C3=A9rat=
+ion focus sur l=E2=80=99am=C3=A9lioration.</p></li>
+</ul></li>
+</ol>
+<h1 id=3D"QDD,D=C3=A9veloppementpilot=C3=A9parlaqualit=C3=A9,Quality-Driven=
+Development(pratique)-3techniquesproactivesdebasepourassurerlaqualit=C3=A9"=
+>3 techniques proactives de base pour assurer la qualit=C3=A9</h1>
+<ul>
+<li>
+<p><strong>Cartographier</strong> : Identifier les zones =C3=A0 risque avec=
+ le MBT.</p></li>
+<li>
+<p><strong>Chronologiser</strong> : Suivre les bugs et les tests =C3=A0 cha=
+que phase du SDLC.</p></li>
+<li>
+<p><strong>Alerter et pr=C3=A9voir</strong> : Mettre en place des syst=C3=
+=A8mes d=E2=80=99alerte et des proc=C3=A9dures de support.</p></li>
+</ul>
+<h1 id=3D"QDD,D=C3=A9veloppementpilot=C3=A9parlaqualit=C3=A9,Quality-Driven=
+Development(pratique)-Cen=E2=80=99estpas!">Ce n=E2=80=99est pas !</h1>
+<p>Le QDD n'est pas une pratique de la pratique de l'assurance qualit=C3=A9=
+ !?</p>
+<ul>
+<li>
+<p><span data-colorid=3D"o3ru3yamyl">
+<del>L'assurance qualit=C3=A9 est une pratique de d=C3=A9veloppement</del><=
+/span></p></li>
+<li>
+<p><span data-colorid=3D"b0rc4wie7c">
+<del>L'assurance qualit=C3=A9 est une pratique s=C3=A9par=C3=A9e et isol=C3=
+=A9e du d=C3=A9veloppement</del></span></p></li>
+<li>
+<p><span data-colorid=3D"pf4we41jur">
+<del>Plut=C3=B4t des pratiques de qualit=C3=A9 s=C3=A9par=C3=A9es des prati=
+ques de d=C3=A9veloppement</del></span></p></li>
+<li>
+<p><span data-colorid=3D"zgfvzw8t0j">L'assurance qualit=C3=A9 est dans tout=
+es les pratiques de d=C3=A9veloppement.</span></p></li>
+<li>
+<p><span data-colorid=3D"iex98n5nl3">La qualit=C3=A9 est le but, l'objectif=
+, la mission des pratiques.</span></p></li>
+</ul>
+<p>Exemple : L'objectif d'=C3=AAtre ou la pratique du S.O.L.I.D., clean cod=
+e, DevSecOps, ci/cd, TDD/BDD, Agile, Lean, Six Sigma sont autant de moyens =
+pour aider =C3=A0 offrir des produit de qualit=C3=A9 parmi tant d'autres.</=
+p>
+<h1 id=3D"QDD,D=C3=A9veloppementpilot=C3=A9parlaqualit=C3=A9,Quality-Driven=
+Development(pratique)-Enconclusion">En conclusion</h1>
+<p>La qualit=C3=A9 est au c=C5=93ur du d=C3=A9veloppement. Elle guide toute=
+s les phases et ses =C3=A9tapes pour le d=C3=A9veloppement, d=C3=A9finir, p=
+lanifier =C3=A0 impl=C3=A9menter, en passant par diffuser, surveiller et me=
+surer pour revenir =C3=A0 mieux d=C3=A9finir.</p>
+<p>La QDD repr=C3=A9sente tous les aspects du d=C3=A9veloppement. C'est nos=
+ exigences/requis, nos epics et stories, la d=C3=A9finition des crit=C3=A8r=
+es de r=C3=A9ussite/succ=C3=A8s et d'acceptation.</p>
+<p>La QDD est le conducteur du succ=C3=A8s pour des r=C3=A9alisateurs fiers=
+ et confiants dans leur d=C3=A9veloppement, visant un produit sain et des g=
+ents et utilisateurs confiant et satisfaits !</p>
+<p></p>
+<p></p>
+<hr>
+<p>=E2=80=A6 prenons le temps de les comprendre, de s'engager et de les val=
+oriser <img class=3D"emoticon emoticon-smile" data-emoji-id=3D"1f642" data-=
+emoji-shortname=3D":slight_smile:" data-emoji-fallback=3D"=F0=9F=99=82" src=
+=3D"c632d19b2ce8e6cdcf840c6a049aef3833be285d6d7e3649f89200952fbab997" width=
+=3D"16" height=3D"16" data-emoticon-name=3D"smile" alt=3D"(sourire)"></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1800" data-layout=3D"full-width" data-local-id=
+=3D"63095027-1060-4ee1-ad57-e0b7fff2b926" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 414.0px;">
+<col style=3D"width: 1386.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd">
+<h4 id=3D"QDD,D=C3=A9veloppementpilot=C3=A9parlaqualit=C3=A9,Quality-Driven=
+Development(pratique)-Unen=C3=A9cessit=C3=A9">Une n=C3=A9cessit=C3=A9</h4><=
+/td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p><strong>Culture</strong> : Culture, ADN, entra=C3=AEnement, conditionnem=
+ent, r=C3=A9flexe, affirmation, respect, une propri=C3=A9t=C3=A9, un pr=C3=
+=A9alable au d=C3=A9veloppement=E2=80=A6 Il est essentiel de s=E2=80=99enga=
+ger pleinement, de se conditionner et de s=E2=80=99investir sans r=C3=A9ser=
+ve pour garantir la qualit=C3=A9.</p></li>
+<li>
+<p><strong>Gouvernance, la qualit=C3=A9 est l'affaire de tous </strong>: No=
+us avons tous la responsabilit=C3=A9 de s'assurer de la qualit=C3=A9 dans c=
+e que nous faisons, trouvons les outils, validons avec les experts dans cha=
+que domaines et les clients/utilisateurs, tous les moyens possible pour =C3=
+=A9viter et anticiper les catastrophes possible.</p></li>
+<li>
+<p><strong>Pr=C3=A9servation</strong> : S=E2=80=99assurer que la culture, l=
+a politique de test=E2=80=A6 reste en vie et aussi que cela reste une prior=
+it=C3=A9 !</p></li>
+</ul></td>
+</tr>
+<tr>
+<th data-highlight-colour=3D"#ffffff" class=3D"confluenceTh">
+<h4 id=3D"QDD,D=C3=A9veloppementpilot=C3=A9parlaqualit=C3=A9,Quality-Driven=
+Development(pratique)-Semesurer">Se mesurer</h4></th>
+<td class=3D"confluenceTd">
+<p>C'est le point de bascule vers la qualit=C3=A9, c'est ce qui d=C3=A9fini=
+ les objectifs et propulse les solutions sans avoir besoin de vendre ou d'=
+=C3=A9vang=C3=A9liser... ce qui =C3=A9vite beaucoup de frustration et de pe=
+tites guerres de cloch=C3=A9s, plut=C3=B4t que d=E2=80=99imposer une soluti=
+on</p></td>
+</tr>
+<tr>
+<th data-highlight-colour=3D"#ffffff" class=3D"confluenceTh">
+<h4 id=3D"QDD,D=C3=A9veloppementpilot=C3=A9parlaqualit=C3=A9,Quality-Driven=
+Development(pratique)-=C3=8Atreproactif(pr=C3=A9ventionetanticipation)">=C3=
+=8Atre proactif (pr=C3=A9vention et anticipation)</h4></th>
+<td class=3D"confluenceTd">
+<p>Rester en mode r=C3=A9actif dans la chasse aux bugs est un combat sans f=
+in. Pour =C3=AAtre plus efficaces et r=C3=A9ellement r=C3=A9duire les bugs,=
+ nous devons adopter une approche proactive (pr=C3=A9vention/anticipation).=
+</p>
+<p>Oui, il y a bien s=C3=BBr <strong>valider, v=C3=A9rifier, tester</strong=
+> ! C=E2=80=99est un bon moyen de pr=C3=A9venir et d=E2=80=99anticiper, ne =
+l=E2=80=99oublions pas. Cependant, bien documenter, ajouter des m=C3=A9triq=
+ues et de la tra=C3=A7abilit=C3=A9, ainsi que placer les tests dans une car=
+tographie pour nous permettre de mettre en place des tactiques sur les prin=
+cipes de test telles que : holistique en continu, optimisation (=C3=A9limin=
+er le superflu), hyperautomatisation, environnements de test hautes perform=
+ances, amplifie consid=C3=A9rablement notre capacit=C3=A9 =C3=A0 =C3=AAtre =
+proactifs plut=C3=B4t que simplement contr=C3=B4ler la qualit=C3=A9 et touj=
+ours =C3=AAtre en retard d=E2=80=99un coup en subissant les d=C3=A9g=C3=A2t=
+s.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p>En adoptant le QDD, les organisations peuvent r=C3=A9aliser des sorties =
+plus rapides, r=C3=A9duire les retours en arri=C3=A8re et diminuer le nombr=
+e de correctifs urgents en production, ce qui conduit finalement =C3=A0 une=
+ plus grande satisfaction des clients et =C3=A0 des produits logiciels plus=
+ fiables.</p>
+<p></p>
+<p></p>
+<p></p>
+<ul>
+<li>
+<p>Est-ce Agile ? Ce n=E2=80=99est pas une n=C3=A9cessit=C3=A9 c=E2=80=99es=
+t un des nombreux moyens pour aider =C3=A0 faire de la qualit=C3=A9.</p></l=
+i>
+<li>
+<p>Est-ce Lean ? Ce n=E2=80=99est pas une n=C3=A9cessit=C3=A9 c=E2=80=99est=
+ un des nombreux moyens pour aider =C3=A0 faire de la qualit=C3=A9.</p></li=
+>
+<li>
+<p>Est-ce six sigma ? Ce n=E2=80=99est pas une n=C3=A9cessit=C3=A9 c=E2=80=
+=99est un des nombreux moyens pour aider =C3=A0 faire de la qualit=C3=A9.</=
+p></li>
+<li>
+<p>DevOps, DevSecOps, QAOps ? Ce n=E2=80=99est pas une n=C3=A9cessit=C3=A9 =
+c=E2=80=99est un des nombreux moyens pour aider =C3=A0 faire de la qualit=
+=C3=A9.</p></li>
+<li>
+<p>La s=C3=A9curit=C3=A9 dans le QDD ? Ici la s=C3=A9curit=C3=A9 fait parti=
+e int=C3=A9grante de la qualit=C3=A9 donc la s=C3=A9curit=C3=A9 drive le d=
+=C3=A9veloppement aussi</p></li>
+<li>
+<p>Versus TDD : Les tests est une des nombreuses solutions dans la qualit=
+=C3=A9 pour contr=C3=B4ler ou =C3=A9viter les dugs, ici on d=C3=A9fini les =
+tests et on d=C3=A9veloppe a partir de c=E2=80=99est tests, c=E2=80=99est a=
+ dire que les requis sont une couverture de tests.</p></li>
+<li>
+<p>Versus ATDD : Encore ici nous somme dans les tests</p></li>
+<li>
+<p>Versus BDD : Encore ici nous somme dans les tests</p></li>
+<li>
+<p>Versus FDD : Ici nous sommes au niveau produit, moins test driven</p></l=
+i>
+<li>
+<p>Versus DDD : Ici nous sommes domaine driven</p></li>
+<li>
+<p></p></li>
+<li>
+<p></p></li>
+</ul>
+<p></p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<ul>
+<li>
+<p><strong>Responsabilit=C3=A9 Collective de la Qualit=C3=A9</strong></p>
+<ul>
+<li>
+<p><strong>D=C3=A9veloppeurs</strong> : Les d=C3=A9veloppeurs sont responsa=
+bles du produit, ils doivent valider la qualit=C3=A9 du code et que la qual=
+it=C3=A9 du produit est bien assur=C3=A9e. Les d=C3=A9veloppeurs ont plusie=
+urs chapeaux : DevOps, Product Owner, Quality Analyste/Manager, Scrum Maste=
+r, Delivery Manager=E2=80=A6</p></li>
+<li>
+<p><strong>Les autres sp=C3=A9cialistes du d=C3=A9veloppement</strong> : Le=
+s PM, SME, designers, marketing, sale, clients et utilisateurs=E2=80=A6 val=
+ident et approuvent les fonctionnalit=C3=A9s.</p></li>
+<li>
+<p><strong>Tous</strong> : D=C3=A9finissent/=C3=A9criture de test, les sp=
+=C3=A9cifications (DoD) (les tests qui servent de crit=C3=A8res de succ=C3=
+=A8s) de la livraison.</p></li>
+</ul></li>
+</ul>
+<ul>
+<li>
+<p><strong>Shift-Left et Shift-Right Testing </strong></p>
+<ul>
+<li>
+<p><strong>Shift-Left</strong> : Int=C3=A9grer les tests d=C3=A8s le d=C3=
+=A9but du cycle de d=C3=A9veloppement. Le PM d=C3=A9finit les tests comme s=
+p=C3=A9cifications pour les EPICs et STORIES avec les d=C3=A9veloppeurs. Le=
+s tests (test execution subtasks) deviennent la DoD pour chaque story et et=
+ les stories la DoD des EPICs et les EPICs la DoD de l=E2=80=99initiative (=
+version produit major.minor).</p></li>
+<li>
+<p><strong>Shift-Right</strong> : Continuer les tests apr=C3=A8s le d=C3=A9=
+ploiement (production et d=C3=A9veloppement) pour assurer la qualit=C3=A9 e=
+t mieux d=C3=A9finir les besoins du produit.</p></li>
+</ul></li>
+<li>
+<p><strong>CI/CD avec Branch Preview et Blue-Green Deployment</strong></p>
+<ul>
+<li>
+<p><strong>CI/CD</strong> : Int=C3=A9grer des pipelines de CI/CD pour autom=
+atiser les tests et les d=C3=A9ploiements. Utiliser des pr=C3=A9visualisati=
+ons de branches pour valider les changements avant de les fusionner.</p></l=
+i>
+<li>
+<p><strong>Blue-Green Deployment</strong> : Minimiser les interruptions (pr=
+oduction et d=C3=A9veloppement) en utilisant des d=C3=A9ploiements blue-gre=
+en.</p></li>
+</ul></li>
+<li>
+<p><strong>Transition de Scrum vers Kanban</strong></p>
+<ul>
+<li>
+<p><strong>Kanban</strong> : Adopter Kanban pour une meilleure visualisatio=
+n du flux SDLC total de travail et une gestion continue des t=C3=A2ches, ce=
+ qui est crucial pour une approche QDD.</p></li>
+</ul></li>
+<li>
+<p><strong>Utilisation de Xray/Jira + outil MBT</strong></p>
+<ul>
+<li>
+<p><strong>Documentation et Automatisation</strong> : Utiliser Xray et Jira=
+ pour documenter les tests et les ex=C3=A9cutions. Envisager le Model-Based=
+ Testing (MBT) pour g=C3=A9n=C3=A9rer et automatiser les tests d=C3=A8s les=
+ premi=C3=A8res phases.</p></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<ol start=3D"1">
+<li>
+<p><strong>Int=C3=A9gration de la Qualit=C3=A9</strong> :</p>
+<ul>
+<li>
+<p><strong>Objectif</strong> : Assurer que la qualit=C3=A9 est int=C3=A9gr=
+=C3=A9e d=C3=A8s le d=C3=A9but du cycle de d=C3=A9veloppement et maintenue =
+tout au long du processus.</p></li>
+<li>
+<p><strong>Directives</strong> :</p>
+<ul>
+<li>
+<p>Adoption de pratiques de d=C3=A9veloppement ax=C3=A9es sur la qualit=C3=
+=A9, telles que le d=C3=A9veloppement pilot=C3=A9 par les tests (TDD) et le=
+ d=C3=A9veloppement pilot=C3=A9 par le comportement (BDD).</p></li>
+<li>
+<p>Mise en place de revues de code r=C3=A9guli=C3=A8res et de tests automat=
+is=C3=A9s pour d=C3=A9tecter et corriger les d=C3=A9fauts rapidement.</p></=
+li>
+</ul></li>
+</ul></li>
+<li>
+<p><strong>Am=C3=A9lioration Continue</strong> :</p>
+<ul>
+<li>
+<p><strong>Objectif</strong> : Promouvoir une culture d=E2=80=99am=C3=A9lio=
+ration continue pour optimiser les processus et les produits.</p></li>
+<li>
+<p><strong>Directives</strong> :</p>
+<ul>
+<li>
+<p>Utilisation de m=C3=A9triques de qualit=C3=A9 pour =C3=A9valuer et am=C3=
+=A9liorer les performances.</p></li>
+<li>
+<p>Encouragement de la r=C3=A9troaction et des it=C3=A9rations fr=C3=A9quen=
+tes pour affiner les produits et les processus.</p></li>
+</ul></li>
+</ul></li>
+<li>
+<p><strong>Collaboration et Communication</strong> :</p>
+<ul>
+<li>
+<p><strong>Objectif</strong> : Favoriser une collaboration =C3=A9troite ent=
+re les =C3=A9quipes pour garantir une compr=C3=A9hension commune des exigen=
+ces de qualit=C3=A9.</p></li>
+<li>
+<p><strong>Directives</strong> :</p>
+<ul>
+<li>
+<p>Mise en place de r=C3=A9unions r=C3=A9guli=C3=A8res de synchronisation e=
+t de r=C3=A9trospectives pour partager les connaissances et les meilleures =
+pratiques.</p></li>
+<li>
+<p>Utilisation d=E2=80=99outils de gestion de projet et de communication po=
+ur assurer une transparence et une coordination efficaces.</p></li>
+</ul></li>
+</ul></li>
+</ol>
+    </div>
+</body>
+</html>
+------=_Part_36_222528225.1733321879791
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/c632d19b2ce8e6cdcf840c6a049aef3833be285d6d7e3649f89200952fbab997
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAKfwAACn8AG1cEgF
+AAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpu
+czptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9
+Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRm
+OkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8v
+bnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3Rp
+ZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+Cjwv
+eDp4bXBtZXRhPgpMwidZAAACNElEQVQ4EY1TTY9MURA9dV/3vCZh0JJJzCxELNg1C2Jhg4iQFktr
+EsO/mH/BLFhb+oogTCIWE9+9QyKGZJpMaGYiae/N63fLqXpamghucm9uquqc+hbwqM4EkZno/86J
+PYh6itKDVGyFQhBkge8cJFyU1pVHoxgZgtUMn7fPoxam0UiAbyVQOCdQD8AayjLKBpjFrqvnREhv
+jis2gjvH72B87JD2ckOVNCACRPqJdEA0EmmmASurd9G6dthIKgPz7OAsl5qIpEmdxkOwMQSTmU57
+WW62Hi0VopZz0Ieaxyh1kd6nTF68+YJ9rQkkVYAoo2K+s4Sd2zaiubmhWqhKGgKi7A3UnvacGTb5
+5PaDd9h/5jFeLSyD9fBrf5OZzmz4lI5hsQOzP+AFq3Km7j+O2VqR2SmJT9oDUiYsEpgjer0Mf02h
+2YAO2DKLQzAQfdou2Oua+XWSxOh4hy00hR1rZalQXgebjARMQd66EiyJsbJgJLS6m0l17G8y6n6A
+o2OIDVTM2ZB4n1m0Dx/7uD+/iH6/oL06n/1NZjorrNvaYEHu/dpGxhNLlcs3X+PGrZeYmhr3CLqL
+Kzh2ZAdOHt2OkHB4I3620ePUZ+0L2JBO6+c8l4AxhCDd91/RXaJHnsmJtZjcso4pMKaIVdmUpljO
+Z2X39bMVge3ByCgzz5I5Jky4mkaDFYxN/zDK1TKxEpxtZ7UJW1+vUxI0H8Cu/U3m00fPwz0YWSZu
+1b/WmQVjZy79vs7fAdlwN9BZNtNNAAAAAElFTkSuQmCC
+------=_Part_36_222528225.1733321879791--

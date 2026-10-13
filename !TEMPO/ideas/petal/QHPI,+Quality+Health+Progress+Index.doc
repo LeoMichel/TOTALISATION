@@ -1,0 +1,324 @@
+Date: Wed, 4 Dec 2024 14:20:04 +0000 (UTC)
+Message-ID: <1476883331.39.1733322004804@eee5c11846ed>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_38_2060666139.1733322004803"
+
+------=_Part_38_2060666139.1733322004803
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>QHPI, Quality Health Progress Index</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>QHPI, Quality Health Progress Index</h1>
+    <div class=3D"Section1">
+        <strong>Indice de Progr=C3=A8s de la Sant=C3=A9 Qualit=C3=A9</stron=
+g> est un cadre d=E2=80=99=C3=A9valuation holistique qui mesurer la qualit=
+=C3=A9 et la sant=C3=A9 globale de l=E2=80=99organisation, des processus, d=
+es produits et des =C3=A9quipes au sein d=E2=80=99une entreprise de d=C3=A9=
+veloppement ou d=C3=A9partement logiciel. Il est souvent inclus dans les =
+=C3=A9valuations de la qualit=C3=A9 (qualim=C3=A9trie) lors des bilans de s=
+ant=C3=A9 r=C3=A9guliers. Les niveaux sont con=C3=A7us pour offrir une visi=
+on simple et rapide =C3=A0 haut niveau de l=E2=80=99=C3=A9tat de la situati=
+on, et sont souvent utilis=C3=A9s comme guide primaire, point de d=C3=A9par=
+t ou =C3=A9valuation initiale. Niveaux de l'=C3=A9chelle : 1.Neutre (improv=
+is=C3=A9), 2.Initial (conscient), 3.D=C3=A9fini (clair), 4.Mesurable (grand=
+issant) et 5.Optimisation (objectif atteint)
+<h1 id=3D"QHPI,QualityHealthProgressIndex-D=C3=A9taildel'=C3=A9chelleQHPI">=
+D=C3=A9tail de l'=C3=A9chelle QHPI</h1>
+<h3 id=3D"QHPI,QualityHealthProgressIndex-Niveau1:Neutre(improvis=C3=A9)">N=
+iveau 1 : Neutre (improvis=C3=A9)</h3>
+<ul>
+<li>
+<p><strong>D=C3=A9finition</strong> : =C3=80 ce niveau, les pratiques sont =
+ad hoc et non document=C3=A9es. Les =C3=A9quipes sont souvent guid=C3=A9es =
+par l=E2=80=99instinct ou une confiance encore floue. Il s=E2=80=99agit d=
+=E2=80=99une phase exploratoire sans objectifs clairs ni engagement formel.=
+</p></li>
+<li>
+<p><strong>Caract=C3=A9ristiques</strong> : Subir les probl=C3=A8mes sans a=
+nticipation ni pr=C3=A9paration. Ad hoc et non document=C3=A9, avec des pro=
+cessus r=C3=A9actifs et souvent chaotiques.</p></li>
+</ul>
+<h3 id=3D"QHPI,QualityHealthProgressIndex-Niveau2:Initial(conscient)">Nivea=
+u 2 : Initial (conscient)</h3>
+<ul>
+<li>
+<p><strong>D=C3=A9finition</strong> : Les =C3=A9quipes prennent conscience =
+de l=E2=80=99importance des politiques et des processus. Les discussions in=
+itiales se concentrent sur la sensibilisation, la compr=C3=A9hension, les a=
+teliers et les formations. Cette phase consiste =C3=A0 prendre connaissance=
+ des diff=C3=A9rentes approches et =C3=A0 =C3=A9valuer leur pertinence pour=
+ l=E2=80=99organisation.</p></li>
+<li>
+<p><strong>Caract=C3=A9ristiques</strong> : Reconnue et document=C3=A9, ave=
+c des contr=C3=B4les de base en place.</p></li>
+</ul>
+<h3 id=3D"QHPI,QualityHealthProgressIndex-Niveau3:D=C3=A9fini(clair)">Nivea=
+u 3 : D=C3=A9fini (clair)</h3>
+<ul>
+<li>
+<p><strong>D=C3=A9finition</strong> : =C3=80 ce stade, les politiques et le=
+s processus sont bien d=C3=A9finis. Les =C3=A9quipes reconnaissent leur imp=
+ortance et commencent =C3=A0 explorer activement les points d=E2=80=99actio=
+n sp=C3=A9cifiques. Des processus sont mis en place, et l=E2=80=99approche =
+est formalis=C3=A9e. La documentation et la communication interne sont esse=
+ntielles =C3=A0 ce niveau.</p></li>
+<li>
+<p><strong>Caract=C3=A9ristiques</strong> : D=C3=A9finie et standardis=C3=
+=A9 avec des mesures pr=C3=A9ventives introduites.</p></li>
+</ul>
+<h3 id=3D"QHPI,QualityHealthProgressIndex-Niveau4:Mesurable(grandissant)">N=
+iveau 4 : Mesurable (grandissant)</h3>
+<ul>
+<li>
+<p><strong>D=C3=A9finition</strong> : Les =C3=A9quipes mettent en place des=
+ m=C3=A9triques et des indicateurs pour =C3=A9valuer l=E2=80=99efficacit=C3=
+=A9 des politiques et des processus. On peut mesurer divers aspects tels qu=
+e la performance, la qualit=C3=A9, et les taux de d=C3=A9fauts. L=E2=80=99a=
+ccent est mis sur la collecte de donn=C3=A9es objectives.</p></li>
+<li>
+<p><strong>Caract=C3=A9ristiques</strong> : Mesur=C3=A9 et analys=C3=A9, av=
+ec des actions proactives pour une am=C3=A9lioration continue.</p></li>
+</ul>
+<h3 id=3D"QHPI,QualityHealthProgressIndex-Niveau5:Optimisation(objectifatte=
+int)">Niveau 5 : Optimisation (objectif atteint)</h3>
+<ul>
+<li>
+<p><strong>D=C3=A9finition</strong> : =C3=80 ce niveau, les donn=C3=A9es co=
+llect=C3=A9es permettent d=E2=80=99identifier les domaines =C3=A0 am=C3=A9l=
+iorer et utilisent les mesures pour optimiser continuellement les politique=
+s et les processus. Les retours d=E2=80=99exp=C3=A9rience sont pris en comp=
+te, et des ajustements sont apport=C3=A9s pour am=C3=A9liorer la qualit=C3=
+=A9 et l=E2=80=99efficacit=C3=A9. L=E2=80=99objectif est d=E2=80=99atteindr=
+e une performance maximale tout en restant =C3=A0 jour et adaptable aux cha=
+ngements.</p></li>
+<li>
+<p><strong>Caract=C3=A9ristiques</strong> : Int=C3=A9gr=C3=A9 en optimisati=
+on continue des processus pour atteindre les meilleurs r=C3=A9sultats possi=
+bles dans une culture d=E2=80=99excellence.</p></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_38_2060666139.1733322004803--

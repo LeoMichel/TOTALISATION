@@ -1,0 +1,2096 @@
+Date: Wed, 4 Dec 2024 14:15:14 +0000 (UTC)
+Message-ID: <1599719617.27.1733321714900@570a79382bb7>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_26_1921929236.1733321714899"
+
+------=_Part_26_1921929236.1733321714899
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Le d=C3=A9mystification qualit=C3=A9 (qualit=C3=A9 101)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Le d=C3=A9mystification qualit=C3=A9 (qualit=C3=A9 101)</h1>
+    <div class=3D"Section1">
+        <div class=3D"panel" style=3D"background-color: #EAE6FF;border-widt=
+h: 1px;">
+<style>[data-colorid=3Dd7m03gwull]{color:#006644} html[data-color-mode=3Dda=
+rk] [data-colorid=3Dd7m03gwull]{color:#99ffdd}[data-colorid=3Dsiii1vxjei]{c=
+olor:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dsiii1vxjei]{colo=
+r:#99ffdd}[data-colorid=3Dcoua6k09vz]{color:#006644} html[data-color-mode=
+=3Ddark] [data-colorid=3Dcoua6k09vz]{color:#99ffdd}[data-colorid=3Duitkvaan=
+pz]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Duitkvaanpz]=
+{color:#99ffdd}[data-colorid=3Dxozootbb63]{color:#006644} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dxozootbb63]{color:#99ffdd}[data-colorid=3Duoif2=
+0k8b7]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Duoif20k8=
+b7]{color:#99ffdd}[data-colorid=3Ddriwbv3fba]{color:#006644} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Ddriwbv3fba]{color:#99ffdd}[data-colorid=3Dm4=
+pvguyllb]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dm4pvg=
+uyllb]{color:#99ffdd}[data-colorid=3Dlbjra1aae1]{color:#006644} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Dlbjra1aae1]{color:#99ffdd}[data-colorid=
+=3Dsq0ad9lnol]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3D=
+sq0ad9lnol]{color:#99ffdd}[data-colorid=3Du8s8cr2pbq]{color:#bf2600} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Du8s8cr2pbq]{color:#ff6640}[data-colo=
+rid=3Dxj3jqfryf5]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=
+=3Dxj3jqfryf5]{color:#99ffdd}[data-colorid=3Dfijf382ikg]{color:#006644} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Dfijf382ikg]{color:#99ffdd}[data-c=
+olorid=3Dzz0ym95upu]{color:#006644} html[data-color-mode=3Ddark] [data-colo=
+rid=3Dzz0ym95upu]{color:#99ffdd}[data-colorid=3Drdp8sytqu0]{color:#006644} =
+html[data-color-mode=3Ddark] [data-colorid=3Drdp8sytqu0]{color:#99ffdd}[dat=
+a-colorid=3Dzw10olcbpd]{color:#006644} html[data-color-mode=3Ddark] [data-c=
+olorid=3Dzw10olcbpd]{color:#99ffdd}[data-colorid=3Dlr4g6v3oh0]{color:#00664=
+4} html[data-color-mode=3Ddark] [data-colorid=3Dlr4g6v3oh0]{color:#99ffdd}[=
+data-colorid=3Dwmxr2lepxi]{color:#006644} html[data-color-mode=3Ddark] [dat=
+a-colorid=3Dwmxr2lepxi]{color:#99ffdd}[data-colorid=3Do8w1kn9znu]{color:#00=
+6644} html[data-color-mode=3Ddark] [data-colorid=3Do8w1kn9znu]{color:#99ffd=
+d}[data-colorid=3Dg5t95tcmnn]{color:#006644} html[data-color-mode=3Ddark] [=
+data-colorid=3Dg5t95tcmnn]{color:#99ffdd}[data-colorid=3Deodfvdmlso]{color:=
+#bf2600} html[data-color-mode=3Ddark] [data-colorid=3Deodfvdmlso]{color:#ff=
+6640}[data-colorid=3Djwxrazq9db]{color:#006644} html[data-color-mode=3Ddark=
+] [data-colorid=3Djwxrazq9db]{color:#99ffdd}[data-colorid=3Dhnshhftmfd]{col=
+or:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dhnshhftmfd]{color:=
+#99ffdd}[data-colorid=3Dahdn6cw06y]{color:#006644} html[data-color-mode=3Dd=
+ark] [data-colorid=3Dahdn6cw06y]{color:#99ffdd}[data-colorid=3Ddx9qyri0md]{=
+color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Ddx9qyri0md]{col=
+or:#99ffdd}[data-colorid=3Dmkoeh1c50u]{color:#bf2600} html[data-color-mode=
+=3Ddark] [data-colorid=3Dmkoeh1c50u]{color:#ff6640}[data-colorid=3Dpzx16hkw=
+ie]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dpzx16hkwie]=
+{color:#99ffdd}[data-colorid=3Dx0albfub9s]{color:#006644} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dx0albfub9s]{color:#99ffdd}[data-colorid=3Djqj7h=
+kxvxi]{color:#bf2600} html[data-color-mode=3Ddark] [data-colorid=3Djqj7hkxv=
+xi]{color:#ff6640}[data-colorid=3Dkhfb95uwn9]{color:#006644} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Dkhfb95uwn9]{color:#99ffdd}[data-colorid=3Dfr=
+59lwygjy]{color:#bf2600} html[data-color-mode=3Ddark] [data-colorid=3Dfr59l=
+wygjy]{color:#ff6640}[data-colorid=3Dmunactq5pc]{color:#bf2600} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Dmunactq5pc]{color:#ff6640}[data-colorid=
+=3Dhd6myhuhcs]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3D=
+hd6myhuhcs]{color:#99ffdd}[data-colorid=3Dhkel6rzsoa]{color:#006644} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Dhkel6rzsoa]{color:#99ffdd}[data-colo=
+rid=3Dd0ews083el]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=
+=3Dd0ews083el]{color:#99ffdd}[data-colorid=3Dj0r1dkga68]{color:#006644} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Dj0r1dkga68]{color:#99ffdd}[data-c=
+olorid=3Dg4eln7gj6g]{color:#bf2600} html[data-color-mode=3Ddark] [data-colo=
+rid=3Dg4eln7gj6g]{color:#ff6640}[data-colorid=3Dyjpznw6069]{color:#006644} =
+html[data-color-mode=3Ddark] [data-colorid=3Dyjpznw6069]{color:#99ffdd}[dat=
+a-colorid=3Dcrr0tn5lka]{color:#006644} html[data-color-mode=3Ddark] [data-c=
+olorid=3Dcrr0tn5lka]{color:#99ffdd}[data-colorid=3Dwurngudhlm]{color:#00664=
+4} html[data-color-mode=3Ddark] [data-colorid=3Dwurngudhlm]{color:#99ffdd}[=
+data-colorid=3Dni2a32tbut]{color:#006644} html[data-color-mode=3Ddark] [dat=
+a-colorid=3Dni2a32tbut]{color:#99ffdd}[data-colorid=3Dkgs3bav3b8]{color:#bf=
+2600} html[data-color-mode=3Ddark] [data-colorid=3Dkgs3bav3b8]{color:#ff664=
+0}[data-colorid=3Dj2608vltjy]{color:#006644} html[data-color-mode=3Ddark] [=
+data-colorid=3Dj2608vltjy]{color:#99ffdd}[data-colorid=3Dylco128fkn]{color:=
+#bf2600} html[data-color-mode=3Ddark] [data-colorid=3Dylco128fkn]{color:#ff=
+6640}[data-colorid=3Dmp5jic6l1w]{color:#bf2600} html[data-color-mode=3Ddark=
+] [data-colorid=3Dmp5jic6l1w]{color:#ff6640}[data-colorid=3Di66es1o0a2]{col=
+or:#bf2600} html[data-color-mode=3Ddark] [data-colorid=3Di66es1o0a2]{color:=
+#ff6640}[data-colorid=3Dqudto7rb1t]{color:#bf2600} html[data-color-mode=3Dd=
+ark] [data-colorid=3Dqudto7rb1t]{color:#ff6640}[data-colorid=3Dsl78aw24z0]{=
+color:#bf2600} html[data-color-mode=3Ddark] [data-colorid=3Dsl78aw24z0]{col=
+or:#ff6640}[data-colorid=3Dvmfnt6cop8]{color:#bf2600} html[data-color-mode=
+=3Ddark] [data-colorid=3Dvmfnt6cop8]{color:#ff6640}[data-colorid=3Dk1wnzkw5=
+e8]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dk1wnzkw5e8]=
+{color:#99ffdd}[data-colorid=3Dl2no9vao86]{color:#006644} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dl2no9vao86]{color:#99ffdd}[data-colorid=3Dmv04v=
+6btbb]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dmv04v6bt=
+bb]{color:#99ffdd}[data-colorid=3Dmp2cwlrjes]{color:#006644} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Dmp2cwlrjes]{color:#99ffdd}[data-colorid=3Dh4=
+8cak40ub]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dh48ca=
+k40ub]{color:#99ffdd}[data-colorid=3Drjihvbczw1]{color:#006644} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Drjihvbczw1]{color:#99ffdd}[data-colorid=
+=3Du494ow9pzx]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3D=
+u494ow9pzx]{color:#99ffdd}[data-colorid=3Dp24ne0de3z]{color:#006644} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Dp24ne0de3z]{color:#99ffdd}[data-colo=
+rid=3Div19etyd2r]{color:#bf2600} html[data-color-mode=3Ddark] [data-colorid=
+=3Div19etyd2r]{color:#ff6640}[data-colorid=3Dmh1kfvgr80]{color:#006644} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Dmh1kfvgr80]{color:#99ffdd}[data-c=
+olorid=3Dy25oy37rak]{color:#006644} html[data-color-mode=3Ddark] [data-colo=
+rid=3Dy25oy37rak]{color:#99ffdd}[data-colorid=3Dlvnfeccga9]{color:#006644} =
+html[data-color-mode=3Ddark] [data-colorid=3Dlvnfeccga9]{color:#99ffdd}[dat=
+a-colorid=3Dei4oaiz8i1]{color:#006644} html[data-color-mode=3Ddark] [data-c=
+olorid=3Dei4oaiz8i1]{color:#99ffdd}[data-colorid=3Dd1jqbrq9fx]{color:#00664=
+4} html[data-color-mode=3Ddark] [data-colorid=3Dd1jqbrq9fx]{color:#99ffdd}[=
+data-colorid=3Dzhl0hl3ygy]{color:#006644} html[data-color-mode=3Ddark] [dat=
+a-colorid=3Dzhl0hl3ygy]{color:#99ffdd}[data-colorid=3Dcgr8nb23tb]{color:#00=
+6644} html[data-color-mode=3Ddark] [data-colorid=3Dcgr8nb23tb]{color:#99ffd=
+d}[data-colorid=3Dtwmxrjpdgf]{color:#006644} html[data-color-mode=3Ddark] [=
+data-colorid=3Dtwmxrjpdgf]{color:#99ffdd}[data-colorid=3Dgygif640kl]{color:=
+#006644} html[data-color-mode=3Ddark] [data-colorid=3Dgygif640kl]{color:#99=
+ffdd}[data-colorid=3Debnqb3l41m]{color:#006644} html[data-color-mode=3Ddark=
+] [data-colorid=3Debnqb3l41m]{color:#99ffdd}[data-colorid=3Dzwwk6uh839]{col=
+or:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dzwwk6uh839]{color:=
+#99ffdd}[data-colorid=3Dmv8cxk3zct]{color:#006644} html[data-color-mode=3Dd=
+ark] [data-colorid=3Dmv8cxk3zct]{color:#99ffdd}[data-colorid=3Dzju60i0ern]{=
+color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dzju60i0ern]{col=
+or:#99ffdd}[data-colorid=3Dbzy0cn6qz1]{color:#006644} html[data-color-mode=
+=3Ddark] [data-colorid=3Dbzy0cn6qz1]{color:#99ffdd}[data-colorid=3Djg3bvrjo=
+0g]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Djg3bvrjo0g]=
+{color:#99ffdd}[data-colorid=3Dmkhc435koi]{color:#006644} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dmkhc435koi]{color:#99ffdd}[data-colorid=3Dd0d6o=
+mn0gw]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dd0d6omn0=
+gw]{color:#99ffdd}[data-colorid=3Dlvvnm6ozsk]{color:#006644} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Dlvvnm6ozsk]{color:#99ffdd}[data-colorid=3Deu=
+e8wr37aw]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Deue8w=
+r37aw]{color:#99ffdd}[data-colorid=3Dyrc2p41a8e]{color:#bf2600} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Dyrc2p41a8e]{color:#ff6640}[data-colorid=
+=3Dfhebbrlk0a]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3D=
+fhebbrlk0a]{color:#99ffdd}[data-colorid=3Dnmnt8vvdit]{color:#006644} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Dnmnt8vvdit]{color:#99ffdd}[data-colo=
+rid=3Dll0mj6voyv]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=
+=3Dll0mj6voyv]{color:#99ffdd}[data-colorid=3Ddot03s9j1q]{color:#006644} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Ddot03s9j1q]{color:#99ffdd}[data-c=
+olorid=3Dbbffol2c1l]{color:#006644} html[data-color-mode=3Ddark] [data-colo=
+rid=3Dbbffol2c1l]{color:#99ffdd}[data-colorid=3Dtauadvvfnj]{color:#006644} =
+html[data-color-mode=3Ddark] [data-colorid=3Dtauadvvfnj]{color:#99ffdd}[dat=
+a-colorid=3Dhgnvp1b376]{color:#006644} html[data-color-mode=3Ddark] [data-c=
+olorid=3Dhgnvp1b376]{color:#99ffdd}[data-colorid=3Dyq8fkknxbo]{color:#bf260=
+0} html[data-color-mode=3Ddark] [data-colorid=3Dyq8fkknxbo]{color:#ff6640}[=
+data-colorid=3Dgnjfe1yksg]{color:#006644} html[data-color-mode=3Ddark] [dat=
+a-colorid=3Dgnjfe1yksg]{color:#99ffdd}[data-colorid=3Dwk3cthiah6]{color:#bf=
+2600} html[data-color-mode=3Ddark] [data-colorid=3Dwk3cthiah6]{color:#ff664=
+0}[data-colorid=3Drxxlr2lo19]{color:#006644} html[data-color-mode=3Ddark] [=
+data-colorid=3Drxxlr2lo19]{color:#99ffdd}[data-colorid=3Dhdswv4bxh8]{color:=
+#006644} html[data-color-mode=3Ddark] [data-colorid=3Dhdswv4bxh8]{color:#99=
+ffdd}[data-colorid=3Dd0bxrodiaj]{color:#006644} html[data-color-mode=3Ddark=
+] [data-colorid=3Dd0bxrodiaj]{color:#99ffdd}[data-colorid=3Dtvjhplwv69]{col=
+or:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dtvjhplwv69]{color:=
+#99ffdd}[data-colorid=3Du34v0beelq]{color:#bf2600} html[data-color-mode=3Dd=
+ark] [data-colorid=3Du34v0beelq]{color:#ff6640}[data-colorid=3Daxm3vt2zyu]{=
+color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Daxm3vt2zyu]{col=
+or:#99ffdd}[data-colorid=3Dsmpcp8rg21]{color:#006644} html[data-color-mode=
+=3Ddark] [data-colorid=3Dsmpcp8rg21]{color:#99ffdd}[data-colorid=3Ddfh4i0bn=
+67]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Ddfh4i0bn67]=
+{color:#99ffdd}[data-colorid=3Dpisgfbusb9]{color:#006644} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dpisgfbusb9]{color:#99ffdd}[data-colorid=3Djlfc4=
+j72p6]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Djlfc4j72=
+p6]{color:#99ffdd}[data-colorid=3Dloqqg9dlzo]{color:#006644} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Dloqqg9dlzo]{color:#99ffdd}[data-colorid=3Dq1=
+ejq0d9pb]{color:#bf2600} html[data-color-mode=3Ddark] [data-colorid=3Dq1ejq=
+0d9pb]{color:#ff6640}[data-colorid=3Dwtz0r53qfm]{color:#006644} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Dwtz0r53qfm]{color:#99ffdd}[data-colorid=
+=3Dabfjrvsob2]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3D=
+abfjrvsob2]{color:#99ffdd}[data-colorid=3Diy14yybf55]{color:#006644} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Diy14yybf55]{color:#99ffdd}[data-colo=
+rid=3Do48gt7t5ah]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=
+=3Do48gt7t5ah]{color:#99ffdd}[data-colorid=3Dfajn9winen]{color:#006644} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Dfajn9winen]{color:#99ffdd}[data-c=
+olorid=3Dfw5q52lj62]{color:#006644} html[data-color-mode=3Ddark] [data-colo=
+rid=3Dfw5q52lj62]{color:#99ffdd}[data-colorid=3Di9j42zzzqc]{color:#006644} =
+html[data-color-mode=3Ddark] [data-colorid=3Di9j42zzzqc]{color:#99ffdd}[dat=
+a-colorid=3Dmezv5slhe4]{color:#006644} html[data-color-mode=3Ddark] [data-c=
+olorid=3Dmezv5slhe4]{color:#99ffdd}[data-colorid=3Dr0orwwbq96]{color:#00664=
+4} html[data-color-mode=3Ddark] [data-colorid=3Dr0orwwbq96]{color:#99ffdd}[=
+data-colorid=3Dllzlnwsgrh]{color:#006644} html[data-color-mode=3Ddark] [dat=
+a-colorid=3Dllzlnwsgrh]{color:#99ffdd}[data-colorid=3Dgai6zj72ez]{color:#00=
+6644} html[data-color-mode=3Ddark] [data-colorid=3Dgai6zj72ez]{color:#99ffd=
+d}[data-colorid=3Dx00wcppldu]{color:#006644} html[data-color-mode=3Ddark] [=
+data-colorid=3Dx00wcppldu]{color:#99ffdd}[data-colorid=3Dwas4wj5r97]{color:=
+#006644} html[data-color-mode=3Ddark] [data-colorid=3Dwas4wj5r97]{color:#99=
+ffdd}[data-colorid=3Dq1xoiawdgv]{color:#bf2600} html[data-color-mode=3Ddark=
+] [data-colorid=3Dq1xoiawdgv]{color:#ff6640}[data-colorid=3Droyhtb4ypm]{col=
+or:#006644} html[data-color-mode=3Ddark] [data-colorid=3Droyhtb4ypm]{color:=
+#99ffdd}[data-colorid=3Dmj64b10y8c]{color:#006644} html[data-color-mode=3Dd=
+ark] [data-colorid=3Dmj64b10y8c]{color:#99ffdd}[data-colorid=3Dk9z1y2omzo]{=
+color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dk9z1y2omzo]{col=
+or:#99ffdd}[data-colorid=3Dfwp2ol55as]{color:#006644} html[data-color-mode=
+=3Ddark] [data-colorid=3Dfwp2ol55as]{color:#99ffdd}[data-colorid=3Dww2b5klg=
+94]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dww2b5klg94]=
+{color:#99ffdd}[data-colorid=3Dnwzojm9019]{color:#bf2600} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dnwzojm9019]{color:#ff6640}[data-colorid=3Digucp=
+qm0m6]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Digucpqm0=
+m6]{color:#99ffdd}[data-colorid=3Dmdlxgzz0ll]{color:#006644} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Dmdlxgzz0ll]{color:#99ffdd}[data-colorid=3Dgv=
+a5xardy7]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dgva5x=
+ardy7]{color:#99ffdd}[data-colorid=3Dluwjng0yg7]{color:#006644} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Dluwjng0yg7]{color:#99ffdd}[data-colorid=
+=3Dvsxihzlhub]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3D=
+vsxihzlhub]{color:#99ffdd}[data-colorid=3Dcc8hopmefw]{color:#006644} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Dcc8hopmefw]{color:#99ffdd}[data-colo=
+rid=3Db6lzi2zkzb]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=
+=3Db6lzi2zkzb]{color:#99ffdd}[data-colorid=3Dxhte73wz63]{color:#006644} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Dxhte73wz63]{color:#99ffdd}[data-c=
+olorid=3Dydiwnwq8ig]{color:#006644} html[data-color-mode=3Ddark] [data-colo=
+rid=3Dydiwnwq8ig]{color:#99ffdd}[data-colorid=3Dsm6dq2zzbi]{color:#006644} =
+html[data-color-mode=3Ddark] [data-colorid=3Dsm6dq2zzbi]{color:#99ffdd}[dat=
+a-colorid=3Dc8em57ac9s]{color:#006644} html[data-color-mode=3Ddark] [data-c=
+olorid=3Dc8em57ac9s]{color:#99ffdd}[data-colorid=3Ddpiw767rgg]{color:#00664=
+4} html[data-color-mode=3Ddark] [data-colorid=3Ddpiw767rgg]{color:#99ffdd}[=
+data-colorid=3Dr75ji8orfr]{color:#bf2600} html[data-color-mode=3Ddark] [dat=
+a-colorid=3Dr75ji8orfr]{color:#ff6640}[data-colorid=3Dub32l3onx7]{color:#bf=
+2600} html[data-color-mode=3Ddark] [data-colorid=3Dub32l3onx7]{color:#ff664=
+0}[data-colorid=3Dvzptxgm6bt]{color:#403294} html[data-color-mode=3Ddark] [=
+data-colorid=3Dvzptxgm6bt]{color:#796bcd}[data-colorid=3Dxgkf73foja]{color:=
+#006644} html[data-color-mode=3Ddark] [data-colorid=3Dxgkf73foja]{color:#99=
+ffdd}[data-colorid=3Dqigopcgozm]{color:#006644} html[data-color-mode=3Ddark=
+] [data-colorid=3Dqigopcgozm]{color:#99ffdd}[data-colorid=3Doavejgrrh2]{col=
+or:#006644} html[data-color-mode=3Ddark] [data-colorid=3Doavejgrrh2]{color:=
+#99ffdd}[data-colorid=3Di2kn15lqoh]{color:#006644} html[data-color-mode=3Dd=
+ark] [data-colorid=3Di2kn15lqoh]{color:#99ffdd}[data-colorid=3Djrluoeg2dy]{=
+color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Djrluoeg2dy]{col=
+or:#99ffdd}[data-colorid=3Djoso56u1iy]{color:#006644} html[data-color-mode=
+=3Ddark] [data-colorid=3Djoso56u1iy]{color:#99ffdd}[data-colorid=3Ddostbxer=
+i3]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Ddostbxeri3]=
+{color:#99ffdd}[data-colorid=3Ddzhdajlt1c]{color:#006644} html[data-color-m=
+ode=3Ddark] [data-colorid=3Ddzhdajlt1c]{color:#99ffdd}[data-colorid=3Dusc9b=
+8y6dr]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dusc9b8y6=
+dr]{color:#99ffdd}[data-colorid=3Dmimzn5d6gw]{color:#006644} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Dmimzn5d6gw]{color:#99ffdd}[data-colorid=3Dj0=
+raw2gm39]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dj0raw=
+2gm39]{color:#99ffdd}[data-colorid=3Dot8mostv96]{color:#006644} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Dot8mostv96]{color:#99ffdd}[data-colorid=
+=3Dmla3lgeinl]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3D=
+mla3lgeinl]{color:#99ffdd}[data-colorid=3Dvqluf3jxuk]{color:#006644} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Dvqluf3jxuk]{color:#99ffdd}[data-colo=
+rid=3Dpb5tagj9y4]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=
+=3Dpb5tagj9y4]{color:#99ffdd}[data-colorid=3Dtbwvtak4fv]{color:#006644} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Dtbwvtak4fv]{color:#99ffdd}[data-c=
+olorid=3Dod9iav1uqn]{color:#006644} html[data-color-mode=3Ddark] [data-colo=
+rid=3Dod9iav1uqn]{color:#99ffdd}[data-colorid=3Dnnkuns6m98]{color:#bf2600} =
+html[data-color-mode=3Ddark] [data-colorid=3Dnnkuns6m98]{color:#ff6640}[dat=
+a-colorid=3Dit7gfb7h3q]{color:#006644} html[data-color-mode=3Ddark] [data-c=
+olorid=3Dit7gfb7h3q]{color:#99ffdd}[data-colorid=3Dzw7hggpzbq]{color:#00664=
+4} html[data-color-mode=3Ddark] [data-colorid=3Dzw7hggpzbq]{color:#99ffdd}[=
+data-colorid=3Dwu4f54s10i]{color:#006644} html[data-color-mode=3Ddark] [dat=
+a-colorid=3Dwu4f54s10i]{color:#99ffdd}[data-colorid=3Dpopyjrw5kl]{color:#00=
+6644} html[data-color-mode=3Ddark] [data-colorid=3Dpopyjrw5kl]{color:#99ffd=
+d}[data-colorid=3Da77985g8ij]{color:#006644} html[data-color-mode=3Ddark] [=
+data-colorid=3Da77985g8ij]{color:#99ffdd}[data-colorid=3Dr9b9wj61kh]{color:=
+#006644} html[data-color-mode=3Ddark] [data-colorid=3Dr9b9wj61kh]{color:#99=
+ffdd}[data-colorid=3Do8yy05vfzb]{color:#006644} html[data-color-mode=3Ddark=
+] [data-colorid=3Do8yy05vfzb]{color:#99ffdd}[data-colorid=3Dcx90r87u4o]{col=
+or:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dcx90r87u4o]{color:=
+#99ffdd}[data-colorid=3Dqe8ydu1yfv]{color:#006644} html[data-color-mode=3Dd=
+ark] [data-colorid=3Dqe8ydu1yfv]{color:#99ffdd}[data-colorid=3Dn7x5oxlgvo]{=
+color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dn7x5oxlgvo]{col=
+or:#99ffdd}[data-colorid=3Dnew9gzg701]{color:#006644} html[data-color-mode=
+=3Ddark] [data-colorid=3Dnew9gzg701]{color:#99ffdd}[data-colorid=3Dd5l4fdi6=
+q4]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dd5l4fdi6q4]=
+{color:#99ffdd}[data-colorid=3Dxqfqvq37kg]{color:#006644} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dxqfqvq37kg]{color:#99ffdd}[data-colorid=3Dwlc73=
+ktuxl]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dwlc73ktu=
+xl]{color:#99ffdd}[data-colorid=3Dz6chsn5a42]{color:#006644} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Dz6chsn5a42]{color:#99ffdd}[data-colorid=3Du5=
+07fh8mv9]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Du507f=
+h8mv9]{color:#99ffdd}[data-colorid=3Dn9lbm7amv1]{color:#006644} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Dn9lbm7amv1]{color:#99ffdd}[data-colorid=
+=3Dpuk3a46nef]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3D=
+puk3a46nef]{color:#99ffdd}[data-colorid=3Ddi3b28a823]{color:#006644} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Ddi3b28a823]{color:#99ffdd}[data-colo=
+rid=3Dry0t54i6jp]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=
+=3Dry0t54i6jp]{color:#99ffdd}[data-colorid=3Dg6kemopy8r]{color:#006644} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Dg6kemopy8r]{color:#99ffdd}[data-c=
+olorid=3Dcsll45q4cn]{color:#006644} html[data-color-mode=3Ddark] [data-colo=
+rid=3Dcsll45q4cn]{color:#99ffdd}[data-colorid=3Dx9kv8h6uqw]{color:#006644} =
+html[data-color-mode=3Ddark] [data-colorid=3Dx9kv8h6uqw]{color:#99ffdd}[dat=
+a-colorid=3Dtaad5mt3v5]{color:#006644} html[data-color-mode=3Ddark] [data-c=
+olorid=3Dtaad5mt3v5]{color:#99ffdd}[data-colorid=3Dazl6frv9ol]{color:#00664=
+4} html[data-color-mode=3Ddark] [data-colorid=3Dazl6frv9ol]{color:#99ffdd}[=
+data-colorid=3Dn95hpyqr47]{color:#006644} html[data-color-mode=3Ddark] [dat=
+a-colorid=3Dn95hpyqr47]{color:#99ffdd}[data-colorid=3Dq3t1sdttqn]{color:#00=
+6644} html[data-color-mode=3Ddark] [data-colorid=3Dq3t1sdttqn]{color:#99ffd=
+d}[data-colorid=3Du8z5n3wplm]{color:#006644} html[data-color-mode=3Ddark] [=
+data-colorid=3Du8z5n3wplm]{color:#99ffdd}[data-colorid=3Do5jdw5pzj4]{color:=
+#006644} html[data-color-mode=3Ddark] [data-colorid=3Do5jdw5pzj4]{color:#99=
+ffdd}[data-colorid=3Daydv71trcu]{color:#006644} html[data-color-mode=3Ddark=
+] [data-colorid=3Daydv71trcu]{color:#99ffdd}[data-colorid=3Dzfs8jjvjg8]{col=
+or:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dzfs8jjvjg8]{color:=
+#99ffdd}[data-colorid=3Dhzw2kih6od]{color:#006644} html[data-color-mode=3Dd=
+ark] [data-colorid=3Dhzw2kih6od]{color:#99ffdd}[data-colorid=3Ddc4zad53jt]{=
+color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Ddc4zad53jt]{col=
+or:#99ffdd}[data-colorid=3Dhuruynhmt5]{color:#006644} html[data-color-mode=
+=3Ddark] [data-colorid=3Dhuruynhmt5]{color:#99ffdd}[data-colorid=3Df3i9l0qo=
+nc]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Df3i9l0qonc]=
+{color:#99ffdd}[data-colorid=3Dfjf16tlagj]{color:#bf2600} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dfjf16tlagj]{color:#ff6640}[data-colorid=3Dk2lbf=
+xogz9]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dk2lbfxog=
+z9]{color:#99ffdd}[data-colorid=3Ddu3p9jztdz]{color:#006644} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Ddu3p9jztdz]{color:#99ffdd}[data-colorid=3Dnu=
+5ytjwjv2]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dnu5yt=
+jwjv2]{color:#99ffdd}[data-colorid=3Dco8bnlgb02]{color:#006644} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Dco8bnlgb02]{color:#99ffdd}[data-colorid=
+=3Dt68og02s6u]{color:#bf2600} html[data-color-mode=3Ddark] [data-colorid=3D=
+t68og02s6u]{color:#ff6640}[data-colorid=3Dq36sr7ecfx]{color:#bf2600} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Dq36sr7ecfx]{color:#ff6640}[data-colo=
+rid=3Drlxz6n1fdh]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=
+=3Drlxz6n1fdh]{color:#99ffdd}[data-colorid=3Dp7yvrnmidf]{color:#006644} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Dp7yvrnmidf]{color:#99ffdd}[data-c=
+olorid=3De83b92shen]{color:#bf2600} html[data-color-mode=3Ddark] [data-colo=
+rid=3De83b92shen]{color:#ff6640}[data-colorid=3Dbvabdmqcuj]{color:#006644} =
+html[data-color-mode=3Ddark] [data-colorid=3Dbvabdmqcuj]{color:#99ffdd}[dat=
+a-colorid=3Didrh99azqm]{color:#006644} html[data-color-mode=3Ddark] [data-c=
+olorid=3Didrh99azqm]{color:#99ffdd}[data-colorid=3Di26j435bq9]{color:#00664=
+4} html[data-color-mode=3Ddark] [data-colorid=3Di26j435bq9]{color:#99ffdd}[=
+data-colorid=3Dt2xnx74jir]{color:#006644} html[data-color-mode=3Ddark] [dat=
+a-colorid=3Dt2xnx74jir]{color:#99ffdd}[data-colorid=3Dzb80vfg1f0]{color:#00=
+6644} html[data-color-mode=3Ddark] [data-colorid=3Dzb80vfg1f0]{color:#99ffd=
+d}[data-colorid=3Dyy4ty87yx7]{color:#006644} html[data-color-mode=3Ddark] [=
+data-colorid=3Dyy4ty87yx7]{color:#99ffdd}[data-colorid=3Dzhoodlniho]{color:=
+#bf2600} html[data-color-mode=3Ddark] [data-colorid=3Dzhoodlniho]{color:#ff=
+6640}[data-colorid=3Dwi3tr8f799]{color:#bf2600} html[data-color-mode=3Ddark=
+] [data-colorid=3Dwi3tr8f799]{color:#ff6640}[data-colorid=3Def1vsmttyu]{col=
+or:#006644} html[data-color-mode=3Ddark] [data-colorid=3Def1vsmttyu]{color:=
+#99ffdd}[data-colorid=3Dfmepp3sj02]{color:#006644} html[data-color-mode=3Dd=
+ark] [data-colorid=3Dfmepp3sj02]{color:#99ffdd}[data-colorid=3Ds0s9mqftwr]{=
+color:#bf2600} html[data-color-mode=3Ddark] [data-colorid=3Ds0s9mqftwr]{col=
+or:#ff6640}[data-colorid=3Dwrl2m87vw6]{color:#006644} html[data-color-mode=
+=3Ddark] [data-colorid=3Dwrl2m87vw6]{color:#99ffdd}[data-colorid=3Dnap1xcr7=
+w6]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dnap1xcr7w6]=
+{color:#99ffdd}[data-colorid=3Dfdwu5vuwa6]{color:#006644} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dfdwu5vuwa6]{color:#99ffdd}[data-colorid=3Djzhsw=
+83mp5]{color:#bf2600} html[data-color-mode=3Ddark] [data-colorid=3Djzhsw83m=
+p5]{color:#ff6640}[data-colorid=3Dszjdt30wnr]{color:#006644} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Dszjdt30wnr]{color:#99ffdd}[data-colorid=3Dj7=
+5s5rn7fs]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dj75s5=
+rn7fs]{color:#99ffdd}[data-colorid=3Dmb97r5jeve]{color:#006644} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Dmb97r5jeve]{color:#99ffdd}[data-colorid=
+=3Dyvid4e5jyl]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3D=
+yvid4e5jyl]{color:#99ffdd}[data-colorid=3Du0k4hadttq]{color:#006644} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Du0k4hadttq]{color:#99ffdd}[data-colo=
+rid=3Dab1o80atlw]{color:#bf2600} html[data-color-mode=3Ddark] [data-colorid=
+=3Dab1o80atlw]{color:#ff6640}[data-colorid=3Dwjgpwaifcg]{color:#006644} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Dwjgpwaifcg]{color:#99ffdd}[data-c=
+olorid=3Dth7uiq6mh8]{color:#006644} html[data-color-mode=3Ddark] [data-colo=
+rid=3Dth7uiq6mh8]{color:#99ffdd}[data-colorid=3Dri3pem09i1]{color:#006644} =
+html[data-color-mode=3Ddark] [data-colorid=3Dri3pem09i1]{color:#99ffdd}[dat=
+a-colorid=3Dn4cavu1p9w]{color:#006644} html[data-color-mode=3Ddark] [data-c=
+olorid=3Dn4cavu1p9w]{color:#99ffdd}[data-colorid=3Ddrlq5299uw]{color:#00664=
+4} html[data-color-mode=3Ddark] [data-colorid=3Ddrlq5299uw]{color:#99ffdd}[=
+data-colorid=3Dwdfpne2jp6]{color:#bf2600} html[data-color-mode=3Ddark] [dat=
+a-colorid=3Dwdfpne2jp6]{color:#ff6640}[data-colorid=3Dps625tmfek]{color:#00=
+6644} html[data-color-mode=3Ddark] [data-colorid=3Dps625tmfek]{color:#99ffd=
+d}[data-colorid=3Dfe2yvpnma1]{color:#006644} html[data-color-mode=3Ddark] [=
+data-colorid=3Dfe2yvpnma1]{color:#99ffdd}[data-colorid=3Den0v1t7kt7]{color:=
+#006644} html[data-color-mode=3Ddark] [data-colorid=3Den0v1t7kt7]{color:#99=
+ffdd}[data-colorid=3Drjjfsqmmhz]{color:#006644} html[data-color-mode=3Ddark=
+] [data-colorid=3Drjjfsqmmhz]{color:#99ffdd}[data-colorid=3De5owa692ti]{col=
+or:#006644} html[data-color-mode=3Ddark] [data-colorid=3De5owa692ti]{color:=
+#99ffdd}[data-colorid=3Dodgvhtszo0]{color:#006644} html[data-color-mode=3Dd=
+ark] [data-colorid=3Dodgvhtszo0]{color:#99ffdd}[data-colorid=3Dwlwa5l7e0n]{=
+color:#bf2600} html[data-color-mode=3Ddark] [data-colorid=3Dwlwa5l7e0n]{col=
+or:#ff6640}[data-colorid=3Dstgmk8hkci]{color:#006644} html[data-color-mode=
+=3Ddark] [data-colorid=3Dstgmk8hkci]{color:#99ffdd}[data-colorid=3Dnqeak4xz=
+d8]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dnqeak4xzd8]=
+{color:#99ffdd}[data-colorid=3Dzmai2vn61i]{color:#006644} html[data-color-m=
+ode=3Ddark] [data-colorid=3Dzmai2vn61i]{color:#99ffdd}[data-colorid=3Dxtwvb=
+7l3us]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dxtwvb7l3=
+us]{color:#99ffdd}[data-colorid=3Dvqanf92jdr]{color:#006644} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Dvqanf92jdr]{color:#99ffdd}[data-colorid=3Dzh=
+zwavrwcj]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3Dzhzwa=
+vrwcj]{color:#99ffdd}[data-colorid=3Dzudvpajnjv]{color:#006644} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Dzudvpajnjv]{color:#99ffdd}[data-colorid=
+=3Dkrw2jcqreh]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=3D=
+krw2jcqreh]{color:#99ffdd}[data-colorid=3Dkyrm6t4fvd]{color:#006644} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Dkyrm6t4fvd]{color:#99ffdd}[data-colo=
+rid=3Dyvlo64wq1b]{color:#006644} html[data-color-mode=3Ddark] [data-colorid=
+=3Dyvlo64wq1b]{color:#99ffdd}[data-colorid=3Dhljpnp0zqr]{color:#006644} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Dhljpnp0zqr]{color:#99ffdd}[data-c=
+olorid=3Di5bzbt1o5p]{color:#006644} html[data-color-mode=3Ddark] [data-colo=
+rid=3Di5bzbt1o5p]{color:#99ffdd}[data-colorid=3Dg7ua5th54m]{color:#bf2600} =
+html[data-color-mode=3Ddark] [data-colorid=3Dg7ua5th54m]{color:#ff6640}[dat=
+a-colorid=3Ddaxqtn0bff]{color:#bf2600} html[data-color-mode=3Ddark] [data-c=
+olorid=3Ddaxqtn0bff]{color:#ff6640}[data-colorid=3Dbap8wmkpzt]{color:#00664=
+4} html[data-color-mode=3Ddark] [data-colorid=3Dbap8wmkpzt]{color:#99ffdd}[=
+data-colorid=3Dz73pug266r]{color:#006644} html[data-color-mode=3Ddark] [dat=
+a-colorid=3Dz73pug266r]{color:#99ffdd}[data-colorid=3Dgwjvqah8ac]{color:#00=
+6644} html[data-color-mode=3Ddark] [data-colorid=3Dgwjvqah8ac]{color:#99ffd=
+d}[data-colorid=3Dnozdcfl3bu]{color:#006644} html[data-color-mode=3Ddark] [=
+data-colorid=3Dnozdcfl3bu]{color:#99ffdd}[data-colorid=3Dtau1m6ym7u]{color:=
+#006644} html[data-color-mode=3Ddark] [data-colorid=3Dtau1m6ym7u]{color:#99=
+ffdd}[data-colorid=3Dqcu30l82jz]{color:#006644} html[data-color-mode=3Ddark=
+] [data-colorid=3Dqcu30l82jz]{color:#99ffdd}</style>
+<div class=3D"panelContent" style=3D"background-color: #EAE6FF;">
+<p><span data-colorid=3D"vzptxgm6bt">Cette section de la formation "Qualit=
+=C3=A9 101" vise =C3=A0 clarifier les id=C3=A9es fausses et correctes conce=
+rnant la qualit=C3=A9. Elle aide les participants =C3=A0 comprendre ce que =
+la qualit=C3=A9 repr=C3=A9sente r=C3=A9ellement dans le contexte de leur tr=
+avail et ce qu'elle ne doit pas =C3=AAtre confondue avec.</span></p>
+</div>
+</div>
+<h2 id=3D"Led=C3=A9mystificationqualit=C3=A9(qualit=C3=A9101)-Laqualit=C3=
+=A9c=E2=80=99est=E2=80=A6?">La qualit=C3=A9 c=E2=80=99est=E2=80=A6 ?</h2>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et les pratiques</strong></p>
+<ol start=3D"1">
+<li>
+<p>La qualit=C3=A9 est une pratique et contient un ensemble de plusieurs pr=
+atiques</p></li>
+<li>
+<p>La qualit=C3=A9 est une pratique mais ne contient pas un ensemble de plu=
+sieurs pratiques</p></li>
+<li>
+<p>La qualit=C3=A9 n=E2=80=99est pas une pratique mais contient un ensemble=
+ de plusieurs pratiques</p></li>
+<li>
+<p>C=E2=80=99est de pouvoir pratiquer l=E2=80=99assurance qualit=C3=A9</p><=
+/li>
+<li>
+<p>Si je fais de la qualit=C3=A9 c=E2=80=99est que je pratique la qualit=C3=
+=A9.</p></li>
+<li>
+<p>Pratiquer la qualit=C3=A9 c=E2=80=99est de passer de la th=C3=A9orie ver=
+s la pratique.</p></li>
+<li>
+<p>C=E2=80=99est bien parce que la qualit=C3=A9 est tr=C3=A8s pratique, que=
+ c=E2=80=99est utile de pratiquer les pratiques de la pratique qualit=C3=A9=
+.</p></li>
+<li>
+<p>La qualit=C3=A9 est l=E2=80=99art de faire des examens pratiques.</p></l=
+i>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"ub32l3onx7">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"xhte73wz63">Voici l=E2=80=99explication de=
+ la bonne r=C3=A9ponse</span></strong><span data-colorid=3D"u8z5n3wplm"> :<=
+/span><br><span data-colorid=3D"nmnt8vvdit">La qualit=C3=A9 n'est </span><s=
+trong><span data-colorid=3D"ri3pem09i1">pas une autre pratique des pratique=
+s</span></strong><span data-colorid=3D"eue8wr37aw"> ni un ensemble de prati=
+ques. C'est un </span><strong><span data-colorid=3D"bzy0cn6qz1">engagement =
+transversal</span></strong><span data-colorid=3D"dpiw767rgg">=E2=80=AF: ell=
+e traverse toutes les =C3=A9tapes et disciplines, soutenue par des outils, =
+des ambassadeurs, et des efforts collectifs pour garantir l'excellence.</sp=
+an></p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et les contrainte</strong></p>
+<ol start=3D"1">
+<li>
+<p>La qualit=C3=A9 est une punition divine pour ceux qui =C3=A9crivent du c=
+ode spaghetti.</p></li>
+<li>
+<p>La qualit=C3=A9 est une exigence impos=C3=A9e par des normes pour emb=C3=
+=AAter les =C3=A9quipes.</p></li>
+<li>
+<p>La qualit=C3=A9 est un "mal n=C3=A9cessaire" pour =C3=A9viter de se fair=
+e critiquer par les utilisateurs et justifier notre salaire.</p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"g7ua5th54m">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"dostbxeri3">Voici l=E2=80=99explication de=
+ la bonne r=C3=A9ponse</span></strong><span data-colorid=3D"tauadvvfnj"> :<=
+/span><br><span data-colorid=3D"d0bxrodiaj">La qualit=C3=A9 n'est </span><s=
+trong><span data-colorid=3D"ot8mostv96">pas une contrainte</span></strong><=
+span data-colorid=3D"z6chsn5a42">. Elle est une </span><strong><span data-c=
+olorid=3D"gai6zj72ez">optimisation du processus</span></strong><span data-c=
+olorid=3D"fajn9winen"> qui aide =C3=A0 d=C3=A9tecter les probl=C3=A8mes en =
+amont, =C3=A0 am=C3=A9liorer la satisfaction client et =C3=A0 =C3=A9viter d=
+es co=C3=BBts =C3=A9lev=C3=A9s li=C3=A9s =C3=A0 des retours ou des bugs. Br=
+ef, prendre le temps de bien faire les choses pour aller plus vite.</span><=
+/p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et l'automatisation des tests</strong></p>
+<ol start=3D"1">
+<li>
+<p>Automatiser les tests est bouton magique qui transforme le chaos en la p=
+erfection qui r=C3=A8gle tous les probl=C3=A8mes et donc plus besoin de fai=
+re de la qualit=C3=A9.</p></li>
+<li>
+<p>Automatiser les tests est une m=C3=A9thode pour =C3=A9liminer le besoin =
+de r=C3=A9fl=C3=A9chir pour faire de la qualit=C3=A9.</p></li>
+<li>
+<p>Automatiser les tests est un moyen infaillible de qualit=C3=A9 pour =C3=
+=A9viter les erreurs humaines.</p></li>
+<li>
+<p>Une automatisation aveugle des tests sans r=C3=A9flexion strat=C3=A9giqu=
+e.</p></li>
+<li>
+<p>Un outil magique qui garantit la qualit=C3=A9 sans effort humain.</p></l=
+i>
+<li>
+<p>Une excuse pour supprimer les tests manuels.</p></li>
+<li>
+<p>Une automatisation totale des processus sans r=C3=A9flexion strat=C3=A9g=
+ique.</p></li>
+<li>
+<p>Une simple collection de scripts de test.</p></li>
+<li>
+<p>Un substitut parfait aux tests manuels.</p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"r75ji8orfr">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"nozdcfl3bu">Voici l=E2=80=99explication de=
+ la bonne r=C3=A9ponse</span></strong><span data-colorid=3D"n9lbm7amv1"> :<=
+/span><br><span data-colorid=3D"gva5xardy7">La qualit=C3=A9 n'est </span><s=
+trong><span data-colorid=3D"zhzwavrwcj">pas =C3=A9gale =C3=A0 l'automatisat=
+ion des tests</span></strong><span data-colorid=3D"yvid4e5jyl">. Bien que l=
+'automatisation puisse aider, elle doit =C3=AAtre pr=C3=A9c=C3=A9d=C3=A9e p=
+ar une strat=C3=A9gie bien d=C3=A9finie. Sinon, on risque d'automatiser des=
+ processus mal con=C3=A7us, amplifiant ainsi les probl=C3=A8mes au lieu de =
+les r=C3=A9soudre.</span></p>
+<p><span data-colorid=3D"ef1vsmttyu">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"d5l4fdi6q4">pas =C3=A9gale =C3=A0 l'automatisation des=
+ tests</span></strong><span data-colorid=3D"tbwvtak4fv">. Elle commence par=
+ une bonne strat=C3=A9gie et des processus bien d=C3=A9finis. L'automatisat=
+ion soutient la qualit=C3=A9, mais elle n=E2=80=99en est pas la base=E2=80=
+=AF: des tests mal automatis=C3=A9s peuvent faire plus de mal que de bien.<=
+/span></p>
+<p><span data-colorid=3D"k1wnzkw5e8">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"x9kv8h6uqw">pas =C3=A9gale =C3=A0 l=E2=80=99automatisa=
+tion des tests</span></strong><span data-colorid=3D"rjjfsqmmhz">. Elle exig=
+e une </span><strong><span data-colorid=3D"csll45q4cn">bonne d=C3=A9finitio=
+n strat=C3=A9gique avant d=E2=80=99automatiser</span></strong><span data-co=
+lorid=3D"new9gzg701">, en s'assurant que l=E2=80=99automatisation cible des=
+ processus pertinents et bien d=C3=A9finis. L=E2=80=99automatisation est un=
+ outil parmi d=E2=80=99autres, mais pas une solution universelle.</span></p=
+>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et l'=C3=A9tat d'esprit</strong></p>
+<ol start=3D"1">
+<li>
+<p>La qualit=C3=A9 est une checklist que l'on coche sans r=C3=A9fl=C3=A9chi=
+r.</p></li>
+<li>
+<p>La qualit=C3=A9 est un truc que l'on met dans la cour QA ou DEV pour qu=
+=E2=80=99ils s'en occupent.</p></li>
+<li>
+<p>La qualit=C3=A9 est un slogan accroch=C3=A9 sur un mur=E2=80=AF: "On vis=
+e l'excellence=E2=80=AF!"</p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"wi3tr8f799">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"iy14yybf55">Voici l=E2=80=99explication de=
+ la bonne r=C3=A9ponse</span></strong><span data-colorid=3D"lvnfeccga9"> :<=
+/span><br><span data-colorid=3D"wu4f54s10i">La qualit=C3=A9 n'est </span><s=
+trong><span data-colorid=3D"szjdt30wnr">pas une simple formalit=C3=A9</span=
+></strong><span data-colorid=3D"usc9b8y6dr"> ni une responsabilit=C3=A9 ind=
+ividuelle isol=C3=A9e. C'est un </span><strong><span data-colorid=3D"qigopc=
+gozm">=C3=A9tat d'esprit collectif</span></strong><span data-colorid=3D"mj6=
+4b10y8c">, une recherche constante d'am=C3=A9lioration qui engage tout le m=
+onde=E2=80=AF: des d=C3=A9veloppeurs au marketing, en passant par la gestio=
+n et le support.</span></p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et les processus</strong></p>
+<ol start=3D"1">
+<li>
+<p>La qualit=C3=A9 est une checklist immuable transmise depuis les ann=C3=
+=A9es 90.</p></li>
+<li>
+<p>La qualit=C3=A9 est un processus fig=C3=A9 comme une sculpture dans du m=
+arbre.</p></li>
+<li>
+<p>La qualit=C3=A9 est une m=C3=A9thode que l'on applique uniquement pour s=
+atisfaire les auditeurs et le boss.</p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"mkoeh1c50u">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"odgvhtszo0">Voici l=E2=80=99explication de=
+ la bonne r=C3=A9ponse</span></strong><span data-colorid=3D"ll0mj6voyv"> :<=
+/span><br><span data-colorid=3D"mb97r5jeve">La qualit=C3=A9 n'est </span><s=
+trong><span data-colorid=3D"crr0tn5lka">pas un processus statique</span></s=
+trong><span data-colorid=3D"hgnvp1b376">. Elle est une </span><strong><span=
+ data-colorid=3D"jg3bvrjo0g">=C3=A9volution permanente</span></strong><span=
+ data-colorid=3D"mkhc435koi">, s'adaptant aux besoins changeants des utilis=
+ateurs, aux nouvelles normes, et aux innovations technologiques.</span></p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et les objectifs</strong></p>
+<ol start=3D"1">
+<li>
+<p>Une =C3=A9toile filante que l'on admire mais qu'on n'atteint jamais.</p>=
+</li>
+<li>
+<p>Une phrase floue sur un tableau blanc pendant une r=C3=A9union.</p></li>
+<li>
+<p>Un objectif mystique connu uniquement du manager.</p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"wk3cthiah6">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"wmxr2lepxi">Voici l=E2=80=99explication de=
+ la bonne r=C3=A9ponse</span></strong><span data-colorid=3D"z73pug266r"> :<=
+/span><br><span data-colorid=3D"ww2b5klg94">La qualit=C3=A9 n'est </span><s=
+trong><span data-colorid=3D"fhebbrlk0a">pas un objectif vague</span></stron=
+g><span data-colorid=3D"axm3vt2zyu">. C'est un objectif clair et atteignabl=
+e, bas=C3=A9 sur les besoins des clients, comme un logiciel sans bugs, une =
+exp=C3=A9rience utilisateur agr=C3=A9able ou un service client r=C3=A9actif=
+.</span></p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et les responsabilit=C3=A9s</strong></p>
+<ol start=3D"1">
+<li>
+<p>Une t=C3=A2che confi=C3=A9e uniquement =C3=A0 l'=C3=A9quipe QA, comme un=
+ fardeau in=C3=A9vitable.</p></li>
+<li>
+<p>Un "probl=C3=A8me de d=C3=A9veloppeurs" que les autres ignorent.</p></li=
+>
+<li>
+<p>Une mission pour le "superh=C3=A9ros de la qualit=C3=A9", seul contre to=
+us.</p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"q1xoiawdgv">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><span data-colorid=3D"hnshhftmfd">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"i2kn15lqoh">pas une responsabilit=C3=A9 individuelle u=
+niquement</span></strong><span data-colorid=3D"kyrm6t4fvd">. C'est une resp=
+onsabilit=C3=A9 partag=C3=A9e et collective=E2=80=AF: chaque membre de l'or=
+ganisation, des d=C3=A9veloppeurs au service client, contribue =C3=A0 maint=
+enir et =C3=A0 am=C3=A9liorer la qualit=C3=A9.</span></p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et les tests</strong></p>
+<ol start=3D"1">
+<li>
+<p>Une =C3=A9tape unique =C3=A0 la fin du d=C3=A9veloppement.</p></li>
+<li>
+<p>Une simple validation des fonctionnalit=C3=A9s.</p></li>
+<li>
+<p>Une assurance que le produit est parfait.</p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"eodfvdmlso">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><span data-colorid=3D"k9z1y2omzo">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"llzlnwsgrh">pas =C3=A9gale aux tests</span></strong><s=
+pan data-colorid=3D"rjihvbczw1">. C=E2=80=99est une d=C3=A9marche globale d=
+e </span><strong><span data-colorid=3D"x0albfub9s">validation continue</spa=
+n></strong><span data-colorid=3D"hzw2kih6od">, qui d=C3=A9passe les tests p=
+our inclure des solutions de pr=C3=A9vention, des syst=C3=A8mes de monitori=
+ng et des am=C3=A9liorations proactives.</span></p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et les erreurs</strong></p>
+<ol start=3D"1">
+<li>
+<p>Une chasse aux sorci=C3=A8res pour d=C3=A9signer un coupable.</p></li>
+<li>
+<p>Une mal=C3=A9diction qu'il faut cacher =C3=A0 tout prix.</p></li>
+<li>
+<p>Une preuve que quelqu'un "n'a pas fait son travail".</p></li>
+<li>
+<p>Une obsession pour une perfection impossible =C3=A0 atteindre.</p></li>
+<li>
+<p>Une politique de tol=C3=A9rance z=C3=A9ro face aux erreurs.</p></li>
+<li>
+<p>Une peur paralysante de l=E2=80=99=C3=A9chec.</p></li>
+<li>
+<p>Une garantie de perfection dans tous les produits.</p></li>
+<li>
+<p>Une promesse d'absence totale de bugs.</p></li>
+<li>
+<p>Une attente de z=C3=A9ro d=C3=A9faut.</p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"t68og02s6u">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><span data-colorid=3D"pzx16hkwie">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"luwjng0yg7">pas l'absence d'erreurs</span></strong><sp=
+an data-colorid=3D"p24ne0de3z">. C'est la capacit=C3=A9 =C3=A0 </span><stro=
+ng><span data-colorid=3D"n4cavu1p9w">apprendre de ses erreurs</span></stron=
+g><span data-colorid=3D"fwp2ol55as">. Chaque erreur est une opportunit=C3=
+=A9 d'am=C3=A9lioration, qu'il s'agisse de processus, de produits ou m=C3=
+=AAme de culture organisationnelle.</span></p>
+<p><span data-colorid=3D"gnjfe1yksg">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"stgmk8hkci">pas l=E2=80=99absence totale d=E2=80=99err=
+eurs</span></strong><span data-colorid=3D"twmxrjpdgf">. Elle repose sur une=
+ </span><strong><span data-colorid=3D"uoif20k8b7">capacit=C3=A9 =C3=A0 appr=
+endre de ses erreurs</span></strong><span data-colorid=3D"zz0ym95upu">, qu=
+=E2=80=99il s=E2=80=99agisse de bugs, de processus ou de d=C3=A9cisions, po=
+ur s'am=C3=A9liorer constamment.</span></p>
+<p><span data-colorid=3D"y25oy37rak">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"t2xnx74jir">pas une absence totale d=E2=80=99erreurs</=
+span></strong><span data-colorid=3D"sq0ad9lnol">. Elle repose sur une </spa=
+n><strong><span data-colorid=3D"idrh99azqm">am=C3=A9lioration continue</spa=
+n></strong><span data-colorid=3D"siii1vxjei">, o=C3=B9 les erreurs sont con=
+sid=C3=A9r=C3=A9es comme des opportunit=C3=A9s d=E2=80=99apprentissage et d=
+e perfectionnement.</span></p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et les pratiques rigides</strong></p>
+<ol start=3D"1">
+<li>
+<p>Une s=C3=A9rie de r=C3=A8gles grav=C3=A9es dans le marbre.</p></li>
+<li>
+<p>Une liste de contr=C3=B4les =C3=A0 suivre m=C3=A9caniquement.</p></li>
+<li>
+<p>Une approche qui ne s=E2=80=99adapte pas aux contextes.</p></li>
+<li>
+<p>Une recette stricte =C3=A0 suivre =C3=A0 la lettre.</p></li>
+<li>
+<p>Une routine immuable qui ne change jamais.</p></li>
+<li>
+<p>Un mode d'emploi qui ne laisse aucune place =C3=A0 la cr=C3=A9ativit=C3=
+=A9.</p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"iv19etyd2r">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><span data-colorid=3D"wlc73ktuxl">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"zfs8jjvjg8">pas un processus rigide</span></strong><sp=
+an data-colorid=3D"qe8ydu1yfv">. Elle est dynamique, =C3=A9volue avec les b=
+esoins des clients, les innovations technologiques et les contraintes du ma=
+rch=C3=A9, tout en maintenant les standards.</span></p>
+<p><span data-colorid=3D"was4wj5r97">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"nu5ytjwjv2">pas une pratique rigide</span></strong><sp=
+an data-colorid=3D"mv04v6btbb">. Elle se traduit par des </span><strong><sp=
+an data-colorid=3D"it7gfb7h3q">pratiques dynamiques</span></strong><span da=
+ta-colorid=3D"rxxlr2lo19">, adapt=C3=A9es aux besoins des projets, =C3=A9vo=
+lutives avec les exigences des clients et les avanc=C3=A9es technologiques.=
+</span></p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et les d=C3=A9penses</strong></p>
+<ol start=3D"1">
+<li>
+<p>Une d=C3=A9pense inutile qu=E2=80=99on =C3=A9vite pour maximiser les pro=
+fits.</p></li>
+<li>
+<p>Un trou noir financier sans retour sur investissement.</p></li>
+<li>
+<p>Une obligation l=C3=A9gale co=C3=BBteuse mais indispensable.</p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"i66es1o0a2">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>La qualit=C3=A9 n'est <strong>pas une d=C3=A9pense =C3=A0 court terme</s=
+trong>. C'est un <strong>investissement =C3=A0 long terme</strong>. Elle am=
+=C3=A9liore la r=C3=A9putation, fid=C3=A9lise les clients et garantit des p=
+roduits fiables, ce qui rapporte bien plus qu'elle ne co=C3=BBte.</p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et les validations en environnement contr=C3=B4l=
+=C3=A9</strong></p>
+<ol start=3D"1">
+<li>
+<p>Une simulation parfaite o=C3=B9 rien ne peut mal tourner.</p></li>
+<li>
+<p>Un laboratoire st=C3=A9rile isol=C3=A9 du reste du monde.</p></li>
+<li>
+<p>Une excuse pour ne pas tester dans des conditions r=C3=A9elles.</p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"s0s9mqftwr">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><span data-colorid=3D"nqeak4xzd8">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"xj3jqfryf5">pas une validation en environnement contr=
+=C3=B4l=C3=A9 uniquement</span></strong><span data-colorid=3D"mimzn5d6gw">.=
+ Elle repose aussi sur des validations </span><strong><span data-colorid=3D=
+"u507fh8mv9">en conditions r=C3=A9elles</span></strong><span data-colorid=
+=3D"xgkf73foja">, comme des tests exploratoires, des d=C3=A9ploiements cana=
+ris ou du monitoring en production.</span></p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et la perception</strong></p>
+<ol start=3D"1">
+<li>
+<p>Une opinion personnelle que chacun interpr=C3=A8te diff=C3=A9remment.</p=
+></li>
+<li>
+<p>Une question de go=C3=BBts o=C3=B9 "chacun sa v=C3=A9rit=C3=A9".</p></li=
+>
+<li>
+<p>Un d=C3=A9bat sans fin lors des r=C3=A9unions d'=C3=A9quipe.</p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"jqj7hkxvxi">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><span data-colorid=3D"ebnqb3l41m">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"e5owa692ti">pas une perception individuelle</span></st=
+rong><span data-colorid=3D"hkel6rzsoa">. Elle est une </span><strong><span =
+data-colorid=3D"cc8hopmefw">perception collective</span></strong><span data=
+-colorid=3D"ps625tmfek">=E2=80=AF: aligner les attentes des parties prenant=
+es sur ce qui doit =C3=AAtre livr=C3=A9 est crucial, par exemple gr=C3=A2ce=
+ aux r=C3=A9unions des "trois amigos" (PO, d=C3=A9veloppeur, QA).</span></p=
+>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et les habitudes</strong></p>
+<ol start=3D"1">
+<li>
+<p>Une routine m=C3=A9canique sans r=C3=A9flexion.</p></li>
+<li>
+<p>Une s=C3=A9rie de proc=C3=A9dures =C3=A0 suivre aveugl=C3=A9ment.</p></l=
+i>
+<li>
+<p>Une habitude isol=C3=A9e qui fonctionne en silo.</p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"u34v0beelq">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><span data-colorid=3D"wjgpwaifcg">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"b6lzi2zkzb">pas une habitude isol=C3=A9e ou proc=C3=A9=
+durale</span></strong><span data-colorid=3D"coua6k09vz">. C'est un </span><=
+strong><span data-colorid=3D"popyjrw5kl">r=C3=A9flexe</span></strong><span =
+data-colorid=3D"mv8cxk3zct">, une culture ancr=C3=A9e dans chaque action et=
+ d=C3=A9cision de l'=C3=A9quipe. D=C3=A9velopper une culture de la qualit=
+=C3=A9 permet d=E2=80=99int=C3=A9grer cet =C3=A9tat d'esprit dans tout ce q=
+ue nous faisons.</span></p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et les checklists</strong></p>
+<ol start=3D"1">
+<li>
+<p>Une checklist de contr=C3=B4le qu'on coche sans r=C3=A9fl=C3=A9chir.</p>=
+</li>
+<li>
+<p>Une formalit=C3=A9 administrative pour satisfaire une norme ISO.</p></li=
+>
+<li>
+<p>Une s=C3=A9rie de cases =C3=A0 cocher pour faire bonne impression.</p></=
+li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"mp5jic6l1w">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><span data-colorid=3D"xqfqvq37kg">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"abfjrvsob2">pas un contr=C3=B4le avec une checklist</s=
+pan></strong><span data-colorid=3D"royhtb4ypm">. C'est une </span><strong><=
+span data-colorid=3D"d7m03gwull">culture collective</span></strong><span da=
+ta-colorid=3D"fmepp3sj02">, soutenue par des principes et des pratiques com=
+me les approches QAOps, QDLC, ou des m=C3=A9thodologies Agiles ax=C3=A9es s=
+ur l'am=C3=A9lioration continue.</span></p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et les accidents</strong></p>
+<ol start=3D"1">
+<li>
+<p>Une co=C3=AFncidence heureuse lors du d=C3=A9ploiement.</p></li>
+<li>
+<p>Une surprise agr=C3=A9able o=C3=B9 tout fonctionne par magie.</p></li>
+<li>
+<p>Une loterie o=C3=B9, parfois, on gagne.</p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"wlwa5l7e0n">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><span data-colorid=3D"krw2jcqreh">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"ydiwnwq8ig">pas un accident</span></strong><span data-=
+colorid=3D"od9iav1uqn">. C'est un </span><strong><span data-colorid=3D"l2no=
+9vao86">but commun et constant</span></strong><span data-colorid=3D"zhl0hl3=
+ygy">, atteint gr=C3=A2ce =C3=A0 des efforts d=C3=A9lib=C3=A9r=C3=A9s, une =
+planification rigoureuse et un travail collectif. Elle ne se produit pas pa=
+r hasard, mais par design.</span></p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et l'innovation</strong></p>
+<ol start=3D"1">
+<li>
+<p>Un frein =C3=A0 l'innovation, comme un garde-barri=C3=A8re rigide pour e=
+mp=C3=AAcher les =C3=A9quipes d'=C3=AAtre rapide.</p></li>
+<li>
+<p>Un refus syst=C3=A9matique des nouvelles id=C3=A9es pour "pr=C3=A9server=
+ les standards".</p></li>
+<li>
+<p>Une excuse pour =C3=A9viter les exp=C3=A9rimentations audacieuses.</p></=
+li>
+<li>
+<p>Un blocage contre les nouvelles tendances pour "jouer la s=C3=A9curit=C3=
+=A9".</p></li>
+<li>
+<p>Une raison de rejeter les nouvelles technologies.</p></li>
+<li>
+<p>Une excuse pour ignorer les demandes du march=C3=A9.</p></li>
+<li>
+<p>Une excuse pour rester bloqu=C3=A9 sur d=E2=80=99anciennes m=C3=A9thodes=
+.</p></li>
+<li>
+<p>Une peur du changement et des nouvelles id=C3=A9es.</p></li>
+<li>
+<p>Un rejet syst=C3=A9matique des tendances modernes.</p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"q36sr7ecfx">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><span data-colorid=3D"dzhdajlt1c">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"r9b9wj61kh">pas un archa=C3=AFsme ou une stagnation</s=
+pan></strong><span data-colorid=3D"i9j42zzzqc">. Elle repose sur une cultur=
+e d'</span><strong><span data-colorid=3D"lbjra1aae1">apprentissage et d'exp=
+=C3=A9rimentation rapide</span></strong><span data-colorid=3D"fe2yvpnma1">.=
+ En int=C3=A9grant des m=C3=A9thodologies comme le Kaizen ou des boucles de=
+ r=C3=A9troaction courtes, la qualit=C3=A9 s'adapte et s'am=C3=A9liore cons=
+tamment.</span></p>
+<p><span data-colorid=3D"gygif640kl">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"wrl2m87vw6">pas un conservatisme rigide</span></strong=
+><span data-colorid=3D"d1jqbrq9fx">. C'est une qu=C3=AAte d'am=C3=A9liorati=
+on continue, qui </span><strong><span data-colorid=3D"rdp8sytqu0">int=C3=A8=
+gre les tendances et innovations</span></strong><span data-colorid=3D"f3i9l=
+0qonc"> pour r=C3=A9pondre aux attentes des utilisateurs et garantir la com=
+p=C3=A9titivit=C3=A9.</span></p>
+<p><span data-colorid=3D"nap1xcr7w6">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"o5jdw5pzj4">pas un archa=C3=AFsme</span></strong><span=
+ data-colorid=3D"en0v1t7kt7">. C=E2=80=99est une d=C3=A9marche qui encourag=
+e l'</span><strong><span data-colorid=3D"mh1kfvgr80">innovation</span></str=
+ong><span data-colorid=3D"fdwu5vuwa6">, l'exp=C3=A9rimentation rapide et l'=
+am=C3=A9lioration continue, tout en int=C3=A9grant les tendances modernes e=
+t les meilleures pratiques pour rester comp=C3=A9titif.</span></p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et la pr=C3=A9vention des probl=C3=A8mes</strong=
+></p>
+<ol start=3D"1">
+<li>
+<p>Une chasse aux erreurs uniquement apr=C3=A8s leur apparition.</p></li>
+<li>
+<p>Une tol=C3=A9rance totale aux d=C3=A9fauts tant qu=E2=80=99ils sont mine=
+urs.</p></li>
+<li>
+<p>Une acceptation des risques en attendant qu=E2=80=99ils se manifestent.<=
+/p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"nnkuns6m98">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><span data-colorid=3D"vqluf3jxuk">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"yvlo64wq1b">pas une d=C3=A9couverte tardive des probl=
+=C3=A8mes</span></strong><span data-colorid=3D"pb5tagj9y4">. Elle est une <=
+/span><strong><span data-colorid=3D"tvjhplwv69">pr=C3=A9vention proactive</=
+span></strong><span data-colorid=3D"dc4zad53jt">, qui anticipe les cas limi=
+tes et les risques d=C3=A8s la conception, r=C3=A9duisant ainsi les impacts=
+ co=C3=BBteux des d=C3=A9fauts en aval.</span></p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et l'environnement r=C3=A9el</strong></p>
+<ol start=3D"1">
+<li>
+<p>Une validation uniquement en laboratoire ou en pr=C3=A9production.</p></=
+li>
+<li>
+<p>Une simulation qui remplace l'exp=C3=A9rience utilisateur r=C3=A9elle.</=
+p></li>
+<li>
+<p>Un environnement contr=C3=B4l=C3=A9 o=C3=B9 tout est parfait.</p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"fjf16tlagj">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><span data-colorid=3D"u494ow9pzx">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"cx90r87u4o">pas une validation en environnement contr=
+=C3=B4l=C3=A9</span></strong><span data-colorid=3D"vsxihzlhub">. Elle s=E2=
+=80=99appuie sur des </span><strong><span data-colorid=3D"cgr8nb23tb">tests=
+ en conditions r=C3=A9elles</span></strong><span data-colorid=3D"gwjvqah8ac=
+">, comme le "dogfooding", les d=C3=A9ploiements canaris ou le monitoring p=
+ost-d=C3=A9ploiement, pour garantir des performances robustes dans la vraie=
+ vie.</span></p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et l'adaptabilit=C3=A9</strong></p>
+<ol start=3D"1">
+<li>
+<p>Une m=C3=A9thode unique applicable =C3=A0 tous les projets.</p></li>
+<li>
+<p>Une rigidit=C3=A9 qui r=C3=A9siste aux changements.</p></li>
+<li>
+<p>Une structure fixe qui ne tient pas compte des besoins sp=C3=A9cifiques.=
+</p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"munactq5pc">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><span data-colorid=3D"fw5q52lj62">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"d0d6omn0gw">pas un processus rigide</span></strong><sp=
+an data-colorid=3D"loqqg9dlzo">. Elle est </span><strong><span data-colorid=
+=3D"i26j435bq9">dynamique</span></strong><span data-colorid=3D"vqanf92jdr">=
+, =C3=A9voluant en fonction des besoins des clients, des avanc=C3=A9es tech=
+nologiques et des nouvelles exigences du march=C3=A9.</span></p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et la culture d'entreprise</strong></p>
+<ol start=3D"1">
+<li>
+<p>Une responsabilit=C3=A9 individuelle uniquement.</p></li>
+<li>
+<p>Une t=C3=A2che r=C3=A9serv=C3=A9e au d=C3=A9partement qualit=C3=A9.</p><=
+/li>
+<li>
+<p>Un luxe optionnel pour certaines =C3=A9quipes.</p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"g4eln7gj6g">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><span data-colorid=3D"j0raw2gm39">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"q3t1sdttqn">pas une responsabilit=C3=A9 individuelle u=
+niquement</span></strong><span data-colorid=3D"x00wcppldu">. C'est une </sp=
+an><strong><span data-colorid=3D"ei4oaiz8i1">responsabilit=C3=A9 collective=
+</span></strong><span data-colorid=3D"mla3lgeinl">, port=C3=A9e par l'ensem=
+ble de l'entreprise, o=C3=B9 chaque membre contribue activement =C3=A0 son =
+am=C3=A9lioration.</span></p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et la continuit=C3=A9</strong></p>
+<ol start=3D"1">
+<li>
+<p>Un effort ponctuel lors de grands lancements.</p></li>
+<li>
+<p>Une action sporadique sans r=C3=A9el suivi.</p></li>
+<li>
+<p>Une approche incoh=C3=A9rente bas=C3=A9e sur des initiatives isol=C3=A9e=
+s.</p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"e83b92shen">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><span data-colorid=3D"khfb95uwn9">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"zju60i0ern">pas sporadique ou incoh=C3=A9rente</span><=
+/strong><span data-colorid=3D"driwbv3fba">. Elle doit =C3=AAtre </span><str=
+ong><span data-colorid=3D"zw7hggpzbq">structur=C3=A9e et fournir de la vale=
+ur en continu</span></strong><span data-colorid=3D"m4pvguyllb">, en int=C3=
+=A9grant des caract=C3=A9ristiques comme la fiabilit=C3=A9, l=E2=80=99effic=
+acit=C3=A9, et la maintenabilit=C3=A9 dans chaque produit ou service.</span=
+></p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et l=E2=80=99excellence</strong></p>
+<ol start=3D"1">
+<li>
+<p>Une pratique isol=C3=A9e d=E2=80=99un d=C3=A9partement sp=C3=A9cifique.<=
+/p></li>
+<li>
+<p>Une contrainte impos=C3=A9e par un service qualit=C3=A9.</p></li>
+<li>
+<p>Une exigence sans lien avec les objectifs globaux de l=E2=80=99entrepris=
+e.</p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"kgs3bav3b8">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><span data-colorid=3D"co8bnlgb02">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"joso56u1iy">pas une pratique isol=C3=A9e</span></stron=
+g><span data-colorid=3D"rlxz6n1fdh">. C=E2=80=99est un </span><strong><span=
+ data-colorid=3D"mdlxgzz0ll">engagement envers l=E2=80=99excellence</span><=
+/strong><span data-colorid=3D"g6kemopy8r">, port=C3=A9 par tous les d=C3=A9=
+partements et int=C3=A9gr=C3=A9 dans chaque =C3=A9tape du cycle de vie des =
+produits.</span></p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et les r=C3=B4les individuels</strong></p>
+<ol start=3D"1">
+<li>
+<p>Une responsabilit=C3=A9 exclusive du service QA.</p></li>
+<li>
+<p>Une charge confi=C3=A9e uniquement aux d=C3=A9veloppeurs.</p></li>
+<li>
+<p>Une t=C3=A2che isol=C3=A9e sans collaboration inter=C3=A9quipes.</p></li=
+>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"zhoodlniho">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><span data-colorid=3D"r0orwwbq96">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"xozootbb63">pas une responsabilit=C3=A9 individuelle</=
+span></strong><span data-colorid=3D"k2lbfxogz9">. Elle est une </span><stro=
+ng><span data-colorid=3D"i5bzbt1o5p">responsabilit=C3=A9 collective</span><=
+/strong><span data-colorid=3D"pisgfbusb9">, n=C3=A9cessitant l=E2=80=99impl=
+ication de toutes les parties prenantes : produit, d=C3=A9veloppement, mark=
+eting, support, etc.</span></p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et les co=C3=BBts et les investissements</strong=
+></p>
+<ol start=3D"1">
+<li>
+<p>Une perte de temps et d'argent inutile.</p></li>
+<li>
+<p>Une d=C3=A9pense "sympa" qu=E2=80=99on coupe en p=C3=A9riode de crise.</=
+p></li>
+<li>
+<p>Une lubie r=C3=A9serv=C3=A9e aux entreprises luxueuses.</p></li>
+<li>
+<p>Une d=C3=A9pense superflue en p=C3=A9riode de budget serr=C3=A9.</p></li=
+>
+<li>
+<p>Une charge financi=C3=A8re avec peu de b=C3=A9n=C3=A9fices.</p></li>
+<li>
+<p>Une action non prioritaire pour l=E2=80=99entreprise.</p></li>
+<li>
+<p>Une d=C3=A9pense sans retour sur investissement (ROI).</p></li>
+<li>
+<p>Un luxe r=C3=A9serv=C3=A9 aux grandes entreprises.</p></li>
+<li>
+<p>Une charge inutile en p=C3=A9riode de crise.</p></li>
+<li>
+<p>Si la compagnie =C3=A0 des difficult=C3=A9 =C3=A0 atteindre ses objectif=
+s financiers, c=E2=80=99est simple, la premi=C3=A8re place =C3=A0 couper c=
+=E2=80=99est dans la qualit=C3=A9.</p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"ylco128fkn">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><span data-colorid=3D"g5t95tcmnn">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"sm6dq2zzbi">pas une d=C3=A9pense optionnelle</span></s=
+trong><span data-colorid=3D"hdswv4bxh8">. Elle est </span><strong><span dat=
+a-colorid=3D"zmai2vn61i">un investissement strat=C3=A9gique</span></strong>=
+<span data-colorid=3D"di3b28a823">, qui r=C3=A9duit les co=C3=BBts =C3=A0 l=
+ong terme en am=C3=A9liorant la satisfaction client, la fiabilit=C3=A9 des =
+produits et la r=C3=A9putation de l=E2=80=99entreprise.</span></p>
+<p><span data-colorid=3D"mezv5slhe4">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"c8em57ac9s">pas une d=C3=A9pense sans retour</span></s=
+trong><span data-colorid=3D"o8yy05vfzb">. Elle repr=C3=A9sente un </span><s=
+trong><span data-colorid=3D"j75s5rn7fs">investissement =C3=A0 long terme</s=
+pan></strong><span data-colorid=3D"uitkvaanpz">, am=C3=A9liorant l=E2=80=99=
+image de marque, la fid=C3=A9lisation client et l'efficacit=C3=A9 des proce=
+ssus internes.</span></p>
+<p><span data-colorid=3D"mp2cwlrjes">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"u0k4hadttq">pas une d=C3=A9pense =C3=A0 court terme sa=
+ns ROI</span></strong><span data-colorid=3D"smpcp8rg21">. C=E2=80=99est un =
+</span><strong><span data-colorid=3D"taad5mt3v5">investissement strat=C3=A9=
+gique</span></strong><span data-colorid=3D"jlfc4j72p6"> qui fid=C3=A9lise l=
+es clients, am=C3=A9liore la r=C3=A9putation de l'entreprise et r=C3=A9duit=
+ les co=C3=BBts =C3=A0 long terme.</span></p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et les tests tardifs versus cycle complet</stron=
+g></p>
+<ol start=3D"1">
+<li>
+<p>La qualit=C3=A9 est une activit=C3=A9 r=C3=A9serv=C3=A9e aux stagiaires =
+QA.</p></li>
+<li>
+<p>La qualit=C3=A9 est une validation rapide la veille de la livraison, jus=
+te pour la forme.</p></li>
+<li>
+<p>La qualit=C3=A9 est une phase o=C3=B9 l'on croise les doigts en esp=C3=
+=A9rant que rien ne casse.</p></li>
+<li>
+<p>Une s=C3=A9ance de tests fr=C3=A9n=C3=A9tiques juste avant la mise en pr=
+oduction.</p></li>
+<li>
+<p>Un bouclier magique pour se prot=C3=A9ger des plaintes des utilisateurs.=
+</p></li>
+<li>
+<p>Une validation rapide o=C3=B9 l'on croise les doigts en priant pour que =
+tout fonctionne.</p></li>
+<li>
+<p>Une d=C3=A9couverte des erreurs lors des derni=C3=A8res phases.</p></li>
+<li>
+<p>Une validation faite apr=C3=A8s les d=C3=A9ploiements.</p></li>
+<li>
+<p>Une pratique qui consiste =C3=A0 corriger des bugs apr=C3=A8s coup.</p><=
+/li>
+<li>
+<p>Une v=C3=A9rification de derni=C3=A8re minute avant le lancement.</p></l=
+i>
+<li>
+<p>Une =C3=A9tape finale qui valide tout le travail pr=C3=A9c=C3=A9dent.</p=
+></li>
+<li>
+<p>Une validation rapide pour =C3=A9viter les retards.</p></li>
+<li>
+<p>Un processus limit=C3=A9 aux tests finaux.</p></li>
+<li>
+<p>Une action r=C3=A9alis=C3=A9e uniquement par le service qualit=C3=A9.</p=
+></li>
+<li>
+<p>Une t=C3=A2che optionnelle dans certaines phases du projet.</p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"yq8fkknxbo">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><span data-colorid=3D"puk3a46nef">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"zudvpajnjv">pas une validation tardive</span></strong>=
+<span data-colorid=3D"p7yvrnmidf">. Elle repose sur une </span><strong><spa=
+n data-colorid=3D"o8w1kn9znu">validation continue et pr=C3=A9ventive</span>=
+</strong><span data-colorid=3D"bbffol2c1l">, en testant d=C3=A8s la phase d=
+e conception et en identifiant les risques =C3=A0 chaque =C3=A9tape du cycl=
+e de vie du produit.</span></p>
+<p><span data-colorid=3D"dx9qyri0md">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"drlq5299uw">pas une validation tardive</span></strong>=
+<span data-colorid=3D"d0ews083el">. Elle repose sur une </span><strong><spa=
+n data-colorid=3D"fijf382ikg">pr=C3=A9vention proactive</span></strong><spa=
+n data-colorid=3D"h48cak40ub">=E2=80=AF: identifier les probl=C3=A8mes d=C3=
+=A8s les premi=C3=A8res =C3=A9tapes du projet pour =C3=A9viter les co=C3=BB=
+ts =C3=A9lev=C3=A9s des corrections en fin de cycle.</span></p>
+<p><span data-colorid=3D"igucpqm0m6">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"n95hpyqr47">pas une action optionnelle ou limit=C3=A9e=
+</span></strong><span data-colorid=3D"ahdn6cw06y">. Elle doit =C3=AAtre int=
+=C3=A9gr=C3=A9e dans </span><strong><span data-colorid=3D"n7x5oxlgvo">toute=
+s les phases du cycle de vie</span></strong><span data-colorid=3D"th7uiq6mh=
+8"> du produit, de la conception =C3=A0 la maintenance. Cela inclut des dis=
+ciplines vari=C3=A9es comme le design, la s=C3=A9curit=C3=A9, le marketing =
+et le support.</span></p>
+<p><span data-colorid=3D"wtz0r53qfm">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"jwxrazq9db">pas une validation tardive</span></strong>=
+<span data-colorid=3D"hljpnp0zqr">. Elle inclut une validation </span><stro=
+ng><span data-colorid=3D"du3p9jztdz">continue</span></strong><span data-col=
+orid=3D"zw10olcbpd">, =C3=A0 toutes les =C3=A9tapes, pour d=C3=A9tecter les=
+ probl=C3=A8mes le plus t=C3=B4t possible=E2=80=AF: des tests des requis et=
+ maquettes jusqu'=C3=A0 la validation des id=C3=A9es et perceptions.</span>=
+</p>
+<p><span data-colorid=3D"lr4g6v3oh0">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"a77985g8ij">pas une validation tardive</span></strong>=
+<span data-colorid=3D"ry0t54i6jp"> ni une simple formalit=C3=A9. Elle repos=
+e sur une </span><strong><span data-colorid=3D"bap8wmkpzt">validation conti=
+nue</span></strong><span data-colorid=3D"jrluoeg2dy"> =C3=A0 toutes les =C3=
+=A9tapes du cycle de vie=E2=80=AF: des concepts aux d=C3=A9ploiements, en p=
+assant par les tests des hypoth=C3=A8ses et la pr=C3=A9vention des risques.=
+</span></p>
+</div>
+</div>
+<hr>
+<ul>
+<li>
+<p><strong>La qualit=C3=A9 et les m=C3=A9thodologies (Agile, Lean, Six Sigm=
+a)</strong></p>
+<ol start=3D"1">
+<li>
+<p>Un processus Waterfall o=C3=B9 tout est valid=C3=A9 =C3=A0 la fin.</p></=
+li>
+<li>
+<p>Une =C3=A9norme campagne de tests =C3=A0 la derni=C3=A8re minute.</p></l=
+i>
+<li>
+<p>Une m=C3=A9thode rigide qui ne tol=C3=A8re pas les ajustements.</p></li>
+<li>
+<p>Une m=C3=A9thode traditionnelle comme le Waterfall.</p></li>
+<li>
+<p>Un processus s=C3=A9quentiel o=C3=B9 la qualit=C3=A9 n=E2=80=99est v=C3=
+=A9rifi=C3=A9e qu=E2=80=99=C3=A0 la fin.</p></li>
+<li>
+<p>Une contrainte impos=C3=A9e par les m=C3=A9thodes agiles.</p></li>
+<li>
+<p>Utiliser Lean garantit que tout probl=C3=A8me sera identifi=C3=A9 avant =
+la livraison.</p></li>
+<li>
+<p>Six Sigma =C3=A9limine automatiquement le besoin de tests.</p></li>
+<li>
+<p>L=E2=80=99Agile r=C3=A9duit les processus qualit=C3=A9 au strict minimum=
+.</p></li>
+<li>
+<p>Toutes c=E2=80=99est r=C3=A9ponses</p></li>
+</ol></li>
+</ul>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong><span data-colorid=3D"ab1o80atlw">D=C3=A9sol=C3=A9 vous n=E2=80=
+=99avez pas la bonne r=C3=A9ponse !</span></strong></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><span data-colorid=3D"xtwvb7l3us">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"hd6myhuhcs">pas limit=C3=A9e au Waterfall ou aux valid=
+ations de fin de cycle</span></strong><span data-colorid=3D"qcu30l82jz">. E=
+lle s=E2=80=99int=C3=A8gre dans des m=C3=A9thodologies </span><strong><span=
+ data-colorid=3D"zb80vfg1f0">Agile et DevOps</span></strong><span data-colo=
+rid=3D"j0r1dkga68">, avec des validations =C3=A0 chaque phase, permettant d=
+es ajustements continus et une collaboration fluide entre les =C3=A9quipes.=
+</span></p>
+<p><span data-colorid=3D"ni2a32tbut">La qualit=C3=A9 n'est </span><strong><=
+span data-colorid=3D"aydv71trcu">pas une validation unique en fin de cycle =
+(Waterfall)</span></strong><span data-colorid=3D"tau1m6ym7u">. Avec l=E2=80=
+=99approche agile et DevOps, elle est une </span><strong><span data-colorid=
+=3D"yjpznw6069">validation continue tout au long du cycle de d=C3=A9veloppe=
+ment</span></strong><span data-colorid=3D"oavejgrrh2">, int=C3=A9gr=C3=A9e =
+=C3=A0 chaque phase et =C3=A9tat, pour garantir des livraisons fr=C3=A9quen=
+tes et it=C3=A9ratives.</span></p>
+<p><span data-colorid=3D"azl6frv9ol">Faire de l'Agile, du Lean ou du Six Si=
+gma </span><strong><span data-colorid=3D"huruynhmt5">ne dispense pas de fai=
+re de la qualit=C3=A9</span></strong><span data-colorid=3D"bvabdmqcuj">. Ce=
+s m=C3=A9thodologies sont des moyens d=E2=80=99int=C3=A9grer et de soutenir=
+ la qualit=C3=A9, elles font partie de la qualit=C3=A9.</span></p>
+</div>
+</div>
+<hr>
+<p></p>
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"1993409708">
+<li data-inline-task-id=3D"1"><span class=3D"placeholder-inline-tasks"><spa=
+n class=3D"status-macro aui-lozenge aui-lozenge-complete">EN COURS</span> C=
+onsolider les doublons <a class=3D"confluence-userlink user-mention current=
+-user-mention" data-account-id=3D"712020:71bdc2d5-750c-442f-bb2e-6b6d991904=
+24" href=3D"https://petalmd.atlassian.net/wiki/people/712020:71bdc2d5-750c-=
+442f-bb2e-6b6d99190424?ref=3Dconfluence" target=3D"_blank" data-linked-reso=
+urce-id=3D"1858502694" data-linked-resource-version=3D"1" data-linked-resou=
+rce-type=3D"userinfo" data-base-url=3D"https://petalmd.atlassian.net/wiki">=
+Michel Belanger</a> </span></li>
+<li data-inline-task-id=3D"2"><span class=3D"placeholder-inline-tasks"><spa=
+n class=3D"status-macro aui-lozenge">TODO</span> Supprimer le tableau seule=
+ment lorsque toutes les questions couvriront le tableau <a class=3D"conflue=
+nce-userlink user-mention current-user-mention" data-account-id=3D"712020:7=
+1bdc2d5-750c-442f-bb2e-6b6d99190424" href=3D"https://petalmd.atlassian.net/=
+wiki/people/712020:71bdc2d5-750c-442f-bb2e-6b6d99190424?ref=3Dconfluence" t=
+arget=3D"_blank" data-linked-resource-id=3D"1858502694" data-linked-resourc=
+e-version=3D"1" data-linked-resource-type=3D"userinfo" data-base-url=3D"htt=
+ps://petalmd.atlassian.net/wiki">Michel Belanger</a> </span></li>
+</ul>
+<p></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1800" data-layout=3D"default" data-local-id=3D"3=
+97768cd-7e61-4e27-aeac-2d1f7c4af6b8" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 450.0px;">
+<col style=3D"width: 450.0px;">
+<col style=3D"width: 450.0px;">
+<col style=3D"width: 450.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour=3D"#ffebe6" class=3D"confluenceTh">
+<p><strong><span data-colorid=3D"wdfpne2jp6">La qualit=C3=A9 n'est=E2=80=A6=
+</span></strong></p></th>
+<th data-highlight-colour=3D"#e3fcef" class=3D"confluenceTh">
+<p><strong><span data-colorid=3D"wurngudhlm">La qualit=C3=A9 c=E2=80=99est=
+=E2=80=A6</span></strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Description</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Exemple</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong><span data-colorid=3D"vmfnt6cop8">pas</span></strong> <span data=
+-colorid=3D"yrc2p41a8e">une t=C3=A2che isol=C3=A9e</span></p></td>
+<td class=3D"confluenceTd">
+<p><span data-colorid=3D"zwwk6uh839">Une responsabilit=C3=A9 qui concerne t=
+ous les services de l'entreprise</span></p></td>
+<td class=3D"confluenceTd">
+<p>Le marketing doit s'assurer de la coh=C3=A9rence des informations commun=
+iqu=C3=A9es</p></td>
+<td class=3D"confluenceTd">
+<p>Le marketing doit s'assurer de la coh=C3=A9rence des informations commun=
+iqu=C3=A9es</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong><span data-colorid=3D"nwzojm9019">pas</span></strong> <span data=
+-colorid=3D"sl78aw24z0">une fin en soi</span></p></td>
+<td class=3D"confluenceTd">
+<p><span data-colorid=3D"o48gt7t5ah">Un moyen d'atteindre un but</span></p>=
+</td>
+<td class=3D"confluenceTd">
+<p>Un produit de qualit=C3=A9 satisfait les clients et d=C3=A9veloppe l'ent=
+reprise</p></td>
+<td class=3D"confluenceTd">
+<p>Un produit de qualit=C3=A9 satisfait les clients et d=C3=A9veloppe l'ent=
+reprise</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong><span data-colorid=3D"qudto7rb1t">pas</span></strong> <span data=
+-colorid=3D"u8s8cr2pbq">Une pr=C3=A9cision fonctionnelle isol=C3=A9e</span>=
+</p></td>
+<td class=3D"confluenceTd">
+<p><span data-colorid=3D"j2608vltjy">Une pr=C3=A9cision fonctionnelle int=
+=C3=A9gr=C3=A9e</span></p></td>
+<td class=3D"confluenceTd">
+<p>La qualit=C3=A9 englobe la pr=C3=A9cision fonctionnelle, la robustesse, =
+l'efficacit=C3=A9, la maintenabilit=C3=A9, la s=C3=A9curit=C3=A9 et d'autre=
+s caract=C3=A9ristiques</p></td>
+<td class=3D"confluenceTd">
+<p>Assurer la qualit=C3=A9 de nos produits tout en ayant un impact minimal =
+sur notre temps de cycle de d=C3=A9veloppement logiciel</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong><span data-colorid=3D"daxqtn0bff">pas</span></strong><span data-=
+colorid=3D"q1ejq0d9pb"> Exclusion/Optionnelle</span></p></td>
+<td class=3D"confluenceTd">
+<p><span data-colorid=3D"dot03s9j1q">Ing=C3=A9nierie logicielle, Produit, S=
+RE (Site Reliability Engineering), Design, Marketing, Vente, Support, Explo=
+rer, D=C3=A9couvrir, Exp=C3=A9rimenter, D=C3=A9finir, Solutionner, =C3=80 t=
+outes les phases de la vie des livraisons produit, Rendre les gens formidab=
+les, Faire de la s=C3=A9curit=C3=A9 une condition pr=C3=A9alable</span></p>=
+</td>
+<td class=3D"confluenceTd">
+<p>Int=C3=A9grer la qualit=C3=A9 dans tous ces domaines pour assurer des pr=
+oduits et services de haute qualit=C3=A9.</p></td>
+<td class=3D"confluenceTd">
+<p>Mise en place de protocoles de s=C3=A9curit=C3=A9 rigoureux dans le d=C3=
+=A9veloppement de logiciels. audits de s=C3=A9curit=C3=A9, contr=C3=B4les d=
+e qualit=C3=A9 rigoureux, design centr=C3=A9 sur l'utilisateur, campagnes d=
+e marketing bas=C3=A9es sur des =C3=A9tudes de march=C3=A9, formation des =
+=C3=A9quipes de vente, service client r=C3=A9actif, projets pilotes pour te=
+ster de nouvelles id=C3=A9es, revues de qualit=C3=A9 =C3=A0 chaque phase de=
+ d=C3=A9veloppement, programmes de d=C3=A9veloppement professionnel, et for=
+mations r=C3=A9guli=C3=A8res sur la s=C3=A9curit=C3=A9.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong><span data-colorid=3D"jzhsw83mp5">pas</span></strong><span data-=
+colorid=3D"fr59lwygjy"> Archa=C3=AFsme, immobilisme, conservatisme, stagnat=
+ion, r=C3=A9sistance aux changements, non =C3=A0 jour=E2=80=A6</span></p></=
+td>
+<td class=3D"confluenceTd">
+<p><span data-colorid=3D"yy4ty87yx7">Exp=C3=A9rimenter et apprendre rapidem=
+ent,</span><br><span data-colorid=3D"lvvnm6ozsk">Am=C3=A9lioration continue=
+,</span><br><span data-colorid=3D"dfh4i0bn67">Esth=C3=A9tique, tendances, m=
+ode, popularit=C3=A9</span></p></td>
+<td class=3D"confluenceTd">
+<p>Favoriser une culture d'apprentissage et d'exp=C3=A9rimentation rapide. =
+Chercher constamment =C3=A0 am=C3=A9liorer les processus et les produits. S=
+uivre et int=C3=A9grer les tendances actuelles dans les produits.</p></td>
+<td class=3D"confluenceTd">
+<p>Boucles de r=C3=A9troaction rapides pour am=C3=A9liorer les processus.<b=
+r>
+Utilisation de la m=C3=A9thodologie Kaizen. Design de produits en ligne ave=
+c les tendances de la mode.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_26_1921929236.1733321714899--

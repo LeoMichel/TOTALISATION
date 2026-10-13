@@ -1,0 +1,101 @@
+INVENTAIRE VECU POUR L'ORIGINE
+============================================================
+
+--- vecu.txt (55966 caracteres, 207 lignes) ---
+Sections detectees (titre + debut) :
+  * Rayduf et autonome :: Très jeune j'allais dans le bureau de mon père faire de l'ordinateur, passais mon temp à fouiner et faire plein de truque weird, j'ai même expérimenter les prem
+  * Exaxe :: 
+  * CGI :: J'ai décider dans ma carrière de prendre un break de la qualité, car au final je me suis rendu compte que tout l'monde prétend dire que c'est évident, la qualit
+  * Desjardins Harcèlement et plus Audrey/Pascal :: Mon chef ma placer dans une équipe pour faire de la qualité et automatiser les tests, je n'était pas QA au final et encore moins dans l'équipe, car c'était du b
+  * Et la quelque chose arriva malheureusement :( :: Une simple personne, un sabotage, une perte de confiance… là le vent c'est mise à tourné… Cette personne était en vacance pendant ces changements, cette personn
+  * Eric et l'excellence, il ne faut pas dépendre d'éric car il est vraiment bon :: Dans cette même entreprise, on valorise le partage de l'expertise plutôt que l'individue qui détient tout l'expertise, il élimine ces individus plutôt que bénéf
+  * Alithya au service du client :: la documentation qualité, j'ai remarqué qu'on essaye de tout réinveter, qu'on interpète tout croche, qu'on implémente des recettes incompatible ou non adapté, q
+  * Vidéotron, coach QA :: Incompréhension de ce qu'est un Coach qualité Théorique/pratique
+  * Incompréhension de ce qu'est un Coach qualité :: Théorique/pratique
+  * Théorique/pratique :: 
+  * Beneva, merge de 2 compagnies :: wow quel expérience de contrôle hiérarchique une guerre de contrôle une structure difficile pour assurer la qualité car on sous contracte beaucoup les applicati
+  * wow quel expérience de contrôle hiérarchique :: une guerre de contrôle une structure difficile pour assurer la qualité car on sous contracte beaucoup les application et est plus en centre d'intégration et de 
+  * une guerre de contrôle :: une structure difficile pour assurer la qualité car on sous contracte beaucoup les application et est plus en centre d'intégration et de commande Cela donne un 
+  * à la rescousse de Sherweb :: on m'appel et me dis qu'une organisation à fait une erreur de jugement, car ils ont comprise que la qualité est l'affaire de tous et là ils ont tous retiré les 
+  * Petal qui s'engouffre :: La qualité pour une entreprise complète, une experte qui à passé avant, des dégâts, on coupe les QA... c'est de pire en pire On dit que le QA doit être partout,
+  * Le monde ERP et comptable :: QA a tout faire, the onetool… babyfoot je n'étais pas bon, et j'ai pratiquer, analyser, observer, trouver des bon coups inffaibles, pratiquer et fini par gagner
+  * QA a tout faire, the onetool… :: babyfoot je n'étais pas bon, et j'ai pratiquer, analyser, observer, trouver des bon coups inffaibles, pratiquer et fini par gagner le tournois contre le meilleu
+  * Opal-RT :: 
+  * Je pense que le prochain livre va être :: 
+  * je vous partage la mission en pdf… :: En gros, je vois d'Avance le succès assurer, mais il en reste à l'organisation de continuer d'investir ou pas
+  * Juris :: Ici j'étais Le design UX/UI; Les preuves de concepts; Le développement dev "front-end" full stack et s'assurer de la qualité. Est-ce que cette expérience m'a ap
+  * Beenox :: Intégrateur sonore
+  * Intégrateur sonore :: 
+  * Infor :: Analyste programmeur fullstack dans du coding in CAB Framework, une façon très complexe de développer, et une application qui ne peut pas négliger la qualité, c
+  * Mertec :: Le monde de la soudure Travailleur autonome, responsable de ce que tu fais.
+  * Le monde de la soudure :: Travailleur autonome, responsable de ce que tu fais.
+  * Optel :: Le monde de la tracibilité, software+hardware et le monde du mobile Les experts Agile… l'automatisation, une place très très enréchissante… Qui m'a donner telle
+  * Le monde de la tracibilité, software+hardware et le monde du mobile :: Les experts Agile… l'automatisation, une place très très enréchissante… Qui m'a donner tellement à mon expérience ToTAL !!! Audit qualité, automatisation du mob
+  * Audit qualité, automatisation du mobile, qualité Agile, et +++ :: 
+
+--- Petal ---
+ENCYCLOPEDIA+libre+du+logiciel,+pour+nous+tous++(Référence+officielle+Petal) (1).docx : 8 paragraphes, 17 Ko
+    - ENCYCLOPEDIA libre du logiciel, pour nous tous ! (Référence officielle Petal)
+    - C'est ainsi que nous communiquons à notre best Unifiant la même source wikipedia-ich, dictionnaire, lexique, glossaire… incluant les acronymes, terminologies… exemples et/ou guides
+    - L’information est juste et révisée ?Veuillez utiliser les réactions de la page.
+    - L’information peut être améliorée ?Veuillez utiliser les commentaires.
+    - La section est vide ou le sujet est manquant ?Soyez la première personne à remplir ce vide
+    - Recherche alternative directement dans la page : ctrl+f(win) ou cmd+f(mac)
+ENCYCLOPEDIA+libre+du+logiciel,+pour+nous+tous++(Référence+officielle+Petal).docx : 0 paragraphes, 15 Ko
+    - [illisible: File is not a zip file]
+
+--- Alithya ---
+Alithya.pdf : 9030 Ko
+Alithya.xlsx : 567 Ko
+Alithya.pdf : 513 pages
+  p1: Faire face au "Pogo vert" Michel Bélanger Coach, QA Publié le 30/11/2022 Avez-vous déjà été témoin ou vécu les situations  suivantes dans le cadre de votre travail Chut! il ne faut pas dire que ça ne va pas bien• Ce n’est pas vraiment un "failed" c’est plutôt un "pass whatever"• Arrêtons de chercher des bugs, car il va toujours en avoir• Est-ce qu’on peut livrer, hier, tout est beau?!• Coupons dans les tests, on a pas besoin de ça !• Et que votre opinion n’est pas prise en compte sur le fait que ça ne va pas  du tout, qu’il ne faut pas livrer ! Définition "Pogo" => est relatif à "Pas Go!" pour
+
+--- ACAQ / Opal-RT (Mission Faucon) ---
+Mission-Faucon-CGI-Export-Complet-v2.html : 1 pages (titres h1)
+    - 📁 Mission Faucon — CGI — Export complet
+Mission-Faucon-CGI-Export-Complet-v3.html : 26 pages (titres h1)
+    - 🦅 Mission Faucon — CGI
+    - Bilan mission qualité — suivi ROI par semaine
+    - SDLC officiel OPAL-RT (cycle de vie de la réalisation du produit logiciel)
+    - Comment éliciter
+    - Cérémonie d'élicitation
+    - Comment définir
+    - Cérémonie de définition
+    - Comment planifier
+    - Cérémonie de planification
+    - Comment implémenter
+    - Cérémonie d'implémentation
+    - Comment diffuser
+    - Cérémonie de diffusion
+    - Comment confirmer
+    - Cérémonie de confirmation
+    - Contrat qualité officiel OPAL-RT (standards/conformité/légal)
+    - Qualimétrie officielle OPAL-RT
+    - Les métriques de la qualimétrie
+    - Cérémonie de la qualimétrie
+    - RACI officiel OPAL-RT (rôles et responsabilités + posture qualité)
+    - Lexique officiel OPAL-RT (terminologies de référence)
+    - SPÉCIFICATION (SPEC) — le langage commun du SDLC moderne
+    - Les tests (niveau × interface × angle × type)
+    - Exemples concrets de combinaisons (niveau × interface × angle × type)
+    - Formation continue
+    - Recommandations (enjeux, constats ou lacunes à résoudre/solutionner)
+  fichier: ACAQ-Bilan mission qualité - suivi ROI par semaine-120726-164355.pdf (571 Ko)
+    20 pages. p1: Bilan mission qualité - suivi ROI par semaine 1. Résumé exécutif pour CGI La première semaine a permis dʼaligner lʼéquipe avec Émilie, de clarifier les enjeux de gestion des bugs, de traçabilité, de spécifications et de validation. Les workshops ont 
+  fichier: ACAQ-Mission faucon-120726-164644.pdf (823 Ko)
+    30 pages. p1: Mission faucon @mic.belanger (Michel Bélanger), consultant CGI (coach qualité et excellence en réalisation logiciel), il nous rejoints pour un mandat de 6 semaines à partir du 15 juin. Mon (@Emilie Amorim) objectif est dʼutiliser lʼexpérience de Mich
+  fichier: L15 — Guide Rouge — Mission Faucon — Partie A.pdf (405 Ko)
+    63 pages. p1: C O L L E C T I O N  T O T A L  —  R É C O N C I L I A T I O N   ·   2 1  L I V R E S Livre 15 Guide Rouge Mission Faucon Partie A — Le diagnostic : semaines 0 et 1 Un journal de terrain pour praticiens en transformation urgente Images  et  couvertur
+  fichier: L15 — Guide Rouge — Mission Faucon — Partie B.pdf (463 Ko)
+    65 pages. p1: C O L L E C T I O N  T O T A L  —  R É C O N C I L I A T I O N   ·   2 1  L I V R E S L15 — Guide Rouge Mission Faucon Partie B — La montée en régime Semaines 3 et 4 ■ Guide Rouge — Terrain & Pratique Images et couverture par Soléane Bélanger Léo Mic
+  fichier: L15 — Guide Rouge — Mission Faucon — Partie C.pdf (434 Ko)
+    64 pages. p1: COLLECTION TOTAL — RÉCONCILIATION  ·  21 LIVRES L15 — Guide Rouge Mission Faucon Partie C La livraison : semaines 5 et 6 Durabilité et passage de relais « La vraie mesure d'une transformation n'est pas ce qui se passe pendant  que le consultant est l
+  fichier: L15 — Guide Rouge — TᵒTALiSATiᵒN — Partie A — Semaines 1 à 3.pdf (469 Ko)
+    65 pages. p1: COLLECTION TᵒTALISATIᵒN  — RÉCONCILIATION  ·  21 LIVRES  ·  MOIS   1-2 SUR 14 L15 — Guide Rouge TᵒTALiSATiᵒN Partie A — Les premières semaines : poser les fondations Semaines 1 à 3  ·  15 juin – 3 juillet "Ce n'est pas une révolution. C'est une invit
+  fichier: L15 — Guide Rouge — TᵒTALiSATiᵒN — Partie B — Semaines 4 à 6.pdf (309 Ko)
+    30 pages. p1: C O L L E C T I O N  Tᵒ T A LI S A TI ᵒ N  —  R É C O N C I L I A T I O N  ·  2 1  L I V R E S Livre 15 — Guide Rouge TᵒTALiSATiᵒN Cahier d'atelier — Mission Originalium PARTIE B Semaines 4 à 6 — 6 au 24 juillet Démontrer · Exécuter · Ancrer Images e
+  fichier: L15 — Guide Rouge — TᵒTALiSATiᵒN — Partie C — Semaines 7 et 8.pdf (301 Ko)
+    30 pages. p1: C O L L E C T I O N  T ᵒ T A L I S A T I ᵒ N  —  R É C O N C I L I A T I O N   ·   2 1  L I V R E S   ·   M O I S  1 – 2   D E  1 4 Guide Rouge Livre 15 — TᵒTALiSATiᵒN Partie C — Semaines 7 et 8 Consolider. Mesurer. Passer le flambeau. Auteur : Léo M
+
+--- VIA Rail / Atlassian ---
+Fichiers VIA/Atlassian/agent dans ideas/: AUCUN
