@@ -2,7 +2,7 @@
 <!-- Zone réservée à l'illustration de couverture (image à insérer ici). -->
 <!-- Éléments à faire figurer sur le recto : logotype T̥T̯L̩S̯T̩˜, titre, sous-titre, auteur, "ORIGINALIUM". -->
 
-[![Image de couverture pour le livre LEGACY](images\cover-L2.png)]
+![Couverture - Toute la différence par la réconciliation du LEGACY](images/cover-L2.png)
 
 Titre : Toute la différence par la réconciliation du LEGACY
 Sous-titre / accroche : Ne pas renier le legacy, mais le voir différemment. Dix réconciliations pour faire la différence.
