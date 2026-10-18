@@ -1,148 +1,150 @@
-# L'art de l'excellence pour réaliser un produit logiciel
+﻿# L'art de l'excellence pour rÃ©aliser un produit logiciel
 
-*Une collection de 21 livres sur la qualité holistique du logiciel.*
+*Une collection de 21 livres sur la qualitÃ© holistique du logiciel.*
 
-*Québec, Canada · Édition 2026 · ORIGINALIUM*
+*QuÃ©bec, Canada Â· Ã‰dition 2026 Â· ORIGINALIUM*
 
-*Auteur : Léo Michel Bélanger*
+*Auteur : LÃ©o Michel BÃ©langer*
 
-*Illustratrice : Soléane Bélanger*
+*Illustratrice : SolÃ©ane BÃ©langer*
 
 ---
 
-## 📌 État d'avancement (17 octobre 2026)
+## ðŸ“Œ Ã‰tat d'avancement (17 octobre 2026)
 
 | Livre | Statut |
 |---|---|
-| T̥T̯L̩S̯T̩˜ ❖ L'éveil de la TOTALISATION (L01) | ✅ Terminé, publié (couverture cover-L1) |
-| T̥T̯L̩S̯T̩˜ ❖ Toute la différence par la réconciliation du LEGACY | ✅ Terminé, publié (couverture cover-L2) |
-| T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (1) ROUGE (3e livre) | 🔄 En cours : squelette complet (8 semaines, 32 ateliers) |
-| T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (2) ORANGE (4e livre) | 🔄 En cours : squelette complet (8 semaines, 32 ateliers) |
-| Gabarit `livres/_gabarit.md` | ✅ Mis à jour : couverture uniforme + variante atelier (Guidance) |
+| TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– L'Ã©veil de la TOTALISATION (L01) | âœ… TerminÃ©, publiÃ© (couverture cover-L1) |
+| TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– Toute la diffÃ©rence par la rÃ©conciliation du LEGACY | âœ… TerminÃ©, publiÃ© (couverture cover-L2) |
+| TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– Guidance opÃ©rationnelle du niveau (1) ROUGE (3e livre) | ðŸ”„ En cours : squelette complet (8 semaines, 32 ateliers) |
+| TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– Guidance opÃ©rationnelle du niveau (2) ORANGE (4e livre) | ðŸ”„ En cours : squelette complet (8 semaines, 32 ateliers) |
+| TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– Guidance opÃ©rationnelle du niveau (3) JAUNE (5e livre) | ðŸ”„ En cours : squelette complet (8 semaines, 32 ateliers) |
+| Gabarit `livres/_gabarit.md` | âœ… Mis Ã  jour : couverture uniforme + variante atelier (Guidance) |
 
-## 🌱 Le souhait : ce que je veux faire comme projet
+## ðŸŒ± Le souhait : ce que je veux faire comme projet
 
-> "On ne construit pas une cathédrale en commençant par le vitrail du troisième étage."
+> "On ne construit pas une cathÃ©drale en commenÃ§ant par le vitrail du troisiÃ¨me Ã©tage."
 
-**L'intention.** Écrire une collection de 21 livres qui *réconcilie* tout ce que le métier du logiciel a fini par séparer : la vitesse et la qualité, les rôles qui se parlent mal, les phases du cycle qui s'ignorent, les visions du produit qui ne coïncident jamais tout à fait. TOTALISATION ne cherche pas à trancher ni à prescrire une méthode de plus : il cherche à **réconcilier**, pour faire de la qualité un **système** plutôt qu'une collection d'efforts isolés.
+**L'intention.** Ã‰crire une collection de 21 livres qui *rÃ©concilie* tout ce que le mÃ©tier du logiciel a fini par sÃ©parer : la vitesse et la qualitÃ©, les rÃ´les qui se parlent mal, les phases du cycle qui s'ignorent, les visions du produit qui ne coÃ¯ncident jamais tout Ã  fait. TOTALISATION ne cherche pas Ã  trancher ni Ã  prescrire une mÃ©thode de plus : il cherche Ã  **rÃ©concilier**, pour faire de la qualitÃ© un **systÃ¨me** plutÃ´t qu'une collection d'efforts isolÃ©s.
 
-**La promesse.** Rendre la qualité **explicite** là où elle est restée trop longtemps implicite. Offrir une vision holistique où le produit, la qualité, le développement, les opérations, l'architecture, les données, le leadership et le centre d'excellence avancent enfin **sur la même longueur d'onde**.
+**La promesse.** Rendre la qualitÃ© **explicite** lÃ  oÃ¹ elle est restÃ©e trop longtemps implicite. Offrir une vision holistique oÃ¹ le produit, la qualitÃ©, le dÃ©veloppement, les opÃ©rations, l'architecture, les donnÃ©es, le leadership et le centre d'excellence avancent enfin **sur la mÃªme longueur d'onde**.
 
-**À qui ça parle.** Coach Agile, Coach QA, QA, développeur, architecte, product owner, project manager, product manager, Scrum master, gestionnaire, expert IA, CTO, dirigeant... etc.... Chacun doit y reconnaître son quotidien, parfois avec un sourire, parfois avec un petit moment inconfortable du type "ah oui… nous faisons exactement ça". C'est souvent là que l'apprentissage commence.
+**Ã€ qui Ã§a parle.** Coach Agile, Coach QA, QA, dÃ©veloppeur, architecte, product owner, project manager, product manager, Scrum master, gestionnaire, expert IA, CTO, dirigeant... etc.... Chacun doit y reconnaÃ®tre son quotidien, parfois avec un sourire, parfois avec un petit moment inconfortable du type "ah ouiâ€¦ nous faisons exactement Ã§a". C'est souvent lÃ  que l'apprentissage commence.
 
-**L'outillage et la pérennité.** La collection s'incarne dans un outil, **BEASTEST** (www.beastest.com), et dans les pratiques de l'excellence vers un mécanisme de durée, le **Centre d'Excellence TOTALISATION**, non pas une police de méthode, mais un gardien vivant de la maîtrise de l'art.
-
----
-
-## 📚 Le projet : 21 livres au format `.md`
-
-Produire les 21 livres au format Markdown, à partir de la matière du dossier ideas/. Suivre **exactement** ces titres ; si un titre existe déjà, le mettre à jour.
-
-T̥T̯L̩S̯T̩˜ ❖ L’éveil de la TOTALISATION
-
-T̥T̯L̩S̯T̩˜ ❖ Réconciliation avec le Centre d’Excellence
-
-T̥T̯L̩S̯T̩˜ ❖ Réconciliation avec le cycle de vie de la réalisation du logiciel (SDLC)
-
-T̥T̯L̩S̯T̩˜ ❖ Réconciliation avec les spécifications par la modélisation en continu
-
-T̥T̯L̩S̯T̩˜ ❖ Réconciliation avec la mystérieuse cité de la qualité perdue
-
-T̥T̯L̩S̯T̩˜ ❖ Réconciliation avec se mesurer pour s’améliorer par la qualimétrie
-
-T̥T̯L̩S̯T̩˜ ❖ Réconciliation avec la science oubliée de l’investigation et de la recherche
-
-T̥T̯L̩S̯T̩˜ ❖ Réconciliation avec attrape‑moi donc ce bug !
-
-T̥T̯L̩S̯T̩˜ ❖ Réconciliation avec jongler intelligemment utilisant l’intelligence artificielle
-
-T̥T̯L̩S̯T̩˜ ❖ Réconciliation avec le genèse humain de l’automatisation
-
-T̥T̯L̩S̯T̩˜ ❖ Réconciliation avec le "BEASTEST" outil
-
-T̥T̯L̩S̯T̩˜ ❖ Réconciliation avec les méthodologies, terminologies et meilleures pratiques
-
-T̥T̯L̩S̯T̩˜ ❖ Réconciliation avec être sur la même longueur d’onde
-
-T̥T̯L̩S̯T̩˜ ❖ Réconciliation avec la confiance vers la satisfaction jusqu’au succès
-
-T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (1) ROUGE
-
-T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (2) ORANGE
-
-T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (3) JAUNE
-
-T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (4) VERT
-
-T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (5) BLEU
-
-T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (6) INDIGO
-
-T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (7) VIOLET
-
-- T̥T̯L̩S̯T̩˜ ❖ Toute la différence par la réconciliation du 'LEGACY'  (livre en cours, 10 chapitres rédigés, ÉLICITER + CONFIRMER + investigation + recherche + confiance + BEASTEST)
-
+**L'outillage et la pÃ©rennitÃ©.** La collection s'incarne dans un outil, **BEASTEST** (www.beastest.com), et dans les pratiques de l'excellence vers un mÃ©canisme de durÃ©e, le **Centre d'Excellence TOTALISATION**, non pas une police de mÃ©thode, mais un gardien vivant de la maÃ®trise de l'art.
 
 ---
 
-## 🗂️ Les trois parties de la collection
+## ðŸ“š Le projet : 21 livres au format `.md`
 
-| Partie | Thème | Livres |
+Produire les 21 livres au format Markdown, Ã  partir de la matiÃ¨re du dossier ideas/. Suivre **exactement** ces titres ; si un titre existe dÃ©jÃ , le mettre Ã  jour.
+
+TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– Lâ€™Ã©veil de la TOTALISATION
+
+TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– RÃ©conciliation avec le Centre dâ€™Excellence
+
+TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– RÃ©conciliation avec le cycle de vie de la rÃ©alisation du logiciel (SDLC)
+
+TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– RÃ©conciliation avec les spÃ©cifications par la modÃ©lisation en continu
+
+TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– RÃ©conciliation avec la mystÃ©rieuse citÃ© de la qualitÃ© perdue
+
+TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– RÃ©conciliation avec se mesurer pour sâ€™amÃ©liorer par la qualimÃ©trie
+
+TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– RÃ©conciliation avec la science oubliÃ©e de lâ€™investigation et de la recherche
+
+TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– RÃ©conciliation avec attrapeâ€‘moi donc ce bug !
+
+TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– RÃ©conciliation avec jongler intelligemment utilisant lâ€™intelligence artificielle
+
+TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– RÃ©conciliation avec le genÃ¨se humain de lâ€™automatisation
+
+TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– RÃ©conciliation avec le "BEASTEST" outil
+
+TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– RÃ©conciliation avec les mÃ©thodologies, terminologies et meilleures pratiques
+
+TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– RÃ©conciliation avec Ãªtre sur la mÃªme longueur dâ€™onde
+
+TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– RÃ©conciliation avec la confiance vers la satisfaction jusquâ€™au succÃ¨s
+
+TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– Guidance opÃ©rationnelle du niveau (1) ROUGE
+
+TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– Guidance opÃ©rationnelle du niveau (2) ORANGE
+TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– Guidance opÃ©rationnelle du niveau (2) ORANGE
+
+TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– Guidance opÃ©rationnelle du niveau (3) JAUNE
+
+TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– Guidance opÃ©rationnelle du niveau (4) VERT
+
+TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– Guidance opÃ©rationnelle du niveau (5) BLEU
+
+TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– Guidance opÃ©rationnelle du niveau (6) INDIGO
+
+TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– Guidance opÃ©rationnelle du niveau (7) VIOLET
+
+- TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ â– Toute la diffÃ©rence par la rÃ©conciliation du 'LEGACY'  (livre en cours, 10 chapitres rÃ©digÃ©s, Ã‰LICITER + CONFIRMER + investigation + recherche + confiance + BEASTEST)
+
+
+---
+
+## ðŸ—‚ï¸ Les trois parties de la collection
+
+| Partie | ThÃ¨me | Livres |
 |--------|-------|:------:|
-| **Présentation de l'art** | L’éveil et sommaire de l'idée TOTALISATION | 1 |
-| **Réconciliation** | Réconcilier le produit, le cycle, les rôles, la mesure… par la TOTALISATION | 13 |
-| **Guidance opérationnelle** | Les 7 niveaux (ROUGE → VIOLET) pour mettre en pratique TOTALISATION | 7 |
+| **PrÃ©sentation de l'art** | Lâ€™Ã©veil et sommaire de l'idÃ©e TOTALISATION | 1 |
+| **RÃ©conciliation** | RÃ©concilier le produit, le cycle, les rÃ´les, la mesureâ€¦ par la TOTALISATION | 13 |
+| **Guidance opÃ©rationnelle** | Les 7 niveaux (ROUGE â†’ VIOLET) pour mettre en pratique TOTALISATION | 7 |
 
 ---
 
-## ✍️ Consignes de rédaction
+## âœï¸ Consignes de rÃ©daction
 
-- **Nom du projet.** Dans les textes courants, écrire **TOTALISATION** (et non « ToTAL » ni « TOTAL »). C'est un changement récent : les documents du dossier `ideas/` datent d'avant et contiennent encore « ToTAL » ou « TOTAL », c'est normal, on n'y touche pas.
+- **Nom du projet.** Dans les textes courants, Ã©crire **TOTALISATION** (et non Â« ToTAL Â» ni Â« TOTAL Â»). C'est un changement rÃ©cent : les documents du dossier `ideas/` datent d'avant et contiennent encore Â« ToTAL Â» ou Â« TOTAL Â», c'est normal, on n'y touche pas.
 
-- **La marque.** Le logotype est **T̥T̯L̩S̯T̩˜**, qui épèle TOTALISATION :
-   - `T̥` = TO
-   - `T̯` = TA
-   - `L̩` = LI
-   - `S̯` = SA
-   - `T̩` = TI
+- **La marque.** Le logotype est **TÌ¥TÌ¯LÌ©SÌ¯TÌ©Ëœ**, qui Ã©pÃ¨le TOTALISATION :
+   - `TÌ¥` = TO
+   - `TÌ¯` = TA
+   - `LÌ©` = LI
+   - `SÌ¯` = SA
+   - `TÌ©` = TI
    - `~` = ON
-- **Ponctuation.** Ne pas utiliser le tiret cadratin « — » dans les textes : c'est une faute en français. Utiliser plutôt la virgule, le deux-points, les parenthèses, ou le tiret simple « - ».
+- **Ponctuation.** Ne pas utiliser le tiret cadratin Â« â€” Â» dans les textes : c'est une faute en franÃ§ais. Utiliser plutÃ´t la virgule, le deux-points, les parenthÃ¨ses, ou le tiret simple Â« - Â».
 
-- **Guillemets.** Ne pas utiliser le guillemet français «» mais bien ""
-- **Apostrophe.** Utiliser l’apostrophe typographique « ’ » (U+2019) dans les textes et les titres, comme les 13 titres « Réconciliation » déjà en place. Conserver l’apostrophe droite « ' » (U+0027) uniquement dans les noms de fichiers et chemins techniques, pour qu’ils correspondent aux fichiers réels.
+- **Guillemets.** Ne pas utiliser le guillemet franÃ§ais Â«Â» mais bien ""
+- **Apostrophe.** Utiliser lâ€™apostrophe typographique Â« â€™ Â» (U+2019) dans les textes et les titres, comme les 13 titres Â« RÃ©conciliation Â» dÃ©jÃ  en place. Conserver lâ€™apostrophe droite Â« ' Â» (U+0027) uniquement dans les noms de fichiers et chemins techniques, pour quâ€™ils correspondent aux fichiers rÃ©els.
 
 
 
-- **Ton.** Clair, honnête, pragmatique. Reconnaître le quotidien du lecteur, éviter le ton professoral ou moralisateur.
+- **Ton.** Clair, honnÃªte, pragmatique. ReconnaÃ®tre le quotidien du lecteur, Ã©viter le ton professoral ou moralisateur.
 
-- **Continuité.** Toujours s'assurer de garder l'intérêt du lecteur à continuer de lire, cela doit toujours rester accrocheur.
+- **ContinuitÃ©.** Toujours s'assurer de garder l'intÃ©rÃªt du lecteur Ã  continuer de lire, cela doit toujours rester accrocheur.
 
-- **Langue et emprunts.** Le texte est rédigé en **français canadien**, avec des expressions **québécoises** employées avec parcimonie pour la couleur locale, toujours compréhensibles par le contexte.
-- Le génie logiciel est un domaine très **anglophone** (le vocabulaire Agile emprunte aussi au **japonais**) : on conserve les mots anglais réellement utilisés au quotidien (*sprint*, *backlog*, *pipeline*, *code review*, *deploy*, *bug*...).
-- À la **première occurrence** d'un terme anglais important, on donne l'équivalent français **entre parenthèses**, de préférence celui du **Grand dictionnaire terminologique (GDT)** de l'**OQLF** ; ensuite le terme anglais est repris seul. Ex. : le *backlog* (carnet de produit) place les éléments par priorité.
-- **Termes implantés** (*Scrum*, *Agile*, *DevOps*, *framework*...) : conservés tels quels, sans traduction systématique.
-- **Mots d'origine japonaise** (*kanban*, *kaizen*, *genba*, *muda*...) : romanisés, avec explication ou équivalent français à la première occurrence. Ex. : le *kanban* (tableau visuel qui limite le travail en cours).
-- **Cohérence** : un **glossaire commun** à toute la collection fixe chaque couple [anglais] / [français retenu], pour éviter les variations d'un livre à l'autre.
+- **Langue et emprunts.** Le texte est rÃ©digÃ© en **franÃ§ais canadien**, avec des expressions **quÃ©bÃ©coises** employÃ©es avec parcimonie pour la couleur locale, toujours comprÃ©hensibles par le contexte.
+- Le gÃ©nie logiciel est un domaine trÃ¨s **anglophone** (le vocabulaire Agile emprunte aussi au **japonais**) : on conserve les mots anglais rÃ©ellement utilisÃ©s au quotidien (*sprint*, *backlog*, *pipeline*, *code review*, *deploy*, *bug*...).
+- Ã€ la **premiÃ¨re occurrence** d'un terme anglais important, on donne l'Ã©quivalent franÃ§ais **entre parenthÃ¨ses**, de prÃ©fÃ©rence celui du **Grand dictionnaire terminologique (GDT)** de l'**OQLF** ; ensuite le terme anglais est repris seul. Ex. : le *backlog* (carnet de produit) place les Ã©lÃ©ments par prioritÃ©.
+- **Termes implantÃ©s** (*Scrum*, *Agile*, *DevOps*, *framework*...) : conservÃ©s tels quels, sans traduction systÃ©matique.
+- **Mots d'origine japonaise** (*kanban*, *kaizen*, *genba*, *muda*...) : romanisÃ©s, avec explication ou Ã©quivalent franÃ§ais Ã  la premiÃ¨re occurrence. Ex. : le *kanban* (tableau visuel qui limite le travail en cours).
+- **CohÃ©rence** : un **glossaire commun** Ã  toute la collection fixe chaque couple [anglais] / [franÃ§ais retenu], pour Ã©viter les variations d'un livre Ã  l'autre.
 
 ---
 
-## 🏗️ Structure du projet
+## ðŸ—ï¸ Structure du projet
 
-| Dossier | Rôle |
+| Dossier | RÃ´le |
 |---------|------|
-| `automata/` | Outils, applications et scripts (Python, PowerShell, etc.) utilisés pour concevoir et réaliser les livres. |
-| `ideas/` | Matière première, documents sources. **Lecture seule : ne rien modifier.** |
+| `automata/` | Outils, applications et scripts (Python, PowerShell, etc.) utilisÃ©s pour concevoir et rÃ©aliser les livres. |
+| `ideas/` | MatiÃ¨re premiÃ¨re, documents sources. **Lecture seule : ne rien modifier.** |
 | `livres/` | Production des livres : un `.md` par livre. |
 
-**Règles importantes :**
+**RÃ¨gles importantes :**
 - Le dossier `ideas/` est en **lecture seule**. On ne doit pas modifier les documents et fichiers qui s'y trouvent.
-- Tous les **scripts** (Python, PowerShell, etc.) doivent être placés dans le dossier `automata/`. On ne laisse aucun script à la racine du projet.
+- Tous les **scripts** (Python, PowerShell, etc.) doivent Ãªtre placÃ©s dans le dossier `automata/`. On ne laisse aucun script Ã  la racine du projet.
 
 ---
 
-## 🌐 Site web
+## ðŸŒ Site web
 
-Les livres seront présentés et pourront être achetés sur :
+Les livres seront prÃ©sentÃ©s et pourront Ãªtre achetÃ©s sur :
 
 > **www.totalisation.com**
 
@@ -150,8 +152,8 @@ Code du site web : `C:\Users\belan\ORIGINALIUM\TOTALISATION-WEB`
 
 ---
 
-## Détails et/ou consignes des livres…
+## DÃ©tails et/ou consignes des livresâ€¦
 
-- **Format imprimé :** poche ~ 13 × 20 cm, couverture souple, intérieur noir & blanc.
+- **Format imprimÃ© :** poche ~ 13 Ã— 20 cm, couverture souple, intÃ©rieur noir & blanc.
 - **Mots par livre :** ~ 45 000 mots.
 - **Pages par livre :** ~ 220 pages.
