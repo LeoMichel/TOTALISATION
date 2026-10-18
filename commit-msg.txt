@@ -1,5 +1,6 @@
-Ajouter recommandation de lire les 2 premiers livres avant les ateliers JAUNE
+Corriger les 3 zones de travail dans le livre ROUGE
 
-- JAUNE Introduction : encadré en ouverture recommandant de lire
-  le niveau 1 (ROUGE) et le niveau 2 (ORANGE) avant d'aborder les
-  ateliers guidances du niveau 3
+- SENSE = Éliciter + définir (Modélisation portfolio/portefeuille)
+- FORGE = Planifier + implémenter (Développement)
+- CARE = Diffuser + confirmer (Opérationnel)
+- Ajout des poignées de main entre SENSE->FORGE, FORGE->CARE, CARE->SENSE

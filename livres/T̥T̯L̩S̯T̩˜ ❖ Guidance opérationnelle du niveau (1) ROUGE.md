@@ -148,9 +148,15 @@ Elles ne forment pas une ligne droite : la **grande boucle** relie CONFIRMER à 
 
 | Zone | Rôle | Activités typiques |
 | --- | --- | --- |
-| **SENSE** | Observer, écouter, questionner | Éliciter, métriques, rétrospectives |
-| **FORGE** | Construire, implémenter, livrer | Définir, planifier, implémenter, diffuser |
-| **CARE** | Maintenir, soutenir, améliorer | Confirmer, amélioration continue, contrat qualité |
+| **SENSE** | Observer, écouter, questionner · Modélisation (portfolio/portefeuille) | Éliciter, définir |
+| **FORGE** | Construire, implémenter, livrer · Développement | Planifier, implémenter |
+| **CARE** | Maintenir, soutenir, améliorer · Opérationnel | Diffuser, confirmer |
+
+Chaque zone se prolonge dans la suivante par une **poignée de main** :
+
+- **SENSE → FORGE** : ce qui a été élicité et défini passe à la planification et à l'implémentation.
+- **FORGE → CARE** : ce qui a été planifié et implémenté passe à la diffusion et à la confirmation.
+- **CARE → SENSE** : ce qui a été confirmé alimente la prochaine élicitation, refermant la boucle.
 
 Un exercice bien conçu passe toujours par au moins deux zones. C'est le test de complétude d'un atelier de ce livre.
 
