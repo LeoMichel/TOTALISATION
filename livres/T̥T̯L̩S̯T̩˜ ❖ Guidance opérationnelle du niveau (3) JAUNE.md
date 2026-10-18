@@ -92,6 +92,8 @@ Cet avant-propos est écrit pour celles et ceux qui sont encore avec l'équipe p
 
 ---
 
+> **Avant de commencer ces ateliers guidances :** il est recommandé d'avoir lu les deux premiers livres de la collection TOTALISATION — le niveau 1 (ROUGE) et le niveau 2 (ORANGE) — avant d'aborder les ateliers de ce livre JAUNE (niveau 3). Le niveau 1 pose les bases de la livraison avec preuves ; le niveau 2 installe les spécifications modélisées, l'automatisation et la documentation vivante. Ce livre JAUNE s'appuie sur ces deux fondations.
+
 ## Introduction : du ORANGE au JAUNE, forger, planifier, implémenter
 
 ### Ce que le niveau 2 a installé

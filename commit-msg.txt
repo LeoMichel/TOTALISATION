@@ -1,0 +1,5 @@
+Ajouter recommandation de lire les 2 premiers livres avant les ateliers JAUNE
+
+- JAUNE Introduction : encadré en ouverture recommandant de lire
+  le niveau 1 (ROUGE) et le niveau 2 (ORANGE) avant d'aborder les
+  ateliers guidances du niveau 3
