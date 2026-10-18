@@ -29,7 +29,7 @@
 
 **La promesse.** Rendre la qualitÃ© **explicite** lÃ  oÃ¹ elle est restÃ©e trop longtemps implicite. Offrir une vision holistique oÃ¹ le produit, la qualitÃ©, le dÃ©veloppement, les opÃ©rations, l'architecture, les donnÃ©es, le leadership et le centre d'excellence avancent enfin **sur la mÃªme longueur d'onde**.
 
-**Ã€ qui Ã§a parle.** Coach Agile, Coach QA, QA, dÃ©veloppeur, architecte, product owner, project manager, product manager, Scrum master, gestionnaire, expert IA, CTO, dirigeant... etc.... Chacun doit y reconnaÃ®tre son quotidien, parfois avec un sourire, parfois avec un petit moment inconfortable du type "ah ouiâ€¦ nous faisons exactement Ã§a". C'est souvent lÃ  que l'apprentissage commence.
+**À qui ça parle.** Toute l'équipe qui réalise un produit logiciel : product owners, développeurs, architectes, testeurs/QA, ops, scrum masters, responsables qualité, directeurs de programme, CTO, dirigeants — et les coaches qui les accompagnent. La qualité n'existe pas isolément : elle naît de la façon dont tout le monde collabore pour livrer. Un coach TOTALISATION expérimenté peut vous guider, mais ce guide n'est pas une recette à appliquer à la lettre. Il faudra de l'ingéniosité pour adapter le chemin à votre contexte.
 
 **L'outillage et la pÃ©rennitÃ©.** La collection s'incarne dans un outil, **BEASTEST** (www.beastest.com), et dans les pratiques de l'excellence vers un mÃ©canisme de durÃ©e, le **Centre d'Excellence TOTALISATION**, non pas une police de mÃ©thode, mais un gardien vivant de la maÃ®trise de l'art.
 

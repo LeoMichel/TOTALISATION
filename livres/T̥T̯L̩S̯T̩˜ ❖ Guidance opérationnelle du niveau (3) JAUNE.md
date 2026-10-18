@@ -1,4 +1,4 @@
-<!-- ===================== COUVERTURE (RECTO) ===================== -->
+﻿<!-- ===================== COUVERTURE (RECTO) ===================== -->
 <!-- Zone réservée à l'illustration de couverture (image à insérer ici). -->
 <!-- Éléments à faire figurer sur le recto : logotype T̥T̯L̩S̯T̩˜, titre, sous-titre, auteur, "ORIGINALIUM". -->
 
@@ -43,7 +43,7 @@ Québec, Canada · Édition 2026 · ORIGINALIUM
 - Comment l'IA devient un partenaire de spécification et de vérification, encadré par des règles d'usage écrites
 - Les capsules du vécu de la mission Faucon chez Opal-RT : ce qui change quand on passe du niveau 2 au niveau 3
 
-**À qui s'adresse ce livre :** Coach Agile, coach QA, QA, responsable qualité, lead technique, architecte, product owner, directeur de programme, et toute équipe qui a déjà implémenté le niveau 2 (ORANGE) et veut monter au niveau 3 avant d'ouvrir la pratique aux autres équipes.
+**À qui s'adresse ce livre :** Toute l'équipe qui réalise un produit logiciel et veut monter au niveau 3 : product owners, développeurs, architectes, testeurs/QA, ops, scrum masters, responsables qualité, directeurs de programme — et les coaches qui les accompagnent. Le livre s'adresse aux équipes qui ont déjà implémenté le niveau 2 (ORANGE) et veulent forger, planifier et implémenter en cadence avant d'ouvrir la pratique aux autres équipes.
 
 **À propos de l'auteur :**
 
@@ -139,7 +139,7 @@ La première partie fait monter l'équipe pilote du niveau 2 au niveau 3 : on fo
 
 **Objectif :** faire le pont entre le niveau 2 (ORANGE) et le niveau 3 (JAUNE). L'équipe fait l'inventaire de ce qui a été stabilisé (contrat qualité v2.0, centre d'excellence, modèles BPMN/MBT, documentation vivante, rituels Go/No-Go N2) et décide ce qui doit être forgé pour le niveau 3.
 
-**Durée :** 2 heures. **Participants :** équipe pilote, coach qualité, coach Agile, chargé de livraison, sponsor.
+**Durée :** 2 heures. **Participants :** équipe pilote, coach TOTALISATION, coach Agile, chargé de livraison, sponsor.
 
 **Étapes :**
 1. Revue des livrables du niveau 2 : qu'est-ce qui est stable ? Qu'est-ce qui reste fragile ?
@@ -153,7 +153,7 @@ La première partie fait monter l'équipe pilote du niveau 2 au niveau 3 : on fo
 
 **Objectif :** définir une grille de Go/No-Go où chaque critère s'appuie sur une preuve tangible (couverture de tests, taux de réussite automatisé, documentation à jour, modèle validé), pas sur un sentiment.
 
-**Durée :** 3 heures. **Participants :** équipe pilote, coach qualité, lead technique.
+**Durée :** 3 heures. **Participants :** équipe pilote, coach TOTALISATION, lead technique.
 
 **Étapes :**
 1. Lister les critères de décision d'une livraison (qualité, couverture, documentation, automatisation, performance, sécurité).
@@ -304,7 +304,7 @@ La seconde partie traverse la réalité du niveau 3 : le point mort, où l'équi
 
 **Objectif :** faire l'inventaire honnête de ce qui fonctionne et de ce qui ne fonctionne pas au niveau 3, après les semaines 1-2 de forge et d'implémentation.
 
-**Durée :** 2 heures. **Participants :** équipe pilote, coach qualité, chargé de livraison, sponsor.
+**Durée :** 2 heures. **Participants :** équipe pilote, coach TOTALISATION, chargé de livraison, sponsor.
 
 **Étapes :**
 1. Revue des livrables des semaines 1-2 : qu'est-ce qui est opérationnel ? Qu'est-ce qui est à moitié fait ?
@@ -318,7 +318,7 @@ La seconde partie traverse la réalité du niveau 3 : le point mort, où l'équi
 
 **Objectif :** présenter le diagnostic au sponsor et obtenir les décisions organisationnelles nécessaires (ressources, arbitrages, soutien) pour débloquer les points critiques.
 
-**Durée :** 2 heures. **Participants :** chargé de livraison, coach qualité, sponsor, directeur de programme si présent.
+**Durée :** 2 heures. **Participants :** chargé de livraison, coach TOTALISATION, sponsor, directeur de programme si présent.
 
 **Étapes :**
 1. Présenter le diagnostic de l'atelier 5.1 au sponsor.
@@ -332,7 +332,7 @@ La seconde partie traverse la réalité du niveau 3 : le point mort, où l'équi
 
 **Objectif :** préparer la semaine 6 (virage) en définissant ce que l'équipe doit faire de manière autonome, et ce que le coach doit arrêter de faire.
 
-**Durée :** 2 heures. **Participants :** équipe pilote, coach qualité, chargé de livraison.
+**Durée :** 2 heures. **Participants :** équipe pilote, coach TOTALISATION, chargé de livraison.
 
 **Étapes :**
 1. Lister tout ce que le coach fait encore pour l'équipe (animation de rituels, prise de décision, relances).
@@ -397,7 +397,7 @@ Dans la mission Faucon, le point mort est arrivé à la semaine 5 : l'équipe av
 
 **Objectif :** faire le bilan de l'autonomie acquise. Quels rituels tiennent sans le coach ? Quels rituels nécessitent encore un accompagnement ?
 
-**Durée :** 2 heures. **Participants :** équipe pilote, coach qualité, chargé de livraison.
+**Durée :** 2 heures. **Participants :** équipe pilote, coach TOTALISATION, chargé de livraison.
 
 **Étapes :**
 1. Revue de chaque rituel (livraison, revue, planification, Go/No-Go) : tient-il sans le coach ?
@@ -469,7 +469,7 @@ La troisième partie ancre la pratique de niveau 3 dans la durée : couverture a
 
 **Objectif :** construire la matrice de couverture N3, qui associe chaque type de test aux preuves qu'il apporte, aux seuils de qualité, et aux responsabilités.
 
-**Durée :** 3 heures. **Participants :** équipe pilote, coach qualité, lead technique.
+**Durée :** 3 heures. **Participants :** équipe pilote, coach TOTALISATION, lead technique.
 
 **Étapes :**
 1. Lister les types de test : unitaire, intégration, système, E2E, performance, sécurité, mutation.
@@ -483,7 +483,7 @@ La troisième partie ancre la pratique de niveau 3 dans la durée : couverture a
 
 **Objectif :** renforcer l'automatisation des tests au niveau 3, en lien avec les modèles BPMN/MBT de la semaine 1 d'ORANGE.
 
-**Durée :** 3 heures. **Participants :** lead technique, équipe pilote, coach qualité.
+**Durée :** 3 heures. **Participants :** lead technique, équipe pilote, coach TOTALISATION.
 
 **Étapes :**
 1. Revue de l'automatisation existante : quels tests sont automatisés ? Quels tests restent manuels ?
@@ -497,7 +497,7 @@ La troisième partie ancre la pratique de niveau 3 dans la durée : couverture a
 
 **Objectif :** rédiger les règles d'usage de l'IA pour le niveau 3 : quand l'IA peut être utilisée, ce qu'elle peut faire, ce qu'elle ne doit pas faire, et comment ses sorties sont validées.
 
-**Durée :** 2 heures. **Participants :** équipe pilote, coach qualité, product owner, sponsor.
+**Durée :** 2 heures. **Participants :** équipe pilote, coach TOTALISATION, product owner, sponsor.
 
 **Étapes :**
 1. Lister les usages potentiels de l'IA (rédaction de spécifications, génération de tests, relecture de documentation, analyse de logs).
@@ -550,7 +550,7 @@ Dans la mission Faucon, l'IA a d'abord été utilisée comme une boîte noire : 
 
 **Objectif :** rédiger et signer le contrat qualité v3.0, qui replace les engagements de l'équipe en matière de qualité, de preuves, de Go/No-Go, et d'usage de l'IA.
 
-**Durée :** 3 heures. **Participants :** équipe pilote, sponsor, product owner, coach qualité.
+**Durée :** 3 heures. **Participants :** équipe pilote, sponsor, product owner, coach TOTALISATION.
 
 **Étapes :**
 1. Reprendre le contrat qualité v2.0 (niveau 2) et l'enrichir pour le niveau 3 (engagements sur la cadence, l'autonomie, la couverture par tests, l'IA).
@@ -705,7 +705,7 @@ Le niveau vert vous attend : spread aux autres équipes, aux autres produits, au
 ---
 ## Notes de facilitation S1–S8
 
-[!] Ces notes sont pour le coach qualité. Elles listent les erreurs à éviter, les variantes et les tests de réussite pour chaque semaine.
+[!] Ces notes sont pour le coach TOTALISATION. Elles listent les erreurs à éviter, les variantes et les tests de réussite pour chaque semaine.
 
 ### Semaine 1 — Forger le processus de planification N3
 
@@ -770,7 +770,7 @@ Le niveau vert vous attend : spread aux autres équipes, aux autres produits, au
 - Laisser l'IA générer des tests sans validation humaine. C'est le risque n°1 du niveau 3.
 
 **Variantes :**
-- Si l'équipe n'a pas de lead technique, le coach qualité peut animer l'atelier 7.2 avec l'aide d'un développeur volontaire.
+- Si l'équipe n'a pas de lead technique, le coach TOTALISATION peut animer l'atelier 7.2 avec l'aide d'un développeur volontaire.
 - Si l'IA n'est pas encore utilisée dans l'équipe, remplacez l'atelier 7.3 par une sensibilisation aux risques de l'IA.
 
 **Test de réussite :**
