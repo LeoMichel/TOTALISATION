@@ -2,11 +2,14 @@
 <!-- Zone réservée à l'illustration de couverture (image à insérer ici). -->
 <!-- Éléments à faire figurer sur le recto : logotype T̥T̯L̩S̯T̩˜, titre, sous-titre, auteur, "ORIGINALIUM". -->
 
-**[Image de couverture : à insérer ici]**
+![Couverture - Titre du livre](images/cover-LX.png)
 
 Titre : [Titre du livre]
 Sous-titre / accroche : [une phrase courte qui donne le ton]
 Logotype : T̥T̯L̩S̯T̩˜ · Maison d'édition : ORIGINALIUM
+
+<!-- Remplacer LX par le numéro de tome (cover-L1, cover-L2...). L'image vit dans livres/images/.
+     Même format pour tous les livres : image seule, sans lien [], chemin en slash. -->
 
 ---
 
@@ -184,4 +187,5 @@ Ce livre n'a pas été créé par l'IA : elle a été un outil de transformation
 - Matière : toujours puiser dans `ideas/` (lecture seule). Intégrer les partages d'expérience de l'auteur : anecdotes, tranches de vie, héritage (legacy), récits de terrain. C'est ce qui donne du vivant au livre.
 - Matière manquante : s'il manque un vécu ou une anecdote, le signaler à l'auteur via un todo (ne pas inventer).
 - Anti-duplication : éviter la duplication et la répétition inutile avec les autres livres. Ce livre a sa propre identité, sa raison, son but. Renvoyer vers les autres livres plutôt que réécrire leur contenu.
+- **Variante atelier (livres Guidance)** : pour les livres « Guidance opérationnelle du niveau », remplacer Parties/Chapitres par **8 Semaines**, chacune avec : objectif + résultat attendu, ateliers numérotés (ex. 3.1) avec objectif/durée/participants/étapes/livrable, points de vigilance, capsule du vécu, checklist de fin de semaine. Voir `livres/T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (1) ROUGE.md` comme référence.
 - Cible : environ 45 000 mots, 220 pages.

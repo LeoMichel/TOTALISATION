@@ -38,7 +38,7 @@ Légende : `[ ]` à faire · `[~]` en cours · `[x]` terminé
 
 > Nature : l'identité de TOTALISATION. Présentation, introduction, sens, raison. Pas d'ateliers ni de guides pratiques.
 
-- [~] T̥T̯L̩S̯T̩˜ ❖ L’éveil de la TOTALISATION (démarré, fichier `.md` vide à remplir)
+- [x] T̥T̯L̩S̯T̩˜ ❖ L’éveil de la TOTALISATION (terminé, poussé sur GitHub avec couverture cover-L1)
   - **Statut :** matière extraite du ToTAL `ToTAL_Art_Realiser_Produit_Logiciel_v31.docx` (via `Tools/docx_text.txt`, ~1202 éléments)
   - **Thèmes collectés :**
     - Définition de la qualité → clarté → confiance → excellence
@@ -232,7 +232,7 @@ Prochaines étapes :
 - [x] Valider le plan du livre L’éveil avec les PDFs `ideas/L1 — L'Origine — ToTAL Réconciliation.pdf` + `Partie A/B/C/*.pdf`
 - [ ] Rédiger le plan détaillé du livre L’éveil de la TOTALISATION (chapitres 1-4 recomposés)
 - [x] Vérifier la structure de travail : `ideas/` lecture seule · scripts dans `automata/` · temporaire dans `!TEMPO/`
-- [ ] Confirmer l'organisation des matières vécues — Mission Faucon/Opal-RT → Guide Rouge ; scènes du bureau du père → Origine (début) ; autres (ex. Desjardins) → livres appropriés (Sabotage, etc.)
+- [x] Confirmer l'organisation des matières vécues — Mission Faucon/Opal-RT → Guide Rouge (confirmé, capsules intégrées) ; scènes du bureau du père → Origine (début) ; autres (ex. Desjardins) → livres appropriés (Sabotage, etc.)
 - [ ] Confirmer l'anonymisation du vécu professionnel (règle : histoires biographiques complètement anonymes, vie privée séparée) et quelles anecdotes Petal, Alithya et ACAQ prioriser pour L’éveil
 - [ ] Extraire Alithya.pdf/xlsx
 - [ ] Extraire clientToTAL/ (200+ PDFs)

@@ -8,11 +8,13 @@
 *.py
 *.ps1
 
-# Dossiers temporaires
-!TEMPO/backup/
-!TEMPO/tools/
-!TEMPO/ideas/
-!TEMPO/images/
+# Dossiers temporaires (le ! du nom est échappé : \! sinon ce serait une exception gitignore)
+\!TEMPO/backup/
+\!TEMPO/tools/
+\!TEMPO/ideas/
+\!TEMPO/images/
+\!TEMPO/txt/
+\!TEMPO/preview/
 
 # Fichiers vides (pages de guidage non remplies)
 *.md.empty
