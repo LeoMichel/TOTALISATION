@@ -203,11 +203,27 @@ Deux demi-journées d'atelier par semaine (par exemple, 2 h 30 le mardi et 2 h l
 
 ---
 
-## Semaine 1 : L'arrimage et les constats
+## Semaine 1 : L'arrimage et les constats (lundi 15 juin – vendredi 19 juin)
 
 **Objectif de la semaine :** poser le contrat de travail commun, faire émerger les constats de terrain sans jugement, et installer les premières fondations : gouvernance naissante, lexique partagé, et la toute première métrique de qualimétrie qui donnera à l'équipe le goût de mesurer.
 
 **Résultat attendu à la fin de la semaine :** un contrat qualité v0.1 (même court), un glossaire officiel en construction, un tableau de bord minimal avec au moins une métrique vivante, et une équipe qui sait nommer ses propres irritants.
+
+### Journal de la semaine
+
+**1e jour — Lundi 15 juin : lister les besoins et s'entendre sur les objectifs**
+
+Le matin, l'équipe pilote fait un brainstorming pour lister tous les besoins : qualité, livraison, spécifications, bugs, communication, déploiement. Rien n'est filtré, rien n'est jugé. L'après-midi, l'équipe s'entend sur les objectifs communs des semaines à venir. Ces besoins sont communiqués et analysés avec la directrice qualité, qui valide les priorités et confirme le mandat. Ce que la directrice entend ce lundi oriente tout le reste de la mission.
+
+**2e jour — Mardi 16 juin : l'arrimage des parties prenantes**
+
+**3e jour — Mercredi 17 juin : le constat de terrain**
+
+**4e jour — Jeudi 18 juin : le lexique officiel**
+
+**5e jour — Vendredi 19 juin : la première métrique et le point de synthèse**
+
+Chaque jour de la semaine fait l'objet d'un atelier dédié, détaillé ci-dessous.
 
 ### Atelier 1.1 : L'arrimage des parties prenantes
 
@@ -273,11 +289,15 @@ Deux demi-journées d'atelier par semaine (par exemple, 2 h 30 le mardi et 2 h l
 
 ### Capsule du vécu : Mission Faucon, semaine 1
 
-Chez Opal-RT, la mission a commencé comme beaucoup de missions : avec un mandat de 6 semaines et une ambition claire de la direction qualité. "Utiliser l'expérience du coach pour aider les équipes qualité, et la qualité en général, à s'améliorer dans nos pratiques et notre efficacité." Le premier jour était consacré à la qualimétrie : ce qu'on peut mesurer, ce que les métriques racontent, et comment les utiliser pour décider. La gouvernance des bugs, la traçabilité, les spécifications et la validation ont émergé comme chantiers prioritaires dès les premiers ateliers.
+Chez Opal-RT, la mission a commencé le lundi 15 juin avec un mandat de 6 semaines et une ambition claire de la direction qualité : utiliser l'expérience du coach pour aider les équipes qualité, et la qualité en général, à s'améliorer dans leurs pratiques et leur efficacité.
+
+Le premier jour n'a pas été consacré à la qualimétrie, comme on pourrait le croire en lisant ce guide avec le recul. Il a été consacré aux besoins. Le matin, l'équipe a fait un brainstorming pour lister tous les besoins — qualité, livraison, spécifications, bugs, communication, déploiement — sans rien filtrer. L'après-midi, l'équipe s'est entendue sur les objectifs communs des semaines à venir. Ces besoins ont été communiqués et analysés avec la directrice qualité, qui a validé les priorités et confirmé le mandat.
 
 Un détail que j'ai gardé de cette première semaine : le besoin, exprimé très tôt, de "formaliser les rôles, documenter les décisions dans Jira, définir les spécifications avant l'implémentation, structurer les releases et relier les besoins utilisateur, applicatifs et machine". En une semaine, l'équipe avait nommé exactement les pièces de TOTALISATION dont elle n'avait pas conscience d'avoir besoin. Le livrable de la semaine 1 a été le lexique officiel et les premières métriques de bugs, pas un dashboard parfait, mais une base que tout le monde pouvait lire.
 
-**Journal, fin de semaine 1 :** "Les workshops ont fait émerger un besoin fort : formaliser les rôles, documenter les décisions, définir les spécifications avant l'implémentation." Ce besoin n'a pas été imposé par le coach. Il est sorti de l'équipe. C'est la différence entre un changement subi et un changement choisi.
+**Journal, fin de semaine 1 :** « Les workshops ont fait émerger un besoin fort : formaliser les rôles, documenter les décisions, définir les spécifications avant l'implémentation. » Ce besoin n'a pas été imposé par le coach. Il est sorti de l'équipe. C'est la différence entre un changement subi et un changement choisi.
+
+Ce que cette semaine 1 confirme, c'est qu'une transformation ne commence pas par un dashboard. Elle commence par l'écoute des besoins, puis par la mise en commun de ces besoins avec celui ou celle qui porte la qualité. Chez Opal-RT, c'était la directrice qualité, le lundi 15 juin.
 
 ### Checklist de fin de semaine 1
 
