@@ -17,6 +17,7 @@
 | T̥T̯L̩S̯T̩˜ ❖ L'éveil de la TOTALISATION (L01) | ✅ Terminé, publié (couverture cover-L1) |
 | T̥T̯L̩S̯T̩˜ ❖ Toute la différence par la réconciliation du LEGACY | ✅ Terminé, publié (couverture cover-L2) |
 | T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (1) ROUGE (3e livre) | 🔄 En cours : squelette complet (8 semaines, 32 ateliers) |
+| T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (2) ORANGE (4e livre) | 🔄 En cours : squelette complet (8 semaines, 32 ateliers) |
 | Gabarit `livres/_gabarit.md` | ✅ Mis à jour : couverture uniforme + variante atelier (Guidance) |
 
 ## 🌱 Le souhait : ce que je veux faire comme projet

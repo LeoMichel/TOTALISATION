@@ -75,7 +75,10 @@ Légende : `[ ]` à faire · `[~]` en cours · `[x]` terminé
 > Nature : passage de la théorie vers la pratique. Seuls ces livres contiennent ateliers, exercices et roadmaps.
 
 - [ ] T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (1) ROUGE
-- [ ] T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (2) ORANGE
+- [~] T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (2) ORANGE
+  - **Statut :** squelette complet (8 semaines, 32 ateliers), poussé sur GitHub
+  - **Thèmes :** MBT/BPMN, outillage automatisation + documentation produit, planification livraisons N2, qualimétrie N2, politiques et conventions N2, couverture par types de test, socle pour l'IA
+  - **Prochaines étapes :** rédaction chapitre par chapitre, intégration du vécu Opal-RT (capsules), relire/harmoniser, couverture image (cover-L2) si disponible
 - [ ] T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (3) JAUNE
 - [ ] T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (4) VERT
 - [ ] T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (5) BLEU
