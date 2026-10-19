@@ -102,6 +102,21 @@ Michel Bélanger
 
 TOTALISATION est une méthode de réconciliation. Elle ne demande pas de jeter votre SDLC (cycle de vie de développement logiciel) à la poubelle, ni d'embrasser une nouvelle religion managériale. Elle demande une chose, plus exigeante : rendre explicite ce qui est resté implicite. Les standards, les politiques, les conventions, les décisions, les preuves, les métriques, les responsabilités. Tout ce qu'une organisation possède déjà, mais de façon dispersée, orale, contradictoire ou oubliée.
 
+
+
+### 📚 Avant de commencer ces ateliers guidages
+
+Pour que les ateliers du niveau (1) ROUGE fonctionnent réellement — et pour que vous ne tombiez pas dans le piège d'appliquer une méthode sans comprendre pourquoi elle existe — il est recommandé d'avoir lu, au préalable, les deux premiers livres de la collection :
+
+1. **[L'éveil de la TOTALISATION](./T̥T̯L̩S̯T̩˜ ❖ L'éveil de la TOTALISATION.md)** *(niveau 0, ouvrage fondateur)*  
+   Ce livre pose la question première : « Et si nos grands concepts — valeur, produit, qualité, test, terminé, livraison, IA — avaient aussi besoin d'assurance qualité ? » Il est la condition de compréhension de ce qui suit : sans la notion de clarté → qualité → confiance → excellence durable, les étapes de ce niveau resteront des recettes sans racine. Il vous aidera à comprendre **pourquoi** TOTALISATION existe, et **sous quelle contrainte** elle interviendra.
+
+2. **[Toute la différence par la réconciliation du LEGACY](./T̥T̯L̩S̯T̩˜ ❖ Toute la différence par la réconciliation du LEGACY.md)** *(livret de réconciliation — complément)*  
+   Ce livret s'intéresse au legacy : la crise de la représentation du passé, la double lecture des pratiques, la tension entre la tradition et le changement, et la différence entre **renier** le legacy et **le réconcilier**. Il est indispensable car l'équipe pilote de ce niveau (1) ROUGE va devoir agir dans un contexte où le legacy est présent, parfois majeur, et où les anciennes habitudes vont résister — tout comme les nouvelles pratiques. Il vous donnera les outils pour ne pas renier le passé, ni imposer le présent sans le comprendre.
+
+> **Ordre de lecture conseillé :** lire d'abord *L'éveil de la TOTALISATION* (pour comprendre la philosophie et la définition de la qualité), puis *Toute la différence par la réconciliation du LEGACY* (pour comprendre comment le legacy se manifeste concrètement dans les équipes et les produits), puis revenir aux ateliers de ce niveau (1) ROUGE.
+
+> **Note :** ces deux livres ne sont pas des ateliers à proprement parler. Ce sont des ouvrages de support : ils ne remplacent pas la pratique, mais ils clarifient les concepts, les représentations et les tensions qui feront la différence entre une application superficielle et une appropriation réelle.
 Ce livre est le premier de la série des guidances opérationnelles. Il est le commencement : le niveau (1) ROUGE. Il ne prétend pas vous rendre maître de TOTALISATION en huit semaines. Il prétend rendre votre équipe pilote capable de mettre en place l'essentiel de TOTALISATION, au minimum vital, et de le faire tourner dans le cycle de vie complet, de l'élicitation à la confirmation.
 
 ### Ce que ce livre vous donnera

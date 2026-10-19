@@ -1,6 +1,0 @@
-Corriger les 3 zones de travail dans le livre ROUGE
-
-- SENSE = Éliciter + définir (Modélisation portfolio/portefeuille)
-- FORGE = Planifier + implémenter (Développement)
-- CARE = Diffuser + confirmer (Opérationnel)
-- Ajout des poignées de main entre SENSE->FORGE, FORGE->CARE, CARE->SENSE
