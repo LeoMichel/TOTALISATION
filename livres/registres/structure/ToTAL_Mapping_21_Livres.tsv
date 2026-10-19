@@ -1,0 +1,1926 @@
+﻿## SHEET sheet1 ##
+A1	#
+B1	Livre_ID
+C1	Catégorie
+D1	Titre Livre (court)
+E1	Rang_Ch
+F1	Titre Chapitre / Section
+G1	Sous-thèmes couverts
+H1	Source_ID
+I1	Fichier Source
+J1	Notes
+A2	1
+B2	L01
+C2	Introduction
+D2	L'Origine
+E2	1
+F2	Préface — Pourquoi un document maître avant un livre complet
+G2	Architecture éditoriale du projet ToTAL
+H2	F_LIVRE
+I2	ToTAL (le livre).docx — Document maître 41+ chapitres
+J2	Chapitre 0
+A3	2
+B3	L01
+C3	Introduction
+D3	L'Origine
+E3	2
+F3	Prologue — La question qui a tout déclenché
+G3	Genèse intellectuelle de ToTAL
+H3	F_TOME1
+I3	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J3	
+A4	3
+B4	L01
+C4	Introduction
+D4	L'Origine
+E4	3
+F4	Introduction — Pourquoi rien ne suffit, et pourquoi cela s'aggrave malgré tout
+G4	Vitesse durable, économie réelle, qualité
+H4	F_TOME1
+I4	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J4	
+A5	4
+B5	L01
+C5	Introduction
+D5	L'Origine
+E5	4
+F5	Partie 1 — Le chaos que les organisations ont appris à normaliser
+G5	Ch. 1-4 : paradoxe, accélération, chaos organisationnel
+H5	F_TOME1
+I5	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J5	Chapitres 1 à 4
+A6	5
+B6	L01
+C6	Introduction
+D6	L'Origine
+E6	5
+F6	Chapitre 1 — Pourquoi ToTAL existe
+G6	Genèse et raison d'être de la discipline
+H6	F_LIVRE
+I6	ToTAL (le livre).docx — Document maître 41+ chapitres
+J6	
+A7	6
+B7	L01
+C7	Introduction
+D7	L'Origine
+E7	6
+F7	Chapitre 2 — La qualité comme fondation du produit logiciel
+G7	Fondements qualitatifs de ToTAL
+H7	F_LIVRE
+I7	ToTAL (le livre).docx — Document maître 41+ chapitres
+J7	
+A8	7
+B8	L01
+C8	Introduction
+D8	L'Origine
+E8	7
+F8	Chapitre 3 — L'équation ToTAL
+G8	Formule centrale : T·O·T·A·L
+H8	F_LIVRE
+I8	ToTAL (le livre).docx — Document maître 41+ chapitres
+J8	
+A9	8
+B9	L01
+C9	Introduction
+D9	L'Origine
+E9	8
+F9	Chapitre 4 — Le passé n'est pas l'ennemi
+G9	Héritage et legacy applicatif
+H9	F_LIVRE
+I9	ToTAL (le livre).docx — Document maître 41+ chapitres
+J9	
+A10	9
+B10	L01
+C10	Introduction
+D10	L'Origine
+E10	9
+F10	Chapitre 5 — Le cyclone de dégradation qualité
+G10	Cycle de dégradation et remèdes
+H10	F_LIVRE
+I10	ToTAL (le livre).docx — Document maître 41+ chapitres
+J10	
+A11	10
+B11	L01
+C11	Introduction
+D11	L'Origine
+E11	10
+F11	Chapitre 7 — Vue simple : Specify et Delivery
+G11	Modèle simplifié Specify + Delivery
+H11	F_LIVRE
+I11	ToTAL (le livre).docx — Document maître 41+ chapitres
+J11	
+A12	11
+B12	L01
+C12	Introduction
+D12	L'Origine
+E12	11
+F12	Chapitre 8 — Vue complète : SENSe, FORGe et CARe
+G12	Triforce ToTAL — vue complète
+H12	F_LIVRE
+I12	ToTAL (le livre).docx — Document maître 41+ chapitres
+J12	
+A13	12
+B13	L01
+C13	Introduction
+D13	L'Origine
+E13	12
+F13	Chapitre 14 — Deming, les erreurs, l'inconnu et la nature humaine
+G13	Philosophie Deming appliquée au logiciel
+H13	F_LIVRE
+I13	ToTAL (le livre).docx — Document maître 41+ chapitres
+J13	
+A14	13
+B14	L01
+C14	Introduction
+D14	L'Origine
+E14	13
+F14	Chapitre 18 — Les capacités ToTAL : le moteur derrière le flux
+G14	Technology, Orchestry, Topology, Affinity, Leverage Mastery
+H14	F_LIVRE
+I14	ToTAL (le livre).docx — Document maître 41+ chapitres
+J14	Ch. 18.1 à 18.9
+A15	14
+B15	L01
+C15	Introduction
+D15	L'Origine
+E15	14
+F15	Partie 1 Tome2 — Comprendre la réussite ToTAL
+G15	L'excellence, l'art, la réussite comme preuve
+H15	F_TOME2A
+I15	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J15	Ch. 1-3
+A16	15
+B16	L01
+C16	Introduction
+D16	L'Origine
+E16	15
+F16	Chapitre 19 Tome2 — Le Centre d'excellence ToTAL
+G16	Architecture du CoE, mini CoE praticable
+H16	F_TOME2A
+I16	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J16	
+A17	16
+B17	L01
+C17	Introduction
+D17	L'Origine
+E17	16
+F17	Partie 10 — Référentiel ToTAL consolidé
+G17	SDLC, rôles, contrats, qualimétrie, IA, CoE
+H17	F_TOME2B
+I17	Centre_Excellence_v1B.docx — Tome 2 chantier éditorial
+J17	Sections 10.1 à 10.8
+A18	17
+B18	L01
+C18	Introduction
+D18	L'Origine
+E18	17
+F18	Annexes A–J — Boîte à outils ToTAL
+G18	Gabarits, glossaire, matrices SENSe/FORGe/CARe
+H18	F_LIVRE
+I18	ToTAL (le livre).docx — Document maître 41+ chapitres
+J18	Annexes A à J
+A19	18
+B19	L01
+C19	Introduction
+D19	L'Origine
+E19	18
+F19	Lexique ToTAL — source de vérité terminologique vivante
+G19	Terminologie officielle ToTAL
+H19	F_TOME2A
+I19	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J19	
+A20	19
+B20	L01
+C20	Introduction
+D20	L'Origine
+E20	19
+F20	Recommandations — Synthèse opérationnelle
+G20	Constats, enjeux, ajustements organisationnels
+H20	F_TOME2B
+I20	Centre_Excellence_v1B.docx — Tome 2 chantier éditorial
+J20	Section 19
+A21	20
+B21	L02
+C21	Réconciliation
+D21	Le SDLC
+E21	1
+F21	Partie 4 — Le modèle ToTAL dans le cycle de vie produit
+G21	Carte de trajectoire, 4 niveaux SDLC
+H21	F_TOME1
+I21	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J21	
+A22	21
+B22	L02
+C22	Réconciliation
+D22	Le SDLC
+E22	2
+F22	Chapitre 13 — Ce que ToTAL apporte au cycle produit
+G22	ToTAL comme discipline dans le SDLC
+H22	F_TOME1
+I22	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J22	
+A23	22
+B23	L02
+C23	Réconciliation
+D23	Le SDLC
+E23	3
+F23	Chapitre 15 — SENSe — définir, qualifier, mesurer et apprendre
+G23	Phase SENSe du SDLC ToTAL
+H23	F_LIVRE
+I23	ToTAL (le livre).docx — Document maître 41+ chapitres
+J23	
+A24	23
+B24	L02
+C24	Réconciliation
+D24	Le SDLC
+E24	4
+F24	Chapitre 16 — FORGe — construire, monter, simuler et stabiliser
+G24	Phase FORGe, intégration continue
+H24	F_LIVRE
+I24	ToTAL (le livre).docx — Document maître 41+ chapitres
+J24	
+A25	24
+B25	L02
+C25	Réconciliation
+D25	Le SDLC
+E25	5
+F25	Chapitre 17 — CARe — diffuser, veiller, intervenir et recueillir
+G25	Phase CARe, déploiement, surveillance
+H25	F_LIVRE
+I25	ToTAL (le livre).docx — Document maître 41+ chapitres
+J25	
+A26	25
+B26	L02
+C26	Réconciliation
+D26	Le SDLC
+E26	6
+F26	Chapitre 16 Tome1 — Planifier (plan) les livraisons
+G26	Planification des livraisons dans le cycle
+H26	F_TOME1
+I26	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J26	
+A27	26
+B27	L02
+C27	Réconciliation
+D27	Le SDLC
+E27	7
+F27	Chapitre 17 Tome1 — Forger (FORGE)
+G27	Construction, intégration continue, épreuve
+H27	F_TOME1
+I27	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J27	
+A28	27
+B28	L02
+C28	Réconciliation
+D28	Le SDLC
+E28	8
+F28	Chapitre 18 Tome1 — Livrer (DELIVERY)
+G28	Livraison, déploiement continu, confiance
+H28	F_TOME1
+I28	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J28	
+A29	28
+B29	L02
+C29	Réconciliation
+D29	Le SDLC
+E29	9
+F29	Chapitre 19 Tome1 — Veiller (CARE)
+G29	Surveillance, intervention, boucle de retour
+H29	F_TOME1
+I29	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J29	
+A30	29
+B30	L02
+C30	Réconciliation
+D30	Le SDLC
+E30	10
+F30	Chapitre 29 — Responsabilités partagées, flux et arbitrages
+G30	Rôles, organigrammes, arbitrages opérationnels
+H30	F_LIVRE
+I30	ToTAL (le livre).docx — Document maître 41+ chapitres
+J30	
+A31	30
+B31	L02
+C31	Réconciliation
+D31	Le SDLC
+E31	11
+F31	Chapitre 35 — Releases, stabilité et confiance opérationnelle
+G31	Gestion des releases, CI/CD
+H31	F_LIVRE
+I31	ToTAL (le livre).docx — Document maître 41+ chapitres
+J31	
+A32	31
+B32	L02
+C32	Réconciliation
+D32	Le SDLC
+E32	12
+F32	Chapitre 39 — Le pit crew logiciel — coordination et fluidité
+G32	Coordination d'équipe dans le cycle de livraison
+H32	F_LIVRE
+I32	ToTAL (le livre).docx — Document maître 41+ chapitres
+J32	
+A33	32
+B33	L02
+C33	Réconciliation
+D33	Le SDLC
+E33	13
+F33	Module 1 — SDLC ToTAL générique (Kit documentaire)
+G33	Gabarit SDLC complet avec liste de vérification
+H33	F_TOME2A
+I33	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J33	
+A34	33
+B34	L02
+C34	Réconciliation
+D34	Le SDLC
+E34	14
+F34	Section 10.3 — SDLC ToTAL
+G34	SDLC de référence consolidé
+H34	F_TOME2B
+I34	Centre_Excellence_v1B.docx — Tome 2 chantier éditorial
+J34	
+A35	34
+B35	L03
+C35	Réconciliation
+D35	Les Spécifications
+E35	1
+F35	Chapitre 14 Tome1 — Faire sens et ressentir (SENSE)
+G35	Élicitation du besoin et de la valeur
+H35	F_TOME1
+I35	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J35	
+A36	35
+B36	L03
+C36	Réconciliation
+D36	Les Spécifications
+E36	2
+F36	Chapitre 15 Tome1 — Spécifier (SPECIFY)
+G36	Forme canonique SI / ALORS, spécification testable
+H36	F_TOME1
+I36	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J36	La forme canonique ToTAL
+A37	36
+B37	L03
+C37	Réconciliation
+D37	Les Spécifications
+E37	3
+F37	Chapitre 19 Livre — Spécifications vivantes et vérité produit
+G37	Spécifications comme artefacts vivants
+H37	F_LIVRE
+I37	ToTAL (le livre).docx — Document maître 41+ chapitres
+J37	
+A38	37
+B38	L03
+C38	Réconciliation
+D38	Les Spécifications
+E38	4
+F38	Chapitre 21 Livre — Modélisation, langage commun et cohérence
+G38	Modélisation continue, langage partagé
+H38	F_LIVRE
+I38	ToTAL (le livre).docx — Document maître 41+ chapitres
+J38	
+A39	38
+B39	L03
+C39	Réconciliation
+D39	Les Spécifications
+E39	5
+F39	Chapitre 7 Tome2 — Clarifier une demande réelle
+G39	Élicitation pratique d'une demande terrain
+H39	F_TOME2A
+I39	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J39	
+A40	39
+B40	L03
+C40	Réconciliation
+D40	Les Spécifications
+E40	6
+F40	Chapitre 9 Tome2 — Transformer une attente en spécification testable
+G40	SI / ALORS en pratique terrain
+H40	F_TOME2A
+I40	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J40	
+A41	40
+B41	L03
+C41	Réconciliation
+D41	Les Spécifications
+E41	7
+F41	Fiche-outil 2 — Le gabarit de spécification SI / ALORS
+G41	Gabarit pratique de spécification
+H41	F_TOME2A
+I41	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J41	
+A42	41
+B42	L03
+C42	Réconciliation
+D42	Les Spécifications
+E42	8
+F42	Cérémonie — Définition ToTAL
+G42	Atelier de définition et spécification
+H42	F_TOME2A
+I42	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J42	
+A43	42
+B43	L03
+C43	Réconciliation
+D43	Les Spécifications
+E43	9
+F43	Approfondissement — SI / ALORS, standards et maturité
+G43	SI / ALORS comme couche commune aux standards
+H43	F_TOME1
+I43	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J43	Dans Annexes
+A44	43
+B44	L04
+C44	Réconciliation
+D44	Entends ma tactique
+E44	1
+F44	Chapitre 4 Tome1 — Quand les transformations s'ajoutent sans se clarifier
+G44	Fatigue transformationnelle, flou stratégique
+H44	F_TOME1
+I44	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J44	
+A45	44
+B45	L04
+C45	Réconciliation
+D45	Entends ma tactique
+E45	2
+F45	Chapitre 28 — PO, PM, leadership et décisions qualité
+G45	Rôles de leadership, décisions qualité
+H45	F_LIVRE
+I45	ToTAL (le livre).docx — Document maître 41+ chapitres
+J45	
+A46	45
+B46	L04
+C46	Réconciliation
+D46	Entends ma tactique
+E46	3
+F46	Chapitre 29 — Responsabilités partagées, flux et arbitrages
+G46	Médiation, arbitrages, contrats d'équipe
+H46	F_LIVRE
+I46	ToTAL (le livre).docx — Document maître 41+ chapitres
+J46	
+A47	46
+B47	L04
+C47	Réconciliation
+D47	Entends ma tactique
+E47	4
+F47	Chapitre 32 — Gouvernance utile plutôt que contrôle tardif
+G47	Gouvernance légère vs contrôle lourd
+H47	F_LIVRE
+I47	ToTAL (le livre).docx — Document maître 41+ chapitres
+J47	
+A48	47
+B48	L04
+C48	Réconciliation
+D48	Entends ma tactique
+E48	5
+F48	Chapitre 17 Tome2 — Les rôles catalyseurs
+G48	Rôles QA, PM, PO comme catalyseurs de changement
+H48	F_TOME2A
+I48	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J48	
+A49	48
+B49	L04
+C49	Réconciliation
+D49	Entends ma tactique
+E49	6
+F49	Chapitre 20 Tome2 — Gouvernance légère et mémoire vivante
+G49	Gouvernance pratique, conformité vivante
+H49	F_TOME2A
+I49	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J49	
+A50	49
+B50	L04
+C50	Réconciliation
+D50	Entends ma tactique
+E50	7
+F50	Module 2 — Contrat de maîtrise ToTAL
+G50	Contrats, engagements de maîtrise
+H50	F_TOME2A
+I50	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J50	
+A51	50
+B51	L04
+C51	Réconciliation
+D51	Entends ma tactique
+E51	8
+F51	Module 3 — RACI ToTAL complet
+G51	Rôles et responsabilités formalisés
+H51	F_TOME2A
+I51	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J51	
+A52	51
+B52	L04
+C52	Réconciliation
+D52	Entends ma tactique
+E52	9
+F52	Section 10.5 — Contrats ToTAL
+G52	Contrats, conformité, engagements formels
+H52	F_TOME2B
+I52	Centre_Excellence_v1B.docx — Tome 2 chantier éditorial
+J52	
+A53	52
+B53	L04
+C53	Réconciliation
+D53	Entends ma tactique
+E53	10
+F53	Section 10.4 — Rôles, RACI et responsabilités de preuve
+G53	Rôles opérationnels et preuves
+H53	F_TOME2B
+I53	Centre_Excellence_v1B.docx — Tome 2 chantier éditorial
+J53	
+A54	53
+B54	L04
+C54	Réconciliation
+D54	Entends ma tactique
+E54	11
+F54	Recommandation — Positionnement de la qualité dans l'organisation
+G54	Sortir la qualité de la fonction isolée
+H54	F_TOME2B
+I54	Centre_Excellence_v1B.docx — Tome 2 chantier éditorial
+J54	Section 19
+A55	54
+B55	L05
+C55	Réconciliation
+D55	La Qualimétrie
+E55	1
+F55	Chapitre 33 — Décider avec des preuves plutôt qu'avec des impressions
+G55	Décision fondée sur preuves, données probantes
+H55	F_LIVRE
+I55	ToTAL (le livre).docx — Document maître 41+ chapitres
+J55	
+A56	55
+B56	L05
+C56	Réconciliation
+D56	La Qualimétrie
+E56	2
+F56	Chapitre 34 — Métriques, qualimétrie et signaux utiles
+G56	Métriques, KPI, gouvernance des données
+H56	F_LIVRE
+I56	ToTAL (le livre).docx — Document maître 41+ chapitres
+J56	
+A57	56
+B57	L05
+C57	Réconciliation
+D57	La Qualimétrie
+E57	3
+F57	Chapitre 40 — Instruments, observabilité et guidage du système
+G57	Observabilité, traçabilité, monitoring
+H57	F_LIVRE
+I57	ToTAL (le livre).docx — Document maître 41+ chapitres
+J57	
+A58	57
+B58	L05
+C58	Réconciliation
+D58	La Qualimétrie
+E58	4
+F58	Chapitre 14 Tome2 — La qualimétrie comme langage de réussite
+G58	Qualimétrie terrain, scorecard de maîtrise
+H58	F_TOME2A
+I58	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J58	
+A59	58
+B59	L05
+C59	Réconciliation
+D59	La Qualimétrie
+E59	5
+F59	Module 5 — Qualimétrie ToTAL et scorecard de maîtrise
+G59	Modèle de mesure complet
+H59	F_TOME2A
+I59	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J59	
+A60	59
+B60	L05
+C60	Réconciliation
+D60	La Qualimétrie
+E60	6
+F60	Section 10.6 — Qualimétrie et signes de réussite
+G60	Métriques de réussite, ROI
+H60	F_TOME2B
+I60	Centre_Excellence_v1B.docx — Tome 2 chantier éditorial
+J60	
+A61	60
+B61	L05
+C61	Réconciliation
+D61	La Qualimétrie
+E61	7
+F61	Recommandation — Gouvernance Jira et Xray
+G61	Traçabilité outillée dans Jira / Xray
+H61	F_TOME2B
+I61	Centre_Excellence_v1B.docx — Tome 2 chantier éditorial
+J61	Section 19
+A62	61
+B62	L05
+C62	Réconciliation
+D62	La Qualimétrie
+E62	8
+F62	Fiche-outil 3 — La fiche de livraison consciente (DELIVERY)
+G62	Fiche KPI / signal de livraison
+H62	F_TOME2A
+I62	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J62	
+A63	62
+B63	L05
+C63	Réconciliation
+D63	La Qualimétrie
+E63	9
+F63	Fiche qualimétrie — Guide de référence
+G63	Canevas de mesure ToTAL
+H63	F_TOME2A
+I63	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J63	
+A64	63
+B64	L06
+C64	Réconciliation
+D64	La Cité de la qualité
+E64	1
+F64	Partie 2 Tome1 — L'assurance qualité des grands concepts
+G64	Ch. 5-8 : QA des concepts, qualité avant les tests
+H64	F_TOME1
+I64	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J64	
+A65	64
+B65	L06
+C65	Réconciliation
+D65	La Cité de la qualité
+E65	2
+F65	Chapitre 5 Tome1 — Et si nos concepts avaient besoin d'assurance qualité ?
+G65	QA des concepts en 15 minutes
+H65	F_TOME1
+I65	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J65	
+A66	65
+B66	L06
+C66	Réconciliation
+D66	La Cité de la qualité
+E66	3
+F66	Chapitre 7 Tome1 — La qualité avant les tests
+G66	Tests comme expression de la spécification
+H66	F_TOME1
+I66	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J66	
+A67	66
+B67	L06
+C67	Réconciliation
+D67	La Cité de la qualité
+E67	4
+F67	Chapitre 10 Tome1 — Qualité : rendre le produit et les décisions dignes de confiance
+G67	Qualité appliquée aux pratiques de réalisation
+H67	F_TOME1
+I67	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J67	
+A68	67
+B68	L06
+C68	Réconciliation
+D68	La Cité de la qualité
+E68	5
+F68	Chapitre 12 Tome1 — Excellence durable : apprendre sans se mentir
+G68	Sur-qualité vs bonne qualité, culture d'excellence
+H68	F_TOME1
+I68	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J68	
+A69	68
+B69	L06
+C69	Réconciliation
+D69	La Cité de la qualité
+E69	6
+F69	Chapitre 24 — La qualité distribuée comme système
+G69	Qualité comme système distribué
+H69	F_LIVRE
+I69	ToTAL (le livre).docx — Document maître 41+ chapitres
+J69	
+A70	69
+B70	L06
+C70	Réconciliation
+D70	La Cité de la qualité
+E70	7
+F70	Chapitre 25 — Le QA comme catalyseur
+G70	Rôle catalyseur du QA dans l'organisation
+H70	F_LIVRE
+I70	ToTAL (le livre).docx — Document maître 41+ chapitres
+J70	
+A71	70
+B71	L06
+C71	Réconciliation
+D71	La Cité de la qualité
+E71	8
+F71	Chapitre 26 — Développeurs et qualité de construction
+G71	Qualité de construction, pratiques développeurs
+H71	F_LIVRE
+I71	ToTAL (le livre).docx — Document maître 41+ chapitres
+J71	
+A72	71
+B72	L06
+C72	Réconciliation
+D72	La Cité de la qualité
+E72	9
+F72	Chapitre 10 Livre — La qualité n'existe jamais hors contexte
+G72	Qualité contextualisée
+H72	F_LIVRE
+I72	ToTAL (le livre).docx — Document maître 41+ chapitres
+J72	
+A73	72
+B73	L06
+C73	Réconciliation
+D73	La Cité de la qualité
+E73	10
+F73	Section 10.7 — IA responsable et automatisation
+G73	Pratiques qualité à l'ère de l'IA
+H73	F_TOME2B
+I73	Centre_Excellence_v1B.docx — Tome 2 chantier éditorial
+J73	
+A74	73
+B74	L07
+C74	Réconciliation
+D74	Méthodologies
+E74	1
+F74	Chapitre 6 Tome1 — Les collisions terminologiques
+G74	Détection et résolution des collisions de sens
+H74	F_TOME1
+I74	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J74	
+A75	74
+B75	L07
+C75	Réconciliation
+D75	Méthodologies
+E75	2
+F75	Chapitre 9 Livre — Les collisions terminologiques
+G75	Terminologie comme dette invisible
+H75	F_LIVRE
+I75	ToTAL (le livre).docx — Document maître 41+ chapitres
+J75	
+A76	75
+B76	L07
+C76	Réconciliation
+D76	Méthodologies
+E76	3
+F76	Chapitre 11 — Le combat du propriétaire de la meilleure solution
+G76	Biais de solution, meilleures pratiques
+H76	F_LIVRE
+I76	ToTAL (le livre).docx — Document maître 41+ chapitres
+J76	
+A77	76
+B77	L07
+C77	Réconciliation
+D77	Méthodologies
+E77	4
+F77	Chapitre 13 — Le legacy applicatif : l'excuse parfaite
+G77	Legacy et qualité
+H77	F_LIVRE
+I77	ToTAL (le livre).docx — Document maître 41+ chapitres
+J77	
+A78	77
+B78	L07
+C78	Réconciliation
+D78	Méthodologies
+E78	5
+F78	Chapitre 30 — ToTAL dans SAFe et les cadres à l'échelle
+G78	Compatibilité ToTAL / SAFe / Agile / Kanban
+H78	F_LIVRE
+I78	ToTAL (le livre).docx — Document maître 41+ chapitres
+J78	
+A79	78
+B79	L07
+C79	Réconciliation
+D79	Méthodologies
+E79	6
+F79	Partie 2 Tome2 — Trouver le point de départ
+G79	Lire le terrain, décisions, premiers terrains
+H79	F_TOME2A
+I79	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J79	Ch. 4-6
+A80	79
+B80	L07
+C80	Réconciliation
+D80	Méthodologies
+E80	7
+F80	Chapitre 8 Tome2 — Qualifier un concept sensible
+G80	Assurance qualité d'un concept
+H80	F_TOME2A
+I80	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J80	
+A81	80
+B81	L07
+C81	Réconciliation
+D81	Méthodologies
+E81	8
+F81	Chapitre 13 Tome2 — Les ateliers ToTAL qui changent les décisions
+G81	Méthodologie des ateliers ToTAL
+H81	F_TOME2A
+I81	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J81	
+A82	81
+B82	L07
+C82	Réconciliation
+D82	Méthodologies
+E82	9
+F82	Lexique ToTAL — source de vérité terminologique vivante
+G82	Terminologie officielle ToTAL
+H82	F_TOME2A
+I82	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J82	
+A83	82
+B83	L07
+C83	Réconciliation
+D83	Méthodologies
+E83	10
+F83	Module 4 — Lexique ToTAL de mission
+G83	Lexique opérationnel de terrain
+H83	F_TOME2A
+I83	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J83	
+A84	83
+B84	L07
+C84	Réconciliation
+D84	Méthodologies
+E84	11
+F84	Section 10.2 — Lexique ToTAL
+G84	Lexique de référence consolidé
+H84	F_TOME2B
+I84	Centre_Excellence_v1B.docx — Tome 2 chantier éditorial
+J84	
+A85	84
+B85	L07
+C85	Réconciliation
+D85	Méthodologies
+E85	12
+F85	Compatible avec les cadres existants
+G85	Compatibilité universelle
+H85	F_TOME2A
+I85	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J85	
+A86	85
+B86	L08
+C86	Réconciliation
+D86	BEASTEST
+E86	1
+F86	Chapitre 20 — Tests comme preuves exécutables
+G86	Tests comme preuves, non comme filet de sécurité
+H86	F_LIVRE
+I86	ToTAL (le livre).docx — Document maître 41+ chapitres
+J86	
+A87	86
+B87	L08
+C87	Réconciliation
+D87	BEASTEST
+E87	2
+F87	Chapitre 22 Tome1 — BEASTEST comme incarnation technologique de ToTAL
+G87	Le cas BEASTEST (produit) comme outil-test
+H87	F_TOME1
+I87	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J87	
+A88	87
+B88	L08
+C88	Réconciliation
+D88	BEASTEST
+E88	3
+F88	Chapitre 7 Tome1 — La qualité avant les tests
+G88	Tests intégrés au flux, pas ajoutés à la fin
+H88	F_TOME1
+I88	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J88	
+A89	88
+B89	L08
+C89	Réconciliation
+D89	BEASTEST
+E89	4
+F89	Chapitre 21 Tome1 — L'automatisation intelligente exige une qualité intelligente
+G89	Automatisation des tests et qualité intelligente
+H89	F_TOME1
+I89	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J89	
+A90	89
+B90	L08
+C90	Réconciliation
+D90	BEASTEST
+E90	5
+F90	Cas conducteur — ORIGINALIUM / DREAM-TEAM / BEASTEST
+G90	Fil rouge du Tome 1 avec l'outil BEASTEST
+H90	F_TOME1
+I90	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J90	Présent dans tout le Tome 1
+A91	90
+B91	L08
+C91	Réconciliation
+D91	BEASTEST
+E91	6
+F91	Module 6 — Grille de couverture de validation
+G91	Couverture minimale, modularisation des tests
+H91	F_TOME2A
+I91	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J91	
+A92	91
+B92	L08
+C92	Réconciliation
+D92	BEASTEST
+E92	7
+F92	Activité-jeu — La chasse à la couverture minimale
+G92	Jeu de découverte de la couverture de tests
+H92	F_TOME2A
+I92	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J92	
+A93	92
+B93	L08
+C93	Réconciliation
+D93	BEASTEST
+E93	8
+F93	Recommandation — Automatisation et couverture ciblée
+G93	Automatiser ce qui protège la décision
+H93	F_TOME2B
+I93	Centre_Excellence_v1B.docx — Tome 2 chantier éditorial
+J93	Section 19
+A94	93
+B94	L09
+C94	Réconciliation
+D94	L'IA
+E94	1
+F94	Chapitre 6 Livre — L'IA force le retour à l'amont
+G94	Impact de l'IA sur les pratiques amont
+H94	F_LIVRE
+I94	ToTAL (le livre).docx — Document maître 41+ chapitres
+J94	
+A95	94
+B95	L09
+C95	Réconciliation
+D95	L'IA
+E95	2
+F95	Chapitre 37 — Données, IA et confiance
+G95	Données, IA et gouvernance de la confiance
+H95	F_LIVRE
+I95	ToTAL (le livre).docx — Document maître 41+ chapitres
+J95	
+A96	95
+B96	L09
+C96	Réconciliation
+D96	L'IA
+E96	3
+F96	Chapitre 41 — Agents IA et amplification responsable
+G96	Agents IA, amplification, responsabilité
+H96	F_LIVRE
+I96	ToTAL (le livre).docx — Document maître 41+ chapitres
+J96	
+A97	96
+B97	L09
+C97	Réconciliation
+D97	L'IA
+E97	4
+F97	Partie 5 Tome1 — L'IA, l'amplification et le potentiel de la qualité
+G97	Ch. 20-23 : IA, automatisation, potentiel qualité
+H97	F_TOME1
+I97	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J97	
+A98	97
+B98	L09
+C98	Réconciliation
+D98	L'IA
+E98	5
+F98	Chapitre 20 Tome1 — L'IA amplifie ce que le système est déjà
+G98	Amplification des forces et des faiblesses
+H98	F_TOME1
+I98	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J98	
+A99	98
+B99	L09
+C99	Réconciliation
+D99	L'IA
+E99	6
+F99	Chapitre 21 Tome1 — IA, qualité et fausses certitudes
+G99	Hallucinations, biais IA, fausses certitudes
+H99	F_TOME1
+I99	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J99	
+A100	99
+B100	L09
+C100	Réconciliation
+D100	L'IA
+E100	7
+F100	Chapitre 22 Tome1 — Utiliser l'IA avec maîtrise ToTAL
+G100	Protocole IA dans ToTAL
+H100	F_TOME1
+I100	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J100	
+A101	100
+B101	L09
+C101	Réconciliation
+D101	L'IA
+E101	8
+F101	Chapitre 16 Tome2 — Utiliser l'IA sans perdre la maîtrise
+G101	Spécifications pour IA, data-driven
+H101	F_TOME2A
+I101	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J101	
+A102	101
+B102	L09
+C102	Réconciliation
+D102	L'IA
+E102	9
+F102	Activité guidée 8 — Revue IA : clarifier avant d'amplifier
+G102	Cérémonie ToTAL autour de l'IA
+H102	F_TOME2A
+I102	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J102	
+A103	102
+B103	L09
+C103	Réconciliation
+D103	L'IA
+E103	10
+F103	Section 10.7 — IA responsable et automatisation
+G103	Cadre IA responsable dans le référentiel
+H103	F_TOME2B
+I103	Centre_Excellence_v1B.docx — Tome 2 chantier éditorial
+J103	
+A104	103
+B104	L09
+C104	Réconciliation
+D104	L'IA
+E104	11
+F104	Fiche-outil 4 — Liste de vérification IA
+G104	Checklist IA pratique terrain
+H104	F_TOME2A
+I104	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J104	
+A105	104
+B105	L09
+C105	Réconciliation
+D105	L'IA
+E105	12
+F105	Respiration ToTAL — avant d'utiliser l'IA
+G105	Protocole de respiration ToTAL avant IA
+H105	F_TOME1
+I105	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J105	Dans Introduction
+A106	105
+B106	L10
+C106	Réconciliation
+D106	Confiance → Succès
+E106	1
+F106	Partie 3 Tome1 — Clarté → qualité → confiance → excellence durable
+G106	Ch. 9-12 : clarté, qualité, confiance, excellence
+H106	F_TOME1
+I106	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J106	
+A107	106
+B107	L10
+C107	Réconciliation
+D107	Confiance → Succès
+E107	2
+F107	Chapitre 9 Tome1 — Clarté : le premier actif qualité
+G107	Clarté comme fondation de la confiance
+H107	F_TOME1
+I107	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J107	
+A108	107
+B108	L10
+C108	Réconciliation
+D108	Confiance → Succès
+E108	3
+F108	Chapitre 11 Tome1 — Confiance : ce que la qualité rend possible
+G108	De la qualité à la confiance client
+H108	F_TOME1
+I108	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J108	
+A109	108
+B109	L10
+C109	Réconciliation
+D109	Confiance → Succès
+E109	4
+F109	Chapitre 23 Tome1 — Maîtriser le potentiel de la qualité
+G109	ROI de la qualité, vitesse durable
+H109	F_TOME1
+I109	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J109	
+A110	109
+B110	L10
+C110	Réconciliation
+D110	Confiance → Succès
+E110	5
+F110	Chapitre 38 — Vitesse durable et réduction du bruit
+G110	Vitesse durable sans dette qualité
+H110	F_LIVRE
+I110	ToTAL (le livre).docx — Document maître 41+ chapitres
+J110	
+A111	110
+B111	L10
+C111	Réconciliation
+D111	Confiance → Succès
+E111	6
+F111	Chapitre 3 Tome2 — La réussite comme preuve dans le réel
+G111	Réussite concrète et observable
+H111	F_TOME2A
+I111	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J111	
+A112	111
+B112	L10
+C112	Réconciliation
+D112	Confiance → Succès
+E112	7
+F112	Chapitre 10 Tome2 — Relier la qualité à une preuve de confiance
+G112	Preuve de confiance terrain
+H112	F_TOME2A
+I112	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J112	
+A113	112
+B113	L10
+C113	Réconciliation
+D113	Confiance → Succès
+E113	8
+F113	Chapitre 11 Tome2 — Réussir une livraison avec ToTAL
+G113	Succès de livraison observable
+H113	F_TOME2A
+I113	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J113	
+A114	113
+B114	L10
+C114	Réconciliation
+D114	Confiance → Succès
+E114	9
+F114	Partie 5 Tome2 — Faire durer la réussite
+G114	Ch. 18-22 : durabilité, CoE, gouvernance
+H114	F_TOME2A
+I114	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J114	
+A115	114
+B115	L10
+C115	Réconciliation
+D115	Confiance → Succès
+E115	10
+F115	Prologue Tome2 — Le défi des 6 semaines
+G115	Réussite en 6 semaines : récit fondateur
+H115	F_TOME2A
+I115	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J115	
+A116	115
+B116	L10
+C116	Réconciliation
+D116	Confiance → Succès
+E116	11
+F116	Partie 8 — Cas terrain anonymisé : mission ToTAL en 6 semaines
+G116	Semaines 0 à 6, preuves de réussite
+H116	F_TOME2A
+I116	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J116	
+A117	116
+B117	L10
+C117	Réconciliation
+D117	Confiance → Succès
+E117	12
+F117	Conclusion — Quand la réussite devient plus grande que la mission
+G117	Vision long terme du succès ToTAL
+H117	F_TOME2A
+I117	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J117	
+A118	117
+B118	L11
+C118	Réconciliation
+D118	L'Investigation
+E118	1
+F118	Chapitre 14 Tome1 — Faire sens et ressentir (SENSE)
+G118	Écouter avant de définir, élicitation profonde
+H118	F_TOME1
+I118	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J118	
+A119	118
+B119	L11
+C119	Réconciliation
+D119	L'Investigation
+E119	2
+F119	Chapitre 4 Tome2 — Lire le terrain avant d'intervenir
+G119	Lecture du terrain, investigation préalable
+H119	F_TOME2A
+I119	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J119	
+A120	119
+B120	L11
+C120	Réconciliation
+D120	L'Investigation
+E120	3
+F120	Chapitre 5 Tome2 — Identifier la première décision à améliorer
+G120	Investigation de la décision critique
+H120	F_TOME2A
+I120	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J120	
+A121	120
+B121	L11
+C121	Réconciliation
+D121	L'Investigation
+E121	4
+F121	Activité guidée 1 — Repérer le flou
+G121	Détection des zones d'incertitude
+H121	F_TOME2A
+I121	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J121	
+A122	121
+B122	L11
+C122	Réconciliation
+D122	L'Investigation
+E122	5
+F122	Activité guidée 2 — Clarifier une décision
+G122	Processus d'investigation d'une décision
+H122	F_TOME2A
+I122	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J122	
+A123	122
+B123	L11
+C123	Réconciliation
+D123	L'Investigation
+E123	6
+F123	Canevas de diagnostic ToTAL
+G123	Diagnostic initial, portrait de maîtrise
+H123	F_TOME2A
+I123	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J123	
+A124	123
+B124	L11
+C124	Réconciliation
+D124	L'Investigation
+E124	7
+F124	Fiche-outil 1 — Le diagnostic éclair en 5 questions
+G124	Investigation rapide en 5 questions
+H124	F_TOME2A
+I124	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J124	
+A125	124
+B125	L11
+C125	Réconciliation
+D125	L'Investigation
+E125	8
+F125	Gabarit — Registre des décisions fragiles
+G125	Cartographie des décisions à risque
+H125	F_TOME2A
+I125	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J125	
+A126	125
+B126	L12
+C126	Réconciliation
+D126	Attrape ce bug !
+E126	1
+F126	Prologue personnel Tome1 — Le premier bug que personne ne voulait croire
+G126	Récit fondateur : le bug ignoré
+H126	F_TOME1
+I126	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J126	
+A127	126
+B127	L12
+C127	Réconciliation
+D127	Attrape ce bug !
+E127	2
+F127	Chapitre 8 Tome1 — Les erreurs, bugs et signaux comme matière d'apprentissage
+G127	Post-mortem, culture d'apprentissage
+H127	F_TOME1
+I127	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J127	
+A128	127
+B128	L12
+C128	Réconciliation
+D128	Attrape ce bug !
+E128	3
+F128	Chapitre 23 — Apprentissage continu et réinjection des signaux
+G128	Réinjection systématique des apprentissages
+H128	F_LIVRE
+I128	ToTAL (le livre).docx — Document maître 41+ chapitres
+J128	
+A129	128
+B129	L12
+C129	Réconciliation
+D129	Attrape ce bug !
+E129	4
+F129	Chapitre 12 Tome2 — Réinjecter l'apprentissage
+G129	Boucle d'apprentissage après incident
+H129	F_TOME2A
+I129	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J129	
+A130	129
+B130	L12
+C130	Réconciliation
+D130	Attrape ce bug !
+E130	5
+F130	Activité guidée 7 — Réinjecter un apprentissage
+G130	Protocole de réinjection terrain
+H130	F_TOME2A
+I130	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J130	
+A131	130
+B131	L12
+C131	Réconciliation
+D131	Attrape ce bug !
+E131	6
+F131	Cérémonie — Rétro ToTAL et réinjection
+G131	Format de rétro orienté bugs et apprentissage
+H131	F_TOME2A
+I131	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J131	
+A132	131
+B132	L12
+C132	Réconciliation
+D132	Attrape ce bug !
+E132	7
+F132	Gabarit — Journal des apprentissages réinjectés
+G132	Trace systématique des leçons
+H132	F_TOME2A
+I132	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J132	
+A133	132
+B133	L12
+C133	Réconciliation
+D133	Attrape ce bug !
+E133	8
+F133	Anti-pattern — Transformer la qualité en douane go / no-go
+G133	Pièges du QA comme gardien bloquant
+H133	F_TOME1
+I133	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J133	Dans Épilogue
+A134	133
+B134	L13
+C134	Réconciliation
+D134	Le Génésis humain
+E134	1
+F134	Chapitre 36 — Automatisation utile plutôt qu'automatisation décorative
+G134	Philosophie de l'automatisation utile
+H134	F_LIVRE
+I134	ToTAL (le livre).docx — Document maître 41+ chapitres
+J134	
+A135	134
+B135	L13
+C135	Réconciliation
+D135	Le Génésis humain
+E135	2
+F135	Chapitre 21 Tome1 — L'automatisation intelligente exige une qualité intelligente
+G135	Relation humain-machine dans l'automatisation
+H135	F_TOME1
+I135	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J135	
+A136	135
+B136	L13
+C136	Réconciliation
+D136	Le Génésis humain
+E136	3
+F136	Chapitre 15 Tome2 — Automatiser la clarté
+G136	Automatisation de la clarté, pas du bruit
+H136	F_TOME2A
+I136	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J136	
+A137	136
+B137	L13
+C137	Réconciliation
+D137	Le Génésis humain
+E137	4
+F137	Anti-pattern — Ajouter des ressources au mauvais goulot
+G137	Philosophie de l'optimisation humaine
+H137	F_TOME1
+I137	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J137	Dans Épilogue
+A138	137
+B138	L13
+C138	Réconciliation
+D138	Le Génésis humain
+E138	5
+F138	Section 10.7 — IA responsable et automatisation
+G138	Origine humaine de l'automatisation responsable
+H138	F_TOME2B
+I138	Centre_Excellence_v1B.docx — Tome 2 chantier éditorial
+J138	
+A139	138
+B139	L13
+C139	Réconciliation
+D139	Le Génésis humain
+E139	6
+F139	Recommandation — Rôle de l'IA dans le SDLC
+G139	Amplifier la clarté, pas le flou
+H139	F_TOME2B
+I139	Centre_Excellence_v1B.docx — Tome 2 chantier éditorial
+J139	Section 19
+A140	139
+B140	L14
+C140	Guidance opérationnelle
+D140	Rouge
+E140	1
+F140	Partie 6 — Le système de pratique terrain ToTAL
+G140	Parcours guidé de mission en 6 semaines
+H140	F_TOME2A
+I140	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J140	Source principale Guidance
+A141	140
+B141	L14
+C141	Guidance opérationnelle
+D141	Rouge
+E141	2
+F141	Activités guidées 1-9 — Acquisition progressive
+G141	Activités terrain de base du praticien
+H141	F_TOME2A
+I141	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J141	
+A142	141
+B142	L14
+C142	Guidance opérationnelle
+D142	Rouge
+E142	3
+F142	Activités guidées 10-12 — Boucle de clôture
+G142	Rétro, mini CoE, bilan de mission
+H142	F_TOME2A
+I142	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J142	
+A143	142
+B143	L14
+C143	Guidance opérationnelle
+D143	Rouge
+E143	4
+F143	Partie 7 — Boîte à outils terrain (Fiches 1-7)
+G143	Fiches-outils du praticien terrain
+H143	F_TOME2A
+I143	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J143	
+A144	143
+B144	L14
+C144	Guidance opérationnelle
+D144	Rouge
+E144	5
+F144	Partie 8 — Cas terrain anonymisé semaine 0 à 6
+G144	Récit terrain complet sur 6 semaines
+H144	F_TOME2A
+I144	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J144	
+A145	144
+B145	L14
+C145	Guidance opérationnelle
+D145	Rouge
+E145	6
+F145	Partie 9 — Kit documentaire client ToTAL
+G145	Les 10 familles de gabarits
+H145	F_TOME2A
+I145	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J145	
+A146	145
+B146	L14
+C146	Guidance opérationnelle
+D146	Rouge
+E146	7
+F146	Gabarits terrain complets — Mission, portrait, RACI
+G146	Gabarits praticables terrain
+H146	F_TOME2A
+I146	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J146	
+A147	146
+B147	L14
+C147	Guidance opérationnelle
+D147	Rouge
+E147	8
+F147	Listes de vérification terrain — Élicitation à réinjection
+G147	Checklists complètes du praticien
+H147	F_TOME2A
+I147	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J147	
+A148	147
+B148	L15
+C148	Guidance opérationnelle
+D148	Orange
+E148	1
+F148	Cérémonies ToTAL prêtes à animer (4 cérémonies)
+G148	Élicitation, Définition, DELIVERY, Rétro
+H148	F_TOME2A
+I148	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J148	À distribuer dans les 7 livres Guidance
+A149	148
+B149	L15
+C149	Guidance opérationnelle
+D149	Orange
+E149	2
+F149	Format détaillé d'une cérémonie ToTAL
+G149	Format standard de cérémonie
+H149	F_TOME2A
+I149	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J149	
+A150	149
+B150	L15
+C150	Guidance opérationnelle
+D150	Orange
+E150	3
+F150	Choisir sa recette de mise en place ToTAL
+G150	7 recettes possibles + recette mère
+H150	F_TOME2A
+I150	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J150	
+A151	150
+B151	L15
+C151	Guidance opérationnelle
+D151	Orange
+E151	4
+F151	Mode coach, mode autonome et mode apprentissage
+G151	Modes de guidance du praticien
+H151	F_TOME2A
+I151	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J151	
+A152	151
+B152	L16
+C152	Guidance opérationnelle
+D152	Jaune
+E152	1
+F152	Module 7 — Mécanisme d'évolution en mission live
+G152	Adaptation dynamique en mission
+H152	F_TOME2A
+I152	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J152	
+A153	152
+B153	L16
+C153	Guidance opérationnelle
+D153	Jaune
+E153	2
+F153	Protocole d'adaptation client
+G153	Personnalisation du kit pour chaque client
+H153	F_TOME2A
+I153	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J153	
+A154	153
+B154	L16
+C154	Guidance opérationnelle
+D154	Jaune
+E154	3
+F154	Plan de formation continue ToTAL
+G154	Parcours de formation sur 8 semaines
+H154	F_TOME2A
+I154	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J154	
+A155	154
+B155	L17
+C155	Guidance opérationnelle
+D155	Vert
+E155	1
+F155	Chapitre 21 Tome2 — Maturité ToTAL : choisir le prochain meilleur pas
+G155	Modèle de maturité, progression
+H155	F_TOME2A
+I155	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J155	
+A156	155
+B156	L17
+C156	Guidance opérationnelle
+D156	Vert
+E156	2
+F156	Chapitre 22 Tome2 — Le plan 30-60-90 jours
+G156	Feuille de route 30-60-90 jours
+H156	F_TOME2A
+I156	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J156	
+A157	156
+B157	L17
+C157	Guidance opérationnelle
+D157	Vert
+E157	3
+F157	Section 19 — Recommandations opérationnelles priorisées
+G157	Carte de priorisation et dépendances
+H157	F_TOME2B
+I157	Centre_Excellence_v1B.docx — Tome 2 chantier éditorial
+J157	
+A158	157
+B158	L18
+C158	Guidance opérationnelle
+D158	Bleu
+E158	1
+F158	Recommandation — CoE : rôles catalyseurs et transmission durable
+G158	Mandat, rôles, transmission
+H158	F_TOME2B
+I158	Centre_Excellence_v1B.docx — Tome 2 chantier éditorial
+J158	Section 19
+A159	158
+B159	L18
+C159	Guidance opérationnelle
+D159	Bleu
+E159	2
+F159	Section 10.8 — Centre d'excellence et Académie ToTAL
+G159	Structure CoE et Académie
+H159	F_TOME2B
+I159	Centre_Excellence_v1B.docx — Tome 2 chantier éditorial
+J159	
+A160	159
+B160	L18
+C160	Guidance opérationnelle
+D160	Bleu
+E160	3
+F160	Activité guidée 11 — Construire un mini Centre d'excellence ToTAL
+G160	CoE minimal praticable
+H160	F_TOME2A
+I160	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J160	
+A161	160
+B161	L19
+C161	Guidance opérationnelle
+D161	Indigo
+E161	1
+F161	Journal d'apprentissage du praticien ToTAL
+G161	Trace réflexive du praticien en mission
+H161	F_TOME2A
+I161	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J161	
+A162	161
+B162	L19
+C162	Guidance opérationnelle
+D162	Indigo
+E162	2
+F162	Évaluation et maturité d'acquisition
+G162	Grille d'évaluation du praticien
+H162	F_TOME2A
+I162	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J162	
+A163	162
+B163	L19
+C163	Guidance opérationnelle
+D163	Indigo
+E163	3
+F163	Rythme d'absorption ToTAL — ne pas montrer toute la montagne
+G163	Pédagogie progressive du guidance
+H163	F_TOME2B
+I163	Centre_Excellence_v1B.docx — Tome 2 chantier éditorial
+J163	
+A164	163
+B164	L20
+C164	Guidance opérationnelle
+D164	Violet
+E164	1
+F164	Conclusion — De l'aventure au guide — poursuivre ToTAL comme un art vivant
+G164	Vision longue de la guidance comme art
+H164	F_TOME2B
+I164	Centre_Excellence_v1B.docx — Tome 2 chantier éditorial
+J164	
+A165	164
+B165	L20
+C165	Guidance opérationnelle
+D165	Violet
+E165	2
+F165	Adoption ToTAL — de la compréhension au réflexe
+G165	Adoption progressive jusqu'au réflexe
+H165	F_TOME1
+I165	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J165	Dans Épilogue
+A166	165
+B166	L20
+C166	Guidance opérationnelle
+D166	Violet
+E166	3
+F166	Annexes Grilles rapides — IA et Automatisation
+G166	Grilles de guidance rapide
+H166	F_TOME2A
+I166	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version pub
+J166	
+A167	166
+B167	L21
+C167	Réserve d'idée
+D167	Reste à trouver
+E167	1
+F167	Chapitre 12 — Le manifeste qualité
+G167	Manifeste qualité ToTAL — à développer
+H167	F_LIVRE
+I167	ToTAL (le livre).docx — Document maître 41+ chapitres
+J167	Chapitre embryonnaire
+A168	167
+B168	L21
+C168	Réserve d'idée
+D168	Reste à trouver
+E168	2
+F168	Chapitre 27 — Architectes et cohérence du système
+G168	Architecture distribuée, interopérabilité
+H168	F_LIVRE
+I168	ToTAL (le livre).docx — Document maître 41+ chapitres
+J168	À consolider
+A169	168
+B169	L21
+C169	Réserve d'idée
+D169	Reste à trouver
+E169	3
+F169	Chapitre 31 — Valeur, flux et qualité systémique
+G169	Qualité systémique dans le flux de valeur
+H169	F_LIVRE
+I169	ToTAL (le livre).docx — Document maître 41+ chapitres
+J169	À consolider
+A170	169
+B170	L21
+C170	Réserve d'idée
+D170	Reste à trouver
+E170	4
+F170	Chapitres 42-48 — Chapitres non encore nommés
+G170	Réserve structurelle du document maître
+H170	F_LIVRE
+I170	ToTAL (le livre).docx — Document maître 41+ chapitres
+J170	Chapitres vides — potentiel futur
+A171	170
+B171	L21
+C171	Réserve d'idée
+D171	Reste à trouver
+E171	5
+F171	Carnet de terrain — Quand le flou ouvre la porte au sabotage
+G171	Récit terrain à valeur livre autonome
+H171	F_TOME1
+I171	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réa
+J171	Réutilisable
+## HEADER @`tA ##
+## SHEET sheet2 ##
+A1	Livre_ID
+B1	Catégorie
+C1	Titre court
+D1	Titre complet
+E1	Nb sections mappées
+F1	Sources impliquées
+G1	Lacune ?
+A2	L01
+B2	Introduction
+C2	L'Origine
+D2	ToTAL — L'origine de l'art de l'excellence pour la réalisation dans le domaine du logiciel
+E2	19
+F2	F_LIVRE, F_TOME1, F_TOME2A, F_TOME2B
+G2	✅ Couvert
+A3	L02
+B3	Réconciliation
+C3	Le SDLC
+D3	Le SDLC — intégration continue, livraison, déploiement, rôles et responsabilités, organigrammes opérationnels
+E3	14
+F3	F_LIVRE, F_TOME1, F_TOME2A, F_TOME2B
+G3	✅ Couvert
+A4	L03
+B4	Réconciliation
+C4	Les Spécifications
+D4	Les spécifications par la modélisation en continu
+E4	9
+F4	F_LIVRE, F_TOME1, F_TOME2A
+G4	✅ Couvert
+A5	L04
+B5	Réconciliation
+C5	Entends ma tactique
+D5	Entends ma tactique ?, j'entends ton plan ?, est-ce donc qu'on s'entend sur la stratégie ?
+E5	11
+F5	F_LIVRE, F_TOME1, F_TOME2A, F_TOME2B
+G5	✅ Couvert
+A6	L05
+B6	Réconciliation
+C6	La Qualimétrie
+D6	Se mesurer pour s'améliorer par la qualimétrie
+E6	9
+F6	F_LIVRE, F_TOME2A, F_TOME2B
+G6	✅ Couvert
+A7	L06
+B7	Réconciliation
+C7	La Cité de la qualité
+D7	La mystérieuse cité de la qualité perdue
+E7	10
+F7	F_LIVRE, F_TOME1, F_TOME2B
+G7	✅ Couvert
+A8	L07
+B8	Réconciliation
+C8	Méthodologies
+D8	Méthodologies, terminologies et meilleures pratiques
+E8	12
+F8	F_LIVRE, F_TOME1, F_TOME2A, F_TOME2B
+G8	✅ Couvert
+A9	L08
+B9	Réconciliation
+C9	BEASTEST
+D9	Est-ce que le beastest outil existe ?
+E9	8
+F9	F_LIVRE, F_TOME1, F_TOME2A, F_TOME2B
+G9	✅ Couvert
+A10	L09
+B10	Réconciliation
+C10	L'IA
+D10	Jongler intelligemment avec l'intelligence artificielle
+E10	12
+F10	F_LIVRE, F_TOME1, F_TOME2A, F_TOME2B
+G10	✅ Couvert
+A11	L10
+B11	Réconciliation
+C11	Confiance → Succès
+D11	De la confiance vers la satisfaction jusqu'au succès
+E11	12
+F11	F_LIVRE, F_TOME1, F_TOME2A
+G11	✅ Couvert
+A12	L11
+B12	Réconciliation
+C12	L'Investigation
+D12	De l'exploration à la découverte : la science oubliée de l'investigation et de la recherche
+E12	8
+F12	F_TOME1, F_TOME2A
+G12	✅ Couvert
+A13	L12
+B13	Réconciliation
+C13	Attrape ce bug !
+D13	Attrape-moi donc ce bug !
+E13	8
+F13	F_LIVRE, F_TOME1, F_TOME2A
+G13	✅ Couvert
+A14	L13
+B14	Réconciliation
+C14	Le Génésis humain
+D14	Le génésis humain de l'automatisation
+E14	6
+F14	F_LIVRE, F_TOME1, F_TOME2A, F_TOME2B
+G14	⚠️ À enrichir
+A15	L14
+B15	Guidance opérationnelle
+C15	Rouge
+D15	Rouge — Guidance opérationnelle (1/7)
+E15	8
+F15	F_TOME2A
+G15	✅ Couvert
+A16	L15
+B16	Guidance opérationnelle
+C16	Orange
+D16	Orange — Guidance opérationnelle (2/7)
+E16	4
+F16	F_TOME2A
+G16	⚠️ À enrichir
+A17	L16
+B17	Guidance opérationnelle
+C17	Jaune
+D17	Jaune — Guidance opérationnelle (3/7)
+E17	3
+F17	F_TOME2A
+G17	⚠️ Peu de sources
+A18	L17
+B18	Guidance opérationnelle
+C18	Vert
+D18	Vert — Guidance opérationnelle (4/7)
+E18	3
+F18	F_TOME2A, F_TOME2B
+G18	⚠️ Peu de sources
+A19	L18
+B19	Guidance opérationnelle
+C19	Bleu
+D19	Bleu — Guidance opérationnelle (5/7)
+E19	3
+F19	F_TOME2A, F_TOME2B
+G19	⚠️ Peu de sources
+A20	L19
+B20	Guidance opérationnelle
+C20	Indigo
+D20	Indigo — Guidance opérationnelle (6/7)
+E20	3
+F20	F_TOME2A, F_TOME2B
+G20	⚠️ Peu de sources
+A21	L20
+B21	Guidance opérationnelle
+C21	Violet
+D21	Violet — Guidance opérationnelle (7/7)
+E21	3
+F21	F_TOME1, F_TOME2A, F_TOME2B
+G21	⚠️ Peu de sources
+A22	L21
+B22	Réserve d'idée
+C22	Reste à trouver
+D22	Reste à trouver — Réserve d'idée
+E22	5
+F22	F_LIVRE, F_TOME1
+G22	⚠️ À enrichir
+## HEADER @`tA ##
+## SHEET sheet3 ##
+A1	Source_ID
+B1	Fichier
+C1	Rôle
+D1	Livres alimentés
+E1	Nb sections fournies
+F1	Chapitres / Sections clés
+A2	F_LIVRE
+B2	ToTAL (le livre).docx — Document maître 41+ chapitres
+C2	Document maître éditorial — 41 chapitres numérotés + Annexes A-J
+D2	L01, L02, L03, L04, L05, L06, L07, L08, L09, L10, L12, L13, L21
+E2	44
+F2	Ch. 1-41 + Annexes A-J ; Triforce SENSe/FORGe/CARe ; Capacités ToTAL (T·O·T·A·L)
+A3	F_TOME1
+B3	Art_Realiser_Produit_Logiciel_v31.docx — Tome 1 L'art de réaliser (v3.1)
+C3	Tome 1 opérationnel — L'art de réaliser, cas ORIGINALIUM/BEASTEST
+D3	L01, L02, L03, L04, L06, L07, L08, L09, L10, L11, L12, L13, L20, L21
+E3	40
+F3	Prologues ; Parties 1-5 ; SDLC ToTAL ; BEASTEST ; IA ; Épilogue + Glossaire
+A4	F_TOME2A
+B4	Tome2_Centre_Excellence_CoverFixed.docx — Tome 2 version publiable
+C4	Tome 2 publiable — Centre d'excellence, guide terrain 6 semaines
+D4	L01, L02, L03, L04, L05, L07, L08, L09, L10, L11, L12, L13, L14, L15, L16, L17, L18, L19, L20
+E4	67
+F4	Parties 1-9 ; Guide terrain 6 sem. ; Kit documentaire ; Cérémonies ; Activités 1-12
+A5	F_TOME2B
+B5	Centre_Excellence_v1B.docx — Tome 2 chantier éditorial
+C5	Tome 2 chantier éditorial — Référentiel consolidé + recommandations
+D5	L01, L02, L04, L05, L06, L07, L08, L09, L13, L17, L18, L19, L20
+E5	19
+F5	Parties 7-11 ; Référentiel 10.1-10.8 ; 19 recommandations ; Chantier éditorial
+## HEADER @`tA ##
+## SHEET sheet4 ##
+B2	📚  ToTAL — Mapping 21 livres / Sources
+B3	Généré le 17 septembre 2026 | Michel Bélanger | Disraeli, QC
+B5	21 livres ToTAL définis
+C5	21
+B6	Sections mappées (total)
+C6	170
+B7	Fichiers sources analysés
+C7	4 / 9 disponibles
+B8	Livres bien couverts (≥7 sec.)
+C8	10 / 21
+B9	Livres à enrichir (4–6 sec.)
+C9	8 / 21
+B10	Livres peu couverts (<4 sec.)
+C10	3 / 21
+B11	Alithya.pdf
+C11	⚠️ NON REÇU
+B13	⚠️  Note — Alithya.pdf
+B14	Le fichier Alithya.pdf mentionné dans votre message n'a pas été reçu dans cette conversation. Veuillez le joindre dans un nouveau message pour que son contenu puisse être intégré dans le mapping et enrichir les 21 livres ToTAL.
+B18	Légende
+B19	  Introduction — fondement de ToTAL
+B20	  13 livres de Réconciliation
+B21	  7 livres de Guidance opérationnelle
+B22	  Réserve d'idée
+## HEADER @`tA ##
+

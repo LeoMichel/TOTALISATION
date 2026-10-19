@@ -1,0 +1,1121 @@
+﻿## SHEET sheet1 ##
+A1	Registre maître ToTAL de la qualimétrie
+A2	Version initiale de chantier • La qualimétrie comme système d’éclairage transversal de la réalisation logicielle
+A4	Élément
+B4	Décision fondatrice
+C4	Conséquence
+D4	Statut
+A5	Objet central
+B5	La qualimétrie ToTAL transforme besoins d’information, observations, mesures, signaux, preuves et inconnues en un éclairage partagé de la réalité du produit et de son système de réalisation.
+C5	Tous les leviers contribuent à un portrait cohérent et réutilisent cet éclairage pour apprendre, améliorer, investir et décider.
+D5	Fondation adoptée
+A6	Lien avec le test
+B6	Le test et la Validation sont des sources majeures d’observations et de preuves, mais la qualimétrie ne se limite pas au test.
+C6	Le registre maître du test reste figé comme référence; ce registre approfondit la chaîne de visibilité.
+D6	Héritage déclaré
+A7	Position
+B7	La qualimétrie est transversale, pas une phase finale ni un tableau de bord.
+C7	Elle traverse Éliciter, Définir, Planifier, Implémenter, Diffuser, Confirmer et demeure active dans CARE.
+D7	Fondation adoptée
+A8	Autorité
+B8	La qualimétrie éclaire sans approuver, sanctionner, classer ou décider à la place des autorités responsables.
+C8	Les décisions, responsabilités, incertitudes et limites demeurent explicites.
+D8	Garde-fou adopté
+A9	Périmètre actuel
+B9	Construire le noyau conceptuel, la chaîne qualimétrique, le contrat de mesure, la carte des leviers, les collisions et l’inventaire initial.
+C9	Les métriques locales et valeurs réelles ne sont jamais inventées.
+D9	Chantier initial
+A11	QUESTION FONDATRICE
+A12	Comment rendre visible la réalité du produit et de sa réalisation, sans la déformer par des métriques isolées, des outils, des objectifs locaux ou de fausses certitudes?
+## HEADER @`tA ##
+## SHEET sheet2 ##
+A1	Fondations de la qualimétrie ToTAL
+A2	Décisions structurantes du nouveau registre maître.
+A4	ID
+B4	Fondation
+C4	Formulation canonique
+D4	Collision ou dérive évitée
+E4	Statut
+A5	FQ-001
+B5	Système d’éclairage
+C5	La qualimétrie est le système d’éclairage transversal de ToTAL : elle rend la réalité suffisamment visible pour apprendre, améliorer, investir et décider.
+D5	Tableau de bord décoratif; fonction locale de reporting
+E5	Fixed initial
+A6	FQ-002
+B6	Produit central
+C6	Les observations locales convergent vers la compréhension du produit, de ses résultats utiles, de sa santé, de sa satisfaction, de sa valeur et de sa pérennité.
+D6	Vérités concurrentes de projet, équipe, pipeline et outil
+E6	Fixed initial
+A7	FQ-003
+B7	Besoin avant métrique
+C7	Toute métrique naît d’un besoin d’information explicite, et non de la disponibilité d’une donnée ou d’un outil.
+D7	Mesurer parce que la donnée existe
+E7	Fixed initial
+A8	FQ-004
+B8	Mesure contextualisée
+C8	Une valeur n’a de sens qu’avec objet, population, période, source, méthode, unité, référence, confiance et limites.
+D8	Valeur isolée présentée comme vérité
+E8	Fixed initial
+A9	FQ-005
+B9	Éclairage sans autorité
+C9	La qualimétrie soutient recommandations et décisions sans devenir approbation, sanction, classement ou autorité automatique.
+D9	Douane qualimétrique; gestion punitive
+E9	Fixed initial
+A10	FQ-006
+B10	Inconnu visible
+C10	L’absence, la faiblesse ou l’incertitude de l’information demeure visible; elle n’est jamais remplacée par zéro, vert ou conforme.
+D10	Fausse précision; silence interprété comme succès
+E10	Fixed initial
+A11	FQ-007
+B11	Chaîne traçable
+C11	Chaque information utile conserve ses relations entre besoin, source, observation, calcul, référence, qualification, preuve, décision et effet.
+D11	KPI sans provenance ni conséquence
+E11	Fixed initial
+A12	FQ-008
+B12	Local contribue au global
+C12	Une métrique locale reste légitime si elle explique son chemin de contribution vers le produit et ses limites d’attribution.
+D12	Mesure locale élevée en finalité universelle
+E12	Fixed initial
+A13	FQ-009
+B13	Outil source, pas vérité
+C13	Les outils collectent, calculent ou présentent; ils ne définissent pas seuls le concept canonique ni sa signification.
+D13	Jira, Xray, SonarQube ou BI comme définition de la réalité
+E13	Fixed initial
+A14	FQ-010
+B14	CARE rééclaire
+C14	CARE observe les effets réels et renvoie l’apprentissage vers les intentions, spécifications, modèles, plans et investissements.
+D14	Mesure arrêtée à la diffusion
+E14	Fixed initial
+A15	FQ-011
+B15	Mesure non punitive
+C15	Les mesures portant sur le travail humain éclairent les conditions, le système et les contributions; elles ne classent pas automatiquement les personnes.
+D15	Performance individuelle déduite d’un indicateur local
+E15	Fixed initial
+A16	FQ-012
+B16	Décision distincte
+C16	Une qualification ou recommandation ne devient décision que lorsqu’une autorité déclarée assume le contexte, les compromis et les conséquences.
+D16	Seuil automatique assimilé à une décision
+E16	Fixed initial
+## HEADER @`tA ##
+## SHEET sheet3 ##
+A1	Chaîne qualimétrique ToTAL
+A2	Du besoin d’information à l’apprentissage réel, sans fusionner les objets.
+A4	Ordre
+B4	Élément
+C4	Question directrice
+D4	Produit ou information
+E4	Ne démontre pas seul
+A5	1
+B5	Intention / besoin d’information
+C5	Pourquoi faut-il savoir?
+D5	Question décisionnelle, risque, apprentissage ou résultat utile recherché.
+E5	Qu’une métrique existante est pertinente.
+A6	2
+B6	Objet / population / contexte
+C6	Sur quelle réalité porte la connaissance?
+D6	Frontières, occurrences, personnes concernées, versions, environnements et période.
+E6	Que les résultats sont généralisables ailleurs.
+A7	3
+B7	Spécification / hypothèse / référence
+C7	À quoi confronter la réalité?
+D7	Attente, modèle, seuil, baseline, obligation ou hypothèse versionnée.
+E7	Que la référence est correcte ou toujours actuelle.
+A8	4
+B8	Source / captation
+C8	D’où viennent les faits?
+D8	Événements, journaux, tests, enquêtes, coûts, incidents, télémétrie ou observations humaines.
+E8	Que les données sont complètes, exactes ou représentatives.
+A9	5
+B9	Observation
+C9	Quels faits ont été captés?
+D9	Faits datés et contextualisés.
+E9	Une conclusion, une cause ou une décision.
+A10	6
+B10	Mesure de base
+C10	Quelle valeur directe est obtenue?
+D10	Nombre, durée, taille, état, présence ou absence.
+E10	Une interprétation utile.
+A11	7
+B11	Mesure dérivée
+C11	Quel calcul transforme les mesures?
+D11	Taux, ratio, percentile, distribution, tendance ou indice.
+E11	La qualité du calcul, de la source ou du dénominateur.
+A12	8
+B12	Check / qualification locale
+C12	Que signifie la comparaison locale?
+D12	Conforme, écart, dérive, alerte, inconclusif ou inconnu.
+E12	Une preuve complète ou une décision.
+A13	9
+B13	Indicateur / signal
+C13	Quelle information invite à comprendre ou agir?
+D13	Information interprétée ou signal d’investigation.
+E13	Une causalité ou une priorité universelle.
+A14	10
+B14	Preuve / confiance / limites
+C14	Quelle affirmation est réellement soutenue?
+D14	Ensemble traçable avec fraîcheur, représentativité, incertitude et limites.
+E14	L’absence absolue de risque.
+A15	11
+B15	Portrait qualimétrique
+C15	Que savons-nous de l’ensemble?
+D15	Vue multidimensionnelle de la santé, satisfaction, valeur, pérennité, confiance et inconnues.
+E15	Une vérité unique ou éternelle.
+A16	12
+B16	Recommandation
+C16	Quelles options l’éclairage rend-il raisonnables?
+D16	Options, compromis, risques, coûts et conséquences.
+E16	La décision de l’autorité.
+A17	13
+B17	Décision / action
+C17	Quelle transformation est assumée?
+D17	Choix gouverné, investissement, priorité, maintien, changement ou retrait.
+E17	Que l’effet attendu sera obtenu.
+A18	14
+B18	CARE / effet réel
+C18	Qu’est-il réellement arrivé?
+D18	Effets, apprentissages, dérives et nouvelles questions.
+E18	Que l’apprentissage est terminé.
+## HEADER @`tA ##
+## SHEET sheet4 ##
+A1	Contrat canonique de qualimétrie
+A2	Champs minimaux à déclarer avant de confier une décision à une mesure.
+A4	ID
+B4	Coordonnée
+C4	Question
+D4	Exigence
+E4	Exemples / garde-fous
+A5	CQ-001
+B5	Besoin d’information
+C5	Quelle question faut-il éclairer et pour quelle décision ou action?
+D5	Obligatoire
+E5	Ne pas commencer par le KPI ou l’outil.
+A6	CQ-002
+B6	Objet mesuré
+C6	Sur quel produit, Service, capacité, artefact, processus ou levier porte la mesure?
+D6	Obligatoire
+E6	Déclarer frontières et occurrence.
+A7	CQ-003
+B7	Propriété
+C7	Quelle caractéristique cherche-t-on à comprendre?
+D7	Obligatoire
+E7	Santé, délai, fiabilité, coût, satisfaction, risque, maintenabilité.
+A8	CQ-004
+B8	Population / périmètre
+C8	Quelles occurrences sont incluses, exclues ou inconnues?
+D8	Obligatoire
+E8	Dénominateur, segments, environnements et versions.
+A9	CQ-005
+B9	Unité / échelle
+C9	Comment la grandeur ou qualification est-elle exprimée?
+D9	Obligatoire
+E9	Nombre, temps, argent, taux, ordinal, catégorie.
+A10	CQ-006
+B10	Source / provenance
+C10	D’où proviennent les observations et qui en répond?
+D10	Obligatoire
+E10	Système, test, enquête, journal, coût, observation humaine.
+A11	CQ-007
+B11	Captation / qualité des données
+C11	Comment les données sont-elles captées, validées, protégées et conservées?
+D11	Obligatoire
+E11	Pertes, doublons, exactitude, consentement, accès.
+A12	CQ-008
+B12	Formule / méthode
+C12	Comment la mesure est-elle calculée ou qualifiée?
+D12	Obligatoire
+E12	Versionner calcul, règles, arrondis et données manquantes.
+A13	CQ-009
+B13	Référence
+C13	À quoi comparer la mesure?
+D13	Selon besoin
+E13	Spécification, baseline, seuil, SLO, benchmark, obligation.
+A14	CQ-010
+B14	Temporalité / fraîcheur
+C14	Quand, sur quelle fenêtre et jusqu’à quand la mesure reste-t-elle pertinente?
+D14	Obligatoire
+E14	Instant, période, cohorte, événement de requalification.
+A15	CQ-011
+B15	Segmentation
+C15	Quelles ventilations rendent les différences visibles?
+D15	Selon besoin
+E15	Version, population, contexte, canal, environnement.
+A16	CQ-012
+B16	Incertitude / confiance
+C16	Quel crédit accorder et pourquoi?
+D16	Obligatoire
+E16	Variabilité, biais, représentativité, taille, erreurs.
+A17	CQ-013
+B17	Limites / inconnues
+C17	Que cette mesure ne démontre-t-elle pas?
+D17	Obligatoire
+E17	Attribution, causalité, complétude, généralisation.
+A18	CQ-014
+B18	Usage autorisé
+C18	Pour quelles décisions la mesure peut-elle être utilisée?
+D18	Obligatoire
+E18	Investigation, amélioration, planification, investissement.
+A19	CQ-015
+B19	Usage interdit
+C19	Quels usages seraient trompeurs, punitifs ou non fondés?
+D19	Obligatoire
+E19	Classement individuel, comparaison hors contexte, quota aveugle.
+A20	CQ-016
+B20	Coût de mesure
+C20	Quel est le coût total de collecte, analyse, maintien et interprétation?
+D20	Obligatoire
+E20	Une mesure inutile doit pouvoir être retirée.
+A21	CQ-017
+B21	Responsabilité
+C21	Qui définit, collecte, interprète, recommande, décide et requalifie?
+D21	Obligatoire
+E21	Séparer production de l’information et autorité.
+A22	CQ-018
+B22	Effet / révision
+C22	Comment vérifier l’effet de la décision et réviser le contrat?
+D22	Obligatoire
+E22	Lien avec CARE et apprentissage.
+## HEADER @`tA ##
+## SHEET sheet5 ##
+A1	Qualimétrie et leviers de la réalisation logicielle
+A2	Chaque levier produit des signaux, reçoit un éclairage et contribue au produit.
+A4	Levier
+B4	Questions qualimétriques
+C4	Observations et sources possibles
+D4	Décisions éclairées
+E4	Contribution au produit
+A5	Éliciter
+B5	Les intentions, populations, résultats utiles et inconnues sont-ils suffisamment compris?
+C5	Recherche, demandes, irritants, comportements, marché, incidents, hypothèses.
+D5	Approfondir, reformuler, prioriser, abandonner ou expérimenter.
+E5	Pertinence et résultats utiles.
+A6	Définir
+B6	Les spécifications et modèles sont-ils clairs, cohérents, testables et suffisamment complets?
+C6	Revues, ambiguïtés, conflits, questions ouvertes, prototypes, exemples.
+D6	Clarifier, modéliser, décomposer, arbitrer ou investiguer.
+E6	Clarté et prévention.
+A7	Planifier
+B7	L’investissement, la capacité, le risque et les dépendances sont-ils compris?
+C7	Coûts, contraintes, capacités, risques, délais, options, ROI attendu.
+D7	Financer, séquencer, différer, réduire ou protéger.
+E7	Maîtrise de l’investissement.
+A8	Implémenter
+B8	La réalisation produit-elle le changement attendu avec une santé soutenable?
+C8	Code, builds, tests, revues, complexité, dette, reprises, flux, coûts.
+D8	Corriger, refactoriser, automatiser, apprendre ou adapter.
+E8	Qualité interne et capacité d’évolution.
+A9	Diffuser
+B9	L’occurrence peut-elle être mise à disposition de manière maîtrisée?
+C9	Artefacts, configuration, compatibilité, pipeline, canary, rollback, sécurité.
+D9	Promouvoir, limiter, suspendre, élargir ou retirer.
+E9	Transition maîtrisée.
+A10	Confirmer
+B10	Les attentes sont-elles soutenues par des preuves actuelles et suffisantes?
+C10	Runs, observations, Checks, preuves, couverture, écarts, inconnues.
+D10	Accepter le risque, revalider, corriger ou investiguer.
+E10	Confiance contextualisée.
+A11	CARE
+B11	Le produit satisfait-il durablement et quels effets réels apparaissent?
+C11	Usage réel, incidents, satisfaction, valeur, coûts, performance, dérives.
+D11	Maintenir, investir, adapter, moderniser ou retirer.
+E11	Santé, satisfaction, valeur et pérennité.
+A12	Produit
+B12	Le produit, comme ensemble, produit-il durablement les résultats utiles?
+C12	Portraits locaux reliés, effets réels, risques, coûts, confiance et inconnues.
+D12	Arbitrer le portefeuille, l’évolution et la pérennité.
+E12	Convergence centrale.
+A13	Qualité
+B13	Où prévenir, clarifier, assister et améliorer?
+C13	Défauts, ambiguïtés, risques, preuves, tendances, causes et apprentissages.
+D13	Catalyser l’amélioration sans imposer ni sanctionner.
+E13	Excellence durable.
+A14	Test et Validation
+B14	Quelles attentes ont été mises à l’épreuve, observées et prouvées?
+C14	Définitions, Runs, observations, Checks, couverture, preuves.
+D14	Approfondir, automatiser, maintenir, réduire ou arrêter.
+E14	Connaissance vérifiable.
+A15	Architecture et conception
+B15	Les décisions structurantes soutiennent-elles les qualités et évolutions recherchées?
+C15	Modèles, dépendances, contraintes, simulations, incidents, coûts de changement.
+D15	Choisir, réviser, découpler, standardiser ou accepter.
+E15	Soutenabilité.
+A16	DevOps / exploitation
+B16	Le flux et l’exploitation rendent-ils le produit fiable, observable et récupérable?
+C16	Pipelines, déploiements, télémétrie, alertes, incidents, capacité, coûts.
+D16	Ajuster automatisation, observabilité, capacité et récupération.
+E16	Santé opérationnelle.
+A17	IA
+B17	L’IA contribue-t-elle utilement et de manière maîtrisée?
+C17	Résultats, ancrage, variabilité, faux résultats, coûts, incidents, accès, dérive.
+D17	Qualifier, limiter, superviser, réentraîner, remplacer ou retirer.
+E17	Amplification maîtrisée.
+A18	Investissement
+B18	Les ressources sont-elles distribuées selon valeur, santé, risque et pérennité?
+C18	Coût total, capacité, valeur observée, risque réduit, dette, options.
+D18	Rééquilibrer l’enveloppe portefeuille en continu.
+E18	ROI multidimensionnel.
+## HEADER @`tA ##
+## SHEET sheet6 ##
+A1	Registre initial des expressions qualimétriques
+A2	Inventaire de départ à réconcilier. Les états ouverts sont assumés.
+A4	Expression source
+B4	ID
+C4	Terme proposé
+D4	Coordonnée principale
+E4	État
+F4	Réconciliation initiale ToTAL
+G4	Collision à éviter
+H4	Prochaine action
+A5	Qualimétrie
+B5	QEXP-001
+C5	Qualimétrie
+D5	À préciser
+E5	Inventorié, à réconcilier
+F5	Expression source conservée; réconciliation détaillée à poursuivre.
+G5	Collisions terminologiques à documenter.
+H5	Définir sens, usage, limites et statut terminal.
+A6	Besoin d’information
+B6	QEXP-002
+C6	Besoin d’information
+D6	À préciser
+E6	Inventorié, à réconcilier
+F6	Expression source conservée; réconciliation détaillée à poursuivre.
+G6	Collisions terminologiques à documenter.
+H6	Définir sens, usage, limites et statut terminal.
+A7	Donnée
+B7	QEXP-003
+C7	Donnée
+D7	À préciser
+E7	Inventorié, à réconcilier
+F7	Expression source conservée; réconciliation détaillée à poursuivre.
+G7	Collisions terminologiques à documenter.
+H7	Définir sens, usage, limites et statut terminal.
+A8	Observation
+B8	QEXP-004
+C8	Observation
+D8	À préciser
+E8	Inventorié, à réconcilier
+F8	Expression source conservée; réconciliation détaillée à poursuivre.
+G8	Collisions terminologiques à documenter.
+H8	Définir sens, usage, limites et statut terminal.
+A9	Mesure
+B9	QEXP-005
+C9	Mesure
+D9	À préciser
+E9	Inventorié, à réconcilier
+F9	Expression source conservée; réconciliation détaillée à poursuivre.
+G9	Collisions terminologiques à documenter.
+H9	Définir sens, usage, limites et statut terminal.
+A10	Métrique
+B10	QEXP-006
+C10	Métrique
+D10	À préciser
+E10	Inventorié, à réconcilier
+F10	Expression source conservée; réconciliation détaillée à poursuivre.
+G10	Collisions terminologiques à documenter.
+H10	Définir sens, usage, limites et statut terminal.
+A11	Indicateur
+B11	QEXP-007
+C11	Indicateur
+D11	À préciser
+E11	Inventorié, à réconcilier
+F11	Expression source conservée; réconciliation détaillée à poursuivre.
+G11	Collisions terminologiques à documenter.
+H11	Définir sens, usage, limites et statut terminal.
+A12	Signal
+B12	QEXP-008
+C12	Signal
+D12	À préciser
+E12	Inventorié, à réconcilier
+F12	Expression source conservée; réconciliation détaillée à poursuivre.
+G12	Collisions terminologiques à documenter.
+H12	Définir sens, usage, limites et statut terminal.
+A13	Seuil
+B13	QEXP-009
+C13	Seuil
+D13	À préciser
+E13	Inventorié, à réconcilier
+F13	Expression source conservée; réconciliation détaillée à poursuivre.
+G13	Collisions terminologiques à documenter.
+H13	Définir sens, usage, limites et statut terminal.
+A14	Baseline
+B14	QEXP-010
+C14	Baseline
+D14	À préciser
+E14	Inventorié, à réconcilier
+F14	Expression source conservée; réconciliation détaillée à poursuivre.
+G14	Collisions terminologiques à documenter.
+H14	Définir sens, usage, limites et statut terminal.
+A15	Benchmark
+B15	QEXP-011
+C15	Benchmark
+D15	À préciser
+E15	Inventorié, à réconcilier
+F15	Expression source conservée; réconciliation détaillée à poursuivre.
+G15	Collisions terminologiques à documenter.
+H15	Définir sens, usage, limites et statut terminal.
+A16	KPI
+B16	QEXP-012
+C16	KPI
+D16	À préciser
+E16	Inventorié, à réconcilier
+F16	Expression source conservée; réconciliation détaillée à poursuivre.
+G16	Collisions terminologiques à documenter.
+H16	Définir sens, usage, limites et statut terminal.
+A17	KRI
+B17	QEXP-013
+C17	KRI
+D17	À préciser
+E17	Inventorié, à réconcilier
+F17	Expression source conservée; réconciliation détaillée à poursuivre.
+G17	Collisions terminologiques à documenter.
+H17	Définir sens, usage, limites et statut terminal.
+A18	SLI
+B18	QEXP-014
+C18	SLI
+D18	À préciser
+E18	Inventorié, à réconcilier
+F18	Expression source conservée; réconciliation détaillée à poursuivre.
+G18	Collisions terminologiques à documenter.
+H18	Définir sens, usage, limites et statut terminal.
+A19	SLO
+B19	QEXP-015
+C19	SLO
+D19	À préciser
+E19	Inventorié, à réconcilier
+F19	Expression source conservée; réconciliation détaillée à poursuivre.
+G19	Collisions terminologiques à documenter.
+H19	Définir sens, usage, limites et statut terminal.
+A20	SLA
+B20	QEXP-016
+C20	SLA
+D20	À préciser
+E20	Inventorié, à réconcilier
+F20	Expression source conservée; réconciliation détaillée à poursuivre.
+G20	Collisions terminologiques à documenter.
+H20	Définir sens, usage, limites et statut terminal.
+A21	Objectif
+B21	QEXP-017
+C21	Objectif
+D21	À préciser
+E21	Inventorié, à réconcilier
+F21	Expression source conservée; réconciliation détaillée à poursuivre.
+G21	Collisions terminologiques à documenter.
+H21	Définir sens, usage, limites et statut terminal.
+A22	Cible
+B22	QEXP-018
+C22	Cible
+D22	À préciser
+E22	Inventorié, à réconcilier
+F22	Expression source conservée; réconciliation détaillée à poursuivre.
+G22	Collisions terminologiques à documenter.
+H22	Définir sens, usage, limites et statut terminal.
+A23	Score
+B23	QEXP-019
+C23	Score
+D23	À préciser
+E23	Inventorié, à réconcilier
+F23	Expression source conservée; réconciliation détaillée à poursuivre.
+G23	Collisions terminologiques à documenter.
+H23	Définir sens, usage, limites et statut terminal.
+A24	Index
+B24	QEXP-020
+C24	Index
+D24	À préciser
+E24	Inventorié, à réconcilier
+F24	Expression source conservée; réconciliation détaillée à poursuivre.
+G24	Collisions terminologiques à documenter.
+H24	Définir sens, usage, limites et statut terminal.
+A25	Ratio
+B25	QEXP-021
+C25	Ratio
+D25	À préciser
+E25	Inventorié, à réconcilier
+F25	Expression source conservée; réconciliation détaillée à poursuivre.
+G25	Collisions terminologiques à documenter.
+H25	Définir sens, usage, limites et statut terminal.
+A26	Taux
+B26	QEXP-022
+C26	Taux
+D26	À préciser
+E26	Inventorié, à réconcilier
+F26	Expression source conservée; réconciliation détaillée à poursuivre.
+G26	Collisions terminologiques à documenter.
+H26	Définir sens, usage, limites et statut terminal.
+A27	Percentile
+B27	QEXP-023
+C27	Percentile
+D27	À préciser
+E27	Inventorié, à réconcilier
+F27	Expression source conservée; réconciliation détaillée à poursuivre.
+G27	Collisions terminologiques à documenter.
+H27	Définir sens, usage, limites et statut terminal.
+A28	Moyenne
+B28	QEXP-024
+C28	Moyenne
+D28	À préciser
+E28	Inventorié, à réconcilier
+F28	Expression source conservée; réconciliation détaillée à poursuivre.
+G28	Collisions terminologiques à documenter.
+H28	Définir sens, usage, limites et statut terminal.
+A29	Tendance
+B29	QEXP-025
+C29	Tendance
+D29	À préciser
+E29	Inventorié, à réconcilier
+F29	Expression source conservée; réconciliation détaillée à poursuivre.
+G29	Collisions terminologiques à documenter.
+H29	Définir sens, usage, limites et statut terminal.
+A30	Distribution
+B30	QEXP-026
+C30	Distribution
+D30	À préciser
+E30	Inventorié, à réconcilier
+F30	Expression source conservée; réconciliation détaillée à poursuivre.
+G30	Collisions terminologiques à documenter.
+H30	Définir sens, usage, limites et statut terminal.
+A31	Incertitude
+B31	QEXP-027
+C31	Incertitude
+D31	À préciser
+E31	Inventorié, à réconcilier
+F31	Expression source conservée; réconciliation détaillée à poursuivre.
+G31	Collisions terminologiques à documenter.
+H31	Définir sens, usage, limites et statut terminal.
+A32	Confiance
+B32	QEXP-028
+C32	Confiance
+D32	À préciser
+E32	Inventorié, à réconcilier
+F32	Expression source conservée; réconciliation détaillée à poursuivre.
+G32	Collisions terminologiques à documenter.
+H32	Définir sens, usage, limites et statut terminal.
+A33	Exactitude
+B33	QEXP-029
+C33	Exactitude
+D33	À préciser
+E33	Inventorié, à réconcilier
+F33	Expression source conservée; réconciliation détaillée à poursuivre.
+G33	Collisions terminologiques à documenter.
+H33	Définir sens, usage, limites et statut terminal.
+A34	Précision
+B34	QEXP-030
+C34	Précision
+D34	À préciser
+E34	Inventorié, à réconcilier
+F34	Expression source conservée; réconciliation détaillée à poursuivre.
+G34	Collisions terminologiques à documenter.
+H34	Définir sens, usage, limites et statut terminal.
+A35	Biais
+B35	QEXP-031
+C35	Biais
+D35	À préciser
+E35	Inventorié, à réconcilier
+F35	Expression source conservée; réconciliation détaillée à poursuivre.
+G35	Collisions terminologiques à documenter.
+H35	Définir sens, usage, limites et statut terminal.
+A36	Représentativité
+B36	QEXP-032
+C36	Représentativité
+D36	À préciser
+E36	Inventorié, à réconcilier
+F36	Expression source conservée; réconciliation détaillée à poursuivre.
+G36	Collisions terminologiques à documenter.
+H36	Définir sens, usage, limites et statut terminal.
+A37	Fraîcheur
+B37	QEXP-033
+C37	Fraîcheur
+D37	À préciser
+E37	Inventorié, à réconcilier
+F37	Expression source conservée; réconciliation détaillée à poursuivre.
+G37	Collisions terminologiques à documenter.
+H37	Définir sens, usage, limites et statut terminal.
+A38	Observabilité
+B38	QEXP-034
+C38	Observabilité
+D38	À préciser
+E38	Inventorié, à réconcilier
+F38	Expression source conservée; réconciliation détaillée à poursuivre.
+G38	Collisions terminologiques à documenter.
+H38	Définir sens, usage, limites et statut terminal.
+A39	Monitoring
+B39	QEXP-035
+C39	Monitoring
+D39	À préciser
+E39	Inventorié, à réconcilier
+F39	Expression source conservée; réconciliation détaillée à poursuivre.
+G39	Collisions terminologiques à documenter.
+H39	Définir sens, usage, limites et statut terminal.
+A40	Analytics
+B40	QEXP-036
+C40	Analytics
+D40	À préciser
+E40	Inventorié, à réconcilier
+F40	Expression source conservée; réconciliation détaillée à poursuivre.
+G40	Collisions terminologiques à documenter.
+H40	Définir sens, usage, limites et statut terminal.
+A41	Dashboard
+B41	QEXP-037
+C41	Dashboard
+D41	À préciser
+E41	Inventorié, à réconcilier
+F41	Expression source conservée; réconciliation détaillée à poursuivre.
+G41	Collisions terminologiques à documenter.
+H41	Définir sens, usage, limites et statut terminal.
+A42	Scorecard
+B42	QEXP-038
+C42	Scorecard
+D42	À préciser
+E42	Inventorié, à réconcilier
+F42	Expression source conservée; réconciliation détaillée à poursuivre.
+G42	Collisions terminologiques à documenter.
+H42	Définir sens, usage, limites et statut terminal.
+A43	Portrait qualimétrique
+B43	QEXP-039
+C43	Portrait qualimétrique
+D43	À préciser
+E43	Inventorié, à réconcilier
+F43	Expression source conservée; réconciliation détaillée à poursuivre.
+G43	Collisions terminologiques à documenter.
+H43	Définir sens, usage, limites et statut terminal.
+A44	ROI
+B44	QEXP-040
+C44	ROI
+D44	À préciser
+E44	Inventorié, à réconcilier
+F44	Expression source conservée; réconciliation détaillée à poursuivre.
+G44	Collisions terminologiques à documenter.
+H44	Définir sens, usage, limites et statut terminal.
+## HEADER @`tA ##
+## SHEET sheet7 ##
+A1	Collisions prioritaires à réconcilier
+A2	Carte initiale des dérives que le registre doit corriger.
+A4	Collision
+B4	Pourquoi elle nuit
+C4	Redressement ToTAL
+D4	État
+A5	Donnée = fait = vérité
+B5	La provenance, la transformation et le contexte disparaissent.
+C5	Séparer donnée, observation, mesure, qualification, preuve et décision.
+D5	À approfondir
+A6	Métrique = mesure
+B6	La définition réutilisable et la valeur observée sont confondues.
+C6	Métrique = contrat; mesure = valeur contextualisée.
+D6	Fondation posée
+A7	Indicateur = décision
+B7	L’interprétation locale devient une autorité.
+C7	L’indicateur éclaire; recommandation, décision et action restent distinctes.
+D7	Fondation posée
+A8	Vert = bon produit
+B8	Un statut local masque couverture, fraîcheur, inconnues et effets réels.
+C8	Relier chaque qualification à sa portée, ses preuves et CARE.
+D8	À approfondir
+A9	KPI = vérité importante
+B9	Le mot clé remplace le besoin, le contexte et la gouvernance.
+C9	KPI = statut gouverné et révisable d’un indicateur.
+D9	À approfondir
+A10	Dashboard = qualimétrie
+B10	La restitution remplace le système de connaissance.
+C10	Le tableau de bord n’est qu’une vue de sortie.
+D10	Fondation posée
+A11	Moyenne = expérience typique
+B11	La distribution, les extrêmes et les segments deviennent invisibles.
+C11	Toujours qualifier population, distribution, dispersion et segments pertinents.
+D11	À approfondir
+A12	Corrélation = causalité
+B12	Une association déclenche une action non fondée.
+C12	Déclarer hypothèses, facteurs alternatifs, protocole et limites d’attribution.
+D12	À approfondir
+A13	Absence de donnée = zéro
+B13	L’inconnu est transformé en résultat.
+C13	Conserver Inconnu comme qualification explicite.
+D13	Fondation posée
+A14	Objectif = quota
+B14	La cible devient un comportement à optimiser au détriment du résultat utile.
+C14	Relier l’objectif à ses effets, garde-fous et réévaluation.
+D14	À approfondir
+A15	Outil = définition canonique
+B15	La migration d’outil change artificiellement la réalité.
+C15	Définir le concept indépendamment; l’outil est une source ou restitution.
+D15	Fondation posée
+A16	Mesurer les personnes = améliorer
+B16	La mesure crée classement, peur et comportements de jeu.
+C16	Mesurer conditions et système; interdire l’usage punitif automatique.
+D16	Fondation posée
+A17	Précision numérique = confiance
+B17	Plus de décimales donnent une illusion de connaissance.
+C17	Exprimer incertitude, biais, représentativité et limites.
+D17	À approfondir
+A18	Couverture = quantité
+B18	Le volume de tests ou de lignes masque ce qui est applicable et prouvé.
+C18	Employer le modèle applicable, prévu, exercé, observé, prouvé, actuel et inconnu.
+D18	Hérité du test
+## HEADER @`tA ##
+## SHEET sheet8 ##
+A1	Portrait qualimétrique du produit
+A2	Vue de convergence. Toute qualification réelle reste inconnue sans données locales.
+A4	Dimension
+B4	Question directrice
+C4	Contributions candidates
+D4	Qualification actuelle
+E4	Confiance / limites
+A5	Santé
+B5	Le produit peut-il satisfaire durablement ses intentions dans les conditions déclarées?
+C5	Capacités, disponibilité, fiabilité, erreurs, performance, sécurité, récupération, couverture actuelle.
+D5	Inconnu
+E5	Aucune donnée locale fournie.
+A6	Satisfaction
+B6	Les populations obtiennent-elles une expérience et des résultats satisfaisants?
+C6	Usage, réussite, accessibilité, effort, retours, soutien, satisfaction.
+D6	Inconnu
+E6	Représentativité et contexte à établir.
+A7	Valeur
+B7	Quels résultats utiles et effets attribuables le produit produit-il?
+C7	Adoption utile, résultats, risques évités, coûts, bénéfices, options, ROI.
+D7	Inconnu
+E7	Attribution et horizon à établir.
+A8	Pérennité
+B8	Le produit demeure-t-il utile, soutenable et adaptable dans le temps?
+C8	Maintenabilité, dette, dépendances, compétences, coûts, compatibilité, obsolescence.
+D8	Inconnu
+E8	Scénarios et horizons à établir.
+A9	Confiance
+B9	Quel crédit accorder au portrait?
+C9	Qualité des données, traçabilité, fraîcheur, couverture, répétabilité, indépendance de perspective.
+D9	Inconnu
+E9	Contrats qualimétriques non contextualisés.
+A10	Risques et inconnues
+B10	Quels angles morts pourraient changer la décision?
+C10	Risque résiduel, hypothèses, dépendances, inconnues, dérogations, signaux émergents.
+D10	Inconnu
+E10	Inventaire local à construire.
+## HEADER @`tA ##
+## SHEET sheet9 ##
+A1	Inventaire initial des métriques
+A2	Héritage condensé du registre maître du test.
+A4	ID
+B4	Métrique / vue
+C4	Famille
+D4	Nature initiale
+E4	Disposition
+F4	Garde-fou
+A5	MET-001
+B5	Taux d’accomplissement du Service
+C5	Service / CARE
+D5	Métrique candidate
+E5	Conserver et qualifier
+F5	Définir accomplissement, population, résultat utile et échec.
+A6	MET-003
+B6	Délai jusqu’au résultat utile
+C6	Produit
+D6	Métrique temporelle
+E6	Conserver et qualifier
+F6	Définir début, fin, population, interruptions et utilité.
+A7	MET-007
+B7	Couverture actuelle
+C7	Validation
+D7	Vue de couverture
+E7	Relier au modèle de couverture
+F7	Déclarer applicable, prouvé, actuel et inconnu.
+A8	MET-009
+B8	Délai de rétroaction
+C8	Réalisation
+D8	Métrique temporelle
+E8	Conserver et qualifier
+F8	Relier à la décision éclairée.
+A9	MET-010
+B9	Taux d’acceptation utile de l’agent IA
+C9	IA
+D9	Métrique candidate
+E9	Conserver et qualifier
+F9	Définir utilité, évaluateur, population et coût.
+A10	MET-011
+B10	Coût par résultat utile IA
+C10	IA / économie
+D10	Métrique économique
+E10	Conserver et qualifier
+F10	Inclure supervision, reprise, risques et effets.
+A11	MET-012
+B11	ROI multidimensionnel
+C11	Investissement
+D11	Vue économique
+E11	Approfondir
+F11	Déclarer horizon, attribution, risques et options.
+A12	MET-015
+B12	Change Failure Rate
+C12	Diffusion / CARE
+D12	Métrique candidate
+E12	Conserver et qualifier
+F12	Définir changement, échec, fenêtre et sévérité.
+A13	MET-020
+B13	Defect Escape Rate
+C13	Validation / CARE
+D13	Métrique candidate
+E13	Conserver et qualifier
+F13	Définir défaut, frontière, gravité et délai.
+A14	MET-023
+B14	System Availability
+C14	Service / CARE
+D14	Mesure de disponibilité
+E14	Conserver et qualifier
+F14	Définir Service, fenêtre, exclusions et méthode.
+A15	MET-031
+B15	Code Coverage - Lines
+C15	Code
+D15	Vue de couverture structurelle
+E15	Conserver comme facteur local
+F15	Ne démontre ni comportement utile ni qualité.
+A16	MET-033
+B16	Test Automation Coverage
+C16	Automatisation
+D16	Vue de couverture
+E16	Réconcilier
+F16	Définir candidats applicables et manuel conservé.
+A17	MET-034
+B17	Cyclomatic Complexity
+C17	Code
+D17	Mesure structurelle
+E17	Conserver comme facteur
+F17	Ne pas transformer un seuil en jugement universel.
+A18	MET-039
+B18	Technical Debt / Remediation Effort
+C18	Code / pérennité
+D18	Estimation
+E18	Réconcilier
+F18	Définir dette, référence, méthode et incertitude.
+A19	MET-044
+B19	Task Success Rate
+C19	Usage / satisfaction
+D19	Métrique de résultat
+E19	Conserver et qualifier
+F19	Définir tâche, population, succès et biais.
+A20	MET-046
+B20	Latency SLI
+C20	Service
+D20	Indicateur de Service
+E20	Réconcilier avec SLI/SLO
+F20	Définir événement, distribution et fenêtre.
+A21	MET-050
+B21	CSAT
+C21	Satisfaction
+D21	Signal déclaré
+E21	Conserver avec prudence
+F21	Définir question, échelle, moment et non-réponses.
+A22	MET-062
+B22	Mean Time to Insight
+C22	Qualimétrie
+D22	Métrique candidate
+E22	Approfondir
+F22	Définir insight utile, début, fin et décision.
+A23	MET-063
+B23	Metric Usefulness Review
+C23	Qualimétrie
+D23	Gouvernance
+E23	Élever en pratique canonique
+F23	Examiner usage, coût, redondance et retrait.
+A24	MET-072
+B24	Velocity
+C24	Contexte de travail
+D24	Métrique locale
+E24	Encadrer strictement
+F24	Ne pas comparer ni classer personnes ou équipes.
+A25	MET-079
+B25	Flow Efficiency
+C25	Flux
+D25	Métrique dérivée
+E25	Conserver et qualifier
+F25	Définir actif, attente, états et interprétation.
+A26	MET-084
+B26	Work in Progress
+C26	Flux
+D26	Mesure de charge
+E26	Conserver et qualifier
+F26	Définir unité de travail et vieillissement.
+A27	MET-089
+B27	Jira Created vs Resolved
+C27	Outil
+D27	Vue propre à un outil
+E27	Normaliser hors outil
+F27	Jira peut être source, pas définition.
+A28	MET-094
+B28	Xray Test Execution Progress
+C28	Outil / Validation
+D28	Vue propre à un outil
+E28	Normaliser hors outil
+F28	Relier à Runs et couverture.
+A29	MET-103
+B29	Automation Flaky Test Rate
+C29	Automatisation
+D29	Métrique de santé
+E29	Conserver et qualifier
+F29	Définir répétitions, environnement, cause et coût.
+A30	MET-109
+B30	Pipeline Failure Rate
+C30	Pipeline
+D30	Métrique de flux
+E30	Conserver comme facteur
+F30	Relier à impact, cause, reprise et coût.
+A31	MET-114
+B31	Infrastructure Availability
+C31	Infrastructure
+D31	Métrique locale
+E31	Conserver comme facteur
+F31	Ne pas confondre infrastructure et Service utile.
+A32	MET-120
+B32	Infrastructure Cost per Useful Result
+C32	Infrastructure / économie
+D32	Métrique économique
+E32	Approfondir
+F32	Définir attribution, résultat utile et coûts partagés.
+A33	MET-121
+B33	Availability of Observability Signals
+C33	Observabilité
+D33	Métrique candidate
+E33	Approfondir
+F33	Définir signaux, fraîcheur, couverture et pertes.
+A34	MET-125
+B34	Duplicated Blocks
+C34	Code
+D34	Doublon probable
+E34	Fusionner avec Code Duplication
+F34	Conserver unité et outil comme segment.
+## HEADER @`tA ##
+## SHEET sheet10 ##
+A1	Gouvernance qualimétrique
+A2	Règles de responsabilité, éthique, maintien et retrait.
+A4	ID
+B4	Principe
+C4	Décision ToTAL
+D4	Application
+A5	GQ-001
+B5	Utilité
+C5	Aucune métrique ne demeure sans besoin d’information, usage autorisé et décision potentielle.
+D5	Revue périodique et retrait des métriques décoratives.
+A6	GQ-002
+B6	Non-punition
+C6	Aucune mesure locale ne sert automatiquement à classer ou sanctionner des personnes.
+D6	Examiner les conditions du système et les biais.
+A7	GQ-003
+B7	Transparence
+C7	Définitions, formules, sources, transformations, références et limites sont lisibles et versionnées.
+D7	Rendre explicite ce que la mesure démontre et ne démontre pas.
+A8	GQ-004
+B8	Séparation des rôles
+C8	Définir, collecter, interpréter, recommander et décider sont distincts mais collaboratifs.
+D8	Éviter l’autorité automatique du producteur de mesure.
+A9	GQ-005
+B9	Confiance
+C9	Toute information décisionnelle expose fraîcheur, couverture, incertitude, biais et inconnues.
+D9	Limiter les usages si la confiance est insuffisante.
+A10	GQ-006
+B10	Économie
+C10	Le coût total de la mesure doit rester proportionné à son utilité.
+D10	Inclure collecte, stockage, analyse, maintien et effets indésirables.
+A11	GQ-007
+B11	Vie privée et sécurité
+C11	La collecte doit être nécessaire, proportionnée, protégée et gouvernée.
+D11	Minimiser données, accès et conservation.
+A12	GQ-008
+B12	Réversibilité
+C12	Une métrique, un seuil ou un tableau de bord peut être corrigé, remplacé ou retiré sans effacer son historique.
+D12	Versionner les décisions de changement.
+A13	GQ-009
+B13	Convergence
+C13	Les mesures locales expliquent leur contribution au portrait du produit.
+D13	Éviter des tableaux de bord concurrents sans relations.
+A14	GQ-010
+B14	CARE
+C14	L’effet des décisions éclairées est observé et réinjecté dans le système.
+D14	Mesurer aussi la valeur de la mesure elle-même.
+## HEADER @`tA ##
+## SHEET sheet11 ##
+A1	Sources, héritage et traçabilité
+A2	Références fondatrices internes et externes.
+A4	Type
+B4	Source
+C4	Contribution explicite
+D4	Lien ou repère
+A5	Interne
+B5	Registre maître ToTAL du test, version initiale finale
+C5	Fournit la chaîne Validation, Run, observation, mesure, Check, preuve, couverture, portrait et CARE.
+D5	Fichier maître ToTAL TEST.
+A6	Interne
+B6	Décision fondatrice ToTAL
+C6	Positionne la qualimétrie comme centre transversal de tous les leviers.
+D6	Décision utilisateur du présent chantier.
+A7	Externe
+B7	ISO/IEC 25000 SQuaRE
+C7	Organise les exigences et l’évaluation de la qualité.
+D7	https://www.iso.org/obp/ui/en/
+A8	Externe
+B8	ISO/IEC 25020:2019
+C8	Cadre de mesure de la qualité.
+D8	https://www.iso.org/standard/72117.html
+A9	Externe
+B9	NIST Measurement Uncertainty
+C9	Incertitude comme connaissance incomplète.
+D9	https://www.nist.gov/itl/sed/topic-areas/measurement-uncertainty
+A10	Externe
+B10	NIST Uncertainty Analysis
+C10	Aptitude d’une valeur comme base de décision.
+D10	https://www.itl.nist.gov/div898/handbook/mpc/section5/mpc5.htm
+## HEADER @`tA ##
+## SHEET sheet12 ##
+A1	Backlog du registre maître
+A2	Travail à réaliser pour transformer cette fondation en version initiale finale.
+A4	Ordre
+B4	Chantier
+C4	Résultat attendu
+D4	État
+E4	Critère de fermeture
+A5	1
+B5	Figer la thèse centrale
+C5	Définition, rôle, frontières et garde-fous.
+D5	Réconcilié, à éprouver
+E5	Aucune collision majeure.
+A6	2
+B6	Inventorier les expressions
+C6	Liste source exhaustive des notions de mesure.
+D6	À faire
+E6	Chaque occurrence source est conservée.
+A7	3
+B7	Réconcilier le vocabulaire
+C7	Décision individuelle pour les expressions.
+D7	En cours
+E7	Chaque expression possède définition et statut terminal.
+A8	4
+B8	Approfondir le contrat qualimétrique
+C8	Contrat commun de mesure.
+D8	Fondation disponible
+E8	Applicable aux principaux leviers.
+A9	5
+B9	Cartographier tous les leviers
+C9	Carte complète des besoins et effets.
+D9	Fondation disponible
+E9	Chaque levier explique sa contribution.
+A10	6
+B10	Réconcilier les 125 métriques héritées
+C10	Qualification exhaustive et fusion des doublons.
+D10	À faire
+E10	Aucune valeur locale inventée.
+A11	7
+B11	Définir le portrait qualimétrique
+C11	Modèle santé, satisfaction, valeur, pérennité, confiance et inconnues.
+D11	Fondation disponible
+E11	Pas de score unique obligatoire.
+A12	8
+B12	Gouverner les usages humains et IA
+C12	Règles anti-punition, confidentialité et biais.
+D12	À approfondir
+E12	Usages permis et interdits explicites.
+A13	9
+B13	Définir la maintenance
+C13	Versionnement, fraîcheur, retrait et audit.
+D13	À faire
+E13	Évolution sans perte de provenance.
+A14	10
+B14	Wrap final
+C14	Accueil, synthèse et audit.
+D14	À faire
+E14	Version finale bornée.
+## HEADER @`tA ##
+
