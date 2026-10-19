@@ -1,0 +1,109 @@
+﻿===== slide1 =====
+
+Présentation du modèle `nToTAL`n `nQuality`n (base)`nDe la clarté à la réalité logiciel`n
+===== slide2 =====
+
+ToTAL`n `nQuality`nLa solution est un système de valeurs complet`nFlot`n(système)`nCapacités (catalyseur)`n(matériel et intelligence humaine/artificiel)`n🧰`nT`nechnology`n (`nt`noolbox`n)`n⚖️`nO`nrchestry`n (`no`nmnichannel`n)`n🗺️`nT`nopology`n (`nt`nerrain)`n🤝A`nffinity (`na`nlignment`n)`n🎢`nL`neverage`n `nMastery`n (`nl`neadership)`nToTAL`n permet de le développer efficacement`n
+===== slide3 =====
+
+Pourquoi "`nSAFe`n" dans `n"`nToTAL`n `nSAFe`n" ?`nSAFe`n est…`nCadre éprouvé pour livrer à l’échelle`nStructure l’organisation et l’implémentation (`nFORGe`n)`nPermet la livraison continue de valeur`nLimite`n observée…`nFocalisé principalement sur `nFORGe`n (implémentation)`nMoins explicite sur : `nSENSe (comprendre le réel en amont)`nCARe`n (boucle de validation dans la réalité)`nToTAL`n `nétend `nSAFe`n pour `ncouvrir le cycle complet`nSENSe`n → comprendre et capter la réalité`nFORGe`n → implémenter et livrer (`nold`n `nSAFe`n)`nCARe`n → valider et apprendre du réel`nDans `nToTAL`n, le "Value Stream" devient explicite et complet.`nToTAL`n complète `nSAFe`n en couvrant l’ensemble du cycle par SENSe et `nCARe`n, et pas seulement `nFORGe`nToTAL`n ajoute le catalyseur + `nSAFe`n simplifié/flexible`n
+===== slide4 =====
+
+Le flot (système) de valeur/`nproduit`n `n…`nen 3 phases (mécanisme opérationnel)`nToTAL`n est comment on pense, tandis que `nSENSe`n, `nFORGe`n et `nCARe`n en sont la réalisation.`n
+===== slide5 =====
+
+L’amélioration continue`nFORGe`n(implémentation et simulation du réel)`nCARe`n (monde réel)`nSENSe `n(souhaits du réel)`nCARe`n et `nFORGe`n produisent des données et SENSe les interprète !`nLes données (`nqualimétrie`n) sont collectées en continu et proviennent de sources diverses.`nL’apprentissage se fait dans `nSENSe`n et s’applique partout.`nL’amélioration basée sur les valeurs et vice versa.`n
+===== slide6 =====
+
+Le principe`nSENSe`nSi ce n’est pas `nSENSe`n → ça ne va pas à `nFORGe`nApprenez à partir des signaux/données (`nSENSe`n + `nCARe`n + `nFORGe`n)`nSolution par conception (UX, domaine, flux)`nSpécifier (BDD, TDD, ATDD, automatisation, IA)`nCela fait du sens, c’est bon…`nValider et prioriser (livrer gros et petit/`nmvp`n, `nmvs`n) à revoir`nClarté`nPromptitude, paré, prêt…`nDoR`n et DoD`n
+===== slide7 =====
+
+Le moteur de définition`n(modélisation)`nSENSe`nc’est là que les données deviennent de la valeur et des décisions/directions/objectifs`n
+===== slide8 =====
+
+Le principe`nFORGe`nSi ce n’est pas `nFORGe`n → ça ne va pas à `nCARe`nL’exécution doit être correcte et complète`nImplémenter le travail défini`nConstruire à partir des spécifications`nAucune grande découverte lors de l’exécution`nPlanifier et organiser le travail`nConstruire et intégrer`nSimuler le comportement du système`nMesurer la qualité technique`nDoR`n et DoD`n
+===== slide9 =====
+
+Le moteur d’exécution`n(implémentation)`nFORGe`nc’est là que l’on construit ce qui a été clairement défini`nConstruit selon l’attente en itération`n
+===== slide10 =====
+
+Le principe`nCARe`nSi ce n’est pas `nCARe`n → ça ne va pas à `nSENSe`nCARe`n produit la vérité et `nSENSe`n l’interprète`nSortie (majeure / mineure)`nDéploiement`n, `nexploitation`nessai routier`n, utilisation et expérience dans le monde réel`nSurveillance et soutien`nCapturer les incidents et faire de la rétroaction`nCollecte de données de valeur réelle`nDoR`n et DoD`nstyle.visibility
+===== slide11 =====
+
+Le moteur de réalité`n(production)`nCARe`nc’est là que la réalité est révélée, il n’y a pas d’interprétation ou supposition.`n
+===== slide12 =====
+
+Le système du flot n’est pas suffisant dans `nToTAL`n…`nLe problème invisible des organisations`nOn optimise le flot produit, mais on néglige les capacités…`nConséquences :`nOutils mal configurés ❌`nPratiques incohérentes ❌`nEnvironnements instables ❌`nDevOps surchargé ❌`nPerte de qualité ❌`nIntelligence artificielle on fait quoi avec ça ?`n
+===== slide13 =====
+
+C’est pourquoi, il y a les catalyseurs (capacité) du système `nToTAL`n `nSAFe`nComment on construit `nAvec quoi on construit`nDans quel environnement`nAvec quel niveau de maîtrise`nCAPABILITIES sont le système qui rend le flux produit possible, stable et performant`nUn logiciel sain repose sur un système de capacités sain…`nSans capacités solides, `nToTAL`n ne tient pas, en fait rien ne tien !`nun environnement (écosystème de travail) logiciel opérationnel`nfournit les moyens`nstructure l’environnement`nassure la cohérence`namplifie la performance`n
+===== slide14 =====
+
+🧰 `nT`nechnology`nDes moyens`nsélectionner les outils`nconfigurer les plateformes`nmaintenir l’écosystème`nAutomatisation de test : `nframeworks`n de tests standardisés`nIntelligence artificielle (`nAgentics`n) : outils AI intégrés (`nCopilot`n, agents)`n
+===== slide15 =====
+
+⚖️ `nO`nrchestry`nUne coordination`nintégrer les outils`ndéfinir les workflows`nsynchroniser les systèmes`nAutomatisation de test : pipelines intégrés`nIntelligence artificielle (`nAgentics`n) : workflows intégrant AI`n
+===== slide16 =====
+
+🗺️ `nT`nopology`nUn terrain réel`nstructurer les environnements`ngérer les déploiements`nassurer la stabilité`nTest : environnements de test réalistes`nIntelligence artificielle (`nAgentics`n) : environnements sécurisés et contrôlés`n
+===== slide17 =====
+
+🤝 `nA`nffinity`nUne cohérence naturelle`nstandardiser les pratiques`naligner les équipes`nmaintenir la cohérence`nAutomatisation de test : standards BDD / TDD communs`nIntelligence artificielle (`nAgentics`n) : pratiques d’usage responsables`n
+===== slide18 =====
+
+🎢 `nL`neverage`n `nMastery`nUne efficacité à performer et évoluer `nAutomatiser`noptimiser`namplifier la performance`nAutomatisation de test : automation intelligente + exécution continue`nIntelligence artificielle (`nAgentics`n) : agents augmentant la productivité et la qualité`n
+===== slide19 =====
+
+ToTAL repose sur une symbiose`nProduit système`n crée un flot de valeur`nCapacité`n catalyse`n et rend cette création possible`n⚠️ Si les capacités sont faibles : le produit ralentit, la qualité chute et le système devient instable`nLes capacités ne sont pas théoriques, elles sont conçues, opérées et améliorées en continu`n
+===== slide20 =====
+
+Vision Qualité `nToTAL`nQualité distribuée à travers SENSe, FORGe, CARe`nBasée sur des spécifications (tests)`nValidée en simulation et prouvée dans le réel`nQA garantit la cohérence du système`nQA devient un système distribué`nQualité conçue, alignée et vécue`nBasée sur la réalité produit`nOrganisation claire et scalable`nModèle moderne et prêt entreprise`n
+===== slide21 =====
+
+"Shift" `nToTAL`n de l’assurance qualité`nAVANT`n (Assurance qualité traditionnelle)`n0%`n en `nSENSe`n (implication inexistante)`n100% en `nFORGe`n (tests, automatisation)`n0%`n en `nCARe`n (en mode subir, la qualité est en dernière ligne)`nMAINTENANT`n (Modèle `nToTAL`n)`n70 à 80% en `nSENSe`n (définition, spécifications, clarté, analyse et décision​)`n5 à 10% en `nFORGe`n (soutien, coaching, alignement)`n15–25% in `nCARe`n (déploiement et mesure, veille sur les clients, surveillance des signaux​)`nLa clé du "SHIFT"`nLa qualité passe du → de test à la définition et à la décision. Nous prévenons les problèmes au lieu de les résoudre.`n
+===== slide22 =====
+
+L’AQ du jour et ce que c’`nest`n…`nDirecteur de la `nqualité`n `n→ `ndéfinit le cadre de qualité (métriques, seuils, `nqualitativité`n) et supervise l’assistance de la qualité`nFINe`n QA `n→ Analyste fonctionnel / d’affaires (clarté, valeur, spécifications). Architecte qualité (testabilité, règles, conception de système)`nSAFe`n QA `n→ Assiste et "coach" les équipes (alignement avec les normes)`nCARe`n QA `n→ Analyse les incidents, les rétroactions et l’utilisation dans le monde réel`n
+===== slide23 =====
+
+L’AQ d’avant et ce que ce n’est `nPLUS`n…`nPropriétaire des tests (écriture et exécution des tests)
+Spécialiste de l’automatisation pour tout ce qui concerne les tests
+Gardien / autorité d’approbation
+Goulot d’étranglement dans la livraison
+La seule responsable de la qualité
+Validateur après développement
+Un régleur de problèmes au lieu d’un préventeur
+===== slide24 =====
+
+Bref, QA dans `nToTAL`nNe définit plus seul`nNe valide plus seul`nN’analyse pas seul`nGarantit cohérence globale`nGarantit qualité du système`n
+===== slide25 =====
+
+Les rôles qualité`nManager`n (QM) → supervise qualité globale (`nToTAL`n)`nArchitecte/Analyste`n (QA) → participe à la définition, `nmodèlisation`n (`nSENSe`n)`nAssistant/Coach`n (QA) → participe à l'alignement, le respect des spécifications (`nFORGe`n `net `nCARe`n)`nActeur/Testeur`n (QA) → vit le produit (`nCARe`n)`n
+===== slide26 =====
+
+Manager qualité (QM)`nEst dans `nToTAL`n, l'ensemble`nResponsable global de la qualité`nSupervise `nSENSe`n, `nFORGe`n `net `nCARe`nGarantit cohérence et intégrité`nManager des rôles QA`nNe pilote pas `nToTAL`n, mais garantit la gestion qualité global`n
+===== slide27 =====
+
+Architecte`n `nqualité`n (QA)`nEst dans `nSENSe`nDéfinissent les spécifications`nDéfinissent comportements attendus`nStructurent la `nqualimétrie`nContribuent au `nDoR`n EPIC`nCréent le modèle de vérité`nDonnées issues du réel`nCaptées en `nCARe`nUtilisées en SENSe`nQA garantit leur qualité`nBase de vérité produit`nles signaux`nles métriques`nleur pertinence`n
+===== slide28 =====
+
+Assistant `nqualité`n (QA)`nEst dans `nFORGe `n&amp; `nCARe`nCoaching des équipes`nAide à l’application des specs`nDétection des dérives`nSupervision du flux`nGarantissent cohérence du système`n
+===== slide29 =====
+
+Acteurs qualité (QA)`nEst dans `nCARe`n et vie dans le même environnement que l’utilisateur final (`nlab`n/test drive)`nSimulent utilisateurs réels`nExécutent scénarios réalistes`nProduisent comportements usage`nOpèrent en environnement réaliste`nGénèrent données réelles`nEst-ce supporté par `nCARe`n comme un utilisateur/client`n
+===== slide30 =====
+
+ToTAL`n Trio `nessentiel`n(Nouveaux 3 amigos)`nTrois perspectives alignées pour chaque décision
+Aucune décision sans valeur, faisabilité et réalitéPeut-`nêtre grandement aider par : `nArchitecte QA → structure`n​, `nAssistant QA → faisabilité, Acteur QA → usage réel`n​, `nCollaboration multi-rôles`n​, `nSpecs`n réalistes dès SENSe`n
+===== slide31 =====
+
+Ce qu’on réutilise de `nSAFe`nTodo...`n
+===== slide32 =====
+
+Ce qui diverge de `nSAFe`nTodo...`n
+===== slide33 =====
+
+ToTAL`n `nSAFe`nConclusion`nSENSe`n définit, modélise et approuve l’idée`nFORGe`n construit et simule le rée.`nCARe`n livre de la satisfaction/confiance, prend soin et écoute les souhaits.`nLa capacité est le catalyseur`nToTAL`n relie tout cela à un cycle universel de culture/valeur et d’intégralité !`n
+===== slide34 =====
+
+Là on a le haut niveau du " total" ok mais pas de détails (exemple)`n(impression) `nSAFe`n c’est implémenter points moins souvent abordés`nL’implémentation `nSAFe`n n’a pas été bien fait/`ncomplet`n (on voit souvent `nSAFe`n incomplet en entreprise)`nChialage sur Agile et `nSAFe`nPas vraiment de blind spots dans `nSAFe`nVanille ou générique -&gt; voir plutôt "notre" recette`nGestion d’incident, `nDoR`n format/`ndefini`n, `nLe comment manque `nSAFe`n est haut niveau`n3 configurations (essential, …, porte folio)`n

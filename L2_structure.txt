@@ -1,0 +1,53 @@
+﻿15: # T̥T̯L̩S̯T̩˜ ❖ Toute la différence par la réconciliation du LEGACY
+31: ## Quatrième de couverture
+65: ## Table des matières
+90: ## Avant-propos : le legacy n’est pas un passé, c’est un champ de bataille
+102: ## Introduction : ne pas renier le legacy, mais le voir différemment
+106: ### Ce que ce livre vous donnera
+113: ### La découverte qui a fait naître ce livre
+119: ## Approfondissement d'ouverture — pourquoi ce livre, pourquoi maintenant
+129: ## Partie 1 : La réconciliation avec le legacy — les représentations
+135: ### Chapitre 1 : La mystérieuse cité de la qualité perdue
+200: ### Approfondissement ToTAL — la cité, le registre et la réconciliation
+214: ### Chapitre 2 : Être sur la même longueur d’onde (le sabotage, etc.)
+299: ### Approfondissement ToTAL — la longueur d'onde, le sabotage et le contrat de langage
+321: ### Chapitre 3 : Attrape-moi donc ce bug !
+437: ### Approfondissement ToTAL — attraper le bug sans attraper les préjugés
+455: ### Chapitre 4 : Méthodologies, terminologies et meilleures pratiques
+560: ### Approfondissement du chapitre 4 — importées, les méthodologies se réconcilient ou se déguisent
+578: ### Approfondissement ToTAL — la méthodologie réconciliée, la terminologie habitée, la meilleure pratique démasquée
+598: ## Approfondissement de la partie 1 — les représentations réconciliées : les sept illusions du legacy
+616: ### Chapitre 5 : Se mesurer par la qualimétrie
+724: ### Chapitre 6 : Jongler intelligemment avec l'IA
+727: ### Approfondissement ToTAL — la qualimétrie comme éclairage, pas comme juge
+747: ### Chapitre 6 : Jongler intelligemment avec l’IA
+844: ### Approfondissement ToTAL — l'IA sous contrat, jamais sous charme
+862: ### Chapitre 7 : Le génèse humaine de l’automatisation
+1057: ### Approfondissement ToTAL — l'automatisation comme décision, pas comme destinée
+1077: ### Chapitre 8 : La science oubliée de l’investigation et de la recherche
+1157: ### Approfondissement ToTAL — enquêter sur le legacy comme sur un terrain inconnu
+1175: ### Chapitre 9 : La confiance vers la satisfaction jusqu’au succès
+1266: ### Approfondissement ToTAL — la confiance se construit, la satisfaction se constate, le succès se mesure
+1280: ### Chapitre 10 : Le "BEASTEST" outil
+1491: ### Approfondissement ToTAL — le BEASTEST comme synthèse de toutes les disciplines
+1507: ## Approfondissement de la partie 2 — les outils en pratique : trois mises en situation
+1519: ### Comment lire ce livre
+1564: ## Approfondissement de transition — du registre au vivant : la fabrique des décisions
+1574: ## Épilogue : ce n’est pas TOTALISATION qui réconcilie, c’est vous
+1596: ## Approfondissement de fin de partie — le legacy réconcilié : portrait de l'après
+1610: ## Approfondissement de l'épilogue — le lecteur en mouvement : le premier mois
+1624: ## Annexes
+1626: ### Annexe A1 : Chronologie / Référence — la réconciliation dans le SDLC
+1644: ### Annexe A2 : Glossaire
+1684: ### Annexe A5 : Gabarits de réconciliation — les quatre gabarits essentiels
+1696: ### Annexe A6 : Lexique réconcilié du livre
+1720: ### Annexe A3 : Tableau comparatif — legacy vs TOTALISATION
+1747: ### Annexe A4 : Le rituel de la réunion de registre — le déroulé minute par minute
+1763: ### Annexe A4 : Le rituel de la réunion de registre — le déroulé minute par minute
+1777: ### Annexe R1 : Inventaire et mapping des sources
+1809: ### Annexe R2 : Registre des réconciliations par batch
+1865: ### Annexe R2 : Registre des réconciliations par batch
+1884: ### Annexe R3 : Registre de la qualimétrie
+1924: ### Annexe R3 : Registre de la qualimétrie
+1934: ### Annexe R4 : Registre test (version initiale finale)
+1944: ## Post-scriptum éditorial — le fil rouge de la collection

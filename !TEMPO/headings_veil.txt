@@ -1,0 +1,214 @@
+﻿   15: # T̥T̯L̩S̯T̩˜ ❖ L’éveil de la TOTALISATION
+   35: ## Sous-titre
+   48: ## Table des matières
+   61: ## Note éditoriale - garder le lecteur captivé jusqu’à la fin
+   67: ## Comment lire ce livre
+   75: ## Convention de lecture - parenthèses et vocabulaire logiciel
+   78: ## Posture de lecture - rester vivant sur le terrain
+   84: ## Le parcours du livre
+   89: ## TOTALISATION, l’art de réaliser avec maîtrise
+   95: ## Le cas conducteur - ORIGINALIUM (organisation), DREAM-TEAM (équipe) et BEASTEST (produit)
+  100: # Prologue personnel - Le premier bug que personne ne voulait croire
+  108: # Prologue - La question qui a tout déclenché
+  137: # Introduction - Pourquoi rien ne suffit, et pourquoi cela s’aggrave malgré tout
+  167: # Partie 1 - Le chaos que les organisations ont appris à normaliser
+  170: ## Chapitre 1 - Le paradoxe des organisations modernes
+  209: ## Chapitre 2 - Accélérer, stagner ou décélérer
+  257: ## Chapitre 3 - Le chaos n’est pas seulement de la mauvaise volonté
+  284: ## Chapitre 4 - Quand les transformations s’ajoutent sans se clarifier
+  338: # Partie 2 - L’assurance qualité des grands concepts
+  342: ## Chapitre 5 - Et si nos concepts avaient besoin d’assurance qualité ?
+  394: ## Chapitre 6 - Les collisions terminologiques
+  454: ## Chapitre 7 - La qualité avant les tests
+  514: ## Chapitre 8 - Les erreurs, bugs et signaux comme matière d’apprentissage
+  561: # Partie 3 - Clarté → qualité → confiance → excellence durable
+  564: ## Chapitre 9 - Clarté : le premier actif qualité
+  591: ## Chapitre 10 - Qualité : rendre le produit et les décisions dignes de confiance
+  674: ## Chapitre 11 - Confiance : ce que la qualité rend possible
+  700: ## Chapitre 12 - Excellence durable : apprendre sans se mentir
+  727: # Partie 4 - Le modèle TOTALISATION dans le cycle de vie produit
+  730: ## Lecture structurante - une seule carte, quatre niveaux
+  737: ## Vue synthèse - le cycle produit TOTALISATION
+  742: ## La trajectoire est linéaire, l’apprentissage est continu
+  759: ## Carte de trajectoire - quatre niveaux pour lire le cycle de vie logiciel (SDLC) TOTALISATION
+  763: ## Chapitre 13 - Ce que TOTALISATION apporte au cycle produit
+  809: ## Chapitre 14 - Faire sens et ressentir (SENSE) - Éliciter (elicit) le besoin et la valeur
+  834: ## Chapitre 15 - Spécifier (SPECIFY) - Définir (define) le produit
+  909: ## Chapitre 16 - Planifier (plan) les livraisons
+  940: ## Chapitre 17 - Forger (FORGE) - Implémenter (implement), monter et éprouver
+  968: ## Chapitre 18 - Livrer (DELIVERY) - Diffuser (diffuse) avec confiance
+  990: ## Chapitre 19 - Veiller (CARE) - Confirmer dans le réel
+ 1017: ## Point de bascule - BEASTEST devient une mémoire d’apprentissage
+ 1020: # Partie 5 - L’IA, l’amplification et le potentiel de la qualité
+ 1023: ## Chapitre 20 - L’intelligence artificielle n’élimine pas le flou
+ 1096: ## Chapitre 21 - L’automatisation intelligente exige une qualité intelligente
+ 1122: ## Chapitre 22 - BEASTEST comme incarnation technologique de TOTALISATION
+ 1148: ## Chapitre 23 - Maîtriser le potentiel de la qualité
+ 1210: # Épilogue - Ce que le terrain m’a appris
+ 1325: # Conclusion - De la lucidité à l’excellence durable
+ 1354: # Annexes
+ 1356: ## Approfondissement - SI / ALORS, standards et maturité
+ 1406: ## Remerciements
+ 1423: # Partie 6 - Le cycle de vie logiciel (SDLC)
+ 1429: # Une histoire qu’on n’a jamais bien racontée
+ 1447: # Soixante ans pour redécouvrir ce qui était évident
+ 1470: # La Cascade : quand la rigueur rencontrait un monde stable
+ 1511: # L’Agile : la bonne idée, la mauvaise pratique
+ 1552: # Le DevOps : quand l’opérationnel entre enfin dans le cycle
+ 1600: # Le Test Holistique : la bonne idée qui a été rejetée trop tôt
+ 1628: # Le DoD et le "Shit Left" : une tentative maladroite dans la bonne direction
+ 1651: # Le Shift Left : la qualité remonte - et crée un paradoxe
+ 1680: # Le Shift Right : le retour de la balance et de la confiance
+ 1701: # L’Amélioration Continue : le ruban de Möbius, la fin de la guerre
+ 1724: # Le SDD : l’IA force enfin à bien faire les choses
+ 1752: # Le SDLC TOTALISATION : enfin, le cycle complet
+ 1791: # SENSE : Faire du sens avant tout
+ 1819: # FORGE : Construire avec intention
+ 1844: # CARE : Veiller, assurer, prendre soin
+ 1871: # Le versant livraison : FORGE et CARE
+ 1897: # La grande boucle : mesurer et valider en continu
+ 1928: # Ce n’est pas TOTALISATION qui transforme - c’est vous
+ 1941: # Annexes
+ 1943: ## A1 - Chronologie complète de l’évolution du SDLC
+ 1958: ## A2 - Les 6 phases du SDLC TOTALISATION : tableau complet
+ 1969: ## A3 - Glossaire ModDevOps
+ 1983: ## A4 - Les 10 anti-patterns du SDLC
+ 2004: # Partie 7 - Le catalyseur d’excellence : faire durer la maîtrise
+ 2010: # Comment utiliser ce livre
+ 2017: ## Ce que ce livre ne promet pas
+ 2023: ## Trois façons d’utiliser ce livre
+ 2029: ## Carte de navigation du livre - choisir son parcours
+ 2035: ## Architecture éditoriale - trois couches pour ne pas perdre le lecteur
+ 2041: ## Choisir sa recette de mise en place TOTALISATION
+ 2074: ## Une discipline universellement compatible avec les cadres existants
+ 2081: ## Faut-il un coach TOTALISATION ?
+ 2094: ## Les trois semaines restantes - quand l’aide arrive à temps
+ 2124: # Prologue - Le défi des 6 semaines
+ 2131: # Introduction - De la théorie à la réussite observable
+ 2138: ## Fil conducteur - Ramener l’expérience client TOTALISATION dans le livre
+ 2145: ## Intégrer le contenu source dans le livre, pas le référencer
+ 2153: ## Repères de cohérence : fondations, terrain et langage commun
+ 2168: ## Lexique TOTALISATION - source de vérité terminologique vivante
+ 2186: ## Table de correspondance - L’expérience client TOTALISATION au cœur du livre
+ 2196: # Partie 1 - Comprendre la réussite TOTALISATION
+ 2198: ## Chapitre 1 - L’excellence comme âme de TOTALISATION
+ 2205: ## Chapitre 2 - L’art comme maîtrise de la discipline
+ 2212: ## Chapitre 3 - La réussite comme preuve dans le réel
+ 2221: # Partie 2 - Trouver le point de départ
+ 2223: ## Chapitre 4 - Lire le terrain avant d’intervenir
+ 2235: ## Chapitre 5 - Identifier la première décision à améliorer
+ 2242: ## Chapitre 6 - Choisir le bon premier terrain
+ 2257: # Partie 3 - Produire la première réussite TOTALISATION
+ 2262: ## Chapitre 7 - Clarifier une demande réelle
+ 2268: ## Chapitre 8 - Qualifier un concept sensible
+ 2274: ## Chapitre 9 - Transformer une attente en spécification testable
+ 2281: ## Chapitre 10 - Relier la qualité à une preuve de confiance
+ 2287: ## Chapitre 11 - Réussir une livraison avec TOTALISATION
+ 2294: ## Chapitre 12 - Réinjecter l’apprentissage
+ 2302: # Partie 4 - Installer les pratiques de maîtrise
+ 2307: ## Chapitre 13 - Les ateliers TOTALISATION qui changent les décisions
+ 2320: ## Chapitre 14 - La qualimétrie comme langage de réussite
+ 2327: ## Chapitre 15 - Automatiser la clarté
+ 2334: ## Chapitre 16 - Utiliser l’IA sans perdre la maîtrise
+ 2341: ## Chapitre 17 - Les rôles catalyseurs
+ 2348: # Partie 5 - Faire durer la réussite
+ 2353: ## Chapitre 18 - Pourquoi les réussites ne durent pas toutes seules
+ 2360: ## Chapitre 19 - Le Centre d’excellence TOTALISATION comme gardien de la maîtrise
+ 2380: ## Chapitre 20 - Gouvernance légère et mémoire vivante
+ 2392: ## Chapitre 21 - Maturité TOTALISATION : choisir le prochain meilleur pas
+ 2399: ## Chapitre 22 - Le plan 30-60-90 jours
+ 2413: # Partie 6 - Le système de pratique terrain TOTALISATION
+ 2420: ## Parcours guidé de mission en 6 semaines
+ 2424: ## Activités guidées d’acquisition
+ 2430: ## Extension du parcours de formation - Modules 11 à 13
+ 2435: ## Structure recommandée pour chaque activité guidée
+ 2437: ## Boucle de clôture - Activités guidées 10 à 12
+ 2442: ## Activité guidée 10 - Animer une rétro TOTALISATION de confirmation
+ 2460: ## Activité guidée 11 - Construire un mini Centre d’excellence TOTALISATION
+ 2479: ## Activité guidée 12 - Réaliser le bilan de mission TOTALISATION
+ 2505: ## Activité guidée 1 - Repérer le flou
+ 2519: ## Activité guidée 2 - Clarifier une décision
+ 2534: ## Activité guidée 3 - Qualifier un concept sensible
+ 2550: ## Activité guidée 4 - Spécifier une attente
+ 2567: ## Activité-jeu - La chasse à la couverture minimale
+ 2582: ## Activité guidée 5 - Transformer une métrique
+ 2598: ## Activité guidée 6 - Préparer une livraison consciente
+ 2614: ## Activité guidée 7 - Réinjecter un apprentissage
+ 2630: ## Activité guidée 8 - Revue IA : clarifier avant d’amplifier
+ 2652: ## Activité guidée 9 - Préparer une cérémonie TOTALISATION
+ 2670: ## Évaluation et maturité d’acquisition
+ 2674: ## Cérémonies TOTALISATION prêtes à animer
+ 2678: ## Format détaillé d’une cérémonie TOTALISATION
+ 2682: ## Cérémonie détaillée - Élicitation TOTALISATION
+ 2687: ## Cérémonie détaillée - Définition TOTALISATION
+ 2692: ## Cérémonie détaillée - Revue DELIVERY
+ 2701: ## Cérémonie détaillée - Rétro TOTALISATION et réinjection
+ 2706: ## Livrables de terrain à produire
+ 2722: ## Mode coach, mode autonome et mode apprentissage
+ 2726: ## Rôle du coach TOTALISATION dans le guide terrain
+ 2730: ## Journal d’apprentissage du praticien TOTALISATION
+ 2735: # Partie 7 - Boîte à outils terrain de l’excellence appliquée
+ 2740: ## Fiche-outil 1 - Le diagnostic éclair en 5 questions
+ 2744: ## Fiche-outil 2 - Le gabarit de spécification SI / ALORS
+ 2749: ## Fiche-outil 3 - La fiche de livraison consciente (DELIVERY)
+ 2754: ## Fiche-outil 4 - La liste de vérification IA : clarifier avant d’amplifier
+ 2759: ## Fiche-outil 5 - Les anti-patterns à surveiller
+ 2764: ## Fiche-outil 6 - Une question TOTALISATION par rôle
+ 2769: ## Fiche-outil 7 - Commencer demain matin et tenir dans le temps
+ 2774: ## Gabarits terrain complets
+ 2776: ## Gabarits approfondis pour mission et acquisition
+ 2802: ## Listes de vérification terrain
+ 2875: ## Plan de formation continue TOTALISATION
+ 2883: # Partie 8 - Cas terrain anonymisé : une mission TOTALISATION en 6 semaines
+ 2888: ## Semaine 0 - Le pari
+ 2892: ## Semaine 1 - Les fondations en parallèle
+ 2896: ## Semaine 2 - Reprendre le contrôle avant et après
+ 2900: ## Semaine 3 - Le cas réel et le doute
+ 2905: ## Semaine 4 - Prouver la valeur
+ 2909: ## Semaine 5 - Protéger ce qui commence à vivre
+ 2913: ## Semaine 6 - Reconnaître la vraie réussite
+ 2920: ## Pourquoi ce cas compte
+ 2925: ## Contexte anonymisé de la mission
+ 2930: ## Les cinq chantiers de transformation
+ 2932: ## Trajectoire type de la mission en 6 semaines
+ 2934: ## Le cycle terrain généralisé
+ 2938: ## Livrables produits par une mission terrain
+ 2955: ## Apprentissages majeurs du cas
+ 2966: ## Catalogue type de recommandations anonymisées
+ 2968: ## Ce que le cas prouve sur TOTALISATION
+ 2973: ## Ce qui reste à maturer après la mission
+ 2977: # Partie 9 - Kit documentaire client TOTALISATION : remplacer la recréation par la réutilisation
+ 2982: ## Les 10 familles du kit documentaire
+ 2984: ## Règles de gouvernance du kit
+ 2988: ## Gabarit clé - Fiche SI / ALORS
+ 2992: ## Gabarit clé - Fiche DELIVERY
+ 2996: ## Gabarit clé - Fiche KPI / signal
+ 3000: ## Gabarit clé - RACI de démarrage
+ 3004: ## Gabarit clé - Carnet de mission
+ 3009: ## Pourquoi commencer par les outils, le récit et le kit ?
+ 3017: ## Intention du kit documentaire
+ 3022: ## Architecture du kit documentaire TOTALISATION
+ 3024: ## Module 1 - SDLC TOTALISATION générique
+ 3050: ## Module 2 - Contrat de maîtrise TOTALISATION
+ 3054: ## Module 3 - RACI TOTALISATION complet
+ 3058: ## Module 4 - Lexique TOTALISATION de mission
+ 3062: ## Module 5 - Qualimétrie TOTALISATION et scorecard de maîtrise
+ 3066: ## Module 6 - Grille de couverture de validation
+ 3070: ## Module 7 - Mécanisme d’évolution en mission live
+ 3074: ## Protocole d’adaptation client
+ 3088: ## Ce qui sera complété avec l’expérience en cours
+ 3096: ## Signes de réussite observable
+ 3105: ## Anti-patterns à surveiller
+ 3109: ## Questions par rôle
+ 3115: # Guide de référence - Canevas, rituels et fiches pratiques
+ 3119: ## Canevas de diagnostic TOTALISATION
+ 3121: ## Canevas de première réussite TOTALISATION
+ 3123: ## Fiche atelier de spécification
+ 3125: ## Fiche DELIVERY - Livrer avec confiance
+ 3127: ## Fiche qualimétrie
+ 3129: ## Fiche rétro TOTALISATION - Réinjecter l’apprentissage
+ 3131: # Commencer le jour 1
+ 3143: # Conclusion - Quand la réussite devient plus grande que la mission
+ 3153: # Annexes - Grilles rapides
+ 3155: ## Liste de vérification IA - Clarifier avant d’amplifier
+ 3164: ## Liste de vérification automatisation - Automatiser la clarté
