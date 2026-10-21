@@ -1,4 +1,4 @@
-<!-- ===================== COUVERTURE (RECTO) ===================== -->
+﻿<!-- ===================== COUVERTURE (RECTO) ===================== -->
 <!-- Zone réservée à l'illustration de couverture (image à insérer ici). -->
 <!-- Éléments à faire figurer sur le recto : logotype T̥T̯L̩S̯T̩˜, titre, sous-titre, auteur, "ORIGINALIUM". -->
 
@@ -65,15 +65,20 @@ Ce livre n'a pas été créé par l'IA : elle a été un outil de transformation
 
 - Avant-propos : pourquoi un niveau 2 après le minimum
 - Introduction : du ROUGE à l'ORANGE, passer du minimum au niveau 2
-- Partie 1 : Spécifications modélisées et outillage (semaines 1 à 2)
+- Partie 1 : Spécifications modélisées, outillage et planification (semaines 1 à 4)
   - Semaine 1 : De l'écrit au modèle — MBT et BPMN
   - Semaine 2 : Structurer les outils — automatisation et documentation produit
+  - Semaine 3 : La planification des livraisons de niveau 2
+  - Semaine 4 : La qualimétrie N2 et les politiques et conventions
 - Partie 2 : La traversée (semaines 5 à 6)
   - Semaine 5 : Le point mort de niveau 2
   - Semaine 6 : Le virage et le passage de relais
 - Partie 3 : L'ancrage et la pérennisation (semaines 7 à 8)
   - Semaine 7 : Couverture par types de test et socle pour l'IA
   - Semaine 8 : Contrat qualité v2.0 et centre d'excellence opérationnel
+- Partie 4 : Formation, exercices et évaluation (niveau 2)
+- Partie 5 : Ancrage, extension et transmission
+- Partie 6 : Le manuel de l'atelier — fiches détaillées d'animation
 - Épilogue : ce n'est pas le niveau 2 qui réconcilie, c'est vous
 - Annexes
   - Annexe A1 : Modèle de charte de mission niveau 2
@@ -303,9 +308,176 @@ Dans la mission Faucon, l'automatisation et la documentation vivaient séparéme
 
 ---
 
-## Partie 2 : La traversée (semaines 5 à 6)
+## Semaine 3 : La planification des livraisons de niveau 2
 
-Les semaines 1 et 2 ont installé les fondations du niveau 2. Les semaines 5 et 6 traversent la réalité : le point mort, le virage, le passage de relais. C'est ici que le niveau 2 se prouve ou s'effondre.
+**Objectif de la semaine :** faire passer la planification des livraisons du niveau 1 (un plan écrit, relu en réunion) au niveau 2 : un plan relié aux modèles BPMN/MBT, aux preuves d'automatisation et à la couverture par types de test. C'est la semaine qui répond à la question : "quand allons-nous livrer, sur quelle base de preuves, et qui décide ?"
+
+**Résultat attendu à la fin de la semaine :** un plan de livraison de niveau 2 relié aux modèles, un rituel de revue de plan opérationnel, et des engagements de livraison formulés comme des contrats testables.
+
+### Atelier 3.1 : Le plan relié aux modèles
+
+**Objectif :** faire du plan de livraison une vue directe des modèles BPMN/MBT, pas un document parallèle qui vit sa propre vie.
+
+**Durée :** 3 heures. **Participants :** équipe pilote, product owner, chargé de livraison, coach qualité.
+
+**Étapes :**
+1. Relire le plan de livraison actuel : de quoi parle-t-il vraiment ? Des dates ? Des fonctionnalités ? Des engagements ?
+2. Pour chaque élément du plan, identifier le modèle BPMN/MBT correspondant (ou constater qu'il n'existe pas).
+3. Marquer les éléments de plan sans modèle : ce sont les zones d'ambiguïté, là où la livraison sera jugée sur des impressions.
+4. Décider de l'action pour chaque zone d'ambiguïté : modéliser, reporter, ou expliciter le risque par écrit.
+5. Reconstruire le plan : chaque ligne pointe vers un modèle, un test automatisé et une preuve de couverture.
+
+**Livrable :** plan de livraison de niveau 2, où chaque élément est relié à un modèle, à des tests et à une preuve.
+
+### Atelier 3.2 : L'engagement de livraison comme contrat testable
+
+**Objectif :** rédiger les engagements de livraison de la même façon que les spécifications : SI (condition d'entrée) / ALORS (résultat observable et mesurable), avec preuve.
+
+**Durée :** 2 heures. **Participants :** équipe pilote, product owner, sponsor si disponible.
+
+**Étapes :**
+1. Prendre un engagement de livraison typique (ex. : "la version 2.4 sera livrée le 30").
+2. Le réécrire en forme contractuelle : "SI les tests de type [X] passent sur les flux critiques du modèle [Y], ALORS la version 2.4 est livrée le 30."
+3. Identifier ce qui manque pour que l'engagement soit testable : données de test, environnement, modèle à jour, couverture définie.
+4. Répéter l'exercice sur tous les engagements de la période.
+5. Publier les engagements réécrits dans le centre d'excellence.
+
+**Livrable :** engagements de livraison réécrits en forme contractuelle SI/ALORS, publiés.
+
+### Atelier 3.3 : Le rituel de revue de plan
+
+**Objectif :** installer un rituel court et récurrent qui met le plan à jour à partir des preuves, pas à partir des impressions.
+
+**Durée :** 2 heures. **Participants :** équipe pilote, chargé de livraison.
+
+**Étapes :**
+1. Définir la fréquence (semaine recommandée : hebdomadaire, 30 minutes).
+2. Définir les entrées du rituel : état des modèles, résultats d'automatisation, couverture, dérogations actives.
+3. Définir les sorties : plan mis à jour, engagements ajustés, dérogations écrit.
+4. Tenir le rituel une première fois en atelier, avec le coach en observateur.
+5. Définir qui l'anime (le chargé de livraison, pas le coach).
+
+**Livrable :** rituel de revue de plan défini et tenu une première fois.
+
+### Atelier 3.4 : Livrable de la semaine
+
+**Objectif :** consolider et publier les livrables de la semaine.
+
+**Durée :** 1 heure. **Participants :** équipe pilote, sponsor.
+
+**Étapes :**
+1. Revue du plan de livraison N2 : chaque ligne a-t-elle son modèle et sa preuve ?
+2. Revue des engagements contractuels : sont-ils testables ?
+3. Publier le plan, les engagements et le compte rendu du rituel dans le centre d'excellence.
+4. Checklist de fin de semaine (voir ci-dessous).
+5. Décider ce qui est prêt pour la semaine 4 (qualimétrie N2 et politiques/conventions).
+
+**Livrable :** plan de livraison N2, engagements contractuels et rituel de revue de plan publiés.
+
+### Capsule du vécu — Mission Faucon, Opal-RT
+
+Dans la mission Faucon, le plan de livraison était une liste de dates négociée en comité. Personne ne savait sur quelle base les dates avaient été choisies, et chaque revue de plan tournait au débattage d'impressions. Quand l'équipe a relié chaque élément du plan à un modèle BPMN et à ses tests, la conversation a changé : on ne discutait plus des dates, on discutait de l'état des modèles et des preuves. Une date n'était plus une promesse, c'était la conséquence d'une base de preuves. Le sponsor a cessé de demander "est-ce qu'on va y être ?" et a commencé à demander "qu'est-ce qui manque pour que le modèle soit complet ?".
+
+### Points de vigilance
+
+- Un plan sans modèle est une liste de souhaits. Si une ligne du plan ne pointe vers aucun modèle, elle est une zone d'ambiguïté : traitez-la comme telle.
+- L'engagement contractuel n'est pas une punition : c'est une clarté partagée. Un engagement qu'on ne peut pas tester est un engagement qu'on ne peut pas tenir.
+- Le rituel de revue de plan doit rester court. S'il dépasse 45 minutes, il devient un comité de plus, et il mourra.
+- Ne laissez pas le coach animer la revue de plan. Le chargé de livraison doit prendre les rênes dès la première itération.
+
+### Checklist de fin de semaine 3
+
+- [ ] Plan de livraison N2 reconstruit, chaque élément relié à un modèle et à une preuve
+- [ ] Zones d'ambiguïté identifiées et traitées (modéliser, reporter, ou expliciter le risque)
+- [ ] Engagements de livraison réécrits en forme contractuelle SI/ALORS
+- [ ] Rituel de revue de plan défini, tenu une première fois, animé par l'équipe
+- [ ] Plan, engagements et compte rendu publiés dans le centre d'excellence
+
+---
+
+## Semaine 4 : La qualimétrie N2 et les politiques et conventions
+
+**Objectif de la semaine :** faire passer la qualimétrie du niveau 1 (métriques de production : nombre de bugs, vélocité, taux d'automatisation) au niveau 2 (signaux de décision reliés aux modèles et à la couverture), et écrire les premières politiques et conventions partagées qui rendent le niveau 2 applicable par toute l'équipe, pas seulement par ceux qui l'ont construit.
+
+**Résultat attendu à la fin de la semaine :** un cadre de qualimétrie N2 avec des signaux de décision, un premier tableau de bord lu en rituel, et un premier lot de politiques et conventions écrites, signées et revues.
+
+### Atelier 4.1 : Des métriques aux signaux de décision
+
+**Objectif :** passer des métriques de production (ce qui s'est passé) aux signaux de décision (ce qu'il faut décider maintenant).
+
+**Durée :** 2 heures. **Participants :** équipe pilote, coach qualité, sponsor si disponible.
+
+**Étapes :**
+1. Inventaire des métriques actuelles : lesquelles déclenchent une décision ? lesquelles ne déclenchent rien ?
+2. Pour chaque métrique : quelle décision devrait-elle déclencher ? qui décide ? à quel seuil ?
+3. Transformer les métriques sans décision en signaux de décision (seuil, responsable, action attendue).
+4. Éliminer les métriques qui ne déclenchent rien : elles coûtent du temps pour rien.
+5. Relier chaque signal aux modèles et à la couverture : un signal sans contexte n'est qu'un chiffre.
+
+**Livrable :** cadre de qualimétrie N2 : liste de signaux de décision avec seuil, responsable, action attendue et lien aux modèles.
+
+### Atelier 4.2 : Le tableau de bord lu en rituel
+
+**Objectif :** construire un tableau de bord minimal, lu en rituel, qui reflète l'état réel du niveau 2.
+
+**Durée :** 3 heures. **Participants :** équipe pilote, chargé de livraison, coach qualité.
+
+**Étapes :**
+1. Définir les 5 à 7 signaux essentiels (pas plus) : état des modèles critiques, tests automatisés passés/échoués, couverture par type, dérogations actives, temps de cycle, bug trouvés après livraison.
+2. Définir la source de chaque signal (outil, extrait, calcul) : un tableau de bord alimenté à la main finit toujours par mourir.
+3. Construire le tableau de bord le plus simple possible (tableau Wiki, feuille de calcul, page générée).
+4. Le lire une première fois en rituel de revue de plan (semaine 3) ou en point de qualimétrie.
+5. Définir la fréquence de mise à jour et le responsable.
+
+**Livrable :** tableau de bord N2 minimal, alimenté automatiquement autant que possible, lu en rituel.
+
+### Atelier 4.3 : Les politiques et conventions de niveau 2
+
+**Objectif :** écrire les premières politiques et conventions qui rendent le niveau 2 applicable par toute l'équipe.
+
+**Durée :** 3 heures. **Participants :** équipe pilote, lead technique, product owner, coach qualité.
+
+**Étapes :**
+1. Inventorier les pratiques de niveau 2 qui sont encore dans la tête de deux personnes.
+2. Choisir les 5 à 7 politiques les plus critiques : convention de nommage des modèles, règle de mise à jour des modèles quand le code change, règle d'usage de l'IA, règle de dérogation, règle de revue de la documentation.
+3. Les rédiger en une page chacune : règle, pourquoi, exception, exemple, date de revue.
+4. Les faire relire et signer par l'équipe, puis publier dans le centre d'excellence.
+5. Planifier la première revue : une politique non relue devient une loi morte.
+
+**Livrable :** 5 à 7 politiques et conventions écrites, signées, publiées, avec date de revue.
+
+### Atelier 4.4 : Livrable de la semaine
+
+**Objectif :** consolider et publier les livrables de la semaine.
+
+**Durée :** 1 heure. **Participants :** équipe pilote, sponsor.
+
+**Étapes :**
+1. Revue des signaux de décision : chaque signal a-t-il un seuil, un responsable et une action attendue ?
+2. Revue du tableau de bord : est-il alimenté automatiquement ? lu en rituel ?
+3. Revue des politiques : sont-elles signées ? relues ? appliquées ?
+4. Checklist de fin de semaine (voir ci-dessous).
+5. Décider ce qui est prêt pour la semaine 5 (le point mort).
+
+**Livrable :** cadre de qualimétrie N2, tableau de bord minimal et politiques/conventions publiés.
+
+### Capsule du vécu — Mission Faucon, Opal-RT
+
+Dans la mission Faucon, la qualimétrie de niveau 1 produisait des rapports que personne ne lisait : des courbes de vélocité, des décomptes de bugs, des pourcentages d'automatisation. Rien ne déclenchait de décision. Quand l'équipe a transformé ses métriques en signaux de décision (seuil, responsable, action), le point de qualimétrie est devenu le rituel le plus court et le plus utile de la semaine. Un signal sans décision est une curiosité. Un signal avec décision est un gouvernail.
+
+### Points de vigilance
+
+- Ne collectez pas plus de signaux que vous ne pouvez en agir. Un tableau de bord de 30 indicateurs est un meuble, pas un outil.
+- Le tableau de bord alimenté à la main est condamné. Si aucune source automatique n'existe, notez-le comme un risque, pas comme une fatalité.
+- Une politique non relue à sa date de revue devient une loi morte. Inscrivez les revues dans le calendrier dès la publication.
+
+### Checklist de fin de semaine 4
+
+- [ ] Cadre de qualimétrie N2 : chaque signal a un seuil, un responsable et une action attendue
+- [ ] Métriques sans décision éliminées
+- [ ] Tableau de bord minimal construit, lu en rituel, alimenté automatiquement autant que possible
+- [ ] 5 à 7 politiques et conventions écrites, signées, publiées, avec date de revue
+- [ ] Livrables de la semaine publiés dans le centre d'excellence
 
 ---
 
@@ -637,7 +809,510 @@ Contrat qualité v2.0 signé, centre d'excellence opérationnel, rapport de matu
 
 ---
 
-## Épilogue : ce n'est pas le niveau 2 qui réconcilie, c'est vous
+#
+---
+
+# Partie 4 : Formation, exercices et évaluation (niveau 2)
+
+Les huit semaines construisent le niveau 2. Cette partie le rend transmissible. Un niveau qui n'est pas transmissible n'est pas un niveau : c'est un moment. La formation, les exercices et l'évaluation transforment la pratique de quelques personnes en pratique d'une organisation.
+
+**Le principe :** on ne forme pas en expliquant le modèle. On forme en faisant modéliser, en faisant automatiser, en faisant échouer, puis en faisant nommer ce qui a échoué. Chaque exercice de cette partie suit la même grammaire : une consigne claire, une contrainte qui force le discernement, une évaluation par les pairs, et un artefact publié.
+
+## Le plan de formation de niveau 2
+
+La formation de niveau 2 ne se déroule pas dans une salle à part. Elle est intégrée aux semaines de travail : chaque atelier du livre est déjà une séquence de formation. Mais pour les nouveaux arrivants et pour les équipes voisines, il faut un parcours explicite. Voici le plan recommandé.
+
+**Module F1 — Lire un modèle (2 heures).** Objectif : lire un diagramme BPMN et repérer les trois ambiguïtés qui y sont volontairement cachées. Format : atelier dirigé. Évaluation : chaque participant trouve au moins deux ambiguïtés et propose une correction. Matériel : trois modèles BPMN préparés par le gardien du centre d'excellence, chacun contenant des défauts réels tirés des modèles de l'équipe.
+
+**Module F2 — Écrire un modèle (4 heures).** Objectif : modéliser un processus réel de l'équipe, seul puis en binôme, et confronter les deux versions. Format : atelier pratique par binômes. Évaluation : les deux versions du même processus sont comparées en plénière ; les divergences deviennent la liste des ambiguïtés à lever. Matériel : un outil de modélisation (même gratuit), une charte de nommage.
+
+**Module F3 — Du modèle aux tests (4 heures).** Objectif : dériver des cas de test d'un modèle MBT et comprendre ce qu'un couvre et ce qu'il rate. Format : atelier pratique. Évaluation : la couverture du modèle produite par chaque participant est comparée à la couverture de référence ; les écarts sont discutés. Matériel : un modèle MBT stable, la matrice de couverture de l'équipe.
+
+**Module F4 — La documentation comme spécification vivante (2 heures).** Objectif : relier une page de documentation produit à un modèle et à des tests, et démontrer qu'une modification se propage. Format : démonstration + pratique. Évaluation : le participant modifie un modèle et met à jour la documentation sans rupture. Matériel : la chaîne documentaire de niveau 2.
+
+**Module F5 — L'IA sur socle solide (2 heures).** Objectif : utiliser l'IA générative comme assistant de spécification et de documentation à partir d'un modèle existant, et reconnaître ses productions plausibles mais fausses. Format : atelier d'exercices. Évaluation : le participant fait produire par l'IA une spécification à partir d'un modèle, puis détecte au moins deux erreurs dans la production de l'IA. Matériel : un modèle stable, un accès IA, la liste des pièges connus.
+
+**Règle de l'échelle :** un nouveau module ne s'ajoute que si un besoin réel a été documenté par un atelier de terrain. La formation suit la pratique, elle ne la précède pas. Un catalogue de formations sans pratique derrière est un cimetière de PDF.
+
+## Exercices d'entraînement de niveau 2
+
+Ces exercices s'utilisent en formation interne, en atelier d'équipe, ou en auto-apprentissage. Chacun est conçu pour être fait en 20 à 45 minutes, avec un artefact comme preuve de passage.
+
+### Exercice E1 : Le modèle à l'épreuve des trois lecteurs
+
+**Consigne :** donnez le même modèle BPMN à trois personnes de rôles différents (développeur, testeur, product owner). Chacun écrit ce qu'il comprend du processus en cinq phrases. Confrontez les trois lectures.
+
+**Ce que l'exercice révèle :** là où les trois lectures divergent, le modèle est ambigu. C'est exactement l'ambiguïté qui, en production, deviendra un bug, un retard ou une guerre de versions.
+
+**Évaluation :** le modèle est jugé ambigu si plus d'une lecture diverge sur un même point. Chaque divergence nommée devient un item de correction. L'exercice est réussi quand les divergences sont écrites, pas quand elles sont discutées.
+
+### Exercice E2 : Le test impossible
+
+**Consigne :** prenez un modèle MBT et cherchez le chemin que personne ne peut tester : la donnée manquante, l'environnement inexistant, la dépendance externe. Nommez-le, et décidez : construire le moyen de le tester, ou l'assumer comme risque écrit.
+
+**Ce que l'exercice révèle :** les zones mortes du modèle — celles qu'on ne teste pas parce qu'on ne peut pas, pas parce qu'on ne doit pas. Ce sont les mêmes zones où vivent les bugs de production.
+
+**Évaluation :** la zone morte est nommée par écrit, avec sa décision (moyen de test construit / risque assumé et daté). Un risque assumé sans date de réévaluation n'est pas assumé : il est oublié.
+
+### Exercice E3 : La chaîne de propagation
+
+**Consigne :** modifiez une seule passerelle de décision dans un modèle BPMN stable. Puis traversez la chaîne : les tests dérivés changent-ils ? La documentation se met-elle à jour ? La matrice de couverture bouge-t-elle ? Chronométrez chaque étape.
+
+**Ce que l'exercice révèle :** la santé réelle de la chaîne modèle → test → documentation. Une chaîne qui met deux jours à propager une modification est une chaîne qui ne propagera rien en pratique.
+
+**Évaluation :** le temps de propagation complet est mesuré et écrit. Objectif de niveau 2 : moins d'une journée. S'il dépasse, l'exercice produit la liste des points de friction à corriger.
+
+### Exercice E4 : Le test fantôme
+
+**Consigne :** prenez trois tests automatisés qui passent et cherchez ce qu'ils ne vérifient pas : la donnée qui n'existe pas, la branche non parcourue, l'assertion absente.
+
+**Ce que l'exercice révèle :** le passage n'est pas la couverture. Un test qui passe peut vérifier très peu de choses. L'automatisation sans modèle de référence produit des tests fantômes : verts, mais vides.
+
+**Évaluation :** pour chaque test fantôme, écrire ce qu'il vérifie réellement et ce qu'il devrait vérifier. La différence est le travail à faire.
+
+### Exercice E5 : Le piégeage de l'IA
+
+**Consigne :** demandez à l'IA de générer une spécification à partir d'un modèle BPMN, puis à l'IA de générer la même spécification sans modèle. Comparez les deux productions avec la spécification réelle de l'équipe.
+
+**Ce que l'exercice révèle :** la différence entre l'IA sur socle solide (fidèle au modèle, relue facilement) et l'IA sans socle (plausible, fausse, coûteuse à corriger). C'est la démonstration la plus convaincante pour les sceptiques.
+
+**Évaluation :** le participant identifie au moins trois divergences entre la production IA sans socle et la réalité. Les divergences sont classées : erreur de contenu, erreur de structure, erreur de vocabulaire.
+
+### Exercice E6 : Le rituel à l'aveugle
+
+**Consigne :** le chargé de livraison anime le rituel Go/No-Go de niveau 2 sans préparation particulière, en utilisant seulement les preuves publiées dans le centre d'excellence. Le coach observe en silence.
+
+**Ce que l'exercice révèle :** si le rituel tient sans le coach, la preuve est publique. S'il ne tient pas, les preuves publiées sont insuffisantes — et le problème est structurel, pas personnel.
+
+**Évaluation :** le rituel tient en 30 minutes, la décision est prise, et le compte rendu est rempli sans aide extérieure. Sinon : identifier quel critère de Go manquait de preuve.
+
+## L'évaluation de la maturité de niveau 2
+
+L'évaluation n'est pas un examen. C'est un miroir avec des chiffres. Elle répond à une seule question : le niveau 2 est-il installé, fragile, ou absent ? L'évaluation se fait par les faits, jamais par les impressions.
+
+### La grille d'observation des rituels
+
+Le coach (ou le gardien du centre d'excellence) observe un rituel réel et remplit cette grille, sans juger les personnes :
+
+| Élément observé | Niveau 0 : absent | Niveau 1 : présent mais fragile | Niveau 2 : installé | Niveau 3 : transmis |
+| --- | --- | --- | --- | --- |
+| Le rituel commence à l'heure et finit dans le temps prévu | Jamais | Parfois | La plupart du temps | Toujours, y compris sans le coach |
+| La décision est prise pendant le rituel (pas après, pas ailleurs) | Décision reportée | Décision prise hors rituel | Décision prise en rituel | Décision prise et tracée sans effort |
+| Les preuves sont citées et visibles | Impression | Preuves citées de mémoire | Preuves affichées | Preuves affichées et mises à jour automatiquement |
+| Le compte rendu est rempli pendant la séance | Jamais | Après coup | Pendant | Rempli par le système, relu par l'équipe |
+| Les dérogations sont écrites | Orale | Écrite après coup | Écrite pendant | Écrite et reliée à un apprentissage |
+
+**Règle d'usage :** une pratique est installée au niveau 2 seulement si elle atteint le niveau 2 sur trois observations successives. Une observation isolée ne dit rien : une bonne journée n'est pas une pratique.
+
+### La grille d'auto-évaluation des sept éléments
+
+Chaque membre de l'équipe pilote remplit cette grille individuellement, puis les réponses sont confrontées. Les écarts entre les auto-évaluations sont plus instructifs que les chiffres eux-mêmes : là où l'équipe se voit différemment, il y a un problème de réalité partagée.
+
+| Élément de niveau 2 | Ma note (1-3) | Ma preuve | Ce qui me manque |
+| --- | --- | --- | --- |
+| Spécifications modélisées | | | |
+| Outillage automatisation/documentation | | | |
+| Planification des livraisons N2 | | | |
+| Qualimétrie N2 | | | |
+| Politiques et conventions | | | |
+| Couverture par types de test | | | |
+| Socle pour l'IA | | | |
+
+**Règle d'usage :** une note sans preuve vaut zéro. La colonne « Ma preuve » doit pointer vers un artefact réel (modèle, test, page Wiki, convention signée). C'est l'anti-langue-de-bois de cette grille.
+
+### Le test des quatre semaines
+
+Le test final de niveau 2 est simple : après la fin des huit semaines, l'équipe continue-t-elle à tenir le niveau 2 sans le coach pendant quatre semaines ? Le test se fait à J+30 : audit de la chaîne modèle → test → documentation, point de qualimétrie observé, rituel Go/No-Go observé.
+
+**Critères de réussite :**
+- La chaîne de propagation fonctionne sans intervention du coach (exercice E3 refait par l'équipe seule).
+- Le point de qualimétrie déclenche des décisions documentées.
+- Le rituel Go/No-Go fonctionne avec les preuves publiées (exercice E6).
+- Les politiques sont relues au moins une fois depuis la fin du niveau 2.
+
+**Si le test échoue :** ce n'est pas un échec, c'est une information. La partie 5 de ce livre (l'ancrage et l'extension) traite exactement ce cas : quoi faire quand le niveau tient à peine, et comment décider de consolider avant d'étendre.
+
+## Le carnet d'exercices du sponsor
+
+Le sponsor n'est pas un spectateur du niveau 2. Il a des exercices à faire, et son échec à ces exercices coûte cher au niveau tout entier.
+
+**Exercice S1 : La demande en trois phrases (20 minutes).** Le sponsor écrit, en trois phrases maximum, ce qu'il attend du niveau 2 en termes mesurables. S'il ne peut pas le faire en trois phrases, il ne sait pas ce qu'il demande — et l'équipe ne saura pas quand elle aura réussi.
+
+**Exercice S2 : La preuve qu'il regardera (15 minutes).** Le sponsor nomme la preuve unique qui décidera pour lui que le niveau 2 a tenu (une métrique, un rituel observé, un incident évité). Cette preuve nommée devient le fil rouge de la qualimétrie N2.
+
+**Exercice S3 : La demande de débloquement (30 minutes).** Le sponsor relit les demandes de débloquement de la semaine 5 et répond par écrit à chacune : accordé / refusé / reporté, avec la raison et la date. Une demande sans réponse écrite n'est pas une demande : c'est un vœu.
+
+**Règle de facilitation :** ne laissez pas le sponsor reporter ces exercices « quand il aura le temps ». Ils se font pendant un rituel auquel il participe déjà. Un sponsor qui refuse 30 minutes d'exercice de niveau 2 refuse le niveau 2, et il vaut mieux le savoir tôt.
+
+# Partie 5 : Ancrage, extension et transmission
+
+Le niveau 2 a été construit sur une équipe. Cette partie le fait vivre au-delà de l'équipe : ancrer ce qui tient, décider d'étendre ou non, et transmettre sans laisser de vide. L'ancrage n'est pas une formalité de fin de mission : c'est la partie la plus difficile, celle qui décide si le niveau 2 devient une pratique ou une anecdote.
+
+## Le bilan d'ancrage à J+30
+
+Trente jours après la fin des huit semaines, un bilan d'ancrage fait le point. Il se tient en 2 heures, avec l'équipe et le sponsor. Il répond à trois questions :
+
+**Question 1 : ce qui tourne sans effort.** Quelles pratiques s'exécutent sans qu'on y pense ? (rituel de revue de plan, mise à jour des modèles, documentation synchronisée) Ce sont les racines du niveau 2. Protégez-les : ne changez rien de ce qui tourne sans effort, même si la forme vous semble imparfaite.
+
+**Question 2 : ce qui tourne avec effort.** Quelles pratiques se font encore parce que quelqu'un se souvient de le faire ? C'est la zone d'alerte : ce qui tourne avec effort finit par ne plus tourner. Pour chaque pratique en effort, nommer la cause : rituel trop lourd ? preuve trop coûteuse à produire ? responsabilité floue ?
+
+**Question 3 : ce qui ne tourne plus.** Quelles pratiques sont tombées en silence ? La matrice de couverture pas relue depuis un mois, les politiques jamais consultées, la documentation qui diverge. Nommer chacune, sans chasse aux coupables : une pratique tombée est un symptôme, pas une faute.
+
+**Livrable du bilan :** un tableau à trois colonnes (sans effort / avec effort / tombé), daté et publié dans le centre d'excellence. Ce tableau est la photographie honnête de l'état du niveau 2. Il servira de référence au prochain bilan à J+90.
+
+## Les deux faiblesses à assumer
+
+Le rapport de maturité de la semaine 8 nommait deux faiblesses sans filtre. Ce bilan à J+30 les reprend et les creuse. Deux faiblesses typiques de niveau 2 :
+
+**Faiblesse typique 1 : la chaîne modèle → test → documentation tient, mais repose sur une personne.** La chaîne fonctionne, mais un seul membre de l'équipe sait la maintenir. C'est une fragilité de transmission : la pratique existe, mais elle n'est pas partagée. Correction : binômes tournants sur la maintenance de la chaîne, avec rotation mensuelle.
+
+**Faiblesse typique 2 : la couverture par types de test est déclarée, pas mesurée.** La matrice existe, mais elle n'est pas reliée à des preuves d'exécution. Correction : relier chaque ligne de la matrice à une exécution datée, ou assumer par écrit que la ligne n'est pas mesurée.
+
+**Règle d'écriture :** une faiblesse assumée sans plan de correction daté n'est pas une faiblesse assumée : c'est une faiblesse nommée pour faire bien. Le plan de correction peut être minimal (une action, un responsable, une date), mais il existe.
+
+## Le parcours d'extension aux équipes voisines
+
+Une fois le niveau 2 tenu, la question de l'extension se pose : faut-il l'étendre aux équipes voisines ? La réponse par défaut est non. L'extension se gagne, elle ne se décrète. Voici le parcours recommandé.
+
+**Étape 1 : la démonstration aux voisins (déjà faite en semaine 6).** Revenir sur ce qui a été montré et sur les réactions réelles : qui est venu ? qui est revenu ? qui a posé des questions techniques ? Ces signaux sont la matière première de la décision d'extension.
+
+**Étape 2 : la candidature volontaire.** Une équipe voisine se déclare volontaire. Le critère de sélection n'est pas l'enthousiasme, c'est la disponibilité : une équipe en crise ne peut pas monter au niveau 2, elle ne tiendra pas le point mort de semaine 5. Préférez une équipe stable et curieuse à une équipe en crise qui veut se sauver.
+
+**Étape 3 : le contrat de mission de niveau 2.** Rédiger avec l'équipe voisine un contrat : 8 semaines, les mêmes livrables, un coach (ou un binôme coaché de l'équipe pilote), les mêmes règles d'écriture. Le centre d'excellence reçoit les artefacts des deux équipes.
+
+**Étape 4 : le croisement des preuves.** Les deux équipes échangent leurs preuves : les modèles BPMN de l'une relus par l'autre, les tests MBT de l'une exécutés sur le produit de l'autre, les politiques de l'une comparées à celles de l'autre. Ce croisement est le véritable test de transmission : une pratique qui ne traverse pas la frontière d'une équipe n'est pas une pratique, c'est un dialecte.
+
+**Étape 5 : la décision d'extension.** À la fin des 8 semaines de l'équipe voisine, la décision d'extension plus large (autre équipe, autre site, autre produit) se prend sur des faits : combien de pratiques ont traversé la frontière ? Quels artefacts sont réutilisés ? Combien de rituels tiennent sans coach ?
+
+**Règle :** une pratique est dite « transmise » quand une personne qui n'a pas participé à sa construction peut la faire tenir seule, avec les seuls artefacts publiés.
+
+## La transmission aux nouveaux arrivants
+
+Chaque nouveau arrivant dans une équipe de niveau 2 hérite d'une pratique qu'il n'a pas construite. Sans parcours d'accueil, il va soit la suivre sans comprendre, soit la contester sans connaître. Voici le parcours d'accueil recommandé.
+
+**Jour 1 : le lexique et la charte (30 minutes).** Le nouveau arrivant lit le lexique officiel et la charte de mission, en présence du gardien du centre d'excellence. Il note ce qu'il ne comprend pas : ces notes deviennent des items d'amélioration du lexique.
+
+**Première semaine : l'observation des rituels.** Il observe le rituel de revue de plan, le point de qualimétrie, le rituel Go/No-Go. Il ne parle pas encore : il écrit ce qu'il comprend et ce qu'il ne comprend pas.
+
+**Deuxième semaine : la première production.** Il modélise un petit processus en BPMN (module F2), avec un binôme. Sa production est relue par l'équipe, sans indulgence : la rigueur d'accueil est la rigueur durable.
+
+**Premier mois : la première responsabilité.** Il prend une responsabilité réelle dans la chaîne de niveau 2 : maintenir un modèle, tenir la matrice de couverture, remplir le compte rendu d'un rituel. Une responsabilité réelle vaut mieux que trois formations.
+
+**Règle d'accueil :** un nouveau arrivant qui n'a pas produit d'artefact publié au bout d'un mois est un arrivant qui n'a pas été accueilli. Le problème est organisationnel, pas individuel.
+
+## Le récit de transmission
+
+À la fin du niveau 2, l'équipe écrit le récit de transmission : ce qui a été construit, ce qui a résisté, ce qui a été allégé, ce qui a été abandonné, et pourquoi. Ce récit est court (3 à 5 pages), honnête, et publiable. Il sert à trois usages :
+
+1. **L'usage interne :** les nouveaux arrivants le lisent à leur arrivée. Un récit honnête vaut mieux que dix pages de procédures.
+2. **L'usage de l'extension :** les équipes voisines le lisent avant de commencer leur niveau 2. Il leur montre les creux, pas seulement le sommet.
+3. **L'usage du sponsor :** le sponsor y voit la transformation par les faits, pas par les impressions.
+
+**Règle d'écriture du récit :** chaque affirmation du récit est accompagnée d'un artefact publiable. Le récit est le fil narratif, les artefacts sont les preuves. Un récit sans artefacts est un témoignage, pas une preuve.
+
+## Ce que le niveau 2 ne résout pas encore
+
+L'honnêteté envers le lecteur : le niveau 2 a ses limites. Le niveau 2 rend les spécifications modélisées, l'automatisation et la documentation reliées, la couverture déclarée et l'IA encadrée. Il ne résout pas :
+
+- **La fragmentation des pratiques entre plusieurs équipes.** Chaque équipe peut tenir son niveau 2 en dialecte local. C'est le niveau 3 (JAUNE) qui traite la standardisation inter-équipes.
+- **La dette architecturale et technique.** Le niveau 2 documente et teste le comportement, il ne restructure pas l'architecture. C'est le niveau 4 (VERT) qui traite la dette.
+- **La mesure des effets réels en production.** La qualimétrie N2 mesure la santé du cycle, pas les effets du produit sur ses utilisateurs. C'est le niveau 5 (BLEU) qui traite la mesure des effets.
+- **L'intégration complète de l'IA dans le cycle de livraison.** Le niveau 2 pose le socle. C'est le niveau 6 (INDIGO) qui traite l'IA comme composant du cycle.
+- **La transmission organisationnelle complète.** Le niveau 2 transmet à une équipe et à ses voisins. C'est le niveau 7 (VIOLET) qui traite la transmission à toute l'organisation.
+
+Cette honnêteté n'est pas une faiblesse : c'est le critère de confiance du lecteur. Un livre qui prétend tout résoudre ne résout rien de mesurable.
+
+---
+
+
+# Partie 6 : Le manuel de l'atelier — fiches détaillées d'animation
+
+Cette partie transforme chaque atelier du livre en une fiche d'animation prête à l'emploi. Elle s'adresse au coach, au facilitateur, ou à tout membre de l'équipe qui reprend un atelier sans l'auteur du livre. Chaque fiche suit le même format : l'intention, le matériel, le déroulé minute par minute, les pièges, et la variante pour petit groupe.
+
+**Comment utiliser ce manuel :** imprimez la fiche de l'atelier que vous animez. Ne l'improvisez pas de mémoire : la fiche contient les pièges qui ne se voient que quand on les a vus. Et après l'atelier, annotez la fiche avec ce qui a marché et ce qui n'a pas marché — c'est le manuel qui doit apprendre de chaque animation.
+
+## Fiche 1.1 : Arrimage niveau 2 (2 h)
+
+**Intention :** ancrer la continuité avec le niveau 1 sans transformer l'arrimage en réunion de bilan. L'équipe doit sortir de l'atelier avec trois processus à modéliser et des responsables nommés.
+
+**Matériel :** les livrables du niveau 1 (lexique, contrat v0.2, premier tableau de qualimétrie), un tableau blanc, des post-its de trois couleurs.
+
+**Déroulé :**
+1. (15 min) Tour de table : chacun nomme une pratique de niveau 1 qu'il utilise encore et une qu'il a lâchée. Pas de justification : on constate.
+2. (30 min) Inventaire des livrables du niveau 1 : afficher le lexique, le contrat, la qualimétrie. Chacun marque : je l'utilise / je ne l'utilise pas / je ne le connais pas.
+3. (30 min) Identification des 3 à 5 processus critiques : chaque participant propose un processus qui, s'il est mal compris, coûte cher. On vote : ce qui est mal compris par le plus de personnes d'abord.
+4. (25 min) Nommer les responsables de modèles : un volontaire par modèle, pas une assignation. Si personne ne se porte volontaire, le processus n'est pas assez critique ou le moment n'est pas bon.
+5. (20 min) Décider l'ordre de modélisation de la semaine, et ce qui est reporté.
+
+**Pièges :**
+- L'atelier dérive en procès des pratiques du niveau 1. Ramenez : le niveau 1 a été ce qu'il devait être. On construit, on ne juge pas.
+- Le coach propose lui-même les processus critiques. Non : l'équipe les propose, le coach vérifie seulement que les critères sont explicites.
+- Les responsables sont nommés d'office. Un responsable nommé d'office devient un résistant.
+
+**Variante petit groupe (moins de 5 personnes) :** fusionnez les étapes 2 et 3 : l'inventaire des livrables se fait pendant que les processus sont proposés.
+
+## Fiche 1.2 : BPMN pour modéliser le cycle de vie produit (3 h)
+
+**Intention :** faire produire un premier modèle BPMN réel, pas un exemple pédagogique. La confrontation des sous-groupes est le cœur de l'atelier : l'ambiguïté se voit quand deux modélisations divergent.
+
+**Matériel :** un outil de modélisation partagé (ou des gabarits papier), les processus identifiés en fiche 1.1, la charte de nommage si elle existe.
+
+**Déroulé :**
+1. (20 min) Révision express des éléments BPMN : événements, activités, passerelles, flux, lanes. Utilisez un modèle existant de l'équipe comme support, pas un exemple générique.
+2. (30 min) Modélisation en direct d'un processus simple : le facilitateur dessine sous dictée de l'équipe. Il ne décide pas : il exécute les décisions de l'équipe et nomme les ambiguïtés qu'il détecte.
+3. (60 min) Modélisation par sous-groupes. Règle d'or : si le modèle ne peut pas être relu à froid par un tiers, il n'est pas fini.
+4. (40 min) Confrontation : les sous-groupes présentent, l'équipe repère les divergences. Chaque divergence est écrite sur un post-it, pas discutée à l'infini.
+5. (30 min) Décision : quel modèle devient référence, lequel reste brouillon, et qui corrige quoi d'ici la fin de semaine.
+
+**Pièges :**
+- L'atelier devient un cours sur BPMN. La révision express suffit : on apprend la notation en modélisant, pas avant.
+- Le facilitateur corrige les modèles des sous-groupes en direct. Non : la confrontation entre sous-groupes est l'outil de correction.
+- Vouloir un modèle parfait du premier coup. Un modèle de niveau 2 est un modèle relu avec divergences écrites, pas un chef-d'œuvre.
+
+**Variante petite équipe :** un seul processus, modélisé par deux binômes indépendants. La confrontation de deux versions du même processus est plus riche que trois modèles différents.
+
+## Fiche 1.3 : MBT — rendre le modèle exécutable (3 h)
+
+**Intention :** démontrer qu'un modèle n'est pas un dessin : il génère des tests. L'atelier doit finir avec un cas de test réellement exécuté, pas un concept expliqué.
+
+**Matériel :** le modèle choisi en fiche 1.2, l'outil MBT disponible ou la procédure d'extraction manuelle, l'environnement de test de l'équipe.
+
+**Déroulé :**
+1. (20 min) Principe MBT en trois points : le modèle décrit les états et transitions, les parcours générés sont des cas de test, la couverture du modèle devient la couverture des tests.
+2. (40 min) Extraction manuelle : l'équipe extrait à la main les 5 à 8 cas de test essentiels d'un chemin critique du modèle. Cette étape manuelle est indispensable : elle forme l'intuition qui permettra de diagnostiquer les sorties de l'outil.
+3. (60 min) Extraction par outil (si disponible) : comparer les cas de l'extraction manuelle aux cas générés. Les écarts sont les cas que l'intuition seule n'aurait pas trouvés.
+4. (30 min) Exécution d'un cas : exécuter réellement un des cas générés sur l'environnement de test. Un cas non exécuté en atelier ne prouve rien.
+5. (30 min) Décision de maintenance : qui met à jour le modèle quand le code change ? Quel délai ? Quelle preuve de synchronisation ? Écrire la règle sur une page.
+
+**Pièges :**
+- Vouloir automatiser tout le modèle. Un chemin critique suffit pour la première exécution.
+- Laisser l'outil générer des centaines de cas. Le nombre n'est pas la couverture : 8 cas bien choisis valent mieux que 300 cas malléables.
+- Sauter l'extraction manuelle. Sans elle, l'équipe ne comprend pas ce que l'outil fait et ne saura pas diagnostiquer ses sorties.
+
+**Variante sans outil MBT :** l'extraction manuelle devient la méthode. L'atelier produit une règle d'extraction écrite d'une page, tenue à chaque modification de modèle.
+
+## Fiche 2.1 : Outillage pour l'automatisation des spécifications (3 h)
+
+**Intention :** structurer la chaîne modèle → test → documentation avec les outils déjà présents, sans achat ni migration. La boîte à outils de niveau 2 est un arrangement, pas un achat.
+
+**Matériel :** l'inventaire des outils actuels, la chaîne de livraison actuelle, les modèles produits en semaine 1.
+
+**Déroulé :**
+1. (20 min) Carte des outils actuels : chaque outil est placé dans une colonne (modélisation, automatisation, documentation, intégration). Les cases vides sont les manques.
+2. (40 min) La chaîne cible : dessiner la chaîne cible : modèle → tests générés → exécution → preuve → documentation. Marquer les maillons manquants.
+3. (60 min) Fermer les manques avec ce qui existe : réutiliser les outils actuels dans le nouvel arrangement plutôt que d'introduire un nouvel outil. Un nouvel outil est un coût caché : formation, licences, maintenance.
+4. (40 min) Responsabilités de maintenance : pour chaque maillon, qui maintient ? qui relit ? qui est alerté quand ça casse ? Écrire le tableau des responsabilités.
+5. (20 min) Démonstration de bout en bout : modifier un modèle et regarder la chaîne propager jusqu'à la documentation. Cette démonstration est le contrat moral de l'atelier.
+
+**Pièges :**
+- Achat d'un nouvel outil en atelier. Non : la décision d'achat se prend hors atelier, sur preuve de manque réel documenté.
+- La chaîne cible dessinée reste un dessin. Chaque maillon a un responsable nommé, sinon la chaîne est un vœu.
+- Le facilitateur installe la chaîne lui-même. Non : l'équipe installe, le facilitateur vérifie.
+
+**Variante sans intégration continue :** la chaîne se tient à la main, avec une checklist de propagation écrite et tenue à chaque modification de modèle. Plus lent, mais déjà du niveau 2.
+
+## Fiche 2.2 : Documentation produit comme spécification vivante (3 h)
+
+**Intention :** faire de la documentation un produit du cycle, pas un document à côté. La démonstration clé : une modification de modèle met à jour la documentation sans réécriture manuelle.
+
+**Matériel :** la chaîne de niveau 2 (fiche 2.1), les pages de documentation produit actuelles, les modèles BPMN de l'équipe.
+
+**Déroulé :**
+1. (20 min) Diagnostic de la documentation actuelle : quelles pages sont vivantes (reliées au produit) ? lesquelles sont mortes (non mises à jour depuis le début du projet) ? Les pages mortes sont marquées.
+2. (40 min) Choisir une page morte : la ressusciter en la reliant au modèle correspondant. Cette résurrection est la démonstration du principe.
+3. (60 min) Réécriture d'une page vivante : la réécrire à partir du modèle, pas à partir de l'ancienne version. La réécriture doit être plus courte que l'original : plus courte, plus reliée, plus testable.
+4. (40 min) Convention de maintenance : qui met à jour la documentation quand le modèle change ? Quelle preuve de synchronisation ? Quelle fréquence de relecture ? Écrire la convention, une page.
+5. (20 min) Publication : la page réécrite est publiée, l'ancienne version archivée avec sa date de mort.
+
+**Pièges :**
+- Ressusciter toutes les pages mortes d'un coup. Une page à la fois : la chaîne doit démontrer la propagation avant le grand nettoyage.
+- La documentation générée n'est relue par personne. Une page générée sans relecture humaine devient fausse avec plus d'assurance qu'une page écrite.
+- La convention de maintenance est écrite mais jamais tenue. Prévoir la date de relecture dans la convention elle-même.
+
+**Variante sans génération automatique :** la page est mise à jour à la main à partir du modèle, avec une checklist de synchronisation. Plus lent, mais déjà du niveau 2.
+
+## Fiche 3.1 : Le plan relié aux modèles (3 h)
+
+**Intention :** faire du plan de livraison une projection des modèles, pas un document parallèle. Le plan de niveau 2 répond à « quand » à partir de « qu'est-ce qui est prouvé », pas à partir d'optimisme.
+
+**Matériel :** le plan actuel, les modèles BPMN/MBT de l'équipe, les résultats d'automatisation, la matrice de couverture.
+
+**Déroulé :**
+1. (20 min) Diagnostic du plan actuel : chaque ligne du plan a-t-elle un modèle ? une preuve ? Les lignes sans preuve sont marquées comme zones d'ambiguïté.
+2. (40 min) Relier chaque ligne du plan à un modèle et à une preuve. Les lignes qui ne peuvent pas être reliées deviennent des décisions explicites : modéliser, reporter, ou assumer le risque par écrit.
+3. (60 min) Reconstruire le plan : chaque ligne pointe vers un modèle, un test et une preuve. Les dates ne sont plus des promesses : ce sont des conséquences d'un état de preuves.
+4. (40 min) Revue à contre-courant : un participant qui n'a pas participé à la construction relit le plan à froid et pose les questions que le plan ne répond pas.
+5. (20 min) Décision : le plan reconstruit devient la référence ; l'ancien plan est archivé avec sa date de mort.
+
+**Pièges :**
+- Relier des lignes fictives. Si une ligne n'a ni modèle ni preuve, elle ne se relie pas : elle se décide.
+- Le plan reconstruit est plus lent que l'ancien et l'équipe s'en inquiète. C'est normal : il dit la vérité. La vitesse revenue viendra de la réduction des ambiguïtés, pas du plan.
+- La revue à contre-courant est sautée « par manque de temps ». C'est l'étape qui révèle ce que le groupe ne voit plus.
+
+**Variante petit groupe :** la revue à contre-courant se fait par un seul relecteur externe (un membre d'une équipe voisine), ce qui prépare en même temps la démonstration aux voisins de la semaine 6.
+
+## Fiche 3.2 : L'engagement de livraison comme contrat testable (2 h)
+
+**Intention :** réécrire les engagements de livraison en forme contractuelle SI/ALORS, avec preuve. Un engagement qu'on ne peut pas tester est un engagement qu'on ne peut pas tenir.
+
+**Matériel :** les engagements de livraison de la période, les critères de Go du rituel Go/No-Go, les preuves d'automatisation disponibles.
+
+**Déroulé :**
+1. (20 min) Prendre un engagement typique et le disséquer : « la version 2.4 sera livrée le 30 ». Qu'est-ce que ça veut dire ? Qui décide ? Sur quelle base ?
+2. (40 min) Le réécrire en SI/ALORS : « SI les tests de type [X] passent sur les flux critiques du modèle [Y], ALORS la version 2.4 est livrée le 30 ». Identifier ce qui manque pour que le SI soit vérifiable : données, environnement, modèle à jour, couverture.
+3. (40 min) Répéter l'exercice sur tous les engagements de la période. Compter combien deviennent testables immédiatement, combien demandent un travail, combien sont impossibles à tester en l'état.
+4. (20 min) Publier les engagements réécrits et les engagements impossibles à tester (assumés, avec la raison).
+
+**Pièges :**
+- Le SI devient une liste de 15 conditions. Un SI qui ne tient pas en trois conditions n'est pas un critère : c'est un rapport.
+- Les engagements impossibles à tester sont cachés. Nommez-les : ce sont eux qui produiront les surprises de fin de cycle.
+- Le sponsor n'est pas associé. Un contrat testable que le sponsor n'a pas lu n'engage personne.
+
+**Variante :** l'exercice se fait directement en rituel Go/No-Go sur l'engagement de la semaine : la réécriture devient l'ordre du jour permanent.
+
+## Fiche 4.1 : Des métriques aux signaux de décision (2 h)
+
+**Intention :** passer des métriques qui décrivent (ce qui s'est passé) aux signaux qui décident (ce qu'il faut faire maintenant). Un signal sans décision est une curiosité.
+
+**Matériel :** la liste des métriques actuelles, les décisions prises au cours du dernier mois, le tableau des responsabilités.
+
+**Déroulé :**
+1. (20 min) Inventaire des métriques actuelles. Pour chacune : quelle décision a-t-elle déclenchée au cours du dernier mois ? Les métriques sans décision sont marquées.
+2. (30 min) Pour chaque métrique utile : définir le seuil (à partir de quand on agit), le décideur (qui agit), l'action attendue (quoi se passe quand le seuil est franchi).
+3. (30 min) Transformer les métriques sans décision : soit leur donner un seuil et un décideur, soit les éliminer. Une métrique éliminée fait gagner du temps à chaque point de qualimétrie.
+4. (20 min) Relier chaque signal à son contexte : un chiffre sans contexte (modèle concerné, périmètre, période) n'est qu'un chiffre. Écrire la règle de contexte d'une ligne.
+
+**Pièges :**
+- Donner un seuil à une métrique qui n'a jamais déclenché de décision. C'est un faux signal : il décorera le tableau sans rien décider.
+- Le seuil est fixé pour que le signal soit toujours vert. Un seuil qui ne se franchit jamais n'est pas un seuil : c'est une décoration.
+- Le décideur est « l'équipe ». Un décideur collectif n'est pas un décideur : nommez une personne.
+
+**Variante :** l'exercice se limite aux cinq métriques du tableau de bord qui sera construit en fiche 4.2. Moi de focaliser l'énergie.
+
+## Fiche 4.2 : Le tableau de bord lu en rituel (3 h)
+
+**Intention :** construire un tableau de bord minimal (5 à 7 signaux), alimenté automatiquement autant que possible, lu en rituel, et vivant.
+
+**Matériel :** les signaux définis en fiche 4.1, les outils d'extraction disponibles, le rituel de revue de plan.
+
+**Déroulé :**
+1. (30 min) Sélection des 5 à 7 signaux essentiels : état des modèles critiques, tests passés/échoués, couverture, dérogations actives, temps de cycle, bugs post-livraison. Pas plus : un tableau de bord de 15 lignes n'est plus lu au bout de trois semaines.
+2. (40 min) Source de chaque signal : outil, extrait, calcul, fréquence de mise à jour. Un signal alimenté à la main est nommé comme tel : c'est un risque de mort lente.
+3. (60 min) Construction du tableau le plus simple possible : une page Wiki, une feuille de calcul, ou une page générée. La beauté n'est pas un critère : la lecture en rituel l'est.
+4. (40 min) Première lecture en rituel : le tableau est lu comme il sera lu chaque semaine. Qui parle ? Dans quel ordre ? Qu'est-ce qui déclenche une discussion et qu'est-ce qui est constaté en silence ?
+5. (10 min) Convention : fréquence de mise à jour, responsable, et règle de retrait (un signal qui ne déclenche rien pendant quatre semaines sort du tableau).
+
+**Pièges :**
+- Le tableau est beau mais ne dit rien. Chaque ligne doit avoir un seuil et une action, sinon c'est de la décoration.
+- La mise à jour manuelle est présentée comme provisoire et devient définitive. Écrivez la date de revue de la provision.
+- Le tableau remplace la conversation. Non : il l'ouvre. Si le rituel lit le tableau en silence et se termine, le tableau est un alibi.
+
+**Variante :** le tableau de bord est construit par un binôme de l'équipe (pas par le facilitateur), ce qui garantit qu'au moins deux personnes savent le maintenir.
+
+## Fiche 5.1 : Diagnostic sans illusion niveau 2 (2 h)
+
+**Intention :** faire un état des lieux honnête des modèles, de l'automatisation et de la documentation, sans langue de bois et sans chasse aux coupables.
+
+**Matériel :** les modèles, les résultats d'automatisation, les pages de documentation, des cartes ou post-its.
+
+**Déroulé :**
+1. (15 min) Cadrage : ce diagnostic n'est pas un procès. On regarde les systèmes, pas les personnes. Chaque blocage est nommé avec le système en cause.
+2. (30 min) Tour de la modélisation : chaque membre répond : « quel modèle n'avez-vous pas touché depuis deux semaines ? pourquoi ? » Les réponses sont écrites, pas discutées.
+3. (30 min) Tour de l'automatisation : combien de tests générés passent ? échouent ? depuis quand ? Les échoués depuis plus de deux semaines sont marqués comme dérive.
+4. (30 min) Tour de la documentation : quelles pages sont synchronisées ? lesquelles vivent leur propre vie ?
+5. (15 min) Classement : chaque blocage est classé par système (outil, processus, compétence, temps, décision) et le tableau est photographié puis publié.
+
+**Pièges :**
+- Le diagnostic devient un échange d'excuses. La consigne : une cause, pas une excuse. « Le modèle est obsolète parce que X n'a pas eu le temps » → système : temps alloué à la maintenance.
+- Le coach classifie seul à la fin. Non : l'équipe classifie ensemble, le coach photographie.
+- Rien n'est écrit après l'atelier. Le tableau non publié est un diagnostic qui n'a pas eu lieu.
+
+**Variante :** le diagnostic se fait par écrit d'abord (chacun remplit le questionnaire seul), puis la plénière confronte. C'est plus honnête : à l'oral, la politesse filtre.
+
+## Fiche 5.2 : Remontage au sponsor avec preuves (1 h 30)
+
+**Intention :** transformer les blocages en demandes structurées avec preuve, impact et destinataire. Une demande orale à un sponsor occupé n'existe pas.
+
+**Matériel :** le tableau des blocages (fiche 5.1), un modèle de demande en quatre champs.
+
+**Déroulé :**
+1. (20 min) Sélection : parmi les blocages, quels sont ceux qui exigent une décision hors de l'équipe ? Les autres restent sous responsabilité d'équipe.
+2. (40 min) Rédaction des demandes : pour chaque blocage retenu — la preuve (capture, métrique, temps perdu, incident), l'impact (sur la livraison ou la qualité), le destinataire (qui peut débloquer), la demande (une phrase).
+3. (30 min) Répétition du remontage : le porte-parole présente chaque demande en deux minutes. Le sponsor répond par écrit à chacune : accordé / refusé / reporté, avec la raison et la date.
+
+**Pièges :**
+- Les demandes sont des doléances. Une demande sans preuve ni impact est une doléance : elle sera ignorée, et ce sera mérité.
+- Le sponsor répond « on verra ». Refusez : la réponse est accordé / refusé / reporté, avec date. « On verra » est un report sans date, donc un refus déguisé.
+- Le coach remonte lui-même les demandes. Non : c'est l'équipe qui remonte. Le coach qui remonte crée une dépendance.
+
+**Variante :** le remontage se fait par écrit (un document d'une page par demande) et la réunion ne sert qu'aux réponses. Plus efficace pour un sponsor à agenda serré.
+
+## Fiche 7.1 : Matrice de couverture par types de test (3 h)
+
+**Intention :** rendre la couverture visible et honnête : quels types de test existent, sur quels flux, avec quelles preuves. La matrice est un instrument de vérité, pas un rapport de conformité.
+
+**Matériel :** la liste des types de test (unitaire, intégration, système, performance, sécurité, accessibilité, etc.), les flux critiques des modèles, les preuves d'exécution.
+
+**Déroulé :**
+1. (20 min) Définir les types de test pertinents pour l'équipe (pas la liste complète du monde : la liste de l'équipe).
+2. (40 min) Construire la matrice : lignes = types de test, colonnes = flux critiques. Chaque case : une des quatre valeurs — fait avec preuve / fait sans preuve / pas fait, décidé / pas fait, non décidé.
+3. (60 min) Remplir la matrice honnêtement. Les cases « fait sans preuve » et « pas fait, non décidé » sont les plus instructives : ce sont les angles morts.
+4. (40 min) Décider de trois cases à changer d'ici la fin du niveau 2 : soit construire la preuve, soit faire le test, soit assumer le non-fait par écrit avec la raison.
+5. (20 min) Publier la matrice et prévoir sa revue : une matrice non relue devient une décoration.
+
+**Pièges :**
+- La matrice devient un rapport de conformité où tout est vert. La valeur est dans les cases honnêtes, pas dans le vert.
+- Trop de types de test. La liste de l'équipe, pas celle du référentiel : cinq types réels valent mieux que quinze théoriques.
+- La matrice n'est reliée à aucune exécution. Une ligne de matrice sans preuve d'exécution est une déclaration, pas une mesure.
+
+**Variante :** la matrice est remplie par sous-groupes (un sous-groupe par flux), puis confrontée. Les désaccords entre sous-groupes révèlent qui sait quoi.
+
+## Fiche 8.1 : Audit de maturité niveau 2 (3 h)
+
+**Intention :** auditer les sept éléments de niveau 2 avec preuves, sans indulgence et sans autocensure. L'audit est la matière première du rapport de maturité.
+
+**Matériel :** la grille d'auto-évaluation des sept éléments (partie 4), les artefacts publiés au centre d'excellence, les tableaux de bord.
+
+**Déroulé :**
+1. (20 min) Cadrage : l'échelle est 1 (absent), 2 (présent mais fragile), 3 (installé). Une note sans preuve vaut zéro.
+2. (60 min) Élément par élément : l'équipe note, puis confronte les notes individuelles. Les écarts de deux points ou plus entre membres sont discutés : là où l'équipe se voit différemment, il y a un problème de réalité partagée.
+3. (40 min) Collecte des preuves : pour chaque note de 3, pointer l'artefact réel. Un élément sans artefact retombe à 2.
+4. (40 min) Nommer les deux faiblesses : les deux éléments les plus bas, sans filtre, avec un plan de correction minimal (action, responsable, date).
+5. (20 min) Photographie de fin : la grille remplie est publiée. Elle sera comparée à la grille de J+30.
+
+**Pièges :**
+- L'audit devient une cérémonie de satisfaction. Les faiblesses nommées sans filtre sont la partie la plus précieuse : protègez-les de l'auto-promotion.
+- Les preuves sont des affirmations. « On fait du MBT » n'est pas une preuve ; le modèle et les tests générés le sont.
+- L'audit est fait seul par le coach. Non : l'équipe audite, le coach garantit la méthode.
+
+**Variante :** l'audit croisé : une équipe voisine audite l'équipe pilote avec la même grille, et réciproquement. Le regard externe est le meilleur antidote à l'indulgence.
+
+## Le registre des fiches
+
+Chaque fiche utilisée est annotée après l'animation : ce qui a marché, ce qui a déraillé, le temps réel par rapport au temps prévu, et une suggestion d'amélioration. Le registre des fiches vit dans le centre d'excellence. Après trois animations d'une même fiche, le facilitateur relit les annotations et fait évoluer la fiche : une fiche d'animation qui ne change jamais est une fiche morte.
+
+| Fiche | Utilisée le | Temps réel | Ce qui a marché | Ce qui a déraillé | Modification proposée |
+| --- | --- | --- | --- | --- | --- |
+| 1.1 | | | | | |
+| 1.2 | | | | | |
+| 1.3 | | | | | |
+| 2.1 | | | | | |
+| 2.2 | | | | | |
+| 3.1 | | | | | |
+| 3.2 | | | | | |
+| 4.1 | | | | | |
+| 4.2 | | | | | |
+| 5.1 | | | | | |
+| 5.2 | | | | | |
+| 7.1 | | | | | |
+| 8.1 | | | | | |
+
+**Règle :** le registre est rempli le jour même de l'atelier, en cinq minutes, par l'animateur. Un registre rempli « plus tard » n'est jamais rempli.
+
+
+---
+
+# Épilogue : ce n'est pas le niveau 2 qui réconcilie, c'est vous
 
 Le niveau 1 vous a appris à livrer avec des preuves. Le niveau 2 vous apprend à définir ce que vous livrez, et à le documenter assez bien pour que l'automatisation — et, un jour, l'intelligence artificielle — puissent s'appuyer sur du solide.
 
@@ -645,11 +1320,22 @@ Mais ni le niveau 1, ni le niveau 2, ni aucun modèle BPMN, ni aucune matrice de
 
 La réconciliation se fait dans les conversations que vous avez choisies de ne pas éviter : celle où vous dites "je ne sais pas", celle où vous montrez un modèle et demandez "est-ce que c'est bien ce que nous voulons ?", celle où vous admettez que l'automatisation a échoué et que vous devez réparer le modèle, pas seulement le test.
 
-Le niveau 2 est une étape. Pas une destination. Continuez.
+Le niveau 2 n'est pas une méthode. C'est un déclic partagé : la spécification doit être modélisée pour être comprise de la même façon par tous, l'automatisation et la documentation doivent partager la même source, la couverture par types de test doit être mesurée pour être honnête, et l'IA doit reposer sur un socle pour être fiable. Ce déclic ne se transmet pas par un document : il se transmet par la pratique vécue.
+
+Si vous avez suivi ce livre jusqu'ici, vous avez fait quelque chose que peu d'équipes font : vous avez traversé un point mort documenté, allégé sans abandonner, relayé un rituel sans le coach, encadré l'IA sur un socle solide, et publié chaque artefact. Vous avez construit un niveau, pas un projet.
+
+Le niveau 3 (JAUNE) vous attend, mais il n'est pas pressé. Un niveau 2 fragile étendu est pire qu'un niveau 2 solide dans une seule équipe. Consolidez d'abord. Puis, quand la chaîne modèle → test → documentation propage une modification en moins d'une journée, quand le rituel Go/No-Go tient à l'aveugle, quand la couverture est mesurée et non déclarée, quand l'IA est un assistant relu et pas une boîte noire — alors le JAUNE ne sera plus une montée, ce sera une conséquence.
+
+**Le mot de la fin :** une pratique de niveau 2 qui tient sans le coach, traverse la frontière de l'équipe, et se transmet à un nouveau arrivant — c'est ça, la TOTALISATION vivante. Le reste est littérature.
+
+Le niveau 2 est une étape, pas une destination. Continuez.
 
 ---
 
 ## Annexes
+
+---
+
 
 ### Annexe A1 : Modèle de charte de mission niveau 2
 
@@ -779,6 +1465,9 @@ Le niveau 2 est une étape. Pas une destination. Continuez.
 
 ## Notes de facilitation semaine par semaine (S1 à S8)
 
+---
+
+
 ### Notes de facilitation - Semaine 1
 
 **Erreurs fréquentes**
@@ -807,21 +1496,25 @@ Une modification d'un modèle BPMN entraîne une mise à jour visible des tests 
 
 **Erreurs fréquentes**
 
-- [À compléter selon le découpage final des semaines 3-4]
+- Relier au plan des lignes qui n'ont ni modèle ni preuve. Si une ligne ne se relie pas, elle se décide : modéliser, reporter, ou assumer par écrit.
+- Reconstruire le plan seul dans un coin et le présenter comme un fait accompli. Le plan se reconstruit en atelier, sinon l'équipe ne s'y reconnaît pas.
+- Accepter un plan reconstruit plus lent sans nommer pourquoi. Le plan dit la vérité : nommez les ambiguïtés restantes, c'est d'elles que viendra la vitesse.
 
 **Test de réussite de la semaine 3**
 
-[À compléter selon le découpage final des semaines 3-4]
+Chaque ligne du plan pointe vers un modèle, un test et une preuve — ou porte une décision explicite datée (modéliser / reporter / assumer). Un relecteur externe a relu le plan à froid.
 
 ### Notes de facilitation - Semaine 4
 
 **Erreurs fréquentes**
 
-- [À compléter selon le découpage final des semaines 3-4]
+- Donner un seuil à une métrique qui n'a jamais déclenché de décision. Un seuil qui ne se franchit jamais est une décoration, pas un signal.
+- Construire un tableau de bord de 15 lignes. Cinq à sept signaux lus en rituel valent mieux que quinze consultés par politesse.
+- Laisser la mise à jour manuelle devenir définitive sans date de revue. Écrivez la date de revue de la provision dans la convention elle-même.
 
 **Test de réussite de la semaine 4**
 
-[À compléter selon le découpage final des semaines 3-4]
+Le tableau de bord de 5 à 7 signaux est lu en rituel : chaque signal lu déclenche une décision ou une action nommée. Un signal qui ne déclenche rien depuis quatre semaines sort du tableau.
 
 ### Notes de facilitation - Semaine 5
 
