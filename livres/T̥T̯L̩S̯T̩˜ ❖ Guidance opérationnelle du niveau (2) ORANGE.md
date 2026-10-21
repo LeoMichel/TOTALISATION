@@ -1312,6 +1312,852 @@ Chaque fiche utilisée est annotée après l'animation : ce qui a marché, ce qu
 
 ---
 
+
+---
+
+# Partie 7 : Cas réels, gabarits remplis et variantes contextuelles
+
+Cette partie complète les huit semaines du niveau 2 avec ce qu'un descriptif d'atelier ne peut pas montrer : les gabarits remplis par une vraie équipe, les situations vécues derrière les capsules, et l'adaptation du parcours aux contextes non standards.
+
+## 1. Les gabarits remplis d'exemples réels
+
+### 1.1 Premier modèle BPMN — exemple rempli
+
+> Exemple de la mission Faucon, semaine 1 du niveau 2. Le processus modélisé : la correction d'un bug, de la détection à la vérification.
+
+**Éléments du modèle :**
+
+| Élément BPMN | Contenu | Remarque |
+|---|---|---|
+| Événement de départ | Un bug est détecté (test automatisé, client, ou support) | Trois sources, un seul point d'entrée |
+| Tâche 1 | Qualifier le bug selon les critères écrits (niveau 1) | Utilise les critères de priorisation de ROUGE |
+| Passerelle 1 | Critique ? | Oui → flux urgent / Non → flux normal |
+| Tâche 2 (flux urgent) | Correction immédiate + test de non-régression ciblé | |
+| Tâche 2 (flux normal) | Création de la spécification de correction avant le code | La spécification d'une correction est plus courte, mais existe |
+| Passerelle 2 | La correction modifie-t-elle un comportement documenté ? | Oui → mettre à jour le modèle / Non → continuer |
+| Tâche 3 | Vérification selon les critères de validation écrits | |
+| Événement de fin | Bug vérifié corrigé, preuves archivées | |
+
+**Les trois divergences trouvées lors de la confrontation (atelier 1.2) :**
+1. Le développeur avait modélisé la correction directement après la qualification, sans spécification. Le QA avait mis une tâche « écrire ce qui est corrigé ». → Le conflit exact que le niveau 2 veut résoudre.
+2. Le modèle du développeur ne contenait pas la mise à jour du modèle lui-même. Le modèle BPMN du processus de bug ne se mettait pas à jour dans le processus de bug. → Meta-problème classique.
+3. Les deux avaient oublié la vérification du correctif en production (CONFIRMER). → Le trou que la grille de couverture du niveau 2 comble.
+
+### 1.2 Spécification de correction — exemple rempli
+
+> La spécification courte du correctif, produite à partir du modèle. Notez la longueur : une page. C'est une correction, pas une fonctionnalité.
+
+**Correctif BUG-1247 : le filtre combiné ignore les valeurs nulles**
+
+**Contexte :** le filtre du rapport X combiné à un second filtre produit des résultats incorrects quand la première colonne contient des valeurs nulles.
+
+**Comportement observé :** les lignes avec valeur nulle dans la colonne 1 sont exclues du résultat, même si elles satisfont le second filtre.
+
+**Comportement attendu :** une valeur nulle dans la colonne 1 n'exclut pas la ligne ; elle n'est simplement pas filtrée par ce critère. Les autres filtres s'appliquent normalement.
+
+**Règles de validation :**
+1. Avec colonne 1 vide et filtre colonne 2 = « actif » : les lignes actives apparaissent.
+2. Avec colonne 1 = « inactif » et filtre colonne 2 = « actif » : aucune ligne (comportement inchangé).
+3. Le rapport sans filtre n'est pas affecté (non-régression).
+
+**Cas limite :** les données historiques migrées contiennent des valeurs nulles pour une raison métier (non renseigné à l'époque) : elles doivent apparaître comme les autres valeurs nulles, sans traitement spécial.
+
+**Pourquoi ce format :** trois règles de validation numérotées, un cas limite métier explicite. Le développeur qui code ce correctif n'a aucune question à poser. C'est le standard du niveau 2 pour une correction.
+
+### 1.3 Documentation liée au modèle — extrait rempli
+
+> Page de documentation produit générée à partir du modèle, niveau 2.
+
+**Comportement du filtre du rapport X** *(source : modèle BPM « correction de bug », révision 3, à jour)*
+
+Le filtre du rapport X s'applique aux colonnes sélectionnées. Règles :
+
+- Chaque filtre s'applique indépendamment aux autres.
+- Une valeur nulle dans une colonne filtrée **n'exclut pas** la ligne (elle échappe au filtre de cette colonne).
+- Les filtres se combinent par ET logique.
+
+*Cette page est mise à jour automatiquement à chaque révision du modèle. Dernière synchronisation : automatique, pipeline du 12 juillet. Référence du modèle : BPM-004, révision 3.*
+
+**Pourquoi la référence du modèle compte :** la documentation qui ne cite pas sa source ne peut pas être vérifiée. Avec la référence, un lecteur qui doute de la page peut ouvrir le modèle et comparer — la documentation devient falsifiable, donc digne de confiance.
+
+## 2. Cas vécus étendus : le niveau 2 de la mission Faucon
+
+### Cas de la semaine 1 : le modèle que personne ne voulait dessiner
+
+**Situation.** L'atelier de modélisation BPMN a commencé par une résistance inattendue : le tech lead a déclaré que son équipe « pense en code, pas en diagrammes », et que le BPMN était « une perte de temps pour gens qui ne lisent pas le code ».
+
+**Le tournant.** Le coach n'a pas défendu le BPMN. Il a proposé un test : modélisez le processus de correction de bug comme vous le faites vraiment, et ensuite, chacun décrit le processus de l'autre à partir du modèle. Le développeur a décrit le processus du QA à partir du modèle du QA — et a découvert qu'il croyait que le QA testait avant la correction, alors que le modèle disait le contraire. Le QA croyait l'inverse. Les deux avaient tort sur le processus de l'autre depuis des mois.
+
+**La suite.** La discussion qui a suivi a duré 40 minutes et a produit trois corrections de processus — pas du modèle, du processus réel. Le tech lead a conclu : « Le diagramme n'a rien appris au code. Il a appris ce qu'on fait chacun. »
+
+**Ce que ce cas enseigne.**
+- Le BPMN n'est pas un exercice de documentation : c'est un instrument de découverte des malentendus entre rôles. Sa valeur se mesure au nombre de « attends, toi tu fais ça ? » qu'il provoque.
+- Ne vendez jamais l'outil. Proposez le test : « décris le processus de l'autre à partir de son modèle ». Si le modèle ne révèle rien, il n'était pas nécessaire — et vous l'aurez prouvé par le test, pas par l'argument.
+- La résistance au modèle est souvent la résistance à être lu. Un processus modélisé devient discutable ; un processus oral reste invérifiable. Certaines personnes préfèrent l'invérifiable — le dialogue sur ce point vaut mieux que l'imposition.
+
+### Cas de la semaine 3 : le plan qui est devenu honnête
+
+**Situation.** Le plan de livraison du trimestre promettait six fonctionnalités. L'exercice de la semaine 3 (lier chaque élément à un modèle et à des preuves) a révélé que deux des six n'avaient aucun modèle, et qu'une troisième avait un modèle décrivant un comportement différent de la demande originale.
+
+**La tentation.** Garder le plan tel quel et « créer les modèles en cours de route ». C'est le fonctionnement du niveau 1, déguisé.
+
+**La décision.** Le plan a été présenté au sponsor avec la vérité : deux fonctionnalités étaient « non modélisées » (donc non estimables sérieusement), une était « divergente » (le modèle et la demande racontent des choses différentes — il faut trancher laquelle est la bonne). Le sponsor a réagi : « Vous me dites que la moitié du plan est du vent ? » Réponse : « Non. Nous vous disons que la moitié du plan n'a pas encore de preuve. Voici ce qu'il faut pour en avoir. » Le plan a été révisé : quatre fonctionnalités ferme, deux en « investigation de modèle » avec date de résolution.
+
+**Ce que ce cas enseigne.**
+- Le plan lié aux modèles n'est pas plus lent : il est plus honnête. La différence se voit au moment où le sponsor demande « où on en est » — la réponse devient factuelle.
+- « Non modélisé » n'est pas un échec : c'est une catégorie de plan. La catégorie existe pour que les zones d'incertitude soient visibles au lieu d'être maquillées.
+- Le dialogue avec le sponsor change de nature quand les réponses sont des preuves : il passe de « faites-moi confiance » à « regardez ». Le second est plus confortable pour tout le monde, y compris pour lui.
+
+### Cas de la semaine 5 : la documentation que le client a lue
+
+**Situation.** Pendant le point mort du niveau 2, un client a contacté le support avec une question sur le comportement d'un filtre. Le support a répondu en copiant la page de documentation liée au modèle. Le client a répondu : « C'est clair, merci — c'est rare. »
+
+**La signification.** La documentation du niveau 2 n'a pas été écrite pour les clients — elle a été écrite à partir du modèle, pour l'équipe. Mais une documentation produite à partir d'une source de vérité est claire par construction, et la clarté ne connaît pas son public d'origine.
+
+**Ce que ce cas enseigne.**
+- La documentation vivante est reconnaissable à un signe externe : les gens la citent. Interne ou externe, peu importe — le jour où quelqu'un copie-colle votre documentation pour répondre à une vraie question, elle est vivante.
+- Cet événement est arrivé pendant le point mort, la semaine où l'équipe doutait de la valeur de l'effort. Un signe externe de valeur vaut plus que tous les arguments internes. Cherchez-les activement pendant les semaines difficiles.
+- Le support qui répond en copiant la documentation (plutôt qu'en réécrivant) est aussi un signal : les équipes de support deviennent les premiers consommateurs de la documentation vivante. Invitez-les à signaler ce qui n'y est pas — ils sont le capteur le plus fin des trous de documentation.
+
+### Cas de la semaine 7 : le test généré qui a attrapé le bug
+
+**Situation.** La matrice de couverture de la semaine 7 incluait les tests générés par le modèle. Un test généré, portant sur une combinaison de filtres que personne n'avait écrite manuellement, a détecté un défaut de comportement combiné — exactement la famille de bugs du cas BUG-1247.
+
+**La signification.** Le modèle BPMN contenait une passerelle de combinaison de filtres ; le générateur a produit le test de la combinaison non documentée ; le test a échoué ; le défaut a été corrigé avant la livraison. Aucun test manuel ne couvrait cette combinaison : elle était dans le modèle, pas dans l'expérience de l'équipe.
+
+**Ce que ce cas enseigne.**
+- La valeur du MBT se concrétise dans les tests que personne n'aurait écrits : les combinaisons, les chemins rares, les cas que l'expérience humaine ne pense pas à couvrir. Le modèle raisonne plus systématiquement que les humains — c'est précisément son rôle.
+- Ce type d'événement est le meilleur argument pour le niveau 2, et il doit être documenté : « test généré T-042, combinaison non couverte manuellement, défaut corrigé ». Ces cas deviennent les preuves du rapport de maturité.
+- Ne surventez pas non plus : le même générateur a produit 40 tests sans valeur pour ce défaut. Le ratio (1 utile / 40 produits) est la donnée honnête à présenter avec le succès.
+
+## 3. Variantes contextuelles du niveau 2
+
+### V1 : petite équipe (2 à 4 personnes)
+
+- Un seul modèle BPMN suffit pour démarrer : choisissez le processus le plus coûteux en malentendus. Le modèle unique est mieux qu'aucun modèle.
+- La confrontation des modèles se fait entre deux personnes, pas entre sous-groupes — et elle reste la partie la plus précieuse de l'atelier.
+- La documentation liée au modèle peut être une seule page wiki bien tenue plutôt qu'un générateur complet.
+- Le rôle de responsable de modèle tourne : dans une petite équipe, tout le monde doit savoir maintenir le modèle.
+
+### V2 : équipe distribuée
+
+- La modélisation collaborative exige un outil en ligne partagé (même gratuit). Le tableau blanc vidéo ne suffit pas pour du BPMN.
+- La confrontation des modèles fonctionne bien à distance : chaque binôme partage son écran, l'un décrit le modèle de l'autre. La règle « je décris ton modèle, tu me corriges » est même plus efficace à distance, où personne ne peut pointer le même écran.
+- La documentation liée au modèle est l'atout du travail distribué : c'est ce que les gens lisent quand ils ne peuvent pas demander. Investissez-y davantage.
+
+### V3 : legacy lourd
+
+- Le premier modèle BPMN ne doit pas décrire le processus idéal : il doit décrire le processus réel, avec ses contournements et ses zones d'ombre. Le modèle du réel est le point de départ ; le modèle de l'idéal est l'objectif, atteint par itérations.
+- Les tests générés sur un legacy révèlent souvent des comportements inattendus du système actuel : traitez-les comme des découvertes, pas comme des bugs du générateur. Chaque comportement inattendu est documenté : « le système fait X, le modèle disait Y, qui a raison ? »
+- La documentation liée au modèle est l'outil le plus rentable sur un legacy : c'est souvent la première documentation à jour de l'histoire du produit.
+
+### V4 : organisation réglementée
+
+- Le modèle BPMN devient un document réglementaire : sa révision est tracée, ses versions archivées. C'est un avantage, pas une contrainte : la traçabilité réglementaire et la traçabilité du modèle sont la même chose.
+- La documentation liée au modèle satisfait souvent une exigence de documentation produit : montrez le mapping à votre auditeur avant qu'il le demande.
+- Les tests générés à partir du modèle peuvent servir de preuve de couverture réglementaire : la matrice de couverture devient le document d'audit.
+
+### V5 : le sponsor sceptique
+
+- Le niveau 2 est plus difficile à vendre que le niveau 1, car ses bénéfices sont moins immédiats (un modèle ne corrige pas un bug). La preuve par la première divergence trouvée (« nous croyions que le QA testait avant, il teste après ») est le meilleur argument : cherchez-la et montrez-la.
+- Le « fait de la semaine » du niveau 2 : une phrase factuelle par semaine au sponsor. (« Cette semaine : le modèle du processus de bug a révélé 3 malentendus inter-rôles, corrigés. »)
+- Le moment de bascule typique du sponsor sceptique : la première fois qu'un plan lié aux modèles lui donne une réponse factuelle à « où on en est ? ». Après cela, il demande les modèles, pas les slides.
+
+### V6 : reprise après échec du niveau 1
+
+- Si le niveau 1 a été abandonné, les artefacts restants (lexique, critères de bugs) sont la fondation du niveau 2 : ne repartez pas de zéro, mais ne réutilisez pas non plus aveuglément. Chaque artefact est relu et validé avant réutilisation.
+- La modélisation est souvent une meilleure porte d'entrée que la spécification pour une équipe brûlée par un échec : dessiner le processus réel est moins menaçant que réécrire des spécifications « comme on vous l'a déjà demandé ».
+- La règle du niveau 2 pour les reprises : un seul modèle à la fois, réussi, avant le second. La surcharge est la cause de mort la plus fréquente des reprises.
+
+---
+
+## Comment utiliser cette partie
+
+- **Avant de commencer** : lisez la variante correspondant à votre contexte.
+- **Pendant le parcours** : quand un atelier bloque, cherchez le cas vécu correspondant — particulièrement le cas de la semaine 1 (le modèle que personne ne voulait dessiner), qui est le point de résistance le plus fréquent du niveau 2.
+- **À la semaine 8** : comparez vos gabarits remplis avec les exemples. La spécificité est la cible, pas le contenu.
+
+---
+
+
+---
+
+# Partie 6 : Formation, exercices et évaluation du niveau 2
+
+Cette partie est l'équivalent, pour le niveau 2, de la Partie 4 de ROUGE : les capsules formatées pour un lecteur qui n'a pas vécu la mission, les exercices avec corrigés, et les évaluations d'acquisition des compétences du niveau 2.
+
+## 1. Les capsules du niveau 2
+
+Chaque capsule suit le format de ROUGE : description, raison, exemple, piège, exercice. Le lecteur de ROUGE connaît le format ; voici les huit capsules du niveau 2.
+
+### Capsule 2.1 — Le modèle BPMN des processus réels
+
+**Description.** Un modèle BPMN décrit un processus en événements, tâches, passerelles et flux. Le niveau 2 modélise les processus réels de l'équipe — pas les processus idéaux du manuel.
+
+**Raison.** Les malentendus entre rôles vivent dans les processus réels, rarement écrits. Le modèle rend le processus discutable : chacun peut pointer ce qui n'est pas ce qu'il fait.
+
+**Exemple.** Le processus de correction de bug modélisé avec trois sources de détection, une passerelle de criticité, une tâche de spécification de correction, et la mise à jour du modèle lui-même.
+
+**Piège.** Modéliser le processus idéal (« ce que nous devrions faire »). Le modèle de l'idéal ne révèle aucun malentendu, car tout le monde est d'accord sur l'idéal. Le modèle du réel, lui, provoque les « attends, toi tu fais ça ? ».
+
+**Exercice.** Modélisez votre processus de correction de bug tel qu'il se passe vraiment, y compris les contournements. Comptez les divergences trouvées lors de la confrontation. Objectif : au moins deux.
+
+### Capsule 2.2 — La confrontation des modèles entre rôles
+
+**Description.** Chaque binôme de rôles différents décrit le modèle de l'autre à partir de ce qu'il croit, puis compare avec le modèle réel. Les écarts sont les malentendus.
+
+**Raison.** On ne découvre pas ses propres malentendus en regardant son propre modèle. La confrontation croisée est le mécanisme de découverte — c'est l'atelier le plus rentable du niveau 2.
+
+**Exemple.** Le développeur décrit le modèle du QA : « tu testes avant la correction ». Le modèle réel dit le contraire. Quarante ans de confusion réglés en quarante minutes.
+
+**Piège.** Transformer la confrontation en procès (« tu fais mal »). La règle du jeu : on décrit, on compare, on corrige le processus ensemble — jamais on ne juge la personne. Le ton est celui d'une découverte, pas d'un procès.
+
+**Exercice.** Binôme développeur/QA : chacun décrit le modèle de l'autre en trois phrases. Comparez avec le modèle réel. Notez les écarts — ce sont vos sujets d'atelier suivants.
+
+### Capsule 2.3 — La spécification à partir du modèle
+
+**Description.** Toute fonctionnalité ou correction commence par une spécification dérivée du modèle BPMN : comportements, règles de validation, cas limites.
+
+**Raison.** La spécification du niveau 2 n'est pas une page libre : elle hérite de la structure du modèle. C'est ce qui la rend complète par construction — les passerelles du modèle deviennent les cas limites de la spécification.
+
+**Exemple.** La spécification du correctif BUG-1247 : une page, trois règles de validation numérotées, un cas limite métier explicite.
+
+**Piège.** Écrire la spécification à partir de la demande client directement, en sautant le modèle. C'est le niveau 1 déguisé. La valeur du niveau 2 vient précisément du passage par le modèle.
+
+**Exercice.** Prenez la prochaine demande. Modélisez-la d'abord (même grossièrement, 20 minutes). Puis écrivez la spécification à partir du modèle. Comparez avec ce que vous auriez écrit sans modèle : le cas limite oublié est la preuve de valeur.
+
+### Capsule 2.4 — La documentation liée au modèle
+
+**Description.** La documentation produit est liée au modèle : chaque page cite sa source (modèle, révision) et se met à jour à chaque révision du modèle.
+
+**Raison.** La documentation orpheline devient fausse en silence. La documentation liée devient fausse de manière visible — la référence permet de la vérifier.
+
+**Exemple.** La page « Comportement du filtre du rapport X » avec sa référence BPM-004, révision 3, et sa synchronisation automatique.
+
+**Piège.** Générer de la documentation sans qu'elle soit lue. Le test d'une documentation vivante : quelqu'un la cite. Si personne ne la cite en trois mois, elle est morte — réduisez-la plutôt que de l'automatiser davantage.
+
+**Exercice.** Prenez la page de documentation la plus consultée de votre wiki. Vérifiez si elle cite sa source. Sinon : trouvez le modèle correspondant, ajoutez la référence, et vérifiez la page contre le modèle. Les divergences trouvées sont vos premières preuves.
+
+### Capsule 2.5 — Le plan lié aux modèles
+
+**Description.** Chaque élément du plan de livraison est lié à son modèle et à son état de preuve : modélisé, spécifié, prouvé. Les éléments non modélisés sont catégorisés comme tels.
+
+**Raison.** Le plan lié répond factuellement à « où on en est ? ». La catégorie « non modélisé » rend l'incertitude visible au lieu de la maquiller.
+
+**Exemple.** Le plan du trimestre avec quatre éléments ferme et deux en investigation de modèle, avec dates de résolution.
+
+**Piège.** Le plan à trois états (vert/orange/rouge) sans critères. Chaque état du niveau 2 a un critère : « modélisé » signifie « le modèle existe et a été confronté », pas « quelqu'un a l'intention de le modéliser ».
+
+**Exercice.** Prenez votre plan actuel. Pour chaque élément, demandez : le modèle existe-t-il ? A-t-il été confronté ? Classez. Comptez les « non modélisés » — ce sont vos zones d'incertitude réelles.
+
+### Capsule 2.6 — Les tests générés par le modèle (MBT)
+
+**Description.** La matrice de couverture inclut les tests générés par le modèle : les chemins et combinaisons que le modèle contient deviennent des tests exécutables.
+
+**Raison.** Le modèle raisonne plus systématiquement que les humains. Les tests générés couvrent les combinaisons que l'expérience ne pense pas à écrire.
+
+**Exemple.** Le test généré T-042, combinaison de filtres non écrite manuellement, qui a détecté le défaut de comportement combiné.
+
+**Piège.** Générer des centaines de tests sans prioriser. Le générateur produit beaucoup ; la valeur vient de la sélection. Le ratio honnête est celui du cas T-042 : un test utile pour quarante produits.
+
+**Exercice.** Générez les tests d'une passerelle de votre modèle. Sélectionnez-en trois à garder (les combinaisons rares). Documentez le ratio. Ce document devient votre première preuve MBT.
+
+### Capsule 2.7 — La maintenance du modèle
+
+**Description.** Le modèle est maintenu : à chaque divergence processus réel/modèle, le processus ou le modèle est corrigé, et la correction est datée.
+
+**Raison.** Un modèle non maintenu devient faux en silence — pire qu'un modèle absent, car il inspire une confiance imméritée. La maintenance est la condition de vie du modèle.
+
+**Exemple.** Trois corrections de modèle datées dans un mois, chacune provenant d'une divergence détectée en production ou en confrontation.
+
+**Piège.** Laisser le modèle se dégrader parce que « personne n'a le temps ». La règle : une divergence détectée est corrigée dans la semaine, sinon le modèle est marqué « non fiable à partir du [date] ». Un modèle marqué non fiable est honnête ; un modèle faux mais non marqué est un piège.
+
+**Exercice.** Comptez les corrections de modèle des trois derniers mois. Zéro signifie que le modèle n'est pas utilisé (pas que le processus est parfait). Cherchez la divergence la plus récente : elle devrait exister.
+
+### Capsule 2.8 — Le rapport de maturité du niveau 2
+
+**Description.** À la fin du niveau 2, l'équipe produit son rapport : les modèles vivants, les malentendus trouvés et corrigés, la documentation citée, les tests générés utiles, et les métriques honnêtes.
+
+**Raison.** Le rapport du niveau 2 est la preuve que la modélisation vit au-delà de la mission. Sa structure est celle du rapport du niveau 1, avec les catégories du niveau 2.
+
+**Exemple.** Le rapport de la mission Faucon : deux modèles vivants, onze malentendus corrigés, trois pages de documentation citées, un test généré utile, un modèle marqué non fiable et restauré.
+
+**Piège.** Le rapport de succès sans les métriques honnêtes. Le rapport qui ne dit pas « 40 tests produits, 1 utile » n'est pas un rapport de maturité : c'est une brochure.
+
+**Exercice.** Écrivez la première page de votre rapport de maturité du niveau 2 : le fait le plus marquant, puis les métriques honnêtes, y compris celles qui ne flattent pas.
+
+## 2. Les exercices du niveau 2 avec corrigés
+
+### Exercice A : le modèle du réel (capsules 2.1 et 2.2)
+
+**Consigne.** En binôme de rôles différents, modélisez votre processus de correction de bug tel qu'il se passe vraiment. Puis chacun décrit le modèle de l'autre. Comptez les écarts.
+
+**Corrigé (exemple de l'équipe Faucon).**
+
+Modèle réel obtenu (extrait) :
+- Détection : 3 sources (test auto, client via support, interne).
+- Qualification : critères écrits, mais une exception orale (« les bugs du client VIP passent la file ») — pas dans les critères écrits. **Divergence 1 : le processus réel contient une exception orale.**
+- Après qualification : les deux rôles avaient modélisé la correction directement. Le processus réel contient une étape de spécification courte dans 60 % des cas (quand le correctif touche un comportement documenté), et pas dans les autres. **Divergence 2 : le modèle binaire (spécification toujours / jamais) était faux ; le réel est conditionnel.**
+- Vérification : le modèle du QA plaçait la vérification avant la mise en production ; le réel la place après, sous forme de CONFIRMATION client dans 30 % des cas. **Divergence 3.**
+
+Résultat : 3 divergences, dont une exception orale qui aurait dû être un critère écrit depuis longtemps.
+
+**Ce que le corrigé enseigne.** Les divergences les plus précieuses sont les exceptions orales et les comportements conditionnels — les endroits où le modèle binaire simplifie le réel. Cherchez-les délibérément.
+
+### Exercice B : la spécification dérivée du modèle (capsule 2.3)
+
+**Consigne.** Prenez une demande en attente. Modélisez-la en 20 minutes. Écrivez la spécification à partir du modèle. Identifiez ce que la spécification contient que la demande ne disait pas.
+
+**Corrigé (exemple).**
+
+Demande : « Ajouter un filtre par statut au rapport Y. »
+
+Modèle obtenu : passerelle « statut unique ou combiné ? », passerelle « valeur vide = tout ou rien ? », événement « filtre sauvegardé avec la vue ? ».
+
+Spécification dérivée (extrait) :
+1. Le filtre s'applique à la colonne statut ; une valeur vide dans le filtre signifie « tous les statuts ».
+2. Le filtre se combine aux filtres existants par ET logique.
+3. Le filtre choisi est sauvegardé avec la vue (comportement du rapport X, cohérence).
+4. Cas limite : les statuts archivés n'apparaissent pas dans le filtre, mais les lignes archivées déjà filtrées restent visibles.
+
+Ce que la spécification contient que la demande ne disait pas : les points 1, 3 et 4. Le point 3 vient de la cohérence avec le modèle du rapport X — c'est la valeur du passage par le modèle : il hérite des décisions déjà prises.
+
+### Exercice C : la documentation vivante (capsule 2.4)
+
+**Consigne.** Vérifiez trois pages de documentation contre leurs sources. Comptez les divergences. Corrigez ou marquez.
+
+**Corrigé (exemple de l'équipe Faucon).**
+
+| Page | Vérifiée contre | Divergences |
+|---|---|---|
+| « Comportement du filtre X » | BPM-004 rév. 3 | 2 (la règle des valeurs nulles n'était pas documentée ; la règle de combinaison était fausse) |
+| « Processus de livraison » | BPM-002 rév. 5 | 1 (l'étape de revue QA avait changé de place dans le réel) |
+| « Guide du nouveau arrivant » | aucune source | orpheline — marquée « à lier à un modèle » |
+
+Résultat : 3 divergences dans 2 pages vérifiables, 1 page orpheline. Les divergences sont corrigées ; la page orpheline est marquée.
+
+### Exercice D : le plan lié (capsule 2.5)
+
+**Consigne.** Classez les éléments de votre plan actuel : modélisé et confronté / modélisé non confronté / non modélisé. Présentez la répartition à votre sponsor.
+
+**Corrigé (exemple).**
+
+Répartition de l'équipe Faucon au début de la semaine 3 : 4 ferme (modélisés et confrontés), 1 modélisé non confronté, 2 non modélisés. Le sponsor a vu la répartition et a demandé : « Pourquoi les deux ne sont pas modélisés ? » Réponse : « Ils dépendent d'une décision métier pas encore prise. Voici la décision et la date. » Le plan a été validé avec cette transparence.
+
+## 3. Les évaluations d'acquisition du niveau 2
+
+Les évaluations du niveau 2 vérifient que les compétences sont acquises, pas que les artefacts existent.
+
+### Évaluation 1 : modélisation (capsule 2.1)
+
+**Tâche.** Modélisez un processus réel de votre équipe en 45 minutes.
+
+**Critères de réussite.**
+- Le modèle décrit le réel, y compris une exception ou un comportement conditionnel (pas le processus idéal).
+- Les éléments BPMN sont corrects (événements, tâches, passerelles, flux).
+- Un lecteur du modèle peut décrire le processus sans demander.
+
+**Échec type.** Un modèle propre qui décrit l'idéal. Il est sans valeur pour la découverte des malentendus.
+
+### Évaluation 2 : confrontation (capsule 2.2)
+
+**Tâche.** En binôme, décrivez le modèle de l'autre en trois phrases, puis comparez.
+
+**Critères de réussite.**
+- La description est formulée à partir du modèle de l'autre, pas du sien.
+- Les écarts trouvés sont notés comme sujets d'atelier, sans jugement de personne.
+- Au moins un écart réel est identifié.
+
+**Échec type.** Décrire son propre modèle au lieu de celui de l'autre. C'est l'erreur la plus fréquente — la consigne est d'y veiller explicitement.
+
+### Évaluation 3 : spécification dérivée (capsule 2.3)
+
+**Tâche.** Écrivez la spécification d'une demande à partir de son modèle.
+
+**Critères de réussite.**
+- La spécification hérite de la structure du modèle (chaque passerelle devient un cas).
+- Elle contient au moins un élément que la demande ne disait pas.
+- Un développeur peut la coder sans poser de question.
+
+**Échec type.** Une spécification écrite à partir de la demande, le modèle étant décoratif. La valeur du niveau 2 est alors absente.
+
+### Évaluation 4 : maintenance (capsule 2.7)
+
+**Tâche.** Montrez la dernière divergence processus/modèle et sa correction.
+
+**Critères de réussite.**
+- La divergence est réelle, datée, et sa résolution est documentée.
+- La correction a été faite dans la semaine de la détection.
+- Le modèle est fiable à la date du jour (ou marqué non fiable, ce qui est aussi une réponse correcte).
+
+**Échec type.** Un modèle jamais corrigé depuis des mois, présenté comme à jour. Il inspire une confiance imméritée — c'est pire qu'absent.
+
+## 4. Le gabarit de rapport de maturité du niveau 2
+
+```
+# Rapport de maturité — niveau 2
+Équipe : [nom]     Mission : [nom]     Période : [dates]
+
+## Le fait le plus marquant
+[Une phrase : la découverte ou l'événement qui a le plus changé la façon de travailler]
+
+## Les modèles vivants
+| Modèle | Révision | Dernière correction | Confrontée ? |
+|---|---|---|---|
+| BPM-00x | rév. n | date | oui/non |
+
+## Les malentendus trouvés et corrigés
+[Nombre et 2-3 exemples, dont le plus surprenant]
+
+## La documentation liée
+| Page | Source | Synchronisée ? |
+|---|---|---|
+
+## Les tests générés
+Produits : [n]   Sélectionnés : [n]   Utiles (défauts trouvés) : [n]
+
+## Les métriques honnêtes
+- Ce que le niveau 2 a coûté : [heures, points durs]
+- Ce qu'il a rapporté : [les preuves, y compris les signes externes]
+- Ce qui n'a pas marché : [honnêteté obligatoire]
+
+## Ce qui continue sans le coach
+[Qui maintient quoi, à quelle cadence, avec quel critère]
+```
+
+---
+
+## Comment utiliser cette partie
+
+- **Pour animer** : les capsules 2.1 à 2.8 se donnent en 20 minutes chacune, au début des semaines correspondantes.
+- **Pour exercer** : les exercices A à D se font dans les ateliers correspondants.
+- **Pour évaluer** : les évaluations 1 à 4 se passent aux semaines 2, 4, 6 et 8.
+- **Pour conclure** : le gabarit de rapport se remplit à la semaine 8, avec le sponsor présent.
+
+
+---
+
+# Partie 7 : Cas réels, gabarits remplis et variantes contextuelles
+
+Cette partie complète les huit semaines du niveau 2 avec ce qu'un descriptif d'atelier ne peut pas montrer : les gabarits remplis par une vraie équipe, les situations vécues derrière les capsules, et l'adaptation du parcours aux contextes non standards.
+
+## 1. Les gabarits remplis d'exemples réels
+
+### 1.1 Premier modèle BPMN — exemple rempli
+
+> Exemple de la mission Faucon, semaine 1 du niveau 2. Le processus modélisé : la correction d'un bug, de la détection à la vérification.
+
+**Éléments du modèle :**
+
+| Élément BPMN | Contenu | Remarque |
+|---|---|---|
+| Événement de départ | Un bug est détecté (test automatisé, client, ou support) | Trois sources, un seul point d'entrée |
+| Tâche 1 | Qualifier le bug selon les critères écrits (niveau 1) | Utilise les critères de priorisation de ROUGE |
+| Passerelle 1 | Critique ? | Oui → flux urgent / Non → flux normal |
+| Tâche 2 (flux urgent) | Correction immédiate + test de non-régression ciblé | |
+| Tâche 2 (flux normal) | Création de la spécification de correction avant le code | La spécification d'une correction est plus courte, mais existe |
+| Passerelle 2 | La correction modifie-t-elle un comportement documenté ? | Oui → mettre à jour le modèle / Non → continuer |
+| Tâche 3 | Vérification selon les critères de validation écrits | |
+| Événement de fin | Bug vérifié corrigé, preuves archivées | |
+
+**Les trois divergences trouvées lors de la confrontation (atelier 1.2) :**
+1. Le développeur avait modélisé la correction directement après la qualification, sans spécification. Le QA avait mis une tâche « écrire ce qui est corrigé ». → Le conflit exact que le niveau 2 veut résoudre.
+2. Le modèle du développeur ne contenait pas la mise à jour du modèle lui-même. Le modèle BPMN du processus de bug ne se mettait pas à jour dans le processus de bug. → Meta-problème classique.
+3. Les deux avaient oublié la vérification du correctif en production (CONFIRMER). → Le trou que la grille de couverture du niveau 2 comble.
+
+### 1.2 Spécification de correction — exemple rempli
+
+> La spécification courte du correctif, produite à partir du modèle. Notez la longueur : une page. C'est une correction, pas une fonctionnalité.
+
+**Correctif BUG-1247 : le filtre combiné ignore les valeurs nulles**
+
+**Contexte :** le filtre du rapport X combiné à un second filtre produit des résultats incorrects quand la première colonne contient des valeurs nulles.
+
+**Comportement observé :** les lignes avec valeur nulle dans la colonne 1 sont exclues du résultat, même si elles satisfont le second filtre.
+
+**Comportement attendu :** une valeur nulle dans la colonne 1 n'exclut pas la ligne ; elle n'est simplement pas filtrée par ce critère. Les autres filtres s'appliquent normalement.
+
+**Règles de validation :**
+1. Avec colonne 1 vide et filtre colonne 2 = « actif » : les lignes actives apparaissent.
+2. Avec colonne 1 = « inactif » et filtre colonne 2 = « actif » : aucune ligne (comportement inchangé).
+3. Le rapport sans filtre n'est pas affecté (non-régression).
+
+**Cas limite :** les données historiques migrées contiennent des valeurs nulles pour une raison métier (non renseigné à l'époque) : elles doivent apparaître comme les autres valeurs nulles, sans traitement spécial.
+
+**Pourquoi ce format :** trois règles de validation numérotées, un cas limite métier explicite. Le développeur qui code ce correctif n'a aucune question à poser. C'est le standard du niveau 2 pour une correction.
+
+### 1.3 Documentation liée au modèle — extrait rempli
+
+> Page de documentation produit générée à partir du modèle, niveau 2.
+
+**Comportement du filtre du rapport X** *(source : modèle BPM « correction de bug », révision 3, à jour)*
+
+Le filtre du rapport X s'applique aux colonnes sélectionnées. Règles :
+
+- Chaque filtre s'applique indépendamment aux autres.
+- Une valeur nulle dans une colonne filtrée **n'exclut pas** la ligne (elle échappe au filtre de cette colonne).
+- Les filtres se combinent par ET logique.
+
+*Cette page est mise à jour automatiquement à chaque révision du modèle. Dernière synchronisation : automatique, pipeline du 12 juillet. Référence du modèle : BPM-004, révision 3.*
+
+**Pourquoi la référence du modèle compte :** la documentation qui ne cite pas sa source ne peut pas être vérifiée. Avec la référence, un lecteur qui doute de la page peut ouvrir le modèle et comparer — la documentation devient falsifiable, donc digne de confiance.
+
+## 2. Cas vécus étendus : le niveau 2 de la mission Faucon
+
+### Cas de la semaine 1 : le modèle que personne ne voulait dessiner
+
+**Situation.** L'atelier de modélisation BPMN a commencé par une résistance inattendue : le tech lead a déclaré que son équipe « pense en code, pas en diagrammes », et que le BPMN était « une perte de temps pour gens qui ne lisent pas le code ».
+
+**Le tournant.** Le coach n'a pas défendu le BPMN. Il a proposé un test : modélisez le processus de correction de bug comme vous le faites vraiment, et ensuite, chacun décrit le processus de l'autre à partir du modèle. Le développeur a décrit le processus du QA à partir du modèle du QA — et a découvert qu'il croyait que le QA testait avant la correction, alors que le modèle disait le contraire. Le QA croyait l'inverse. Les deux avaient tort sur le processus de l'autre depuis des mois.
+
+**La suite.** La discussion qui a suivi a duré 40 minutes et a produit trois corrections de processus — pas du modèle, du processus réel. Le tech lead a conclu : « Le diagramme n'a rien appris au code. Il a appris ce qu'on fait chacun. »
+
+**Ce que ce cas enseigne.**
+- Le BPMN n'est pas un exercice de documentation : c'est un instrument de découverte des malentendus entre rôles. Sa valeur se mesure au nombre de « attends, toi tu fais ça ? » qu'il provoque.
+- Ne vendez jamais l'outil. Proposez le test : « décris le processus de l'autre à partir de son modèle ». Si le modèle ne révèle rien, il n'était pas nécessaire — et vous l'aurez prouvé par le test, pas par l'argument.
+- La résistance au modèle est souvent la résistance à être lu. Un processus modélisé devient discutable ; un processus oral reste invérifiable. Certaines personnes préfèrent l'invérifiable — le dialogue sur ce point vaut mieux que l'imposition.
+
+### Cas de la semaine 3 : le plan qui est devenu honnête
+
+**Situation.** Le plan de livraison du trimestre promettait six fonctionnalités. L'exercice de la semaine 3 (lier chaque élément à un modèle et à des preuves) a révélé que deux des six n'avaient aucun modèle, et qu'une troisième avait un modèle décrivant un comportement différent de la demande originale.
+
+**La tentation.** Garder le plan tel quel et « créer les modèles en cours de route ». C'est le fonctionnement du niveau 1, déguisé.
+
+**La décision.** Le plan a été présenté au sponsor avec la vérité : deux fonctionnalités étaient « non modélisées » (donc non estimables sérieusement), une était « divergente » (le modèle et la demande racontent des choses différentes — il faut trancher laquelle est la bonne). Le sponsor a réagi : « Vous me dites que la moitié du plan est du vent ? » Réponse : « Non. Nous vous disons que la moitié du plan n'a pas encore de preuve. Voici ce qu'il faut pour en avoir. » Le plan a été révisé : quatre fonctionnalités ferme, deux en « investigation de modèle » avec date de résolution.
+
+**Ce que ce cas enseigne.**
+- Le plan lié aux modèles n'est pas plus lent : il est plus honnête. La différence se voit au moment où le sponsor demande « où on en est » — la réponse devient factuelle.
+- « Non modélisé » n'est pas un échec : c'est une catégorie de plan. La catégorie existe pour que les zones d'incertitude soient visibles au lieu d'être maquillées.
+- Le dialogue avec le sponsor change de nature quand les réponses sont des preuves : il passe de « faites-moi confiance » à « regardez ». Le second est plus confortable pour tout le monde, y compris pour lui.
+
+### Cas de la semaine 5 : la documentation que le client a lue
+
+**Situation.** Pendant le point mort du niveau 2, un client a contacté le support avec une question sur le comportement d'un filtre. Le support a répondu en copiant la page de documentation liée au modèle. Le client a répondu : « C'est clair, merci — c'est rare. »
+
+**La signification.** La documentation du niveau 2 n'a pas été écrite pour les clients — elle a été écrite à partir du modèle, pour l'équipe. Mais une documentation produite à partir d'une source de vérité est claire par construction, et la clarté ne connaît pas son public d'origine.
+
+**Ce que ce cas enseigne.**
+- La documentation vivante est reconnaissable à un signe externe : les gens la citent. Interne ou externe, peu importe — le jour où quelqu'un copie-colle votre documentation pour répondre à une vraie question, elle est vivante.
+- Cet événement est arrivé pendant le point mort, la semaine où l'équipe doutait de la valeur de l'effort. Un signe externe de valeur vaut plus que tous les arguments internes. Cherchez-les activement pendant les semaines difficiles.
+- Le support qui répond en copiant la documentation (plutôt qu'en réécrivant) est aussi un signal : les équipes de support deviennent les premiers consommateurs de la documentation vivante. Invitez-les à signaler ce qui n'y est pas — ils sont le capteur le plus fin des trous de documentation.
+
+### Cas de la semaine 7 : le test généré qui a attrapé le bug
+
+**Situation.** La matrice de couverture de la semaine 7 incluait les tests générés par le modèle. Un test généré, portant sur une combinaison de filtres que personne n'avait écrite manuellement, a détecté un défaut de comportement combiné — exactement la famille de bugs du cas BUG-1247.
+
+**La signification.** Le modèle BPMN contenait une passerelle de combinaison de filtres ; le générateur a produit le test de la combinaison non documentée ; le test a échoué ; le défaut a été corrigé avant la livraison. Aucun test manuel ne couvrait cette combinaison : elle était dans le modèle, pas dans l'expérience de l'équipe.
+
+**Ce que ce cas enseigne.**
+- La valeur du MBT se concrétise dans les tests que personne n'aurait écrits : les combinaisons, les chemins rares, les cas que l'expérience humaine ne pense pas à couvrir. Le modèle raisonne plus systématiquement que les humains — c'est précisément son rôle.
+- Ce type d'événement est le meilleur argument pour le niveau 2, et il doit être documenté : « test généré T-042, combinaison non couverte manuellement, défaut corrigé ». Ces cas deviennent les preuves du rapport de maturité.
+- Ne surventez pas non plus : le même générateur a produit 40 tests sans valeur pour ce défaut. Le ratio (1 utile / 40 produits) est la donnée honnête à présenter avec le succès.
+
+## 3. Variantes contextuelles du niveau 2
+
+### V1 : petite équipe (2 à 4 personnes)
+
+- Un seul modèle BPMN suffit pour démarrer : choisissez le processus le plus coûteux en malentendus. Le modèle unique est mieux qu'aucun modèle.
+- La confrontation des modèles se fait entre deux personnes, pas entre sous-groupes — et elle reste la partie la plus précieuse de l'atelier.
+- La documentation liée au modèle peut être une seule page wiki bien tenue plutôt qu'un générateur complet.
+- Le rôle de responsable de modèle tourne : dans une petite équipe, tout le monde doit savoir maintenir le modèle.
+
+### V2 : équipe distribuée
+
+- La modélisation collaborative exige un outil en ligne partagé (même gratuit). Le tableau blanc vidéo ne suffit pas pour du BPMN.
+- La confrontation des modèles fonctionne bien à distance : chaque binôme partage son écran, l'un décrit le modèle de l'autre. La règle « je décris ton modèle, tu me corriges » est même plus efficace à distance, où personne ne peut pointer le même écran.
+- La documentation liée au modèle est l'atout du travail distribué : c'est ce que les gens lisent quand ils ne peuvent pas demander. Investissez-y davantage.
+
+### V3 : legacy lourd
+
+- Le premier modèle BPMN ne doit pas décrire le processus idéal : il doit décrire le processus réel, avec ses contournements et ses zones d'ombre. Le modèle du réel est le point de départ ; le modèle de l'idéal est l'objectif, atteint par itérations.
+- Les tests générés sur un legacy révèlent souvent des comportements inattendus du système actuel : traitez-les comme des découvertes, pas comme des bugs du générateur. Chaque comportement inattendu est documenté : « le système fait X, le modèle disait Y, qui a raison ? »
+- La documentation liée au modèle est l'outil le plus rentable sur un legacy : c'est souvent la première documentation à jour de l'histoire du produit.
+
+### V4 : organisation réglementée
+
+- Le modèle BPMN devient un document réglementaire : sa révision est tracée, ses versions archivées. C'est un avantage, pas une contrainte : la traçabilité réglementaire et la traçabilité du modèle sont la même chose.
+- La documentation liée au modèle satisfait souvent une exigence de documentation produit : montrez le mapping à votre auditeur avant qu'il le demande.
+- Les tests générés à partir du modèle peuvent servir de preuve de couverture réglementaire : la matrice de couverture devient le document d'audit.
+
+### V5 : le sponsor sceptique
+
+- Le niveau 2 est plus difficile à vendre que le niveau 1, car ses bénéfices sont moins immédiats (un modèle ne corrige pas un bug). La preuve par la première divergence trouvée (« nous croyions que le QA testait avant, il teste après ») est le meilleur argument : cherchez-la et montrez-la.
+- Le « fait de la semaine » du niveau 2 : une phrase factuelle par semaine au sponsor. (« Cette semaine : le modèle du processus de bug a révélé 3 malentendus inter-rôles, corrigés. »)
+- Le moment de bascule typique du sponsor sceptique : la première fois qu'un plan lié aux modèles lui donne une réponse factuelle à « où on en est ? ». Après cela, il demande les modèles, pas les slides.
+
+### V6 : reprise après échec du niveau 1
+
+- Si le niveau 1 a été abandonné, les artefacts restants (lexique, critères de bugs) sont la fondation du niveau 2 : ne repartez pas de zéro, mais ne réutilisez pas non plus aveuglément. Chaque artefact est relu et validé avant réutilisation.
+- La modélisation est souvent une meilleure porte d'entrée que la spécification pour une équipe brûlée par un échec : dessiner le processus réel est moins menaçant que réécrire des spécifications « comme on vous l'a déjà demandé ».
+- La règle du niveau 2 pour les reprises : un seul modèle à la fois, réussi, avant le second. La surcharge est la cause de mort la plus fréquente des reprises.
+
+---
+
+## Comment utiliser cette partie
+
+- **Avant de commencer** : lisez la variante correspondant à votre contexte.
+- **Pendant le parcours** : quand un atelier bloque, cherchez le cas vécu correspondant — particulièrement le cas de la semaine 1 (le modèle que personne ne voulait dessiner), qui est le point de résistance le plus fréquent du niveau 2.
+- **À la semaine 8** : comparez vos gabarits remplis avec les exemples. La spécificité est la cible, pas le contenu.
+
+---
+
+
+---
+
+# Partie 8 : Approfondissements techniques du niveau 2
+
+Cette partie traite en profondeur les sujets que les capsules ne font qu'effleurer : la granularité du BPMN, les pièges du MBT en pratique, la versioning des modèles, et les questions que les équipes posent toujours.
+
+## 1. La granularité du BPMN : où s'arrêter
+
+La question la plus fréquente du niveau 2 : « Jusqu'où détailler le modèle ? » Trop grossier, le modèle ne révèle rien ; trop fin, il devient une charge de maintenance et meurt en trois mois.
+
+### Le critère de granularité
+
+Un élément du modèle mérite d'exister si l'un de ces trois critères est rempli :
+
+1. **Il porte un malentendu potentiel.** Si deux rôles peuvent diverger sur ce qui se passe à cette étape, elle mérite d'être un élément explicite. C'est le critère principal : le modèle existe pour rendre discutable ce qui ne l'était pas.
+2. **Il conditionne le flux.** Une passerelle (décision) est toujours explicite — c'est là que les processus divergent réellement. Une passerelle implicite dans la description orale est presque toujours un malentendu en attente.
+3. **Il produit ou consomme un artefact vérifiable.** Une étape qui produit une spécification, un test, une preuve mérite d'être visible : elle est le point d'attache de la traçabilité.
+
+Tout le reste se résume dans le nom de la tâche. Une tâche « Traiter la demande » qui cache quatre sous-étapes sans malentendu ni artefact reste une tâche.
+
+### Le test de la mauvaise granularité
+
+Trois symptômes d'un modèle trop fin :
+- Le modèle n'a pas changé depuis un mois alors que le processus a évolué. La maintenance ne suit plus : le modèle est déjà en train de mourir.
+- Personne ne sait lire le modèle sans son auteur. Un modèle illisible sauf par son créateur est un piège, pas un actif.
+- Les discussions sur le modèle portent sur la notation, pas sur le processus. Quand l'équipe dispute des symboles, le modèle est devenu un sujet au lieu d'être un instrument.
+
+Trois symptômes d'un modèle trop grossier :
+- La confrontation des rôles ne trouve jamais rien. Si trois sessions consécutives ne révèlent aucun écart, le modèle est trop grossier — les malentendus se cachent dans les tâches-résumés.
+- Le modèle ne mentionne aucun artefact. Si aucune tâche ne produit ou ne consomme quelque chose de vérifiable, la traçabilité n'a pas de point d'attache.
+- Les nouveaux arrivants posent des questions que le modèle devrait répondre. Si l'onboarding pose les mêmes questions chaque mois, le modèle est trop superficiel pour servir de référence.
+
+### La règle pratique
+
+Commencez grossier, puis affine seulement là où un malentendu apparaît. Le modèle du premier mois est volontairement superficiel : il est le squelette. Chaque malentendu détecté est l'occasion d'affiner l'élément concerné. Ainsi, la granularité suit la valeur découverte — le modèle se développe exactement là où il rapporte, jamais ailleurs. C'est la seule façon dont un modèle reste vivant dans une équipe qui a autre chose à faire.
+
+## 2. Le MBT en pratique : ce que les tutoriels ne disent pas
+
+La génération de tests à partir de modèles (Model-Based Testing) est présentée dans les tutoriels comme un pipeline magique : modèle → tests → exécution. La pratique est plus nuancée. Voici ce que l'expérience enseigne.
+
+### Ce que le MBT fait bien
+
+- **Les combinaisons.** Le modèle énumère systématiquement les combinaisons de passerelles que l'expérience humaine ne pense pas à tester. C'est sa valeur principale, et elle est réelle : le cas T-042 en est la preuve type.
+- **Les chemins rares.** Les flux qui n'arrivent que dans 5 % des cas sont précisément ceux que les tests manuels oublient. Le modèle les traite comme les autres.
+- **La régression structurelle.** Quand le modèle change, les tests régénérés couvrent le nouveau comportement sans réécriture manuelle. C'est le lien entre le modèle vivant et la suite de tests vivante.
+
+### Ce que le MBT ne fait pas
+
+- **Il ne trouve pas les bugs de données.** Un modèle décrit des flux logiques, pas des valeurs. Les bugs de données (format, encodage, bornes) restent du domaine des tests écrits à la main. Le MBT les ignore silencieusement — ne comptez pas sur lui pour cette famille.
+- **Il ne remplace pas les tests d'expérience utilisateur.** Un flux correct logiquement peut être une catastrophe à utiliser. Le MBT valide le modèle, pas l'expérience.
+- **Il ne valide pas la pertinence du modèle.** Si le modèle est faux, les tests générés sont faux de la même façon — et ils passeront, donnant une confiance imméritée. C'est le piège majeur : le MBT amplifie la qualité du modèle, bonne ou mauvaise. D'où la règle : la confrontation du modèle (capsule 2.2) précède toujours la génération.
+
+### Le ratio honnête à présenter
+
+Chaque campagne de génération doit documenter trois nombres : tests produits, tests sélectionnés, tests utiles (ceux qui ont trouvé un défaut). Le ratio de la mission Faucon — 40 produits, 12 sélectionnés, 1 utile — est représentatif d'une première campagne. Il est honnête et il suffit : un bug trouvé par une combinaison que personne n'aurait écrite est une valeur réelle, et le rapport qui le dit tel quel est crédible. Les campagnes suivantes s'améliorent (le ratio monte vers 1 utile pour 10 sélectionnés) — mais c'est la courbe qui convainc, pas le nombre absolu.
+
+### Quand ne PAS faire du MBT
+
+Le MBT a un coût d'installation. Il ne vaut la peine que si :
+- Le modèle existe déjà et est vivant (confronté, maintenu). Faire du MBT pour justifier le modèle est un sophisme — le modèle se justifie par les malentendus qu'il révèle, pas par les tests qu'il génère.
+- Le domaine a une vraie explosion combinatoire. Si le processus a 3 passerelles et 5 chemins, écrire les tests à la main est plus rapide que monter le pipeline.
+- L'équipe maintiendra. Un pipeline de génération non maintenu produit des tests obsolètes en silence — le même poison que le modèle non maintenu, en pire.
+
+Dans les autres cas : écrivez les tests à la main, gardez le modèle pour ce qu'il fait de mieux — rendre le processus discutable.
+
+## 3. Le versioning des modèles : la mémoire du processus
+
+Un modèle vivant change. La question n'est pas de l'empêcher de changer, mais de garder la mémoire de ce qui a changé et pourquoi. Sans mémoire, le modèle perd sa valeur d'actif organisationnel : on ne sait plus pourquoi le processus est ce qu'il est.
+
+### Ce qu'il faut versionner
+
+Trois informations par changement :
+
+1. **Le quoi** : l'élément modifié, l'ancienne et la nouvelle forme. C'est le minimum technique — tout outil de versioning le fait.
+2. **Le pourquoi** : la divergence détectée qui a motivé le changement. C'est l'information que les outils ne capturent pas, et c'est la plus précieuse : six mois plus tard, « pourquoi cette étape a-t-elle bougé ? » a une réponse.
+3. **Le qui** : pas pour blâmer — pour savoir qui interroger. La personne qui a fait le changement est celle qui connaît le contexte.
+
+### La pratique légère
+
+Pas besoin d'outils sophistiqués : un fichier de changements à côté du modèle suffit.
+
+```
+# Changements — BPM-004 (processus de correction de bug)
+## 2025-07-12 — révision 3
+Quoi : la passerelle « criticité » passe avant la qualification (avant : après)
+Pourquoi : les bugs critiques étaient traités après les non-critiques en pratique ;
+          le modèle mentait. Aligné sur le réel, discuté en atelier du 09/07.
+Qui : S.M. (dev), validation L.T. (QA)
+
+## 2025-06-28 — révision 2
+Quoi : ajout de la tâche « spécification courte » (conditionnelle : seulement
+       si le correctif touche un comportement documenté)
+Pourquoi : divergence trouvée en confrontation dev/QA — le modèle binaire
+           (toujours/jamais) ne reflétait pas le réel conditionnel.
+Qui : L.T. (QA)
+```
+
+Ce fichier est la mémoire vivante du processus. Sa valeur apparaît dans trois situations : l'arrivée d'un nouveau (qui lit l'historique au lieu de poser des questions), le retour d'un ancien (qui voit ce qui a changé depuis son départ), et l'audit (qui trouve la traçabilité déjà faite).
+
+### L'anti-pattern : le versioning sans mémoire
+
+Un modèle versionné par l'outil (v1, v2, v3...) sans fichier de changements est une collection d'instantanés sans explication. La question « pourquoi la révision 3 a-t-elle bougé la passerelle ? » n'a pas de réponse — et sans réponse, la tentation est de revenir en arrière « parce que c'était mieux avant », sans savoir pourquoi c'avait changé. La mémoire du pourquoi est ce qui empêche le ping-pong des décisions.
+
+## 4. Les questions que tout le monde pose
+
+Ces questions reviennent dans presque chaque mission du niveau 2. Voici les réponses qui ont fonctionné.
+
+### « On modélise tout le processus de l'entreprise ? »
+
+Non. On modélise les processus où les malentendus coûtent cher — typiquement les processus inter-équipes (dev/QA/support, dev/ops), les processus où les nouveaux posent toujours les mêmes questions, et les processus qui produisent des artefacts vérifiables. Un processus que une seule personne fait de bout en bout, sans artefact ni malentendu, n'a pas besoin de modèle — le modéliser est du rituel, pas de l'ingénierie.
+
+Le test de sélection : « Quel processus nous a coûté le plus cher en malentendus l'an dernier ? » C'est lui, le premier modèle. Le deuxième suit la même règle.
+
+### « Le modèle devient obsolète dès qu'on le finit »
+
+C'est le symptôme d'un modèle sans propriétaire ni moment de maintenance. Le modèle vit dans le cycle : chaque divergence détectée est corrigée dans la semaine (capsule 2.7). Si personne n'a ce rôle, le modèle meurt — et il vaut mieux le savoir tôt : un modèle mort est pire qu'aucun modèle, car il inspire une confiance imméritée.
+
+La prévention : le modèle a un propriétaire nommé, un moment de maintenance hebdomadaire (même 15 minutes), et la règle de la semaine. Un modèle sans ces trois éléments est un document mort en attente de déclassification.
+
+### « Le client ne veut pas voir nos modèles »
+
+Le client n'a pas à voir les modèles internes — il voit leurs effets : la documentation claire, les réponses factuelles, les plans honnêtes. Si le client veut voir le modèle (certains veulent, surtout en réglementé), c'est un bonus — mais ce n'est jamais le but. Le but du modèle est interne : rendre le processus discutable entre les rôles qui le vivent.
+
+L'exception : le processus inter-organisations (vous et le client faites ensemble un processus) — là, le modèle partagé est l'outil de coordination, et sa valeur est directe.
+
+### « On a déjà de la documentation, on repart de zéro ? »
+
+Non. La documentation existante est l'inventaire de départ. Le premier atelier du niveau 2 peut être : prenez votre documentation la plus consultée, trouvez son modèle (s'il existe), vérifiez-la contre le modèle. Les divergences trouvées justifient la suite. Si la documentation est orpheline (sans modèle), elle est marquée « à lier » — et la priorisation des liens suit la même règle : ce qui est le plus consulté d'abord.
+
+### « Combien de temps pour le niveau 2 ? »
+
+Huit semaines à raison d'une demi-journée par semaine, comme le niveau 1 — mais avec plus de profondeur par session. Le facteur limitant n'est pas le temps des sessions : c'est la discipline de maintenance entre les sessions. Une équipe qui fait les sessions mais ne maintient pas entre elles termine avec des modèles morts à la semaine 8, quelle que soit la qualité des ateliers.
+
+L'indicateur d'avancement honnête n'est pas « la semaine n est faite » : c'est « le modèle est toujours vivant à la semaine n ». Un modèle vivant à la semaine 8 vaut mieux que quatre modèles morts.
+
+### « On saute directement au niveau 3 ? »
+
+Le niveau 3 (intégration continue, automatisation avancée) présume le niveau 2 : des modèles vivants, maintenus, avec génération fonctionnelle. Monter au niveau 3 sur des modèles morts est construire sur du sable : l'automatisation amplifie exactement ce que le modèle est, vivant ou mort.
+
+Le test d'éligibilité au niveau 3 : le modèle a-t-il survécu trois mois sans le coach ? Si oui, le niveau 3 est raisonnable. Si non, consolidez d'abord — la consolidation est toujours moins chère que la reconstruction.
+
+---
+
+## Comment utiliser cette partie
+
+- **Au démarrage** : la section 1 (granularité) prévient l'erreur la plus coûteuse du niveau 2.
+- **À la semaine 5-7** : la section 2 (MBT) aide à décider si le MBT vaut la peine — et à le présenter honnêtement sinon.
+- **En continu** : la section 3 (versioning) est la pratique qui maintient les modèles vivants au-delà de la mission.
+- **Quand une question bloque** : la section 4 contient les réponses aux questions que tout le monde pose.
+
+
+---
+
+# Partie 9 : Les situations difficiles du niveau 2
+
+Cette partie traite les situations qui font échouer le niveau 2, avec les réponses qui ont fonctionné dans les missions réelles. Elle est destinée au lecteur qui rencontre déjà le problème — pas à celui qui veut l'éviter par la théorie.
+
+## 1. L'équipe qui modélise mais ne converse jamais
+
+**Symptôme.** Les modèles existent, sont propres, à jour — et personne ne les utilise. Les décisions se prennent en réunion comme avant. La confrontation n'a lieu que lorsque le coach l'anime.
+
+**Diagnostic.** Le modèle a été présenté comme un livrable (« il faut des modèles ») et non comme un instrument (« les modèles servent à se comprendre »). Une équipe qui modélise pour satisfaire une attente produit des artefacts ; une équipe qui modélise pour résoudre un problème réel produit des outils.
+
+**Ce qui a fonctionné.**
+- Arrêter toute production de nouveaux modèles pendant deux semaines, et ne conserver que la confrontation du modèle existant. La pénurie forcée oblige à utiliser ce qui existe.
+- Faire entrer la confrontation dans un moment déjà existant : la revue hebdomadaire, le stand-up du lundi. Un rituel nouveau meurt ; un rituel greffé survit.
+- Mesurer ce qui compte : non pas « le modèle est à jour » mais « la dernière divergence trouvée ». Zéro divergence en un mois signifie que la confrontation ne se fait pas — c'est le signal d'alarme, pas la preuve de qualité.
+
+**Ce qui n'a pas fonctionné.** Rendre la confrontation obligatoire par décret. Elle s'est faite pendant trois semaines, puis a disparu avec le décret. La confrontation ne se décrète pas : elle se déclenche par un problème réel (« mais tu testes avant ou après ? ») que le modèle rend visible.
+
+## 2. Le modèle que le nouveau venu ne comprend pas
+
+**Symptôme.** Le modèle est précis, complet — et chaque nouveau arrivant doit le faire expliquer par un senior. Le modèle ne remplit pas sa fonction d'onboarding.
+
+**Diagnostic.** Le modèle a été écrit par ceux qui connaissent déjà, pour ceux qui connaissent déjà. Les conventions implicites (ce que signifie « traiter », où commence le processus, qui décide quoi) ne sont pas dans le modèle — elles sont dans la tête des anciens.
+
+**Ce qui a fonctionné.**
+- Faire relire le modèle par le dernier arrivé, et noter chaque question comme un défaut du modèle. Dix questions typiques = dix corrections : le modèle s'améliore exactement là où il échoue.
+- Ajouter un glossaire du modèle : chaque terme ambigu défini en une phrase. Le lexique du niveau 1 est la base — le glossaire du modèle est sa spécialisation.
+- Faire dessiner par le nouveau la version simplifiée (« le modèle en une page ») : celui qui dessine comprend. La version une page devient aussi l'entrée de tous.
+
+**Ce qui n'a pas fonctionné.** Organiser une formation au modèle. Les slides ont été regardées, puis le modèle est resté aussi opaque. La compréhension vient de l'usage (relire, questionner, redessiner), pas de l'exposé.
+
+## 3. La documentation générée que personne ne lit
+
+**Symptôme.** Le pipeline de documentation fonctionne, les pages se régénèrent — et les statistiques de lecture sont proches de zéro. L'équipe continue de poser ses questions en direct.
+
+**Diagnostic.** La documentation répond aux questions que personne ne se pose, ou ne répond pas aux questions que tout le monde se pose. Une documentation générée n'est pas utile parce qu'elle est à jour : elle est utile parce qu'elle répond aux vraies questions, au bon endroit, au bon niveau de détail.
+
+**Ce qui a fonctionné.**
+- Inventorier les questions réellement posées pendant un mois (support, internes, nouveaux) et vérifier lesquelles la documentation répond. Les questions non couvertes sont le plan de travail de la documentation — pas les sujets que l'équipe croit utiles.
+- Placer la documentation là où les questions se posent : le message d'erreur qui renvoie à la page, le code qui commente la page, la réunion qui l'affiche. Une documentation qu'on ne trouve pas au moment du besoin est une documentation morte.
+- Supprimer sans pitié les pages non lues. Chaque page morte noie les pages vivantes : la documentation utile se distingue par sa rareté, pas par son volume.
+
+**Ce qui n'a pas fonctionné.** Améliorer le générateur (plus de pages, plus de détails, plus de formats). Le problème n'était jamais la génération : c'était l'adéquation aux questions réelles.
+
+## 4. Le MBT qui coûte plus qu'il ne rapporte
+
+**Symptôme.** Le pipeline de génération est en place, les tests s'exécutent — et le bilan est négatif : plus de temps à maintenir le pipeline et trier les tests qu'à écrire des tests utiles à la main.
+
+**Diagnostic.** Le domaine n'a pas l'explosion combinatoire qui justifie le MBT, ou le modèle n'est pas assez stable pour servir de base de génération. Le MBT amplifie la qualité du modèle : un modèle mouvant produit des tests mouvants, et le coût de suivi dépasse la valeur.
+
+**Ce qui a fonctionné.**
+- Réduire le MBT à une seule zone à haute valeur combinatoire (typiquement une machine à états ou un ensemble de règles de combinaison), et faire le reste à la main. Le MBT partiel est presque toujours le bon équilibre.
+- Mesurer honnêtement le ratio : tests produits / sélectionnés / utiles. Un ratio qui ne s'améliore pas sur trois campagnes est le signal d'arrêt.
+- Conserver le modèle pour sa valeur première (rendre le processus discutable) même si la génération est abandonnée. L'abandon du MBT n'est pas un échec du modèle.
+
+**Ce qui n'a pas fonctionné.** Persévérer « parce que l'investissement est fait ». Le coût irrécupérable n'est pas une raison de continuer à perdre : l'arrêt documenté est une décision mature.
+
+## 5. Le sponsor qui demande des modèles sans savoir pourquoi
+
+**Symptôme.** Le sponsor a entendu parler du BPMN (conférence, article, concurrent) et exige des modèles. Il ne sait pas ce qu'il en attend — mais il les veut.
+
+**Diagnostic.** La demande est réelle même si sa motivation est floue. Le risque est de produire des modèles de vitrine : propres, inutiles, et la déception du sponsor quand il découvre qu'ils ne changent rien.
+
+**Ce qui a fonctionné.**
+- Faire préciser la question à laquelle le sponsor veut une réponse : « Quand vous regardez un modèle, que voulez-vous y apprendre ? » Les réponses typiques : « qui fait quoi », « où est le risque », « pourquoi c'est lent ». Chaque réponse oriente un modèle différent — et les modèles de vitrine disparaissent.
+- Livrer le premier modèle avec sa première divergence trouvée : « ce modèle nous a fait découvrir que le QA teste après, pas avant ». Le sponsor comprend alors la valeur par l'exemple, pas par la théorie.
+- Faire figurer dans le rapport mensuel les preuves d'usage : divergences trouvées, questions résolues par les modèles. Le sponsor qui voit l'usage cesse de demander le volume.
+
+**Ce qui n'a pas fonctionné.** Livrer les modèles demandés sans clarifier l'usage. Dix modèles propres ont été produits, regardés une fois, et le sponsor a conclu que « ça ne sert à rien » — conclusion correcte pour des modèles de vitrine, tragique pour la suite de l'initiative.
+
+## 6. L'équipe qui veut sauter à l'automatisation
+
+**Symptôme.** Dès la semaine 2, l'équipe propose d'automatiser : génération de documentation, exécution de tests, intégration continue des modèles. Le niveau 2 la lasse — elle veut du niveau 3.
+
+**Diagnostic.** L'enthousiasme pour l'outil est réel et précieux — mais l'automatisation prématurée fige les modèles dans leur état embryonnaire. Un générateur construit sur un modèle non confronté produit de la documentation fausse en masse.
+
+**Ce qui a fonctionné.**
+- Canalyser l'enthousiasme vers la confrontation : « automatisez la détection des divergences entre les deux descriptions du processus ». C'est de l'automatisation utile, qui renforce le niveau 2 au lieu de le court-circuiter.
+- Poser la règle des trois usages : un modèle doit avoir été confronté trois fois avec des divergences trouvées avant d'être automatisé. La règle est simple, vérifiable, et elle protège l'investissement.
+- Laisser l'équipe construire un prototype d'automatisation sur un seul modèle — comme pilote. Le pilote révèle les coûts réels avant l'engagement.
+
+**Ce qui n'a pas fonctionné.** Interdire l'automatisation jusqu'à la fin du niveau 2. L'interdiction a tué l'enthousiasme, qui ne revenait plus. La canalisation vaut mieux que l'interdiction.
+
+## 7. La fin de mission qui sonne comme un abandon
+
+**Symptôme.** Au départ du coach, les modèles continuent d'exister mais le rythme s'arrête : plus de confrontations, plus de mises à jour documentées. Trois mois plus tard, les modèles sont des reliques.
+
+**Diagnostic.** Le niveau 2 dépendait du coach plus que le niveau 1 : la confrontation est un acte social plus coûteux qu'une relecture. Sans animateur, l'acte ne se fait plus — sauf si l'équipe a trouvé son propre déclencheur.
+
+**Ce qui a fonctionné.**
+- Transférer le déclencheur, pas la tâche : identifier le moment où les divergences se révèlent naturellement (le bug de production, la question du nouveau, la réunion tendue) et greffer la confrontation dessus. Un déclencheur naturel survit ; une tâche planifiée meurt.
+- Nommer un duo de gardiens (deux rôles différents, jamais deux personnes du même rôle) avec la responsabilité de la confrontation — pas de la mise à jour. La mise à jour suit la confrontation ; sans confrontation, la mise à jour est du ritualisme.
+- Prévoir la règle de deuil : si un modèle n'a pas été confronté depuis deux mois, il est marqué « dormant » publiquement. Un modèle dormant est honnête ; un modèle prétendument vivant est un piège.
+
+**Ce qui n'a pas fonctionné.** Laisser « l'équipe saura faire seule ». Certaines équipes oui ; la plupart non. Le transfert explicite du déclencheur est la différence entre la survivance et la relique.
+
+---
+
+## Comment utiliser cette partie
+
+- **Au symptôme** : chaque section est un symptôme. Allez à la section qui décrit votre situation, pas à celle qui semble la plus sage.
+- **Pour le diagnostic** : chaque section distingue le symptôme de sa cause réelle — la cause est presque toujours un usage absent, pas un outil manquant.
+- **Pour l'action** : chaque section donne « ce qui a fonctionné » et « ce qui n'a pas fonctionné ». La seconde liste est aussi précieuse que la première : elle évite les erreurs déjà payées par d'autres.
+
 # Épilogue : ce n'est pas le niveau 2 qui réconcilie, c'est vous
 
 Le niveau 1 vous a appris à livrer avec des preuves. Le niveau 2 vous apprend à définir ce que vous livrez, et à le documenter assez bien pour que l'automatisation — et, un jour, l'intelligence artificielle — puissent s'appuyer sur du solide.
