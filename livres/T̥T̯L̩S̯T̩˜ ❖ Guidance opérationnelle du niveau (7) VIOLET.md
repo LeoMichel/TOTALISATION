@@ -917,26 +917,100 @@ Huit semaines. Une collection complète. Et maintenant, le passage au niveau 8. 
 
 ### Annexe A1 : Modèle de charte de mission niveau 7
 
-[Charte de mission pour l'équipe pilote niveau 7 : objectif, périmètre, responsables, ressources, durée, critères de succès.]
+**Charte de mission : incarnation philosophique de TOTALISATION, niveau 7**
+
+**Objectif :** transformer la qualité en philosophie vivante de l'organisation en 8 semaines : vision commune reformulée, valeurs prouvées par des décisions réelles, missions personnelles, transmission organisée.
+
+**Durée :** 8 semaines, du [date] au [date].
+
+**Rôles :**
+- Direction : [nom] (porte la vision, répond aux missions impossibles, signe le v7.0)
+- Gardiens de la philosophie : [noms] (racontent les récits, tiennent la jurisprudence, organisent la transmission)
+- Représentants de chaque fonction : [liste] (reformulent la vision dans leur métier, écrivent leurs missions)
+- Coach : [nom] (facilite, se retire à la fin du parcours)
+
+**Règles :**
+1. Chaque semaine produit un livrable publié au centre d'excellence.
+2. Une valeur qui n'a pas guidé une décision réelle dans l'année est retirée de la liste (honnêteté oblige).
+3. Les dilemmes de valeurs sont consignés dans la jurisprudence : dilemme, tension, décision, rationale.
+4. Les récits fondateurs incluent les échecs. Un récit sans échec n'est pas un récit, c'est une pub.
+
+**Signature :** direction ____ gardiens ____ représentants ____ (date ____)
 
 ### Annexe A2 : Modèle de contrat qualité niveau 7
 
-[Contrat qualité v7.0 : engagements philosophiques, culture de vie, transformation continue, signataires.]
+**Contrat philosophique de l'organisation — version 7.0**
 
-### Annexe A3 : Modèle de matrice de vision de niveau 7
+> Ce contrat ne remplace pas le v6.0 : il le transcende. Les engagements de niveau 6 (prévention, régression, vigilance) restent en vigueur.
 
-[Tableau de suivi : vision commune, valeurs fondamentales, engagements, état.]
+**Engagements philosophiques de l'organisation :**
+1. La vision commune guide les décisions stratégiques ; chaque décision majeure est examinée à sa lumière.
+2. Les valeurs fondamentales (3 à 5) sont invoquées dans les conflits ; chaque valeur est prouvée par au moins une décision réelle annuelle.
+3. Chaque poste connaît sa contribution personnelle à la vision et possède un observable.
+4. L'organisation refuse les décisions contraires à sa philosophie, même rentables à court terme ; le coût de ces refus est documenté.
+5. La transmission de la philosophie est un devoir des gardiens ; le parcours de l'héritier est maintenu et testé.
+
+**Révision :** le contrat v7.0 est relu annuellement, par la direction et les gardiens ensemble. Une philosophie non relue devient une devise.
+
+**Signatures :** direction ____ gardiens ____ représentants des équipes ____ (date ____)
+
+### Annexe A3 : Modèle de matrice de vision niveau 7
+
+| Fonction / métier | Reformulation de la vision | Mission personnelle (exemple) | Observable | État |
+|---|---|---|---|---|
+| Développement | [phrase] | « Je clarifie avant de coder » | Une spécification relue avant chaque implémentation | ✅ / 🔄 / ⚪ |
+| QA | [phrase] | « Je pose les questions que personne n'a posées » | Trois questions nouvelles par semaine | |
+| Support | [phrase] | « J'entends les signaux faibles » | Un signal consigné par mois | |
+| Vente | [phrase] | « Je promets ce que l'équipe peut prouver » | Aucune promesse sans preuve correspondante | |
+| Direction | [phrase] | « Je refuse ce qui contredit la philosophie, même rentable » | Chaque refus documenté avec son coût | |
+
+**Règle de lecture :** une ligne sans observable est une intention. Une ligne dont l'observable n'a pas été vérifié au trimestre est un état 🔄 avec action datée.
 
 ### Annexe A4 : Modèle de rapport de maturité niveau 7
 
-[Tableau d'audit : 8 éléments de niveau 7, niveau attribué 1-3, preuve, actions pour 6 mois.]
+**Structure en deux pages maximum (rapport final de la collection) :**
+1. **Le parcours complet :** du niveau 1 au niveau 7, une ligne par niveau avec sa preuve et sa leçon.
+2. **Audit des 8 éléments du niveau 7 :** vision, valeurs, philosophie, missions personnelles, sagesse décisionnelle, transmission, culture observée, coût assumé. Preuves sous forme de **récits datés** (une scène vraie par élément).
+3. **La jurisprudence :** les trois dilemmes de valeurs les plus marquants de l'année, et ce qu'ils ont appris.
+4. **Les écarts assumés :** où la philosophie et la pratique divergent encore, sans filtre.
+5. **La succession :** qui porte la philosophie demain, et où en est son parcours.
+6. **Signature :** les porteurs de chaque niveau signent d'abord, la direction endosse ensuite.
+
+**Règle d'écriture :** au niveau 7, une preuve qui n'est pas une scène vraie n'est pas une preuve culturelle.
 
 ### Annexe A5 : Guide de facilitation, le coach semaine par semaine (niveau 7)
 
-[Pour chaque semaine : rôle du coach, points de vigilance, quand se retirer, quand intervenir.]
+| Semaine | Posture du coach | À faire | À ne jamais faire |
+|---|---|---|---|
+| 1 | Éveilleur | Faire raconter les récits fondateurs, y compris les échecs | Raconter ses propres récits à la place des gens de l'organisation |
+| 2 | Animateur de dilemmes | Rejouer les dilemmes de valeurs réels, noter la jurisprudence | Trancher un dilemme de valeurs à leur place |
+| 3 | Révélateur | Faire émerger les missions personnelles, confronter les observables | Écrire une mission à la place d'un poste |
+| 4 | Témoin de décisions | Observer comment les décisions se prennent, noter les rituels existants | Corriger une décision « mal prise » en séance |
+| 5 | Constructeur de parcours | Rédiger le parcours de l'héritier avec les gardiens | Promettre une transmission en une cérémonie |
+| 6 | Testeur | Faire tester le parcours par un volontaire réel, intégrer ses réactions | Considérer le parcours terminé sans test |
+| 7 | Préparateur de la sortie | Préparer l'audit, faire choisir les preuves-récits | Rédiger les récits à la place des porteurs |
+| 8 | Cérémoniaire discret | Organiser la clôture, rendre le mandat, se taire pendant les témoignages | Faire le discours final à la place de l'organisation |
+
+**Test de réussite global du coach niveau 7 :** à la cérémonie de clôture, il n'a rien dit. Les récits, les témoignages et la vision ont été portés par les gens de l'organisation, sans lui.
 
 ### Annexe A6 : Calendrier type des 8 semaines (niveau 7)
 
-[Calendrier indicatif des 8 semaines avec ateliers, livrables et checkpoints.]
+**Semaine 1 :** les récits fondateurs racontés (échecs compris), la vision reformulée par chaque fonction.
+
+**Semaine 2 :** les valeurs prouvées, les dilemmes rejoués, la jurisprudence ouverte.
+
+**Semaine 3 :** les missions personnelles écrites avec observables, les missions impossibles remontées.
+
+**Semaine 4 :** le test de la décision silencieuse, les rituels de décision documentés.
+
+**Semaine 5 :** le parcours de l'héritier rédigé avec les gardiens.
+
+**Semaine 6 :** le parcours testé par un volontaire réel, corrections intégrées.
+
+**Semaine 7 :** la succession des gardiens nommée, la préparation de l'audit.
+
+**Semaine 8 :** l'audit avec récits datés, le contrat v7.0 signé, la transmission lancée, la cérémonie de clôture, les cartes conservées pour un an.
+
+**Rappel :** ce calendrier est un rythme par défaut. Au niveau 7 plus qu'ailleurs, les dépendances sont culturelles : pas de jurisprudence (S2) sans récits honnêtes (S1), pas de succession (S7) sans parcours testé (S6).
 
 ---

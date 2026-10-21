@@ -919,26 +919,101 @@ Huit semaines. Une organisation qui prépare l'avenir. Et maintenant, le passage
 
 ### Annexe A1 : Modèle de charte de mission niveau 6
 
-[Charte de mission pour l'équipe pilote niveau 6 : objectif, périmètre, responsables, ressources, durée, critères de succès.]
+**Charte de mission : intelligence organisationnelle, niveau 6**
+
+**Objectif :** faire émerger l'intelligence organisationnelle en 8 semaines : régression automatisée avec prévention, détection des signaux faibles, prévention structurée, posture de l'avenir.
+
+**Durée :** 8 semaines, du [date] au [date].
+
+**Rôles :**
+- Direction : [nom] (endosse le contrat v6.0, protège le temps de prévention)
+- Responsable de la prévention : [nom] (anime les revues, tient le registre)
+- Canal des signaux faibles : [gardien] (lit, trie, escalade)
+- Centre d'excellence : [nom] (garde les registres, anime la transmission)
+- Toutes les équipes : contribuent aux signaux, aux chantiers, à l'horizon
+
+**Règles :**
+1. Chaque semaine produit un livrable publié au centre d'excellence.
+2. Chaque régression détectée reçoit une action de prévention consignée dans les 5 jours ouvrables.
+3. Le registre des risques est vivant : tout risque dormant depuis six mois reçoit un sort (traité, actif, ou purgé).
+4. L'anticipation est un chantier, pas une aspiration : chaque thème d'avenir a un propriétaire ou une date de relecture.
+
+**Signature :** direction ____ responsable prévention ____ centre d'excellence ____ (date ____)
 
 ### Annexe A2 : Modèle de contrat qualité niveau 6
 
-[Contrat qualité v6.0 : engagements industriels, prévention, régression, intelligence organisationnelle, signataires.]
+**Contrat qualité de l'organisation — version 6.0**
+
+**Engagements de l'organisation :**
+1. La régression est automatisée : le délai médian de détection est mesuré et publié.
+2. Chaque régression détectée débouche sur une action de prévention consignée (régression → détection → action → critère de levée).
+3. Le canal des signaux faibles est actif, sans blâme ; sa revue est régulière ; au moins un incident évité par signal consigné est documenté quand ça arrive.
+4. Le registre des risques est vivant : chaque risque a un scénario, une probabilité estimée, un impact, un chantier (avec propriétaire, date, critère de levée) — ou est purgé.
+5. L'exercice de l'horizon a lieu semestriellement et produit au moins un chantier d'avenir actif.
+
+**Règle des dérogations :** écrite, motivée, datée, présentée à la revue suivante.
+
+**Signatures :** direction ____ équipes ____ centre d'excellence ____ (date ____)
 
 ### Annexe A3 : Modèle de matrice de qualité niveau 6
 
-[Tableau de suivi : poste, posture, engagement, livrables, état.]
+**Matrice des quatre battements de l'intelligence organisationnelle :**
+
+| Battement | Mécanisme | Qui écrit | Qui lit | Fréquence | Conséquence si arrêté |
+|---|---|---|---|---|---|
+| Régression → prévention | Registre de prévention | Responsable prévention | Revue mensuelle | à chaque régression | Régressions répétées sans apprentissage |
+| Signaux faibles | Canal de consignation | Tous | Gardien + revue mensuelle | continu | Incidents prévisibles non détectés |
+| Chantiers de prévention | Registre des risques | Propriétaires | Revue mensuelle | mensuelle | Risques dormants, registre mort |
+| Horizon | Exercice semestriel | Toutes fonctions | Organisation | semestrielle | Avenir subi, non préparé |
+
+**Règle de lecture :** chaque battement a un remplaçant nommé qui a co-animé une revue réelle. Un battement sans succession est une dépendance.
 
 ### Annexe A4 : Modèle de rapport de maturité niveau 6
 
-[Tableau d'audit : 8 éléments de niveau 6, niveau attribué 1-3, preuve, actions pour 6 mois.]
+**Structure en deux pages maximum :**
+1. **Situation de départ :** l'état du niveau 5 en trois lignes.
+2. **Parcours des 8 semaines :** tableau semaine / livrable / apprentissage.
+3. **Audit des 8 éléments du niveau 6 :** régression automatisée, prévention structurée, signaux faibles, posture de l'avenir, centre d'excellence vivant, contrat v6.0, intelligence collective, transmission. Niveau (1-3) et preuve pour chacun.
+4. **Métriques de mouvement :** délai médian de détection, proportion de risques avec chantier actif, incidents évités par signal consigné, chantiers d'avenir actifs.
+5. **Ce qui reste fragile :** les deux faiblesses principales, sans filtre.
+6. **Recommandations :** poursuivre vers le niveau 7 / ajuster / arrêter, avec conditions.
+7. **Signature :** les équipes et le centre d'excellence signent d'abord, la direction endosse ensuite.
+
+**Règle d'écriture :** pas de preuve, pas d'affirmation.
 
 ### Annexe A5 : Guide de facilitation, le coach semaine par semaine (niveau 6)
 
-[Pour chaque semaine : rôle du coach, points de vigilance, quand se retirer, quand intervenir.]
+| Semaine | Posture du coach | À faire | À ne jamais faire |
+|---|---|---|---|
+| 1 | Mécanicien de la régression | Rejouer les régressions réelles, activer le registre de prévention | Traiter la régression comme un incident à éteindre sans apprentissage |
+| 2 | Éveilleur de vigilance | Animer la chasse aux signaux faibles, ouvrir le canal | Laisser le canal devenir un dépotoir de plaintes |
+| 3 | Structurant | Transformer les risques en chantiers avec critères de levée | Accepter un registre de risques décoratif |
+| 4 | Façonnier d'avenir | Animer l'exercice de l'horizon, croiser les fonctions | Laisser l'horizon devenir une liste de vœux technologiques |
+| 5 | Constructeur du système | Assembler les quatre battements, vérifier les successions | Accepter un battement sans remplaçant ayant co-animé |
+| 6 | Testeur du système | Rejouer une revue avec les nouveaux, noter leurs questions | Répondre à leur place : les questions sont le programme |
+| 7 | Vérificateur | Vérifier les délais de détection et la proportion de risques actifs | Accepter une couverture déclarée non mesurée |
+| 8 | Archiviste | Faire rédiger le rapport, préparer la remise et le plan du niveau 7 | Rédiger le rapport à leur place |
+
+**Test de réussite global du coach niveau 6 :** une régression récente a reçu son action de prévention dans les délais, consignée, sans son intervention.
 
 ### Annexe A6 : Calendrier type des 8 semaines (niveau 6)
 
-[Calendrier indicatif des 8 semaines avec ateliers, livrables et checkpoints.]
+**Semaine 1 :** registre de prévention activé, délais de détection mesurés, première action consignée.
+
+**Semaine 2 :** canal des signaux faibles ouvert, première chasse rétroactive, première revue des signaux.
+
+**Semaine 3 :** trois risques réels transformés en chantiers, première revue de prévention tenue.
+
+**Semaine 4 :** exercice de l'horizon semestriel, premier chantier d'avenir actif.
+
+**Semaine 5 :** les quatre battements assemblés, successions nommées.
+
+**Semaine 6 :** revue rejouée avec les nouveaux arrivants, questions intégrées.
+
+**Semaine 7 :** posture organisationnelle de l'avenir définie, guide de pratique publié, plan du niveau 7.
+
+**Semaine 8 :** audit de maturité, contrat v6.0 signé par la direction, rapport présenté, plan du niveau 7 confirmé.
+
+**Rappel :** ce calendrier est un rythme par défaut. Les dépendances : pas de chantiers (S3) sans registre de prévention (S1), pas de battements (S5) sans canal actif (S2) et revue (S3).
 
 ---

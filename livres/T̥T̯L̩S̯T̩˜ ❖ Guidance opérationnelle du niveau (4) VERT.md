@@ -971,26 +971,103 @@ Ce n'est pas BEASTEST qui réconcilie. C'est vous.
 
 ### Annexe A1 : Modèle de charte de mission niveau 4
 
-[Charte de mission pour l'équipe pilote niveau 4 : objectif, périmètre, responsables, ressources, durée, critères de succès.]
+**Charte de mission : automatisation infrastructurelle, niveau 4**
+
+**Objectif :** transformer la chaîne de génération en infrastructure en 8 semaines : génération systématique à partir des modèles, critique institutionnalisée des sorties, intégration pipeline, transmission de la chaîne.
+
+**Durée :** 8 semaines, du [date] au [date].
+
+**Rôles :**
+- Sponsor : [nom] (protège le temps d'infrastructure, arbitre les priorités)
+- Mainteneurs de la chaîne : [noms] (gabarits, génération, pipeline — rotation documentée)
+- Équipe pilote : [membres] (critiquent les sorties, tiennent les critères de tri)
+- Coach : [nom] (facilite, ne maintient pas la chaîne à leur place)
+
+**Règles :**
+1. Chaque semaine produit un livrable publié au centre d'excellence.
+2. Aucune sortie générée n'est intégrée sans tri selon les critères écrits.
+3. La chaîne ne dépend d'aucune personne unique : rotation et documentation obligatoires.
+4. Un modèle modifié déclenche une régénération — sans décision humaine de « on a le temps ».
+
+**Signature :** sponsor ____ mainteneurs ____ équipe ____ (date ____)
 
 ### Annexe A2 : Modèle de contrat qualité niveau 4
 
-[Contrat qualité v4.0 : engagements BEASTEST, couverture par types de test, règles de génération, règles de dérogation, signataires.]
+**Contrat qualité de l'équipe [nom] — version 4.0**
+
+**Engagements de l'équipe :**
+1. Chaque modèle BPMN/MBT est relu avant génération : la génération est fidèle au modèle, donc hérite de ses erreurs.
+2. Les tests générés sont triés selon les critères écrits ; chaque suppression est motivée et consignée.
+3. La répartition pipeline / passe nocturne est respectée ; le temps de pipeline est surveillé.
+4. Les gabarits ont un tour de garde documenté ; les signaux de dérive sont actifs au tableau de bord.
+5. Chaque incident de production est examiné : un test généré aurait-il pu le détecter ? L'action en découle est consignée.
+
+**Règle des dérogations :** une dérogation est écrite, motivée, datée, et revue à la date inscrite.
+
+**Révision :** le contrat est relu [fréquence] ; les versions sont archivées.
+
+**Signatures :** équipe ____ mainteneurs ____ sponsor ____ (date ____)
 
 ### Annexe A3 : Modèle de matrice de couverture niveau 4
 
-[Tableau : type de test, modèle BEASTEST associé, preuve, seuil de qualité, responsable.]
+| Type de test | Modèle source | Génération (auto/manuelle) | Preuve attendue | Seuil | Responsable | Exécution (pipeline / nocturne) |
+|---|---|---|---|---|---|---|
+| Unitaire | [modèle] | auto | rapport de couverture | ≥ [x] % | [nom] | pipeline |
+| Intégration | [modèle] | auto | rapport d'exécution | 100 % passés | [nom] | pipeline |
+| Système | [modèle] | auto | rapport d'exécution | 100 % passés | [nom] | pipeline |
+| E2E | [modèle] | mixte | rapport + captures | chemins critiques | [nom] | nocturne |
+| Performance | [modèle] | mixte | rapport de charge | seuils SLA | [nom] | nocturne |
+| Sécurité | [référentiel] | manuelle | rapport d'analyse | aucune faille critique | [nom] | hebdo |
+| Mutation | [modèle] | auto | score de mutation | ≥ [x] % | [nom] | hebdo |
+
+**Règle de lecture :** chaque ligne doit avoir exécuté au moins un test lors du dernier changement sur la fonctionnalité visée. Une ligne jamais exécutée est une intention, pas une mesure.
 
 ### Annexe A4 : Modèle de rapport de maturité niveau 4
 
-[Tableau d'audit : 6 éléments de niveau 4, niveau attribué 1-3, preuve, actions pour 6 mois.]
+**Structure en deux pages maximum :**
+1. **Situation de départ :** l'état du niveau 3 en trois lignes.
+2. **Parcours des 8 semaines :** tableau semaine / livrable / apprentissage.
+3. **Audit des 6 éléments du niveau 4 :** génération systématique, critique des sorties, intégration pipeline, maintenance des gabarits, transmission, retour d'incident. Niveau (1-3) et preuve pour chacun.
+4. **Métriques de mouvement :** ratio de protection (tests pouvant échouer / total), temps de pipeline, couverture réelle vs déclarée.
+5. **Ce qui reste fragile :** les deux faiblesses principales, sans filtre.
+6. **Recommandations :** poursuivre vers le niveau 5 / ajuster / arrêter, avec conditions.
+7. **Signature :** l'équipe signe d'abord, la direction endosse ensuite.
+
+**Règle d'écriture :** pas de preuve, pas d'affirmation.
 
 ### Annexe A5 : Guide de facilitation, le coach semaine par semaine (niveau 4)
 
-[Pour chaque semaine : rôle du coach, points de vigilance, quand se retirer, quand intervenir.]
+| Semaine | Posture du coach | À faire | À ne jamais faire |
+|---|---|---|---|
+| 1 | Configurateur | Faire configurer réellement (erreurs comprises), documenter le guide | Pré-configurer pour que « ça marche du premier coup » |
+| 2 | Formateur au jugement | Animer la critique des sorties, faire écrire les critères de tri | Accepter « le test passe » comme preuve de qualité |
+| 3 | Garant de la rotation | Établir le tour de garde, activer les signaux de dérive | Laisser un mainteneur unique s'installer |
+| 4 | Équilibriste | Ajuster la répartition pipeline/nocturne, surveiller le temps | Confondre couverture maximale et couverture utile |
+| 5 | Préparateur de transmission | Faire préparer les artefacts réels (pas de slides) pour l'équipe voisine | Laisser transmettre l'enthousiasme sans les critères |
+| 6 | Observateur de transmission | Assister à la transmission, noter ce qui passe et ce qui coince | Transmettre à la place de l'équipe pilote |
+| 7 | Vérificateur | Vérifier la couverture systématique (matrice vs exécutions réelles) | Accepter une matrice déclarée non mesurée |
+| 8 | Archiviste | Faire rédiger le rapport par l'équipe, préparer la remise | Rédiger le rapport à sa place |
+
+**Test de réussite global du coach niveau 4 :** une équipe voisine a généré, critéré et intégré des tests dans son pipeline sans son aide continue.
 
 ### Annexe A6 : Calendrier type des 8 semaines (niveau 4)
 
-[Calendrier indicatif des 8 semaines avec ateliers, livrables et checkpoints.]
+**Semaine 1 :** configuration réelle de la chaîne, première génération, guide documenté.
+
+**Semaine 2 :** critique des sorties, critères de tri écrits, premier tri appliqué.
+
+**Semaine 3 :** tour de garde des gabarits, signaux de dérive actifs.
+
+**Semaine 4 :** répartition pipeline/nocturne, temps de pipeline mesuré.
+
+**Semaine 5 :** matrice de couverture reliée aux exécutions réelles, couverture systématique.
+
+**Semaine 6 :** transmission à l'équipe voisine (artefacts réels, première génération chez eux).
+
+**Semaine 7 :** suivi de transmission, exercice de l'incident (E3), rapport de qualité.
+
+**Semaine 8 :** audit de maturité, contrat v4.0 signé, rapport présenté, plan du niveau 5.
+
+**Rappel :** ce calendrier est un rythme par défaut. L'ordre des dépendances : pas de critique (S2) sans génération documentée (S1), pas de transmission (S6) sans critères éprouvés (S2-S4).
 
 ---
