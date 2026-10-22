@@ -1596,7 +1596,296 @@ Les gabarits vides sont dans les annexes A4 à A7. Cette partie vous montre ce q
 
 ---
 
-## Épilogue : ce qui reste quand le coach est parti
+#
+---
+
+# Partie 6 : Les cérémonies du niveau 1
+
+Cette partie adapte les sept cérémonies de TOTALISATION — documentées et éprouvées chez Opal-RT — au niveau 1. Chaque cérémonie est un rituel formel, un rendez-vous de qualité avec un objectif, des participants, des entrées et des sorties définies. Au niveau 1, on en installe trois (les essentielles) ; les quatre autres sont présentées pour que l'équipe sache où elle va.
+
+**La différence entre une réunion et une cérémonie.** Une réunion discute. Une cérémonie produit : elle a des entrées obligatoires, des sorties attendues, et un livrable daté. Si une cérémonie ne produit rien, elle s'est dégradée en réunion — et elle doit être corrigée ou supprimée.
+
+## Cérémonie 1 : L'ÉLICITATION
+
+**Objectif :** obtenir le besoin réel et ses contraintes avant toute décision.
+
+**Quand :** à chaque nouvelle demande, avant la spécification.
+
+**Participants :** le demandeur (ou son représentant), l'équipe, le facilitateur.
+
+**Entrées :** la demande brute (email, ticket, conversation), le contexte du demandeur.
+
+**Sorties :** le besoin formulé en langage commun, les contraintes explicites, les critères de succès du demandeur, les non-besoins (ce qu'il ne demande pas).
+
+**Le déroulé du niveau 1 (30 à 45 minutes) :**
+
+1. **Le demandeur raconte** (10 min, sans interruption) : ce qu'il veut, pourquoi, pour qui. Le facilitateur note sans reformuler — la reformulation vient après.
+2. **Les questions ouvertes** (15 min) : l'équipe interroge. Les cinq questions standard : « Quel problème concret cela résout-il ? », « Comment saurez-vous que c'est réussi ? », « Qu'avez-vous déjà essayé ? », « Que se passe-t-il si on ne le fait pas ? », « Qui d'autre est concerné ? ».
+3. **La reformulation** (10 min) : l'équipe reformule le besoin en ses propres mots et le demandeur valide ou corrige. C'est le moment où les malentendus meurent — ou survivent.
+4. **La clôture** (5 min) : le besoin reformulé est écrit, daté, signé par le demandeur. Cette écriture est le livrable de la cérémonie.
+
+**Les pièges du niveau 1 :**
+- **La cérémonie qui devient un cahier des charges.** L'élicitation du niveau 1 recueille le besoin, elle ne le spécifie pas. La spécification est l'étape suivante. Si l'équipe se met à débattre de solutions, elle a dépassé son rôle.
+- **Le demandeur absent.** Une élicitation sans le demandeur est une fabrication. Si le demandeur ne peut pas venir, la cérémonie est reportée — ou se fait par écrit avec validation ultérieure explicite.
+- **Les besoins cachés.** Le demandeur dit souvent ce qu'il veut (la solution) et non ce dont il a besoin (le problème). La question « quel problème cela résout-il ? » est l'outil qui remonte du problème vers la solution.
+
+**La capsule du vécu.** Chez Opal-RT, la première élicitation formelle a révélé un écart saisissant : le besoin exprimé (« un tableau de bord des tests ») et le besoin réel (« savoir si on peut livrer sans peur ») étaient deux choses différentes. Le tableau de bord demandé aurait montré des chiffres ; le besoin réel demandait une réponse à une question. L'équipe a spécifié la réponse, pas le tableau — et le tableau qui en a résulté était différent de ce que le demandeur avait décrit, et meilleur.
+
+## Cérémonie 2 : LA DÉFINITION (la spécification)
+
+**Objectif :** transformer le besoin élicité en spécification testable.
+
+**Quand :** après l'élicitation, avant l'implémentation.
+
+**Participants :** l'auteur de la spécification, un développeur, un testeur, le demandeur (disponible pour questions).
+
+**Entrées :** le besoin reformulé et signé (cérémonie 1), les contraintes techniques connues.
+
+**Sorties :** la spécification IF…THEN… complète, les critères de validation, les cas limites, la revue faite.
+
+**Le déroulé du niveau 1 (60 à 90 minutes) :**
+
+1. **L'écriture du squelette** (20 min) : contexte, besoin, comportement attendu. L'auteur écrit, les autres complètent oralement.
+2. **Les règles de validation** (20 min) : pour chaque comportement attendu, comment saure-t-on qu'il est respecté ? Les règles s'écrivent en IF…THEN… : « SI le filtre est appliqué sur une colonne vide, ALORS toutes les lignes restent visibles. »
+3. **Les cas limites** (20 min) : la chasse aux frontières — valeurs nulles, données vides, volume extrême, concurrence, ordre des opérations. Chaque cas limite devient une règle de validation.
+4. **La revue à trois rôles** (20 min) : le développeur lit pour l'implémentabilité, le testeur lit pour la testabilité, le demandeur lit pour la fidélité au besoin. Chaque rôle signale : ce qui n'est pas clair, ce qui est faux, ce qui manque.
+
+**Le piège du niveau 1 :** la spécification encyclopédique. Une spécification de deux pages qui prévient le malentendu est meilleure qu'un mémoire de vingt pages que personne ne lit. Le test : le développeur la lit-il avant de coder ?
+
+**La capsule du vécu.** La première spécification complète de la mission Fait trois cas limites que personne n'avait identifiés — dont un qui avait déjà causé une reprise six mois plus tôt. Le développeur, sceptique au départ (« une demi-page suffit pour ça »), a reconnu : « OK, ce cas-là, je l'aurais raté. » C'est le moment exact où la spécification cesse d'être une exigence externe et devient un outil personnel.
+
+## Cérémonie 3 : LA PLANIFICATION
+
+**Objectif :** décider quoi, quand, par qui, avec quels risques assumés.
+
+**Quand :** après la définition, au début de chaque itération.
+
+**Participants :** l'équipe complète, le product owner, le facilitateur.
+
+**Entrées :** les spécifications prêtes (DoR satisfait), la capacité de l'équipe, les priorités.
+
+**Sorties :** le plan d'itération (les items sélectionnés avec leurs spécifications), les risques connus et assumés, les critères de fin.
+
+**Le déroulé du niveau 1 (90 minutes) :**
+
+1. **La revue de capacité** (10 min) : qui est disponible, quels absences, quelles interruptions prévisibles. On planifie avec la capacité réelle, pas avec la capacité espérée.
+2. **La sélection des items** (30 min) : chaque item candidat est évalué — sa spécification est-elle prête ? Son estimateur est-il présent ? Ses dépendances sont-elles résolues ? Les items sans spécification prête ne rentrent pas : c'est la règle du DoR (Definition of Ready) en action.
+3. **Le contrat d'itération** (30 min) : pour chaque item sélectionné, l'équipe écrit ce qu'elle s'engage à livrer (comportement, critères de validation, preuves). Ce contrat est le référentiel du Go/No-Go de fin d'itération.
+4. **Les risques** (20 min) : chaque item porte ses risques connus (technique, dépendance, donnée). Chaque risque a un plan : mitigé, contourné, ou assumé par écrit.
+
+**Le piège du niveau 1 :** planifier avec la capacité espérée. L'itération surchargée est le début de la spirale : les items glissent, la confiance baisse, la planification perd son sens. Mieux vaut une itération réaliste à 80 % qu'une itération héroïque à 120 %.
+
+**La capsule du vécu.** La première planification formelle de la mission a duré deux fois le temps prévu — parce que la moitié des items candidats n'avaient pas de spécification prête. L'équipe a dû choisir entre les déclasser (et planifier maigre) ou les écrire à la volée (et planifier au flou). Elle a déclassé. L'itération a livré 100 % de ses engagements — la première fois de son histoire. La leçon du facilitateur : *une itération maigre et tenue vaut mieux qu'une itération grasse et glissante.*
+
+## Cérémonie 4 : L'IMPLÉMENTATION (la revue de code)
+
+**Objectif :** garantir que le code est conforme à la spécification, pas seulement qu'il fonctionne.
+
+**Quand :** à chaque pull request, pendant l'implémentation.
+
+**Participants :** l'auteur du code, un relecteur, le specificateur (en cas de doute).
+
+**Entrées :** le code, la spécification correspondante, les critères de validation.
+
+**Sorties :** le code approuvé avec preuve de conformité, ou les corrections demandées.
+
+**Le déroulé du niveau 1 (30 minutes par revue) :**
+
+1. **La lecture pour la conformité** (10 min) : le relecteur vérifie d'abord le code contre la spécification, comportement par comportement. Il note chaque écart — même ceux qui « marchent quand même ».
+2. **La lecture pour la maintenabilité** (10 min) : lisibilité, nommage, structure, tests. Le relecteur signale ce qui posera problème dans six mois.
+3. **La décision** (10 min) : approuvé / approuvé avec réserves notées / refusé avec corrections. La décision est écrite dans la revue.
+
+**Le piège du niveau 1 :** la revue de style sans revue de conformité. Un code élégant qui ne fait pas ce que la spécification dit est un beau bug. L'ordre des lectures (conformité d'abord) est ce qui distingue la revue TOTALISATION de la revue habituelle.
+
+## Cérémonie 5 : LA DIFFUSION (le Go/No-Go)
+
+**Objectif :** décider la livraison selon des critères écrits, avec les preuves.
+
+**Quand :** à chaque livraison, sans exception.
+
+**Participants :** l'équipe, le décideur de livraison, le facilitateur (en observation).
+
+**Entrées :** le contrat d'itération, les preuves (tests passés, revues faites), les bugs ouverts.
+
+**Sorties :** la décision Go / No-Go avec réserves, le compte rendu, la note de diffusion.
+
+**Le déroulé du niveau 1 (30 minutes) :** voir l'annexe A6 pour le format complet. Les points critiques du niveau 1 : les critères sont écrits avant la cérémonie (jamais improvisés), les preuves sont présentées (pas affirmées), les réserves sont formulées en une phrase (ce qui manque, qui le complète, pour quand).
+
+**La capsule du vécu.** Le premier Go/No-Go formel de la mission a duré 20 minutes au lieu des deux heures habituelles de discussion. Les critères avaient tranché avant que le débat commence. La réaction du décideur : « C'est la première fois que je sais pourquoi on livre. » La qualité qui raccourcit les réunions : voilà un argument que personne n'attendait.
+
+## Cérémonie 6 : LA CONFIRMATION
+
+**Objectif :** vérifier que la livraison répond au besoin élicité — dans le réel.
+
+**Quand :** 1 à 4 semaines après chaque diffusion.
+
+**Participants :** l'équipe, le demandeur initial, les utilisateurs concernés.
+
+**Entrées :** la livraison en production, les critères de succès de l'élicitation, les retours du terrain.
+
+**Sorties :** la confirmation du besoin (ou son infirmation), les apprentissages pour la prochaine élicitation, les ajustements.
+
+**Le déroulé du niveau 1 (30 minutes) :**
+
+1. **La relecture des critères de succès** (5 min) : ce que le demandeur avait dit vouloir (cérémonie 1).
+2. **La confrontation au réel** (15 min) : le demandeur décrit ce qu'il obtient. L'équipe écoute sans se défendre — c'est un recueil de données, pas un procès.
+3. **La boucle** (10 min) : trois questions écrites — « qu'avons-nous appris ? », « qu'est-ce qui manquait dans notre élicitation ? », « qu'élicitons-nous différemment la prochaine fois ? ». C'est la grande boucle du SDLC : CONFIRMER alimente ÉLICITER.
+
+**Le piège du niveau 1 :** sauter la confirmation parce que « le client est content ». Le contentement n'est pas la confirmation : seul le retour structuré des critères de succès est une information utilisable. Une équipe qui ne confirme jamais élicite toujours pareil — et répète donc ses erreurs d'élicitation.
+
+**La capsule du vécu.** La première confirmation formelle de la mission a révélé que le tableau livré était utilisé par des gens qui n'avaient pas été élicités — les chefs d'équipe, pas les testeurs. Le besoin réel était chez les uns ; le tableau servait aux autres. Sans la confirmation, cette découverte serait arrivée un an plus tard, par le biais d'un conflit. Avec elle, elle a alimenté l'élicitation suivante en une semaine.
+
+## Cérémonie 7 : LA QUALIMÉTRIE
+
+**Objectif :** lire les signaux, décider, consigner.
+
+**Quand :** hebdomadaire (le niveau 1 peut se contenter d'un point de 15 minutes).
+
+**Participants :** l'équipe, le facilitateur.
+
+**Entrées :** les métriques collectées (une au minimum au niveau 1), les décisions de la semaine.
+
+**Sorties :** les décisions notées, les ajustements de métriques, les remontées au sponsor si nécessaire.
+
+**Le déroulé du niveau 1 (15 minutes) :** la métrique est lue, sa tendance nommée, la décision (aucune / action / escalade) énoncée à voix haute et notée. Le format détaillé est dans la semaine 2 du livre.
+
+## L'implémentation progressive des cérémonies
+
+Au niveau 1, on n'installe pas sept cérémonies d'un coup. L'ordre recommandé :
+
+| Semaine | Cérémonies installées | Pourquoi cet ordre |
+|---|---|---|
+| 1-2 | Élicitation, Définition | Les fondations du langage commun |
+| 3 | Diffusion (Go/No-Go) | La décision formelle, avec les preuves accumulées |
+| 4 | Planification | Une fois que les spécifications existent, la planification devient réelle |
+| 5-6 | Confirmation | Après les premières diffusions, le retour devient possible |
+| 7-8 | Implémentation (revues), Qualimétrie formalisée | La consolidation des rituels |
+
+**La règle d'or :** une cérémonie n'est installée que lorsque celle d'avant tient sans le facilitateur. Une cérémonie qui ne tient pas est retravaillée, pas contournée.
+
+## Le test des cérémonies
+
+À la fin du niveau 1, chaque cérémonie installée doit passer ce test à trois questions :
+
+1. **A-t-elle des entrées obligatoires ?** (Si tout peut entrer, la cérémonie n'est qu'une réunion ouverte.)
+2. **A-t-elle un livrable daté ?** (Si rien n'est produit, elle ne s'est pas déroulée.)
+3. **Tient-elle sans le facilitateur ?** (Le test de l'indépendance — le seul qui compte.)
+
+Ces trois questions sont le test de passage au niveau 2 : une cérémonie qui les réussit est prête à être outillée et modélisée ; une cérémonie qui les échoue doit d'abord devenir réelle.
+
+
+---
+
+# Partie 7 : Le vécu étendu — les histoires derrière la méthode
+
+La méthode TOTALISATION n'est pas née d'une théorie : elle a crystallisé sur trente ans de terrain. Cette partie raconte les épisodes fondateurs — avec leurs échecs, leurs tensions et leurs leçons — et relie chacun à un atelier du livre. Ces histoires sont le matériau des capsules : le lecteur qui les connaît comprend *pourquoi* chaque atelier existe.
+
+## Rayduf : l'origine du contrôle qualité (avant l'informatique)
+
+**L'épisode.** Avant l'informatique, il y a eu le sous-sol de Rayduf : l'oncle qui montait des systèmes de son à partir de pièces récupérées, câblait des amplificateurs, et faisait tester le résultat au jeune neveu. « Vas-y, mets-en fort, et dis-moi si ça grésille. » L'enfant montait le volume, écoutait, décrivait. Rayduf ajustait. Encore. Encore. Le standard du son propre n'était pas écrit nulle part : il était dans l'oreille qui savait ce qu'elle cherchait, et dans la boucle tester-ajuster-retester.
+
+**Ce que le jeune apprenait sans le savoir :**
+- La qualité est une boucle, pas un verdict. On teste, on ajuste, on reteste. Personne ne « passe » un ampli au premier coup.
+- Le critère est dans l'usage, pas dans la construction. Ce n'est pas Rayduf qui jugeait son ampli : c'est l'oreille de l'usage.
+- Tester tôt est une gentillesse. Tester la construction de l'autre, dans son sous-sol, n'était pas un contrôle hostile : c'était la façon dont on construisait ensemble.
+
+**Le lien avec le livre.** La cérémonie de Confirmation (cérémonie 6) est la boucle de Rayduf industrialisée : on livre, l'usage juge, on ajuste. Et la posture du testeur — celui qui met en fort et dit si ça grésille — est la posture du QA TOTALISATION : celle qui fait écouter la vérité du produit, pas celle qui pointe les fautes.
+
+**Pour l'atelier :** la semaine 2 (spécification avant le code) peut s'ouvrir sur cette histoire. Elle désarme la résistance habituelle (« les tests nous ralentissent ») : Rayduf ne ralentissait pas, il construisait — et il construisait bien parce qu'il testait en continu.
+
+## Exaxe : le produit sans propriétaire
+
+**L'épisode.** Chez Exaxe, le produit d'assurance existait, se vendait, et personne ne pouvait dire ce qu'il faisait exactement. Le code avait des années, les documents avaient des hivers, et chaque modification révélait une surprise. Les développeurs experts devinaient ; les nouveaux priaient. Le QA testait ce qu'il trouvait, faute de savoir ce qui était attendu.
+
+**La leçon du malentendu permanent :** une équipe peut livrer depuis des années et ne jamais avoir partagé une compréhension commune de son propre produit. La connaissance était distribuée, jamais consolidée — chaque départ de personne était une amputation de mémoire.
+
+**Le lien avec le livre.** C'est l'argument le plus fort de la spécification avant le code (semaine 2) : non pas la discipline, mais la mémoire. Une spécification est un acte de mémoire collective : elle rend explicite ce qui ne vivait que dans des têtes.
+
+**Pour l'atelier :** en semaine 1, demander à chaque participant : « décris en trois phrases ce que fait notre produit » — puis constater les divergences. L'exercice fait l'économie de trois mois de conviction : les équipes voient leur Exaxe intérieur.
+
+## CGI : la paix des braves et le stop qualité
+
+**L'épisode.** Chez CGI, le QA vivait dans une paix des braves : il ne remontait rien de dérangeant, les développeurs ne demandaient rien de contraignant, et les livraisons sortaient « correctes » dans un sens que personne ne définissait. Puis un jour, le QA a arrêté de jouer : il a mis un stop réel sur une livraison qui ne remplissait pas les critères. Le choc a été violent — parce que personne n'avait jamais pris le droit.
+
+**Ce que l'épisode enseigne :**
+- La paix des braves n'est pas la paix : c'est une trêve qui durera jusqu'au premier incident grave. Le stop n'est pas une déclaration de guerre : c'est le retour du contrat.
+- Le QA qui ne dit jamais non n'est pas un QA tolérant : il est un QA qui n'existe pas. Son approbation ne vaut rien, puisqu'elle est inconditionnelle.
+- Le droit de dire non se gagne en deux temps : d'abord par les critères écrits (le non n'est pas personnel, il est procédural), ensuite par les preuves (le non est documenté, discutable, réversible par la dérogation).
+
+**Le lien avec le livre.** Le rituel Go/No-Go (semaine 3, cérémonie 5) est l'institutionnalisation du stop de CGI : il transforme le conflit personnel en vérification de critères. Le décideur dit non ? Il cite la grille. Personne n'est en guerre : le contrat parle.
+
+**Pour l'atelier :** la checklist de la semaine 3 peut citer ce cas. La question aux équipes qui redoutent le Go/No-Go : « votre paix actuelle, elle tient quand le client crie ? »
+
+## Desjardins : le sabotage par le flou
+
+**L'épisode.** Chez Desjardins, le coach QA est arrivé avec un mandat clair — et a découvert que chaque effort d'amélioration était sabordé par une forme invisible de résistance : les réunions reportées, les accès refusés, les priorités qui changeaient, les informations qui n'arrivaient pas. Rien n'était hostile en apparence. Tout était orienté.
+
+**Ce que l'épisode enseigne :**
+- Le sabotage n'est pas toujours malveillant : il est souvent la défense des intérêts structurés par le flou. Ce qui n'est pas écrit peut toujours être renégocié — et celui qui renégocie le mieux gagne.
+- La première défense n'est pas la persuasion : c'est l'écriture. Charte signée, critères documentés, décisions notées. Ce qui est écrit est plus difficile à saborder — non pas impossible, mais coûteux.
+- Les demandes écrites avec preuve (la semaine 5) sont l'outil anti-sabotage par excellence : elles obligent le saboteur à s'expliquer par écrit, ce qu'il évite par nature.
+
+**Le lien avec le livre.** La règle des irritants (semaine 1) — « ils nomment des systèmes, pas des personnes » — prend ici son sens profond : le sabotage est un système, et il se documente comme tel. La remontée au sponsor avec preuves (semaine 5) est la contre-attaque : non pas se plaindre, mais facturer.
+
+**Pour l'atelier :** en semaine 5, ce cas est la capsule naturelle. Les équipes qui traversent leur point mort découvrent souvent leur Desjardins intérieur : le flou organisé qui protège les habitudes.
+
+## Sherweb : reprendre après le retrait des QA
+
+**L'épisode.** Chez Sherweb, les QA ont été retirés (réduction budgétaire) et l'équipe a découvert que la qualité, qui existait « parce que les QA en gardaient la garde », n'existait plus du tout. Les développeurs, sans filet, ont découvert qu'ils ne savaient pas tester — pas parce qu'ils étaient incompétents, mais parce qu'ils n'avaient jamais eu à le faire systématiquement.
+
+**Ce que l'épisode enseigne :**
+- La qualité déléguée n'est pas la qualité acquise. Quand la qualité est le métier de quelqu'un d'autre, personne ne l'apprend.
+- Le retrait brutal est une révélation, pas une catastrophe : il montre l'état réel de la compétence. L'incident qui suit est le diagnostic gratuit.
+- La reprise se fait par la compétence distribuée : chacun apprend à tester son propre travail, avec des critères écrits — pas en réembauchant les gardiens.
+
+**Le lien avec le livre.** La spécification IF…THEN… (semaine 2) est l'outil de la compétence distribuée : quand le critère de validation est écrit, chacun peut tester — y compris celui qui code. Les critères écrits sont ce qui rend la qualité indépendante des gardiens.
+
+**Pour l'atelier :** en semaine 2, ce cas répond à la question fréquente : « mais alors les QA ne servent plus à rien ? » Réponse : les QA ne disparaissent pas, ils changent de métier — de gardiens à auteurs de critères, de testeurs de derniers recours à concepteurs de la testabilité.
+
+## Petal : la culture qui fait le travail
+
+**L'épisode.** Chez Petal, la qualité n'était pas un département : c'était une posture commune. Les questions de qualité venaient de tout le monde, dans toutes les réunions, pas seulement des QA. L'encyclopédie interne du produit documentait les concepts ; les nouveaux la lisaient ; les anciens l'entretenaient. Le QA y était un catalyseur, pas un contrôleur.
+
+**Ce que l'épisode enseigne :**
+- La qualité est une propriété de la culture, pas une fonction de l'organigramme. Quand tout le monde pose les questions de qualité, les QA peuvent se concentrer sur les questions difficiles.
+- La documentation vivante (l'encyclopédie) est l'infrastructure de la culture commune : elle donne un lieu au savoir partagé, et un rite (l'entretenir).
+- Le catalyseur est le rôle QA adulte : celui qui rend les autres capables plutôt que celui qui les juge.
+
+**Le lien avec le livre.** Le centre d'excellence (semaine 3, cérémonie 3) est l'institutionnalisation de la culture Petal : l'espace neutre où la mémoire commune vit. Et la posture du champion (semaine 8) est le catalyseur nommé.
+
+**Pour l'atelier :** en semaine 3, ce cas définit le centre d'excellence par le positif : avant de dire ce qu'il fait (garde les artefacts), dire ce qu'il est (l'endroit où la culture du produit vit).
+
+## Genius Solution : trois QA pour quarante développeurs
+
+**L'épisode.** Chez Genius Solution (monde ERP), trois QA pour quarante développeurs : le ratio faisait rire — ou pleurer. Le QA ne pouvait pas tester tout ; les devs livraient plus vite que toute organisation de tests. La solution n'a pas été de tester plus, mais de faire tester par la structure : critères écrits dans les tickets, tests automatisables, et le fameux concours de bugs qui a transformé la détection en jeu collectif.
+
+**Ce que l'épisode enseigne :**
+- Le ratio QA/dev n'est pas une fatalité : c'est une conséquence du modèle de qualité. Avec des critères écrits et une qualité distribuée, trois QA peuvent porter quarante développeurs. Sans, quarante QA n'y suffiraient pas.
+- Le jeu est un outil sérieux : le concours de bugs (recompenser la découverte documentée) a fait de la détection une activité valorisée au lieu d'une accusation. La gamification n'est pas de la légèreté : c'est de l'ingénierie des incitations.
+- L'automatisation n'est pas un substitut de la culture : elle suit. On automatise ce qui est déjà systématique à la main.
+
+**Le lien avec le livre.** Le flux de bugs avec critères écrits (semaine 2, atelier 2.2) est la version minimale de la découverte Genius : les critères remplacent le corps-de-garde. Et la qualimétrie (cérémonie 7) est la suite : mesurer la détection pour la valoriser.
+
+**Pour l'atelier :** en semaine 2, ce cas répond à « on n'a pas assez de QA ». La vraie question n'est jamais le nombre de QA : c'est la proportion de critères écrits.
+
+## Opal-RT : la preuve par la mission
+
+**L'épisode complet.** Chez Opal-RT, tout ce qui précède a convergé : le mandat clair (six semaines pour implémenter TOTALISATION), l'équipe pilote réelle, le sponsor engagé, les rituels installés, la traversée (la semaine 5 y a été une perte de temps avant d'être un virage), le contrat signé, la gouvernance durable. La mission a prouvé que la méthode tient hors du livre — et elle a produit le livre.
+
+**Ce que l'épisode enseigne (la synthèse des synthèses) :**
+- La méthode est transmissible en six semaines *si* l'équipe pilote est réelle et le sponsor réel. Sinon, six ans.
+- Le point mort est le rite de passage : chaque équipe qui a traversé a acquis l'autonomie ; chaque équipe qui l'a évité l'a reportée.
+- La qualité devient vivante le jour où les gens la défendent sans qu'on leur demande — le jour où un développeur refuse de livrer sans spécification, de lui-même.
+
+**Pour l'atelier :** toute la Partie 5 (cas réels) est la version étendue de cette histoire. Ce récit final sert de synthèse au lecteur qui arrive à la semaine 8 : la méthode que vous venez de pratiquer a déjà prouvé ce qu'elle promet.
+
+## Comment utiliser ces histoires
+
+Chaque histoire peut être racontée en ouverture de l'atelier correspondant (2 minutes), en réponse à une résistance (la bonne histoire au bon moment désarme mieux que l'argument), ou en formation des nouveaux (les histoires sont la culture qui s'apprend avant les règles).
+
+Et la règle qui les gouverne toutes : **une histoire qui n'a pas coûté quelque chose n'enseigne rien.** Celles-ci ont toutes coûté — du temps, de la crédibilité, de la patience. C'est pourquoi elles se transmettent.
+
+# Épilogue : ce qui reste quand le coach est parti
 
 Il y a deux façons de mesurer les huit semaines qui viennent de s'écouler. La première : compter les livrables. Charte, irritants, lexique, métriques, spécifications, critères de bugs, Go/No-Go, diffusion, centre d'excellence, contrat, carte du SDLC, audit, rapport. C'est une belle pile, et elle est réelle.
 
