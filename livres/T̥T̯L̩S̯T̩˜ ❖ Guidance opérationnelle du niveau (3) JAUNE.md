@@ -1050,7 +1050,230 @@ Si l'un de ces quatre points n'est pas atteint, ce n'est pas un échec : c'est u
 
 ---
 
-## Épilogue : ce n'est pas TOTALISATION qui réconcilie, c'est vous
+#
+---
+
+# Partie 7 : Les cérémonies du niveau 3
+
+Cette partie adapte les sept cérémonies de TOTALISATION au niveau 3 : les cérémonies du niveau 2 deviennent des processus forgés à cadence constante — mêmes objectifs, mêmes participants, mais avec un rythme, des seuils, et une autonomie prouvée. Le niveau 3 ne transforme pas les cérémonies : il les cadence.
+
+**La règle du niveau 3 :** une cérémonie n'est forgée que si sa version du niveau 2 tient sans le coach pendant quatre semaines consécutives. On ne forge pas sur du sable.
+
+## Cérémonie 1 : L'ÉLICITATION cadencée
+
+**Ce que le niveau 3 ajoute :** l'élicitation n'est plus un événement déclenché par une demande ; elle est un rendez-vous de flux — les demandes entrent en file, sont élicitées à cadence fixe, et la file est visible.
+
+**Le déroulé du niveau 3 (60 minutes, à heure fixe) :**
+
+1. **La revue de la file d'entrée** (10 min) : les demandes en attente d'élicitation sont relues — aucune ne dépasse 5 jours ouvrables sans élicitation. Le temps d'attente est un signal du tableau de bord N3.
+2. **L'élicitation des demandes du jour** (40 min) : le format du niveau 2 (modèle en support, questions structurées), à cadence fixe. Les demandes simples (30 min) et complexes (60 min) sont planifiées différemment — la variété est assumée.
+3. **La sortie cadencée** (10 min) : chaque demande élicitée entre en spécification avec son rendez-vous daté. La file de spécification est visible — c'est le deuxième signal.
+
+**Les entrées obligatoires :** la demande brute avec sa source, le demandeur identifié, le modèle du domaine à jour.
+
+**Les sorties attendues :** le besoin reformulé, le modèle enrichi, le rendez-vous de spécification daté.
+
+**Le piège du niveau 3 :** la file invisible. Une demande qui attend 5 jours sans signal est une demande perdue. Le tableau de bord N3 compte les demandes en attente — et le seuil (5 jours) existe parce qu'une demande qui attend trop arrive avec un demandeur frustré, ce qui dégrade l'élicitation elle-même.
+
+**Le lien avec le niveau 2 :** le modèle reste le support. Ce qui change : le rythme. La demande n'attend plus le bon moment ; le bon moment est fixe, et la demande le trouve.
+
+## Cérémonie 2 : LA DÉFINITION forgée
+
+**Ce que le niveau 3 ajoute :** la spécification a un SLA (délai de service) : écrite dans les X jours de l'élicitation, revue dans les Y jours de son écriture. La spécification N3 est cadencée, pas seulement dérivée.
+
+**Le déroulé du niveau 3 (90 minutes, à cadence fixe) :**
+
+1. **La génération des règles à partir du modèle** (30 min) : comme au niveau 2, avec la contrainte de cadence — la spécification est écrite pour la date prévue, pas pour « quand on aura le temps ».
+2. **La revue à trois rôles** (30 min) : comme au niveau 2, avec un ajout N3 — la revue vérifie aussi la testabilité automatique : chaque règle peut-elle devenir un test générable ? Si non, pourquoi ? (La réponse légitime existe ; elle est documentée.)
+3. **La sortie vers la planification** (30 min) : la spécification prête entre en file de planification avec son rendez-vous daté. La DoR du niveau 3 inclut le SLA.
+
+**Les entrées obligatoires :** le modèle enrichi (cérémonie 1), la capacité de revue réelle, les gabarits de spécification à jour.
+
+**Les sorties attendues :** la spécification complète avec SLA respecté, les critères de validation, les tests candidats identifiés (générables ou non, avec raison).
+
+**Le piège du niveau 3 :** le SLA qui tue la qualité. Un SLA de 3 jours sur des demandes complexes produit des spécifications bâclées — le niveau 3 exige des SLA différenciés (simples : 2 jours ; complexes : 5 jours ; exploratoires : traitées comme des spikes). Le SLA unique est le piège ; le SLA par classe est la forge.
+
+**Le lien avec le niveau 2 :** la revue à trois rôles reste intangible. Ce qui change : les dates. Une revue sans date n'existe pas au niveau 3 — c'est un vœu.
+
+## Cérémonie 3 : LA PLANIFICATION cadencée
+
+**Ce que le niveau 3 ajoute :** la planification devient un métronome : même heure, même durée, même format. L'itération est cadencée — les engagements sont mesurés contre la cadence, pas contre l'humeur.
+
+**Le déroulé du niveau 3 (60 minutes, métronome) :**
+
+1. **La revue de la capacité réelle** (10 min) : comme au niveau 2, avec les données du dernier cycle (temps réel vs temps estimé). La capacité est apprise, pas espérée.
+2. **La sélection par la file** (20 min) : les spécifications prêtes (SLA respecté) entrent en ordre de priorité documentée. La règle N3 : pas de négociation de dernière minute — les exceptions sont des décisions de sponsor documentées, pas des débats de rituel.
+3. **Le contrat d'itération cadencé** (20 min) : les engagements avec leurs preuves attendues et leurs dates de preuve. Le contrat du niveau 3 inclut le calendrier des preuves (quand chaque preuve sera disponible).
+4. **Les risques en revue** (10 min) : les risques du cycle précédent sont relus d'abord — leurs levées sont vérifiées. Un risque qui se répète sans traitement est un signal du tableau N3.
+
+**Les entrées obligatoires :** les spécifications prêtes (SLA), les données de capacité du dernier cycle, le registre des risques à jour.
+
+**Les sorties attendues :** le contrat d'itération avec calendrier de preuves, la file de planification à jour, les risques traités ou escaladés.
+
+**Le piège du niveau 3 :** la planification qui devient un rituel de vœux. Le métronome sans les données réelles de capacité produit des itérations uniformément en retard — la cadence sans honnêteté. La mesure de la capacité réelle est la condition de la cadence crédible.
+
+**Le lien avec le niveau 2 :** le plan lié aux modèles reste la base. Ce qui change : le plan est relu à chaque cycle avec ses données de performance — le plan N3 apprend de ses erreurs, chiffrées.
+
+## Cérémonie 4 : L'IMPLÉMENTATION en cadence
+
+**Ce que le niveau 3 ajoute :** l'implémentation devient mesurable : le temps de cycle (de la spécification à la mise en production) est un signal premier. Les revues de code, les tests générés, et les mises à jour de modèle tournent à cadence fixe.
+
+**Le déroulé du niveau 3 (30 minutes par revue, à cadence fixe) :**
+
+1. **La conformité au modèle** (10 min) : comme au niveau 2 — avec un ajout : la revue vérifie aussi la vitesse (« ce chemin a-t-il pris le temps prévu ? » — la divergence de vitesse est un signal, pas une faute).
+2. **Les tests générés** (10 min) : les tests tournent à cadence fixe (pipeline) — l'échec ouvre un ticket daté, pas une discussion. Le flaky est quarantené avec règle.
+3. **La mise à jour du modèle** (10 min) : à cadence fixe (hebdomadaire au minimum). Une divergence code/modèle plus vieille que 5 jours est un signal rouge du tableau N3.
+
+**Les entrées obligatoires :** le code, le modèle à jour (5 jours max), les tests générés en pipeline.
+
+**Les sorties attendues :** le code approuvé, les tests passés ou quarantenés, le modèle synchronisé dans les 5 jours.
+
+**Le piège du niveau 3 :** la cadence qui cache la dérive. Un rituel à heure fixe qui ne traite pas les divergences n'est pas une cadence : c'est une répétition. La mesure de la cadence réussie est le délai de traitement des divergences — pas la présence aux rendez-vous.
+
+**Le lien avec le niveau 2 :** l'outillage N2 reste la base. Le niveau 3 ajoute les échéances : chaque automatisme a son rythme, chaque rythme a son seuil, chaque seuil a son décideur.
+
+## Cérémonie 5 : LA DIFFUSION — le Go/No-Go N3
+
+**Ce que le niveau 3 ajoute :** le Go/No-Go devient prévisible : la grille N3 avec ses 5 bloquants et ses informatifs, les preuves automatisées, la décision en 30 minutes — et la preuve de la décision suivie (les réserves levées).
+
+**Le déroulé du niveau 3 (30 minutes, au métronome) :**
+
+1. **Les 5 bloquants** (10 min) : la grille N3 ne présente que les bloquants en séance — les informatifs sont consultables avant. Le temps de séance est investi sur les vraies décisions.
+2. **Les réserves** (10 min) : chaque réserve est formulée avec sa condition de levée et son décideur. Les réserves sans levée datée sont refusées par l'animateur — c'est la règle forgée du niveau 3.
+3. **La décision et son suivi** (10 min) : le Go/No-Go de la fois précédente est relus d'abord — les réserves levées ? Les dérogations respectées ? La grille apprend de ses décisions passées.
+
+**Les entrées obligatoires :** les preuves automatisées (5 bloquants), les réserves précédentes et leur état, le décideur réel.
+
+**Les sorties attendues :** la décision datée, les réserves avec conditions de levée, la mise à jour du registre.
+
+**Le piège du niveau 3 :** la grille qui n'apprend pas. Une grille identique depuis six mois est suspecte : soit le produit est immuable (rare), soit la grille n'a pas été confrontée à ses échecs. La revue trimestrielle de la grille (quels critères ont servi ? lesquels ont été contournés ?) est la forge permanente.
+
+**Le lien avec le niveau 2 :** les critères N2 restent. Le niveau 3 les hiérarchise (bloquants/informatifs) et les fait vivre (revue trimestrielle, réserves suivies).
+
+## Cérémonie 6 : LA CONFIRMATION systématique
+
+**Ce que le niveau 3 ajoute :** la confirmation devient systématique : chaque livraison est confirmée dans les 10 jours ouvrables — le taux de confirmation est un signal du tableau. Les confirmations ratées (client inaccessible) sont documentées avec une relance datée.
+
+**Le déroulé du niveau 3 (45 minutes, systématique) :**
+
+1. **Les critères de succès** (10 min) : confrontation au réel, comme au niveau 2.
+2. **Les usages observés** (20 min) : la confirmation N3 inclut l'observation (pas seulement l'entretien) : les usages réels sont documentés, les imprévus enrichissent le modèle — la grande boucle N3 est systématique.
+3. **Le traitement des apprentissages** (15 min) : chaque apprentissage a sa destination : le modèle (extension candidate), la spécification (correction), l'élicitation (question nouvelle). Un apprentissage sans destination est un apprentissage perdu — et le tableau N3 le compte.
+
+**Les entrées obligatoires :** les critères de succès, le modèle livré, l'accès aux utilisateurs (ou le refus documenté avec relance).
+
+**Les sorties attendues :** les critères confirmés, les extensions du modèle, les apprentissages destinés.
+
+**Le piège du niveau 3 :** la confirmation de complaisance systématique. Un taux de confirmation de 100 % avec 100 % de critères atteints est suspect : la confirmation qui ne découvre jamais rien ne cherche rien. La métrique honnête : les apprentissages par confirmation (0 apprentissage = confirmation morte).
+
+**Le lien avec le niveau 2 :** l'enrichissement du modèle reste la règle. Le niveau 3 ajoute la systématisation : chaque livraison est confirmée, chaque confirmation alimente le système, et le taux de confirmation est un signal public.
+
+## Cérémonie 7 : LA QUALIMÉTRIE N3
+
+**Ce que le niveau 3 ajoute :** le tableau de bord N3 (6 signaux avec décideurs) devient le battement principal — et chaque signal est relié à un risque nommé (pourquoi ce signal existe : quel incident, quelle crainte).
+
+**Le déroulé du niveau 3 (20 minutes, métronome) :**
+
+1. **La lecture** (10 min) : les signaux avec leurs valeurs, tendances, et leurs références de risque (« ce signal existe depuis l'incident de mars »).
+2. **Les décisions** (10 min) : chaque décision avec décideur et levée — et la revue des décisions passées (les levées sont vérifiées).
+
+**Les entrées obligatoires :** le tableau alimenté automatiquement, le registre ouvert, les décisions passées.
+
+**Les sorties attendues :** les décisions notées, les levées vérifiées, les escalades documentées.
+
+**Le piège du niveau 3 :** le tableau devenu rituel de lecture sans pouvoir. La test : la dernière décision du tableau — quand ? Qu'a-t-elle changé ? Un tableau sans décision depuis 4 semaines est un mort en marche : resserrer les seuils ou réviser les signaux.
+
+**Le lien avec le niveau 2 :** les signaux N2 restent. Le niveau 3 les ancre dans les risques (chaque signal a son pourquoi) et les fait vivre (levées vérifiées, rotations assumées).
+
+## Le test des cérémonies du niveau 3
+
+Le test à six questions du niveau 2 gagne une dimension — la cadence :
+
+7. **Tient-elle à cadence fixe ?** (Même heure, même durée, même format — indépendamment des urgences.)
+8. **Ses SLA sont-ils respectés et classés ?** (Le niveau 3 forge des délais différenciés et tenus.)
+
+Ces huit questions sont le test de passage au niveau 4 : une cérémonie qui les réussit toutes est une infrastructure de processus — prête à être automatisée, rendue systématique, et transformée en chaîne. Une cérémonie qui échoue encore aux questions 1-3 doit retourner au niveau 1 — la forge ne construit pas sur du sable.
+
+
+---
+
+# Partie 8 : Le vécu étendu du niveau 3 — les histoires derrière la cadence
+
+Le niveau 3 forge l'autonomie. Les histoires qui suivent racontent ce que la cadence a coûté et rapporté — avec les échecs qui ont forgé les règles du forgeage.
+
+## Desjardins, la cadence contre le flou : le rendez-vous qui ne pouvait pas être reporté
+
+**L'épisode étendu.** Chez Desjardins, le sabotage par le flou (réunions reportées, informations retenues) avait une arme fatale : la flexibilité. Tout pouvait être reporté, re-planifié, déplacé — et chaque report était raisonnable isolément. Le tournant du niveau 3 a été la cadence fixe : le point de qualimétrie le mardi 9h, le Go/No-Go le jeudi, la revue le vendredi. Incontrôlables. Les reports sont devenus des événements visibles (un report de rituel est noté au registre avec sa raison), et le pattern de sabotage est apparu en clair : les reports venaient toujours de la même direction, toujours avec des raisons vagues.
+
+**La confrontation rendue possible.** La cadence n'a pas corrigé le sabotage : elle l'a rendu documentable. Le sponsor a reçu, à la remontée de la semaine 5, un historique des reports avec leurs raisons — et la question factuelle : « ces reports suivent-ils un pattern ? ». Le sponsor a tranché. Le flou a perdu son arme : on ne reporte plus impunément ce qui est cadencé.
+
+**Ce que cet épisode enseigne au niveau 3 :**
+- La cadence n'est pas de la rigidité : c'est de l'anti-sabotage structurel. Ce qui est cadencé ne peut pas être esquivé en silence.
+- Le sabotage prospère dans le flexible ; il meurt dans le mesurable. Un rituel reporté deux fois avec des raisons floues est un signal, pas un hasard.
+- La règle du report écrit est la protection minimale : raison, date de reprise, et pattern visible au registre. Les reports légitimes existent (incident de production, congé) — mais ils sont rares, et ils le prouvent par leur rareté.
+
+**Pour l'atelier :** la semaine 3 (planification cadencée) peut s'ouvrir sur cet épisode. La question aux équipes : « qui reporte vos rituels, et où le voyez-vous ? » Si la réponse est « nulle part », le flou vous protège mal.
+
+## Sherweb, la cadence après le retrait des QA : le rythme qui remplace la garde
+
+**L'épisode étendu.** Le niveau 2 de Sherweb avait reconstruit la documentation vivante et les critères. Le niveau 3 a posé la question suivante : ces pratiques tiendront-elles au rythme des urgences ? La réponse réelle a été non — les rituels existaient, mais sautaient à chaque pic d'activité. La forge a consisté à rendre les rituels plus courts ET systématiques : le point de qualimétrie réduit à 10 minutes (3 signaux), mais jamais reporté. La règle apprise : un rituel court tenu vaut mieux qu'un rituel riche reporté.
+
+**La découverte contre-intuitive.** Les semaines les plus chargées (avec les rituels tenus en version courte) avaient moins de reprises que les semaines calmes sans rituels. La micro-cadence protège mieux que la macro-absence : 10 minutes de vérité hebdomadaire valent plus qu'une révision mensuelle édulcorée.
+
+**Ce que cet épisode enseigne au niveau 3 :**
+- La cadence est inversément proportionnelle à la taille : plus le rituel est court, plus il tient. La forge N3 taille les rituels pour survivre aux pires semaines.
+- La règle « jamais reporté, parfois réduit » est la clef : le report coupe le battement ; la réduction le garde. Un battement de 10 minutes suffit à maintenir la conscience — le cœur bat plus vite, il ne s'arrête pas.
+- Le niveau 3 se juge aux pires semaines, pas aux meilleures. Une cadence qui ne survit pas à la urgence n'est pas une cadence : c'est un luxe.
+
+**Pour l'atelier :** la semaine 2 (rituels qui tiennent) peut s'ouvrir sur cet épisode. La question : « vos rituels, tiennent-ils les semaines à 120 % ? » Si la réponse est non, taille-les — la cadence est plus importante que la profondeur.
+
+## Genius Solution, la cadence à grande échelle : trois QA et le pipeline des quarante
+
+**L'épisode étendu.** Le niveau 3 de Genius Solution a résolu le problème que le niveau 2 n'avait fait qu'aménager : les 3 QA ne pouvaient pas suivre 40 développeurs même avec des modèles. La forge a été le pipeline cadencé : les tests générés tournent à chaque commit (2 min), à chaque merge (8 min), la nuit (complet). Les QA ne « testent » plus : ils forgent la grille, arborent les gabarits, traitent les signaux. Le pipeline est devenu le premier gardien — les trois QA sont devenus les gardiens du gardien.
+
+**La règle apprise.** Le niveau 3 à grande échelle demande de hiérarchiser les preuves : tout ne peut pas tourner tout le temps. La grille bloquante/informatif du Go/No-Go N3 a été appliquée au pipeline : les tests bloquants au commit, les informatifs en nocturne. Le même principe, deux niveaux.
+
+**Ce que cet épisode enseigne au niveau 3 :**
+- La cadence du pipeline suit la même logique que la cadence des rituels : les décisions rapides tournent vite, les décisions profondes tournent lentement mais sûrement.
+- Le rôle QA au niveau 3 n'est plus « tester » : c'est « garantir que le système de test tient ». C'est un métier d'architecte — et il est plus rare, plus valorisé, plus efficace.
+- Le pipeline cadencé est ce qui permet la croissance : quand les développeurs doublent, le pipeline absorbe. Les trois QA tiennent quarante développeurs PARCE QUE le pipeline tient le flux.
+
+**Pour l'atelier :** la semaine 4 (qualimétrie N3, signal temps de pipeline) peut s'ouvrir sur ce cas. La question : « votre pipeline, à quel point devient-il un obstacle au lieu d'une protection ? »
+
+## Opal-RT : la cadence qui a survécu au départ du coach
+
+**L'épisode étendu.** Le vrai test de la mission Faucon n'était pas les 8 semaines : c'était les 8 semaines SUIVANTES. Le coach est parti ; la cadence est restée. Le point de qualimétrie du mardi 9h a tenu (le chargé de livraison l'a animé 26 semaines consécutives), les Go/No-Go du jeudi ont continué, les confirmations systématiques ont tourné. Six mois après le départ, la cadence était la seule partie « méthode » que tout le monde citait : « chez nous, on décide le jeudi ».
+
+**Ce que la cadence a produit après le départ :** les nouveaux arrivants ont été intégrés par les rituels — pas par des sessions de formation. « Le jeudi, tu verras comment on décide. » La culture était dans la cadence : elle se transmettait par la pratique, sans discours.
+
+**Ce que cet épisode enseigne au niveau 3 :**
+- La cadence est ce qui survit au coach : c'est le critère de réussite ultime du niveau 3. Une méthode qui demande le coach n'est pas forgée — elle est accompagnée.
+- La culture se transmet par le rythme : les nouveaux entrent dans une cadence existante et l'absorbent par la pratique. Aucun document n'enseigne ce qu'un rituel vivant enseigne en 30 minutes.
+- Le chargé de livraison de longue durée est l'acteur central du niveau 3 durable : 26 semaines consécutives d'animation ont fait de lui le porteur naturel — et la rotation l'a préparé avant le départ.
+
+**Pour l'atelier :** la semaine 6 (passage de relais) peut s'ouvrir sur ce cas. La question : « votre cadence, tiendra-t-elle 6 mois après le départ ? » Si le doute existe, la forge n'est pas terminée.
+
+## Le pedigree des règles de cadence : les échecs qui les ont forgées
+
+Trois échecs ont forgé les règles du niveau 3.
+
+### L'échec du rituel riche : la réunion de 2 heures qui a tué la méthode
+
+La première tentative de cadence (bien avant le niveau 3) avait produit un rituel complet : 2 heures, tous les sujets, toute l'équipe. Il a tenu trois semaines. La leçon : le rituel riche n'est pas maintenu par la volonté ; il est maintenu par son coût. Le rituel de 10-30 minutes tient parce qu'il ne coûte presque rien — et il tient parce qu'il rapporte presque tout. La profondeur vient de la fréquence, pas de la durée.
+
+### L'échec du SLA unique : le délai unique qui a aplati la qualité
+
+La deuxième tentative a imposé un SLA uniforme (toutes les spécifications en 3 jours). Résultat : les demandes simples étaient sur-traitées (temps perdu), les complexes bâclées (qualité perdue). La leçon : le SLA par classe (simple/complex/exploratoire) est la seule forme de SLA qui respecte à la fois la cadence et la qualité. L'uniformité est un piège de simplification — la cadence exige des classes, pas un moule.
+
+### L'échec du report toléré : la semaine qui a été déplacée cinq fois
+
+La troisième tentative n'avait pas de règle de report : les rituels se déplaçaient « quand nécessaire ». Résultat : certains rituels ont été déplacés cinq fois de suite — et l'équipe a conclu (à raison) qu'ils n'étaient pas réels. La leçon : la règle du report écrit (raison, reprise datée, pattern visible) est ce qui distingue la cadence d'un rendez-vous aspirationnel. Le report honnête existe ; le report incontrôlé tue.
+
+## Comment ces histoires se racontent
+
+Chaque histoire fonctionne en ouverture d'atelier, en réponse à un doute, ou en formation des nouveaux. Le niveau 3 ajoute un usage : **les histoires forgent les seuils** — chaque seuil du tableau N3 a son histoire (l'incident, la dérive, la leçon), et la raconter donne au seuil son poids. Un seuil sans histoire est un nombre ; un seuil avec histoire est une décision collective.
+
+# Épilogue : ce n'est pas TOTALISATION qui réconcilie, c'est vous
 
 Huit semaines avec l'équipe pilote. Huit semaines à forger, planifier, implémenter. Le niveau 3 n'est pas une destination : c'est un palier. L'équipe sait maintenant livrer en cadence, avec des preuves, sans le coach. Elle est prête à devenir le modèle pour les autres équipes, au niveau vert.
 
