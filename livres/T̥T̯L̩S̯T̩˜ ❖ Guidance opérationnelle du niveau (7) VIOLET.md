@@ -1484,18 +1484,18 @@ BILAN DE VITALITÉ — [année]          Fait le : [date]
 
 **La valeur du bilan :** il transforme la vitalité culturelle d'une impression en une mesure. Les rituels notés « partiel » ne sont pas condamnés : ils sont diagnostiqués (pourquoi la fréquence réelle est-elle plus basse ? le rituel est-il mal placé, mal conçu, mal compris ?). Un bilan honnête est plus précieux qu'un bilan parfait.
 
-## Fiche 34 : Le gabarit de l'apprentissage réconcilié
+## Fiche 34 : Le gabarit d'arbitrage d'apprentissages
 
-**Usage :** quand deux apprentissages (souvent de deux personnes, de deux équipes, de deux cultures) semblent contradictoires — le format de la réconciliation.
+**Usage :** quand deux apprentissages (souvent de deux personnes, de deux équipes) semblent contradictoires — le format de l'arbitrage documenté. **Remarque d'architecture :** si la contradiction est profonde (deux cultures, deux pratiques héritées, un legacy de représentations), le traitement relève du livre 2 de la collection — *Toute la différence par la réconciliation du LEGACY* — qui est le manuel du geste de réconciliation. La fiche ci-dessous traite l'arbitrage léger : deux mesures, deux méthodes, deux contextes — dans une même équipe, sur une même pratique.
 
 ```
-RÉCONCILIATION D'APPRENTISSAGE — [n]  Cré le : [date]
+ARBITRAGE D'APPRENTISSAGES — [n]  Cré le : [date]
 
 APPRENTISSAGE A : « [formulation] »
-Source : [personne/équipe/récit]
+Source : [personne/équipe/contexte]
 
 APPRENTISSAGE B : « [formulation] »
-Source : [personne/équipe/récit]
+Source : [personne/équipe/contexte]
 
 LA TENSION (pourquoi ils semblent contradictoires) :
 ________________________________________________________
@@ -1505,18 +1505,23 @@ dans quel contexte A a-t-il été appris ? dans quel contexte B ?)
 - A a été appris dans : [contexte]
 - B a été appris dans : [contexte]
 
-LA RÉCONCILIATION (l'apprentissage qui subsume les deux, ou
+L'ARBITRAGE (l'apprentissage qui subsume les deux, ou
 la règle de bascule entre les deux) :
 ________________________________________________________
+
+SI LA TENSION EST CULTURELLE (deux pratiques héritées, deux
+représentations du métier, un legacy de méthodes) :
+→ renvoyer au livre 2 : la réconciliation du LEGACY. L'arbitrage
+léger ne suffit pas quand ce qui s'affronte sont deux passés.
 
 LE NOUVEL APPRENTISSAGE (relié aux deux sources) :
 → MEM-[n]
 ```
 
-**Exemple rempli (tiré du vécu de l'ORANGE, les heures qui ne se réconciliaient pas) :**
+**Exemple rempli (tiré du vécu de l'ORANGE, les heures qui ne concordaient pas) :**
 
 ```
-RÉCONCILIATION D'APPRENTISSAGE — R-1  Cré le : 2025
+ARBITRAGE D'APPRENTISSAGES — R-1  Cré le : 2025
 
 APPRENTISSAGE A : « il faut 40 heures pour ajouter un modèle »
 Source : le formateur vétéran, formé sur l'ancien pipeline
@@ -1534,10 +1539,17 @@ L'INVESTIGATION :
 - B a été appris dans : le nouveau pipeline (saisie guidée,
   presets, vérification automatisée).
 
-LA RÉCONCILIATION : les deux disent vrai — ils ne parlent pas
+L'ARBITRAGE : les deux disent vrai — ils ne parlent pas
 du même travail. A mesure l'effort de l'artisanat complet ;
 B mesure l'effort de l'utilisation de l'outil. La tâche n'est
 pas la même, parce que le pipeline a changé le travail.
+
+SI LA TENSION ÉTAIT CULTURELLE : si le vétéran défendait son
+ancien pipeline comme une identité (« notre façon de faire »)
+plutôt que comme une mesure d'effort, l'arbitrage léger ne
+suffirait pas — ce serait une réconciliation du LEGACY, et le
+livre 2 en serait le manuel. Ici, les deux parties acceptent
+la mesure d'effort comme mesure d'effort : l'arbitrage tient.
 
 LE NOUVEL APPRENTISSAGE : « quand deux mesures du même intitulé
 divergent, chercher si le travail sous-jacent a changé — la
@@ -1545,7 +1557,7 @@ divergence peut révéler une transformation, pas une erreur. »
 → MEM-055, relié à J-3 (les heures déclarées).
 ```
 
-**La valeur de la fiche :** la réconciliation d'apprentissages contradictoires est l'un des gestes les plus puissants du niveau 7 — elle transforme une dispute en découverte. Les divergences de mesure sont souvent des révélations de transformation, pas des erreurs.
+**La valeur de la fiche :** l'arbitrage d'apprentissages contradictoires transforme une dispute en découverte — à condition de savoir distinguer l'arbitrage léger (deux mesures, deux contextes) de la réconciliation profonde (deux passés, deux cultures). Le premier se règle en une fiche ; le second demande le livre 2.
 
 ## Le glossaire du niveau 7
 
@@ -1573,9 +1585,9 @@ divergence peut révéler une transformation, pas une erreur. »
 
 **Bilan de vitalité** — la mesure annuelle de la culture (rituels, récits, jurisprudence, transmission, renoncement). Sa règle : il transforme la vitalité d'une impression en une mesure — et les rituels « partiel » sont diagnostiqués, pas condamnés.
 
-**Réconciliation culturelle** — l'intégration d'une culture différente (acquisition, nouvelle équipe) par identification des communs et discussion des divergences. Sa règle : la substitution produit une culture de façade ; la réconciliation est plus longue, et c'est la seule voie qui tient.
+**Réconciliation culturelle** — l'intégration d'une culture différente (acquisition, nouvelle équipe) par identification des communs et discussion des divergences. Sa règle : la substitution produit une culture de façade. **Remarque d'architecture :** le geste complet de réconciliation — documenter ce qui est, décider ce qui devient, tracer ce qui est décidé — est le sujet du livre 2 de la collection, *Toute la différence par la réconciliation du LEGACY*. Le niveau 7 en reconnaît la nécessité et renvoie à ce livre pour la méthode.
 
-**Réconciliation d'apprentissages** — la résolution de la contradiction entre deux apprentissages par l'investigation de leurs contextes. Sa règle : la divergence de mesure révèle souvent une transformation, pas une erreur.
+**Arbitrage d'apprentissages** — la résolution de la contradiction entre deux apprentissages par l'investigation de leurs contextes. Sa règle : la divergence de mesure révèle souvent une transformation, pas une erreur. **Remarque :** si la contradiction est profonde (deux cultures, deux pratiques héritées), le traitement relève du livre 2 — *Toute la différence par la réconciliation du LEGACY*.
 
 
 ---
