@@ -3069,6 +3069,22 @@ Le niveau 3 (JAUNE) vous attend, mais il n'est pas pressé. Un niveau 2 fragile 
 
 **Le mot de la fin :** une pratique de niveau 2 qui tient sans le coach, traverse la frontière de l'équipe, et se transmet à un nouveau arrivant — c'est ça, la TOTALISATION vivante. Le reste est littérature.
 
+Huit semaines. Une équipe pilote devenue modèle. BEASTEST en place. La couverture systématique. Le centre d'excellence rayonnant. Et maintenant, le passage au niveau 3 (JAUNE) — où la spécification modélisée quitte l'équipe pour devenir la langue de l'organisation.
+
+Il y a deux façons de mesurer les huit semaines qui viennent de s'écouler. La première : compter les artefacts. Les modèles confrontés, les spécifications dérivées, les campagnes de génération avec leur tri, les pages de documentation citées, les plans reliés, les confirmations avec leurs apprentissages. C'est une belle pile, et elle est réelle.
+
+La deuxième : regarder l'équipe. Est-ce que la confrontation a lieu sans qu'on la planifie ? Est-ce qu'un développeur dérive la spécification du modèle de lui-même ? Est-ce qu'un tri refuse un test vide sans qu'on le lui demande ? Est-ce que la documentation est citée par quelqu'un qui n'était pas là quand elle a été écrite ?
+
+Si la réponse est oui, même partiellement, alors quelque chose s'est passé qui n'apparaîtra dans aucun tableau de métriques. L'équipe a cessé de dépendre du modèle parfait et a commencé à dépendre de la confrontation — du geste, pas de l'objet. C'est le niveau 2 en une phrase : une équipe qui ne dépend plus de la perfection de ses artefacts pour continuer à se parler.
+
+La mission Faucon a commencé par une question : peut-on relier l'automatisation et la documentation en huit semaines ? La réponse honnête est : oui, et non. Oui, la chaîne se construit en huit semaines avec une équipe motivée et un sponsor qui débloque. Non, la chaîne ne devient vivante qu'après — quand les habitudes seules la font tourner, quand la divergence détectée sans le coach trouve son propriétaire seule, quand l'usage imprévu enrichit le modèle sans réunion.
+
+Ce que vous avez entre les mains, c'est un carnet d'atelier. Utilisez-le, annotez-le, trépignez dessus quand vos divergences s'accumuleront plus vite que vous ne les corrigez — c'est le signe que le système vit, pas qu'il échoue. Et quand vous vous demanderez si tout ça vaut la peine, relisez le ratio honnête de votre première campagne de génération : 247 produits, 89 gardés, 6 utiles. Le sixième vous a peut-être évité une semaine de production. Le ratio complet vous a rendu capable de savoir.
+
+Le niveau 2 est fini. Le niveau 3 vous attend — mais d'abord, relisez votre premier modèle. Celui de la semaine 1, celui que l'équipe a dessiné en riant de ses divergences. Comparez avec celui d'aujourd'hui. Vous serez surpris du chemin.
+
+Ce n'est pas BEASTEST qui réconcilie. C'est vous.
+
 Le niveau 2 est une étape, pas une destination. Continuez.
 
 ---
