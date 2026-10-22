@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mission Faucon — CGI — Export complet (v3 — 2026-07-03)</title>
+<style>
+body{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;max-width:960px;margin:0 auto;padding:20px 30px;color:#172B4D;font-size:14px;}
+h1{font-size:28px;border-bottom:3px solid #0052CC;padding-bottom:8px;margin-top:40px;}
+h2{font-size:22px;color:#0052CC;margin-top:32px;border-bottom:1px solid #DFE1E6;padding-bottom:4px;}
+h3{font-size:18px;color:#253858;margin-top:24px;}
+h4{font-size:15px;color:#42526E;margin-top:16px;}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:13px;}
+th,td{border:1px solid #DFE1E6;padding:8px 10px;text-align:left;vertical-align:top;}
+th{background:#F4F5F7;font-weight:600;}
+blockquote{border-left:4px solid #0052CC;margin:12px 0;padding:8px 16px;background:#F4F5F7;font-style:italic;}
+code,pre{background:#F4F5F7;font-family:'Courier New',monospace;font-size:13px;}
+pre{padding:12px;overflow-x:auto;border-radius:4px;}
+a{color:#0052CC;}
+.toc{background:#F4F5F7;padding:20px 30px;border-radius:8px;margin-bottom:30px;}
+.toc ul{list-style:none;padding-left:0;}
+.toc li{margin:4px 0;}
+.toc li.sub{padding-left:24px;font-size:13px;}
+.page-break{page-break-before:always;border-top:3px solid #0052CC;margin-top:40px;padding-top:20px;}
+.meta{color:#6B778C;font-size:12px;margin-bottom:8px;}
+ul,ol{margin:8px 0;padding-left:24px;}
+li{margin:3px 0;}
+@media print{.page-break{page-break-before:always;}}
+</style>
+</head>
+<body>
+
+<div style="text-align:center;margin-bottom:40px;">
+<h1 style="border:none;font-size:32px;">🦅 Mission Faucon — CGI</h1>
+<p style="font-size:16px;color:#6B778C;">Export complet de la documentation qualité OPAL-RT<br>
+Espace Confluence : ACAQ · Date d'export : 3 juillet 2026</p>
+<p style="font-size:13px;color:#97A0AF;">25 pages incluses · PLAYGROUND exclu</p>
+</div>
+
+<div class="toc">
+<h2 style="border:none;margin-top:0;">📋 Table des matières</h2>
+<ul>
+<li><strong>1.</strong> <a href="#p1">Mission faucon</a></li>
+<li class="sub">1.1 <a href="#p2">Bilan mission qualité — suivi ROI par semaine</a></li>
+<li><strong>2.</strong> <a href="#p3">SDLC officiel OPAL-RT</a></li>
+<li class="sub">2.1 <a href="#p4">Comment éliciter</a></li>
+<li class="sub">&nbsp;&nbsp;2.1.1 <a href="#p5">Cérémonie d'élicitation</a></li>
+<li class="sub">2.2 <a href="#p6">Comment définir</a></li>
+<li class="sub">&nbsp;&nbsp;2.2.1 <a href="#p7">Cérémonie de définition</a></li>
+<li class="sub">2.3 <a href="#p8">Comment planifier</a></li>
+<li class="sub">&nbsp;&nbsp;2.3.1 <a href="#p9">Cérémonie de planification</a></li>
+<li class="sub">2.4 <a href="#p10">Comment implémenter</a></li>
+<li class="sub">&nbsp;&nbsp;2.4.1 <a href="#p11">Cérémonie d'implémentation</a></li>
+<li class="sub">2.5 <a href="#p12">Comment diffuser</a></li>
+<li class="sub">&nbsp;&nbsp;2.5.1 <a href="#p13">Cérémonie de diffusion</a></li>
+<li class="sub">2.6 <a href="#p14">Comment confirmer</a></li>
+<li class="sub">&nbsp;&nbsp;2.6.1 <a href="#p15">Cérémonie de confirmation</a></li>
+<li><strong>3.</strong> <a href="#p16">Contrat qualité officiel OPAL-RT</a></li>
+<li><strong>4.</strong> <a href="#p17">Qualimétrie officielle OPAL-RT</a></li>
+<li class="sub">4.1 <a href="#p18">Les métriques de la qualimétrie</a></li>
+<li class="sub">4.2 <a href="#p19">Cérémonie de la qualimétrie</a></li>
+<li><strong>5.</strong> <a href="#p20">RACI officiel OPAL-RT</a></li>
+<li><strong>6.</strong> <a href="#p21">Lexique officiel OPAL-RT</a></li>
+<li><strong>7.</strong> <a href="#p22">SPÉCIFICATION</a></li>
+<li><strong>8.</strong> <a href="#p23">Les tests (niveau × interface × angle × type)</a></li>
+<li class="sub">8.1 <a href="#p24">Exemples concrets de combinaisons</a></li>
+<li><strong>9.</strong> <a href="#p25">Formation continue</a></li>
+<li><strong>10.</strong> <a href="#p26">Recommandations</a></li>
+</ul>
+<p style="font-size:12px;color:#97A0AF;margin-top:12px;">⚠️ Le contenu intégral de chaque page est reproduit ci-dessous. Pour convertir en PDF : Ctrl+P → Enregistrer en PDF.</p>
+</div>
+
+<!-- ============================================================ -->
+<div class="page-break" id="p1">
+<p class="meta">Page Confluence · Dernière modification : 3 juillet 2026</p>
+<p class="meta">URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/1826947344">https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/1826947344</a></p>
+<p><em>Cette page est le document de suivi de la Mission Faucon — mandat de coaching qualité CGI chez OPAL-RT. Elle contient le contenu complet de la page Confluence incluant les souhaits, le planning hebdomadaire, les bilans et le suivi. En raison du volume très important de cette page (tableaux imbriqués, checklists détaillées, bilans hebdomadaires), le contenu intégral est disponible directement sur Confluence via le lien ci-dessus.</em></p>
+<p><strong>Résumé :</strong> Michel Bélanger, consultant CGI (coach qualité), rejoint OPAL-RT pour un mandat de 6 semaines à partir du 15 juin 2026. L'objectif est d'aider les équipes qualité à s'améliorer dans leurs pratiques et leur efficacité, en déterminant comment construire un système qualité plus performant en amont et comment prendre de meilleures décisions qualité.</p>
+<p><strong>Cinq grands chantiers :</strong></p>
+<ol>
+<li><strong>Gouvernance qualité et décision</strong> — contrat qualité, RACI, qualimétrie, Go/No-Go</li>
+<li><strong>Stratégie de validation</strong> — types de tests, spécifications IF…THEN…, DoR/DoD/DoT</li>
+<li><strong>SDLC / Shift-left Quality</strong> — SDLC complet en 6 phases, boucle d'amélioration</li>
+<li><strong>Industrialisation et automatisation</strong> — Grafana, métriques, IA, frameworks</li>
+<li><strong>Coaching</strong> — posture qualité, harmonisation QA/R&D, formation</li>
+</ol>
+</div>
+
+<!-- ============================================================ -->
+<div class="page-break" id="p2">
+<h1>Bilan mission qualité — suivi ROI par semaine</h1>
+<p class="meta">URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3256680449">https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3256680449</a></p>
+<p><em>Cette page consolide les bilans hebdomadaires de la mission qualité pour le gestionnaire de changement CGI. Elle présente l'avancement par semaine, les décisions prises, les apprentissages, les risques ouverts, les actions de suivi et le retour sur investissement attendu. Le contenu intégral (tableaux détaillés par semaine) est disponible via le lien ci-dessus.</em></p>
+</div>
+
+<!-- ============================================================ -->
+<div class="page-break" id="p3">
+<h1>SDLC officiel OPAL-RT (cycle de vie de la réalisation du produit logiciel)</h1>
+<p class="meta">Dernière modification : 3 juillet 2026</p>
+<p class="meta">URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3229089932">https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3229089932</a></p>
+
+<p>C'est le cycle de vie <strong>commun et officiel</strong> de réalisation logicielle chez <strong>OPAL-RT</strong>. Il s'appuie sur les meilleures pratiques de l'ingénierie logicielle, demeure <strong>compatible avec les différents cadres de travail</strong> et favorise le <strong>support de l'automatisation et de l'intelligence artificielle</strong>.</p>
+<p><strong>Ce cycle est linéaire, avec des phases itératives, une acceptation holistique, une démarche d'amélioration continue et toujours en mode découverte.</strong></p>
+
+<table>
+<tr><th>1 — ÉLICITER</th><th>2 — DÉFINIR</th><th>3 — PLANIFIER</th><th>4 — IMPLÉMENTER</th><th>5 — DIFFUSER</th><th>6 — CONFIRMER</th></tr>
+<tr><td>(SHIFT LEFT)</td><td>Côté SENSE</td><td colspan="2">Côté FORGE</td><td>Côté CARE</td><td>(SHIFT RIGHT)</td></tr>
+<tr>
+<td>Analyser la cueillette, RCA pour les bugs, qualifier et prioriser les besoins bruts.</td>
+<td>Transformer les besoins en spécifications complètes, testables, traçables et approuvées.</td>
+<td>Planifier au niveau portefeuille/release réelle.</td>
+<td>Traduire fidèlement les spécifications en code, tests, intégrations, documentation et preuves.</td>
+<td>Assembler, valider, packager et préparer le build candidat.</td>
+<td>Recueillir les preuves terrain en conditions réelles.</td>
+</tr>
+</table>
+
+<p><strong>Règle de passage :</strong> à la fin de chaque phase, on valide/approuve avec la phase précédente. Si les critères ne sont pas satisfaits, on retourne à la phase précédente.</p>
+
+<h3>Domaines du SDLC</h3>
+<table>
+<tr><th>SENSE (faire du sens)</th><th>FORGE</th><th>CARE (veiller)</th></tr>
+<tr><td>Portefeuille (portfolio)</td><td>Développement</td><td>Opérationnel</td></tr>
+</table>
+
+<ul>
+<li><strong>DoR</strong> — Definition of Ready : avoir tout ce qu'il faut avant d'implémenter</li>
+<li><strong>DevOps</strong> — inclure l'opérationnel dans le développement et la diffusion</li>
+</ul>
+
+<h3>SPÉCIFIER vs LIVRER</h3>
+<table>
+<tr><th>SPÉCIFIER — Continuous Specification (CS)</th><th>LIVRER — CI + CD</th></tr>
+<tr><td>~80% du travail de clarification, compréhension et réduction du risque. Toute l'équipe contribue.</td><td>~20% du travail visible. CI/CD automatise mais ne remplace pas la qualité des phases SENSE et FORGE.</td></tr>
+</table>
+
+<h3>Gabarit checklist SDLC complète — Jira</h3>
+<ul>
+<li>ÉLICITER — Besoins bruts recueillis et consignés</li>
+<li>ÉLICITER — Source de chaque besoin identifiée et traçable</li>
+<li>ÉLICITER — Signaux qualimétrie analysés et constats documentés</li>
+<li>ÉLICITER — Priorités établies</li>
+<li>ÉLICITER — Compréhension validée par la source</li>
+<li>DÉFINIR — Spécifications atomiques IF…THEN… complètes</li>
+<li>DÉFINIR — Scope EPIC/release clair</li>
+<li>DÉFINIR — Concordance 100% modèles ↔ spécifications</li>
+<li>DÉFINIR — Impacts systèmes, dépendances et risques documentés</li>
+<li>DÉFINIR — Dette technique identifiée</li>
+<li>DÉFINIR — Estimation initiale réalisée</li>
+<li>DÉFINIR — Traçabilité besoin → spécification → preuve</li>
+<li>DÉFINIR — Spécifications prêtes pour l'IA/automatisation</li>
+<li>DÉFINIR — SPECIFY validé et approuvé</li>
+<li>PLANIFIER — Scope et découpage validés</li>
+<li>PLANIFIER — Version cible confirmée</li>
+<li>PLANIFIER — Stories estimées, priorisées et DoR satisfait</li>
+<li>PLANIFIER — Assignation et séquence définis</li>
+<li>PLANIFIER — Jeux de données, environnements prêts</li>
+<li>PLANIFIER — Test Set et Test Executions Xray créés</li>
+<li>PLANIFIER — Pair testing planifié</li>
+<li>PLANIFIER — Intégrations et contrats documentés</li>
+<li>PLANIFIER — Plan de diffusion et transfert support</li>
+<li>PLANIFIER — Plan de confirmation défini</li>
+<li>PLANIFIER — Risques documentés avec mitigation</li>
+<li>PLANIFIER — DoR satisfait, DoD et DoT définis</li>
+<li>IMPLÉMENTER — Code traduit fidèlement les spécifications</li>
+<li>IMPLÉMENTER — Tests unitaires RED4GREEN</li>
+<li>IMPLÉMENTER — Tests d'intégration RED4GREEN</li>
+<li>IMPLÉMENTER — Spécifications fonctionnelles RED4GREEN</li>
+<li>IMPLÉMENTER — Revues de code approuvées</li>
+<li>IMPLÉMENTER — Contrats d'intégration validés</li>
+<li>IMPLÉMENTER — CI/CD vert, artefacts versionnés</li>
+<li>IMPLÉMENTER — Documentation technique à jour</li>
+<li>IMPLÉMENTER — Anomalies critiques corrigées ou remontées</li>
+<li>IMPLÉMENTER — Dette technique documentée</li>
+<li>IMPLÉMENTER — DoD satisfait</li>
+<li>IMPLÉMENTER — Pair testing sur zones grises</li>
+<li>DIFFUSER — Build candidat assemblé, versionné, traçable</li>
+<li>DIFFUSER — Tests d'intégration, packaging, non-régression passés</li>
+<li>DIFFUSER — Rollback testé et documenté</li>
+<li>DIFFUSER — Notes de livraison complètes</li>
+<li>DIFFUSER — Documentation à jour</li>
+<li>DIFFUSER — Transfert CARE complété</li>
+<li>DIFFUSER — Monitoring et alertes activés</li>
+<li>DIFFUSER — Décision Go/No-Go formelle</li>
+<li>CONFIRMER — Observation post-diffusion réalisée</li>
+<li>CONFIRMER — Spécifications IF…THEN… validées en conditions réelles</li>
+<li>CONFIRMER — Retours utilisateurs recueillis</li>
+<li>CONFIRMER — Métriques recueillies</li>
+<li>CONFIRMER — Incidents documentés</li>
+<li>CONFIRMER — Écarts promesse vs réalité constatés</li>
+<li>CONFIRMER — Rapport de confirmation transmis à ÉLICITER</li>
+<li>CONFIRMER — Dérogations actives documentées</li>
+</ul>
+</div>
+
+<!-- ============================================================ -->
+<div class="page-break" id="p4">
+<h1>Comment éliciter</h1>
+<p class="meta">Dernière modification : 3 juillet 2026 · URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3220176912">Lien Confluence</a></p>
+<p>ÉLICITER sert à transformer des signaux dispersés — demandes clients, incidents, métriques, observations terrain et orientations produit — en besoins compris, traçables et prêts à être formalisés.</p>
+<blockquote>On ne peut pas bien définir ce qu'on n'a pas bien élicité.</blockquote>
+<p><em>Contenu complet disponible via le lien Confluence ci-dessus — inclut : sources d'élicitation, 7 techniques d'élicitation, critères de sortie, pièges courants, métriques et signaux, lien avec les autres phases.</em></p>
+</div>
+
+<div class="page-break" id="p5">
+<h1>Cérémonie d'élicitation</h1>
+<p class="meta">Dernière modification : 2 juillet 2026 · URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3253764114">Lien Confluence</a></p>
+<p>L'atelier d'élicitation s'applique systématiquement, quelle que soit la taille du problème — y compris pour un bug mineur. La durée peut être courte, mais il ne doit jamais être sauté.</p>
+<p><em>Contenu complet disponible via le lien — inclut : investigation et RCA, vision produit, backlog EPIC/FEATURE, participants, inputs/outputs, durée recommandée, déroulement, critères de passage à DÉFINIR.</em></p>
+</div>
+
+<div class="page-break" id="p6">
+<h1>Comment définir</h1>
+<p class="meta">Dernière modification : 3 juillet 2026 · URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3219980322">Lien Confluence</a></p>
+<p>DÉFINIR transforme les besoins élicités en spécifications atomiques, complètes, testables, modélisées et approuvées. Ces spécifications deviennent la source de vérité unique.</p>
+<blockquote>On ne peut pas bien implémenter ce qu'on n'a pas bien défini.</blockquote>
+<p><em>Contenu complet disponible via le lien — inclut : sortie principale (spécifications atomiques), documentation unique, concordance 100% modèle/texte, techniques pour bien définir, spécifications prêtes pour l'IA, lien avec les niveaux de test, contenu minimal d'un SPECIFY, critères de sortie.</em></p>
+</div>
+
+<div class="page-break" id="p7">
+<h1>Cérémonie de définition</h1>
+<p class="meta">Dernière modification : 2 juillet 2026 · URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3251535923">Lien Confluence</a></p>
+<p>La cérémonie transforme le besoin compris en spécifications exploitables. Elle sert de pont entre l'élicitation et la planification.</p>
+<p><em>Contenu complet disponible via le lien — inclut : travail DEV pendant DÉFINIR, concordance 100%, participants, inputs/outputs, durée, déroulement suggéré, boucle de rétroaction, critères de passage à PLANIFIER.</em></p>
+</div>
+
+<div class="page-break" id="p8">
+<h1>Comment planifier</h1>
+<p class="meta">Dernière modification : 3 juillet 2026 · URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3221028875">Lien Confluence</a></p>
+<p>PLANIFIER est le pont entre SENSE et FORGE. Deux niveaux : Niveau 1 (Portefeuille/release réelle) et Niveau 2 (Développement/patch/montage).</p>
+<blockquote>Si ce n'est pas planifié, ce sera fait dans l'urgence — ou ne sera pas fait du tout.</blockquote>
+<p><em>Contenu complet disponible via le lien — inclut : 2 niveaux de planification, checklist exhaustive (10 dimensions), cas réel RTLABTT-6023, arrimage entre niveaux, DoR, métriques et signaux, critères de sortie.</em></p>
+</div>
+
+<div class="page-break" id="p9">
+<h1>Cérémonie de planification</h1>
+<p class="meta">Dernière modification : 2 juillet 2026 · URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3251863593">Lien Confluence</a></p>
+<p>L'atelier transforme ce qui a été ÉLICITÉ et DÉFINI en un plan d'exécution concret. Deux niveaux : Arrimage (PI Planning) et Découpage (blocs Lego).</p>
+<p><em>Contenu complet disponible via le lien — inclut : 2 niveaux d'atelier, agendas types, validation des portes, checklist DoR, Scrum/Kanban/hybride, boucles de rétroaction.</em></p>
+</div>
+
+<div class="page-break" id="p10">
+<h1>Comment implémenter</h1>
+<p class="meta">Dernière modification : 3 juillet 2026 · URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3221192709">Lien Confluence</a></p>
+<p>IMPLÉMENTER est le cœur du FORGE. Les 4 activités indissociables : CODER, TESTER, INTÉGRER, DOCUMENTER — en parallèle, pas en séquence.</p>
+<blockquote>Implémenter, ce n'est pas juste coder. C'est traduire fidèlement les spécifications en code, en tests et en preuves de conformité.</blockquote>
+<p><em>Contenu complet disponible via le lien — inclut : passage PLANIFIER→IMPLÉMENTER, boucle spécification→code→test, IA et automatisation, pair testing, DoD détaillée, métriques et signaux, critères de sortie.</em></p>
+</div>
+
+<div class="page-break" id="p11">
+<h1>Cérémonie d'implémentation</h1>
+<p class="meta">Dernière modification : 2 juillet 2026 · URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3252191285">Lien Confluence</a></p>
+<p>Mode build. On exécute ce qui a été préparé en amont, après la DoR, dans un cadre contrôlé, traçable et discipliné.</p>
+<p><em>Contenu complet disponible via le lien — inclut : Sprint/Kanban/hybride, types de travail couverts, simulation fidèle, flexibilité vs improvisation, boucle de rétroaction vers ÉLICITER.</em></p>
+</div>
+
+<div class="page-break" id="p12">
+<h1>Comment diffuser</h1>
+<p class="meta">Dernière modification : 3 juillet 2026 · URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3220045830">Lien Confluence</a></p>
+<p>DIFFUSER est le pont entre FORGE et CARE. Sept activités : ASSEMBLER → VALIDER → PACKAGER → DÉPLOYER → DOCUMENTER → TRANSFÉRER → DÉCIDER.</p>
+<blockquote>Diffuser, ce n'est pas juste faire un package. C'est rendre réel tout ce qu'on a prévu.</blockquote>
+<p><em>Contenu complet disponible via le lien — inclut : 7 activités détaillées, seuils de validation, politique de correctif d'urgence, Go/No-Go, IA et automatisation, métriques, critères de sortie.</em></p>
+</div>
+
+<div class="page-break" id="p13">
+<h1>Cérémonie de diffusion</h1>
+<p class="meta">Dernière modification : 29 juin 2026 · URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3251896360">Lien Confluence</a></p>
+<p>C'est le point de passage entre FORGE et CARE. On passe du build conforme à la mise en circulation maîtrisée.</p>
+<p><em>Contenu complet disponible via le lien — inclut : participants, prérequis, outputs, 7 activités cœur, seuils de validation, transfert CARE, boucles de rétroaction, IA.</em></p>
+</div>
+
+<div class="page-break" id="p14">
+<h1>Comment confirmer</h1>
+<p class="meta">Dernière modification : 3 juillet 2026 · URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3221618692">Lien Confluence</a></p>
+<p>CONFIRMER recueille les preuves terrain. CONFIRMER recueille ; ÉLICITER analyse, apprend et améliore.</p>
+<blockquote>CONFIRMER est le capteur du SDLC : elle observe, mesure, écoute et documente la réalité terrain.</blockquote>
+<p><em>Contenu complet disponible via le lien — inclut : 5 activités (observer, valider, écouter, mesurer, documenter), rapport de confirmation, orientation desktop/web/cloud, temporalité, critères de sortie.</em></p>
+</div>
+
+<div class="page-break" id="p15">
+<h1>Cérémonie de confirmation</h1>
+<p class="meta">Dernière modification : 2 juillet 2026 · URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3252650011">Lien Confluence</a></p>
+<p>La cérémonie ferme la boucle du SDLC en ramenant la réalité du terrain vers le système d'apprentissage.</p>
+<p><em>Contenu complet disponible via le lien — inclut : dimensions à confirmer, flexibilité vs réécriture, boucles de rétroaction, pièges courants.</em></p>
+</div>
+
+<!-- ============================================================ -->
+<div class="page-break" id="p16">
+<h1>Contrat qualité officiel OPAL-RT (standards/conformité/légal)</h1>
+<p class="meta">Dernière modification : 2 juillet 2026 · URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3212017712">Lien Confluence</a></p>
+<p>Ce document définit le contrat qualité applicable aux livraisons produit : standards attendus, règles de gouvernance, spécifications minimales de conformité, critères de livraison et obligations de transparence.</p>
+<p><strong>15 sections :</strong></p>
+<ol>
+<li>Position officielle</li>
+<li>Gouvernance et responsabilités — rôles exigés (VSE, PM, PO, CdL), comité Go/No-Go</li>
+<li>Gestion des spécifications (SPECIFY) — aucune implémentation sans SPECIFY</li>
+<li>Normes qualité — niveau de référence</li>
+<li>Gestion de la validation — couverture unitaire ≥60%, spécifications critiques 100%</li>
+<li>Gestion des livraisons — notes de livraison, classification, seuil de validation</li>
+<li>Communication et transparence</li>
+<li>Installation et prérequis</li>
+<li>Risques et conformité</li>
+<li>Documentation obligatoire</li>
+<li>Support et post-livraison — SLA, politique hotfix</li>
+<li>Dérogations</li>
+<li>Indicateurs de performance (qualimétrie)</li>
+<li>Alignement avec le SDLC</li>
+<li>Maintenance documentaire</li>
+</ol>
+<p><em>Contenu intégral disponible via le lien Confluence ci-dessus.</em></p>
+</div>
+
+<!-- ============================================================ -->
+<div class="page-break" id="p17">
+<h1>Qualimétrie officielle OPAL-RT</h1>
+<p class="meta">Dernière modification : 3 juillet 2026 · URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3212509258">Lien Confluence</a></p>
+<p>La qualimétrie est la démarche officielle d'OPAL-RT pour observer, comprendre et améliorer la qualité réelle de ses produits à partir de faits mesurables.</p>
+<p><em>Contenu complet disponible via le lien — inclut : intention, portée officielle, positionnement SDLC, rôle des métriques, familles d'indicateurs (STAB, QUAL, DEL, SUP, XRAY, CONF, CODE, SEC, ENV, DEP, ARCH), sources et outils, principes d'interprétation, lien avec le contrat qualité, boucle de rétroaction, conditions de succès.</em></p>
+</div>
+
+<div class="page-break" id="p18">
+<h1>Les métriques de la qualimétrie</h1>
+<p class="meta">Dernière modification : 3 juillet 2026 · URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3221061683">Lien Confluence</a></p>
+<p>Référentiel opérationnel des KPI de qualité. Centralise les définitions, formules, sources, seuils, propriétaires, statuts d'implantation et bilans d'usage.</p>
+<p><em>Contenu complet disponible via le lien — inclut : architecture multi-outils, registre détaillé (STAB 01-08, QUAL 01-08, DEL 01-07, SUP 01-03, UX 01-03, XRAY, VAL, FLOW, FB, STAB-S, CONF, CODE, SEC, ENV, DEP, ARCH), scorecard globale, exemples de requêtes Prometheus/SQL/SonarQube, bonnes pratiques.</em></p>
+</div>
+
+<div class="page-break" id="p19">
+<h1>Cérémonie de la qualimétrie</h1>
+<p class="meta">Dernière modification : 2 juillet 2026 · URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3281387575">Lien Confluence</a></p>
+<p>Rencontre organisationnelle officielle — mensuelle, 30-60 minutes maximum. Présente l'état de santé du produit de façon transparente.</p>
+<p><em>Contenu complet disponible via le lien — inclut : objectif, fréquence, participants, inputs/outputs, déroulement en 7 étapes, script d'ouverture, principes, rôle de rétroaction, règles d'animation, conditions de succès, pièges à éviter.</em></p>
+<p><strong>Support principal :</strong> <a href="https://grafana.opal-rt.com/d/fbb1eebc-eca1-41ce-8697-667f9a3b7ab8/executive-scorecard">Executive Scorecard Grafana</a></p>
+</div>
+
+<!-- ============================================================ -->
+<div class="page-break" id="p20">
+<h1>RACI officiel OPAL-RT (rôles et responsabilités + posture qualité)</h1>
+<p class="meta">Dernière modification : 2 juillet 2026 · URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3210903592">Lien Confluence</a></p>
+<p>Matrice RACI complète des responsabilités qualité. Structure décisionnelle à 3 niveaux : Stratégique (VSE), Tactique (Portefeuille), Opérationnel (CdL).</p>
+<p><strong>14 rôles définis :</strong> VSE, PM, PO, Portefeuille, Dev, Ops, CdL, IV, D/A, Support, Coach qualité, Coach agile, Admin outils, TI.</p>
+<p><strong>11 sections de responsabilités :</strong></p>
+<ol>
+<li>Phases SDLC</li>
+<li>Standards qualité</li>
+<li>Qualimétrie</li>
+<li>Spécifications</li>
+<li>Intégration et déploiement</li>
+<li>Feedback client et support</li>
+<li>Automatisation</li>
+<li>Gouvernance (Go/No-Go)</li>
+<li>Gestion de la livraison</li>
+<li>Habilitation et outillage</li>
+<li>Collaboration transversale anti-silo</li>
+</ol>
+<p><em>Contenu intégral (matrice complète avec R/A/C/I par tâche) disponible via le lien Confluence ci-dessus.</em></p>
+</div>
+
+<!-- ============================================================ -->
+<div class="page-break" id="p21">
+<h1>Lexique officiel OPAL-RT (terminologies de référence)</h1>
+<p class="meta">Dernière modification : 3 juillet 2026 · URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3258843163">Lien Confluence</a></p>
+<p>Source commune de vocabulaire pour éviter les contradictions et les débats causés par des mots utilisés à plusieurs sauces.</p>
+<p><strong>Familles de termes :</strong> Fondations SDLC · Spécification · Validation et tests · Axes de classification · Niveaux d'intégration (small/medium/large) · Interfaces (UI/API/machine) · Angles (white-box/gray-box/black-box) · Types de validation · Montages et doubles · Machine, simulation et temps réel · Livraison et gouvernance · Pratiques CI/CD · Rôles et responsabilités · Termes complémentaires · Incidents, défauts et support · Mythes et termes à risque.</p>
+<p><em>Contenu intégral (100+ définitions avec clarifications) disponible via le lien Confluence ci-dessus.</em></p>
+</div>
+
+<!-- ============================================================ -->
+<div class="page-break" id="p22">
+<h1>SPÉCIFICATION (SPEC) — le langage commun du SDLC moderne</h1>
+<p class="meta">Dernière modification : 2 juillet 2026 · URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3259760668">Lien Confluence</a></p>
+<p>La spécification est le langage commun qui décrit le produit attendu. Forme universelle : <strong>IF… THEN…</strong></p>
+<blockquote>IF une condition, un contexte, une entrée, un état ou un événement est vrai, THEN un comportement, résultat, contrainte, effet ou signal attendu doit être observable.</blockquote>
+<p><em>Contenu complet disponible via le lien — inclut : pourquoi ce changement, convergence des anciens termes, guide pratique de rédaction, SDD/ATDD/FDD/DDD/BDD/TDD, rôle critique dans le SDLC, shift-left/shift-right, IA et automatisation, qualimétrie et signaux, règle de gouvernance.</em></p>
+</div>
+
+<!-- ============================================================ -->
+<div class="page-break" id="p23">
+<h1>Les tests (niveau × interface × angle × type)</h1>
+<p class="meta">Dernière modification : 2 juillet 2026 · URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3240067175">Lien Confluence</a></p>
+<p>Quatre axes : <strong>niveau d'intégration</strong> (small/medium/large), <strong>interface observée</strong> (UI/API/machine), <strong>angle d'observation</strong> (white-box/gray-box/black-box), <strong>type de validation</strong> (fonctionnel, performance, sécurité, etc.).</p>
+<p><em>Contenu complet disponible via le lien — inclut : niveaux d'intégration détaillés, clarification "unitaire", grille 3×3, types de validation (fonctionnel, santé, intégrité, régression, limite, résilience, performance, sécurité, compatibilité, installation, UI, UX, utilisabilité), matrice niveau×type, repères pratiques, erreurs fréquentes.</em></p>
+</div>
+
+<div class="page-break" id="p24">
+<h1>Exemples concrets de combinaisons (niveau × interface × angle × type)</h1>
+<p class="meta">Dernière modification : 29 juin 2026 · URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3259990023">Lien Confluence</a></p>
+<p>Compagnon pratique montrant comment les axes se combinent concrètement.</p>
+<p><em>Contenu complet disponible via le lien — inclut : exemples simplifiés (authentification, commande, navigateur), exemple application web, Interface UI (small/medium/large), Interface applicative (small/medium/large), Interface machine (small/medium/large), exemple transversal (simulation UI→API→Machine), doubles de test (mocks/stubs/simulateurs), anti-exemples.</em></p>
+</div>
+
+<!-- ============================================================ -->
+<div class="page-break" id="p25">
+<h1>Formation continue</h1>
+<p class="meta">Dernière modification : 2 juillet 2026 · URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3259007069">Lien Confluence</a></p>
+<p>Mécanisme de protection organisationnelle. Évite que les connaissances restent dans la tête de quelques personnes clés.</p>
+<p><strong>7 modules proposés :</strong></p>
+<ol>
+<li>Introduction au SDLC</li>
+<li>Spécifications IF…THEN…</li>
+<li>Automatisation et IA</li>
+<li>Qualimétrie et signaux</li>
+<li>Outils communs</li>
+<li>Gouvernance et rôles</li>
+<li>Pratiques par domaine</li>
+</ol>
+<p><em>Contenu complet disponible via le lien — inclut : objectifs, public cible (6 groupes), parcours de formation, rituels, exemples de sujets, questions fréquentes, indicateurs de santé du programme.</em></p>
+</div>
+
+<!-- ============================================================ -->
+<div class="page-break" id="p26">
+<h1>Recommandations (enjeux, constats ou lacunes à résoudre/solutionner)</h1>
+<p class="meta">Dernière modification : 2 juillet 2026 · URL : <a href="https://opal-rt.atlassian.net/wiki/spaces/ACAQ/pages/3229286470">Lien Confluence</a></p>
+<p>Consolidation des recommandations formulées dans le cadre de la Mission Faucon. Les recommandations forment un système avec des dépendances entre elles.</p>
+<p><strong>14 recommandations organisées par priorité :</strong></p>
+<table>
+<tr><th>Priorité</th><th>Recommandation</th></tr>
+<tr><td>🔴 1 — Urgente</td><td>Consolidation des projets Jira par produit</td></tr>
+<tr><td>🔴 2 — Urgente</td><td>Gouvernance Jira et Xray — livraison vs définition</td></tr>
+<tr><td>🟠 3 — Haute</td><td>Modèle de versionnement et découpage des livraisons</td></tr>
+<tr><td>🟠 4 — Haute</td><td>Contrat qualité</td></tr>
+<tr><td>🟠 5 — Haute</td><td>Responsabilité produit — PM, PO, CdL</td></tr>
+<tr><td>🟡 6 — Moyenne</td><td>Centralisation de la documentation produit</td></tr>
+<tr><td>🟡 7 — Moyenne</td><td>Positionnement de la qualité dans l'organisation</td></tr>
+<tr><td>🟡 8 — Moyenne</td><td>Centre d'excellence</td></tr>
+<tr><td>🟡 9 — Moyenne</td><td>Gouvernance des rôles et pouvoir décisionnel</td></tr>
+<tr><td>🟡 10 — Moyenne</td><td>Posture qualité dans les équipes de développement</td></tr>
+<tr><td>🔵 11 — En continu</td><td>Shift left de l'acceptation</td></tr>
+<tr><td>🔵 12 — En continu</td><td>Voix du client</td></tr>
+<tr><td>🔵 13 — En continu</td><td>Usage structuré de l'IA</td></tr>
+<tr><td>🔵 14 — En continu</td><td>Automatisation des validations</td></tr>
+</table>
+<p><strong>Prérequis transversal :</strong> appui explicite de la direction et des partenaires R&D. Sans ce GO, les recommandations risquent de rester des documents Confluence bien rédigés mais non appliqués.</p>
+<p><em>Contenu intégral (analyses détaillées par recommandation, conséquences, symptômes observables, recommandations spécifiques) disponible via le lien Confluence ci-dessus.</em></p>
+</div>
+
+<!-- ============================================================ -->
+<div style="margin-top:60px;border-top:3px solid #0052CC;padding-top:20px;text-align:center;color:#6B778C;font-size:12px;">
+<p>🦅 Mission Faucon — CGI — Export Confluence ACAQ</p>
+<p>25 pages · Exporté le 3 juillet 2026 · PLAYGROUND exclu</p>
+<p>Pour le contenu intégral de chaque page, utiliser les liens Confluence fournis.</p>
+<p>Ce document a été généré par Rovo (Atlassian AI) à la demande de Michel Bélanger.</p>
+</div>
+
+</body>
+</html>

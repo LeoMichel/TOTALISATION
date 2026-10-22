@@ -1,0 +1,238 @@
+﻿Cérémonie d'implémentation
+La cérémonie dʼimplémentation est probablement la plus connue, mais cʼest aussi celle quʼon comprend le plus souvent de façon trop étroite. Ici, on nʼest pas en mode discussion de besoin, ni en mode raffinement, ni en mode assemblage final. On est en mode build. On exécute ce qui a été préparé en amont, après la Definition of Ready (DoR), dans un cadre contrôlé, traçable et discipliné.
+Cette cérémonie sʼapplique autant en sprint, en kanban ou en mode hybride. Elle sʼapplique autant pour une nouvelle feature, une amélioration dʼune feature existante, un correctif ou un lot mêlant plusieurs types de travail. Le mode de flux change, mais le principe reste le même : on construit ce qui a été défini et planifié.
+Note terminologique. Cette page décrit la cérémonie dʼimplémentation dans son contexte opérationnel. Pour les définitions de référence des termes comme implémenter, spécification, spécification atomique, DoR, DoD, validation, vérification, test, niveaux dʼintégration, interfaces, angles, intégration, contrat dʼintégration, CI/CD, artefact, dette technique, qualimétrie, rôles et RACI, voir le Lexique / Terminologies. Les contributions indiquées dans cette page sont propres à cette cérémonie et ne remplacent pas la matrice RACI.
+Ici, implémenter ne veut pas dire assembler, boulonner, monter ou intégrer la livraison
+dans la vraie réalité opérationnelle. Ces dimensions deviennent centrales dans DIFFUSER. Cela ne veut pas dire quʼon ne fait pas de continuous deployment ou quʼon bloque les pipelines. Cela veut dire quʼà ce stade, le centre de gravité est le build conforme, pas la mise en circulation réelle.
+🎯 Objectif
+La cérémonie dʼimplémentation transforme les spécifications atomiques approuvées et les stories prêtes en code, tests, validations et preuves de conformité. Cʼest une des parties cœur de FORGE : lʼendroit où lʼon simule la réalité de manière suffisamment fidèle pour démontrer que ce qui a été demandé peut réellement fonctionner, avant sa diffusion réelle.
+Implémenter, ce nʼest pas improviser une solution en direct. Cʼest exécuter
+avec rigueur un plan déjà préparé, tout en capturant les signaux qui révèlent
+un écart entre la réalité observée et ce qui avait été élicité, défini ou planifié.
+🧱 Ce que veut dire « implémenter » ici
+Dans cette cérémonie, implémenter signifie :
+Coder ce qui a été spécifié.
+Valider que le comportement développé correspond réellement aux spécifications.
+Prouver que le résultat obtenu concorde avec les spécifications IF… THEN….
+Maintenir la traçabilité entre spécification, story, code, tests et résultats.
+On reste donc dans une logique de construction contrôlée. Même si plusieurs validations
+dʼintégration ont déjà lieu ici, elles servent dʼabord à démontrer la conformité du build et la cohérence de la solution, pas encore à parler du montage final, de la diffusion progressive, du rollout, des mécanismes de réaction terrain ou de lʼactivation réelle dans lʼécosystème complet.
+👥 Participants recommandés
+Rôle
+Responsabilité principale
+Développement
+Construire conformément aux spécifications, produire les tests, valider la conformité et remonter les signaux dʼécart.
+QA / qualité
+Valider que les spécifications IF… THEN… et les comportements attendus sont réellement démontrés à plusieurs niveaux.
+PO / PM
+Protéger le scope prévu, arbitrer les écarts et décider si un signal doit devenir un retour formel vers ÉLICITER.
+Architecture / lead technique
+Confirmer la cohérence technique, les contrats et la solidité des validations dʼintégration nécessaires au build.
+CdL / coordination
+Maintenir la visibilité du flux, des risques, des
+écarts et des décisions de recadrage.
+📥 Inputs / Prérequis
+La cérémonie dʼimplémentation commence après la DoR. Cela veut dire que lʼéquipe nʼest plus censée être en train de découvrir le besoin, dʼinventer le scope ou de redéfinir le plan de match principal.
+Avant IMPLÉMENTER
+Ce qui doit déjà être vrai
+ÉLICITER
+Le besoin, la valeur, les signaux et les métriques ont été compris et documentés.
+DÉFINIR
+Les spécifications atomiques sont complètes, cohérentes, testables et approuvées.
+PLANIFIER
+Les stories sont découpées, traçables, priorisées et prêtes à être exécutées.
+DoR
+Les prérequis dʼentrée sont satisfaits : clarté, testabilité, dépendances, stratégie de test, capacité et environnement.
+Si lʼéquipe commence à « découvrir » massivement pendant lʼimplémentation, cʼest généralement le signe quʼune porte amont nʼétait pas réellement fermée.
+📤 Outputs / Livrables attendus
+À la fin de la cérémonie, on doit pouvoir démontrer que le build est conforme, testé, traçable et
+prêt à passer vers DIFFUSER.
+Du code conforme aux spécifications atomiques et aux stories ayant passé la DoR.
+Des tests exécutés et des résultats documentés aux niveaux pertinents : unitaires, contrats, intégration, non-régression, validations fonctionnelles ou techniques.
+Des spécifications IF… THEN… démontrées avec des preuves observables.
+Une traçabilité maintenue entre story, spécification, code, tests et résultats.
+Les écarts, signaux, métriques ou problèmes capturés et remontés aux phases appropriées lorsque nécessaire.
+Un incrément suffisamment prouvé pour entrer dans DIFFUSER.
+⏱ Durée, format et sous-phases recommandées
+La durée de lʼimplémentation dépend du type de travail, de la complexité technique, du nombre dʼintégrations touchées et du niveau de validation requis. Lʼobjectif nʼest pas de forcer une durée
+uniforme, mais de rendre visible tout le travail réel nécessaire pour construire et prouver correctement lʼincrément.
+La cérémonie peut être vue en deux sous-phases complémentaires :
+1. Build et validations de base — les développeurs construisent le comportement prévu,
+écrivent les tests nécessaires, valident localement et confirment que le code respecte les spécifications IF… THEN….
+2. Validations croisées et intégration contrôlée — lʼéquipe vérifie la concordance avec QA,
+architecture ou les personnes pertinentes, exécute les validations dʼintégration nécessaires, réalise les revues et documente les preuves.
+Durées indicatives :
+Bug simple ou correctif ciblé : quelques heures à 1 journée, selon la facilité de reproduction, les tests requis et le risque de régression.
+Story simple : 1 à 3 jours pour construire, tester, réviser et documenter les preuves.
+FEATURE complexe ou sujet transversal : plusieurs jours ou plusieurs itérations peuvent être nécessaires, surtout si plusieurs composants, contrats ou équipes sont touchés.
+Une FEATURE peut rester longtemps en IMPLÉMENTÉ. Cʼest normal lorsque le build exige plusieurs validations, lorsque les intégrations sont nombreuses, lorsque des environnements doivent être stabilisés ou lorsque des preuves supplémentaires sont nécessaires avant DIFFUSER. Ce temps doit être comptabilisé comme du vrai travail dʼéquipe.
+🔄 Déroulement suggéré
+Confirmer la DoR, le contexte et les signaux/métriques pertinents des phases amont —vérifier que la story ou le lot est prêt, traçable, relié aux spécifications approuvées et ancré dans les signaux, métriques et risques identifiés en ÉLICITER, DÉFINIR et PLANIFIER.
+1. Reprendre le plan de match — clarifier la séquence dʼimplémentation, les dépendances, les validations attendues et les critères de succès.
+2. Implémenter le code — construire strictement le comportement défini, sans élargir le scope de façon opportuniste.
+3. Écrire et exécuter les tests — couvrir les spécifications IF… THEN…, les cas limites prévus, les contrats et les risques de régression.
+4. Valider la concordance — vérifier que code, validations, spécifications IF… THEN… et story
+racontent la même histoire.
+5. Réaliser les validations dʼintégration pertinentes — simuler ou contrôler les interactions
+nécessaires pour prouver que le build tient.
+6. Effectuer les revues — revue de code, revue QA, validation technique ou validation produit selon le contexte.
+7. Capturer les écarts — documenter les signaux, métriques, problèmes ou nouvelles hypothèses découvertes pendant lʼexécution.
+8. Confirmer la sortie vers DIFFUSER — sʼassurer que lʼincrément est suffisamment prouvé, traçable et stable pour passer à la phase suivante.
+🔀 Sprint, Kanban ou hybride
+La cérémonie fonctionne dans plusieurs modes opératoires. Ce qui change, cʼest la manière de piloter le flux, pas la nature du travail dʼimplémentation.
+Mode
+Lecture de la cérémonie
+Point de vigilance
+Sprint
+Le lot de stories est engagé pour un horizon court, avec un objectif de sprint explicite.
+Ne pas transformer le sprint en espace dʼimprovisation continue sur le scope.
+Kanban
+Les stories prêtes sont tirées selon la priorité et les limites WIP, dans un flux continu.
+Ne pas utiliser le flux continu comme prétexte pour modifier constamment la cible.
+Hybride
+Certaines activités suivent un engagement temporel, dʼautres un réapprovisionnement continu.
+Clarifier ce qui est engagé, ce qui est tiré et ce qui doit repasser par les phases amont.
+Autrement dit, en sprint comme en kanban, lʼéquipe peut rester agile, mais à un degré plus
+mince rendu ici. Cette réduction volontaire de flexibilité nʼest pas une perte dʼagilité : cʼest la conséquence normale du fait que lʼagilité devait déjà sʼexprimer fortement en amont, dans lʼélicitation, la définition et la planification.
+🧩 Types de travail couverts
+La cérémonie dʼimplémentation couvre plusieurs natures de travail, sans changer son principe
+fondamental.
+Nouvelle feature : construire un comportement nouveau à partir de spécifications
+approuvées.
+Amélioration dʼune feature existante : faire évoluer un comportement existant de manière contrôlée.
+Correctif : corriger un écart ou une défaillance déjà compris et correctement recadrés en amont.
+Hybride : livrer un ensemble combinant nouveaux comportements, ajustements et correction de régressions.
+Dans tous les cas, le réflexe doit rester le même : on bâtit ce qui a été préparé, on ne transforme pas lʼimplémentation en espace de redécouverte sans fin.
+🧪 Une simulation fidèle de la réalité
+Cette cérémonie fait partie du cœur de FORGE parce quʼelle cherche à simuler la réalité sans être encore la vraie réalité de diffusion. On veut vérifier que la solution tient, que les comportements sont conformes, que les tests passent, que les interactions prévues fonctionnent et que les validations dʼintégration nécessaires confirment la cohérence du tout.
+Il y a donc ici beaucoup de validations, y compris à différents niveaux dʼintégration :
+validation du comportement local ;
+validation des contrats ;
+validation entre composants ;
+validation des flux critiques ;
+validation de la non-régression ;
+validation de la conformité aux spécifications.
+Mais même si ces validations existent déjà, on ne doit pas confondre cette phase avec la phase
+de diffusion réelle. Ici, on veut démontrer que le build est solide. Dans DIFFUSER, on parlera davantage dʼassemblage final, dʼactivation réelle, de circulation contrôlée, dʼexposition, de réaction et dʼobservation en conditions réelles.
+📏 Flexibilité oui, improvisation non
+Une fois en implémentation, lʼéquipe doit rester professionnelle, lucide et capable de sʼadapter.
+Mais elle ne doit pas tomber dans un mode où lʼon ajoute, change ou améliore en direct simplement parce que « tant quʼon y est » une autre idée apparaît.
+Si on commence à ajouter live, changer dʼidée au fil de lʼeau, ou améliorer de
+façon improvisée, on détruit rapidement la concordance entre lʼélicitation, la
+définition, la planification et lʼexécution.
+Le danger est de dériver vers une version de travail type Dropbox :
+on ajoute des petites choses non prévues ;
+on change la cible pendant quʼon code ;
+on améliore en direct sans nouvelle validation produit ;
+on garde les modifications « parce quʼelles semblent bonnes » ;
+on finit par ne plus savoir ce qui était demandé au départ.
+Quand cela arrive, la définition ne concorde plus, le plan de match se dégrade, la traçabilité se perd et lʼimplémentation peut devenir indéfinie. On continue à travailler, mais on ne maîtrise plus vraiment ce quʼon est en train de construire.
+La cérémonie dʼimplémentation ne doit pas devenir un espace dʼajout permanent. Sinon, lʼéquipe entre dans une boucle sans fin où elle implémente toujours plus, sans jamais refermer correctement ce qui avait été décidé.
+🔁 Boucle de rétroaction vers ÉLICITER
+Le comportement attendu nʼest pas dʼabsorber silencieusement lʼécart dans lʼimplémentation. Si
+un ajustement, une différence importante, un besoin additionnel ou un problème structurel apparaît, il faut ramener les métriques et les signaux à ÉLICITER.
+Autrement dit :
+on ne rajoute pas automatiquement dans le scope en cours ;
+on ne corrige pas la spécification de facto en modifiant simplement le code ;
+on capture les observations, signaux, métriques, écarts et impacts ;
+on retourne à ÉLICITER si le besoin réel a changé ou si une nouvelle compréhension émerge
+on produit, au besoin, une nouvelle version qui repassera par les phases appropriées.
+Cela reste vrai même si lʼéquipe peut techniquement régler le point immédiatement. Le
+problème nʼest pas la capacité de le faire. Le problème est la perte de contrôle du système de travail si chaque découverte devient automatiquement un ajout dʼimplémentation.
+Signal découvert en implémentation
+Réaction attendue
+Ce quʼon évite
+Spécification qui ne couvre
+pas un cas important
+Remonter le signal vers
+ÉLICITER ou DÉFINIR selon la nature de lʼécart.
+Inventer la règle en codant.
+Nouvelle idée dʼamélioration
+Traiter comme un nouveau
+besoin ou une nouvelle
+Lʼajouter discrètement au
+scope courant.
+version potentielle.
+Écart majeur entre la réalité observée et le besoin initial
+Ramener les métriques, faits et impacts à ÉLICITER.
+Réécrire la cible en direct pendant le build.
+Problème structurel découvert
+Documenter, qualifier et faire réévaluer le besoin ou la stratégie.
+Empiler des contournements non alignés.
+🧮 Le travail effectué nʼest pas perdu
+Quand lʼéquipe doit arrêter, recadrer ou retourner à ÉLICITER, il ne faut surtout pas considérer que le travail déjà réalisé est du travail perdu. Au contraire, ce travail a servi à découvrir, à révéler et à qualifier un écart réel.
+Il doit donc être comptabilisé comme du travail contribuant à la découverte, même sʼil ne se
+traduit pas immédiatement par une livraison telle quelle. Ce travail produit de la connaissance utile :
+signaux supplémentaires ;
+métriques observées ;
+meilleure compréhension du problème ;
+confirmation dʼune hypothèse ;
+invalidation dʼune définition ;
+données concrètes pour une nouvelle version plus juste.
+Arrêter une implémentation pour revenir à ÉLICITER nʼest pas un échec. Cʼest une démonstration de maîtrise du système et de protection de la qualité du plan de match.
+✅ Critères dʼune bonne implémentation
+Le travail exécuté correspond à ce qui a passé la DoR.
+Le code, les tests et les validations concordent avec les spécifications.
+Les validations nécessaires aux différents niveaux, incluant les intégrations pertinentes, sont réalisées.
+Les écarts découverts sont traités comme des signaux, pas comme des occasions dʼétendre le scope librement.
+La traçabilité reste intacte entre besoin, définition, planification et exécution.
+Lʼéquipe garde le contrôle du flux au lieu de subir une dérive continue des demandes.
+⚠ Pièges courants à éviter
+Piège
+Pourquoi cʼest un problème
+Comment lʼéviter
+Commencer sans vraie DoR
+Lʼimplémentation absorbe de la découverte non terminée.
+Refuser lʼentrée tant que les prérequis ne sont pas réellement satisfaits.
+Traiter lʼimplémentation comme un espace de créativité produit
+Le scope dérive et la concordance disparaît.
+Réserver les changements de besoin aux phases amont.
+Ajouter “tant quʼon y est”
+Le travail devient imprévisible et potentiellement infini.
+Capturer lʼidée et la faire repasser par ÉLICITER au besoin.
+Confondre validations dʼintégration et diffusion réelle
+On mélange build conforme et exposition réelle.
+Garder DIFFUSER comme phase distincte de montage et de circulation réelle.
+Considérer le retour en amont
+comme un échec
+Lʼéquipe cache les signaux au
+lieu de protéger le système.
+Reconnaître le travail de
+découverte produit pendant lʼimplémentation.
+Rester trop flexible rendu ici
+Le système perd sa discipline
+au moment où lʼexécution devrait être maîtrisée.
+Accepter une agilité plus
+cadrée en implémentation que dans les phases amont.
+➡ Quand la cérémonie est réussie
+La cérémonie dʼimplémentation est réussie lorsque lʼéquipe a réellement buildé ce qui avait été préparé, en conservant la maîtrise du scope, la concordance avec les spécifications et la qualité des validations. Le résultat attendu est un incrément suffisamment prouvé pour pouvoir ensuite entrer dans DIFFUSER, où lʼon parlera davantage dʼassemblage, de montage, dʼintégration finale, de diffusion et de réalité opérationnelle.
+On peut rester agile ici, mais on ne doit plus être flou. La fluidité en
+implémentation vient de la qualité du travail fait en amont — et de la discipline
+à ne pas redéfinir la cible en plein build.
+📝 Historique et traces des sessions
+Les traces des rencontres réelles dʼimplémentation peuvent être conservées comme pages
+enfants sous cette cérémonie. Lʼobjectif nʼest pas dʼalourdir la cérémonie, mais de garder une mémoire utile des décisions, écarts, validations et signaux observés pendant le build.
+Gabarit recommandé pour une session :
+Date et contexte — sprint, lot, feature, correctif ou flux kanban concerné.
+Participants — rôles présents et personnes impliquées.
+Stories / spécifications couvertes — liens vers les éléments Jira, spécifications IF… THEN… et artefacts pertinents.
+Points validés — preuves de conformité, tests exécutés, validations techniques ou QA réalisées.
+Écarts et signaux observés — ambiguïtés, risques, défauts, hypothèses invalidées ou
+besoins émergents.
+Actions et décisions — action, propriétaire, échéance et suivi attendu.
+Retours vers les phases appropriées — ÉLICITER, DÉFINIR, PLANIFIER, DIFFUSER ou CONFIRMER selon la nature du signal.
+Conclusion — état de sortie : prêt pour DIFFUSER, à compléter, bloqué ou à recadrer.
+📚 Références
+Comment implémenter — La référence complète de la phase IMPLÉMENTER.
+Cérémonie de planification — La cérémonie précédente qui prépare lʼentrée en implémentation.
+Cérémonie de diffusion — La cérémonie suivante qui encadre le passage vers la diffusion
+réelle.
+Comment diffuser — La phase suivante, centrée sur lʼassemblage, la diffusion et la réalité
+opérationnelle.
+SDLC officiel OPAL-RT — Le cycle de vie global dans lequel sʼinscrit IMPLÉMENTER.
+Contrat qualité officiel OPAL-RT — Les attentes transversales de qualité, de traçabilité et de
+preuves.
+RACI officiel OPAL-RT — Les rôles et responsabilités de référence.
+Qualimétrie officielle OPAL-RT — La lecture organisationnelle des signaux et métriques
+qualité.
+Lexique / Terminologies — Les définitions officielles des termes utilisés.

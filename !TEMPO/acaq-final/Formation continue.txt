@@ -1,0 +1,144 @@
+﻿Formation continue
+Note terminologique : Les termes utilisés dans cette page doivent rester alignés avec le Lexique / Terminologies officiel OPAL-RT. La formation continue sert justement à protéger ce langage commun et à éviter le retour aux anciennes nomenclatures locales.
+Cette page présente une première ébauche de ce que devrait contenir le programme de
+formation continue du centre dʼexcellence qualité. Lʼobjectif est de préserver les acquis malgré la croissance, la relève et le roulement de personnel, tout en gardant les pratiques alignées sur le SDLC, les spécifications IF… THEN…, la qualimétrie et les outils communs.
+Idée centrale : la formation continue nʼest pas une activité ponctuelle. Cʼest un mécanisme de protection organisationnelle. Elle évite que les connaissances restent dans la tête de quelques personnes clés et que chaque départ, arrivée ou changement dʼéquipe ramène les anciennes habitudes.
+Pourquoi cette page existe
+Le centre dʼexcellence doit assurer une cohérence durable entre portfolio, produit, développement, qualité, opérations et support. Pour y arriver, il faut former en continu les équipes sur le langage commun, les pratiques attendues, les outils et les signaux de qualité.
+Sans formation continue, les standards deviennent rapidement théoriques : chacun interprète les pratiques à sa façon, les nouveaux apprennent par imitation locale, les outils sont utilisés différemment dʼune équipe à lʼautre et les anciens termes reviennent sous forme de critères, scénarios, cas, exigences ou tests parallèles aux spécifications.
+Objectifs du programme
+Accélérer lʼintégration des nouveaux membres.
+Réduire la dépendance aux experts individuels.
+Maintenir une compréhension commune du SDLC et des responsabilités.
+Uniformiser lʼusage des spécifications IF… THEN… comme langage commun.
+Renforcer la capacité dʼautomatisation et dʼutilisation de lʼIA avec des instructions précises.
+Développer une culture de qualimétrie, de signaux et dʼamélioration continue.
+Prévenir le retour progressif aux anciennes nomenclatures et pratiques locales.
+Public cible
+Groupe
+Ce quʼil doit maîtriser
+Portfolio et produit
+Le lien entre besoins, décisions, priorités, valeur, spécifications et signaux de santé.
+Développement
+La spécification comme point de départ du
+code, des tests unitaires, des contrats, de lʼautomatisation et de lʼIA.
+Qualité et validation
+La convergence des anciens termes vers les
+spécifications IF… THEN… et la production de preuves observables.
+Opérations et support
+Le lien entre spécifications, observabilité,
+incidents, métriques, stabilité, disponibilité et amélioration continue.
+Gestionnaires et leaders
+La gouvernance, les responsabilités, les indicateurs de santé, le ROI et la protection des acquis.
+Nouveaux arrivants
+Les repères essentiels pour comprendre rapidement le SDLC, les rôles, les outils et la nomenclature commune.
+Parcours de formation proposé
+Parcours existants : deux pages de formation sont déjà disponibles pour soutenir ce programme :
+Formation théorique — Le cycle complet de la réalisation du produit
+2026.06.15 — Pratique (atelier) — Le cycle complet de la réalisation du produit
+Module
+Source de vérité à utiliser
+Résultat recherché
+1. Introduction au SDLC
+SDLC officiel OPAL-RT et
+pages « Comment… » associées
+Comprendre où chaque rôle
+contribue et comment les décisions circulent.
+2. Spécifications IF… THEN…
+SPÉCIFICATION, Exemples
+concrets et Lexique /
+Utiliser une nomenclature
+unique pour définir le produit,
+Terminologies officiel OPAL-RT
+les comportements et les attentes.
+3. Automatisation et IA
+Recommandations et
+Formation théorique
+Passer de souhaits vagues à
+des instructions précises, testables et exploitables.
+4. Qualimétrie et signaux
+Qualimétrie officielle OPAL-
+RT, Les métriques de la qualimétrie et Cérémonie de la qualimétrie
+Lire la santé réelle du produit
+et orienter lʼamélioration continue.
+5. Outils communs
+Recommandations, Qualimétrie officielle OPAL-RT et pages outils spécialisées lorsque disponibles
+Utiliser les outils de façon uniforme et reliée au même langage de spécification.
+6. Gouvernance et rôles
+RACI officiel OPAL-RT et Contrat qualité officiel OPAL-RT
+Éviter les zones grises et clarifier qui décide, qui contribue et qui confirme.
+7. Pratiques par domaine
+Formation pratique — atelier,
+cérémonies SDLC et pages « Comment… » pertinentes
+Adapter les pratiques
+communes aux réalités de chaque groupe sans recréer des langages parallèles.
+Rituels de formation continue
+Parcours dʼintégration : formation obligatoire pour chaque nouvel arrivant ou changement de
+rôle.
+Ateliers mensuels : approfondissement dʼun thème précis, exemples réels, questions
+ouvertes et ajustements.
+Cliniques pratiques : accompagnement sur des cas concrets : écrire une spécification, relier une métrique, automatiser une preuve, interpréter un signal.
+Revues de cohérence : vérification périodique que les pages, outils et équipes utilisent encore la même nomenclature.
+Retours dʼexpérience : apprentissages issus des incidents, livraisons, audits, automatisations et améliorations.
+Exemples de sujets à couvrir
+SPÉCIFICATION — source de vérité pour transformer les besoins, exigences, critères ou
+tests en spécifications IF… THEN….
+Exemples concrets de combinaisons — source dʼexemples réutilisables plutôt que de
+nouveaux exemples maintenus ici.
+Qualimétrie officielle OPAL-RT — source de vérité pour les signaux, métriques et tableaux de bord.
+Recommandations — source pour les pratiques dʼoutillage, dʼautomatisation, dʼIA et de gouvernance à renforcer.
+Formation théorique et Formation pratique — matériel à utiliser pour les exercices, quiz et ateliers.
+Questions fréquentes issues des ateliers
+Question
+Source à utiliser pour la réponse
+Comment rédige-t-on les spécifications ?
+SPÉCIFICATION et Formation théorique
+Avons-nous besoin dʼexemples ?
+Exemples concrets de combinaisons
+Comment faire accepter cette approche par
+lʼentreprise et les gestionnaires ?
+SDLC officiel OPAL-RT, Contrat qualité
+officiel OPAL-RT et Qualimétrie officielle OPAL-RT
+Comment éviter de faire attendre les
+développeurs pendant la phase Specify ?
+Comment définir, SPÉCIFICATION et RACI
+officiel OPAL-RT
+Leçons apprises des ateliers
+Source de vérité : les leçons apprises détaillées doivent être maintenues dans la page de
+lʼatelier pratique ou dans le bilan de mission. Cette page conserve seulement le renvoi vers ces sources afin dʼéviter de dupliquer des observations qui évoluent avec les ateliers.
+Formation pratique — atelier
+Bilan mission qualité — suivi ROI par semaine
+Indicateurs de santé du programme
+Indicateur
+Ce quʼil permet dʼobserver
+Taux de complétion du parcours dʼintégration
+Capacité à intégrer rapidement les nouveaux membres.
+Participation aux ateliers
+Niveau dʼengagement et dʼappropriation des
+pratiques.
+Qualité des spécifications produites
+Clarté, testabilité, précision et capacité dʼautomatisation.
+Réduction des nomenclatures parallèles
+Diminution des critères, scénarios, cas ou
+exigences maintenus séparément des spécifications.
+Usage cohérent des outils
+Uniformité entre les équipes et réduction des
+contournements.
+Amélioration des signaux qualité
+Progression observée sur les métriques de santé produit, livraison, opérations et support.
+Point de vigilance
+Si la formation continue nʼest pas maintenue, la transformation repose sur la mémoire
+individuelle. Le roulement de personnel, la croissance ou la pression de livraison peuvent alors suffire à saboter progressivement les acquis : anciennes nomenclatures, pratiques locales, outils mal utilisés, perte de traçabilité et décisions basées sur des impressions plutôt que sur des signaux.
+Prochaine étape
+Cette ébauche devra être transformée en parcours opérationnel : modules détaillés, propriétaires, fréquence, matériel de formation, exemples réels, exercices pratiques et indicateurs de suivi, qui peut très bien être assisté par un coach, examens, certifications et/ou attestations.
+Références
+SDLC officiel OPAL-RT
+Contrat qualité officiel OPAL-RT
+RACI officiel OPAL-RT
+Qualimétrie officielle OPAL-RT
+Les métriques de la qualimétrie
+Lexique / Terminologies officiel OPAL-RT
+SPÉCIFICATION
+Les tests
+Exemples concrets
+Mission faucon

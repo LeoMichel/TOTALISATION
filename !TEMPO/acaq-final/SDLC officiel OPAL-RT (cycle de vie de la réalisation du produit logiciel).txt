@@ -1,0 +1,232 @@
+﻿SDLC officiel OPAL-RT (cycle de vie de la réalisation du produit logiciel)
+Cʼest le cycle de vie commun et officiel de réalisation logicielle chez OPAL-RT.
+Il sʼappuie sur les meilleures pratiques de lʼingénierie logicielle, demeure compatible avec les différents cadres de travail et favorise le support de lʼautomatisation et de lʼintelligence artificielle.
+Ce cycle est linéaire, avec des phases itératives, une acceptation holistique, une démarche dʼamélioration continue et toujours en mode découverte.
+Note terminologique. Cette page présente la vue officielle du SDLC et conserve
+seulement les définitions nécessaires à sa lecture. Pour les définitions de référence des termes comme SDLC, ÉLICITER, DÉFINIR, PLANIFIER, IMPLÉMENTER, DIFFUSER, CONFIRMER, SENSE, FORGE, CARE, DoR, DevOps, spécification, validation et livraison, utiliser le Lexique / Terminologies comme source officielle.
+ÉLICITER
+DÉFINIR
+PLANIFIER
+IMPLÉME NTER
+DIFFUSER
+CONFIR MER
+(SHIFT LEFT)
+Côté SENSE
+Côté FORGE
+Côté FORGE
+Côté CARE
+(SHIFT RIGHT)
+Résumé: Analyser la cueillette, RCA pour les bugs, qualifier et prioriser les besoins bruts, les sources et les signaux afin dʼalimenter le backlog et de
+Résumé: transforme r les besoins en spécificati ons complètes, testables, traçables et approuvée s avant toute planificatio n détaillée ou
+Résumé: planifier au niveau portefeuill e / release réelle : objectifs, scope, jalons, dépendan ces, capacités, risques, contrats dʼintégrati on,
+Résumé: planifier au niveau développe ment / patch / montage: découpag e en stories, couvertur e des spécificati ons, estimation fine, DoR,
+Résumé: traduire fidèlement les spécificatio ns atomiques en code, tests, intégrations
+documentat ion et preuves de conformité.
+Résumé: assemble r, valider, packager et préparer le build candidat afin quʼil soit traçable, reproduct ible, documen té et prêt
+Résum é: déploy er, publier
+comm unique r et transfé rer vers CARE pour rendre le
+Résumé: recueillir les preuves terrain en conditions réelles : observatio ns, validations , retours utilisateurs
+métriques et signaux bruts, sans
+préparer la définition.
+Référence: Comment éliciter
+Critères de sortie — résumé:
+Besoins bruts, sources et signaux consign és.
+Priorités établies pour ce qui passe en DÉFINIR
+Besoins suffisam ment compris et approuv és par la source/u tilisateur /spéciali
+ste.
+implément ation.
+Référence
+Comment
+définir
+Critères de sortie
+résumé:
+Spécific ations IF… THEN… fonction nelles, non fonction nelles et limites complét ées.
+Impacts système s, risques, dette et traçabilit é besoin
+spécific
+ation docume ntés.
+SPECIF
+Y validé
+communic ation et métriques.
+Référence
+Comment planifier
+Critères
+de sortie
+résumé:
+Objectif s, EPICs/F EATURE S, jalons et plan de release définis.
+Dépend ances, capacité s, risques et contrats dʼintégr ation planifiés
+Plan de
+release validé par les
+parties
+risques, automatis ation, intégratio ns et communic ation.
+Référenc e: Comment planifier
+Critères
+de sortie
+résumé:
+FEATU RES découp ées en stories traçable s aux spécific ations.
+Stories estimée s, priorisé es, couvert es par les spécific ations et
+prêtes.
+Référence: Comment implémente
+Critères de
+sortie —résumé:
+Stories implémen tées conformé ment aux spécificat ions IF… THEN….
+Tests unitaires, dʼintégrati on et fonctionn els réalisés et conforme s aux seuils.
+Code intégré, CI/CD vert, artefacts versionné s, documen tation et
+revues
+à être diffusé.
+Référenc e:
+Comment
+diffuser
+Critères de sortie
+résumé:
+Build candid at et artefac ts de diffusio
+généré s, validés, version nés et stocké s.
+Tests de packag ing, déploie ment, intégrat ion, perfor mance et non-régress
+produit dispon ible, suppor table et prêt à être confir mé.
+Référe nce: Comm ent diffuse
+Critèr es de sortie
+résum é:
+Buil
+valid
+dépl
+oyé dan
+lʼenv iron nem ent cible selo
+n le
+les analyser.
+Référence
+Comment
+confirmer
+Critères de sortie
+résumé:
+Accepta tion, retours utilisate urs, incident s, adoptio n et métriqu es docume ntés factuelle ment.
+Rapport de confirm ation et signaux bruts transmis
+ÉLICITE
+R pour
+analyse.
+et approuv
+conform
+ément au Contrat
+qualité.
+prenant es clés.
+Cʼest ici que se fait le PI
+planning.
+DoR satisfait
+dépend
+ances et prérequ is techniq ues planifié
+s.
+complété
+es.
+ion              proc réussis.      essu
+Rollbacs
+k,appr releaseouv notesé.
+interneTest s,s handovpost er-techniqdépl ue etoie validatimen ont, dev/opmon sitori compléng, tés.SLA
+/SL O, rollb ack et Go/ No-Go valid és.
+Note
+exte rnes publ iées, sup port
+form
+é, risq ues rési duel
+suivi
+dan
+CAR
+E.
+Règle de passage entre les phases : à la fin de chaque phase, on valide/approuve avec la phase précédente. Si les critères ne sont pas satisfaits, on retourne à la phase précédente ou on recommence selon le contexte. Sʼils sont satisfaits, on continue à la phase suivante.
+Améliorati on continue
+/Recueillir les métriques et les signaux vers ÉLICITER tout au long du cycle. CONFIRMER agit comme capteur principal en conditions réelles ; ÉLICITER analyse, apprend et priorise les améliorations.
+SENSE (faire du sens)
+FORGE
+CARE (veiller)
+Portefeuille (portfolio)
+Développement
+Opérationnel
+DoR — Definition of Ready : principe dʼavoir tout ce quʼil faut avant dʼimplémenter.
+DevOps — principe dʼinclure lʼopérationnel dans le développement et la diffusion, au-delà des seuls outils, pipelines ou infrastructures.
+SPÉCIFIER
+LIVRER
+Continuous
+Specification (CS)
+Environ 80 % du travail de clarification, de compréhension et de réduction du risque se fait ici.
+Toute lʼéquipe contribue à la spécification
+Continuous Integration (CI) + Continuous Deployment (CD)
+Environ 20 % du travail visible se fait ici, lorsque la spécification, la planification et lʼimplémentation ont bien préparé la livraison.
+CI/CD automatise lʼintégration, la validation, la livraison et la
+diffusion, mais ne remplace pas la qualité des phases SENSE et FORGE.
+continue : PM, PO, développement, QA, architecture, support et opérations — pas seulement le PO.
+✅ Gabarit checklist SDLC complète — Jira
+Ce gabarit haut niveau peut être copié dans la section checklist dʼun ticket Jira. Le détail
+demeure dans les pages Confluence de chaque phase.
+ÉLICITER — Besoins bruts recueillis et consignés
+ÉLICITER — Source de chaque besoin identifiée et traçable
+ÉLICITER — Signaux qualimétrie analysés et constats documentés
+ÉLICITER — Priorités établies : ce qui entre en DÉFINIR vs ce qui reste au backlog
+ÉLICITER — Compréhension validée par la source, l'utilisateur ou le spécialiste
+DÉFINIR — Spécifications atomiques IF…THEN… complètes, testables et documentées
+DÉFINIR — Scope EPIC / release clair : inclus, exclu, reporté
+DÉFINIR — Concordance 100 % entre modèles, diagrammes et spécifications
+DÉFINIR — Impacts systèmes, dépendances et risques analysés et documentés
+DÉFINIR — Dette technique identifiée et rendue visible
+DÉFINIR — Estimation initiale EPIC / FEATURE réalisée
+DÉFINIR — Traçabilité besoin → spécification → implémentation → preuve assurée
+DÉFINIR — Spécifications prêtes pour l'IA, l'automatisation et l'auto-validation
+DÉFINIR — SPECIFY validé et approuvé avant PLANIFIER
+PLANIFIER — Scope et découpage validés (stories créées et liées aux specs)
+PLANIFIER — Version cible confirmée
+PLANIFIER — Stories estimées, priorisées et DoR satisfait
+PLANIFIER — Assignation et séquence d'implémentation définis
+PLANIFIER — Jeux de données, environnements et prérequis prêts
+PLANIFIER — Test Set et Test Executions Xray créés et assignés
+PLANIFIER — Pair testing DEV×QA, DEV×IVV et QA×IVV planifié
+PLANIFIER — Intégrations et contrats documentés
+PLANIFIER — Plan de diffusion et transfert support préparés
+PLANIFIER — Plan de confirmation et signaux post-diffusion définis
+PLANIFIER — Risques documentés avec mitigation et propriétaires
+PLANIFIER — DoR satisfait (entrée), DoD et DoT définis et planifiés (sortie prêts à vérifier)
+IMPLÉMENTER — Code traduit fidèlement les spécifications atomiques
+IMPLÉMENTER — Tests unitaires (auto) RED4GREEN
+IMPLÉMENTER — Tests d'intégration (auto) RED4GREEN
+IMPLÉMENTER — Spécifications fonctionnelles (auto) RED4GREEN
+IMPLÉMENTER — Revues de code effectuées et approuvées
+IMPLÉMENTER — Contrats d'intégration respectés et validés inter-équipes
+IMPLÉMENTER — CI/CD vert, artefacts générés et versionnés
+IMPLÉMENTER — Documentation technique à jour et liée aux spécifications
+IMPLÉMENTER — Anomalies critiques corrigées ou remontées au backlog (ÉLICITER)
+IMPLÉMENTER — Dette technique découverte documentée et remontée au backlog
+(ÉLICITER)
+IMPLÉMENTER — DoD satisfait pour chaque story, dépendance et epic
+IMPLÉMENTER — Pair testing dev/ops sur les zones grises d'intégration
+DIFFUSER — Build candidat assemblé, versionné, classifié et traçable
+DIFFUSER — Tests d'intégration, packaging, installation et non-régression passés
+DIFFUSER — Rollback testé et documenté
+DIFFUSER — Notes de livraison complètes (nouveautés, corrections, limitations, contournements)
+DIFFUSER — Documentation utilisateur et technique à jour
+DIFFUSER — Transfert CARE complété (documentation, formation, risques, escalade)
+DIFFUSER — Monitoring et alertes activés
+DIFFUSER — Décision Go/No-Go formelle documentée
+CONFIRMER — Observation post-diffusion réalisée (stabilité, performance, régressions)
+CONFIRMER — Spécifications IF…THEN… validées en conditions réelles
+CONFIRMER — Retours utilisateurs et CARE recueillis avec contexte
+CONFIRMER — Métriques recueillies (stabilité, adoption, satisfaction, support)
+CONFIRMER — Incidents post-livraison documentés (impact, sévérité, statut)
+CONFIRMER — Écarts promesse vs réalité constatés factuellement
+CONFIRMER — Rapport de confirmation complété et transmis à ÉLICITER
+CONFIRMER — Dérogations actives et risques résiduels documentés
+📚 Références
+Comment éliciter
+Comment définir
+Comment planifier
+Comment implémenter
+Comment diffuser
+Comment confirmer
+Contrat qualité officiel OPAL-RT
+RACI officiel OPAL-RT
+Qualimétrie officielle OPAL-RT
+Lexique / Terminologies
+SPÉCIFICATION
+Les tests
+Formation continue
+Cérémonies SDLC
+Cérémonie — Éliciter
+Cérémonie — Définir
+Cérémonie — Planifier
+Cérémonie — Implémenter
+Cérémonie — Diffuser
+Cérémonie — Confirmer
+Cérémonie — Qualimétrie

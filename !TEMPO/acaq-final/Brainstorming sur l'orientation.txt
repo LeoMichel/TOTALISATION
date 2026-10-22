@@ -1,0 +1,39 @@
+﻿Brainstorming sur l'orientation
+1. Documenter les standards de qualité sous forme de contrat qualité vivant et continu : conventions, stratégie, lexique des terminologies, types de tests, spécifications IF… THEN…, etc. (avec lʼaide de lʼIA).
+2. Harmoniser le QA avec le R&D.
+a. Établir une posture commune de « produit qualité agile ».
+b. Établir le RACI des responsabilités qualité de chacun.
+3. Établir la centralisation de la qualimétrie dans Grafana : commencer avec peu de métriques et
+progresser selon les besoins (avec lʼaide de lʼIA).
+a. Commencer à se mesurer, interpréter les signaux et se fixer des objectifs le plus tôt possible (avec lʼaide de lʼIA).
+b. Utiliser la qualimétrie comme base pour prendre des décisions et voir la santé du produit dans tout le SDLC.
+4. Établir lʼavant implémentation et lʼaprès diffusion, ainsi que la boucle avec lʼavant : shift-left, shift-right et amélioration continue / voix client.
+a. DoR = spécification : documenter lʼensemble du produit (avec lʼaide de lʼIA). i. Traiter les enjeux multi-modules : il faut viser un seul produit.
+ii. Traiter les enjeux multi-version : il faut viser une seule version pour un produit, au bout
+du compte.
+iii. Intégrer les approches FDD, ATDD, BDD, TDD, etc.
+iv. Voir à automatiser certains tests avant le découpage des stories lorsque cela apporte de
+la valeur — beau défi payant ici.
+v. Définir le produit et modéliser le produit.
+1. Regrouper Xray, diagrammes, maquettes, analyses, incidents, etc.
+2. Globaliser ces éléments en spécifications.
+3. Définir les livraisons et les prioriser avant le développement.
+b. DoD = validation simulée : mettre en place la cueillette et recueillir les informations du simulé (unitaire / intégration) lors de lʼimplémentation et de lʼintégration complète, en mode contrat / entente officielle.
+i. Inclure le montage et lʼintégration.
+ii. Prévoir les préalables dans les plans de test, mais surtout par le pair dans le DoD.
+c. DoT = diffusion : mettre en place la cueillette et recueillir les informations du réel.
+d. Décisions produit : trancher par une seule personne responsable du produit, avec les recommandations du comité amigos, sur lʼamélioration et ce qui va se faire dans le produit (avec lʼaide de lʼIA).
+e. Plan de test par livraison / plan de livraison : documenter lʼanalyse de risque, le scope, les
+critères de décision, etc. en mode contrat (avec lʼaide de lʼIA).
+f. Produit élargi : inclure lʼéquipe DevOps, techno, sécurité et IT comme faisant partie du produit.
+5. Ici, on a tous les éléments de base dʼune fondation minimum solide (ToTAL). Il reste le plus gros du travail à faire : sʼaméliorer 😉, satisfaire le client et lʼinterne, continuer dʼéliciter le produit, augmenter la vitesse avec lʼautomatisation et lʼIA, puis inclure et mettre en place progressivement des frameworks de tout genre 💫.
+Outils de travail
+Cas dʼusage Done - cas minime pour traverser le SDLC de bout en bout une 1ère fois.
+Board Jira de Livraison du produits (ensemble des features et des versions) - PRTLAB board -Kanban Board - Jira
+Epic = Feature - y associer les spécifications via lʼissue type Tests (création de Test set)
+Test Plan pour la partie Test de la version (intégrée) - IVV
+FixVersions = champs pour la version logicielle (e.g., 202x.x)
+Story = découpage de lʼEpic; ce qui va être implémenté = on y associe une partie des tests pour définir la couverture de tests - QA DEV
+Organiser en sprint (Planifier)
+Cas dʼusage à utiliser pour cas pratique - RTLABTT-6023: Model state stuck in disconnecte
+d if target remains unreachable IN PROGRESS

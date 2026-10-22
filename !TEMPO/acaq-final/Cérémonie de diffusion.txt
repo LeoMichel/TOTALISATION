@@ -1,0 +1,243 @@
+﻿Cérémonie de diffusion
+La cérémonie de diffusion est celle où lʼon rend le produit réellement prêt à circuler. On nʼest plus seulement en train de bâtir un incrément conforme dans FORGE : on assemble, on valide comme système, on package, on déploie, on documente, on transfère et on décide si la version peut devenir réelle dans lʼécosystème visé.
+Cette cérémonie est le point de passage entre FORGE et CARE. Elle prend ce qui a été implémenté, prouvé et préparé en amont, puis le transforme en une version diffusable, traçable, supportable et observable. Cʼest ici quʼon passe du build conforme à la mise en circulation maîtrisée.
+Note terminologique. Cette page décrit la cérémonie de diffusion dans son contexte
+opérationnel. Pour les définitions de référence des termes DIFFUSER, build candidat, artefact, package, déploiement, rollback, release, validation, non-régression, couverture, contrat dʼintégration, observabilité, Go / No-Go, CARE, rôles et RACI, voir le Lexique / Terminologies. Les contributions indiquées dans cette page sont propres à cette cérémonie et ne remplacent pas la matrice RACI.
+Diffuser ne veut pas dire seulement “faire un package” ou “déployer un build”. Diffuser,
+cʼest rendre réel de façon contrôlée, avec preuves, documentation, transfert au support, monitoring et décision formelle.
+🎯 Objectif
+La cérémonie de diffusion transforme un incrément implémenté en version candidate réelle :
+assemblée, validée, packagée, déployable, documentée, transférée et prête pour une décision Go / No-Go. Son rôle est de démontrer que ce qui a été élicité, défini, planifié et implémenté tient encore lorsquʼon le considère comme un produit complet en voie dʼexposition réelle.
+Diffuser, ce nʼest pas juste publier. Cʼest prouver quʼune version est
+suffisamment cohérente, stable, traçable et supportable pour mériter dʼexister
+en conditions réelles.
+👥 Participants recommandés
+Rôle
+Responsabilité principale
+Développement
+Supporter lʼassemblage, corriger les défauts de build, valider les comportements techniques et contribuer aux tests dʼintégration nécessaires.
+QA / ingénierie qualité
+Confirmer la conformité globale, exécuter ou
+superviser les validations, consolider les preuves et recommander le Go / No-Go.
+Architecture / lead technique
+Valider la cohérence de lʼassemblage, les contrats, les dépendances et les impacts systémiques.
+Ops / Infra
+Exécuter ou encadrer le déploiement, confirmer la reproductibilité, lʼobservabilité et le rollback.
+PO / PM
+Valider lʼalignement avec le scope attendu, la valeur livrée et les impacts produit ou client.
+Support / CARE
+Recevoir le transfert, comprendre les
+changements, les risques, les contournements et les mécanismes dʼescalade.
+CdL / coordination
+Assembler le dossier de diffusion, maintenir la
+visibilité, coordonner les décisions et préparer le Go / No-Go.
+VSE / décideur final
+Prendre la décision Go / No-Go sur la base
+des preuves, des risques et des dérogations approuvées.
+📥 Inputs / Prérequis
+La cérémonie de diffusion commence après IMPLÉMENTER. Elle suppose quʼon ne soit plus en train de débattre du besoin ni de reconstruire le code principal, mais quʼon soit prêts à traiter la version comme un candidat sérieux à la réalité.
+Avant DIFFUSER
+Ce qui doit déjà être vrai
+ÉLICITER
+Le besoin, la valeur, les signaux et les métriques sont compris et documentés.
+DÉFINIR
+Les spécifications atomiques sont cohérentes,
+complètes, testables et approuvées.
+PLANIFIER
+Le travail a été découpé, priorisé et exécuté selon le plan de match établi.
+IMPLÉMENTER
+Le code, les tests, les validations et les
+preuves de conformité sont disponibles, traçables et suffisants pour entrer en diffusion.
+Critères dʼentrée
+Les artefacts de build existent, les
+dépendances sont connues, les environnements ciblés sont identifiés et la stratégie de diffusion est clarifiée.
+Si lʼéquipe découvre en diffusion que des spécifications IF… THEN… ne sont pas couvertes, que les spécifications sont incomplètes ou que le build nʼest pas réellement conforme, il faut revenir à IMPLÉMENTER ou plus en amont selon la nature du problème. DIFFUSER ne doit pas compenser les manques des phases précédentes.
+📤 Outputs / Livrables attendus
+À la fin de la cérémonie, on doit pouvoir démontrer que la version est non seulement construite, mais aussi diffusable, supportable et contrôlée.
+Un build candidat généré, versionné, classifié et traçable.
+Des artefacts de diffusion complets : packages, images, scripts, migrations ou installeurs selon le contexte.
+Des preuves de validation couvrant lʼassemblage, le déploiement, les intégrations, la non-régression, la performance et les spécifications critiques.
+Des notes de livraison internes et externes suffisamment complètes pour informer les
+équipes et les utilisateurs concernés.
+Un transfert vers CARE effectué avant la publication réelle.
+Un plan de rollback testé, documenté et accessible.
+Une décision Go / No-Go documentée.
+Une version prête à entrer dans CONFIRMER une fois diffusée.
+⏱ Durée, format et sous-phases recommandées
+La durée de diffusion dépend du type de produit, du nombre dʼartefacts, des environnements
+visés, du niveau de risque, des intégrations externes et des exigences de conformité. Le but nʼest pas de réduire artificiellement cette phase, mais de rendre visible tout le travail requis pour rendre une version réellement diffusable.
+La cérémonie peut être vue en deux sous-phases complémentaires :
+1. Préparer et prouver la version candidate — assembler, valider, packager, exécuter les
+vérifications techniques et consolider les preuves.
+2. Rendre la diffusion maîtrisable — documenter, transférer à CARE, confirmer lʼobservabilité,
+sécuriser le rollback et prendre la décision Go / No-Go.
+Durées indicatives :
+Correctif ciblé à faible risque : quelques heures à 1 journée, si lʼassemblage, les validations
+et le transfert sont simples.
+Version fonctionnelle standard : 1 à 3 jours pour assembler, valider, documenter, transférer
+et décider correctement.
+Version complexe ou transversale : plusieurs jours ou plusieurs fenêtres de validation peuvent être nécessaires, surtout si plusieurs équipes, environnements ou contrats sont concernés.
+Une version peut rester longtemps en DIFFUSER. Cʼest normal quand la validation système est lourde, que le packaging est complexe, que le transfert CARE demande du temps ou que les mécanismes de déploiement et de rollback exigent plusieurs preuves. Ce temps fait partie du vrai travail de livraison.
+🔄 Déroulement suggéré
+1. Confirmer lʼentrée en diffusion — vérifier que les critères de sortie dʼIMPLÉMENTER sont
+réellement satisfaits.
+2. Assembler la version candidate — générer un build versionné, cohérent, reproductible et classifié.
+3. Valider le produit assemblé — exécuter les validations nécessaires sur lʼintégration, lʼinstallation, le déploiement, la non-régression, la performance et les flux critiques.
+4. Préparer les artefacts de diffusion — packages, images, scripts, migrations, procédures et
+éléments de configuration.
+5. Tester la mise en circulation — déployer sur lʼenvironnement visé ou sur un environnement
+contrôlé équivalent, puis exécuter les smoke tests et validations post-déploiement.
+6. Documenter la version — produire les notes de livraison, le changelog, les éléments de support et les informations de risque résiduel.
+7. Transférer vers CARE — partager la documentation, les contournements, les procédures dʼescalade et les éléments de diagnostic avant la publication.
+8. Confirmer lʼobservabilité et le rollback — sʼassurer que monitoring, alertes, journaux et retour arrière sont prêts.
+Prendre la décision Go / No-Go — documenter la décision en sʼappuyant sur les métriques
+de qualité, les preuves de validation, les seuils définis, les risques résiduels et les dérogations approuvées.
+🔧 Ce que veut dire « diffuser » ici
+Dans cette cérémonie, diffuser signifie :
+Assembler le produit complet à partir du build validé.
+Valider que lʼensemble fonctionne comme un tout, pas seulement comme une somme de composants.
+Packager tout ce qui rend la version livrable et installable.
+Déployer de manière maîtrisée, reproductible et observable.
+Documenter ce qui change, ce qui est connu, ce qui est risqué et ce qui doit être supporté.
+Transférer lʼinformation nécessaire à CARE avant lʼexposition réelle.
+Décider formellement si la version mérite de devenir réelle.
+Une version livrée est un engagement. Elle doit être prouvée, expliquée,
+supportable et réversible.
+🧱 Les sept activités cœur de DIFFUSER
+La diffusion regroupe sept activités complémentaires qui, ensemble, rendent une version réelle et maîtrisée.
+Activité
+But principal
+Ce quʼon cherche à prouver
+Assembler
+Construire un build candidat
+complet
+La version est cohérente,
+reproductible et versionnée
+Valider
+Tester le produit comme système assemblé
+La solution tient en conditions proches de la réalité
+Packager
+Préparer les artefacts de livraison
+Tout ce qui est nécessaire à la mise en circulation est prêt
+Déployer
+Rendre la version disponible
+dans lʼenvironnement cible
+Le processus est fiable,
+répétable et observable
+Documenter
+Rendre la version compréhensible et traçable
+Les changements, limites et risques sont explicités
+Transférer
+Préparer CARE avant la
+livraison
+Le support peut
+diagnostiquer, répondre et escalader
+Décider
+Statuer sur le Go / No-Go
+La décision est éclairée,
+formelle et fondée sur des preuves
+✅ Seuils de validation recommandés
+Seuil
+Attente
+Défauts bloquants ou critiques
+Aucun non résolu, sauf dérogation formelle
+approuvée.
+Spécifications critiques
+100 % couvertes par au moins une validation et un résultat documenté.
+Packaging et déploiement
+Processus exécuté avec succès, artefacts complets et cohérents.
+Rollback
+Plan disponible, testé et compréhensible par les équipes concernées.
+Observabilité
+Logs, métriques, traces et alertes actifs avant publication.
+Transfert CARE
+Documentation, risques, escalade et éléments
+de support transmis avant diffusion réelle.
+🤝 Le transfert à CARE avant la livraison
+Le support ne doit jamais découvrir la version en même temps que lʼutilisateur. La diffusion
+inclut donc explicitement le transfert opérationnel vers CARE avant la mise en circulation réelle.
+Guides de dépannage et FAQ
+Limites connues et contournements
+Procédures dʼescalade
+Accès aux artefacts utiles au diagnostic
+Risques résiduels et zones de vigilance
+Boucle de retour vers PM, PO, CdL et ÉLICITER
+Un bon transfert CARE réduit le délai de diagnostic, évite lʼeffet surprise après livraison et améliore la qualité des signaux remontés depuis le terrain.
+🔁 Boucles de rétroaction
+La diffusion nʼest pas un cul-de-sac. Elle peut révéler des défauts techniques, des problèmes dʼintégration, des limites de packaging, des dérogations répétitives ou des signaux plus profonds sur le produit et le système de travail.
+Signal découvert en diffusion
+Réaction attendue
+Ce quʼon évite
+Défaut bloquant découvert en
+validation
+Retourner à IMPLÉMENTER
+pour correction et nouvelle preuve.
+Publier “quand même” en
+espérant que ça passe.
+Contrat dʼintégration non
+respecté
+Bloquer ou recadrer avec les
+équipes concernées selon la criticité.
+Masquer lʼécart dans une
+procédure manuelle fragile.
+Packaging incomplet ou
+incohérent
+Corriger lʼassemblage,
+revalider les artefacts et reprendre la chaîne de diffusion.
+Distribuer une version
+incomplète parce que le code est bon.
+Dérogation ou problème récurrent
+Remonter le signal vers ÉLICITER comme information dʼamélioration du système.
+Normaliser les écarts sans traiter leur cause réelle.
+Transfert CARE insuffisant
+Compléter documentation,
+formation et escalade avant
+Laisser le support apprendre
+en réaction à chaud.
+publication.
+Les métriques et signaux observés pendant DIFFUSER alimentent donc à la fois
+IMPLÉMENTER pour les corrections immédiates et ÉLICITER pour lʼamélioration plus structurelle.
+🤖 IA et automatisation pendant DIFFUSER
+Lʼautomatisation peut accélérer la diffusion, mais elle ne remplace pas la responsabilité de prouver, documenter et décider.
+Génération assistée des notes de livraison à partir des commits, stories et changements validés
+Validation automatique de la présence et de la cohérence des artefacts
+Tests de déploiement et smoke tests automatisés
+Comparaison automatisée des métriques de performance avec la version précédente
+Activation standardisée du monitoring, des alertes et de lʼobservabilité
+Aide à lʼanalyse de risque à partir de lʼhistorique de défauts, de la couverture et des zones modifiées
+⚠ Pièges courants à éviter
+Piège
+Pourquoi cʼest un problème
+Comment lʼéviter
+Réduire DIFFUSER à un simple déploiement
+On oublie validation, documentation, transfert, rollback et décision.
+Traiter DIFFUSER comme une phase complète avec plusieurs responsabilités distinctes.
+Publier sans notes de livraison complètes
+Les utilisateurs et le support ne savent pas ce qui change ni ce qui est connu.
+Exiger nouveautés, corrections, limitations, contournements et points non couverts.
+Ne pas tester le rollback
+On ne sait pas revenir en
+arrière si la réalité se dégrade.
+Tester le rollback comme un
+livrable de qualité à part entière.
+Transférer au support après la
+livraison
+CARE découvre la version
+trop tard et perd du temps en réaction.
+Compléter le transfert avant la
+publication réelle.
+Décision Go / No-Go informelle
+La responsabilité est floue et les preuves sont insuffisamment consolidées.
+Formaliser la décision avec critères, preuves, rôles et dérogations documentées.
+Confondre DIFFUSER et CONFIRMER
+Rendre disponible nʼest pas encore prouver la valeur réelle en usage.
+Rappeler que DIFFUSER rend réel de façon contrôlée, puis CONFIRMER vérifie les promesses en conditions réelles.
+➡ Quand la cérémonie est réussie
+La cérémonie de diffusion est réussie lorsque la version est assemblée, validée, packagée,
+déployable, documentée, transférée, observable et réversible, et quʼune décision Go / No-Go fondée sur des preuves a été prise. Le résultat attendu est une version réellement diffusable, prête à être confirmée ensuite dans la réalité dʼusage.
+On ne peut pas bien confirmer ce quʼon nʼa pas bien diffusé. Et on ne peut pas
+bien diffuser ce quʼon nʼa pas bien implémenté.
+Références
+Comment diffuser — La référence complète de la phase DIFFUSER.
+Cérémonie dʼimplémentation — La cérémonie précédente qui prépare lʼentrée en diffusion.
+Comment confirmer — La phase suivante, centrée sur la confirmation en conditions réelles.

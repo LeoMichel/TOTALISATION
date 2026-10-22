@@ -1,0 +1,145 @@
+﻿Comment éliciter
+ÉLICITER sert à transformer des signaux dispersés — demandes clients, incidents, métriques, observations terrain et orientations produit — en besoins compris, traçables et prêts à être formalisés. Cette phase protège le SDLC contre les solutions prématurées en clarifiant dʼabord le problème, sa source, son impact et les hypothèses à valider.
+Note terminologique. Cette page décrit la phase ÉLICITER dans son contexte opérationnel. Pour les définitions de référence des termes utilisés ici — signal, besoin, spécification, traçabilité, SENSE, FORGE, CARE, qualimétrie, backlog, partie prenante et rôles — se référer au Lexique / Terminologies. Les descriptions locales doivent préciser lʼusage dans cette phase, sans redéfinir les termes différemment.
+🎯 Objectif de la phase ÉLICITER
+Lʼélicitation est la toute première phase du SDLC: cʼest le moment où lʼon recueille, comprend et consigne les besoins bruts avant même de les spécifier. Lʼobjectif nʼest pas de définir la solution, mais de faire émerger le vrai besoin et de sʼassurer quʼil est suffisamment compris pour être transmis à la phase DÉFINIR.
+« On ne peut pas bien définir ce quʼon nʼa pas bien élicité. »
+📥 Les sources dʼélicitation
+Les besoins ne viennent pas dʼun seul endroit. Il faut multiplier les canaux pour capter les signaux.
+Source
+Exemples concrets
+Client / utilisateur
+Demandes de support, retours terrain, cas
+dʼusage rapportés par les ingénieurs dʼapplication.
+Support et incidents
+Tickets, bugs récurrents, crash reports, irritants
+répétés.
+Qualimétrie / signaux
+Métriques Grafana, tendances SonarQube, taux de défauts par version, DORA metrics.
+Stratégie et marché
+Roadmap produit, positionnement concurrentiel, orientations de la direction.
+Amélioration continue
+Retours post-livraison, rétrospectives, constats
+de la phase CARE, dette technique identifiée.
+Voix du client automatisée
+Plateforme de type UserVoice, sondages, mécanismes de feedback intégrés à lʼapplication.
+🛠 Les techniques dʼélicitation
+1. Entrevues et conversations dirigées
+Rencontrer les parties prenantes — client, support, PO, développement, QA —individuellement ou en petit groupe.
+Poser des questions ouvertes : « Quʼest-ce qui vous empêche de… ? », « Que se passe-t-il
+quand… ? »
+Ne pas chercher immédiatement la solution : commencer par comprendre le problème vécu.
+2. Observation et immersion
+Observer lʼutilisateur dans son contexte réel dʼutilisation.
+Identifier les comportements non documentés, les contournements et les irritants.
+Utiliser les observations pour alimenter des cas concrets et mieux comprendre les impacts.
+3. Ateliers dʼélicitation collaborative
+Réunir les rôles SENSE, FORGE et CARE autour dʼun cas concret.
+Utiliser des techniques comme lʼEvent Storming, le User Story Mapping ou lʼExample Mapping.
+Faire émerger les règles, exemples, questions ouvertes et zones dʼincertitude.
+4. Analyse des données et signaux
+Consulter les métriques avant dʼéliciter : « Quʼest-ce qui nous indique quʼil y a un risque ou
+une opportunité ? »
+Utiliser les signaux pour orienter les questions et révéler des besoins implicites.
+Exemples : taux de défauts par module, fréquence des régressions, temps moyen de résolution.
+5. Analyse documentaire et rétro-ingénierie
+Relire les tickets existants, incidents, notes de version et décisions passées.
+Extraire les besoins implicites des bugs récurrents ou des demandes répétées.
+Transformer les constats en besoins formulés et traçables.
+6. Prototypage et maquettage rapide
+Esquisser un flux, un écran ou un diagramme pour valider la compréhension.
+Utiliser le prototype comme outil de conversation, pas comme solution finale.
+Valider rapidement si les parties prenantes reconnaissent leur problème dans la représentation proposée.
+7. Utilisation de lʼIA comme levier
+Soumettre un corpus de tickets, incidents ou commentaires à lʼIA pour faire émerger des tendances.
+Générer des questions dʼélicitation à partir dʼun contexte produit.
+Valider la complétude dʼune liste de besoins en confrontant plusieurs angles de lecture.
+✅ Critères de sortie
+Lʼélicitation est suffisamment avancée lorsque :
+Les besoins bruts sont recueillis et consignés.
+La source de chaque besoin est identifiée.
+Les signaux qualimétrie ont été analysés et les constats sont documentés.
+Les priorités sont établies : ce qui entre en DÉFINIR et ce qui reste au backlog.
+Les besoins sont suffisamment compris pour être transmis à DÉFINIR.
+La compréhension du besoin est validée par la source, lʼutilisateur ou le spécialiste concerné.
+⚠ Pièges courants à éviter
+Piège
+Pourquoi cʼest un problème
+Comment lʼéviter
+Sauter directement à la solution
+On risque de spécifier quelque chose que personne nʼa vraiment demandé.
+Reformuler le problème avant de parler de solution.
+Éliciter avec un seul rôle
+La vision est partielle et les
+angles morts sont nombreux.
+Impliquer SENSE, FORGE et
+CARE dès lʼélicitation.
+Ne pas documenter la source
+Il devient difficile de valider plus tard si le besoin est bien compris.
+Associer chaque besoin à une source traçable.
+Confondre ÉLICITER et DÉFINIR
+On commence à spécifier trop tôt, sans avoir validé le besoin.
+Garder la distinction : ÉLICITER = comprendre ; DÉFINIR = formaliser.
+Ignorer les signaux qualimétrie
+On rate les besoins que personne ne formule, mais que les données révèlent.
+Consulter les métriques et signaux avant les ateliers.
+👥 Qui fait quoi
+Rôle
+Contribution à l'élicitation
+Product Owner / Product Manager
+Porte la vision produit, priorise les besoins et valide la pertinence stratégique.
+Ingénieur d'application / Support
+Remonte les irritants terrain, les cas d'usage
+réels et les demandes clients.
+Développeur / Tech Lead
+Évalue la faisabilité technique préliminaire, identifie les contraintes et la dette existante.
+QA / Testeur
+Apporte les signaux qualimétrie, les régressions récurrentes et les angles morts de couverture.
+Architecte
+Identifie les impacts transversaux, les dépendances système et les risques d'intégration.
+UX / Designer
+Observe les comportements utilisateur et propose des maquettes exploratoires pour valider la compréhension.
+Scrum Master / Coach
+Facilite les ateliers, s'assure que tous les rôles sont entendus et que le besoin reste au centre.
+📊 Métriques et signaux
+Métrique / Signal
+Ce qu'elle révèle
+Source
+Nombre de besoins élicités par source
+Diversité des canaux d'écoute — un seul canal dominant indique un angle mort.
+Jira / backlog
+Taux de besoins rejetés en DÉFINIR
+Qualité de l'élicitation — un taux élevé indique un filtrage insuffisant.
+Jira workflow
+Nombre de besoins sans source traçable
+Risque de besoins fantômes qui ne sont validables par personne.
+Backlog produit
+Délai moyen entre signal et élicitation
+Réactivité du processus — un délai long indique des opportunités manquées.
+Jira dates
+Taux de réouverture post-
+DÉFINIR
+Besoins mal compris qui
+reviennent — signe d'élicitation incomplète.
+Jira workflow
+Signaux qualimétrie consultés
+avant atelier
+Ancrage dans les données —
+zéro signal consulté indique une élicitation par intuition.
+Grafana / SonarQube
+🔄 Lien avec les autres phases
+1 CONFIRMER → signaux, retours, incidents → ÉLICITER → besoins compris → DÉFINIR 2↑                                                                      ↓ 3└──────────────── amélioration continue ←──────────────────────────────┘
+Lʼélicitation nʼest pas un événement isolé : elle est alimentée en continu par les retours terrain, les métriques, les incidents, les apprentissages de livraison et les boucles dʼamélioration continue.
+Références
+SPÉCIFICATION
+Lexique / Terminologies
+Cérémonie dʼélicitation
+Comment définir — phase suivante
+Comment confirmer — phase qui alimente ÉLICITER
+(SDLC) Software Development Life Cycle (officiel)
+Contrat qualité officiel OPAL-RT
+RACI — Rôles et responsabilités
+Qualimétrie officielle OPAL-RT
+Les tests — niveau × interface × angle × type
+Exemples concrets de combinaisons
+Recommandations — enjeux, constats ou lacunes à résoudre / solutionner

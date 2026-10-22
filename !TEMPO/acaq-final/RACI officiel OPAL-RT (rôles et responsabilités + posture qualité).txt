@@ -1,0 +1,556 @@
+﻿RACI officiel OPAL-RT (rôles et responsabilités + posture qualité)
+Conséquences si les rôles Responsable produit, Propriétaire du produit et Chargé de livraison ne sont pas couverts
+Le détail des conséquences et recommandations a été consolidé dans la page Recommandations. Dans cette page RACI, le principe à retenir est simple : même si ces rôles ne sont pas tous des postes à temps plein, leurs responsabilités doivent être explicitement assignées dans la matrice afin dʼéviter quʼelles se déplacent implicitement vers les développeurs, le support, les opérations ou un comité.
+Note terminologique : cette page définit les attributions de responsabilités dans la matrice RACI. Les descriptions de rôles servent à clarifier qui réalise, approuve, est consulté ou est informé dans ce contexte; elles ne remplacent pas les définitions de référence maintenues dans le Lexique / Terminologies.
+📋 Principe de workshop — Cette page est volontairement vivante et conçue comme un exercice de groupe en continu : les responsabilités/tâches restent à gauche et les cellules R, A, C, I contiennent des recommandations initiales en italique, à valider ou ajuster collectivement en workshop.
+La matrice est construite collectivement, mais une fois validée, elle constitue un guide officiel et un engagement de chacun. Les responsabilités peuvent être ajustées selon le contexte — le RACI reste un document vivant — mais chaque ajustement doit être discuté et accepté en équipe, pas contourné silencieusement.
+Structure décisionnelle à 3 niveaux
+Niveau
+Rôle
+Posture
+Stratégique /
+Gouvernance
+Ingénieur du flux de valeur
+(Value Stream Engineer) —personne
+Écoute le comité, prend la décision
+finale et en est imputable (Approuve / autorité finale). Une seule personne imputable.
+Tactique / Délibération
+Portefeuille — comité (Responsable du portefeuille, Responsable du développement, Responsable des opérations)
+Discute, remet en question, vote. Apporte les perspectives affaires, développement et opérations. Rôle de recommandation et de consultation.
+Opérationnel / Coordination
+Chargé de livraison (Delivery Manager) — spécialiste
+Gardien du cycle de développement logiciel (Software Development Life Cycle). Prépare, coordonne, consolide les métriques et signaux. S'assure que tout est fait par les bonnes personnes — ne fait pas à la place, ne comble pas les trous.
+Rôles dans la matrice
+Rôles imputables (colonnes principales)
+Ingénieur du flux de valeur (Value Stream Engineer) — décideur final, imputable de la santé
+du flux de valeur
+Responsable produit (Product Manager) — voix du marché, du client, de la roadmap et des
+priorités business; décide du quoi et du pourquoi
+Propriétaire du produit (Product Owner) — responsable du backlog tactique, des stories, spécifications IF… THEN…, priorisation dʼéquipe et Definition of Ready; décide du découpage et de lʼordre dʼexécution
+Responsable du portefeuille (SENSE) — comité / gouvernance portefeuille; discute,
+challenge, vote et aligne les priorités entre produits et organisations
+Responsable du développement (FORGE) — Responsable du développement, de l'architecture et de la réalisation
+Responsable des opérations (CARE) — Responsable des opérations, du déploiement et du support post-livraison
+Rôles spécialistes (contributeurs)
+Chargé de livraison (Delivery Manager) — Coordinateur et gardien du cycle de développement logiciel complet (ÉLICITER → CONFIRMER)
+Ingénieur en validation — stratégie de test, validation système/intégration, Xray, conformité
+Développeur / Architecte — implémentation, tests unitaires (Definition of Done), testabilité, revue de code
+Support — Assistance client, remontée d'incidents, feedback terrain
+Coach qualité (Quality Coach) — catalyseur des pratiques qualité, accompagne les équipes,
+anime les rétrospectives qualité et challenge les standards sans faire la qualité à la place des équipes
+Coach agile (Agile Coach) — catalyseur des pratiques agiles, facilite la collaboration, les cérémonies, l'amélioration continue et la maturité d'équipe sans gérer à la place des responsables
+Administrateur d'outils (Tooling Admin) — catalyseur de l'outillage Jira, Confluence, Xray,
+SonarQube, pipelines et tableaux de bord; outille les processus sans les définir seul
+Technologies de l'information (Information Technology) — catalyseur des environnements, accès, licences, sécurité et infrastructure nécessaires au bon fonctionnement du SDLC
+Distinction : Responsable produit, Propriétaire du produit et Chargé de livraison
+Rôle
+Question principale
+Décide / possède
+Ne fait pas
+Responsable produit (Product Manager)
+Quoi construire et pourquoi?
+Vision produit, marché, clients, roadmap, priorités business, stratégie de maintenance ou de transition.
+Ne gère pas le backlog quotidien et ne découpe pas toutes les stories.
+Propriétaire du produit (Product Owner)
+Comment découper, clarifier et ordonner le travail pour lʼéquipe?
+Backlog tactique, user stories, spécifications IF… THEN…, Definition of Ready, priorisation dʼéquipe.
+Ne remplace pas la vision marché du Responsable produit et ne devient pas le gardien du processus SDLC.
+Chargé de livraison (Delivery Manager)
+Est-ce que le flux SDLC est respecté et est-ce que la livraison est prête?
+Métriques, signaux, risques, conformité au SDLC, préparation Go / No-Go, coordination des dépendances.
+Ne priorise pas le backlog, ne définit pas la roadmap, ne décide pas seul du contenu produit.
+Note maintenance produit : les rôles Responsable produit et Propriétaire du produit sʼappliquent aussi aux produits en maintenance, comme RT-LAB. Ils peuvent être combinés ou partagés avec un produit successeur, mais les responsabilités doivent être explicitement assignées. Lʼabsence de nouvelles fonctionnalités ne signifie pas lʼabsence de décisions produit : priorisation des correctifs, arbitrage dette technique vs client, communication client, planification de fin de vie et migration restent des décisions produit.
+Matrice RACI
+Les recommandations en italique sont des propositions initiales à valider en workshop. Les
+cellules de la matrice conservent volontairement les abréviations pour rester lisibles et compactes.
+Légende des rôles :
+VSE = Ingénieur du flux de valeur (Value Stream Engineer),
+PM = Responsable produit (Product Manager),
+PO = Propriétaire du produit (Product Owner),
+Port = Responsable du portefeuille / comité Portfolio,
+Dev = Responsable du développement,
+Ops = Responsable des opérations,
+CdL = Chargé de livraison (Delivery Manager),
+IV = Ingénieur en validation,
+D/A = Développeur / Architecte,
+Sup = Support,
+CQ = Coach qualité (Quality Coach),
+CA = Coach agile (Agile Coach),
+AO = Administrateur d'outils (Tooling Admin),
+TI = Technologies de l'information (Information Technology).
+Les lettres R, A, C et I sont conservées pour la matrice, mais signifient : Réalise, Approuve,
+Consulté, Informé.
+Responsabilité / tâche
+Réalise la tâche
+Approuve /
+autorité finale
+Consulté avant
+décision
+Informé des
+résultats
+1. Phases SDLC
+Éliciter les besoins
+Port, Sup
+Port
+Ops, D/A, CdL, IV, CQ
+VSE, Dev
+Animer les sessions de découverte et ateliers avec les
+Port
+Port
+Sup, D/A, IV, Ops, CdL, CQ, CA
+VSE, Dev
+parties prenantes
+Valider la
+compréhension du besoin avec la source, l'utilisateur et les spécialistes concernés
+Port, Sup
+Port
+D/A, IV, Ops,
+CdL, CQ
+VSE, Dev
+Prioriser les
+besoins pour décider ce qui entre en DÉFINIR vs ce qui reste au backlog
+Port
+Port
+VSE, Dev, Ops,
+Sup, CdL
+D/A, IV
+Prioriser les besoins produit et arbitrer roadmap, maintenance, correctifs et dette technique
+PM
+PM
+PO, Port, Sup, Dev, Ops, CdL
+VSE, D/A, IV
+Définir /
+spécifier (SPECIFY)
+Port, IV, D/A
+Port
+Dev, CdL, Sup,
+CQ
+VSE, Ops
+Animer les
+ateliers de modélisation et de spécification avec les parties prenantes concernées
+Port, D/A, IV
+Port
+Dev, Sup, Ops,
+CdL, CQ, CA
+VSE
+Valider le SPECIFY avec la source, l'utilisateur et les spécialistes concernés
+Port, IV, D/A
+Port
+Dev, Sup, Ops, CdL, CQ
+VSE
+Découper les besoins en backlog, stories et spécifications IF… THEN…
+PO
+PO
+PM, D/A, IV, Dev, Sup, CdL, CQ
+VSE, Port, Ops
+Analyser les impacts systèmes et les dépendances inter-produits
+D/A, Dev
+Dev
+Port, Ops, IV, CdL, Sup
+VSE
+Gérer les demandes de changement et l'analyse d'impact
+Port, CdL
+Port
+Dev, Ops, IV, D/A, Sup, VSE
+CQ
+Planifier
+(releases, sprints)
+Dev, CdL
+Dev
+Port, IV, D/A, CA
+VSE, Ops
+Animer les
+sessions de planification avec tous les joueurs concernés
+Dev, CdL
+Dev
+Port, Ops, IV,
+D/A, Sup, CA
+VSE
+Valider la
+Definition of Ready avant l'implémentation
+CdL, Port, Dev
+Dev
+D/A, IV, Sup,
+Ops, CQ
+VSE
+Prioriser le backlog dʼéquipe et ordonner le travail pour les sprints ou le flux Kanban
+PO
+PO
+PM, Dev, D/A, IV, CdL, Sup
+VSE, Port, Ops
+Évaluer les
+risques de planification et les stratégies d'atténuation
+CdL, Dev
+VSE
+Port, Ops, IV,
+D/A, Sup
+CQ, CA
+Implémenter
+D/A
+Dev
+IV, CdL, CQ
+VSE, Port
+Faire les revues
+de code et revues par les pairs
+D/A
+Dev
+IV, CQ
+CdL, VSE
+Valider la Definition of Done avant de clore une story
+D/A
+Dev
+IV, CdL, CQ
+Port, VSE
+Tenir les synchronisation s d'équipe et inter-équipes
+Dev, CdL
+Dev
+Port, Ops, IV, D/A, CA
+VSE
+Diffuser (build
+candidat, staging, release)
+CdL, D/A
+Dev
+IV, Ops
+VSE, Port, Sup
+Réaliser le pair testing développement / opérations sur les zones grises d'intégration
+D/A, Ops, IV
+Dev
+CdL, Sup, CQ
+VSE, Port
+Valider conjointement le build candidat pour diffusion
+CdL, IV, Ops
+Dev
+D/A, Port, Sup
+VSE
+Confirmer (prod,
+post-release, feedback)
+Ops, Sup
+Ops
+CdL, IV, Port
+VSE, Dev
+Activer et
+valider le monitoring et les alertes post-livraison
+Ops, Sup, TI
+Ops
+CdL, Dev, IV
+VSE, Port
+Tenir la rétrospective / Inspect & Adapt post-livraison
+CdL, CA
+VSE
+Port, Dev, Ops, Sup, IV, CQ
+D/A
+2. Standards qualité
+Définir les
+standards de qualité
+IV, CdL, CQ
+VSE
+Dev, Port, D/A
+Ops, Sup
+Rédiger les
+standards de qualité
+IV, CdL, CQ
+VSE
+D/A, Dev
+Port, Ops
+Faire respecter
+les standards de qualité
+CdL, IV, CQ
+VSE
+Dev, Ops
+Port
+Respecter les standards de qualité —périmètre développement
+D/A, IV, CdL
+Dev
+Ops, Port, CQ
+VSE, Sup
+Respecter les standards de qualité —périmètre opérations/supp ort
+Sup, Ops
+Ops
+CdL, IV, CQ
+VSE, Port, Dev
+3. Qualimétrie
+Définir les métriques, règles et seuils de qualité
+IV, CdL, CQ
+VSE
+Dev, Port, D/A
+Ops
+Mettre en place
+et maintenir l'outillage (dashboards, affichage)
+IV, D/A, AO
+Dev
+CdL, Ops, CQ
+VSE, Port
+Investiguer et interpréter les métriques
+IV, CdL
+Dev
+D/A, Ops, CQ
+VSE, Port
+Vulgariser et communiquer la santé du produit
+CdL
+VSE
+IV, Dev, CQ
+Port, Ops, Sup
+4. Spécifications
+Définir les spécifications (SPECIFY)
+Port, D/A
+Port
+IV, Dev, Sup, CQ
+VSE, CdL
+Rédiger les spécifications
+D/A, IV
+Port
+Dev, Sup, CQ
+VSE, CdL
+Exécuter la validation des spécifications
+IV, D/A
+Dev
+Port, CdL, CQ
+VSE, Ops
+Déterminer les jeux de données de spécification
+IV, D/A
+Dev
+Port, Sup, CQ
+VSE, CdL
+5. Intégration et déploiement
+Intégrer les composants / features
+D/A
+Dev
+IV, CdL, CQ
+VSE, Port, Ops
+Installer / déployer le produit dans les environnements
+D/A, Ops, TI
+Ops
+CdL, Dev, AO
+VSE, Port, Sup
+6. Feedback client et support
+Recueillir le feedback client / utilisateur
+Sup, Port
+Ops
+CdL, CQ
+VSE, Dev
+Assister le client / utilisateur
+Sup
+Ops
+D/A, CdL
+VSE, Port, Dev
+Communiquer
+les retours d'incident vers le client
+Sup
+Ops
+CdL, Dev, Port
+VSE
+Prévenir les utilisateurs des changements et risques connus
+CdL, Sup
+Port
+Dev, Ops
+VSE
+7. Automatisation
+Définir et prioriser la
+IV, D/A
+Dev
+CdL, Port, CQ, AO
+VSE, Ops
+stratégie d'automatisation
+Automatiser les
+tests de spécifications
+IV, D/A
+Dev
+CdL, CQ, AO
+VSE, Port
+Maintenir et
+améliorer l'automatisation des tests
+IV, D/A, AO
+Dev
+CdL, CQ
+VSE
+Définir la stratégie CI/CD et la promotion de branches
+D/A, AO
+Dev
+IV, CdL, Ops, TI
+VSE
+Investiguer les
+échecs d'exécution automatisée
+D/A, IV, AO
+Dev
+CdL, CQ
+VSE
+8. Gouvernance (Go / No-Go)
+Définir les
+niveaux de risque acceptables Go / No-Go
+CdL, IV, CQ
+VSE
+Port, Dev, Ops
+D/A, Sup
+Préparer le
+dossier Go / No-Go (métriques, signaux, risques, dérogations)
+CdL
+VSE
+IV, Dev, Ops, CQ
+Port
+Discuter et voter
+sur le Go / No-Go (comité Portfolio)
+Port, Dev, Ops
+VSE
+CdL, IV, CQ
+D/A, Sup
+Décider du Go / No-Go (décision finale)
+VSE
+VSE
+Port, Dev, Ops, CdL, IV
+D/A, Sup, CQ
+Évaluer et autoriser une dérogation qualité
+CdL, IV, CQ
+VSE
+Port, Dev, Ops
+Sup
+9. Gestion de la livraison
+Valider les
+critères de sortie entre chaque phase SDLC
+CdL
+VSE
+IV, Port, Dev,
+Ops, CQ
+D/A, Sup
+Coordonner les dépendances inter-équipes et inter-produits
+CdL
+Dev
+Port, Ops, D/A, CA
+VSE
+Établir et
+maintenir le plan de release
+CdL
+Dev
+Port, Ops, IV
+VSE, Sup
+Suivre
+l'avancement et signaler les écarts
+CdL
+Dev
+D/A, IV, CA
+VSE, Port, Ops
+Consolider les
+métriques et signaux pour la prise de décision
+CdL
+VSE
+IV, Dev, Ops, CQ
+Port
+Valider la
+conformité du build candidat
+CdL, IV
+VSE
+D/A, Dev, Ops,
+CQ
+Port
+(gating / checklist)
+Préparer le
+comité Go / No-Go (signaux, risques, dérogations)
+CdL
+VSE
+IV, Dev, Ops, CQ
+Port
+Compléter le
+handover technique vers CARE / opérations
+CdL, D/A
+Dev
+Ops, Sup, TI
+VSE, Port
+S'assurer que le support est informé et prêt post-livraison
+CdL
+Ops
+Sup, Dev
+VSE, Port
+Acheminer les
+retours post-livraison vers le backlog ÉLICITER
+CdL, Sup
+Port
+Ops, Dev, CQ
+VSE
+Rédiger et
+valider les notes de livraison (release notes)
+Port
+Port
+CdL, Dev, IV
+VSE, Ops, Sup
+10. Habilitation et outillage
+Former et accompagner les équipes sur les pratiques qualité
+CQ
+VSE
+CdL, IV, Dev
+Port, Ops, Sup
+Former et
+accompagner
+CA
+VSE
+CdL, Dev, Port,
+Ops
+IV, Sup
+les équipes sur les pratiques agiles
+Administrer et configurer Jira, Confluence, Xray, SonarQube et tableaux de bord
+AO
+Dev
+CdL, IV, CQ, CA
+VSE, Port, Ops
+Maintenir les pipelines, intégrations d'outils et automatisations de support au SDLC
+AO, D/A
+Dev
+CdL, IV, Ops, TI
+VSE, Port
+Fournir et
+maintenir les environnements, accès, licences et infrastructure nécessaires
+TI, Ops
+Ops
+AO, CdL, Dev
+VSE, Port, Sup
+Identifier les
+irritants d'outillage et proposer des améliorations
+CdL, CQ, CA,
+AO
+VSE
+Dev, Ops, Port,
+IV, Sup, TI
+D/A
+11. Collaboration transversale anti-silo
+Tenir les revues
+de phase avec toutes les parties
+CdL
+VSE
+Port, Dev, Ops,
+IV, Sup, CQ, CA
+D/A
+concernées avant transition
+Maintenir les
+synchronisation s inter-équipes régulières
+CdL, CA
+Dev
+Port, Ops, IV,
+Sup
+VSE, CQ
+Assurer la communication SENSE / FORGE / CARE à chaque transition
+CdL
+VSE
+Port, Dev, Ops, Sup, IV
+D/A, CQ, CA
+Documenter les décisions d'ateliers, hypothèses, risques et arbitrages
+CdL, Port
+VSE
+Dev, Ops, IV, Sup, CQ
+D/A, CA
+S'assurer que
+chaque rôle concerné est invité, participe et comprend son engagement
+CdL, CA
+VSE
+Port, Dev, Ops,
+IV, Sup, CQ
+D/A
+SDLC officiel OPAL-RT — le cycle de vie de référence dans lequel les responsabilités RACI sʼappliquent.
+Contrat qualité officiel OPAL-RT — les standards, critères et exigences qualité à soutenir par
+les responsabilités.
+Qualimétrie officielle OPAL-RT — la présentation officielle de la mesure de la qualité et des
+signaux utilisés pour piloter les décisions.
+Les métriques de la qualimétrie — le référentiel opérationnel des KPI qualité, sources et statuts dʼimplantation.
+SPÉCIFICATION — les pratiques de définition et de spécification que la matrice RACI encadre.
+Les tests — les pratiques de validation, automatisation et confirmation soutenues par les rôles RACI.
+Formation continue — le parcours dʼadoption et dʼaccompagnement des pratiques SDLC,
+qualité, spécification et tests.
+Lexique / Terminologies — définitions de référence des rôles, responsabilités et termes
+utilisés dans la matrice.

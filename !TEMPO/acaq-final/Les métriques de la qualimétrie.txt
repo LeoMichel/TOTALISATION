@@ -1,0 +1,428 @@
+﻿Les métriques de la qualimétrie
+Note terminologique : cette page est la référence de travail pour la définition, le choix, lʼimplantation et le bilan des KPI de qualité, peu importe lʼoutil utilisé pour les mesurer ou les présenter : Grafana, Power BI, Excel, Jira, Xray, SonarQube, Prometheus ou autre. Pour les définitions de référence des termes utilisés ici — métrique, KPI, qualimétrie, seuil, tendance, couverture, validation, observabilité, log, trace, incident, dette technique, SLA/SLO, MTTR, DORA, CI/CD, backlog et rôles — voir le Lexique / Terminologies.
+La page Qualimétrie officielle OPAL-RT sert davantage à présenter la qualimétrie, son
+intention, sa portée organisationnelle et sa lecture globale. La présente page sert plutôt à documenter concrètement quelles métriques existent, pourquoi elles ont été choisies, comment elles sont calculées, où elles sont implémentées et si elles sont utilisables.
+Cette page remplace lʼidée dʼun guide uniquement « Grafana » par un référentiel opérationnel des KPI de qualité. Grafana peut demeurer le board principal lorsque disponible, mais les KPI peuvent aussi provenir de Power BI, Excel, Jira, Xray, SonarQube, exports manuels contrôlés ou tout autre outil pertinent. Lʼimportant est de garder une définition commune, une source claire, un propriétaire, un statut dʼimplantation et une lecture utile pour les décisions qualité.
+Positionnement de cette page
+Le référentiel doit rester aligné sur les codes de métriques de la qualimétrie : STAB, QUAL, DEL,
+SUP, UX, XRAY, VAL, FLOW, FB, CONF, CODE, SEC, ENV, DEP et ARCH. Si une métrique nʼest pas encore claire, elle doit être élicitée, définie et priorisée avant dʼêtre ajoutée comme KPI officiel. Cette page documente donc le cycle complet : besoin de mesure → définition → source → outil → statut → bilan dʼutilisation.
+Architecture cible multi-outils
+Vision simple recommandée, indépendante de lʼoutil de visualisation :
+1 [Sources OPAL-RT] 2↓
+3 [Collecte automatisée ou contrôlée : API, exports, exporters, webhooks, fichiers maîtrisés] 4↓
+5 [Stockage / préparation : Prometheus, PostgreSQL, data mart, Excel contrôlé au besoin] 6↓
+7 [Visualisation : Grafana, Power BI, Excel, Jira dashboards, rapports Confluence] 8↓
+9 [Revues SDLC, contrats qualité, décisions Go / No-Go, amélioration continue]
+Conseil clé : privilégier lʼautomatisation via Prometheus, SonarQube API, Jira API, Xray API, pipelines CI/CD ou connecteurs Power BI lorsque possible. Utiliser Excel, PostgreSQL ou une source contrôlée seulement pour les données qui ne sont pas encore automatisables, avec un propriétaire clair, une fréquence de mise à jour et une cible dʼautomatisation.
+Positionnement : cette page est le référentiel opérationnel des KPI de qualité. Elle centralise les définitions, formules, sources, seuils, propriétaires, statuts dʼimplantation et bilans dʼusage. Elle alimente notamment la Cérémonie de la qualimétrie, où les indicateurs sont revus, interprétés et transformés en actions, décisions ou signaux à retourner vers les phases appropriées du SDLC.
+Contenu KPI à centraliser dans cette page
+Cette page devrait centraliser lʼensemble du référentiel KPI qualité, peu importe que la visualisation finale soit faite dans Grafana, Power BI, Excel, Jira, Xray, SonarQube, Prometheus ou un autre outil.
+Élément à centraliser
+Ce qui doit être documenté ici
+Catalogue de métriques
+Code, nom, objectif, justification, formule, seuils, source, visualisation, applicabilité et statut dʼimplantation
+Sources détaillées
+Jira, Xray, logs, observabilité, support,
+feedback tools, Git, CI/CD, SonarQube, sécurité, infrastructure, dépendances, architecture
+Scorecards et indicateurs synthétiques
+Score global qualité, pondérations, normalisation 0–100, tendances 7/30 jours et règles dʼinterprétation
+Bilan dʼimplantation
+Ce qui est déjà implémenté, partiellement disponible, manuel, à automatiser, expérimental ou non retenu
+Bilan dʼusage
+Quels KPI sont réellement utilisés en revue qualité, en Go/No-Go, en support, en stabilisation ou en amélioration continue
+Implication : la page Qualimétrie officielle OPAL-RT pourra alors se concentrer sur la vision, lʼintention, la portée, la culture qualité et la lecture organisationnelle de la qualimétrie, tandis que la présente page portera le contenu détaillé des KPI.
+Sources à connecter en priorité
+Famille de métriques
+Codes Qualimétrie
+Sources recommandées
+Usage Grafana
+Stabilité produit
+STAB, STAB-S
+Prometheus, logs applicatifs, télémétrie produit, Jira incidents
+Crash rate, error rate, availability, latency, tendances de stabilisation
+Qualité générale et tests
+QUAL
+Xray, CI/CD, Jira bugs, rapports de tests
+Tests OK, régression, bugs échappés, flaky tests, automatisation
+Delivery
+DEL
+Jira, CI/CD, release logs, incidents
+DORA, lead time, cycle time, rollback rate, change failure rate
+Support
+SUP
+Jira Service Management, Jira incidents, support
+Incidents, MTTR support, incidents critiques
+Spécifications et validation
+XRAY, CONF
+Xray, Jira, Confluence, checklists de release
+Couverture spécifications, testabilité, traçabilité, conformité DoD, Go/No-Go documenté
+Qualité du code
+CODE
+SonarQube, linters CI,
+rapports dʼanalyse statique
+Complexité,
+duplication, code smells, coverage, dette technique
+Sécurité technique
+SEC
+SonarQube, SAST/SCA/DAST disponibles, Jira sécurité
+Vulnérabilités, MTTR sécurité, dépendances vulnérables
+Environnements et infrastructure
+ENV
+CI/CD, Docker, Kubernetes, IaC, Prometheus
+Parité, provisioning, échecs de déploiement, build success rate
+Dépendances et tiers
+DEP
+SBOM, package
+managers, monitoring, Jira
+Dépendances
+critiques, mises à jour, incidents tiers
+Architecture et dette
+ARCH
+Jira, SonarQube, revues architecture, Git
+Dette backlog, couplage/cohésion, coût de qualité, rigidité architecturale
+Feedback et valeur
+produit
+UX, VAL, FB
+Télémétrie produit,
+enquêtes, feedback tools, Jira, support
+Adoption, satisfaction,
+usage feature, feedback traité, boucle dʼamélioration
+Registre détaillé des KPI de qualité
+Cette section est le registre principal des métriques et informations KPI de qualité. Lʼobjectif est
+de conserver ici la définition opérationnelle des indicateurs, peu importe lʼoutil utilisé pour les afficher ou les exploiter.
+Question directrice : avant dʼajouter ou de promouvoir une métrique comme KPI officiel, se demander : « quʼest-ce qui fait que lʼon pense que cela représente un risque pour la qualité ? » La réponse aide à choisir la bonne mesure, le bon seuil, la bonne source et la bonne action attendue.
+Légende applicabilité : 🖥 Desktop/natif · 🌐 Web/SaaS · 📱 Mobile · 🔄 Universel · ⚠ Avec nuance
+Structure de référence des familles KPI
+1. Stabilité
+2. Qualité générale
+3. Delivery
+4. Support
+5. Expérience utilisateur
+6. Spécifications et validation Xray
+7. Valeur produit
+8. Flow SDLC
+9. Feedback et amélioration
+10. Stabilisation / mode maintenance
+11. Contrat qualité, standards et conformité
+12. Qualité du code, sécurité, environnements, dépendances, architecture et dette technique
+1. Stabilité — STAB
+Code
+KPI
+Plateforme
+Source / formule
+Objectif et seuils
+STAB-01
+Crash rate
+🖥 📱
+Logs — crash / sessions
+Mesurer les interruptions critiques utilisateur. <1% bon | 1–3% moyen | >3% critique.
+STAB-02
+Error rate
+🔄
+Logs — erreurs /
+volume total
+Détecter les
+anomalies fréquentes. Tendance à surveiller selon le contexte.
+STAB-03
+Crash-free sessions
+🖥 📱
+Sentry, Crashlytics, logs
+Mesurer la stabilité perçue. >99% excellent | <95% critique.
+STAB-04
+Startup time
+🖥 🌐
+Cold start, TTFB, LCP
+Mesurer la performance initiale. p95 <3s bon | >5s à améliorer.
+STAB-05
+Latency p95
+🔄
+APM, API, timers UI
+Mesurer la performance des actions clés. Prioriser la stabilité du p95.
+STAB-06
+MTBF
+🔄
+Logs / monitoring — temps moyen entre deux pannes
+Augmenter la fiabilité. Tendance croissante attendue.
+STAB-07
+Availability
+SLA/SLO
+🔄
+Monitoring /
+Prometheus —uptime / total time
+Garantir la
+disponibilité. >99.9% bon | <99.5% critique.
+STAB-08
+Apdex score
+🔄
+APM / monitoring custom
+Mesurer la satisfaction performance. >0.85 bon | <0.7 problématique.
+2. Qualité générale — QUAL
+Code
+KPI
+Source / formule
+Objectif et seuils
+QUAL-01
+Bugs échappés
+Jira prod bugs
+Réduire les bugs en production. <10% bon | 10–20% moyen | >20% problématique.
+QUAL-02
+Régression
+Jira / tests / incidents
+Détecter lʼinstabilité. Tendance décroissante attendue.
+QUAL-03
+Tests OK
+Xray passed / total
+Mesurer la qualité du build. >95% bon | <90% critique.
+QUAL-04
+Densité de bugs
+Bugs / KLOC ou par livrable
+Mesurer la qualité du code. <1 bug/KLOC bon | 1–3 moyen | >3 critique, à ajuster.
+QUAL-05
+Test effectiveness
+Bugs trouvés en test /
+total bugs
+Évaluer la qualité des
+tests. >70% bon | 50–70% moyen | <50% critique.
+QUAL-06
+Flaky test rate
+CI / historique tests —
+tests instables / total
+Restaurer la confiance
+dans les tests. <2% cible | >5% problématique.
+QUAL-07
+Test automation rate
+Xray / référentiel QA — tests automatisés / total
+Augmenter la maturité QA. >70% cible | <40% faible maturité.
+QUAL-08
+Escaped defect severity distribution
+Jira prod bugs par sévérité
+Prioriser les défauts graves. 0 critique cible | tendance high décroissante.
+3. Delivery — DEL
+Code
+KPI
+Source / formule
+Objectif et seuils
+DEL-01
+Fréquence livraison
+Jira / CI — releases /
+semaine
+Augmenter la
+cadence. >1/sem bon | <1/mois lent.
+DEL-02
+Lead time
+Jira — created →
+deployed
+Réduire le temps pour
+livrer la valeur. <5j bon | 5–10j moyen | >10j lent.
+DEL-03
+Cycle time
+Jira — in progress → done
+Fluidifier le développement. Tendance décroissante.
+DEL-04
+Batch size
+Jira / Git — taille
+features / release
+Réduire la taille des
+lots. Petites releases privilégiées.
+DEL-05
+Change Failure Rate
+CI/CD / Jira —déploiements causant incident / total
+Mesurer la fiabilité des releases. <15% bon | >30% problématique.
+DEL-06
+Time to Restore Service
+Monitoring / incidents / postmortems
+Réduire le temps de restauration. <1h bon | >24h critique selon contexte.
+DEL-07
+Rollback rate
+CI/CD / release logs
+— rollbacks / déploiements
+Réduire les retours
+arrière. <5% bon | >10% problématique.
+4. Support — SUP
+Code
+KPI
+Source / formule
+Objectif et seuils
+SUP-01
+Incidents
+Jira — incidents /
+période
+Réduire la fréquence
+des incidents. Tendance décroissante.
+SUP-02
+MTTR support
+Jira — ticket support créé → résolu
+Mesurer la réactivité support. <1j bon | >3j lent.
+SUP-03
+Taux incidents critiques
+Jira — incidents critiques / total
+Réduire les incidents majeurs. <5% bon.
+5. Expérience utilisateur — UX
+Code
+KPI
+Source
+Objectif et seuils
+UX-01
+CSAT / NPS
+Enquête
+Améliorer la satisfaction. CSAT >80% bon. Voir FB-13 et FB-14 pour le détail.
+UX-02
+Customer effort score
+Enquête
+Réduire lʼeffort
+utilisateur. CES <3 bon sur 1–7 | >5 problématique.
+UX-03
+Temps réponse perçu
+Logs / télémétrie UX
+Améliorer la rapidité perçue. p95 stable faible.
+6. Spécifications et validation — XRAY
+Code
+KPI
+Objectif et seuils
+XRAY-01
+Couverture des spécifications
+Couvrir toutes les spécifications. >90% bon.
+Executive Summary : score global 0–100, tendance 7/30 jours, incidents actifs, alertes
+critiques, statut Go/No-Go qualité.
+Stabilité — STAB / STAB-S : crash rate, error rate, availability, latency p95, MTBF, stabilisation en mode maintenance.
+Qualité & tests — QUAL / XRAY : tests OK, couverture spécifications, régression, testability, flaky tests, automation rate.
+Delivery — DEL : fréquence de livraison, lead time, cycle time, change failure rate, time to restore service, rollback rate.
+Support — SUP : incidents, MTTR support, incidents critiques, tendances post-release.
+Conformité contrat qualité — CONF : SPECIFY, Go/No-Go documenté, release notes, DoD, traçabilité, documentation livrée.
+Code & dette — CODE / ARCH : complexité, duplication, code smells, coverage, ratio dette
+technique, dette backlog.
+Sécurité, environnements et dépendances — SEC / ENV / DEP : vulnérabilités, CI build
+success rate, déploiements échoués, dépendances vulnérables, incidents tiers.
+Valeur, UX et feedback — UX / VAL / FB : adoption versions, usage features, CSAT/NPS, feedback loop time, feedback → roadmap.
+Scorecard globale alignée sur Qualimétrie
+Formule pondérée recommandée :
+1 Score global =
+2 15% Delivery (DEL / DORA)
+3 + 20% Qualité code (CODE / SonarQube) 4 + 15% Santé produit (STAB)
+5 + 15% Sécurité (SEC)
+6 + 10% Maturité équipe et flow (FLOW)
+7 + 10% Environnements et infrastructure (ENV) 8 +  5% Dépendances et 3rd party (DEP)
+9 + 10% Conformité aux standards (CONF)
+Ramener chaque KPI sur une échelle 0–100.
+Afficher la valeur actuelle, la tendance 7 jours et la tendance 30 jours.
+Utiliser les seuils de la page Qualimétrie lorsquʼils existent.
+Déclencher une discussion lorsque le score se dégrade, plutôt que traiter le score comme une vérité absolue.
+Repères visuels recommandés : 🔴 <50 critique | 🟡 50–75 moyen | 🟢 >75 sain.
+Astuce Grafana : utiliser les Transformations, Field calculations et variables de dashboard pour agréger les scores. Pour les calculs plus complexes ou historiques, préférer une table PostgreSQL préparée par un ETL léger.
+Exemples de requêtes de départ
+Prometheus — STAB-02 Error rate
+1 sum(rate(http_requests_total{status=~"5.."}[5m])) 2 /
+3 sum(rate(http_requests_total[5m]))
+Prometheus — STAB-05 Latency p95
+1 histogram_quantile( 2 0.95,
+3 sum(rate(http_request_duration_seconds_bucket[5m])) by (le, service) 4 )
+SQL — DEL-02 Lead time
+1 SELECT
+2 avg(deployed_at - created_at) AS lead_time 3 FROM jira_work_items
+4 WHERE deployed_at IS NOT NULL
+5 AND issue_type IN ('Story', 'Bug', 'Feature');
+SQL — DEL-03 Cycle time
+1 SELECT
+2 avg(done_at - in_progress_at) AS cycle_time 3 FROM jira_work_items
+4 WHERE done_at IS NOT NULL
+5 AND in_progress_at IS NOT NULL;
+SQL — CONF-02 Taux de Go/No-Go documenté
+1 SELECT
+2 100.0 * count(*) FILTER (WHERE go_no_go_documented = true) / count(*) AS go_no_go_documentation_rate
+3 FROM releases
+4 WHERE release_date >= current_date - interval '90 days';
+SonarQube API — CODE-04 Coverage tests
+1 /api/measures/component? component=PROJECT_KEY&metricKeys=coverage,line_coverage,branch_coverage
+SonarQube API — CODE-02 / CODE-03 / CODE-05
+1 /api/measures/component? component=PROJECT_KEY&metricKeys=duplicated_lines_density,code_smells,sqale_index,sqale_debt_ ratio
+Intégration des sources
+SonarQube : utiliser lʼAPI REST ou un plugin Grafana compatible pour alimenter les métriques CODE et une partie de SEC.
+Jira : utiliser lʼAPI REST, un export planifié ou une base intermédiaire pour les métriques DEL,
+SUP, FLOW, ARCH et CONF.
+Xray : connecter les données dʼexécution, de couverture et de traçabilité pour XRAY, QUAL et
+CONF.
+CI/CD : connecter les pipelines disponibles pour les taux de succès, déploiements, rollback, tests automatisés et preuves DoD.
+Prometheus : privilégier Prometheus pour les métriques de disponibilité, latence, erreurs, infrastructure et services instrumentés.
+Docker / Kubernetes : exposer les métriques dʼenvironnements, déploiements et ressources
+lorsque les produits ou environnements concernés les utilisent.
+Logs et traces : utiliser Loki, OpenTelemetry ou la solution disponible pour relier erreurs,
+incidents, latence et usage réel.
+Données manuelles contrôlées : tolérées au départ pour les métriques non automatisées, mais chaque donnée manuelle devrait avoir un propriétaire, une fréquence de mise à jour et une cible dʼautomatisation.
+Règles de nommage recommandées
+Nommer les panneaux avec le code de métrique en premier : DEL-02 — Lead time, CODE-
+04 — Coverage tests, CONF-05 — Traçabilité spécifications → validations → résultats.
+Afficher la source dans la description du panneau : Jira, Xray, SonarQube, Prometheus,
+CI/CD, Support, etc.
+Afficher la formule ou le lien vers la requête lorsque possible.
+Indiquer les seuils utilisés et préciser sʼils proviennent de la page Qualimétrie ou dʼun
+ajustement propre au produit.
+Éviter les panneaux anonymes comme « qualité », « performance » ou « santé » sans code de
+référence.
+Bonnes pratiques critiques
+1. Commencer petit : prioriser quelques métriques utiles plutôt quʼun dashboard complet mais
+non maintenu.
+2. Relier chaque panneau à une décision : si personne ne sait quoi faire avec un KPI, il nʼest
+pas encore utile.
+3. Normaliser les scores : ramener les KPI synthétiques sur une échelle 0–100, tout en conservant la métrique brute accessible.
+4. Privilégier les tendances : afficher 7 jours et 30 jours plutôt quʼun simple snapshot.
+5. Définir des seuils visibles : rouge = critique, jaune = à surveiller, vert = sain, selon les seuils
+de Qualimétrie.
+6. Assigner un ownership : chaque KPI doit avoir un propriétaire de donnée et un circuit dʼaction, conformément à la matrice RACI.
+7. Documenter les exceptions : une métrique absente, manuelle ou incomplète doit être visible plutôt que masquée.
+8. Réviser régulièrement : un dashboard de qualimétrie doit évoluer avec les risques qualité, les produits et la maturité de collecte.
+Inventaire global des familles KPI
+Ce tableau sert dʼindex global pour sʼassurer que toutes les familles de KPI qualité sont visibles dans le référentiel. Les métriques détaillées au-dessus peuvent être complétées progressivement par famille, selon leur maturité, leur source et leur usage réel.
+Famille
+KPI à documenter ici
+STAB — Stabilité
+STAB-01 Crash rate; STAB-02 Error rate; STAB-03 Crash-free sessions; STAB-04 Startup time; STAB-05 Latency p95; STAB-06 MTBF; STAB-07 Availability SLA/SLO; STAB-08 Apdex score.
+QUAL — Qualité générale
+QUAL-01 Bugs échappés; QUAL-02
+Régression; QUAL-03 Tests OK; QUAL-04 Densité de bugs; QUAL-05 Test effectiveness; QUAL-06 Flaky test rate; QUAL-07 Test automation rate; QUAL-08 Escaped defect severity distribution.
+DEL — Delivery
+DEL-01 Fréquence livraison; DEL-02 Lead time;
+DEL-03 Cycle time; DEL-04 Batch size; DEL-05 Change Failure Rate; DEL-06 Time to Restore Service; DEL-07 Rollback rate.
+SUP — Support
+SUP-01 Incidents; SUP-02 MTTR support; SUP-03 Taux incidents critiques.
+UX — Expérience utilisateur
+UX-01 CSAT / NPS; UX-02 Customer effort
+score; UX-03 Temps réponse perçu.
+XRAY — Spécifications
+XRAY-01 Couverture des spécifications; XRAY-02 Complétude specs; XRAY-03 Testability; XRAY-04 Shift-left; XRAY-05 Drift des specs; XRAY-06 Couverture BPMN.
+VAL — Valeur produit
+VAL-01 Adoption versions; VAL-02 Features utilisées; VAL-03 Time to First Value; VAL-04 Items abandonnés.
+FLOW — Flow SDLC
+FLOW-01 Flow efficiency; FLOW-02 Work item age; FLOW-03 Blocker rate; FLOW-04 Temps par étape; FLOW-05 PR review time; FLOW-06 Bus factor; FLOW-07 Employee NPS / satisfaction; FLOW-08 Velocity stabilité; FLOW-09 Developer onboarding time.
+FB — Feedback et amélioration
+FB-01 Feedback loop time; FB-02 Incidents →
+tests; FB-03 Non-régression; FB-04 Volume
+feedback utilisateur; FB-05 Taux de participation feedback; FB-06 % feedback traité; FB-07 Feature usage rate; FB-08 Taux dʼabandon des flows; FB-09 Temps sur tâches clés; FB-10 Ticket rate utilisateur; FB-11 Top problèmes récurrents; FB-12 Impact utilisateur par problème; FB-13 CSAT par feature; FB-14 NPS trend; FB-15 User sentiment trend; FB-16 Feedback → roadmap conversion; FB-17 Feedback → release impact; FB-18 Temps feedback → correction.
+STAB-S — Stabilisation / maintenance
+STAB-S01 Incident rate utilisateur; STAB-S02
+Crash-free users; STAB-S03 Errors par utilisateur; STAB-S04 Ratio bugs / travail total; STAB-S05 Backlog de bugs critiques; STAB-S06 Temps de correction bugs; STAB-S07 Bugs récurrents; STAB-S08 Bug reopen rate; STAB-S09 Code churn sur fixes; STAB-S10 Trend de stabilité globale; STAB-S11 Taux de régression en prod; STAB-S12 Fix success rate; STAB-S13 Taux de plaintes utilisateurs; STAB-S14 CSAT post-incident; STAB-S15 Impact utilisateur par bug.
+CONF — Contrat qualité
+CONF-01 Taux de respect du SPECIFY; CONF-
+02 Taux de Go/No-Go documenté; CONF-03 Complétude des Release Notes; CONF-04 Conformité DoD; CONF-05 Traçabilité spécifications → validations → résultats; CONF-06 Taux de Change Requests documentés; CONF-07 Documentation livrée; CONF-08 Respect SLA support; CONF-09 Documentation freshness.
+CODE — Qualité du code
+CODE-01 Complexité cyclomatique moyenne; CODE-02 Duplication de code; CODE-03 Code smells; CODE-04 Coverage tests; CODE-05
+Ratio dette technique / effort; CODE-06 Violations standards.
+SEC — Sécurité technique
+SEC-01 Vulnérabilités par sévérité; SEC-02
+MTTR sécurité; SEC-03 Dépendances vulnérables; SEC-04 Score OWASP / SAST / DAST.
+ENV — Environnements et infrastructure
+ENV-01 Parité environnements; ENV-02 Provisioning time; ENV-03 Taux dʼéchec de déploiement; ENV-04 Temps de restauration environnement; ENV-05 CI build success rate.
+DEP — Dépendances et tiers
+DEP-01 Nombre de dépendances critiques;
+DEP-02 Taux de mise à jour dépendances; DEP-03 SLA fournisseurs; DEP-04 Incidents liés aux APIs/services externes.
+ARCH — Architecture et dette technique
+ARCH-01 Couplage / cohésion; ARCH-02 Temps moyen pour implémenter une feature; ARCH-03 Composants monolithiques; ARCH-04 Dette technique (% backlog); ARCH-05 Cost of Quality.
+fiche ou une ligne détaillée indiquant minimalement : définition, justification, formule, source, propriétaire, statut, seuils, outil de visualisation, fréquence de mise à jour et usage attendu en revue qualité.
+Références
+Qualimétrie officielle OPAL-RT — présentation officielle, intention, portée et culture qualité
+Cérémonie de la qualimétrie — rencontre mensuelle, revue des KPI, décisions, actions et traces de session
+Lexique / Terminologies
+Contrat qualité officiel OPAL-RT
+SPÉCIFICATION
+Recommandations
+Les tests (niveau × interface × angle × type)
+Formation continue

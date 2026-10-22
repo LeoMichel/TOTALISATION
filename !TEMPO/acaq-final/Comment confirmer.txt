@@ -1,0 +1,256 @@
+﻿Comment confirmer
+La phase CONFIRMER est le moment où lʼon recueille les preuves terrain que ce qui a été élicité, défini, planifié, implémenté et diffusé tient réellement ses promesses. Elle ne remplace pas ÉLICITER : CONFIRMER recueille, tandis quʼÉLICITER analyse, apprend et améliore.
+Note terminologique
+Cette page décrit CONFIRMER dans son contexte opérationnel. Pour les définitions de référence des termes comme signal, validation, vérification, preuve, conformité, acceptation, non-régression, métrique, observabilité, log, trace, incident, dérogation, CARE, rôles et RACI, voir le Lexique / Terminologies.
+Les contributions indiquées dans cette page sont propres à cette phase et ne remplacent
+pas la matrice RACI.
+« CONFIRMER est le capteur du SDLC : elle observe, mesure, écoute et
+documente la réalité terrain pour fournir à ÉLICITER des signaux fiables. »
+🎯 Objectif de CONFIRMER
+CONFIRMER vise à vérifier factuellement, en conditions réelles, que le produit livré fonctionne, est utilisable, est supportable et répond aux attentes prévues. Cette phase produit des constats, des métriques, des retours utilisateurs, des incidents documentés et des écarts observés.
+Le résultat attendu nʼest pas une décision dʼamélioration immédiate, mais un ensemble de signaux bruts, structurés et traçables qui permettront à ÉLICITER dʼalimenter le prochain cycle.
+Ce que CONFIRMER nʼest pas
+Ce nʼest pas une simple vérification que le déploiement a fonctionné.
+Ce nʼest pas une rétrospective dʼamélioration complète : cette analyse appartient à ÉLICITER.
+Ce nʼest pas une phase où lʼon décide du prochain produit ou du prochain scope.
+Ce nʼest pas un remplacement du support CARE, mais un mécanisme structuré de recueil
+terrain avec CARE.
+📥 Passage de DIFFUSER à CONFIRMER
+On entre en CONFIRMER lorsque la diffusion est complétée et que le produit est disponible dans son environnement cible. Les prérequis minimaux sont les suivants :
+Prérequis
+Vérification attendue
+Produit diffusé
+Build, package ou version disponible selon le processus validé
+Notes de version publiées
+Nouveautés, corrections, limitations,
+contournements et risques connus communiqués
+Support informé
+CARE dispose de la documentation, des points
+de vigilance et des chemins dʼescalade
+Monitoring ou mécanismes de recueil prêts
+Logs, métriques, tickets, formulaires, tableaux de bord ou autres canaux disponibles
+Plan de confirmation connu
+On sait quoi recueillir, quand, par qui et où
+documenter les résultats
+🛠 Les cinq activités de CONFIRMER
+CONFIRMER repose sur cinq activités complémentaires :
+1. Observer le comportement réel du produit.
+2. Valider factuellement que la promesse est tenue.
+3. Écouter la voix de lʼutilisateur et du support.
+4. Mesurer les faits avec des indicateurs objectifs.
+5. Documenter les signaux bruts pour ÉLICITER.
+1. Observer — Surveiller le produit en conditions réelles
+Observer consiste à capter ce qui se passe réellement après la diffusion : stabilité, performance, erreurs, comportement utilisateur, incidents, régressions et conditions dʼusage.
+Ce quʼil faut observer
+Exemples de signaux
+Stabilité
+Crashs, blocages, redémarrages, erreurs
+applicatives
+Performance
+Temps de réponse, lenteurs, consommation CPU/RAM/disque, charge réseau
+Utilisation réelle
+Fonctions utilisées, fonctions ignorées,
+parcours fréquents, abandons
+Régressions
+Comportements qui fonctionnaient avant et ne fonctionnent plus
+Compatibilité
+Écarts selon OS, versions, postes clients,
+configurations, environnements
+2. Valider — Vérifier que la promesse est tenue
+Valider en CONFIRMER signifie constater, en conditions réelles, si le produit respecte ce qui
+avait été prévu. La validation doit rester factuelle : atteint, non atteint, partiellement atteint, non observé ou non applicable.
+Validation
+Signal produit
+Spécifications IF… THEN…
+Spécification satisfaite, non satisfaite, partiellement satisfaite, non observée ou non applicable en usage réel
+Besoin utilisateur
+Utilisateur satisfait, partiellement satisfait ou non satisfait
+Fonctionnement en production
+Fonctionnel, dégradé, instable ou bloqué
+Documentation
+Exacte, suffisante, incomplète ou confuse
+Supportabilité
+Support capable ou non de diagnostiquer et
+accompagner lʼutilisateur
+3. Écouter — Recueillir la voix de lʼutilisateur
+Écouter consiste à recueillir les retours bruts sans les transformer trop tôt en solutions. Les
+retours doivent être conservés avec leur contexte : qui, quand, environnement, version, scénario, impact et fréquence.
+Canal
+Ce quʼon recueille
+Tickets support
+Incidents, questions, frustrations, contournements utilisés
+Retours directs
+Commentaires, verbatims, satisfaction,
+irritants, besoins exprimés
+Équipes CARE
+Questions récurrentes, difficultés dʼinstallation, problèmes de compréhension
+Télémétrie ou analytics
+Données dʼusage, adoption, fréquence,
+parcours réels
+Équipes terrain
+Perception client, objections, contraintes opérationnelles, contexte dʼusage
+4. Mesurer — Quantifier les faits
+Mesurer permet de fournir à ÉLICITER des données objectives. CONFIRMER ne doit pas seulement dire « ça va » ou « ça ne va pas » : elle doit produire des chiffres, des tendances brutes et des seuils observés.
+Famille de métriques
+Exemples
+Stabilité post-livraison
+Nombre dʼincidents, défauts critiques, crashs,
+régressions
+Performance
+Temps de réponse, temps de démarrage, consommation ressources
+Adoption
+Taux dʼutilisation des fonctionnalités, fréquence
+dʼusage
+Satisfaction
+Scores, verbatims, tendances de retour utilisateur
+Support
+Volume de tickets, catégories, temps de
+résolution, escalades
+Qualité
+Indicateurs de conformité, dette, vulnérabilités, dérogations actives
+5. Documenter — Structurer les signaux bruts
+Documenter est lʼactivité qui rend CONFIRMER exploitable. Un signal non documenté est perdu. Un signal documenté sans contexte est difficile à analyser. Le rapport de confirmation doit donc être factuel, structuré et traçable.
+Rapport de confirmation
+Le rapport de confirmation est le livrable principal de la phase. Il ne doit pas être un rapport
+dʼanalyse ou une liste de solutions : il doit présenter les faits recueillis.
+Section
+Contenu attendu
+Résumé factuel
+Version, date de diffusion, environnement, population concernée
+Résultats de validation
+Critères atteints, non atteints, partiels ou non
+observés
+Métriques recueillies
+Stabilité, performance, adoption, satisfaction, support, conformité
+Incidents
+Liste, sévérité, impact, statut, temps de résolution
+Retours utilisateurs
+Verbatims, demandes, frustrations, questions, contexte
+Écarts constatés
+Différences factuelles entre ce qui était prévu et ce qui est observé
+Signaux transmis à ÉLICITER
+Liste structurée des signaux bruts à analyser
+au prochain cycle
+Orientation desktop et compatibilité web/cloud
+Orientation produit desktop et compatibilité web/cloud
+CONFIRMER doit recueillir les preuves en tenant compte du contexte actuel des produits : lʼorientation principale demeure desktop, mais les signaux doivent aussi permettre de vérifier la compatibilité web/cloud si le produit évolue éventuellement vers une offre web, SaaS ou cloud.
+Le recueil doit donc couvrir les deux perspectives :
+Desktop actuel : installation locale, mise à jour, désinstallation, performance poste client, compatibilité OS, prérequis machine, droits utilisateurs, accès réseau, logs locaux, expérience hors ligne ou réseau dégradé.
+Web/cloud éventuel : compatibilité navigateur, authentification, disponibilité, latence,
+sécurité, observabilité, déploiement continu, multi-utilisateur, scalabilité, intégrations API
+et contraintes dʼhébergement.
+Lʼobjectif nʼest pas de transformer immédiatement le produit en solution web/cloud, mais
+de recueillir les signaux factuels qui permettront à ÉLICITER dʼévaluer plus tard les écarts, les besoins, les risques et les adaptations nécessaires si cette évolution devient réelle.
+Temporalité de CONFIRMER
+Horizon
+Recueil attendu
+J+0 à J+7
+Observation intensive, incidents critiques, premiers tickets, validation post-déploiement
+J+7 à J+30
+Retours utilisateurs initiaux, adoption, stabilité,
+supportabilité
+J+30 à J+90
+Tendances support, métriques consolidées, écarts constatés, signaux structurés
+Continu
+Monitoring, collecte CARE, suivi des
+dérogations, transmission régulière à ÉLICITER
+👥 Qui fait quoi pendant CONFIRMER ?
+Rôle
+Contribution
+PM
+Recueille les retours marché, terrain et perception client
+PO
+Vérifie factuellement les spécifications IF…
+THEN… en conditions réelles
+Développeur
+Documente les défauts techniques et les correctifs post-livraison
+QA / Validation
+Consigne les résultats de validation, les
+régressions et les écarts observés
+Architecte
+Observe les impacts systémiques et les enjeux dʼintégration
+CdL
+Coordonne le recueil, compile le rapport de confirmation et transmet à ÉLICITER
+CARE / Support
+Recueille les tickets, questions, irritants,
+contournements et tendances terrain
+Ops / Infra
+Surveille disponibilité, performance, logs, alertes et incidents opérationnels
+VSE
+Sʼassure que le rapport est complet et que les
+signaux sont transmis au bon endroit
+🔁 Boucle de rétroaction — Ce que CONFIRMER transmet à ÉLICITER
+Signal brut
+Exemple
+Écart promesse / réalité
+Fonctionnalité livrée mais usage différent de celui prévu
+Incident récurrent
+Même problème observé chez plusieurs
+utilisateurs ou environnements
+Fonctionnalité peu utilisée
+Adoption faible malgré la livraison complète
+Question support fréquente
+Documentation insuffisante ou parcours utilisateur mal compris
+Contrainte desktop
+Problème lié à lʼinstallation, aux permissions, à
+lʼOS ou aux performances locales
+Signal web/cloud
+Besoin dʼaccès distant, dʼusage multi-utilisateur, de synchronisation ou de disponibilité continue
+Dérogation active
+Règle qualité non respectée avec plan de retour à suivre
+⚠ Pièges courants à éviter
+Piège
+Pourquoi cʼest un problème
+Comment lʼéviter
+Confondre CONFIRMER et ÉLICITER
+On mélange recueil et analyse
+CONFIRMER recueille ; ÉLICITER analyse et améliore
+Réduire CONFIRMER à « ça
+tourne »
+On ignore la valeur, lʼusage et
+le support
+Mesurer aussi adoption,
+satisfaction, incidents et retours CARE
+Ne pas documenter les
+signaux
+Les constats se perdent
+Utiliser un rapport de
+confirmation structuré
+Interpréter trop tôt les retours
+On déforme la voix utilisateur
+Conserver les retours bruts avec leur contexte
+Oublier le desktop
+Les contraintes réelles
+dʼinstallation et de poste client sont ignorées
+Inclure OS, droits,
+performance locale, logs et prérequis machine
+Ignorer le futur web/cloud
+On perd les signaux utiles à une évolution future
+Recueillir aussi les signaux de compatibilité navigateur, latence, sécurité et usage distant
+✅ Critères de sortie de CONFIRMER
+Les validations post-déploiement en conditions réelles sont documentées.
+Les indicateurs de stabilité, performance, adoption, satisfaction et support sont recueillis.
+Les retours utilisateurs et CARE sont consignés avec leur contexte.
+Les incidents post-livraison sont documentés avec impact, sévérité et statut.
+Les écarts entre la promesse et la réalité sont constatés factuellement.
+Les signaux desktop sont recueillis : installation, compatibilité OS, performance locale, permissions, logs, réseau.
+Les signaux web/cloud éventuels sont recueillis : navigateur, disponibilité, latence, sécurité, scalabilité, intégrations.
+Le rapport de confirmation est complété, partagé et transmis à ÉLICITER.
+Le tableau de bord CONFIRMER est à jour et accessible.
+Les dérogations actives et risques résiduels sont documentés dans leur état courant.
+Références
+SDLC officiel
+Page précédente : Comment diffuser
+Page suivante : Comment éliciter
+Cérémonie associée : Cérémonie de confirmation
+Documents connexes : Contrat qualité officiel OPAL-RT, RACI — Rôles et responsabilités,
+Qualimétrie officielle OPAL-RT
+SPÉCIFICATION
+Les tests (niveau × interface × angle × type)
+Exemples concrets de combinaisons
+Recommandations — enjeux, constats ou lacunes à résoudre / solutionner
+Résumé
+CONFIRMER est la phase qui recueille la vérité terrain. Elle ne cherche pas à expliquer ou à corriger immédiatement : elle observe, valide, écoute, mesure et documente. Grâce à elle, ÉLICITER dispose de données fiables pour analyser, apprendre et améliorer le prochain cycle.
+« CONFIRMER recueille. ÉLICITER analyse. DÉFINIR spécifie. PLANIFIER
+organise. IMPLÉMENTER réalise. DIFFUSER livre. Puis CONFIRMER recueille
+à nouveau. »
