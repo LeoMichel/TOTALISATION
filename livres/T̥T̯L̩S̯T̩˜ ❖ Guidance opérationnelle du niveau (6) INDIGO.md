@@ -1078,6 +1078,215 @@ Les gabarits remplis, les situations vécues, et l'adaptation du niveau 6 (prév
 - **Pendant le parcours** : le cas du risque à 400 000 $ (semaine 3) est le meilleur argument de financement — à utiliser avec la honte assumée, qui le rend crédible.
 - **En continu** : le compte rendu de revue (§1.3) est le modèle du battement mensuel : 45 minutes, décisions en séance, dormants traités.
 
+
+---
+
+# Partie 7 : Les cérémonies du niveau 6
+
+Les cérémonies du niveau 5 (gouvernées) deviennent au niveau 6 des cérémonies prédictives : chaque rituel ne se contente pas de mesurer ce qui s'est passé — il anticipe ce qui va arriver, prévient ce qui peut l'être, et cultive la mémoire organisationnelle. Le niveau 6 transforme la gouvernance en intelligence.
+
+## Cérémonie 1 : L'ÉLICITATION prédictive
+
+**Ce que le niveau 6 ajoute :** l'élicitation ne part plus seulement des demandes reçues — elle part aussi des signaux faibles, des tendances, et des apprentissages de l'horizon. L'organisation élicite ce qui n'a pas encore été demandé.
+
+**Le déroulé du niveau 6 (60 minutes, à cadence fixe) :**
+
+1. **La revue des sources prédictives** (15 min) : les signaux faibles du canal (N6), les apprentissages de l'horizon, les tendances du registre de prévention. Quels besoins émergent qui n'ont pas encore de demande ?
+2. **L'élicitation du jour** (30 min) : les demandes du flux + les besoins prédictifs confirmés (un signal faible confirmé trois fois devient une élicitation proactive — avec l'accord du demandeur pressenti).
+3. **La boucle prédictive** (15 min) : les apprentissages de l'élicitation alimentent le canal des signaux (les questions récurrentes des demandeurs sont des signaux faibles de futurs besoins).
+
+**Les entrées obligatoires :** le canal des signaux faibles, les apprentissages de l'horizon, les demandes du flux.
+
+**Les sorties attendues :** les besoins élicités, les élicitations proactives lancées, le canal enrichi.
+
+**Le piège du niveau 6 :** l'élicitation proactive qui se substitue à l'écoute. Les signaux prédissent des tendances ; ils ne remplacent pas le demandeur réel. Une élicitation proactive se fait AVEC le demandeur pressenti (jamais pour lui) — sinon elle produit des fonctionnalités que personne n'a demandées, vérifiées par personne, et non adoptées.
+
+**Le lien avec le niveau 5 :** la gouvernance reste (les élicitations proactives passent par le comité comme les autres — elles consomment des ressources communes). Le niveau 6 ajoute la source : le comité voit arriver des demandes qui n'existaient pas encore.
+
+## Cérémonie 2 : LA DÉFINITION enrichie par la mémoire
+
+**Ce que le niveau 6 ajoute :** la spécification s'écrit avec la mémoire organisationnelle ouverte : les cas limites des incidents passés, les apprentissages des confirmations, les patterns des défauts récurrents. Chaque nouvelle spécification hérite de tout ce que l'organisation a appris.
+
+**Le déroulé du niveau 6 (90 minutes, à cadence fixe) :**
+
+1. **La consultation de la mémoire** (20 min) : pour chaque thème de la spécification, la recherche dans les registres (incidents similaires, apprentissages similaires, patterns similaires). La mémoire est indexée par thème — c'est son infrastructure.
+2. **L'écriture enrichie** (45 min) : le format N3, avec les cas limites enrichis par la mémoire (« ce cas s'est produit en 2024, voici ce qui s'est passé »). Les apprentissages passés deviennent des règles actives.
+3. **La contribution à la mémoire** (25 min) : la spécification elle-même enrichit la mémoire — les nouveaux cas limites, les nouvelles règles, indexés pour les spécifications futures.
+
+**Les entrées obligatoires :** le modèle enrichi, la mémoire indexée et consultable, les apprentissages actifs.
+
+**Les sorties attendues :** la spécification enrichie par la mémoire, la mémoire enrichie par la spécification, les patterns récurrents identifiés.
+
+**Le piège du niveau 6 :** la mémoire consultée mais jamais enrichie. Une mémoire qui n'accepte que les incidents (les échecs) et ignore les apprentissages positifs (ce qui a marché) est une mémoire biaisée — elle apprend la peur, pas la compétence. La mémoire N6 indexe les deux.
+
+**Le lien avec le niveau 5 :** la gouvernance n'interfère pas dans la spécification (c'est un travail d'équipe), mais elle finance l'infrastructure de la mémoire (l'indexation est un chantier commun) et exige son usage (la consultation mémoire fait partie du DoR N6).
+
+## Cérémonie 3 : LA PLANIFICATION préventive
+
+**Ce que le niveau 6 ajoute :** la planification intègre les chantiers de prévention : la capacité n'est pas seulement allouée aux demandes — une part est réservée aux préventions (les chantiers du registre). La planification N6 arbitre entre le réactif (les demandes) et le préventif (les chantiers), avec une règle explicite.
+
+**Le déroulé du niveau 6 (60 minutes, métronome) :**
+
+1. **La revue des chantiers de prévention** (15 min) : les chantiers actifs du registre, leurs échéances, leurs priorités. Les chantiers en retard sont traités comme des demandes en retard : visibles, expliqués, replanifiés.
+2. **L'arbitrage réactif/préventif** (20 min) : la règle de capacité explicite (ex. : 80 % demandes / 20 % prévention, ajustée par le comité selon la période). L'arbitrage est une décision de gouvernance, pas une improvisation d'équipe.
+3. **Le contrat d'itération mixte** (25 min) : les engagements des deux types (demandes + préventions), avec les mêmes standards de preuve. Une prévention planifiée et non livrée est traitée comme une demande non livrée : visible, expliquée.
+
+**Les entrées obligatoires :** le registre des chantiers à jour, la règle de capacité validée par le comité, les mesures de capacité réelle.
+
+**Les sorties attendues :** le contrat mixte, les chantiers préventifs planifiés avec preuves attendues, l'arbitrage documenté.
+
+**Le piège du niveau 6 :** la prévention sacrifiée en période de pression. La règle de capacité existe précisément pour les périodes de pression : c'est quand il y a urgence que la prévention est la plus importante (les urgences sont souvent les symptômes des préventions manquantes). La règle peut être ajustée temporairement — par décision du comité, écrite, avec rattrapage daté.
+
+**Le lien avec le niveau 5 :** le comité valide la règle de capacité (c'est un arbitrage inter-équipes : qui paie la prévention ?). Le niveau 6 ajoute l'objet : la prévention devient une catégorie de travail à part entière, avec ses preuves et ses livrables.
+
+## Cérémonie 4 : L'IMPLÉMENTATION avec régression préventive
+
+**Ce que le niveau 6 ajoute :** l'implémentation intègre la régression automatisée préventive : chaque changement déclenche non seulement les tests de non-régression, mais les tests de régression prédictive (les tests des zones qui vont probablement être touchées, prédites par l'historique).
+
+**Le déroulé du niveau 6 (30 minutes, outillé comme au niveau 5) :**
+
+1. **La conformité au modèle** (10 min) : comme au niveau 5.
+2. **La régression prédictive** (10 min) : les tests des zones prédites sensibles (par l'historique des incidents : « les changements sur ce module ont historiquement causé X »). La prédiction est recalibrée à chaque incident (l'historique apprend).
+3. **La contribution à l'historique** (10 min) : chaque incident (même évité) alimente la prédiction — les zones sensibles deviennent plus précises avec le temps.
+
+**Les entrées obligatoires :** le modèle, les tests prédictifs recalibrés, l'historique des incidents indexé.
+
+**Les sorties attendues :** le code validé contre la régression prédictive, l'historique enrichi, les zones sensibles mises à jour.
+
+**Le piège du niveau 6 :** la prédiction qui se remplit de zones sensibles. Sans purges, toutes les zones deviennent « sensibles » et la régression prédictive devient la régression totale. La règle : les zones sensibles ont une demi-vie — une zone sans incident depuis 12 mois quitte la liste (sauf justification documentée).
+
+**Le lien avec le niveau 5 :** le comité gouverne la qualité de la prédiction (les faux positifs et faux négatifs sont des sujets de comité : ils indiquent une historique mal calibré ou une zone mal purgée).
+
+## Cérémonie 5 : LA DIFFUSION avec validation préventive
+
+**Ce que le niveau 6 ajoute :** le Go/No-Go N6 intègre les validations préventives : les signaux prédictifs (les zones sensibles touchées ont-elles été testées ?), les préventions actives (les chantiers liés à cette diffusion sont-ils terminés ?), et les apprentissages passés (les incidents similaires ont-ils été traités ?).
+
+**Le déroulé du niveau 6 (30 minutes, au métronome) :**
+
+1. **La revue des validations préventives** (10 min) : les zones sensibles touchées et leur couverture, les préventions liées et leur état, les incidents similaires et leur statut.
+2. **Les critères habituels** (10 min) : bloquants et informatifs N5, avec leurs preuves.
+3. **La décision** (10 min) : la décision avec contexte préventif (« Go avec réserves : zone sensible X testée à 70 %, chantier de prévention P-12 en retard de 2 semaines »).
+
+**Les entrées obligatoires :** l'historique prédictif, les chantiers liés, les critères N5.
+
+**Les sorties attendues :** la décision avec contexte préventif, les réserves, l'historique enrichi.
+
+**Le piège du niveau 6 :** le Go/No-Go paralysé par la prévention. Les validations préventives sont des informations (elles orientent la décision), pas des blocants automatiques — la décision reste humaine, la prévention l'éclaire. Un système où la prévention bloque tout produit des diffusions jamais — et une organisation qui ne livre pas n'a plus de prévention utile à faire.
+
+**Le lien avec le niveau 5 :** la gouvernance reste le cadre (les critères N6 sont validés par le comité). Le niveau 6 ajoute la profondeur : la décision voit plus loin que la conformité immédiate.
+
+## Cérémonie 6 : LA CONFIRMATION avec apprentissage systématique
+
+**Ce que le niveau 6 ajoute :** la confirmation N6 transforme chaque apprentissage en actif de mémoire : indexé, relié, réutilisable. Les apprentissages ne sont plus des notes — ce sont des briques de la mémoire organisationnelle.
+
+**Le déroulé du niveau 6 (60 minutes, systématique) :**
+
+1. **La récolte des apprentissages** (20 min) : le format N5 (critères, usages, imprévus), avec la question supplémentaire : « qu'est-ce que cet apprentissage nous apprend de plus que ce cas ? » — la généralisation.
+2. **L'indexation** (20 min) : chaque apprentissage est indexé par thème, relié aux apprentissages similaires, et classé (règle active, cas limite, hypothèse à surveiller).
+3. **La mise en disponibilité** (20 min) : les apprentissages indexés sont mis à disposition des spécifications futures (cérémonie 2), des préventions (cérémonie 3), et des horizons (les apprentissages généralisables alimentent l'horizon).
+
+**Les entrées obligatoires :** les critères de succès, les usages observés, la mémoire indexée.
+
+**Les sorties attendues :** les apprentissages indexés et reliés, la mémoire enrichie, les généralisations vers l'horizon.
+
+**Le piège du niveau 6 :** l'indexation qui devient un travail administratif. Si indexer prend plus de temps qu'apprendre, les apprentissages ne seront plus indexés. La règle : l'indexation est assistée (par l'IA de la mémoire, avec validation humaine) et intégrée au flux (indexer en séance, pas plus tard).
+
+**Le lien avec le niveau 5 :** le comité ne voit pas les apprentissages individuels (c'est du travail d'équipe) mais il gouverne la mémoire elle-même : son infrastructure, sa qualité d'indexation, son taux de réutilisation (une mémoire jamais relue est une mémoire morte).
+
+## Cérémonie 7 : LA QUALIMÉTRIE préventive
+
+**Ce que le niveau 6 ajoute :** le tableau de bord N6 devient prédictif : il ne montre pas seulement les dérives actuelles, mais les projections (où seront les signaux dans 4 semaines si la tendance continue). La qualimétrie N6 alerte avant la dérive, pas pendant.
+
+**Le déroulé du niveau 6 (30 minutes) :**
+
+1. **La lecture des projections** (15 min) : chaque signal avec sa projection (4 semaines) et sa zone d'alerte. Les projections sont simples (tendances linéaires) — leur valeur vient de leur régularité, pas de leur sophistication.
+2. **Les décisions préventives** (10 min) : les signaux dont la projection atteint la zone d'alerte reçoivent des décisions préventives (avant que la dérive ne se produise).
+3. **La validation des projections** (5 min) : les projections passées sont comparées au réel (les projections sont-elles fiables ?). Les mauvaises projections sont corrigées — la qualimétrie prédictive apprend aussi.
+
+**Les entrées obligatoires :** le tableau avec projections, l'historique des projections, les zones d'alerte validées.
+
+**Les sorties attendues :** les décisions préventives, les projections validées ou corrigées, les alertes anticipées.
+
+**Le piège du niveau 6 :** la projection qui remplace le jugement. Une projection est une hypothèse (« si la tendance continue ») — pas une vérité. La décision reste humaine : la projection éclaire, elle ne décide pas. Et les projections sont validées rétroactivement — une projection toujours fausse est retirée.
+
+**Le lien avec le niveau 5 :** le comité voit les projections (elles éclairent les arbitrages) mais le seuil d'alerte préventive est validé par lui (alerter tôt a un coût : faut-il alerter sur toute tendance, ou seulement sur les confirmées ?). Le niveau 6 propose, le comité calibre.
+
+## Le test des cérémonies du niveau 6
+
+Le test à dix questions du niveau 5 (via VERT) gagne deux questions N6 :
+
+11. **Apprend-elle de la mémoire organisationnelle ?** (Consultation et enrichissement — la mémoire est vivante, pas décorative.)
+12. **Anticipe-t-elle ce qui va arriver ?** (Projections, préventions, élicitations proactives — le rituel voit devant lui.)
+
+Ces douze questions sont le test de passage au niveau 7 : une cérémonie qui les réussit toutes est une pratique intelligente — prête à être intégrée à une philosophie, à une culture, à une transmission qui la survit. Une cérémonie qui échoue encore aux questions de mémoire (11) doit d'abord construire sa mémoire — l'anticipation sans mémoire est une intuition, pas une capacité organisationnelle.
+
+
+---
+
+# Partie 8 : Le vécu du niveau 6
+
+Quatre histoires vraies, tirées du vécu de l'organisation — là où la prévention et l'anticipation se sont jouées sur des personnes, pas sur des concepts. Chaque histoire est suivie de ce qu'elle enseigne au praticien du niveau 6.
+
+## Histoire 1 : Le signal faible qui a évité l'incident — Opal-RT
+
+C'était pendant la migration de l'infrastructure de build. L'équipe avait un canal des signaux faibles (institué au niveau 5), et un jeudi, un message passait presque inaperçu : un ingénieur mentionnait qu'un script de build « prenait un peu plus de temps ces derniers jours ». Rien d'alarmant. Personne n'aurait ouvert un ticket pour ça.
+
+Mais le canal N6 fonctionnait autrement : les signaux faibles étaient relus chaque semaine, et les tendances étaient projetées. « Un peu plus de temps » répété trois semaines de suite était une tendance — et la projection montrait que dans six semaines, le build dépasserait le délai de l'intégration continue. Un signal faible confirmé trois fois devenait, selon la règle du canal, une élicitation proactive.
+
+L'enquête préventive a pris deux heures : une dépendance cachée, introduite trois semaines plus tôt, téléchargeait un artefact à chaque build au lieu d'utiliser le cache. L'équipe l'a corrigée un vendredi après-midi. Coût : deux heures de travail. Coût si rien n'avait été fait : six semaines plus tard, une panne d'intégration continue au pire moment (juste avant une démonstration client), avec une équipe de dix personnes bloquée.
+
+Ce que ce cas enseigne :
+
+- **La prévention a un coût de détection, pas de correction.** Deux heures de détection contre des jours de crise. Le ratio était de un pour cent — et il n'était visible que dans la projection, jamais dans l'instant.
+- **Le signal faible n'a pas d'urgence propre.** Il a fallu une cérémonie (la revue hebdomadaire des signaux) pour lui donner une existence. Le message passé inaperçu ne serait devenu visible pour personne : les signaux faibles ne remontent pas seuls.
+- **La projection transforme l'invisible en décisionnable.** « Le build prend plus de temps » est une plainte. « Le build dépassera le délai dans six semaines » est une décision.
+
+## Histoire 2 : La prévention sacrifiée — et ce qu'elle a coûté
+
+C'était dans une période de pression, comme il y en a toujours. Une date de livraison, une équipe en retard, et le comité (niveau 5, alors tout jeune) a proposé de « reporter les chantiers de prévention pour ce sprint ». La règle de capacité préventive — 15 % de capacité réservée — n'existait pas encore : la prévention se faisait « quand il y avait du temps ». Il n'y avait jamais de temps.
+
+Le report a duré un sprint. Puis deux. Puis la prévention n'a plus été re-planifiée du tout — chaque sprint, le report était reconduit, parce que chaque sprint avait sa pression. Trois mois plus tard, la dette technique invisible avait grossi au point que les estimations explosaient : les demandes simples prenaient des semaines, parce que chaque changement touchait du code fragile que personne n'avait eu le temps de consolider.
+
+L'équipe a recalculé rétrospectivement : les deux semaines de consolidation reportées auraient économisé six semaines de retards cumulés. Le coût de la non-prévention était quatre fois supérieur à la prévention — mais ce coût était étalé et invisible, tandis que le coût de la prévention était immédiat et visible.
+
+Ce que ce cas enseigne :
+
+- **La prévention perd toujours l'arbitrage si elle n'a pas de règle.** Quand l'arbitrage se fait demande par demande, la prévention perd — parce que le réactif est visible et la prévention ne l'est pas. La règle de capacité (même modeste : 10 ou 15 %) est la seule protection.
+- **Le report est la mort lente de la prévention.** Un report écrit avec rattrapage daté est une décision ; un report reconduit tacitement est un abandon. La règle du niveau 6 : tout report de prévention est écrit, daté, avec rattrapage — sinon il n'existe pas.
+- **Les urgences sont souvent les symptômes des préventions manquantes.** Trois mois plus tard, l'équipe passait son temps en « urgences » qui étaient toutes des dettes de prévention. Le jour où la consolidation a été faite, les urgences ont diminué de moitié.
+
+## Histoire 3 : La mémoire consultée pour la première fois
+
+C'était au moment d'une nouvelle spécification pour un client tiers. L'équipe avait construit, au niveau 5, les débuts d'une mémoire des apprentissages — une centaine de notes, indexées sommairement. Personne ne la consultait : elle était « là », comme un placard bien rangé qu'on n'ouvre jamais.
+
+Le praticien a imposé une étape à la cérémonie de définition : vingt minutes de consultation mémoire avant d'écrire. Le thème était « intégration API tiers » — et la mémoire contenait quatre apprentissages d'intégrations précédentes, dont un qui était une mine : « les API de ce fournisseur changent sans préavis ; toute intégration doit prévoir un contrat de version et un test de non-régression sur le format de réponse ». Écrit six mois plus tôt, après trois jours de debugging d'une panne incompréhensible.
+
+La spécification a intégré le contrat de version et le test de non-régression dès le départ. Six mois plus tard, le fournisseur a changé son format de réponse sans préavis — exactement comme la mémoire le prédisait — et le test a échoué avant la mise en production, une heure de correction au lieu d'une panne client.
+
+Ce que ce cas enseigne :
+
+- **Une mémoire non consultée est une mémoire morte.** L'infrastructure ne suffit pas : il faut une cérémonie (la consultation obligatoire au DoR) pour que la mémoire vive. La consultation a coûté vingt minutes ; elle a épargné une panne.
+- **Les apprentissages douloureux sont les plus précieux.** L'apprentissage le plus utile de la mémoire était celui des trois jours de debugging — la douleur est le meilleur moteur d'indexation. Une mémoire qui n'enregistre que les succès apprend la complaisance.
+- **L'enrichissement est réciproque.** La spécification a consulté la mémoire — et la spécification a enrichi la mémoire (un nouveau cas limite : « que faire si le fournisseur envoie le changement sans changement de version ? »). Une mémoire qu'on consulte sans l'enrichir devient obsolète.
+
+## Histoire 4 : L'anticipation qui a failli tuer l'écoute
+
+C'était après une série de succès de prévention. L'équipe, enivrée par ses projections justes, a lancé une vague d'élicitations proactives : des fonctionnalités prédites par les signaux faibles, construites sans consultation, parce que « les signaux le montraient ». Quatre fonctionnalités en deux mois.
+
+Aucune n'a été adoptée. Pas une. Les demandeurs réels — ceux dont les signaux avaient été interprétés — n'avaient jamais eu ces besoins précis : les signaux montraient des tendances larges, et l'équipe avait extrapolé des solutions précises. La projection disait « les utilisateurs de ce module travaillent de plus en lot » — l'équipe avait construit une interface de traitement par lot. Ce que les utilisateurs voulaient, c'était un export réutilisable ; le lot n'était qu'un moyen.
+
+Le praticien a institué la règle définitive : une élicitation proactive se fait toujours avec le demandeur pressenti, jamais pour lui. Les signaux ouvrent la conversation ; ils ne la remplacent pas. Les quatre fonctionnalités non adoptées ont été archivées avec leur post-mortem dans la mémoire — elles sont devenues les apprentissages anti-pattern les plus cités.
+
+Ce que ce cas enseigne :
+
+- **La prévision n'est pas la demande.** Un signal montre une tendance ; il ne montre pas la solution. L'anticipation sert à savoir qui contacter et quoi demander — pas à décider à la place de.
+- **L'excès de confiance est le piège du praticien avancé.** Les premiers succès de projection créent une ivresse : le praticien se croit voyant. La règle « avec le demandeur, jamais pour lui » est la garde-fou de cette ivresse.
+- **Les échecs sont des apprentissages de premier ordre.** Le post-mortem des quatre fonctionnalités archivées (« ce que la projection ne voyait pas ») est devenu un apprentissage cité chaque fois qu'une élicitation proactive se discute. Une mémoire qui intègre ses échecs d'anticipation anticipe mieux.
+
+## La synthèse des quatre histoires
+
+Les quatre histoires dessinent le profil du praticien du niveau 6 : il a un canal pour les signaux faibles (Histoire 1), une règle pour protéger la prévention (Histoire 2), une mémoire consultée et enrichie (Histoire 3), et la modestie de l'anticipateur — l'anticipation éclaire la conversation, elle ne la remplace pas (Histoire 4). Sans modestie, l'anticipation devient de l'arrogance méthodique ; sans mémoire, elle devient de l'intuition ; sans règle, la prévention devient du bon vouloir.
+
 # Épilogue : ce n'est pas la technologie qui réconcilie, c'est vous
 
 INDIGO est le niveau de la préparation de l'avenir. L'industrialisation de la qualité, la régression, la normalisation, la prévention, la vigilance, la proactivité, l'intelligence organisationnelle, et la mise en réseau des savoirs. Tout cela est nécessaire, mais ce n'est pas l'infrastructure qui réconcilie. Ce sont les gens qui ont choisi de se voir donné un objectif commun, d'apprendre ensemble, et de construire une organisation où la qualité est une posture, pas une case.
