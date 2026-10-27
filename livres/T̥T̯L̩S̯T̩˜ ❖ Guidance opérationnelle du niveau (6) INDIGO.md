@@ -2170,3 +2170,290 @@ Les exercices E7–E12 ne se font pas tous d'un coup. Le praticien N6 les introd
 
 La règle de la progression : un exercice qui ne devient pas une habitude en quatre semaines est un exercice mal conçu — il faut le simplifier, pas le forcer.
 
+
+---
+
+# Partie 16 : Les gabarits remplis du niveau 6
+
+Cette partie présente les gabarits remplis par une équipe réelle — pour montrer le niveau de spécificité attendu au niveau 6. TOTALISATION ne remplace jamais la parole de l'équipe : il cadre, garde, et rend transmissible.
+
+## Gabarit 1 : Signal faible rempli
+
+```
+SIGNAL — 14/09                    Déposé par : L.N.
+J'AI REMARQUÉ : le build de nuit prend plus de temps que
+d'habitude (42 minutes au lieu de 28). Pas d'erreurs, mais
+la tendance est montante depuis la migration de
+l'infrastructure de build.
+
+QUAND / COMBIEN DE FOIS : première observation le 02/09,
+confirmé 4 fois en 8 jours de build.
+
+CONTEXTE : les branches de la nouvelle infrastructure
+de build (post-migration).
+```
+
+**La suite du signal (documentée dans la revue) :**
+Le signal a été confirmé par deux autres personnes (S.M. et l'équipe de build). Trois confirmations en 8 jours : la règle des trois confirmations déclenche l'élicitation proactive. L'élicitation (avec le demandeur pressenti : l'équipe de build) a révélé une dépendance cachée (un téléchargement à chaque build au lieu du cache). Le chantier P-7 a été créé, corrigé en 2 heures, et la morsure mesurée : ~1 semaine de blocage d'équipe évitée.
+
+## Gabarit 2 : Chantier de prévention rempli
+
+```
+CHANTIER DE PRÉVENTION — P-7      Cré le : 12/09
+Origine : signal du 04/09 confirmé (build +40 min, tendance)
+
+LE PROBLÈME : SI rien n'est fait, ALORS le build dépasse le
+délai d'intégration continue dans ~6 semaines — panne de
+build pour toute l'équipe, au pire moment (démonstration
+client prévue).
+
+LA PRÉVENTION : investiguer la régression de build,
+identifier la cause, corriger.
+
+PREUVE ATTENDUE :
+- l'incident évité : la panne de build
+- le temps épargné : les jours de blocage de l'équipe
+- la tendance corrigée : le temps de build retourne
+  sous 30 minutes
+
+PORTEUR : M.G. — 4 heures réservées (capacité préventive)
+ÉCHEANCE : 30/09
+STATUT : livré le 06/09 — morsure mesurée
+
+APRÈS LA MORSURE :
+La morsure réelle : dépendance cachée (téléchargement
+à chaque build au lieu du cache), introduite 3 semaines
+plus tôt. Chiffrée : 2 heures de correction vs ~1 semaine
+de blocage (8 personnes) évitée. Ratio : 1:20.
+Documenté dans la mémoire : MEM-042.
+```
+
+## Gabarit 3 : Entrée de mémoire remplie
+
+```
+MÉMOIRE — MEM-042                  Cré le : 07/09
+THÈME : infrastructure de build ; dépendances cachées
+
+L'APPRENTISSAGE : les dépendances cachées (téléchargements
+à chaque build) se voient dans le TEMPS de build, pas dans
+les erreurs — surveiller la tendance, pas les échecs.
+
+D'OÙ ÇA VIENT : chantier P-7 (signal faible confirmé).
+Chiffré : 2 heures de correction vs ~1 semaine de blocage
+d'équipe évitée (8 personnes × 5 jours = 40 personnes-jours).
+
+LA RÈGLE ACTIVE : toute modification de l'infrastructure
+de build est suivie d'une semaine de surveillance du temps
+de build (tendance, pas seulement succès/échec).
+
+RELIONS : MEM-017 (les API tiers changent sans préavis),
+MEM-031 (les régressions silencieuses).
+TYPE : règle active.
+```
+
+## Gabarit 4 : Consultation mémoire remplie
+
+```
+CONSULTATION MÉMOIRE — infrastructure de build
+Date : 15/09   Consulté par : S.M.   Durée : 20 minutes
+
+THÈMES CHERCHÉS : "infrastructure build", "migration",
+"dépendance", "cache"
+
+ENTRÉES TROUVÉES : MEM-042, MEM-017, MEM-031
+- Applicables directement : MEM-042 (la règle active :
+  surveiller la tendance après toute modification)
+- Applicables avec adaptation : MEM-017 (API tiers — le
+  pattern est similaire : les dépendances externes se
+  voient dans le temps, pas dans les erreurs)
+- Inapplicables : MEM-031 (régression silencieuse — le
+  pattern concerne les données, pas l'infrastructure)
+
+RÈGLES ACTIVES HÉRITÉES (intégrées à la spécification) :
+- Toute modification de l'infrastructure de build est
+  suivie d'une semaine de surveillance du temps de build.
+- Les dépendances externes sont documentées et testées
+  au moment de l'introduction, pas après.
+
+CAS LIMITES HÉRITÉS (à ajouter) :
+- Si la dépendance est ajoutée par un tiers (bibliothèque),
+  le test de non-régression couvre le temps de build aussi
+  (pas seulement le succès).
+
+NOUVEAU APPRENTISSAGE (ce que la consultation révèle) :
+La consultation a révélé que la surveillance du temps de
+build devrait être automatisée (seuil d'alerte à 30 min).
+→ nouvelle entrée MEM-056 : "les métriques d'infrastructure
+  (temps de build, temps de test) doivent être surveillées
+  automatiquement — la surveillance manuelle ne détecte
+  pas les tendances lentes."
+```
+
+## Gabarit 5 : Lettre de veille remplie
+
+```
+LETTRE DE VEILLE — 28/09          Envoyée par : L.N. (veille)
+
+ALERTE : OUI — 1 seuil franchi cette semaine.
+
+SEUIL FRANCHI :
+- Temps de build de nuit : 34 minutes (seuil : 30 min)
+  Confirmé 4 fois cette semaine. Investigation ouverte
+  (chantier P-7, porteur M.G., échéance 30/09).
+
+VALEURS OBSERVÉES (vs seuils, sans alerte) :
+- Temps de réponse API : 240 ms (seuil : 500) — marge 48%
+- Taux d'erreur HTTP : 0,1% (seuil : 2%) — marge 20×
+- Divergences doc/modèle : 1 (seuil : 2) — marge 50%
+
+ÉVOLUTION vs PÉRIODE PRÉCÉDENTE :
+Temps de build en hausse (28 → 42 min sur 4 semaines).
+Tous les autres indicateurs stables.
+
+ACTION : le chantier P-7 est en cours (livraison prévue
+lundi 30/09). La lettre du 12/10 vérifiera si la tendance
+est corrigée.
+
+CONCLUSION : 1 alerte (traitée), 0 incident. Système sain,
+1 zone de vigilance (infrastructure de build).
+
+Prochaine lettre : 12/10.
+```
+
+## Gabarit 6 : Projection remplie
+
+```
+PROJECTION — Temps de build de nuit    Faite le : 02/09
+Par : S.M.                             Horizon : 4 semaines
+
+TENDANCE OBSERVÉE (8 semaines de données) :
+28 min → 42 min (progression constante, +2 min/semaine)
+
+PROJECTION : dans 4 semaines, le temps de build sera à
+50 minutes. SI la tendance continue (aucune correction).
+
+ZONE D'ALERTE : 45 minutes (le délai d'intégration
+continue est à 50 minutes — au-delà, le build dépasse
+la fenêtre).
+
+VALIDATION RÉTROACTIVE (remplie le 30/09) :
+Valeur réelle : 34 minutes (après correction P-7)
+Écart : -16 min de la projection (car la correction
+a été faite avant l'échéance)
+Verdict : fiable (la projection sous "si rien ne
+change" aurait été 50 min — la correction a changé
+la tendance)
+Action : la projection est conservée (fiable dans son
+hypothèse), et la morsure P-7 est documentée dans la
+mémoire (MEM-042).
+```
+
+---
+
+*Fin des gabarits remplis du niveau 6.*
+
+
+---
+
+# Partie 17 : Le manuel de terrain du niveau 6
+
+Ce manuel est le résumé opérationnel du niveau 6 : ce que le praticien TOTALISATION fait, dans l'ordre, quand il opère la prévention dans une équipe. Il tient sur quelques pages — c'est le but.
+
+## Mode d'emploi du manuel
+
+Le manuel s'utilise en situation, pas en formation. Vous êtes en atelier, en revue de chantier, en consultation mémoire, en face d'une question ou d'un incident : vous ouvrez le manuel à la bonne section, vous suivez les étapes, vous retournez à la situation. La formation, c'est les ateliers (parts 5–10). Le manuel, c'est le rappel.
+
+## Section 1 : Écouter un signal faible
+
+1. Noter l'observation (sans l'interpréter) : quoi, quand, combien de fois.
+2. Noter le contexte : où, avec qui, dans quelle configuration.
+3. Vérifier : est-ce une tendance (répétée) ou un événement isolé ?
+4. Si tendance : demander une confirmation indépendante (2e personne).
+5. Si 2 confirmations indépendantes : chercher la 3e.
+6. À 3 confirmations : déclencher l'élicitation proactive.
+7. Tout au long : ne jamais interpréter à la place de l'équipe — le signal appartient à celui qui l'a vu.
+
+**Anti-patterns** : interpréter trop vite ; ignorer un signal parce qu'il "ne vient pas d'un expert" ; traiter un signal isolé comme une tendance ; traiter une tendance comme un signal isolé.
+
+## Section 2 : Choisir la posture préventive
+
+- **Posture A — Élicitation proactive** (le signal existe, l'expression n'existe pas encore) : écouter, questionner, reformuler, laisser nommer. Ne jamais nommer à la place.
+- **Posture B — Génie logiciel à base d'expérience** (l'expression existe, la méthode n'existe pas encore) : recueillir la pratique, l'abstraire, la proposer comme méthode.
+- **Posture C — Incubation de l'idée** (l'idée existe, la maturité n'est pas là) : accompagner, laisser tester, garder le fil.
+- **Posture D — Prévention proprement dite** (le risque existe, rien n'existe encore) : anticiper le prochain dommage, faire tomber les frontières (les 10 anti-frontières du chapitre 8), poser le chantier de prévention.
+
+**Erreur fréquente** : confondre les postures. Une posture A traitée comme une posture D tue l'expression naissante. Une posture D traitée comme une posture A laisse le dommage arriver.
+
+## Section 3 : Poser un chantier de prévention
+
+1. Formuler le problème : "SI rien n'est fait, ALORS [dommage] dans [délai]."
+2. Formuler la prévention : ce qu'on fait pour l'éviter.
+3. Définir la preuve attendue : l'incident évité, le temps épargné, la tendance corrigée.
+4. Nommer le porteur et réserver le temps (capacité préventive — jamais sur le temps restant).
+5. Poser une échéance réaliste.
+6. À la livraison : mesurer la morsure (ce qui a été évité, chiffré).
+7. Documenter la morsure dans la mémoire (entrée MEM-nnn).
+
+**Anti-patterns** : chantier sans échéance ; porteur sans temps réservé ; preuve non définie ("on verra bien") ; morsure non mesurée.
+
+## Section 4 : Consulter la mémoire
+
+1. Chercher par thèmes (2–4 mots-clés max).
+2. Lire les entrées applicables directement — les intégrer.
+3. Lire les entrées applicables avec adaptation — les adapter en le notant.
+4. Lire les entrées inapplicables — les écarter en le notant (le tri est de l'information).
+5. Extraire les règles actives héritées — les intégrer à la spécification.
+6. Extraire les cas limites hérités — les ajouter.
+7. Noter ce que la consultation a révélé (le trou, le pattern nouveau) — en faire une entrée.
+
+**Anti-patterns** : consulter la mémoire après la décision (au lieu d'avant) ; tout prendre sans tri ; ne rien noter de ce que la consultation a révélé.
+
+## Section 5 : Écrire une lettre de veille
+
+1. Rassembler les valeurs des indicateurs de la semaine.
+2. Comparer aux seuils (définition des seuils : part 14).
+3. Noter les alertes (seuils franchis) avec investigation ouverte.
+4. Noter les marges (distance au seuil, en pourcentage).
+5. Noter l'évolution vs période précédente (tendance, pas instant).
+6. Formuler l'action en cours pour chaque alerte.
+7. Conclusion : système sain / zones de vigilance / alertes.
+8. Envoyer. Sans action formulée, une alerte n'est qu'une inquiétude.
+
+**Anti-patterns** : lettre sans action ; alerte sans investigation ; marges absentes (on ne sait pas si 490 ms c'est loin ou près de 500) ; tendance cachée sous les valeurs instantanées.
+
+## Section 6 : Faire une projection
+
+1. Collecter la tendance (8 semaines de données minimum).
+2. Projeter : "dans X semaines, la valeur sera Y — SI la tendance continue."
+3. Définir la zone d'alerte (le seuil critique).
+4. Documenter la projection (date, auteur, hypothèse).
+5. À l'échéance : valider rétroactivement (valeur réelle, écart, verdict : fiable / partiellement fiable / non fiable).
+6. Documenter le verdict et les actions.
+7. Garder la projection (fiable ou non) : c'est l'hypothèse qui est testée, pas la personne.
+
+**Anti-patterns** : projection sur moins de 4 semaines de données ; projection sans hypothèse explicite ; verdict absent (projection oubliée) ; verdict émotionnel (on défend la projection au lieu de la tester).
+
+## Section 7 : Conduire un atelier de prévention (résumé)
+
+1. Ouverture (2 min) : "Aujourd'hui, on prévient. Pas on répare."
+2. Tour des signaux (10 min) : chacun partage une observation de la semaine.
+3. Tri (10 min) : tendance vs isolé, confirmé vs non.
+4. Choix (5 min) : 1–2 chantiers de prévention max.
+5. Pose (10 min) : problème / prévention / preuve / porteur / échéance.
+6. Clôture (3 min) : les porteurs confirment le temps réservé.
+
+**Anti-patterns** : atelier qui devient une revue d'incidents ; plus de 2 chantiers posés (aucun ne sera fait) ; porteur sans temps.
+
+## Section 8 : Quand le praticien ne sait plus quoi faire
+
+1. Retour au signal : est-ce une tendance réelle ? Vérifier les données.
+2. Retour au gabarit : est-ce que le problème / prévention / preuve est bien formulé ?
+3. Retour à la mémoire : est-ce que ce cas a déjà été vu ? (MEM-nnn)
+4. Retour à l'équipe : demander (posture A). L'équipe sait souvent plus que le praticien.
+5. Retour à la liste des 10 anti-frontières : est-ce qu'une frontière est tombée ?
+6. Si rien ne marche : documenter la situation dans la mémoire comme "cas ouvert" — et passer à la suite. Un cas ouvert documenté vaut mieux qu'une décision improvisée.
+
+---
+
+*Fin du manuel de terrain du niveau 6.*
+
