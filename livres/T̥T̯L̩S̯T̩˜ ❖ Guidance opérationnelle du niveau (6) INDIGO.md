@@ -2514,3 +2514,193 @@ Au niveau 7, vous êtes en maîtrise : l'art de la transmission, la relation à 
 
 *Fin du guide du nouveau praticien au niveau 6.*
 
+
+---
+
+# Partie 19 : Les questions d'entretien du niveau 6
+
+Ce jeu de questions sert à sélectionner ou évaluer un praticien TOTALISATION au niveau 6 (prévention). Chaque question porte une posture, un gabarit, ou une discipline du niveau 6 — et une réponse trahit soit la maîtrise, soit l'imitation.
+
+## Bloc 1 : Le signal faible et l'élicitation
+
+**Q1 — Un membre de l'équipe dit : « Je trouve que le déploiement prend plus de temps qu'avant, mais je ne sais pas si c'est vrai. » Que faites-vous ?**
+
+Réponse de maîtrise : je note l'observation sans l'interpréter (quoi, quand, combien de fois), je demande les données (le temps de déploiement des 8 dernières semaines), et je cherche une confirmation indépendante. Si la tendance est confirmée, je déclenche l'élicitation — et je laisse le membre nommer ce qu'il a vu, pas moi.
+
+Réponse d'imitation : je dis « oui, c'est probablement vrai » et je pose un chantier de correction tout de suite.
+
+**Q2 — Trois personnes ont signalé la même observation. Que faites-vous ?**
+
+Réponse de maîtrise : la règle des trois confirmations est déclenchée — j'ouvre l'élicitation proactive avec le demandeur pressenti (celui qui a vu le signal en premier, pas celui qui a le plus de légitimité). Je documente la chaîne de confirmations dans le registre.
+
+Réponse d'imitation : j'attends que ça devienne un incident.
+
+**Q3 — Quelle est la différence entre un signal faible et une plainte ?**
+
+Réponse de maîtrise : le signal faible est une observation factuelle (répétée, contextualisée) — la plainte est une émotion sur un événement. Le signal faible déclenche une élicitation ; la plainte déclenche une écoute. Les deux sont légitimes, mais elles ne mènent pas au même chantier.
+
+Réponse d'imitation : je les traite pareil — toutes les deux comme des problèmes à résoudre.
+
+## Bloc 2 : Le chantier de prévention
+
+**Q4 — Formulez un chantier de prévention à partir de : « le build prend 42 minutes au lieu de 28 ».**
+
+Réponse de maîtrise : « SI rien n'est fait, ALORS le build dépasse la fenêtre d'intégration continue dans ~4 semaines (à +2 min/semaine) — ALORS chaque déploiement bloque l'équipe 20 minutes. PRÉVENTION : investiguer la régression du temps de build. PREUVE ATTENDUE : le temps retourne sous 30 minutes. PORTEUR : nommé avec 4 heures réservées. ÉCHÉANCE : 2 semaines. »
+
+Réponse d'imitation : « le build est trop lent, on va le corriger ».
+
+**Q5 — Qui porte un chantier de prévention ?**
+
+Réponse de maîtrise : le porteur est celui qui a vu le signal ou qui maîtrise le domaine — jamais le praticien par défaut. Le porteur a un temps réservé (capacité préventive), pas un temps restant. Si le porteur n'a pas de temps, le chantier est une fiction.
+
+Réponse d'imitation : le praticien porte tout — c'est plus rapide.
+
+**Q6 — Comment mesurez-vous qu'une prévention a fonctionné ?**
+
+Réponse de maîtrise : par la morsure — ce qui a été évité, chiffré (l'incident évité, le temps épargné, la tendance corrigée). La morsure est documentée dans la mémoire (entrée MEM-nnn) avec le chiffrage (ex. : 2 heures de correction vs 40 personnes-jours évités). Une prévention sans morsure mesurée est une dépense, pas un investissement.
+
+Réponse d'imitation : « on a corrigé le build, ça marche mieux ».
+
+## Bloc 3 : La mémoire et la veille
+
+**Q7 — Que mettez-vous dans la mémoire de l'équipe ?**
+
+Réponse de maîtrise : trois types d'entrées — les règles actives (l'apprentissage qui devient une pratique : « toute modification d'infrastructure est suivie d'une semaine de surveillance »), les cas limites (ce qui a failli arriver et comment ça a été évité), les patterns confirmés (ce qui se répète). Chaque entrée est documentée avec l'origine (le chantier), le chiffrage (la morsure), et les liens vers les entrées reliées.
+
+Réponse d'imitation : « les décisions importantes ».
+
+**Q8 — Comment une équipe consulte-t-elle sa mémoire ?**
+
+Réponse de maîtrise : avant toute décision de chantier, pas après. Par thèmes (2–4 mots-clés), avec un tri explicite : applicables directement / applicables avec adaptation / inapplicables (le tri est de l'information). Ce que la consultation a révélé (le trou, le pattern nouveau) devient une nouvelle entrée.
+
+Réponse d'imitation : la mémoire est un dépôt — on y va quand on se souvient qu'elle existe.
+
+**Q9 — Qu'est-ce qu'une lettre de veille ?**
+
+Réponse de maîtrise : un rituel périodique (hebdomadaire) qui compare les valeurs observées aux seuils, montre les marges (la distance au seuil), et les évolutions (la tendance). Chaque alerte est accompagnée d'une action formulée. Sans action, une alerte n'est qu'une inquiétude.
+
+Réponse d'imitation : un dashboard qui montre les valeurs actuelles.
+
+**Q10 — Quelle est la différence entre veille et surveillance ?**
+
+Réponse de maîtrise : la surveillance regarde le présent (les valeurs actuelles vs les seuils). La veille regarde le futur (les tendances, les projections : « dans 4 semaines, la valeur sera X SI la tendance continue »). La surveillance détecte les dépassements ; la veille détecte les montées avant qu'elles ne deviennent des dépassements.
+
+Réponse d'imitation : « c'est pareil — on regarde les chiffres ».
+
+## Bloc 4 : La projection
+
+**Q11 — Comment faites-vous une projection ?**
+
+Réponse de maîtrise : je collecte la tendance (8 semaines de données minimum), je projette avec l'hypothèse explicite (« SI la tendance continue »), je définis la zone d'alerte, et je documente. À l'échéance, je valide rétroactivement : valeur réelle, écart, verdict (fiable / partiellement fiable / non fiable). La projection est conservée même si elle est non fiable — c'est l'hypothèse qui est testée, pas la personne.
+
+Réponse d'imitation : je devine d'après mon expérience.
+
+**Q12 — Une projection s'est révélée fausse. Que faites-vous ?**
+
+Réponse de maîtrise : je documente le verdict (non fiable, avec l'écart), je cherche pourquoi (l'hypothèse était fausse ? les données étaient incomplètes ? la tendance a changé ?), et je documente ce que la projection a révélé. Une projection fausse est une information — elle a testé une hypothèse.
+
+Réponse d'imitation : je la supprime du registre — elle ne sert plus.
+
+## Bloc 5 : La transmission
+
+**Q13 — Comment passez-vous du niveau 5 au niveau 6 ?**
+
+Réponse de maîtrise : je ne change pas de contenu — je change de relation au temps. Au niveau 5, j'opère le présent (ce qui se voit, ce qui se mesure). Au niveau 6, j'opère le futur (ce qui vient, ce qui se prévient). Je passe de la réponse à l'anticipation, de l'incident au chantier de prévention, de la mesure à la veille, de l'individu à l'équipe.
+
+Réponse d'imitation : « j'ajoute les gabarits de prévention à ma boîte à outils ».
+
+**Q14 — Comment transmettez-vous le niveau 6 à un nouveau praticien ?**
+
+Réponse de maîtrise : je ne le décris pas — je le fais vivre. Le nouveau praticien écoute les signaux (semaine 1), les trie (semaine 2), pose son premier chantier (semaine 3), consulte sa mémoire (semaine 4). Je ne fais jamais à sa place — je l'accompagne. Le niveau 6 se transmet par la pratique, pas par la documentation.
+
+Réponse d'imitation : « je lui donne le manuel de terrain ».
+
+## Comment lire les réponses
+
+Les réponses de maîtrise partagent trois traits : elles sont **chiffrées** (la morsure, le délai, la marge), elles sont **documentées** (le registre, la mémoire, la lettre), et elles **appartiennent à l'équipe** (le porteur, l'expression, la pratique). Les réponses d'imitation partagent les trois traits inverses : elles sont floues, elles sont orales, et elles appartiennent au praticien.
+
+---
+
+*Fin des questions d'entretien du niveau 6.*
+
+
+---
+
+# Partie 20 : Les fautes du praticien du niveau 6
+
+Cette partie est le miroir du praticien du niveau 6 : les erreurs réelles qui détruisent la prévention. Les cinq fautes principales, documentées avec leurs conséquences.
+
+## Faute 1 : le praticien qui anticipe à la place de l'équipe
+
+**Le contexte.** Une équipe (9 personnes) au début du niveau 6. Le praticien (venu du niveau 5) voit les signaux partout et les nomme lui-même : « le build va ralentir », « cette API va devenir un goulot », « cette documentation va diverger ».
+
+**Ce qui s'est passé.** L'équipe a cessé d'observer. Chaque signal était nommé par le praticien, chaque chantier de prévention était posé par le praticien, chaque morsure était mesurée par le praticien. Au mois 3, l'équipe a arrêté de signaler : pourquoi observer si le praticien voit tout ?
+
+**La découverte.** Le praticien a quitté pour deux semaines. Pendant son absence, aucun signal n'a été nommé — parce que l'équipe n'avait plus l'habitude d'observer. Les deux semaines d'absence ont produit un incident que le praticien aurait vu en 5 minutes s'il était là.
+
+**La réparation.** Le praticien est revenu avec une discipline : ne plus jamais nommer à la place. Écouter, questionner, reformuler — laisser nommer. Six semaines pour que l'équipe reprenne l'habitude d'observer. Au mois 8, l'équipe nommait 3 signaux par semaine sans le praticien.
+
+**La leçon de la faute.** Le praticien qui anticipe à la place de l'équipe fabrique une équipe aveugle — et l'équipe aveugle ne voit que ce que le praticien voit. La prévention réelle est celle qui se transmet (l'expression à l'équipe), pas celle qui se centralise (l'expression au praticien).
+
+## Faute 2 : le praticien qui confond prévention et prudence
+
+**Le contexte.** Une équipe (12 personnes) au niveau 6 depuis 4 mois. Le praticien fait des réunions de prévention où il dit : « attention au déploiement », « attention à l'API », « attention à la migration ». Chaque attention est un conseil — jamais un chantier.
+
+**Ce qui s'est passé.** Au mois 4, l'équipe a cessé d'écouter. Chaque conseil était une inquiétude — jamais une action. Les incidents sont arrivés (le build, l'API, la migration), et l'équipe a découvert que les conseils du praticien étaient justes. Trop tard.
+
+**La découverte.** Le praticien, dans son bilan, a réalisé : il avait fait 12 avertissements et posé 0 chantier. Les 12 avertissements avaient été corrects. Zéro avait été traité.
+
+**La réparation.** Le praticien a appris la différence : la prudence est une parole (attention), la prévention est une discipline (SI rien n'est fait, ALORS — chantier, porteur, preuve, échéance). Neuf avertissements sont devenus 9 chantiers de prévention, avec des porteurs et des échéances. Trois ont été traités. Six ont été abandonnés (pas de temps disponible) — et documentés comme tels.
+
+**La leçon de la faute.** Le praticien qui confond prévention et prudence fabrique de l'inquiétude — jamais de la prévention. La prévention est une discipline : le SI/ALORS, le chantier, le porteur, la preuve, l'échéance, la morsure. Le conseil est une parole qui se dissipe dans l'air.
+
+## Faute 3 : le praticien qui surveille au lieu de veiller
+
+**Le contexte.** Une équipe (8 personnes) au niveau 6 depuis 6 mois. Le praticien a installé un dashboard : les temps de réponse, les taux d'erreur, les temps de build. Chaque valeur est vérifiée manuellement chaque jour.
+
+**Ce qui s'est passé.** Les valeurs étaient dans les seuils — toujours. Mais une tendance se montait : le temps de build passait de 28 à 42 minutes en 8 semaines. Le praticien ne l'a pas vu, parce que chaque valeur était dans le seuil. L'incident est arrivé au mois 8 (build 55 minutes — dépassement).
+
+**La découverte.** Le praticien, dans son bilan, a réalisé : il avait surveillé (les valeurs vs les seuils) mais pas veillé (les tendances). 8 semaines de montée, visibles dans les données — jamais vues, parce que chaque valeur était dans le seuil.
+
+**La réparation.** Le praticien a installé la veille : la lettre hebdomadaire qui montre les tendances (pas seulement les valeurs), les marges (la distance au seuil), et les projections (« dans 4 semaines, la valeur sera X »). La première lettre a révélé 2 tendances montantes — traitées avant les incidents.
+
+**La leçon de la faute.** Le praticien qui surveille au lieu de veiller voit les dépassements — jamais les montées avant les dépassements. La veille regarde le futur (les tendances, les projections) ; la surveillance regarde le présent (les valeurs, les seuils). Une lettre de veille qui ne montre que les valeurs est une surveillance déguisée.
+
+## Faute 4 : le praticien qui documente à la place de l'équipe
+
+**Le contexte.** Une équipe (10 personnes) au niveau 6 depuis 8 mois. Le praticien documente tout : les entrées de mémoire, les gabarits, les lettres de veille, les projections. Chaque document est bien écrit, bien structuré, bien relié.
+
+**Ce qui s'est passé.** L'équipe a cessé de documenter. Pourquoi documenter si le praticien le fait ? Au mois 10, le praticien a pris un mois de congé — et la mémoire a cessé de se mettre à jour. Les apprentissages du mois n'ont pas été documentés. Les consultations de mémoire ont trouvé les entrées obsolètes.
+
+**La découverte.** Le praticien, à son retour, a réalisé : il avait documenté à la place de l'équipe — et l'équipe n'avait plus la pratique. La mémoire était riche mais morte : elle dépendait d'une personne.
+
+**La réparation.** Le praticien a cessé de documenter (sauf les entrées qu'il a lui-même initiées). L'équipe a repris la documentation, avec un gabarit simple (une entrée = une page, pas quatre). Au mois 14, l'équipe documentait 3 entrées par semaine sans le praticien.
+
+**La leçon de la faute.** Le praticien qui documente à la place de l'équipe fabrique une mémoire morte — et une mémoire morte ne protège pas. La mémoire réelle est celle qui se transmet (l'équipe documente), pas celle qui se centralise (le praticien documente).
+
+## Faute 5 : le praticien qui fait du niveau 6 une technique au lieu d'une discipline
+
+**Le contexte.** Une équipe (14 personnes) au niveau 6 depuis 12 mois. Le praticien a installé les techniques : les gabarits de signal, les gabarits de chantier, les gabarits de mémoire, les lettres de veille, les projections. Tout est en place. Tout est utilisé.
+
+**Ce qui s'est passé.** L'équipe a suivi les techniques. Les gabarits étaient remplis, les lettres étaient envoyées, les projections étaient faites. Mais les pratiques de prévention (l'observation, l'anticipation, la morsure) n'étaient pas vécues — elles étaient exécutées. Au mois 14, l'équipe a demandé : « est-ce qu'on peut arrêter les gabarits ? On ne voit plus à quoi ça sert. »
+
+**La découverte.** Le praticien, dans son bilan, a réalisé : il avait installé les techniques (les gabarits, les lettres, les projections) sans installer la discipline (l'observation, l'anticipation, la morsure). Les techniques sans la discipline sont des formalités — et les formalités sont abandonnées.
+
+**La réparation.** Le praticien a repris la discipline : les ateliers de prévention (l'observation réelle, pas les gabarits), la morsure mesurée (la valeur réelle, pas le chiffre), la transmission (l'équipe qui nomme, pas le praticien qui remplit). Au mois 18, les techniques étaient utilisées comme outils de la discipline — pas comme fin en soi.
+
+**La leçon de la faute.** Le praticien qui fait du niveau 6 une technique fabrique des formalités — jamais une prévention. La discipline (l'observation, l'anticipation, la morsure) est la substance ; les techniques (les gabarits, les lettres, les projections) sont les outils. Les outils sans la substance sont vides.
+
+## La synthèse des cinq fautes
+
+**Faute 1** : le praticien anticipe à la place de l'équipe → l'équipe aveugle.
+**Faute 2** : le praticien confond prévention et prudence → l'inquiétude sans l'action.
+**Faute 3** : le praticien surveille au lieu de veiller → les dépassements sans les montées.
+**Faute 4** : le praticien documente à la place de l'équipe → la mémoire morte.
+**Faute 5** : le praticien fait du niveau 6 une technique → les formalités sans la discipline.
+
+**La même correction pour les cinq fautes** : le praticien se met au service de la discipline (l'équipe observe, la prévention est une discipline, la veille regarde le futur, l'équipe documente, la substance avant les outils) — et la prévention devient réelle.
+
+---
+
+*Fin des fautes du praticien du niveau 6.*
+
