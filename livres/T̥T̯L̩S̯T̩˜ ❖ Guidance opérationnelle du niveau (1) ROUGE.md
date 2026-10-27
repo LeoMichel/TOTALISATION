@@ -1,4 +1,4 @@
-﻿<!-- ===================== COUVERTURE (RECTO) ===================== -->
+﻿﻿<!-- ===================== COUVERTURE (RECTO) ===================== -->
 <!-- Zone réservée à l'illustration de couverture (image à insérer ici). -->
 <!-- Éléments à faire figurer sur le recto : logotype T̥T̯L̩S̯T̩˜, titre, sous-titre, auteur, "ORIGINALIUM". -->
 
@@ -768,9 +768,11 @@ Une dernière certitude, tirée de toutes les traversées vécues : **le point m
 - **Ne pas dramatiser la résistance.** La résistance de semaine 5 n'est pas du rejet idéologique ; c'est de la fatigue d'apprentissage. La différence se traite : la première se confronte, la seconde se soulage.
 - **Les preuves valent mieux que les encouragements.** En semaine 5, personne n'a besoin d'un coach motivé ; tout le monde a besoin des chiffres qui montrent ce qui bouge.
 
-### Capsule du vécu : Mission Faucon, la traversée
+### Capsule du vécu : Mission Faucon, la traversée (semaines 5-6 du mandat)
 
 La réalité de la mission Faucon a connu cette traversée, et je ne la raconte pas avec légèreté. Les semaines 5 et 6 ont été une perte de temps, un fiasco, une montagne russe de désespoir. Les tensions entre qualité et R&D étaient vives : le tech lead remettait en question la valeur ajoutée des workshops, l'équipe était divisée, et le sentiment de "mission impossible" était réel. J'ai moi-même noté dans mon journal : "c'est le défi le plus hot que j'ai eu jusqu'à aujourd'hui".
+
+Une note d'honnêteté avant de continuer : le mandat réel de la mission Faucon était de six semaines. Ce livre s'organise sur huit — les semaines 7 et 8 racontent ce qui s'est passé après le mandat, quand la fondation construite en six semaines a été mise à l'épreuve du transfert et de l'ancrage. Les capsules qui suivent ne racontent pas des semaines 7 et 8 de la mission : elles racontent la suite, chez Opal-RT, après que le mandat de six semaines s'est terminé.
 
 Un passage que j'ai gardé, parce qu'il résume la semaine 5 de n'importe quelle transformation : "le gros défi est qu'il manque beaucoup de choses dans la donne. Il n'y a pas de réelle responsable produit, ils n'ont jamais élicité ni modélisé, pas de documentation de produit, pas de référentiel de test non plus." Quand la base manque, la pratique de semaine 5 devient épuisante, parce qu'elle ne construit pas sur du solide : elle creuse le trou en même temps qu'elle marche.
 
@@ -880,9 +882,11 @@ La semaine 5 a été traversée. La semaine 6 n'est pas la lumière au bout du t
 - **Le coach qui ne se retire pas devient un pilier fragile.** Si l'équipe continue de dépendre de lui, le virage n'a pas eu lieu ; il a été joué.
 - **La décision de direction doit être écrite.** Une décision orale s'oublie à la première réorganisation.
 
-### Capsule du vécu : Mission Faucon, le virage
+### Capsule du vécu : Mission Faucon, le virage (après le mandat de 6 semaines)
 
 Et puis, un jour, le virage est arrivé. Le contrat qualité a été signé. Une feuille de route de 9 mois a été officialisée. La gouvernance a été rendue durable. Le succès est devenu visible, tangible, non contestable. Ce que personne n'avait vu venir, ce que j'avais pourtant pressenti dès le début, s'est réalisé : la mission avait répondu à un besoin réel, et l'organisation avait choisi d'investir.
+
+Précision d'honnêteté : le virage n'a pas eu lieu dans les six semaines du mandat. Il a eu lieu après — quand la directrice qualité a décidé que ce qui avait été construit méritait d'être prolongé. Le mandat de six semaines a bâti la fondation. La décision de prolonger a bâti le virage. Les deux sont réels, et les deux sont distincts.
 
 Un détail que j'ai gardé de cette fin de mission : le partenariat qualité-Agile est devenu indissociable. Le coach qualité et le coach Agile ont continué à co-porter la même vision du SDLC, des décisions, des preuves et de la livraison. Tout ce qui avait été construit se lisait comme un travail aligné, non comme un mandat qualité isolé. C'était la preuve vivante que TOTALISATION n'est pas une affaire de qualité ; c'est une affaire de réconciliation.
 
@@ -998,9 +1002,11 @@ Le coach externe se retire. C'est le vrai test. Tout ce qui a été construit de
 - **Un cycle incomplet est un résultat, pas un échec.** Si l'équipe ne finit pas les six phases, la preuve du frein est plus précieuse qu'un cycle bâclé. On documente où le cycle s'est arrêté, et pourquoi.
 - **Le chargé de livraison anime, il ne fait pas.** C'est la confusion la plus fréquente : on nomme un chef et il refait tout lui-même. Animer, tenir la trace, faire avancer le groupe : c'est tout son métier cette semaine.
 
-### Capsule du vécu : Mission Faucon, le transfert
+### Capsule du vécu : après la mission Faucon — la preuve du transfert
 
 Le passage de capacité est le moment le plus fragile d'une mission. Chez Opal-RT, j'ai vu ce moment prendre plusieurs formes : le tech lead qui remettait en question la valeur des workshops, l'équipe qui divisait son attention entre l'adoption et la médiation entre R&D et qualité IVV, et cette question récurrente de la direction : "comment on s'assure que ça tient quand tu seras parti ?".
+
+Précision factuelle : le mandat de six semaines de la mission Faucon ne couvrait pas les semaines 7 et 8 de ce livre. Ce que les semaines 7 et 8 racontent — le transfert de capacité, le cycle complet en autonomie, la grande boucle refermée — s'est passé après le mandat, dans la phase de prolongation décidée par la directrice qualité. Les pratiques étaient les mêmes ; le contexte était différent : le coach n'était plus sous mandat — il était invité.
 
 La réponse qui a fonctionné n'était pas un manuel. C'était le duo : le coach qualité et le coach Agile co-portant la même vision, plus un espace neutre (le centre d'excellence dans Confluence) où la mémoire commune vivait indépendamment des personnes. Les ateliers de la semaine 7 que vous venez de lire ont leur origine dans cette leçon : l'autonomie ne se décrète pas, elle se construit artefact par artefact.
 
@@ -1109,9 +1115,11 @@ Le cycle complet a été traversé sans aide externe. La semaine 8 n'est pas une
 - **Le champion sans temps est un titre vide.** Avant de nommer, s'assurer que la hiérarchie accorde le temps réel du rôle. Sinon, le centre d'excellence devient un cimetière de bonnes intentions.
 - **Le rapport de maturité doit inclure les faiblesses.** Un rapport qui ne montre que des succès sera relu une fois puis oublié. Un rapport honnête sert de feuille de route.
 
-### Capsule du vécu : Mission Faucon, l'ancrage
+### Capsule du vécu : après la mission Faucon — l'ancrage (la phase de prolongation)
 
 La fin de mission chez Opal-RT a apporté ce que les bilans appellent "les fondations" et ce que le terrain appelle "ce qui reste quand le consultant est parti". Le contrat qualité signé. Le RACI (répartition des responsabilités et consultations) officiel. Le lexique officiel. La qualimétrie opérationnelle avec son tableau de bord. Et une gouvernance qui avait commencé à tourner sans moi.
+
+Précision factuelle : ces événements se sont passés après le mandat de six semaines, dans la phase de prolongation décidée par la directrice qualité. Le mandat a bâti la fondation en six semaines ; la prolongation a bâti l'ancrage sur les mois suivants. Ce livre organise les huit semaines pour l'apprentissage — le réel a été plus lent, et plus durable.
 
 Ce que j'ai retenu de cette dernière semaine, c'est un conseil que je repasse tel quel : la pérennisation se joue sur la capacité d'absorption de l'organisation. Ne tentez pas de tout mettre en place à la fin. Stabilisez une fondation minimale, quelques spécifications exemplaires, une gouvernance minimale, une première structure de centre d'excellence, et un compte rendu clair des chantiers en cours, bloqués ou hors portée. La suite se construit sur du solide, pas sur de l'enthousiasme de fin de mission.
 
