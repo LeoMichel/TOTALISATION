@@ -3211,3 +3211,256 @@ Réponse : jamais — et c'est le signe que cela fonctionne. Une organisation qu
 
 *Fin de la FAQ direction. Ces huit réponses tiennent sur une page — gardez-les à portée de main pour votre prochaine revue de direction.*
 
+
+---
+
+# Partie 29 : Le bilan de vitalité de la prévention — gabarit annuel étendu
+
+Le bilan annuel du praticien N6 couvre la prévention sur douze mois. Ce gabarit étendu reprend le bilan simplifié (Partie 25) et y ajoute les dimensions de transmission, de culture et de réalité organisationnelle.
+
+## Section 1 : Les morsures (la valeur mesurée)
+
+| Incident évité | Chantier | Coût évité (jours-pers.) | Coût prévention (heures) | Morsure documentée ? |
+|---|---|---|---|---|
+| | | | | |
+| | | | | |
+| **Total** | | | | |
+
+**Les incidents NON évités (et leur coût) :**
+
+| Incident survenu | Pourquoi non évité | Coût du dommage | Apprentissage |
+|---|---|---|---|
+| | | | |
+| | | | |
+
+## Section 2 : Le canal des signaux
+
+| Indicateur | Valeur | Tendance |
+|---|---|---|
+| Signaux déposés sur l'année | | |
+| Déposants actifs (nombre) | | |
+| Tendances confirmées | | |
+| Élicitations proactives lancées | | |
+| Chantiers posés depuis signal | | |
+| Signaux ignorés (et pourquoi) | | |
+
+**Le test de vitalité du canal** : les signaux sont-ils déposés par au moins 50 % de l'équipe (pas seulement le praticien) ? Si oui, le canal est un organe collectif. Si non, le canal est la propriété du praticien — relire la faute 1.
+
+## Section 3 : Les chantiers de prévention
+
+| Indicateur | Valeur | Tendance |
+|---|---|---|
+| Chantiers posés | | |
+| Chantiers livrés | | |
+| Chantiers abandonnés (et pourquoi) | | |
+| Morsures documentées | | |
+| Morsures NÉGATIVES (dommages survenus) | | |
+| Ratio morsure/investissement moyen | | |
+| Chantiers reportés (et pourquoi) | | |
+
+**Le test de vitalité des chantiers** : les chantiers sont-ils livrés par des porteurs différents (pas seulement le praticien) ? Si oui, la prévention est portée par l'équipe. Si non, la prévention est un praticien — relire la faute 1 et 4.
+
+## Section 4 : La mémoire organisationnelle
+
+| Indicateur | Valeur | Tendance |
+|---|---|---|
+| Entrées ajoutées | | |
+| Entrées améliorées | | |
+| Entrées archivées (obsolètes) | | |
+| Entrées totales vivantes | | |
+| Règles actives | | |
+| Consultations réelles (avant décision) | | |
+| Héritages appliqués (une entrée a influencé une spécification) | | |
+
+**Le test de vitalité de la mémoire** : la mémoire est-elle consultée avant chaque décision ? Y a-t-il des apprentissages récents (dernier trimestre) ? Si oui, la mémoire est vivante. Si non, la mémoire est un placard — relire la faute 3 et 4.
+
+## Section 5 : La transmission
+
+| Indicateur | Valeur | Tendance |
+|---|---|---|
+| Praticiens N6 actifs (porteurs de chantiers) | | |
+| Nouveaux praticiens formés cette année | | |
+| Binômes formés sur les chantiers | | |
+| Congé de 2 semaines passé sans chute de rituels | oui/non | |
+| Rituels tenus par l'équipe (sans le praticien) | x/7 | |
+
+**Le test de vitalité de la transmission** : le praticien peut-il partir deux semaines sans que les rituels tombent ? Si oui, la prévention est organisationnelle. Si non, la prévention est personnelle — relire la faute 5.
+
+## Section 6 : La recommandation de l'année
+
+Une seule phrase, datée, qui engage la pratique de l'année suivante :
+
+> "Pour [année N+1], je m'engage à [une action], et je mesure [un indicateur]."
+
+Trop d'engagements tue l'engagement. Une phrase suffit — si elle est tenue.
+
+---
+
+# Partie 30 : Le glossaire du niveau 6, récapitulatif complet
+
+Ce glossaire récapitule tous les termes du niveau 6, avec leur définition de une phrase et leur règle. Il est conçu pour être imprimé et affiché près du canal des signaux.
+
+**Signal faible** — une observation factuelle, répétée, contextualisée. Sa règle : « j'ai remarqué que », jamais « il faudrait ».
+
+**Règle des trois confirmations** — un signal confirmé trois fois (trois sources ou trois semaines) déclenche l'élicitation proactive. Sa règle : elle protège de l'ivresse de l'anticipateur.
+
+**Élicitation proactive** — une élicitation lancée par le signal confirmé, toujours avec le demandeur pressenti. Sa règle : les signaux ouvrent la conversation, ils ne la remplacent pas.
+
+**Chantier de prévention** — le travail préventif au registre, avec preuve attendue, porteur (temps réservé), échéance. Sa règle : sans preuve attendue, pas de chantier.
+
+**Morsure** — le résultat mesuré d'une prévention livrée : l'incident évité, chiffré. Sa règle : la morsure est la monnaie de la prévention — elle se documente dans la mémoire.
+
+**Morsure négative** — le dommage survenu faute de prévention, chiffré. Sa règle : la morsure négative est la plus persuasive — elle dit ce que la prévention coûte quand elle n'est pas faite.
+
+**Capacité préventive** — la part de capacité réservée aux chantiers de prévention (typiquement 10-15 %). Sa règle : tout report est écrit, daté, avec rattrapage — le report reconduit tacitement est un abandon.
+
+**Projet déguisé en prévention** — un chantier de plus de 3 mois qui ne prévient pas mais retarde. Sa règle : le traiter comme un projet (porteur, budget, échéance) — pas comme une prévention.
+
+**Mémoire organisationnelle** — le réseau des apprentissages indexés, consulté au DoR, enrichi à chaque spécification. Sa règle : elle vit par les deux sens.
+
+**Consultation mémoire** — les vingt minutes du DoR N6. Sa règle : elle doit trouver quelque chose — si jamais, c'est l'indexation qui est défaillante.
+
+**Goutte-à-goutte de la mémoire** — le flux mensuel : une entrée ajoutée, une améliorée, une marquée obsolète. Sa règle : le rythme lent fait la mémoire vivante.
+
+**Lettre de veille** — le rapport périodique qui compare les valeurs aux seuils, montre les marges, et documente chaque alerte avec une action. Sa règle : sans action, une alerte n'est qu'une inquiétude.
+
+**Veille** — le regard sur le futur (les tendances, les projections). À ne pas confondre avec la surveillance (le regard sur le présent). Le test : une lettre qui ne montre que les valeurs est une surveillance déguisée.
+
+**Projection** — la prédiction d'une métrique à quatre semaines, avec hypothèse explicite et validation rétroactive. Sa règle : une projection sans condition prétend à la vérité.
+
+**Validation rétroactive** — la comparaison de la projection passée avec le réel. Sa règle : le taux de fiabilité est public — et une projection toujours fausse est retirée.
+
+**Post-mortem d'anticipation** — la rétrospective d'une anticipation manquée. Sa règle : la faute est une cérémonie, jamais une personne.
+
+**Bilan de régime** — le bilan périodique (annuel) qui confronte le régime au réel. Sa règle : c'est un bilan du régime, pas une évaluation du praticien.
+
+**Journal du praticien** — l'entrée hebdomadaire personnelle. Sa règle : personnel — personne ne le relit à votre place.
+
+**Goutte-à-goutte** — le flux mensuel de la mémoire. Sa règle : le rythme lent fait la mémoire vivante.
+
+**Rotation des signaux** — le binôme trimestriel chargé de déposer des signaux. Sa règle : la diversité d'observation est la condition de la vitalité du canal.
+
+**Revue des projections** — le rituel trimestriel qui confronte les projections passées au réel. Sa règle : maintenance du système, pas évaluation du praticien.
+
+**Morsure rapide** — un chantier de prévention dont la morsure est mesurable dans les 4 semaines. Sa règle : capacité réduite (5 %), preuve précise, visibilité maximale.
+
+**Régime** — ce que le niveau 6 devient après l'installation : un ensemble de pratiques nourries en continu. Sa règle : l'exercice s'achève, le régime commence.
+
+**Rituel décoratif** — un rituel qui se tient mais ne produit rien. Sa règle : les rituels décoratifs sont tués, transformés ou réanimés — jamais laissés en place.
+
+**Faute du praticien centralisateur** — le praticien qui fait à la place de l'équipe. Sa règle : le test du praticien est le congé de deux semaines — les rituels tiennent-ils ?
+
+
+---
+
+# Partie 31 : Les ateliers du niveau 6 — atelier A6-A : le laboratoire de signaux
+
+L'atelier A6-A est un atelier de deux heures, à tenir mensuellement avec l'équipe. Son intention : transformer l'observation individuelle en pratique collective. Il ne s'agit pas d'une formation : il s'agit d'un exercice vivant, où l'équipe observe, classifie et dépose ses propres signaux.
+
+## Le déroulé (2 heures)
+
+**Étape 1 — La ronde des signaux (30 minutes).**
+Chaque participant dépose UN signal observé ce mois-ci — factuel, répété, contextualisé. Le praticien N6 anime : « j'ai remarqué que... ». Aucune critique, aucune classification pendant la ronde : collecte brute. À la fin de la ronde, 5 à 10 signaux sont au tableau.
+
+**Étape 2 — La classification collective (30 minutes).**
+L'équipe classe chaque signal selon la grille N6 : technique, humain, organisationnel, documentaire. Chaque signal reçoit une note de gravité (1-5) et une note de confiance (1-5). L'exercice révèle les divergences de perception : ce qui est grave pour l'un n'est pas pour l'autre. Ces divergences sont documentées — elles sont des apprentissages en soi.
+
+**Étape 3 — Le test des trois confirmations (30 minutes).**
+Chaque signal est testé : a-t-il trois confirmations (trois sources ou trois semaines) ? Les signaux confirmés deviennent candidats-chantiers. Les signaux non confirmés retournent au canal avec une échéance de re-test. L'exercice enseigne la discipline de l'anticipateur : tout signal ne mérite pas un chantier — mais tout signal mérite un re-test.
+
+**Étape 4 — Le dépôt (30 minutes).**
+L'équipe dépose les signaux confirmés au canal, avec leurs notations. Un binôme est désigné pour chaque candidat-chantier. La lettre de veille du mois reprendra ces dépôts. À la fin de l'atelier, l'équipe a bouclé le cycle complet : observation → classification → confirmation → dépôt → binôme.
+
+## Le gabarit de l'atelier (à imprimer)
+
+| Signal (déposé par) | Source | Source | Source | Grille | Gravité | Confiance | Trois confirmations ? | Candidat-chantier ? | Binôme |
+|---|---|---|---|---|---|---|---|---|---|
+| | | | | | | | | | |
+
+## Les apprentissages attendus
+
+1. L'équipe observe — le canal n'est pas la propriété du praticien.
+2. L'équipe classifie — la grille N6 est un langage partagé.
+3. L'équipe confirme — le test des trois confirmations discipline l'anticipateur.
+4. L'équipe dépose — la lettre de veille reprend les dépôts de l'équipe.
+
+Si ces quatre apprentissages ne se produisent pas après trois ateliers, relire les fautes 1, 3 et 4 — le canal N6 est peut-être un organe centralisé déguisé en pratique collective.
+
+---
+
+# Partie 32 : Les ateliers du niveau 6 — atelier A6-B : le laboratoire de projections
+
+L'atelier A6-B est un atelier de deux heures, à tenir trimestriellement. Son intention : apprendre à l'équipe à prédire — et à mesurer la fiabilité de ses prédictions. Il ne s'agit pas d'un exercice de planification : il s'agit d'un exercice de lucidité.
+
+## Le déroulé (2 heures)
+
+**Étape 1 — La reprise des projections passées (30 minutes).**
+L'équipe reprend les projections du trimestre écoulé : ce qui était prédit, ce qui est arrivé. Chaque écart est documenté — l'hypothèse défaillante est identifiée. À la fin de l'étape, l'équipe connaît son taux de fiabilité réel.
+
+**Étape 2 — Les nouvelles projections (30 minutes).**
+L'équipe prédit quatre métriques à quatre semaines : le build, l'API, les documents, les dépendances. Chaque projection porte une hypothèse explicite (« si rien ne change ») et une condition (« si le chantier P-x est livré »). Les projections sont déposées au canal avec leurs dates de validation.
+
+**Étape 3 — Le test des hypothèses (30 minutes).**
+L'équipe teste chaque hypothèse : est-elle vérifiable ? Quelle preuve attendue ? Quel seuil ? Les hypothèses non vérifiables sont reformulées — une projection prétend à la vérité quand son hypothèse prétend à la preuve. L'exercice enseigne la lucidité prédictive : prédire, c'est d'abord savoir comment on saura.
+
+**Étape 4 — Le dépôt et les chantiers (30 minutes).**
+Les projections confirmées sont déposées au canal, avec leurs dates de re-test. Les tendances qui dépassent les seuils déclenchent des candidats-chantiers — l'anticipation devient prévention. À la fin de l'atelier, l'équipe a bouclé le cycle complet : reprise → prédiction → hypothèse → dépôt → chantier.
+
+## Le gabarit de l'atelier (à imprimer)
+
+| Métrique | Prédiction à 4 semaines | Hypothèse | Condition | Preuve attendue | Seuil | Date de re-test | Verdict (à 4 semaines) |
+|---|---|---|---|---|---|---|---|
+| | | | | | | | |
+
+## Les apprentissages attendus
+
+1. L'équipe prédit — la projection n'est pas la propriété du praticien.
+2. L'équipe documente ses hypothèses — la lucidité se teste, elle ne se décrète.
+3. L'équipe mesure sa fiabilité — le taux de fiabilité est public.
+4. L'équipe transforme l'anticipation en prévention — les tendances déclenchent des chantiers.
+
+Si ces quatre apprentissages ne se produisent pas après deux ateliers, relire la faute 2 — les projections N6 sont peut-être un exercice de façade déguisé en lucidité.
+
+---
+
+# Partie 33 : Les ateliers du niveau 6 — atelier A6-C : le laboratoire de morsures
+
+L'atelier A6-C est un atelier de deux heures, à tenir à chaque bilan annuel (et à mi-année en version courte). Son intention : mesurer la valeur réelle de la prévention — et rendre cette valeur visible à la direction et à l'équipe. Il ne s'agit pas d'un exercice de communication : il s'agit d'un exercice de comptabilité honnête.
+
+## Le déroulé (2 heures)
+
+**Étape 1 — La comptabilité des morsures (45 minutes).**
+L'équipe reprend chaque chantier livré et chiffre sa morsure : quel incident évité, quel coût estimé (en jours-personnes), quelle prévention investie (en heures). Chaque estimation est conservatrice — la morsure est comptée à son coût minimum. À la fin de l'étape, l'équipe connaît sa comptabilité réelle : morsures positives, morsures négatives, ratio global.
+
+**Étape 2 — La comptabilité des morsures négatives (30 minutes).**
+L'équipe reprend chaque incident survenu et chiffre son dommage : quel coût réel, pourquoi la prévention n'était pas faite (chantier abandonné, jamais posé, porteur absent). La morsure négative est la plus persuasive : elle dit ce que la prévention coûte quand elle n'est pas faite. À la fin de l'étape, l'équipe connaît le prix de la non-prévention.
+
+**Étape 3 — La comparaison honnête (30 minutes).**
+L'équipe compare : morsures positives (la valeur de la prévention faite) contre morsures négatives (le prix de la prévention non faite). Le ratio est documenté — avec ses incertitudes, ses hypothèses, ses limites. À la fin de l'étape, l'équipe connaît l'arbitrage réel : la prévention a-t-elle un ROI ? Lequel ?
+
+**Étape 4 — La recommandation de l'année (15 minutes).**
+L'équipe rédige une seule phrase d'engagement : « Pour l'année N+1, nous m'engageons à [une action], et nous mesurons [un indicateur]. » La phrase est déposée au canal, affichée près du tableau, et reprise à la lettre de veille annuelle. À la fin de l'atelier, l'équipe a bouclé le cycle complet : comptabilité → comparaison → engagement.
+
+## Le gabarit de l'atelier (à imprimer)
+
+| Chantier livré | Incident évité | Coût évité (jours-pers.) | Prévention investie (heures) | Morsure (ratio) |
+|---|---|---|---|---|
+| | | | | |
+
+| Incident survenu | Coût réel (jours-pers.) | Pourquoi non évité | Apprentissage |
+|---|---|---|---|
+| | | | |
+
+| **Ratio global** | **Morsures positives** | **Morsures négatives** | **Arbitrage** |
+|---|---|---|---|
+| | | | |
+
+## Les apprentissages attendus
+
+1. L'équipe chiffre la valeur réelle — la comptabilité honnête discipline le praticien.
+2. L'équipe documente ses échecs — la morsure négative est la plus persuasive.
+3. L'équipe connaît son ROI — l'arbitrage est public, avec ses incertitudes.
+4. L'équipe s'engage sur une phrase — l'engagement se mesure, il ne se décrète.
+
+Si ces quatre apprentissages ne se produisent pas après le premier bilan, relire la faute 3 — la comptabilité N6 est peut-être un exercice de communication déguisé en comptabilité honnête.
+
