@@ -1,0 +1,230 @@
+﻿Cérémonie de confirmation
+La cérémonie de confirmation ferme la boucle du SDLC en ramenant la réalité du terrain vers le système dʼapprentissage. Après avoir élicité, défini, planifié, implémenté et diffusé, on ne suppose pas que la valeur est au rendez-vous : on la confirme — ou on constate objectivement quʼelle ne lʼest pas encore.
+Cette cérémonie se déroule en conditions réelles ou au plus près du réel. Elle appartient fortement à CARE, mais elle alimente directement ÉLICITER. Son rôle nʼest pas de redébattre immédiatement de la solution ni de corriger à chaud tout ce qui est observé. Son rôle premier est de recueillir, constater, comparer, documenter et transmettre les observations, les métriques, les incidents, les retours et les écarts significatifs.
+Confirmer ne veut donc pas dire « approuver politiquement » ou « déclarer victoire ». Confirmer, cʼest vérifier si ce qui a été mis en circulation tient vraiment dans la réalité dʼusage, dʼopération, de support, de performance, dʼadoption et de valeur.
+Note terminologique. Cette page décrit la cérémonie de CONFIRMER dans son contexte opérationnel. Pour les définitions de référence des termes utilisés ici — confirmation, signal, validation, vérification, preuve, conformité, acceptation, non-régression, métrique, observabilité, log, trace, incident, dérogation, CARE, rôles et RACI — voir le Lexique / Terminologies. Les contributions indiquées dans cette page sont propres à cette cérémonie et ne remplacent pas la matrice RACI.
+🎯 Objectif
+La cérémonie de confirmation transforme une version diffusée en connaissance terrain exploitable. Elle sert à vérifier, en conditions réelles, si la solution livrée produit bien les effets attendus, si elle demeure supportable, si elle est adoptée, si elle respecte les seuils de qualité visés et quels signaux nouveaux doivent être renvoyés vers ÉLICITER.
+Confirmer, ce nʼest pas analyser en profondeur ni corriger immédiatement.
+Cʼest observer correctement la réalité, capter les faits, préserver les signaux et
+éviter de réécrire lʼhistoire à partir dʼimpressions.
+👥 Participants recommandés
+Rôle
+Responsabilité principale
+Support / CARE
+Recueillir les incidents, questions, irritants, diagnostics terrain, escalades et retours dʼusage.
+PO / PM
+Comparer la réalité observée avec la valeur attendue, sans court-circuiter le retour structuré vers ÉLICITER.
+QA / qualité
+Comparer les résultats réels aux attentes, seuils, critères critiques et comportements attendus.
+Développement
+Aider à interpréter les symptômes techniques observés, soutenir le diagnostic initial et qualifier les écarts visibles.
+Ops / Infra
+Fournir les métriques dʼexploitation, de
+disponibilité, de déploiement, de performance, de capacité et de stabilité.
+Architecture / lead technique
+Aider à distinguer un incident local dʼun signal
+systémique ou structurel.
+CdL / coordination
+Structurer la collecte, assurer la traçabilité des observations et maintenir la visibilité du retour terrain.
+Utilisateurs / représentants terrain
+Exprimer les comportements réels, les usages effectifs, les frictions, les gains et les écarts perçus.
+📥 Inputs / Prérequis
+La cérémonie de confirmation commence après DIFFUSER. Elle suppose quʼune version a
+réellement été mise en circulation, rendue observable et supportable, et quʼon dispose maintenant de faits concrets à recueillir.
+Avant CONFIRMER
+Ce qui doit déjà être vrai
+ÉLICITER
+Le besoin initial, la valeur attendue et les signaux de départ ont été documentés.
+DÉFINIR
+Les comportements attendus, les spécifications IF… THEN… et les hypothèses importantes ont été formalisés.
+PLANIFIER
+Les objectifs, les découpages, les validations et les mécanismes de suivi ont été prévus.
+IMPLÉMENTER
+Le build a été produit avec preuves de
+conformité et validations nécessaires.
+DIFFUSER
+La version a été assemblée, déployée, documentée, transférée vers CARE et rendue observable.
+Conditions de confirmation
+Les métriques, journaux, retours utilisateurs, incidents, feedbacks support et mécanismes de suivi sont accessibles.
+Si la version nʼest pas réellement visible, utilisée, observable ou supportée, la confirmation devient artificielle. On ne confirme pas une réalité qui nʼexiste pas encore.
+📤 Outputs / Livrables attendus
+À la fin de la cérémonie, on doit pouvoir transmettre un portrait fidèle de ce qui se passe réellement depuis la diffusion.
+Un rapport de confirmation ou un état de situation documenté.
+Les observations terrain factuelles : incidents, comportements, usages réels, écarts, satisfactions, irritants.
+Les métriques observées : disponibilité, performance, stabilité, adoption, fréquence dʼusage, volumes, tendances, qualité opérationnelle.
+Les retours utilisateurs et support consolidés et structurés.
+Les écarts entre attendu et observé rendus visibles, sans être absorbés silencieusement.
+Les signaux bruts renvoyés vers ÉLICITER pour analyse, priorisation et éventuelle nouvelle
+version.
+Une décision explicite sur lʼétat courant : confirmer, surveiller davantage, corriger rapidement,
+ou relancer un cycle amont.
+⏱ Durée, format et sous-phases recommandées
+La confirmation nʼest pas forcément une réunion unique. Elle peut prendre la forme dʼune
+fenêtre dʼobservation suivie dʼun moment de consolidation. Sa durée dépend du type de produit, de la criticité, du rythme dʼusage, du nombre dʼutilisateurs touchés et du délai nécessaire pour voir émerger les vrais signaux.
+La cérémonie peut être vue en deux sous-phases complémentaires :
+1. Observer et recueillir — laisser la version vivre suffisamment dans la réalité pour capter
+incidents, comportements, adoption, métriques et retours significatifs.
+2. Consolider et transmettre — structurer les faits observés, comparer avec les attentes et
+renvoyer les signaux vers ÉLICITER ou les circuits de réaction appropriés.
+Durées indicatives :
+Correctif ciblé à faible risque : quelques heures à 1 journée dʼobservation peuvent suffire si
+les signaux sont rapides et bien instrumentés.
+Version fonctionnelle standard : 1 à 5 jours peuvent être nécessaires pour observer
+suffisamment dʼusage réel.
+Version complexe, changement critique ou sujet à adoption progressive : plusieurs jours, semaines ou jalons de confirmation peuvent être nécessaires.
+Une version peut rester longtemps en CONFIRMÉ en observation active. Cʼest normal lorsque lʼadoption est graduelle, que les volumes réels prennent du temps à apparaître, que les signaux dʼusage sont lents ou que des risques résiduels doivent être suivis. Ce temps fait partie du vrai travail de livraison et dʼapprentissage.
+🔄 Déroulement suggéré
+1. Confirmer lʼentrée en observation réelle — vérifier que la version est bel et bien diffusée, visible, monitorée et supportée.
+2. Rappeler ce quʼon cherchait à obtenir — reprendre les objectifs, hypothèses, critères critiques, risques connus et attentes initiales.
+3. Recueillir les signaux terrain — incidents, feedback utilisateur, feedback support, métriques,
+alertes, volumes, comportements observés.
+4. Comparer attendu vs observé — identifier les confirmations, écarts, surprises et angles morts.
+5. Qualifier sans sur-interpréter — distinguer fait observé, hypothèse, perception, incident isolé, tendance réelle ou signal systémique.
+6. Documenter les impacts — support, exploitation, satisfaction, adoption, performance, dette, qualité perçue, risques résiduels.
+7. Décider de la suite immédiate — surveillance, réaction courte, correction urgente ou relance dʼun nouveau cycle.
+8. Transmettre vers ÉLICITER — faire remonter les métriques, signaux et apprentissages sans les diluer.
+9. Clore ou maintenir lʼobservation — selon la stabilité, la criticité et la maturité des signaux
+recueillis.
+🔍 Ce que veut dire « confirmer » ici
+Dans cette cérémonie, confirmer signifie :
+Observer la réalité dʼusage et dʼopération.
+Recueillir les faits sans les déformer trop tôt par de lʼinterprétation.
+Comparer les résultats réels aux attentes formulées en amont.
+Documenter les signaux utiles à la suite du cycle.
+Transmettre lʼinformation vers les bons circuits de décision et dʼapprentissage.
+Maintenir la traçabilité entre ce qui avait été promis et ce qui est réellement observé.
+CONFIRMER est un capteur de réalité. ÉLICITER demeure lʼendroit principal
+où cette réalité est analysée, remise en question et transformée en nouvelle
+intention de travail.
+📊 Les dimensions à confirmer
+Dimension
+Question posée
+Exemples de signaux
+Fonctionnelle
+Le comportement réel
+correspond-il à ce qui était attendu ?
+Retours utilisateurs, cas non
+couverts, écarts de comportement, succès/échec des parcours.
+Opérationnelle
+La version est-elle stable, supportable et observable ?
+Incidents, SLA/SLO, alertes, logs, charge support, temps de diagnostic.
+Performance
+Les seuils réels sont-ils tenus
+Temps de réponse, consommation, capacité, latence, saturation.
+Adoption / valeur
+La fonctionnalité est-elle réellement utilisée et utile ?
+Taux dʼusage, fréquence, rétention, contournements, satisfaction, demandes connexes.
+Qualité système
+Des effets secondaires ou régressions apparaissent-ils ?
+Défauts émergents, dégradations, bruit support, nouveaux risques, dette révélée.
+📏 Flexibilité oui, réécriture à chaud non
+Comme pour les autres cérémonies, il faut rester réactif sans casser le système. CONFIRMER ne doit pas devenir un espace où lʼon redéfinit la valeur, réécrit les critères ou minimise les écarts pour faire paraître la livraison plus propre quʼelle ne lʼest.
+Le danger ici est différent de celui dʼIMPLÉMENTER, mais réel : si on commence à interpréter
+chaque observation en direct comme une correction implicite du besoin, ou si on absorbe les retours sans les renvoyer formellement vers ÉLICITER, on détruit la boucle dʼapprentissage.
+On ne maquille pas les écarts.
+On ne remplace pas les faits par une narration rassurante.
+On ne transforme pas chaque retour terrain en micro-ajustement silencieux.
+On protège les signaux, même lorsquʼils sont inconfortables.
+Si une correction urgente est nécessaire, elle peut être déclenchée. Mais le signal, lui, doit quand même être conservé et réinjecté dans le système.
+🔁 Boucles de rétroaction
+CONFIRMER est une source majeure de rétroaction vers lʼamont. Cʼest souvent ici que lʼon voit
+enfin les effets réels dʼune décision, dʼune hypothèse, dʼun raccourci ou dʼune limite non visible plus tôt.
+Signal découvert en confirmation
+Réaction attendue
+Ce quʼon évite
+Valeur attendue non observée
+Remonter vers ÉLICITER pour réévaluer le besoin, lʼusage réel ou la proposition de valeur.
+Conclure trop vite que lʼutilisateur “nʼa pas compris”.
+Incident ou régression en réel
+Déclencher la réaction
+appropriée via CARE et renvoyer le signal vers ÉLICITER.
+Traiter lʼévénement comme un
+bruit isolé sans traçabilité.
+Adoption faible ou
+détournement dʼusage
+Documenter les faits et
+relancer lʼanalyse produit en amont.
+Forcer artificiellement une
+lecture positive des métriques.
+Charge support inhabituelle
+Rendre visible lʼimpact et faire
+remonter la réalité opérationnelle.
+Laisser CARE absorber seul la
+friction du terrain.
+Hypothèse amont invalidée
+Capturer lʼinvalidation comme
+apprentissage structurant.
+Réécrire lʼhistoire comme si
+lʼhypothèse nʼavait jamais existé.
+🧮 Le travail de confirmation nʼest pas accessoire
+Le travail effectué en confirmation est du vrai travail. Recueillir, consolider, qualifier et transmettre les observations terrain demande du temps, de lʼattention, de la coordination et de la rigueur. Ce nʼest pas une étape administrative après coup.
+Ce travail produit une valeur directe :
+il protège lʼorganisation contre lʼauto-illusion ;
+il permet dʼapprendre à partir du réel ;
+il améliore la qualité de lʼélicitation future ;
+il donne du sens aux métriques et aux incidents ;
+il évite de répéter les mêmes erreurs de cycle en cycle.
+Quand la confirmation révèle quʼil faut revenir en amont, cela ne veut pas dire que la diffusion ou
+lʼimplémentation étaient inutiles. Cela veut dire que le système a appris quelque chose de réel, et que cette connaissance doit être capitalisée plutôt que cachée.
+✅ Critères dʼune bonne confirmation
+La version est observée dans des conditions réellement représentatives.
+Les faits recueillis sont distingués des interprétations.
+Les métriques, retours et incidents sont traçables et exploitables.
+Les écarts entre attendu et observé sont rendus visibles.
+Les signaux sont renvoyés vers ÉLICITER plutôt que dissous localement.
+CARE, produit, qualité et technique partagent une lecture commune de la réalité observée.
+⚠ Pièges courants à éviter
+Piège
+Pourquoi cʼest un problème
+Comment lʼéviter
+Confondre confirmation et célébration
+On cherche à valider une réussite plutôt quʼà observer le réel.
+Traiter CONFIRMER comme une phase de constat, pas de promotion.
+Analyser trop tôt au lieu de recueillir
+Les faits sont déformés avant dʼêtre correctement captés.
+Séparer lʼobservation factuelle de lʼanalyse amont.
+Laisser CARE seul avec la réalité
+Le reste du système nʼapprend pas correctement des signaux terrain.
+Partager explicitement les observations avec produit, qualité et technique.
+Masquer les écarts pour protéger la livraison
+La boucle dʼamélioration est brisée et les mêmes erreurs reviennent.
+Rendre visibles les écarts, même sʼils sont inconfortables.
+Transformer chaque retour en changement immédiat
+On court-circuite ÉLICITER et on crée du travail réactif non maîtrisé.
+Conserver les signaux et relancer un cycle structuré lorsque nécessaire.
+Considérer la confirmation comme du travail secondaire
+Lʼorganisation livre sans réellement apprendre du terrain.
+Reconnaître CONFIRMER comme un mécanisme cœur de qualité et dʼamélioration continue.
+➡ Quand la cérémonie est réussie
+La cérémonie de confirmation est réussie lorsque lʼorganisation dispose dʼune lecture factuelle, traçable et partageable de ce que la version produit réellement sur le terrain. Le résultat attendu
+nʼest pas seulement un “oui, ça marche”, mais une compréhension assez solide du réel pour alimenter la suite : surveillance, réaction, amélioration ou nouvelle élicitation.
+On ne confirme pas pour se rassurer. On confirme pour apprendre du réel —
+et pour redonner à ÉLICITER des signaux dignes de confiance.
+📝 Historique et traces des sessions
+Les notes et captures des confirmations réelles devraient être conservées comme pages
+enfants sous cette cérémonie. Cela permet de garder une trace exploitable de ce qui a été observé sur le terrain, des signaux retournés vers ÉLICITER et des décisions prises après diffusion.
+Gabarit recommandé pour une session de confirmation :
+Date et contexte : version, release, correctif, client, environnement ou période dʼobservation.
+Participants : CARE, produit, qualité, développement, ops, architecture, représentants terrain.
+Éléments confirmés : fonctionnalités, comportements, hypothèses, critères critiques ou
+objectifs de valeur observés.
+Preuves et signaux consultés : incidents, métriques, logs, retours utilisateurs, tickets support, adoption, performance, stabilité.
+Écarts entre attendu et observé : confirmations, surprises, anomalies, irritants, régressions, angles morts.
+Actions et décisions : surveillance, correction, communication, escalade, suivi CARE,
+nouvelle analyse ou relance de cycle.
+Signaux retournés vers ÉLICITER : besoins à clarifier, hypothèses invalidées, nouvelles
+demandes, risques ou apprentissages à prioriser.
+Conclusion : confirmé, à surveiller, correction requise, observation prolongée ou retour en amont.
+📚 Références
+Comment confirmer — La référence complète de la phase CONFIRMER.
+Cérémonie de diffusion — La cérémonie précédente qui prépare lʼentrée en confirmation.
+Comment éliciter — La phase qui reçoit les signaux, métriques et apprentissages du terrain.
+Cérémonie d'élicitation — La cérémonie qui peut reprendre les signaux issus de CONFIRMER.
+SDLC officiel OPAL-RT — La vue dʼensemble du cycle complet et des boucles de rétroaction.
+Contrat qualité officiel OPAL-RT — Les exigences qualité qui encadrent les phases et les
+preuves attendues.
+RACI officiel OPAL-RT — Les rôles et responsabilités associés au cycle et à la posture qualité.
+Qualimétrie officielle OPAL-RT — La lecture organisationnelle des métriques, signaux et
+tendances qualité.
+Lexique / Terminologies — Les définitions de référence utilisées dans cette page.

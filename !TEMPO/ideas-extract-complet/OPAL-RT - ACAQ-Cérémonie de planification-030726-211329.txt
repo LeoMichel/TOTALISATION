@@ -1,0 +1,248 @@
+﻿Cérémonie de planification
+La cérémonie de planification est le moment où lʼon transforme les besoins compris et les spécifications définies en un plan dʼexécution clair, traçable et mesurable.
+Elle sert à aligner les équipes sur le scope, les dépendances, les risques, la capacité, les métriques de suivi et les conditions dʼentrée en implémentation, sans remplacer les phases ÉLICITER et DÉFINIR.
+Note terminologique : Cette page décrit la cérémonie de PLANIFIER dans son contexte opérationnel. Pour les définitions de référence des termes utilisés ici — PLANIFIER, EPIC, FEATURE, STORY, backlog, scope, dépendance, risque, mitigation, DoR, DoD, Sprint, Kanban, WIP, validation, tests, niveaux dʼintégration, interface, angle, rôle et RACI — voir le Lexique / Terminologies. Les contributions indiquées dans cette page sont propres à cette cérémonie et ne remplacent pas la matrice RACI.
+🎯 Objectif
+L'atelier de planification est le rituel structuré qui transforme ce qui a été ÉLICITÉ et DÉFINI en un plan d'exécution concret, coordonné et mesurable. C'est le moment où l'équipe passe de « on sait ce qu'il faut faire » à « on sait comment, quand, par qui et avec quelles preuves ».
+L'atelier n'est pas une réunion d'information. C'est un atelier de travail où l'on
+construit ensemble le plan, on identifie les risques, on s'engage et on s'arrime.
+Note — arrimage préventif, pas waterfall : Au niveau PI, lʼobjectif nʼest pas de tout figer ni
+de tout planifier en détail avant de commencer. Lʼatelier sert plutôt à faire un arrimage préventif pour identifier tôt les grandes dépendances, les risques dʼintégration, les interfaces, les jalons et les contraintes partagées. On évite ainsi de découvrir ces éléments critiques seulement pendant le montage ou lʼimplémentation. Planifier les interfaces et les risques nʼest donc pas du waterfall : cʼest une façon de réduire lʼincertitude structurelle tout en conservant la capacité de sʼadapter.
+📊 Les deux niveaux d'atelier
+La planification se fait en deux niveaux complémentaires, qui peuvent chacun nécessiter une
+ou plusieurs sessions selon la complexité du scope.
+Niveau 1 — Arrimage (PI Planning)
+Niveau EPIC/FEATURE
+Niveau 2 — Découpage (blocs Lego 🧱)
+Niveau STORY
+Horizon
+Release réelle, PI, trimestre, roadmap
+Sprint (Scrum) ou incrément livrable (Kanban), itération, patch
+Question clé
+Qu'est-ce qu'on veut livrer, pourquoi, dans quel ordre, avec quelles dépendances et quels engagements ?
+Comment découpe-t-on chaque morceau pour qu'il soit exécutable, testable et livrable
+Participants
+PM, PO, architectes, leads dev, QA, CdL, VSE, support, équipes partenaires
+PO, développeurs, QA, architecte, CdL
+Portée
+Inter-départements, inter-équipes, inter-experts
+Intra-équipe, focus exécution
+Nombre de sessions
+Souvent 1 à 2 sessions, selon
+le nombre de dépendances et d'équipes
+1 session par EPIC/FEATURE,
+par sprint en Scrum, ou selon le flux et les besoins de réapprovisionnement en Kanban
+🔗 Pré-requis : les portes ÉLICITER et DÉFINIR sont-elles fermées ?
+Avant de planifier, il faut confirmer que les phases précédentes sont terminées. C'est le premier acte de chaque atelier.
+Phase
+Question de validation
+Si la réponse est « non »
+ÉLICITER
+Les besoins bruts sont-ils recueillis, consignés, validés par la source et priorisés ?
+Retour à ÉLICITER — on ne planifie pas un besoin flou.
+DÉFINIR
+Les spécifications atomiques sont-elles complètes, testables, approuvées et
+Retour à DÉFINIR — on ne découpe pas une spécification incomplète.
+concordantes avec les modèles ?
+Si ÉLICITER ou DÉFINIR ne sont pas prêts, l'atelier de planification doit servir à les compléter, pas à planifier. C'est le système qui fonctionne, pas un échec.
+🏗 Atelier Niveau 1 — Arrimage portefeuille / release réelle
+Objectif
+Aligner toutes les parties prenantes sur le scope, les jalons, les dépendances, les risques et
+les engagements de la release.
+Agenda type
+Bloc
+Durée suggérée
+Activité
+1. Ouverture et contexte
+10 min
+Rappel des objectifs produit, de la roadmap, du périmètre de la release ainsi que des signaux, métriques et risques identifiés en ÉLICITER et DÉFINIR.
+2. Revue du scope
+15 min
+EPICs et FEATURES inclus,
+exclus, reportés ou conditionnels. Validation du scope macro.
+3. Dépendances et contrats
+d'intégration
+15 min
+Identifier les dépendances
+inter-équipes, inter-produits et fournisseurs. Confirmer les contrats d'intégration : API, interfaces, formats et dates.
+4. Risques et capacité
+10 min
+Risques majeurs : technique,
+calendrier, qualité, dette. Capacité des équipes, contraintes et charge parallèle.
+5. Jalons et séquence
+10 min
+Dates clés, fenêtres de publication, points Go/No-Go
+et séquence de livraison.
+6. Communication et métriques
+5 min
+Rituels de synchronisation, canaux de notification, indicateurs de suivi et seuils d'alerte.
+7. Engagements et décisions
+10 min
+Résumé des engagements par
+équipe. Décisions prises. Actions à suivre.
+Livrables attendus
+Plan de release validé et approuvé
+Backlog de release priorisé : EPICs/FEATURES estimés haut niveau
+Calendrier de jalons et dépendances
+Registre des risques avec mitigation et propriétaires
+Contrats d'intégration confirmés
+Plan de communication et de métriques
+🧱 Atelier Niveau 2 — Découpage en blocs Lego
+Objectif
+Transformer les FEATURES et spécifications atomiques en stories prêtes, estimées, testables et traçables — les blocs Lego qui s'assemblent pour construire la release.
+Agenda type — environ 60 min par EPIC/FEATURE
+Bloc
+Durée suggérée
+Activité
+1. Validation des portes
+10 min
+Confirmer que ÉLICITER et DÉFINIR sont fermés pour cet EPIC/FEATURE. Revue éclair des spécifications atomiques, des métriques, des signaux et des risques pertinents pour le découpage.
+2. Découpage en stories
+15 min
+Chaque spécification atomique
+devient une ou plusieurs stories claires, petites,
+cohérentes et traçables. Chaque story indique les spécifications IF… THEN… couvertes. Valider que 100 % du scope est couvert, sans recréer une couche séparée de critères d'acceptation.
+3. Estimation et priorisation
+10 min
+Estimation fine par l'équipe : effort, complexité, incertitude. Ordonnancement par le PO : valeur, risque, dépendances. Séquence d'implémentation logique.
+4. Stratégie de test et automatisation
+10 min
+Tests requis par story : small, medium, large/E2E. Automatisation dès le départ vs manuel par exception justifiée. Données de test, environnements, pré-requis et rattachement au Test Set.
+5. Risques, dépendances et pré-requis
+5 min
+Risques techniques et fonctionnels. Dépendances : accès, environnements, pipelines, équipes. Pré-requis techniques disponibles.
+6. Validation DoR et plan de
+livraison
+5 min
+Checklist DoR pour chaque
+story : clarté, traçabilité, testabilité, dépendances, estimation, pré-requis, stratégie de test, risques. Plan d'assemblage, livraison et rollback.
+7a. Engagement sprint (Scrum uniquement)
+5 min
+Définir le Sprint Goal. Sélectionner les stories qui composent le Sprint Backlog.
+L'équipe confirme son engagement collectif sur le lot. Valider la capacité vs la charge.
+7b. Priorisation et flux (Kanban
+uniquement)
+5 min
+Valider l'ordre de priorité du
+backlog. Confirmer les limites WIP par colonne ou étape. S'assurer que les stories prêtes sont en haut du backlog, prêtes à être tirées.
+8. Prochaines étapes (commun)
+5 min
+Qui fait quoi, quand. Mise à jour Jira : assignation, statuts, sprint si Scrum seulement. Confirmation : les stories sont prêtes pour IMPLÉMENTER.
+Critère
+Vérification
+Clarté
+La story est comprise par l'équipe, sans ambiguïté majeure.
+Traçabilité
+Les spécifications atomiques couvertes sont
+identifiées.
+Stories découpées, estimées, priorisées et traçables aux spécifications atomiques
+Stratégie de test définie avec niveaux et automatisation
+Dépendances et risques identifiés avec mitigation
+DoR satisfait pour chaque story
+Plan de livraison défini
+Métriques et seuils de suivi définis pour détecter les écarts pendant lʼimplémentation
+L'équipe est ready pour IMPLÉMENTER
+✅ Checklist DoR — Critère d'entrée en implémentation
+Aucune story ne doit entrer en IMPLÉMENTER si elle n'est pas prête.
+Testabilité
+Les spécifications IF… THEN… sont mesurables et vérifiables.
+Dépendances
+Les dépendances sont résolues ou planifiées
+sans blocage.
+Estimation
+L'effort, la complexité et la capacité sont validés.
+Pré-requis
+Accès, environnements, données, outils,
+configurations et pipelines sont prêts.
+Stratégie de test
+Les tests requis, leur niveau, leur automatisation et leurs responsables sont définis.
+Risques
+Les risques sont identifiés, documentés et associés à une mitigation.
+Engagement sprint (Scrum)
+La story fait partie du Sprint Backlog engagé et contribue au Sprint Goal.
+Priorité backlog (Kanban)
+La story est ordonnée dans le backlog, prête à être tirée, et respecte les limites WIP de l'équipe.
+Si le DoR n'est pas satisfait, la story retourne au backlog. On ne compense pas
+une mauvaise planification par de l'urgence en implémentation.
+🔁 Boucles de rétroaction pendant l'atelier
+Signal détecté
+Action
+Spécification ambiguë ou incomplète
+Retour à DÉFINIR avant de découper ou d'estimer.
+Besoin non couvert découvert pendant le
+découpage
+Remonter à ÉLICITER comme signal de besoin
+ou opportunité.
+Dépendance non résolue
+Escalader au niveau 1 et ajuster le plan ou le scope.
+Capacité insuffisante
+Réviser les priorités, réduire le scope ou ajuster les jalons.
+⚠ Pièges courants à éviter
+Piège
+Pourquoi c'est un problème
+Comment l'éviter
+Planifier seulement le code
+Tests, intégration, livraison,
+documentation et métriques sont improvisés.
+Utiliser la checklist exhaustive
+de « Comment planifier ».
+Sauter la validation des portes
+On planifie sur des fondations
+instables.
+Toujours commencer par
+confirmer ÉLICITER et DÉFINIR.
+Découper sans traçabilité
+Les stories perdent le lien avec
+les spécifications.
+Lier chaque story aux
+spécifications atomiques.
+Confondre niveau 1 et niveau 2
+L'arrimage inter-équipes est mélangé avec le découpage technique.
+Séparer les sessions : d'abord l'arrimage, ensuite les blocs Lego.
+Une seule session pour tout
+La fatigue réduit la qualité des décisions.
+Prévoir plusieurs sessions si le scope est large.
+Ne pas mettre à jour Jira en temps réel
+Les décisions de l'atelier sont perdues.
+Mettre à jour Jira pendant l'atelier, pas après.
+Forcer un Sprint Planning en
+Kanban
+Crée un engagement artificiel
+incompatible avec le flux continu et les limites WIP.
+Utiliser le bloc 7b : priorisation
+et flux, au lieu du bloc 7a.
+Ignorer l'engagement sprint en
+Scrum
+Sans Sprint Goal, le sprint
+devient une liste de tâches sans direction ni engagement collectif.
+Toujours définir un Sprint Goal
+clair et obtenir l'engagement de l'équipe.
+🔄 Lien avec les autres phases
+1 ÉLICITER → besoins compris → DÉFINIR → spécifications atomiques approuvées → PLANIFIER (atelier) → stories prêtes → IMPLÉMENTER
+2      ↑                                                                              ↓ 3      └──────────────────── signaux, métriques, boucles de rétroaction ──────────────┘
+📝 Historique et traces des sessions
+Les notes, captures, décisions et suivis issus des ateliers de planification peuvent être
+conservés comme pages enfants sous cette cérémonie. Cela permet de garder une trace officielle des arbitrages de scope, des dépendances, des risques, des engagements et des conditions dʼentrée en implémentation.
+Gabarit recommandé pour une page enfant
+Date et contexte : release, PI, sprint, incrément, EPIC, FEATURE ou lot concerné.
+Participants : PO/PM, équipe de développement, QA, architecture, DevOps, support, parties prenantes et facilitateurs.
+Scope planifié : EPICs, FEATURES, stories, inclusions, exclusions, reports et hypothèses.
+Dépendances et jalons : équipes impliquées, interfaces, contrats dʼintégration, dates clés, points Go/No-Go.
+Risques et mitigations : risques techniques, qualité, capacité, calendrier, dette, environnements ou fournisseurs.
+Découpage et stratégie de test : stories prêtes, traçabilité vers les spécifications, niveaux de
+tests, automatisation et données requises.
+Actions et décisions : décision, propriétaire, échéance, statut et lien Jira/Confluence lorsque
+disponible.
+Retours vers les phases : éléments à retourner vers ÉLICITER, DÉFINIR ou à escalader au niveau portefeuille/release.
+Conclusion : prêt pour IMPLÉMENTER, prêt sous conditions, bloqué ou à replanifier.
+📚 Références
+Comment planifier — La référence complète de la phase PLANIFIER
+Comment éliciter — Pré-requis : la phase ÉLICITER
+Comment définir — Pré-requis : la phase DÉFINIR
+Cérémonie dʼimplémentation — Prochaine cérémonie lorsque les stories sont prêtes
+Guide des sessions de phases SDLC — Le guide parent des sessions
+SDLC officiel OPAL-RT — Cadre global des phases
+Contrat qualité officiel OPAL-RT — Exigences et attentes qualité
+RACI officiel OPAL-RT — Rôles et responsabilités
+Qualimétrie officielle OPAL-RT — Vision et mesure de la qualité
+Lexique / Terminologies — Définitions de référence

@@ -1,0 +1,159 @@
+﻿Bilan mission qualité - suivi ROI par semaine
+Objectif du bilan
+Cette page consolide les nouvelles de la mission qualité pour le gestionnaire de
+changement CGI. Elle présente lʼavancement par semaine, les décisions prises, les apprentissages, les risques ouverts, les actions de suivi et le retour sur investissement attendu. Le fil conducteur est simple : transformer les souhaits exprimés en contrats, leviers, pratiques observables et résultats mesurables.
+ROI clair et évident
+Le ROI de la mission se démontre par une réduction des reprises, une meilleure priorisation des bugs, une traçabilité accrue des décisions, une clarification des responsabilités et une capacité plus rapide à transformer les besoins clients en spécifications, validations et releases. À court terme, un cas réel sert de preuve concrète: passer dʼun bug critique à un flux structuré où contexte, impacts, cas de validation, couverture minimale, planification Jira/Xray et critères de validation sont alignés. À moyen terme, cette méthode prépare lʼautomatisation des validations, lʼusage intelligent de lʼIA et le passage à lʼéchelle vers HYPER-LAB, les produits et les équipes ainsi que la pérennité.
+1. Résumé exécutif pour CGI
+La première semaine a permis dʼaligner lʼéquipe avec Émilie, de clarifier les enjeux de gestion
+des bugs, de traçabilité, de spécifications et de validation. Les workshops ont progressivement fait émerger un besoin fort: formaliser les rôles, documenter les décisions dans Jira, définir les spécifications avant lʼimplémentation, structurer les releases et relier les besoins utilisateur, applicatifs et machine.
+À partir de la troisième semaine, la mission entre directement dans la pratique avec des cas
+réels. Lʼobjectif nʼest pas de tout planifier à lʼavance, mais dʼapprendre, corriger, compléter les souhaits restants en chemin et démontrer rapidement une valeur concrète. La quatrième semaine devient donc un jalon critique pour démontrer lʼutilité pratique/concret indispensable à la pérennité, au passage à lʼéchelle et à lʼautomatisation intelligente des “spécifications“ et SDLC, etc. chez OPAL-RT.
+Messages clés transversaux
+La mission avance dʼun mode diagnostic vers un mode pratique sur cas réels dès la semaine
+3.
+Les problèmes observés ne sont pas uniquement techniques: ils touchent aussi la gouvernance, les rôles, la qualité, les priorités, la documentation et la communication interéquipes.
+La valeur dʼun responsable livraison+qualité se démontre par la capacité à relier les besoins
+clients, les spécifications, les tickets Jira, les releases, les validations et lʼautomatisation.
+Le travail en cours prépare directement lʼusage pertinent de lʼIA, car lʼIA ne peut être efficace que si les spécifications, modèles et sources de vérité sont fiables.
+2. Semaine 1 — Arrimage, constats et fondations
+Arrimage initial avec Émilie et clarification de lʼambition de la mission.
+Première structuration des décisions sur la priorisation des bugs selon la fréquence, lʼimpact client et les raisons de non-correction.
+Identification du besoin de regrouper ticket dans des epic et de relier les corrections ou
+fonctionnalités à des versions de livraison.
+Début de formalisation des spécifications produit, avec un besoin de centralisation de la
+documentation et de validation.
+Mise en évidence du rôle critique de la traçabilité Jira pour documenter décisions, discussions, impacts et validations.
+Fondations documentaires mises en place
+La première semaine a aussi permis de mettre en place les documents importants sous le
+dossier CGI dans Confluence. Ces documents servent de contrats, de leviers et de références communes pour concrétiser les souhaits exprimés pendant la mission.
+SDLC — Software Development Life Cycle officiel
+Contrat qualité Opal-RT
+Qualimétrie
+RACI — Rôles et responsabilités selon la posture qualité Opal-RT
+Recommandations — enjeux, constats ou lacunes à résoudre
+Niveaux d'intégration et types de validation des spécifications
+PLAYBOARD
+Ensemble, ces artéfacts donnent une base concrète pour aligner les équipes, suivre les décisions, structurer les responsabilités et transformer les constats en actions mesurables.
+3. Semaine 2 — Définir, planifier et préparer le cas réel
+3.1 Workshops 5 et 6 — Compléter les spécifications et préparer lʼautomatisation
+La deuxième semaine a permis de compléter les spécifications (un gros jalon indispensable) du cas réel et de présenter le pourquoi de la suite de la phase Définir : passer de la clarification des besoins vers la modélisation, lʼautomatisation des validations et lʼutilisation pertinente de lʼIA.
+Résumé dʼaccomplissement — semaine 2
+La semaine 2 confirme que la mission progresse vers une chaîne qualité plus complète :
+spécifications atomiques, scénarios de validation, couverture minimale explicite, documentation réutilisable et préparation concrète à lʼautomatisation. Les discussions ont aussi permis de relier les cas de validation aux spécifications produit afin que les validations deviennent un levier de modélisation et non seulement une activité de vérification en fin de parcours.
+Décisions importantes
+Utiliser les outils dʼIA pour lʼanalyse de code, la revue des tickets Jira, la compréhension du contexte des bugs et la génération de cas de validation.
+Résumer et valider le contexte des bugs et fonctionnalités avec lʼaide de lʼIA, tout en gardant une validation humaine.
+Explorer lʼautomatisation et le contrôle à distance du matériel pour les validations, en tenant compte des contraintes techniques et de sécurité.
+Définir quatre cas de validation minimaux pour couvrir les états des sous-systèmes.
+Documenter les cas de validation comme des spécifications produit, afin de faciliter la modélisation et lʼautomatisation.
+Explorer lʼautomatisation et le contrôle à distance du matériel pour les validations, en tenant compte des contraintes techniques et de sécurité.
+Apprentissages et constats
+LʼIA est déjà utilisée de façon ponctuelle pour la lecture de code, lʼanalyse de tickets Jira, le débogage, la description des tâches et la génération de cas de validation, mais son usage avancé reste à structurer.
+La clarification du bug a permis de distinguer la fonctionnalité de reconnexion, le mécanisme de nettoyage et le problème dʼaffichage de lʼinformation dans le pop-up.
+Lʼéquipe a confirmé que le risque de briser la fonctionnalité de reset est faible, car les composants concernés sont dans des dépôts séparés.
+La couverture de validation doit viser les états importants des sous-systèmes plutôt quʼune explosion exhaustive de toutes les combinaisons possibles.
+Les cas de validation et les spécifications produit sont fortement liés : le résultat attendu doit être clair, observable et validable.
+Les validations automatisées sur matériel distant représentent une opportunité importante, mais nécessitent une réflexion sur les accès, les jetons, Vault, les autorisations et la sécurité.
+Actions de suivi
+Valider les trois sources possibles du bug : interface utilisateur, back-end et targets.
+Compiler la liste des combinaisons dʼétats des sous-systèmes et leur couverture de validation pour les intégrer aux spécifications du projet.
+Nettoyer et organiser les spécifications produit afin de faire ressortir clairement les quatre cas de validation clés et les combinaisons de sous-systèmes.
+3.2 Workshop 7 — Planifier ensemble
+Aucune note détaillée nʼa été prise pour le WS7, mais la rencontre a permis dʼaborder la phase Planifier du SDLC et de comprendre pourquoi la planification collective est essentielle pour la suite. Lʼobjectif était de relier les spécifications, les cas de validation, les dépendances, les responsabilités, Jira/Xray, les versions et les releases afin dʼéviter que la planification soit faite en silo.
+3.3 Cas réel RTLABTT-6023 — préparé en fin de semaine 2
+La fin de la semaine 2 a été consacrée à la préparation du cas réel RTLABTT-6023 —
+Model state stuck in disconnected if target remains unreachable. Ce cas sert à appliquer concrètement les apprentissages de la phase Définir et de la phase Planifier : clarifier le contexte, valider les sources possibles du bug, confirmer la couverture de validation minimale, rattacher les éléments dans Jira/Xray et préparer les critères de validation.
+Bug ciblé : modèle bloqué en état disconnected lorsque la target demeure inaccessible.
+Priorité Jira : P2-Critical, avec workaround existant : redémarrer RT-LAB.
+Version de correction prévue : 2026.3.
+Objectif qualité : démontrer comment un cas réel peut être transformé en spécifications,
+validations et planification traçable.
+Message clé pour CGI — semaine 2
+La deuxième semaine démontre que la mission dépasse la simple correction dʼun bug : elle installe une façon de travailler où les spécifications, les validations, Jira, lʼIA et
+lʼautomatisation deviennent des leviers concrets pour réduire lʼambiguïté, améliorer la qualité et préparer le passage à lʼéchelle.
+4. Semaine 3 — Mise en pratique sur cas réels (en cours)
+La troisième semaine marque le basculement de la mission du cadrage vers l'exécution réelle.
+Le cas RTLABTT-6023 sert de fil conducteur pour pratiquer le SDLC complet : DÉFINIR → PLANIFIER → IMPLÉMENTER → DIFFUSER → CONFIRMER, avec une attention particulière à CARE, à la diffusion et à la confirmation.
+4.1 WS#8 — Diffuser, Confirmer et CARE (lundi 29 juin)
+Le workshop #8 a couvert les phases DIFFUSER et CONFIRMER ainsi que le rôle de CARE dans
+le cycle. La rencontre s'est très bien déroulée :
+Tour complet des sujets d'éliciter pour le cas réel RTLABTT-6023.
+Points d'action clairs pour la suite, chaque action a un owner assigné.
+La documentation a été identifiée comme point d'action — reste à voir comment elle sera prise en charge au quotidien.
+4.2 Consolidation documentaire et qualimétrie (mardi 30 juin)
+La journée a été consacrée à deux activités parallèles : la qualimétrie (comme prévu dans le plan de semaine) et un nettoyage systématique de l'ensemble des pages SDLC avec l'aide de l'IA (Rovo). Ce nettoyage a permis de transformer les pages isolées en un réseau cohérent de sources de vérité interliées :
+Comment confirmer — 6 liens cassés corrigés dans les Références.
+Qualimétrie officiel — 2 liens cassés corrigés dans les Références.
+Recommandations — 4 sections dupliquées supprimées (page significativement allégée) +
+section « Formation continue » consolidée en un court paragraphe avec lien vers la source de vérité.
+Comment éliciter — 7 hyperliens manquants ajoutés dans les Références.
+Comment définir — 7 hyperliens manquants ajoutés dans les Références.
+Formation en continue — descriptions texte remplacées par des liens vers les pages sources
+(la page devient un programme/calendrier, pas une copie du contenu).
+Lexique — vérifié, déjà cohérent (aucune modification nécessaire).
+Résultat : toutes les pages SDLC pointent maintenant vers les bonnes sources de vérité, sans
+duplication de contenu. C'est un prérequis concret pour que la formation, l'automatisation et l'IA puissent s'appuyer sur des références fiables et à jour.
+4.3 Rencontre PO, fin dʼÉLICITER et board Qualimétrie officiel (mardi 30 juin)
+La journée sʼest conclue sur une avancée importante pour le cas RTLABTT-6023. Le PO a émis
+la décision de faire le correctif, mais sans urgence immédiate : le changement peut être intégré dans les prochaines versions. Les informations nécessaires sont maintenant disponibles et la phase ÉLICITER est officiellement terminée pour RTLABTT-6023.
+Décision PO — le correctif sera fait, mais il nʼest pas considéré urgent.
+Statut SDLC — ÉLICITER est terminé; le cas peut maintenant passer vers DÉFINIR et
+PLANIFIER.
+Point dʼaction pour jeudi — préparer des spécifications prêtes pour la rencontre et compléter
+la phase PLANIFIER au complet.
+Enjeu identifié — la modélisation ne sera probablement pas disponible à temps, mais la documentation sera présentée dans les Test Sets de Xray.
+Qualimétrie — le board officiel est maintenant disponible : Executive Scorecard - Direction -Qualimétrie - Dashboards - Grafana.
+Cette journée représente une très belle progression : le cas réel avance concrètement dans le
+SDLC, la prochaine rencontre a un objectif clair, et le premier board Qualimétrie officiel confirme que la mesure de la qualité devient visible et exploitable. La rencontre avec Nicolas, spécialiste Grafana, a été très positive; lʼenthousiasme est partagé et le premier tableau de bord Qualimétrie est maintenant un livrable concret.
+4.4 Workshop — Spécifications (jeudi 2 juillet)
+Le workshop du jour portait sur la poursuite du cas réel en visant les phases PLANIFIER → IMPLÉMENTER + intégration → DIFFUSER → CONFIRMER. Le travail effectué :
+Travail sur la spécification RTLABTT-6068 — IF my simulation is cleaned following the abandoning of the simulation THEN I should be informed about completion (success/fail) of the imminent cleaning.
+Objectif non atteint — l'objectif de compléter les phases PLANIFIER, IMPLÉMENTER + intégration, DIFFUSER et CONFIRMER n'a pas été atteint. Des difficultés persistent au niveau de la phase DÉFINIR (spécifications) : ce point n'est pas encore acquis selon le minimum requis.
+Constat — La phase DÉFINIR n'est pas encore acquise
+Le workshop du 2 juillet devait permettre de franchir les phases PLANIFIER → IMPLÉMENTER + intégration → DIFFUSER → CONFIRMER sur le cas réel. Or, l'équipe a rencontré des difficultés persistantes au niveau de la phase DÉFINIR : la rédaction de spécifications atomiques, testables et complètes n'est pas encore maîtrisée selon le minimum requis. Ce constat indique
+que l'apprentissage de DÉFINIR nécessite encore de la pratique encadrée avant de pouvoir progresser de façon autonome vers les phases suivantes.
+Impact : tant que DÉFINIR n'est pas solidement acquis, les phases en aval (PLANIFIER, IMPLÉMENTER, DIFFUSER, CONFIRMER) reposeront sur des spécifications incomplètes ou ambiguës, ce qui reproduira les problèmes de reprises, d'ambiguïté et de couverture insuffisante que la mission vise justement à éliminer.
+Action de suivi — Renforcer DÉFINIR avant de progresser
+Action
+Responsable
+Échéance
+Préparer un exercice ciblé sur
+DÉFINIR avec la spécification RTLABTT-6068 : rédiger la spec complète (contexte, résultat attendu, critères d'acceptation, cas de validation) avant la prochaine rencontre.
+Équipe + coach
+Vendredi 3 juillet
+Revoir les critères minimaux
+de DÉFINIR (voir Comment définir) et identifier les points de blocage spécifiques rencontrés aujourd'hui.
+Coach
+Jeudi 2 juillet (PM)
+Ajuster le plan de la semaine 4 pour inclure un atelier de consolidation DÉFINIR avant de tenter PLANIFIER → IMPLÉMENTER.
+Coach + Émilie
+Lundi 6 juillet
+Enjeux identifiés — semaine 3
+Disponibilité réduite — les vacances et les absences réduisent la capacité d'avancement de
+l'équipe.
+Workshops dépriorisés — les ateliers risquent de passer au second plan face aux urgences
+courantes.
+Résistance à livrer plus petit — livrer en plus petits incréments devrait être la direction à prendre. Si l'équipe n'y arrive pas cette semaine, il faudra demander de l'aide pour débloquer cette partie.
+Améliorations à mettre en place
+Documenter au fur et à mesure les informations, décisions, points d'action et responsabilités.
+Nommer un responsable de la prise de notes au début de chaque rencontre.
+Reste de la semaine (à compléter)
+Mercredi 1er juillet : férié (fête du Canada).
+Jeudi 2 juillet : workshop sur le cas réel — l'objectif de compléter PLANIFIER, IMPLÉMENTER + intégration, DIFFUSER et CONFIRMER n'a pas été atteint; des difficultés persistent au niveau de DÉFINIR. Voir le constat et les actions de suivi ci-dessus.
+Vendredi 3 juillet : à compléter.
+Message clé pour CGI — semaine 3
+La troisième semaine confirme que la mission produit des résultats concrets tout en révélant un point de vigilance important. ÉLICITER est officiellement terminé pour RTLABTT-6023, la Qualimétrie dispose maintenant dʼun premier board officiel dans Grafana, et la mission relie concrètement décisions PO, documentation Xray, progression SDLC et mesure visible de la qualité. Toutefois, le workshop du 2 juillet démontre que la phase DÉFINIR doit être consolidée avant de créer des attentes réalistes sur PLANIFIER, IMPLÉMENTER, DIFFUSER et CONFIRMER. La priorité devient donc de renforcer les spécifications atomiques, testables et complètes avant dʼaccélérer les phases suivantes.
+Clarification — effort réel cumulé à la fin de la semaine 3
+À la fin de la semaine 3, il est important de préciser que lʼeffort réel cumulé doit être comptabilisé comme environ deux semaines de travail effectif, et non trois semaines complètes. Cette clarification vise à éviter de créer des attentes équivalentes à trois semaines pleines de progression, alors que, réalistement, la disponibilité, les absences, le férié et le temps réellement consacré à la mission représentent plutôt deux semaines de travail au total.
+5. Semaine 4 — Démonstration de valeur et ROI
+Arrimage Coach Agile et gestionnaire de changement
+La semaine 4 marque le début de lʼarrimage avec le Coach Agile et le gestionnaire de changement CGI, qui viendront à la rescousse du coach QA pour une période de trois
+semaines, soit les semaines 4, 5 et 6. Cet arrimage vise à assurer la continuité, le renfort terrain, le transfert de connaissances et la pérennité des pratiques mises en place.
+6. Semaine 5 — FORGE (DoD) et CARE (DoT)
+7. Semaine 6 — Retour du succès, rétro et autonomie/pérennité
+Références
+Formation continue
+SPÉCIFICATION
+Mission faucon
+Recommandations

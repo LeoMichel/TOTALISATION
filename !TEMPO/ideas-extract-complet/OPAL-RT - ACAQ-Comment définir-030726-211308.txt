@@ -1,0 +1,285 @@
+﻿Comment définir
+La phase DÉFINIR transforme les besoins élicités en spécifications atomiques, complètes, testables, modélisées et approuvées. Ces spécifications deviennent la source de vérité unique pour le scope, lʼimplémentation, lʼintégration, la validation et lʼautomatisation.
+Note terminologique. Cette page décrit la phase DÉFINIR dans son contexte
+opérationnel. Pour les définitions de référence — spécification IF… THEN…, spécification atomique, SPECIFY, traçabilité, DoR, DoD, validation, vérification, niveaux, interfaces, angles, rôles et SDLC — voir le Lexique / Terminologies et la page SPÉCIFICATION. Les anciens termes comme critère dʼacceptation, exigence, cas, scénario, Gherkin ou BDD convergent ici vers une seule nomenclature : la spécification IF… THEN….
+On ne peut pas bien implémenter ce quʼon nʼa pas bien défini. Et on ne peut
+pas bien définir ce quʼon nʼa pas bien élicité.
+🎯 Objectif de la phase DÉFINIR
+DÉFINIR est le cœur du SENSE : cʼest ici que lʼon passe du besoin compris au besoin
+documenté, modélisé, validé et prêt à être réalisé. La phase doit produire des spécifications suffisamment solides pour être utilisées par toutes les disciplines : produit, développement, QA, architecture, support et utilisateurs.
+Le résultat attendu nʼest pas une collection de documents séparés par silo, mais un SPECIFY cohérent, structuré et partagé, contenant des spécifications atomiques qui décrivent exactement ce qui doit être livré.
+🔬 Sortie principale : des spécifications atomiques
+Ce qui doit sortir de DÉFINIR, ce sont des spécifications atomiques. Une spécification
+atomique est assez petite pour être comprise, codée, intégrée et testée clairement, mais assez complète pour porter une valeur vérifiable.
+Chaque spécification atomique sert simultanément de :
+Scope de lʼEPIC, release ou version : ce qui est inclus, exclu et priorisé.
+Contrat dʼimplémentation : ce qui doit être codé, intégré ou modifié.
+Contrat de validation : ce qui doit être testé à tous les niveaux : small, medium, large / E2E.
+Base dʼautomatisation : ce qui pourra alimenter lʼautomatisation des tests, la génération assistée par IA et lʼauto-validation.
+Si le dev code à partir dʼun document et le QA teste à partir dʼun autre, on a
+déjà perdu.
+📘 Une seule documentation, utilisée par tous
+La phase DÉFINIR doit produire une source de vérité unique. Il ne doit pas y avoir une documentation pour le PO, une autre pour le développeur, une autre pour le QA et une autre pour lʼarchitecte. Tout le monde utilise les mêmes spécifications.
+Rôle
+Utilisation de la même spécification
+PO / Product
+Valide le scope, la valeur et
+lʼalignement avec le besoin élicité.
+Développeur
+Implémente exactement ce qui est spécifié, avec les contraintes et impacts connus.
+QA
+Utilise les spécifications IF… THEN… comme source directe de validation, dʼautomatisation et de preuves, sans recréer une couche séparée de critères ou de scénarios.
+Architecte
+Valide les impacts systémiques, les
+dépendances et les contrats dʼintégration.
+Support / CARE
+Comprend le comportement attendu
+pour diagnostiquer, confirmer et alimenter lʼamélioration continue.
+Utilisateur / spécialiste
+Confirme que la spécification
+répond toujours au vrai besoin.
+📐 Ce que DÉFINIR doit documenter
+Dimension
+Ce quʼil faut documenter sous forme de spécifications IF… THEN…
+Fonctionnel
+Comportements attendus, flux principaux et alternatifs, règles et résultats observables.
+Non-fonctionnel
+Performance, sécurité, compatibilité, résilience, utilisabilité, maintenabilité, avec seuils ou signaux mesurables.
+Conditions limites
+Entrées invalides, pertes réseau, erreurs, annulations, états concurrents, comportements dégradés.
+Spécifications dʼacceptation
+Conditions IF… THEN… testables,
+mesurables, non ambiguës, avec résultats attendus. Ne pas recréer une couche séparée de critères dʼacceptation.
+Impacts systèmes
+Dépendances inter-produits, inter-
+équipes, modules affectés, interfaces et intégrations touchées.
+Traçabilité
+Lien clair besoin → spécification →
+implémentation → preuve de validation.
+Risques et dette technique
+Risques connus, dette existante aggravée ou à résorber, impacts sur la qualité.
+Estimation initiale
+Estimation haut niveau au niveau EPIC / FEATURE pour soutenir la planification.
+🔄 Concordance 100 % entre modèle, diagrammes et spécifications
+Les diagrammes, les modèles et les flux de lʼapplication doivent concorder à 100 % avec les
+spécifications — et vice versa.
+Si un diagramme de séquence montre un flux, la spécification textuelle doit décrire le même flux.
+Si une spécification décrit une transition dʼétat, le modèle doit la représenter.
+Si une spécification IF… THEN… décrit un comportement attendu, le diagramme ou le modèle
+ne doit pas raconter autre chose.
+Toute divergence entre modèle, diagramme et texte est un défaut de définition à corriger avant PLANIFIER.
+Le modèle est la spécification visuelle. La spécification est le modèle textuel.
+Les deux doivent raconter exactement la même histoire.
+🛠 Techniques pour bien DÉFINIR
+1. Spécification par lʼexemple
+Utiliser des exemples concrets pour rendre les comportements attendus testables. Le format commun est toujours une condition IF… THEN… :
+IF un contexte, une condition, une entrée, un état ou un événement est vrai
+THEN un comportement, résultat, contrainte, effet ou signal attendu doit être observable
+Ces exemples deviennent des spécifications exécutables ou automatisables et réduisent
+lʼambiguïté entre PO, dev, QA et IA, sans maintenir un langage parallèle comme Gherkin, BDD ou des scénarios séparés.
+2. Modélisation des flux et comportements
+Utiliser des diagrammes de flux, des machines à états, des diagrammes de séquence ou des modèles de domaine pour représenter les comportements complexes. Les diagrammes ne sont pas décoratifs : ils font partie intégrante de la spécification.
+3. Définition des cas limites et de la résilience
+Pour chaque flux principal, se demander systématiquement : que se passe-t-il si le réseau
+tombe, si lʼutilisateur annule, si deux événements arrivent en même temps, si une dépendance est indisponible ou si le système est dans un état inattendu ?
+4. Analyse dʼimpact systémique
+Identifier les modules, produits, équipes, contrats dʼAPI, dépendances techniques et processus affectés. La question clé est : si je change ce comportement, qui ou quoi est impacté ?
+5. Estimation initiale EPIC / FEATURE
+Produire une estimation de haut niveau afin de soutenir la roadmap et la planification. À ce
+stade, on valide surtout la faisabilité, le scope et lʼordre de grandeur, avant le découpage détaillé en stories.
+6. Identification des risques et de la dette technique
+Documenter ce qui pourrait mal tourner, quelle dette technique influence la spécification, quelle dette est créée ou aggravée, et quelles mitigations doivent être considérées.
+7. IA et automatisation dès la définition
+Structurer les spécifications pour quʼelles soient utilisables par lʼIA et lʼautomatisation : génération de cas de test, détection dʼincohérences, assistance au codage, validation automatique et traçabilité.
+🤖 Spécifications prêtes pour lʼIA, lʼautomatisation et lʼauto-validation
+Les spécifications doivent être suffisamment solides, structurées et non ambiguës pour permettre lʼutilisation de lʼIA et de lʼautomatisation par la suite.
+Levier
+Ce que ça permet
+Automatisation des validations
+Générer ou dériver automatiquement des validations à partir des spécifications IF… THEN… et de leurs exemples.
+Automatisation du codage
+Utiliser lʼIA pour générer du code
+conforme aux spécifications, aux modèles et aux contraintes définies.
+Auto-validation
+Vérifier automatiquement si
+lʼimplémentation respecte la spécification atomique.
+Détection dʼincohérences
+Identifier les contradictions,
+ambiguïtés, trous de couverture et conditions limites manquantes.
+Test de qualité dʼune spécification : est-ce quʼune IA pourrait générer le code et les tests à
+partir de cette spécification seule, sans poser de questions majeures ? Si la réponse est non, la spécification nʼest probablement pas assez solide.
+🧪 Lien avec les niveaux de test
+Chaque spécification atomique doit permettre de comprendre ce qui doit être testé à tous les
+niveaux pertinents.
+Niveau
+But
+Ce que la spécification doit permettre
+Small
+Valider le plus petit
+comportement isolable.
+Identifier les fonctions,
+règles ou unités logiques spécifiées et vérifiables.
+Medium
+Valider lʼintégration
+entre composants.
+Décrire les contrats,
+échanges, dépendances et interactions.
+Large / E2E
+Valider le comportement complet du point de vue utilisateur ou système.
+Décrire les flux complets, états attendus, données et signaux observables.
+Les approches whitebox, blackbox et graybox peuvent sʼappliquer à ces niveaux. Lʼobjectif de
+DÉFINIR est de rendre les comportements testables au bon niveau, pas de créer une documentation QA séparée.
+📋 Contenu minimal dʼun SPECIFY
+Section
+Contenu attendu
+Description
+Résumé clair du besoin et de la
+solution spécifiée.
+Traçabilité
+Liens vers les besoins, signaux, métriques ou sources issus dʼÉLICITER.
+Spécifications atomiques
+Liste des comportements à livrer, chacun formulé en IF… THEN… avec scope, règles, exemples et signaux observables.
+Modèles et diagrammes
+Flux, états, séquences ou modèles alignés à 100 % avec le texte.
+Fonctionnel et non-fonctionnel
+Comportements attendus,
+contraintes qualité, performance, sécurité, compatibilité, résilience.
+Conditions limites
+Erreurs, conditions aux frontières,
+comportements dégradés et états exceptionnels exprimés comme spécifications.
+Spécifications dʼacceptation
+Spécifications mesurables, testables et reliées aux niveaux de validation, sans couche séparée de critères dʼacceptation.
+Impacts et dépendances
+Systèmes, modules, équipes, interfaces et contrats affectés.
+Risques et dette technique
+Risques, dette identifiée, mitigations
+et décisions requises.
+Automatisation
+Stratégie de validation automatisée, possibilités dʼIA, auto-validation et génération assistée.
+Approbation
+Validation par les parties prenantes, incluant la source, lʼutilisateur ou le spécialiste lorsque nécessaire.
+✅ Critères de sortie de DÉFINIR
+La phase DÉFINIR est terminée lorsque :
+Les spécifications atomiques sont complètes, comprises et documentées.
+Le scope de lʼEPIC, release ou version est clair.
+Ce qui doit être codé, intégré et livré est explicite.
+Ce qui doit être validé à tous les niveaux est explicite.
+Les spécifications IF… THEN… sont testables, mesurables et non ambiguës.
+Les impacts systèmes, dépendances et risques sont analysés et documentés.
+La dette technique est identifiée et rendue visible.
+La traçabilité besoin → spécification → implémentation → preuve de validation est assurée.
+Les diagrammes, modèles et spécifications concordent à 100 %.
+Les spécifications sont prêtes à soutenir lʼIA, lʼautomatisation des validations, lʼautomatisation
+du codage et lʼauto-validation.
+Une estimation initiale EPIC / FEATURE est réalisée.
+La documentation est centralisée, à jour et accessible.
+Le SPECIFY est validé et approuvé avant PLANIFIER / implémenter.
+Ce qui sera planifié et implémenté est revalidé avec lʼutilisateur, directement ou indirectement,
+pour confirmer que cela fait toujours du sens.
+🔁 Boucle de rétroaction vers ÉLICITER
+DÉFINIR ne reçoit pas seulement lʼinformation dʼÉLICITER : la phase doit aussi challenger
+ÉLICITER. Si, en définissant, lʼéquipe découvre que le besoin est incomplet, contradictoire, trop large, non mesurable ou déconnecté de la réalité utilisateur, lʼinformation doit retourner à ÉLICITER sous forme de signaux, métriques, questions ou constats.
+Les incohérences deviennent des signaux à clarifier.
+Les métriques observées peuvent remettre en question le besoin initial.
+Les cas limites découverts peuvent enrichir lʼélicitation.
+La validation utilisateur directe ou indirecte confirme que ce qui sera planifié et implémenté
+fait toujours du sens.
+Si en définissant on réalise que le besoin nʼest pas clair, ce nʼest pas un échec :
+cʼest le système qui fonctionne. On retourne à ÉLICITER, on clarifie, et on
+revient.
+👥 Qui fait quoi
+Rôle
+Contribution à DÉFINIR
+Product Owner / Product Manager
+Valide la valeur, le scope, les priorités et lʼalignement avec le besoin élicité.
+Développeur / Tech Lead
+Valide la faisabilité technique, précise les contraintes
+dʼimplémentation et identifie les impacts sur le code.
+QA / Testeur
+Sʼassure que les spécifications IF…
+THEN… sont testables, observables et automatisables, sans dériver une nomenclature séparée de scénarios ou de cas.
+Architecte
+Analyse les impacts systémiques,
+les dépendances, les contrats dʼintégration et les risques transversaux.
+Support / CARE
+Apporte les signaux terrain, les irritants récurrents et les besoins de diagnostic ou dʼexploitabilité.
+Utilisateur / spécialiste métier
+Confirme que la spécification répond encore au besoin réel et que les exemples sont représentatifs.
+Scrum Master / Coach
+Facilite lʼalignement entre les rôles
+et veille à ce que les ambiguïtés soient levées avant PLANIFIER.
+📊 Métriques et signaux
+Métrique / Signal
+Ce quʼelle révèle
+Source
+Taux de spécifications
+retournées à ÉLICITER
+Qualité de la
+compréhension initiale et nombre de besoins incomplets ou ambigus.
+Jira / workflow SDLC
+Nombre de
+spécifications IF… THEN… non testables
+Niveau dʼambiguïté des
+spécifications et capacité à automatiser la validation.
+Revue SPECIFY / QA
+Nombre de divergences modèle ↔ texte ↔ spécification
+Risque de désalignement entre documentation visuelle, fonctionnelle et validation.
+Revue de spécification
+Nombre de dépendances ou impacts non identifiés avant PLANIFIER
+Maturité de lʼanalyse dʼimpact et risque de replanification tardive.
+Architecture / planning
+Dette technique identifiée pendant DÉFINIR
+Risque qualité ou maintenabilité à intégrer dans le scope, les compromis ou les mitigations.
+SonarQube / revues techniques
+Complexité estimée par spécification atomique
+Capacité à découper, prioriser et planifier sans regrouper des comportements trop larges.
+Atelier DÉFINIR / estimation
+⚠ Pièges courants à éviter
+Piège
+Pourquoi cʼest un problème
+Comment lʼéviter
+Spécifier en silo
+Chaque rôle crée sa propre interprétation.
+Utiliser une seule documentation et une seule spécification partagée.
+Spécifications vagues
+Impossible de valider
+ou dʼautomatiser correctement.
+Formuler des
+spécifications IF… THEN… observables, mesurables et reliées à des exemples.
+Modèle différent de la spec
+Le texte et les diagrammes racontent deux histoires différentes.
+Valider systématiquement la concordance modèle ↔ texte ↔ spécification.
+Ignorer les conditions limites
+Les défauts apparaissent souvent dans les comportements non spécifiés.
+Explorer les erreurs, états limites, pertes de dépendances et comportements dégradés.
+Commencer à coder
+sans SPECIFY approuvé
+Le travail démarre
+avant que la cible soit claire.
+Exiger une validation
+de DÉFINIR avant PLANIFIER / implémenter.
+Ne pas challenger ÉLICITER
+On planifie un besoin qui nʼest peut-être plus clair ou pertinent.
+Retourner les signaux, métriques et questions à ÉLICITER, puis revalider avec lʼutilisateur.
+Spécifications non
+exploitables par lʼIA
+Lʼautomatisation
+produit des résultats incomplets ou incohérents.
+Structurer les
+spécifications, exemples et modèles de façon non ambiguë.
+🔄 Lien avec les autres phases
+1 ÉLICITER → besoins compris → DÉFINIR → spécifications atomiques approuvées → PLANIFIER 2↑                              ↓
+3└──── signaux, métriques, questions, validation utilisateur ────┘
+DÉFINIR est le pont entre le besoin et la réalisation. Quand cette phase est solide, PLANIFIER, CODER, INTÉGRER, TESTER et CONFIRMER sʼalignent tous sur la même vérité : les spécifications atomiques.
+Références
+SPÉCIFICATION
+Exemples concrets
+Les tests (niveau × interface × angle × type)
+Cérémonie de définition
+Comment éliciter — phase précédente
+Comment planifier — phase suivante
+(SDLC) Software Development Life Cycle (officiel)
+Contrat qualité officiel OPAL-RT
+RACI — Rôles et responsabilités
+Qualimétrie officielle OPAL-RT
+Recommandations — enjeux, constats ou lacunes à résoudre / solutionner
