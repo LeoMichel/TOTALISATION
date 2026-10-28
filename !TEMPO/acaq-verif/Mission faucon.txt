@@ -1,0 +1,448 @@
+﻿Mission faucon
+@mic.belanger (Michel Bélanger), consultant CGI (coach qualité et excellence en réalisation logiciel), il nous rejoints pour un mandat de 6 semaines à partir du 15 juin.
+Mon ( @Emilie Amorim ) objectif est dʼutiliser lʼexpérience de Michel afin dʼaider mes équipes qualité, ainsi que la qualité en général à sʼaméliorer dans nos pratiques et notre efficacité.
+Mon ambition est de déterminer comment construire un système qualité plus performant en amont, et comment prendre de meilleurs décisions qualité.
+Souhaits
+Voici les 4-5 grands chantiers à discuter avec Michel et à prioriser
+Topic
+Questions
+Décision/Plan
+Bilan /
+accomplissement
+Gouvernanc e qualité et décision
+&gt;&gt;
+Comment on décide?
+Pass/Fail?
+Quels indicateurs devraient être utilisés pour soutenir une décision de livraison? Préparation de la relâche dʼune version → Avons-nous suffisamment confiance? (e.g., #bugs critiques, #bugs majeurs, Résultats campagne IVV, Tests auto, couverture de tests, risques, Performance…)
+RACI (qui décide?)
+Gestion des recommandations IVV (accumulation des défauts version après version)
+Gestion et communication
+des risques
+Établir un contrat qualité vivant qui documente les standards, conventions, lexique et types de tests.
+Mettre en place un RACI
+des responsabilités qualité et clarifier qui tranche les décisions produit avec les recommandations du comité amigos.
+Utiliser la qualimétrie comme base de décision et de santé produit dans tout le SDLC.
+Formaliser le plan de
+test/livraison en mode contrat : risques, scope acceptable, critères Go/No-Go.
+✅ Réussite importante —fondations de gouvernance créées en ~2 semaines.
+Lʼorganisatio dispose maintenant d contrat quali v1.0, dʼun lex officiel, dʼun v1.0, dʼune qualimétrie officielle et d board Grafan Executive Scorecard opérationnel
+Avant la miss ces fondatio
+ʼun té
+ique
+RACI
+ʼun
+ion, ns
+nʼétaient pas structurées comme références communes; lʼinvestissement dans le coach QA et lʼaccompagneme nt CGI a transformé des attentes floues en contrats, pratiques, rôles, métriques et décisions discutables collectivement.
+Prochaines étapes : le contrat qualité nʼest pas encore endossé ni signé par la direction et les partenaires R&amp;D. Le RACI existe, mais les accords formels ne sont pas encore en place. Le Go/No-Go comme rituel récurrent reste à formaliser.
+Voir les Recommandation s — enjeux,
+constats ou lacunes à résoudre / solutionner pour les actions de pérennisation.
+Stratégie de
+validation
+&gt;&gt; Comment on valide?
+Comment vérifie-t-on que
+le produit est de qualité?
+Pyramide de tests
+Préparation des tests -Documentation [S1]
+Black box vs autres
+approches [S1]
+Couverture de tests [S1]
+Gestion des bugs et des
+régressions [S2]
+Gestion multi-produits avec modèles de livraison différents (IVV = Utilisateur - comment remonter un bug sur une fonctionnalité quand cela touche plusieurs équipes?) [S2]
+Inclure dans le contrat
+qualité la stratégie de validation, les types de tests et les spécifications IF… THEN….
+Globaliser Xray,
+diagrammes, maquettes, analyses et incidents en spécifications produit.
+Définir DoR, DoD et DoT pour couvrir lʼavant, le simulé et le réel.
+Préparer les tests avant le
+découpage des stories lorsque possible, notamment avec FDD, ATDD, BDD et TDD.
+im ba po ca
+Réussite
+portante —
+ses de validation sées et premiers s réels pratiqués.
+Les types de
+tests, les
+spécifications IF…
+THEN…, les
+DoR/DoD/DoT et les premiers exercices dans Jira/Xray ont rendu visible ce qui était auparavant implicite ou dispersé.
+Lʼéquipe sait maintenant ce quʼune spécification testable exige —cʼest un acquis concret pour la suite de la mission et pour les prochains mandats.
+Prochaines étapes : la couverture Xray globale nʼest pas encore opérationnelle et dépend de la consolidation Jira/Xray. La modélisation reste à revoir pour définir une architecture cible combinant AltWalker + pytest + Robot Framework, avec design système embarqué et liens vers Xray.
+Voir les Recommandation s — validation, Jira/Xray et automatisation pour les actions à poursuivre.
+SDLC /
+Shift-left Quality
+&gt;&gt;
+Comment on évite de trouver les
+DoR / DoD
+Intégration de la qualité et
+de tests plus tôt
+Prévention des défauts
+Critères dʼentrée et de
+sortie
+Collaboration DEV/QA/IVV
+Établir lʼavant
+implémentation, lʼaprès diffusion et la boucle entre les deux : shift-left, shift-right et amélioration continue.
+DoR = spécification : documenter et modéliser le produit, incluant les enjeux
+✅ Réussite importante —changement de posture déjà observable.
+Le SDLC complet
+est documenté avec les phases ÉLICITER,
+problèmes
+trop tard?
+multi-modules et multi-version.
+DoD = validation simulée : unitaire, intégration, pair et cueillette dʼinformation lors de lʼimplémentation.
+DoT = diffusion : cueillette et
+validation des informations du réel, puis retour dans la
+boucle dʼamélioration.
+DÉFINIR, PLANIFIER, IMPLÉMENTER, DIFFUSER, CONFIRMER et la boucle dʼamélioration.
+ÉLICITER a été complété avec succès sur un cas réel (RTLABTT-6023). Lʼéquipe ne parle plus seulement de corriger un bug : elle relie besoin, décision PO, spécification, validation et livraison.
+Prochaines étapes : DÉFINIR doit encore être consolidé — cʼest le point de blocage principal identifié en semaine 3. Les phases DoD et DoT nʼont pas encore été pratiquées jusquʼau bout sur cas réel.
+Voir les Recommandation
+s — shift left et
+pérennisation du SDLC.
+Industrialis
+ation et automatisat ion
+&gt;&gt; Comment on accélère lʼautomatisat ion tout en gardant la maitrise?
+Frameworks de tests
+CI/CD
+Automatisation
+Stabilité des tests
+Métriques qualité
+Dashboards
+Utilisation de lʼIA
+Centraliser la qualimétrie
+dans Grafana, commencer avec peu de métriques et progresser selon les besoins.
+Se mesurer, interpréter les signaux et se fixer des objectifs le plus tôt possible avec lʼaide de lʼIA.
+Voir à automatiser des tests
+avant le découpage des stories lorsque cela apporte de la valeur.
+Inclure DevOps, techno, sécurité et IT comme faisant partie du produit.
+Accélérer avec lʼautomatisation, lʼIA et la mise en place progressive de frameworks.
+✅ Réussite importante —premiers actifs concrets et opérationnels créés.
+Le board Grafana Executive Scorecard est opérationnel, les métriques sont documentées et lʼIA est déjà utilisée ponctuellement pour la documentation, lʼanalyse de code, le contexte de bugs et la génération de cas de validation.
+Lʼentreprise a maintenant un point de départ exploitable — pas seulement une intention. La rencontre avec Nicolas, spécialiste Grafana, a confirmé
+lʼenthousiasme et la faisabilité.
+Prochaines étapes : lʼarchitecture dʼautomatisation reste à structurer : AltWalker + pytest + Robot Framework + Xray, avec design système embarqué. Lʼusage de lʼIA doit aussi être encadré comme processus.
+Voir les
+Recommandation s —automatisation, modélisation et IA.
+Coaching
+Posture de chaque rôle
+(QA DEV, Team Lead IVV, Directrice Qualité)
+Harmoniser le QA avec le
+R&amp;D autour dʼune posture commune de produit qualité agile.
+Clarifier les responsabilités
+qualité de chacun avec le RACI.
+Accompagner les équipes
+pour bâtir une fondation ToTAL minimale solide, puis poursuivre lʼamélioration continue.
+✅ Réussite importante —adoption et confiance en construction, premiers résultats tangibles.
+Plusieurs
+workshops conjoints DEV, QA, IVV et PO ont permis dʼaligner la posture qualité, le
+Orienter la suite vers la satisfaction client et interne, lʼautonomie, lʼélicitation continue du produit et
+lʼaugmentation de la vitesse.
+vocabulaire commun et les responsabilités.
+Le rôle de chargé
+de livraison a été identifié et le RACI donne maintenant une base concrète pour clarifier les responsabilités qualité.
+Le coaching a créé un espace de collaboration où les vrais enjeux se discutent sans silos, avec un engagement croissant. Lʼéquipe a embarqué rapidement, ce qui est un signal positif pour la suite des mandats CGI.
+Prochaines étapes : lʼautonomie nʼest pas encore acquise; la pratique encadrée doit se poursuivre. Les
+accords RACI
+formels entre directions restent à officialiser et lʼappui de la direction sera déterminant.
+Voir les pages de formation continue et les Recommandation s pour soutenir la pérennité.
+lʼintention initiale, le contenu rédigé par Émilie — notamment lʼintroduction, les entêtes et les colonnes Topic et Questions du tableau « Souhaits » — est conservé tel quel. Les ajustements de cohérence doivent viser uniquement les zones de synthèse, décision, plan, bilan, suivi ou recommandations.
+Résumé de la mission et intention des prochaines semaines
+À partir de la 3e semaine, la mission bascule volontairement dans la pratique avec des cas réels. Lʼobjectif nʼest donc plus de tout prédéfinir à lʼavance, mais dʼapprendre en faisant, dʼaméliorer le système à chaque itération et de combler progressivement les souhaits restants en chemin.
+Deux pages de formation soutiennent maintenant cette mise en pratique :
+Formation théorique — Le cycle complet de la réalisation du produit
+2026.06.15 — Pratique atelier — Le cycle complet de la réalisation du produit
+Les constats, lacunes et recommandations de pérennisation sont suivis dans la page liée :
+Recommandations — enjeux, constats ou lacunes à résoudre / solutionner.
+Point critique: lors de la 4e semaine, il faudra démontrer un résultat très positif et tangible de la mission afin de démontrer que des missions du genre sont indispensable en permanence chez Opal-RT, autant pour assurer la pérennité des pratiques que pour
+“scaler” vers HYPER-LAB, lʼensemble des produits, des équipes et des contextes de livraison. Cette démonstration devra aussi mettre en évidence le rôle du coach qualité pour les fondations vers l'accélération de lʼautomatisation des tests et lʼutilisation intelligente de lʼIA.
+Les recommandations détaillées, les bloquants structurels et les pistes de pérennisation sont suivis dans la page Recommandations — enjeux, constats ou lacunes à résoudre / solutionner. Les bilans ci-dessus doivent être lus comme un état dʼavancement de la Mission Faucon, tandis que la page Recommandations sert de référence pour les actions organisationnelles à poursuivre.
+Appui de la direction requis — condition de réussite
+Les recommandations formulées dans cette mission dépassent la capacité des équipes locales. Leur mise en œuvre exige un GO explicite et soutenu de la direction, ainsi quʼun engagement clair sur les ressources, le calendrier et le mandat nécessaires.
+Cela touche notamment : livrer plus petit par version, uniformiser Jira/Xray, consolider
+les espaces/projets par produit, endosser et signer le contrat qualité, officialiser les accords RACI, documenter le produit, structurer la couverture Xray, et avancer sur la modélisation et lʼautomatisation.
+Sans cet appui, les recommandations resteront des documents Confluence bien rédigés mais non appliqués. Lʼappui de la direction ne signifie pas que la direction fait le travail —cela signifie quʼelle autorise, protège, priorise et assume les changements nécessaires. Les recommandations qui restent sans GO explicite doivent être documentées comme risques acceptés.
+Les recommandations détaillées, les bloquants structurels et les pistes de pérennisation sont suivis dans la page Recommandations — enjeux, constats ou lacunes à résoudre / solutionner. Les bilans ci-dessus doivent être lus comme un état dʼavancement de la Mission Faucon, tandis que la page Recommandations sert de référence pour les actions organisationnelles à poursuivre.
+Mises en situation / Coaching
+Jeu de rôles (atelier)
+Notes/objectif( s)
+Rencontres suggérées
+Suivi
+Output/Feedback
+1e semaine du 15 - 19 juin
+Alignement , Entente, Engageme nt, Adhérence
+Créer le cadre pour travailler intelligemm ent (prep pour commence r)
+Éliciter, et débuter définir
+En parallèle, Contrat qualité (V1 léger)
+En parallèle,
+RACI + posture qualité
+En parallèle,
+Harmonisation QA / R&amp;D
+En parallèle,
+Qualimétrie (3 métriques + dashboard simple)
+Présentation
+SDLC + buy-in
+Mise en situation toute la semaine (explication du jeu avec un premier petit cas)
+Organisation alignée + capable dʼexécuter
+Tous les jours au moins une rencontre pour bien démarrer
+Participants :
+@Emilie Amorim
+SENSE :
+Rôle PO/PM
+@Mehrnaz Asgharzade
+FORGE : Spécialiste qualité
+@Joel Lavisse
+FORGE : Dev/Arch
+@Ransel
+Mendonca
+FORGE :
+Dev/Arch
+@Alexander Winter
+FORGE : Dev/Arch
+@Gaspard Turmel
+CARE :
+Acceptanc e/Analyste Qualité
+1e jour - lundi 15 juin Liste des besoins
+communiquées et analysées
+2e jour - mardi 16 juin Présentation SDLC + 1er workshop sur Éliciter &amp; début Définir -automatisation
+1 métrique (#occurences defaut) → à clarifier
+3e jour - mercredi 17 juin Initier au premier niveau le “Définir” - début (explication/compréhension de lʼimportance des spécification, automatisation, modélisation, Couverture de tests XRAY) avec des exemples de spécifications
+4e jour - jeudi 18 juin Implémenter / diffuser “Définir” - besoin dʼalignement sur Spécification vs Structuration/DEV
+5e jour - vendredi 19 juin Confirmer  Définir -exercice: chacun doit décrire le use case de son point de vue
+Revue du process SDLC, ajustement à notre contexte, prise en compte dans la structure JIRA/XRAY
+Livrables - V1.0 - à
+relire
+Contrat Qualité v1.0 -      Co ntrat qualité officiel OPAL-R T (standards/conformité/lég al)
+Qualimétrie v1.0 - Qualim étrie officielle OPAL-RT
+RACI v1.0 - RACI officiel OPAL-RT (rôles et responsa bilités + posture qualité)
+Livrables non planifiés
+FÉLICITATIONS
+L'équipe a tout
+de suite embarqué dans la “vibe”
+SDLC, contrat, métriques, RACI
+Malgré lʼabscence de responsable produit, l'équipe a su ÉLICITER de façon très naturelle, bravo
+Beaux
+échanges, on ressent quʼon veut prendre le temps de bien faire les choses
+Ce qui est très positif est quʼil nʼy a pas eu de disputes et ça pour moi cʼest très prometteur, car cʼest souvent dans les 2 premières phases que cela se passe
+Malgré quʼil nʼy ait pas de documentation
+Enjeux &amp; contraintes v1.0
+SDLC v1.1
+Guide des sessions de phase SDLC v1.0
+=&gt; Impact: Temps plus
+long pour confirmer lʼalignement entre les différents rôles sur le besoin de Définir
+=&gt; Livrables/items à
+reporter
+Métriques
+Automatisation,
+Modélisation, Couverture de tests
+Suite du process SDLC
+(Planifier..)
+produit, ni de code, ni QA-ich réutilisable… Il nʼy pas trop de panique on suit le coach.
+AMÉLIORATION
+L'équipe a la bonne intuition d'explorer des pistes connexes — canaliser cette curiosité vers la phase « Définir » renforcera toute la suite du SDLC, car c'est la fondation sur laquelle tout s'appuie.
+L'équipe a su identifier clairement les rôles et catalyseurs manquants —c'est une prise de conscience précieuse. Combler ces postes ou redistribuer ces responsabilités permettra de sécuriser la
+qualité des
+livrables dès les prochaines itérations.
+L'énergie était
+forte en début de semaine —pour maintenir ce momentum, il serait bénéfique de protéger les plages dédiées aux ateliers et aux exercices, afin que les apprentissages se consolident sans être en compétition avec les livrables courants.
+L'impatience de
+l'équipe est un signe très positif d'engagement ! La valeur ajoutée deviendra de plus en plus tangible à mesure que les fondations posées cette semaine se concrétiseront
+dans les exercices pratiques.
+2e semaine du 22-26 juin (24 juin off)
+Reprendre le contrôle du produit (shift-left) et se rendre jusquʼau bout (shift-right)
+Avec le premier petit cas, fermer la boucle.
+Reprendre le contrôle du produit (shift-left)
+Se rendre jusquʼau bout (shift-right)
+et Learn
+Utiliser tout ce que nous pouvons (AI. auto, etc. ) pour y arriver au mieux, il faut noter os lʼacunes dans
+Recommandatio ns (enjeux, cons tats ou lacunes à résoudre/solut ionner)
+Pas besoin dʼune rencontre WS tous les jours, on peut se faire un daily par contre.
+Début de
+semaine une rencontre WS pour se mettre dans le mode réel avec assistance par contre…
+1e jour - lundi 22 juin WS#5 - 16h
+Premier atelier de rédaction réel des spécifications sur la fonctionnalité dans Xray  et Jira pour la partie “livraison“ et “requis“ (on utilise Xray et Jira comme cela, dans le cadre du WS pour simplifier/documenter le produit… Les enjeux de la mise en place, utilisation et outils peuvent êtres soulignés dans la page      R
+ecommandations (enjeux, c onstats ou lacunes à résoud re/solutionner) )
+2e jour - mardi 23 juin WS#6 - Modélisation et Automatisation - 15h Initiation à modéliser et automatisation en mode contrat/spécifications, pour ensuite boucler avec les spécifications (validation/amélioration) en utilisant lʼIA et un outil du genre Robot Framework pour automatiser (utilisateur et applicatif) et Pytest-ich pour le code (applicatif et machine)
+3e jour (fête)
+4e jour - jeudi 25 juin WS#7 - planification - 11h Mais surtout compléter le plan de test/livraison.. ici on doit planifier comment/qui… le niveau de risque, faire le lien avec les standards et définir le scope acceptable (cela est documenter dans lʼEPIC)
+Une fois lʼEPIC terminée, on devra découper lʼepic en story avec la couverture des
+FÉLICITATIONS
+@Ransel
+Mendonca a eu une promotion dans les rôles
+Il devient le “chargé de livraison” et donc le gardien du SDLC
+On ressent que les spécifications sont un gros “step”, personne ne lâche le morceau, bravo on y est presque !
+Nous avons ressenti plus de CARE quand le coach posait la question: Est-ce suffisant comme liste de spécifications… Cela est très bon signe dʼavoir de lʼhésitation et
+spécifications… et “implémenter“ le ou les
+stories… on valide
+du
+requestionneme
+seulement la complétion desnt  Car cʼest le
+specifications de/des stories mais aussi de lʼEPIC… ici il faut avoir implémenter incluant lʼintégration complète.
+Résultat / suivi WS#7 : DEV et IVV doivent
+maintenant écrire un résumé du plan en guise de faire lʼexercice, directement dans lʼEPIC, afin de consolider lʼapprentissage et rendre
+visible la planification
+levier pour
+valider avec des outils comme lʼAI, automatisation etc. Cela veut aussi dire quʼon est pas prêt à planifier la
+livraison.
+commune.
+Utiliser le cas RTLABTT-
+WS#7 -
+6023: Model state stuck in disconnected if target remai ns unreachable
+IN PROGRESS pour couvrir ce qui nʼa pas été vu dans lʼexercice actuel : découpage en stories ou bugs, couverture des spécifications, puis les phases IMPLÉMENTER, DIFFUSER et CONFIRMER. Valider dans cette nouvelle itération si lʼexercice de planification commune a bien été compris et si lʼéquipe arrive à éviter une planification en silo.
+5e jour - vendredi 26 juin Brainstorm cas concret -
+RTLABTT-6023: Model st ate stuck in disconnected if target remains unreachable
+IN PROGRESS
+=&gt; Attention, ici on
+pourrait passer plus de temps sur “Définir“ il faut poursuivre et finir
+les autres phases et le
+planification : lʼatelier sʼest bien déroulé, avec une belle participation DEV et IVV. Comme coach, cʼest très positif à voir, car cʼest souvent entre ces rôles que la magie devrait se produire le plus.
+Même si le cas utilisé présentement ne permet pas de voir lʼensemble des défis de la phase
+PLANIFIER —
+SDLC complet dans la semaine.
+On va se rendre à un niveau acceptable comme première itération pour comprendre que cʼest normal de ne pas être parfait que le système est “amélioration continu“ (par itérations,
+etc.)
+ni ceux des autres phases — lʼexercice a permis de bien comprendre lʼimportance de planifier ensemble, plutôt que de laisser chaque département planifier en silo.
+Dans le cadre
+de cet exercice, nous nʼaurons pas couvert le découpage en stories ou bugs, la couverture des spécifications, ni toute la partie IMPLÉMENTER, DIFFUSER et CONFIRMER. Ces éléments seront travaillés dans le cadre de lʼautre cas :
+RTLABTT-60 23: Model state stuck in discon nected if target remains unreac hable IN PROGRESS
+Cependant, nous avons bien fait le tour pour comprendre ce que nous allons faire. Il reste à voir si cela a bien été compris — à suivre
+AMÉLIORATION
+La modélisation, l'automatisation et l'IA sont identifiées comme des leviers clés — la prochaine itération sera l'occasion idéale de les mettre en pratique pour enrichir et valider nos spécifications.
+Intégrer davantage le code en direct dans les ateliers permettra de rendre visible le lien entre les décisions de spécification et
+leur impact technique —une belle opportunité de renforcer la collaboration DEV/QA et de casser les derniers silos.
+3e semaine du 29 juin au 3 juillet (1 juillet off) Utiliser un cas quʼon doit faire pour de vrai
+Objectif de la semaine : passer du cadrage à lʼexécution réelle.
+Utiliser un cas concret à traiter pour vrai, notamment
+RTLABTT-60 23: Model sta te stuck in dis connected if t arget remains unreachable IN PROGRESS .
+Continuer à pratiquer le SDLC complet : DÉFINIR, PLANIFIER, IMPLÉMENTE R, DIFFUSER et CONFIRMER.
+1e jour - lundi 29 juin WS#8 - Diffuser / Confirmer / CARE Rencontre productive sur le
+cas réel      RTLABTT-6023: Model state stuck in discon nected if target remains unr eachable IN PROGRESS :
+tour complet des sujets dʼÉLICITER, points dʼaction clarifiés et owners assignés. La documentation est identifiée comme point dʼaction à suivre.
+2e jour - mardi 30 juin Qualimétrie + décision PO + fin dʼÉLICITER
+Le PO a confirmé la décision : le correctif sera fait, mais pas en urgence; il peut être planifié dans les prochaines versions. Les informations nécessaires sont maintenant disponibles et ÉLICITER est officiellement terminée pour RTLABTT-6023.
+Rencontre avec Nicolas, spécialiste Grafana : le premier board Qualimétrie officiel est disponible et lʼenthousiasme est partagé. https://grafana.opal-rt.com/d/fbb1eebc-eca1-41ce-8697-667f9a3b7ab8/executive-scorecard? orgId=1&amp;from=now-90d&amp;to=now&amp;timezone=bro wser
+FÉLICITATIONS
+La rencontre de lundi sʼest très bien déroulée : tour complet dʼÉLICITER, actions clarifiées et owners assignés.
+Mardi, le PO a confirmé que le correctif sera fait, sans urgence, et ÉLICITER est officiellement terminée pour
+RTLABTT-60 23: Model state stuck in discon nected if target remains unreac hable IN PROGRESS
+Le premier
+board
+Améliorer les spécifications, la modélisation, la couverture de tests, la qualimétrie,
+lʼautomatisatio
+3e jour - mercredi 1e juillet (férié)
+Fête du Canada — aucune rencontre prévue.
+4e jour - jeudi 2 juillet WS — Spécifications sur cas réel
+Travail sur la spécification RTLABTT-6068: IF my si
+mulation is cleaned followin
+g the abandoning of the sim
+Qualimétrie officiel est disponible dans Grafana et le sujet est lancé avec enthousiasme.
+Jeudi, lʼatelier
+n etulation THEN I should be inf              sur     RTLABTT
+lʼutilisation de lʼIA au fil du cas réel.
+Documenter
+les lacunes restantes dans la page de recommandati ons liée afin de nourrir la suite et la pérennisation.
+Résumé
+dʼaccomplisse ment attendu : démontrer que lʼéquipe peut appliquer les fondations des deux premières semaines sur un cas réel, avec assistance du
+coach qualité.
+ormed about completion (s uccess/fail) of the imminent cleaning TO DO . Lʼobjectif
+de passer à PLANIFIER / IMPLÉMENTER / DIFFUSER / CONFIRMER nʼa pas été atteint : DÉFINIR doit encore être consolidé.
+5e jour - vendredi 3 juillet
+À compléter selon lʼexercice
+de consolidation DÉFINIR.
+-6068: IF my si mulation is clea ned following t he abandoning of the simulatio n THEN I shoul d be informed a bout completio n (success/fail) of the imminent cleaning TO DO a
+permis de rendre visible le point à renforcer : la phase DÉFINIR.
+AMÉLIORATION / LACUNES À COMBLER
+Consolider DÉFINIR avant de chercher à accélérer vers PLANIFIER et les phases suivantes.
+Documenter
+plus
+systématiquem ent les décisions, actions et responsabilités pendant les rencontres.
+Rendre la couverture et les décisions plus visibles dans Xray lorsque possible.
+ENJEUX
+Disponibilité
+réduite — les vacances et absences réduisent la capacité dʼavancement.
+Workshops
+dépriorisés —les ateliers peuvent passer après les urgences courantes.
+DÉFINIR à
+renforcer — les spécifications ne sont pas encore acquises au minimum requis pour passer
+sereinement aux phases suivantes.
+Semaine 4 (6 - 10 juillet)
+Objectif de la semaine : produire une preuve tangible de valeur.
+Mesurer et rendre visible les gains obtenus depuis le début de la mission : alignement, qualité des spécifications, planification commune, couverture, réduction des silos, décisions mieux appuyées.
+Démontrer que le coach qualité accélère lʼadoption des pratiques et réduit les risques de livraison, sans faire le travail
+1e jour - lundi 6 juillet
+2e jour - mardi 7 juillet
+3e jour - mercredi 8 juillet
+4e jour - jeudi 9 juillet
+5e jour - vendredi 10 juillet
+FÉLICITATIONS
+AMÉLIORATION
+à la place des équipes.
+Structurer un argumentaire clair pour montrer que le rôle de coach qualité est indispensable en permanence chez Opal-RT.
+Relier cette démonstration à la pérennité, au passage à lʼéchelle vers HYPER-LAB, aux autres produits et équipes, à lʼautomatisatio n des tests et à lʼutilisation intelligente de lʼIA.
+Résumé dʼaccomplisse ment attendu : disposer dʼun récit et de preuves suffisamment solides pour justifier la continuité du
+rôle de coach qualité.
+À compléter avec les preuves de valeur : gains observés, exemples concrets, métriques disponibles, décisions mieux appuyées, réduction des silos et capacité accrue à travailler avec automatisation et IA.
+Arrimage Agile
+Activité
+centrale : travailler par bugs critiques
+Corpus de
+spécifications fiables
+DoR opérationnel Plan de release structuré Spécifications critiques sécurisées
+5e semaine
+du 13 - 17 juillet FORGE (DoD) &amp; CARE (DoT + décision)
+Exécuter
+avec contrôle
+Implémentatio n (EPIC, pas stories)
+1e jour - lundi 13 juillet
+2e jour - mardi 14 juillet
+3e jour - mercredi 15 juillet
+4e jour - jeudi 16 juillet
+FÉLICITATIONS
+AMÉLIORATION
+Validation simulée (unitaire / intégration)
+Collecte métriques
+Pair /
+intégration forte
+Code +
+validation + signaux
+5e jour - vendredi 17 juillet
+Fermer la
+boucle et décider
+Validation
+réelle (prod / feedback)
+Intégration
+signaux réels
+Décision (1
+owner + amigos)
+Ajustement
+système
+Pour
+chaque bug
+compren
+dre (éliciter)
+formalise
+(spécifier
+modéliser
+(léger)
+définir validation s (TDD ready)
+Ce que tu
+construis progressiv ement :
+Spécifica tions produit réelles
+Modèle
+produit (léger mais utile)
+DoR
+solide
+Plan de livraison basé sur compréh ension
+Tests
+prêts AVANT dev
+Vision produit unique
+Cycle complet devrait être maîtrisé
+6e semaine du 20 - 24 juillet
+Retour du succès… Retro, et ce que vous voulez pratiquer (l'autonomi e)
+Présenter les forces et faiblesses, suggestion
+…suivre.
+1e jour - lundi 20 juillet
+2e jour - mardi 21 juillet
+3e jour - mercredi 22 juillet
+4e jour - jeudi 23 juillet
+5e jour - vendredi 24 juillet
+FÉLICITATIONS
+AMÉLIORATION

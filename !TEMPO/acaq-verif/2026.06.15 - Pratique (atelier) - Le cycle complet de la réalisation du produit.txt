@@ -1,0 +1,298 @@
+﻿2026.06.15 - Pratique (atelier) - Le cycle complet de la réalisation du produit
+Cette page sert de guide de préparation, dʼanimation et de suivi pour lʼatelier de livraison SDLC lié à la mission qualité. Elle permet de cadrer le workshop, de documenter les décisions, dʼassigner les suivis et de conserver une trace exploitable pour la suite de la mission.
+Contexte de lʼatelier
+Ce guide sʼapplique à un workshop réel de livraison SDLC. Il complète la formation SDLC et la documentation officielle : la formation sert à comprendre les concepts, la documentation officielle sert de source de vérité, et cette page sert à préparer, animer et suivre lʼatelier concret.
+Vue dʼensemble de lʼatelier
+Élément
+Contenu
+Référence / suivi
+But de la page
+Préparer et suivre un workshop réel de livraison SDLC en gardant une trace claire des décisions, actions, risques et prochaines étapes.
+Documentation officielle SDLC
+Contexte général
+La mission qualité est passée
+en mode pratique sur cas réels. Les ateliers servent à appliquer les fondations SDLC, spécifications, planification commune, validation et boucle CARE sur des situations concrètes.
+Mission faucon
+Bilan mission qualité - suivi ROI par semaine
+Cas de travail principal
+Cas réel à traiter dans le
+cadre de la mission : RTLABTT-6023 — Model state stuck in disconnected if target remains unreachable.
+RTLABTT-6023
+Résultat attendu
+Obtenir un suivi exploitable :
+décisions prises, ambiguïtés
+Contrat qualité
+Qualimétrie
+restantes, risques visibles, owners, actions, liens Jira / Confluence et prochaine étape SDLC.
+Principes directeurs des workshops
+Un workshop SDLC nʼest pas une réunion dʼinformation passive.
+Chaque participant vient représenter une perspective, rendre visibles des risques, clarifier des zones floues et contribuer à une décision.
+Un atelier utile se termine avec une trace exploitable : décision, actions, responsables, références et prochaine étape.
+Si un point nʼest pas suffisamment clair pour avancer, le bon réflexe est de le rendre visible et
+de revenir à la bonne phase, pas de pousser le sujet vers lʼavant.
+Rappel formation
+Si certains participants ne connaissent pas encore bien le contexte SDLC, utiliser la page de formation comme préalable. Pendant ce workshop, on applique les réflexes appris : nommer la phase, séparer faits et hypothèses, rendre les risques visibles, documenter les décisions et assigner les actions.
+Déroulement recommandé dʼun workshop
+Moment
+Objectif
+Ce quʼon attend des participants
+Références
+Avant
+Arriver préparé
+Lire le contexte, identifier la phase SDLC, préparer les faits, questions, risques, dépendances et décisions attendues.
+SDLC RACI
+Pendant
+Clarifier et décider
+Distinguer faits, hypothèses, risques et décisions; représenter
+Pages SDLC et sous-pages CGI
+activement son rôle; documenter ce qui doit être suivi.
+Après
+Assurer le suivi
+Confirmer les actions, owners, liens Jira / Confluence, critères de sortie et prochaine étape du flux.
+Contrat qualité Qualimétrie
+Guide rapide par type dʼatelier
+Atelier
+But du workshop
+Ce que les
+participants doivent surtout apporter
+À consulter
+ÉLICITER
+Qualifier un signal, un
+besoin ou un problème avant de sauter à la solution.
+Source, impact, faits
+observés, hypothèses, questions ouvertes et décision de poursuite.
+Cérémonie
+dʼélicitation Comment éliciter
+DÉFINIR
+Transformer un besoin compris en comportements observables et vérifiables.
+Spécifications claires, cas limites, impacts, risques, stratégie de preuve et alignement inter-rôles.
+Cérémonie de définition Comment définir SPÉCIFICATION
+PLANIFIER
+Valider la readiness et organiser un engagement réaliste.
+Dépendances, capacité, risques, prérequis, découpage, ordre de travail et points de vigilance.
+Cérémonie de planification Comment planifier
+IMPLÉMENTER
+Exécuter sans perdre la trace entre besoin, code, tests et preuves.
+Faisabilité, écarts, preuves, revues, DoD et impacts détectés en cours dʼexécution.
+Cérémonie dʼimplémentation Comment implémenter
+DIFFUSER
+Préparer une diffusion supportable, observable et réversible.
+Preuves, risques résiduels, handover CARE, rollback, supportabilité et recommandation Go / No-Go.
+Cérémonie de diffusion Comment diffuser Contrat qualité
+CONFIRMER
+Observer les résultats réels, distinguer faits et interprétations, alimenter lʼamélioration continue.
+Signaux terrain, métriques, observations, incidents, apprentissages et besoin éventuel de retour vers ÉLICITER.
+Cérémonie de confirmation Comment confirmer Qualimétrie
+Préparation et suivi du workshop
+1. Fiche du workshop
+Champ
+Information du workshop
+Repère de suivi
+Titre de lʼatelier
+Workshop de livraison SDLC — mission qualité / cas RTLABTT-6023
+Atelier utilisé pour appliquer le SDLC sur un cas réel et produire une trace exploitable.
+Phase SDLC
+DÉFINIR → PLANIFIER → IMPLÉMENTER → DIFFUSER → CONFIRMER
+La semaine 3 vise à poursuivre le cycle complet sur le cas réel, avec attention particulière à CARE, diffusion et confirmation.
+Objectif du workshop
+Clarifier le cas réel, consolider
+les spécifications et validations, planifier les actions, rendre visibles les risques et confirmer la prochaine étape SDLC.
+La sortie doit permettre de
+savoir quoi faire, qui le fait, pourquoi et avec quelle référence.
+Contexte
+La mission qualité est rendue en mode pratique sur cas réel.
+Voir Mission faucon et Bilan mission qualité pour le
+Le cas RTLABTT-6023 sert à démontrer comment passer dʼun bug critique à un flux structuré : contexte, impacts, spécifications, validation, planification, livraison et confirmation.
+contexte global de la semaine 3.
+Facilitateur
+@Michel Bélanger — coach qualité CGI
+Anime le flux de discussion, garde le focus sur le SDLC et aide lʼéquipe à documenter sans faire à sa place.
+Responsable documentation
+À nommer au début de chaque atelier.
+Point dʼamélioration identifié : nommer explicitement le responsable de la prise de notes à chaque rencontre.
+Participants requis
+PO / PM ou représentant
+produit, chargé de livraison, développeurs / architectes concernés, IV / IVV, spécialiste qualité, Support / CARE selon la phase.
+Les participants exacts
+peuvent varier selon lʼatelier, mais les perspectives SENSE / FORGE / CARE doivent être représentées.
+Liens utiles
+RTLABTT-6023 Mission faucon
+Bilan mission qualité - suivi ROI par semaine
+Ajouter les liens Jira / Xray / Confluence spécifiques aux décisions prises pendant lʼatelier.
+2. Préparation avant lʼatelier
+Identifier la phase SDLC concernée.
+Relire la page officielle et la sous-page Comment... associées.
+Rassembler les faits disponibles et distinguer les hypothèses.
+Lister les questions à trancher pendant le workshop.
+Identifier les participants nécessaires et les rôles absents à risque.
+Préparer lʼespace de prise de notes et de suivi.
+Rappels utiles issus de la formation
+Avant un workshop, un participant préparé doit être capable de nommer la phase, la décision attendue, les angles morts possibles et les références à consulter. Pour les concepts de fond, les anti-patterns et les réflexes dʼapprentissage, utiliser la page de formation SDLC.
+3. Déroulement pendant lʼatelier
+Étape
+But
+Questions à couvrir
+Notes de suivi
+Cadrage
+Aligner tout le monde
+sur le cas RTLABTT-6023 et la phase SDLC travaillée.
+Quelle décision ou
+production doit sortir de lʼatelier ? Quelle partie du flux SDLC est visée aujourdʼhui ?
+Confirmer en début
+dʼatelier si lʼobjectif est de clarifier, définir, planifier, diffuser ou confirmer.
+Contexte partagé
+Faire émerger les faits
+utiles avant de conclure.
+Quels sont les faits
+Jira / terrain ? Quel est lʼimpact client ? Quʼest-ce qui est hypothèse ? Quʼest-ce qui reste inconnu ?
+Documenter
+explicitement faits, hypothèses, contraintes et inconnues dans le ticket ou la page liée.
+Tour des
+perspectives
+Faire parler les rôles
+SENSE / FORGE / CARE concernés.
+Quʼapportent produit,
+dev/arch, IV/IVV, qualité, support et livraison ? Quels risques ou dépendances chacun voit-il ?
+Sʼassurer quʼaucune
+perspective critique nʼest absente, surtout IV/IVV, DEV et CARE pour les validations et la supportabilité.
+Décision ou
+clarification
+Rendre la suite
+explicite.
+Avançons-nous vers
+la phase suivante ? Devons-nous revenir à DÉFINIR ? Faut-il ouvrir des actions de clarification ?
+Inscrire la décision,
+ou lʼabsence de décision justifiée, avec owner et lien de suivi.
+Clôture
+Sécuriser la traçabilité
+et le suivi.
+Qui fait quoi, pour
+quand, dans quel ticket ou document ?
+Relire les actions à
+voix haute avant de fermer lʼatelier et
+Quelle est la prochaine étape SDLC ?
+confirmer le responsable de documentation.
+Rappel dʼanimation
+Pendant lʼatelier, séparer clairement faits, hypothèses, risques, décisions et actions. Cette simple discipline améliore fortement la qualité du suivi.
+4. Décisions, ambiguïtés et suivi
+Type
+Description
+Owner / rôle
+Prochaine étape
+Référence
+DÉCISION
+Utiliser
+RTLABTT-6023 comme cas réel pour pratiquer le SDLC complet et démontrer la valeur de la mission.
+Coach qualité +
+équipe de livraison
+Structurer les
+discussions autour des phases SDLC et documenter les décisions dans les bons artefacts.
+RTLABTT-6023
+AMBIGUÏTÉ
+La prise de notes
+et la responsabilité documentaire ne sont pas encore systématiqueme nt assignées à chaque atelier.
+Facilitateur /
+chargé de livraison
+Nommer un
+responsable documentation au début de chaque rencontre.
+Mission faucon
+RISQUE
+Les workshops
+peuvent être dépriorisés par les urgences courantes, les vacances ou la capacité réduite.
+Chargé de
+livraison / gestion
+Protéger les
+plages dʼatelier et ajuster le scope pour livrer plus petit lorsque nécessaire.
+Bilan mission
+qualité
+ACTION
+Documenter au fur et à mesure les informations, décisions, points dʼaction et responsabilités.
+Responsable documentation nommé en atelier
+Mettre à jour Jira / Xray / Confluence immédiatement après chaque atelier.
+Tickets Jira, EPIC et pages de suivi liées
+5. Vérification de sortie
+Lʼobjectif du workshop a été rappelé et compris.
+Les faits et hypothèses ont été distingués.
+Les risques et dépendances visibles ont été notés.
+Une décision, ou une absence de décision justifiée, a été documentée.
+Les actions ont un owner ou un rôle responsable.
+Les liens Jira / Confluence utiles ont été ajoutés.
+La prochaine étape SDLC est explicite.
+Guide rapide par rôle
+Ce tableau aide chaque participant à comprendre sa contribution en atelier. Pour la répartition officielle détaillée des responsabilités, utiliser le     RACI officiel OPAL-RT (rôles et responsabilité
+s + posture qualité) .
+Rôle
+Contribution attendue en
+workshop
+À éviter
+PO / PM
+Apporter la valeur produit, le contexte client, les arbitrages et les décisions de périmètre.
+Laisser le besoin flou ou transformer lʼatelier en simple collecte sans décision.
+Chargé de livraison
+Rendre visibles le flux, les dépendances, les critères de sortie, les décisions et le suivi.
+Faire à la place des autres ou masquer les écarts pour faire avancer artificiellement.
+Architecte / Développeur
+Apporter faisabilité, impacts
+techniques, options, contraintes et preuves attendues.
+Coder ou concevoir avant que
+le besoin ou les critères soient assez clairs.
+IV / qualité
+Challenger les risques, cas limites, critères dʼacceptation, validation et traçabilité.
+Créer une logique parallèle non alignée avec les spécifications et références officielles.
+Support / CARE
+Apporter les incidents,
+signaux terrain, contraintes client et besoins de supportabilité.
+Découvrir les changements
+après coup ou garder les retours terrain implicites.
+Responsable documentation
+Capturer décisions, actions,
+ambiguïtés, risques, owners et liens au bon endroit.
+Produire un compte rendu
+isolé qui ne sert pas au suivi opérationnel.
+Rôle
+Description / responsabilité attendue en workshop
+Assignation pour ce workshop
+Orientation produit
+PO / PM
+Clarifie le besoin, arbitre les
+priorités, confirme le périmètre et sʼassure de lʼalignement avec la valeur client.
+@Emilie Amorim
+Chargé de livraison
+DM
+Coordonne le flux SDLC, rend
+visibles les dépendances, risques, critères de sortie et points dʼaction sans faire à la place des autres.
+@Ransel Mendonca
+Architecte
+Assure la cohérence technique, clarifie les impacts systèmes et aide au découpage testable et livrable.
+@Joel Lavisse
+Développeur
+Confirme la faisabilité, contribue au découpage, à
+@Alexander Winter
+lʼimplémentation, aux tests techniques et à la DoD.
+Spécialiste qualité
+Aide à rendre les risques
+explicites, soutient les standards qualité et facilite lʼalignement entre rôles.
+@Mehrnaz Asgharzadeh
+@mic.belanger
+IV / IVV
+Apporte la stratégie de validation, les critères dʼacceptation et la couverture des risques principaux.
+@Gaspard Turmel @Yannick Bihan
+Support / CARE
+Apporte la voix du terrain, les
+impacts opérationnels et la préparation post-livraison.
+À confirmer avec @Emilie
+Amorim et les représentants IV / IVV.
+Responsable documentation /
+prise de notes
+Rôle tournant nommé au
+début de chaque atelier pour documenter les éléments utiles au suivi.
+…à confirmer en ouverture de
+rencontre.
+SDLC officiel OPAL-RT (cycle de vie de la réalisation du produit logiciel)
+RACI officiel OPAL-RT (rôles et responsabilités + posture qualité)
+Théorique (concept) - Le cycle complet de la réalisation du produit
+SPÉCIFICATION
+Contrat qualité OPAL-RT
+Qualimétrie officiel OPAL-RT
+Lexique officiel OPAL-RT
+Dossier CGI SDLC et sous-pages

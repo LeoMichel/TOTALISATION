@@ -1,0 +1,228 @@
+﻿Pratique (atelier) - Le cycle complet de la réalisation du produit
+Cette page est un gabarit descriptif pour préparer, animer, documenter et suivre les ateliers SDLC. Elle ne doit contenir aucune information propre à un workshop réel : utiliser uniquement les champs, indications et repères comme placeholders à remplir dans une copie de cette page. Elle complète la Théorique (concept) - Le cycle complet de la réalisation du produit et sʼappuie sur la     SDLC officiel OPAL-RT (cycle de vie de la réalisation du produit logiciel) .
+Positionnement des 3 pages
+Guide des ateliers = quoi faire avant, pendant et après un workshop réel. Formation SDLC = apprendre les concepts, pratiquer et valider les acquis.
+Documentation officielle SDLC = source de référence officielle pour les phases, rôles, critères et pratiques.
+Comment utiliser cette page
+Besoin
+Page à consulter en
+premier
+Usage attendu
+Comprendre le cycle, les concepts et passer une évaluation
+Formation sur le cycle complet de la réalisation du produit
+Suivre le parcours dʼapprentissage avant de participer aux ateliers.
+Préparer ou suivre un
+atelier concret
+Cette page
+Utiliser le guide, les
+rappels, le gabarit de suivi et les références utiles.
+Valider la source
+officielle dʼune pratique, dʼun rôle ou dʼun critère
+Documentation
+officielle SDLC
+Confirmer la règle de
+référence sans recréer une version parallèle.
+Principes directeurs des workshops
+Un workshop SDLC nʼest pas une réunion dʼinformation passive.
+Chaque participant vient représenter une perspective, rendre visibles des risques, clarifier des zones floues et contribuer à une décision.
+Un atelier utile se termine avec une trace exploitable : décision, actions, responsables, références et prochaine étape.
+Si un point nʼest pas suffisamment clair pour avancer, le bon réflexe est de le rendre visible et de revenir à la bonne phase, pas de pousser le sujet vers lʼavant.
+Rappel formation
+Si les participants ne connaissent pas encore bien le contexte SDLC, commencer par la page de formation, puis revenir ici pour préparer le workshop réel.
+Déroulement recommandé dʼun workshop
+Moment
+Objectif
+Ce quʼon attend des participants
+Références
+Avant
+Arriver préparé
+Lire le contexte,
+identifier la phase SDLC, préparer les faits, questions, risques, dépendances et décisions attendues.
+SDLC
+RACI
+Pendant
+Clarifier et décider
+Distinguer faits, hypothèses, risques et décisions; représenter activement son rôle; documenter ce qui doit être suivi.
+Pages SDLC et sous-pages CGI
+Après
+Assurer le suivi
+Confirmer les actions, owners, liens Jira / Confluence, critères de sortie et prochaine étape du flux.
+Contrat qualité Qualimétrie
+Guide rapide par type dʼatelier
+Atelier
+But du workshop
+Ce que les
+participants doivent surtout apporter
+À consulter
+ÉLICITER
+Qualifier un signal, un
+besoin ou un problème avant de sauter à la solution.
+Source, impact, faits
+observés, hypothèses, questions ouvertes et décision de poursuite.
+Cérémonie
+dʼélicitation Comment éliciter
+DÉFINIR
+Transformer un besoin compris en comportements observables et vérifiables.
+Spécifications claires, cas limites, impacts, risques, stratégie de preuve et alignement inter-rôles.
+Cérémonie de définition Comment définir SPÉCIFICATION
+PLANIFIER
+Valider la readiness et organiser un engagement réaliste.
+Dépendances, capacité, risques, prérequis, découpage, ordre de travail et points de vigilance.
+Cérémonie de planification Comment planifier
+IMPLÉMENTER
+Exécuter sans perdre la trace entre besoin, code, tests et preuves.
+Faisabilité, écarts, preuves, revues, DoD et impacts détectés en cours dʼexécution.
+Cérémonie dʼimplémentation Comment implémenter
+DIFFUSER
+Préparer une diffusion
+supportable, observable et réversible.
+Preuves, risques
+résiduels, handover CARE, rollback, supportabilité et recommandation Go / No-Go.
+Cérémonie de
+diffusion Comment diffuser Contrat qualité
+CONFIRMER
+Observer les résultats réels, distinguer faits et interprétations, alimenter
+Signaux terrain, métriques, observations, incidents,
+Cérémonie de confirmation Comment confirmer Qualimétrie
+lʼamélioration continue.
+apprentissages et besoin éventuel de retour vers ÉLICITER.
+Gabarit de préparation et de suivi dʼun workshop
+Utilisation recommandée
+Cette section est un modèle à copier pour chaque atelier réel. Ne rien remplir dans cette page de référence : remplacer les placeholders seulement dans la copie utilisée pour un workshop précis.
+1. Fiche du workshop
+Champ
+Placeholder à remplacer dans
+la copie
+Repère descriptif
+Titre de lʼatelier
+Nom clair et orienté décision ou sujet.
+Phase SDLC
+ÉLICITER, DÉFINIR,
+PLANIFIER, IMPLÉMENTER, DIFFUSER ou CONFIRMER.
+Objectif du workshop
+Formuler ce qui doit être vrai
+à la sortie de lʼatelier.
+Contexte
+Faits, demande, incident, changement, opportunité ou contrainte.
+Facilitateur
+Anime le flux de discussion et garde le focus sur lʼobjectif.
+Responsable documentation
+Capture décisions, actions,
+risques, ambiguïtés et liens.
+Participants requis
+Rôles nécessaires pour prendre ou éclairer la bonne décision.
+Liens utiles
+Intrants et références spécifiques au workshop réel.
+2. Préparation avant lʼatelier
+Identifier la phase SDLC concernée.
+Relire la page officielle et la sous-page Comment... associées.
+Rassembler les faits disponibles et distinguer les hypothèses.
+Lister les questions à trancher pendant le workshop.
+Identifier les participants nécessaires et les rôles absents à risque.
+Préparer lʼespace de prise de notes et de suivi.
+Rappels utiles issus de la formation
+Avant un workshop, un participant préparé doit être capable de
+nommer la phase, la décision attendue, les angles morts possibles et les références à consulter. Pour les concepts de fond, les anti-patterns et les réflexes dʼapprentissage, utiliser la page de formation SDLC.
+3. Déroulement pendant lʼatelier
+Étape
+But
+Questions à couvrir
+Placeholder de notes à remplacer dans la copie
+Cadrage
+Aligner tout le monde sur le sujet.
+Pourquoi sommes-nous ici ? Quelle phase ? Quelle décision ou production est attendue ?
+Contexte partagé
+Faire émerger les faits utiles.
+Quels sont les faits, signaux, impacts, contraintes et inconnues ?
+Tour des
+perspectives
+Faire parler les rôles
+concernés.
+Quelles contributions,
+risques, dépendances ou clarifications chaque rôle doit-il apporter ?
+Décision ou clarification
+Rendre la suite explicite.
+Avançons-nous, revenons-nous à une phase précédente, ou ouvrons-nous des actions de clarification ?
+Clôture
+Sécuriser la traçabilité.
+Qui fait quoi, pour quand, avec quel lien de référence ou ticket
+Rappel dʼanimation
+Pendant lʼatelier, séparer clairement faits, hypothèses, risques, décisions et actions. Cette simple discipline améliore fortement la qualité du suivi.
+4. Décisions, ambiguïtés et suivi
+Type
+Placeholder de description
+Placeholder owner / rôle
+Placeholder prochaine étape
+Placeholder référence
+DÉCISION
+AMBIGUÏTÉ
+RISQUE
+ACTION
+5. Vérification de sortie
+Lʼobjectif du workshop a été rappelé et compris.
+Les faits et hypothèses ont été distingués.
+Les risques et dépendances visibles ont été notés.
+Une décision, ou une absence de décision justifiée, a été documentée.
+Les actions ont un owner ou un rôle responsable.
+Les liens Jira / Confluence utiles ont été ajoutés.
+La prochaine étape SDLC est explicite.
+Guide rapide par rôle
+Ce tableau aide chaque participant à comprendre sa contribution en atelier. Pour la répartition officielle détaillée des responsabilités, utiliser le     RACI officiel OPAL-RT (rôles et responsabilité
+s + posture qualité) .
+Rôle
+Contribution attendue en workshop
+À éviter
+PO / PM
+Apporter la valeur produit, le contexte client, les arbitrages et les décisions de périmètre.
+Laisser le besoin flou ou transformer lʼatelier en simple collecte sans décision.
+Chargé de livraison
+Rendre visibles le flux, les dépendances, les critères de sortie, les décisions et le suivi.
+Faire à la place des autres ou masquer les écarts pour faire avancer artificiellement.
+Architecte / Développeur
+Apporter faisabilité, impacts techniques, options, contraintes et preuves attendues.
+Coder ou concevoir avant que le besoin ou les critères soient assez clairs.
+IV / qualité
+Challenger les risques, cas
+limites, critères dʼacceptation, validation et traçabilité.
+Créer une logique parallèle
+non alignée avec les spécifications et références officielles.
+Support / CARE
+Apporter les incidents, signaux terrain, contraintes client et besoins de supportabilité.
+Découvrir les changements après coup ou garder les retours terrain implicites.
+Responsable documentation
+Capturer décisions, actions, ambiguïtés, risques, owners et liens au bon endroit.
+Produire un compte rendu isolé qui ne sert pas au suivi opérationnel.
+Assignation des rôles en workshop
+Rôle
+Description / responsabilité
+attendue en workshop
+Placeholder dʼassignation
+Orientation produit PO (Product Owner)
+Clarifie le besoin, arbitre les priorités, confirme le périmètre et sʼassure de lʼalignement avec la valeur client.
+Chargé de livraison DM (Delivery Manager)
+Coordonne le flux SDLC, rend visibles les dépendances, risques, critères de sortie et points dʼaction sans faire à la place des autres.
+Architecte
+Assure la cohérence
+technique, clarifie les impacts systèmes et aide au découpage testable et livrable.
+Développeur
+Confirme la faisabilité,
+contribue au découpage, à lʼimplémentation, aux tests techniques et à la DoD.
+Spécialiste qualité
+Aide à rendre les risques
+explicites, soutient les standards qualité et facilite lʼalignement entre rôles.
+IV / IVV
+Apporte la stratégie de validation, les critères dʼacceptation et la couverture des risques principaux.
+Support / CARE
+Apporte la voix du terrain, les
+impacts opérationnels et la préparation post-livraison.
+Responsable documentation / prise de notes
+Rôle tournant nommé au début de chaque atelier pour documenter les éléments utiles au suivi.
+Références utiles
+SDLC officiel OPAL-RT (cycle de vie de la réalisation du produit logiciel)
+RACI officiel OPAL-RT (rôles et responsabilités + posture qualité)
+Théorique (concept) - Le cycle complet de la réalisation du produit
+SPÉCIFICATION
+Contrat qualité OPAL-RT
+Qualimétrie officiel OPAL-RT
+Lexique officiel OPAL-RT
+Dossier CGI SDLC et sous-pages

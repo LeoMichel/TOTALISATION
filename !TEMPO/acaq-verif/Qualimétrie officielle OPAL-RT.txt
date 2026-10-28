@@ -1,0 +1,185 @@
+﻿Qualimétrie officielle OPAL-RT
+Note terminologique : cette page présente la qualimétrie officielle OPAL-RT : son intention, sa portée, sa lecture organisationnelle et son rôle dans le cycle de vie produit. Pour les définitions de référence des termes utilisés ici — qualimétrie, métrique, KPI, signal, indicateur, seuil, tendance, gouvernance, risque qualité, SDLC, ÉLICITER, DÉFINIR, PLANIFIER, IMPLÉMENTER, DIFFUSER, CONFIRMER, SENSE, FORGE, CARE et rôles —voir le Lexique / Terminologies.
+La qualimétrie est la démarche officielle dʼOPAL-RT pour observer, comprendre et améliorer la
+qualité réelle de ses produits à partir de faits mesurables, de signaux terrain et de décisions traçables. Elle ne remplace pas le jugement professionnel, la gouvernance produit ni le contrat qualité : elle les alimente avec une lecture commune, transparente et actionnable de lʼétat de santé du produit et du système qui produit la qualité.
+Cette page sert de présentation officielle de la qualimétrie chez OPAL-RT. Elle explique le
+pourquoi, la portée, les principes et la façon dʼinterpréter la qualimétrie au niveau organisationnel. Les définitions détaillées des KPI, formules, seuils, sources, outils et statuts dʼimplantation doivent être maintenues dans la page Les métriques de la qualimétrie.
+Distinction importante : cette page répond à « pourquoi et comment OPAL-RT utilise la qualimétrie ». La page Les métriques de la qualimétrie répond à « quelles métriques sont utilisées, comment elles sont calculées, où elles sont implantées et si elles sont utilisables
+».
+🎯 Intention
+Lʼintention de la qualimétrie est de donner à lʼorganisation une lecture honnête, partagée et
+régulière de la qualité. Elle permet de voir ce qui va bien, ce qui se dégrade, ce qui doit être amélioré et quelles actions ont réellement un effet.
+Rendre visibles les signaux de santé du produit.
+Créer une compréhension commune entre produit, développement, validation, support, opérations et direction.
+Appuyer les décisions Go / No-Go, les priorités produit et les arbitrages qualité.
+Transformer les bogues, incidents, retours utilisateurs et écarts en apprentissages utiles.
+Renforcer la confiance par la transparence plutôt que par lʼabsence artificielle de problèmes visibles.
+Un produit sans signaux visibles nʼest pas nécessairement un produit sain.
+Cʼest parfois seulement un produit mal observé. La qualimétrie rend les
+signaux visibles pour permettre à OPAL-RT dʼapprendre, dʼagir et de
+sʼaméliorer.
+🌐 Portée officielle
+La qualimétrie ne se limite pas au code, aux tests ou aux bogues. Elle couvre tout ce qui influence directement ou indirectement la qualité du produit.
+Domaine observé
+Exemples de signaux
+Produit
+Stabilité, adoption, valeur livrée, performance,
+satisfaction, retours utilisateurs.
+Validation et conformité
+Couverture des spécifications, résultats de tests, traçabilité, respect du contrat qualité, Go / No-Go documenté.
+Delivery
+Lead time, cycle time, cadence de livraison, échecs de déploiement, rollback, DORA.
+Support et CARE
+Incidents, MTTR, problèmes récurrents, impacts utilisateurs, signaux post-livraison.
+Code, architecture et dette
+Complexité, duplication, dette technique, maintenabilité, sécurité, dépendances.
+Gouvernance et catalyseurs
+Rôles, responsabilités, capacité, ressources, cadres Agile, processus, outils, décisions organisationnelles.
+En ce sens, la qualimétrie donne une lecture de lʼétat de santé du produit, mais aussi de lʼétat de santé du système qui produit la qualité.
+🧭 Positionnement dans le SDLC OPAL-RT
+La qualimétrie est transversale au SDLC officiel OPAL-RT. Elle observe les signaux provenant de toutes les phases et les retourne vers les bons mécanismes dʼanalyse, de clarification, de priorisation et dʼaction.
+Phase SDLC
+Contribution à la qualimétrie
+Retour attendu
+ÉLICITER
+Signaux bruts, besoins, problèmes, causes racines, irritants, opportunités.
+Clarifier les besoins, prioriser les améliorations, formuler les objectifs mesurables.
+DÉFINIR
+Spécifications testables,
+critères de qualité, risques, impacts et limites.
+Améliorer la qualité des
+spécifications et la traçabilité.
+PLANIFIER
+Capacité, dépendances,
+risques, jalons, objectifs de release.
+Ajuster les plans selon les
+risques qualité et la capacité réelle.
+IMPLÉMENTER
+Code, tests, CI/CD, revues,
+dette technique, conformité à la DoD.
+Corriger les écarts, renforcer
+lʼautomatisation et réduire la dette.
+DIFFUSER
+Build candidat, Go / No-Go,
+release notes, déploiement, rollback, supportabilité.
+Décider avec transparence et
+préparer CARE avec des preuves.
+CONFIRMER
+Observations terrain, adoption,
+incidents, feedback, métriques post-livraison.
+Retourner les signaux vers
+ÉLICITER pour analyse et amélioration continue.
+La qualimétrie agit donc comme une boucle de rétroaction organisationnelle : elle relie les faits
+observés aux décisions, puis les décisions aux actions et aux apprentissages.
+📊 Rôle des métriques et des KPI
+Les métriques ne sont pas une fin en soi. Elles servent à déclencher une discussion utile, à rendre un risque visible et à soutenir une décision. Un KPI de qualimétrie doit toujours répondre à une question de gestion de la qualité.
+Question directrice : quʼest-ce qui fait que lʼon pense que cela représente
+un risque pour la qualité ?
+Une métrique devient utile lorsquʼelle permet de comprendre un risque, de confirmer une
+amélioration, de comparer une tendance ou de décider dʼune action. Une métrique qui ne mène à aucune décision, aucune discussion ou aucune action nʼest pas encore un bon KPI officiel.
+Familles officielles dʼindicateurs
+Les familles de métriques détaillées sont maintenues dans la page Les métriques de la qualimétrie. Les grandes familles observées incluent notamment :
+STAB / STAB-S — stabilité produit et stabilisation en mode maintenance.
+QUAL / XRAY — qualité générale, tests, spécifications et validation.
+DEL / FLOW — delivery, cadence, flux, capacité et efficacité du SDLC.
+SUP / FB / UX / VAL — support, feedback, expérience utilisateur et valeur produit.
+CONF — conformité au contrat qualité, traçabilité et gouvernance de livraison.
+CODE / SEC / ENV / DEP / ARCH — code, sécurité, environnements, dépendances, architecture et dette technique.
+🧩 Sources et outils
+La qualimétrie nʼest pas liée à un outil unique. Grafana peut être utilisé comme board principal
+lorsque disponible, mais les indicateurs peuvent provenir de plusieurs sources et être présentés dans plusieurs outils.
+Type dʼoutil ou de source
+Usage possible
+Grafana / Prometheus / observabilité
+Stabilité, disponibilité, latence, erreurs, tendances opérationnelles.
+Jira / Jira Service Management
+Bugs, incidents, support, delivery, backlog,
+dette, actions et décisions.
+Xray
+Tests, couverture, traçabilité spécifications → validations → résultats.
+SonarQube / CI/CD / Git
+Qualité du code, couverture, complexité,
+duplication, dette, pipelines.
+Power BI / Excel contrôlé / rapports Confluence
+Visualisation, synthèse, données temporaires ou manuelles contrôlées.
+Feedback tools / enquêtes / télémétrie produit
+Satisfaction, adoption, usage réel, irritants et
+boucle de valeur.
+Lʼimportant nʼest pas lʼoutil, mais la confiance dans la définition, la source, la fréquence de mise à jour, le propriétaire et lʼusage décisionnel de chaque indicateur.
+⚖ Principes dʼinterprétation
+Les tendances comptent plus quʼun instantané. Une valeur isolée peut être trompeuse; une tendance donne un signal plus robuste.
+Un indicateur rouge est une invitation à comprendre, pas à blâmer. La qualimétrie doit
+protéger la transparence.
+Les seuils guident la discussion. Ils ne remplacent pas le contexte, le jugement
+professionnel ou la décision formelle.
+Les bogues sont des indicateurs. Les voir permet dʼapprendre; les cacher empêche lʼamélioration.
+Le système est responsable de la qualité. Les problèmes peuvent venir du code, mais aussi de la gouvernance, des ressources, des processus, des outils ou des priorités.
+Chaque métrique doit avoir un propriétaire. Sans ownership, un indicateur se dégrade rapidement ou devient décoratif.
+🏛 Lien avec le contrat qualité
+Le Contrat qualité officiel OPAL-RT définit les standards, exigences et règles de conformité
+applicables aux livraisons produit. La qualimétrie fournit les indicateurs permettant de suivre ces exigences et dʼappuyer les décisions de livraison.
+Contrat qualité
+Contribution de la qualimétrie
+Standards minimaux de livraison
+Mesure des seuils, validations, défauts critiques, couverture et documentation.
+Décision Go / No-Go
+Lecture factuelle des risques, tendances et
+écarts avant diffusion.
+Transparence envers les utilisateurs
+Suivi des limitations connues, incidents, release notes et retours terrain.
+Dérogations
+Visibilité sur les exceptions, leur fréquence, leur impact et leur retour à la conformité.
+Amélioration continue
+Transformation des écarts récurrents en
+signaux dʼélicitation, actions et décisions.
+🔁 Boucle de rétroaction
+La qualimétrie est un mécanisme de retour intégré. Les objectifs, actions et décisions relevés durant les revues de qualimétrie deviennent des signaux qui peuvent retourner vers ÉLICITER ou vers toute autre phase appropriée du SDLC.
+Signal observé
+Réaction attendue
+Objectif produit non atteint ou ambigu
+Retour vers ÉLICITER pour clarifier la valeur, le
+besoin, la mesure ou la priorité.
+Bug, incident ou régression récurrente
+RCA, action de prévention, ajout de validation, suivi dans le backlog ou plan de stabilisation.
+Écart de conformité au contrat qualité
+Décision de gouvernance, dérogation formelle
+ou retour à la conformité.
+Problème de capacité, ressource ou expertise
+Escalade comme risque qualité et arbitrage organisationnel.
+Cadre Agile, processus ou outil inefficace
+Traitement comme facteur de qualité et
+amélioration du système de travail.
+🎙 Cérémonie de qualimétrie
+La qualimétrie doit être communiquée régulièrement à lʼorganisation dans une rencontre officielle, transparente et mobilisatrice. Cette cérémonie permet de présenter lʼétat de santé, les bons coups, les difficultés, les actions prises et les apprentissages.
+La cérémonie recommandée est documentée dans la page Cérémonie de la qualimétrie. Elle
+peut être tenue mensuellement, avec une durée maximale dʼenviron une heure, et peut être écourtée lorsquʼil nʼy a pas de changement significatif.
+✅ Conditions de succès
+Les indicateurs sont compréhensibles par les personnes concernées.
+Les données ont une source claire et un propriétaire identifié.
+Les seuils et tendances sont interprétés avec contexte.
+Les problèmes sont nommés sans blâme.
+Les bons coups sont reconnus explicitement.
+Les décisions, actions et suivis sont traçables.
+Les signaux importants retournent vers les bonnes phases du SDLC.
+Les métriques détaillées sont maintenues dans le référentiel opérationnel, et non dupliquées
+dans cette page.
+⚠ Pièges à éviter
+Confondre la qualimétrie avec un simple dashboard.
+Utiliser les métriques pour blâmer une équipe ou justifier une décision déjà prise.
+Masquer les bogues, incidents ou écarts pour protéger une image.
+Multiplier les KPI sans savoir quelles décisions ils soutiennent.
+Traiter la qualité comme un sujet uniquement technique.
+Dupliquer dans cette page les formules détaillées, requêtes ou statuts dʼimplantation qui doivent vivre dans le référentiel des métriques.
+📚 Références
+Les métriques de la qualimétrie
+Executive Scorecard - Direction - Qualimétrie
+Cérémonie de la qualimétrie
+SDLC officiel OPAL-RT
+Contrat qualité officiel OPAL-RT
+RACI — Rôles et responsabilités
+Lexique / Terminologies
+SPÉCIFICATION
+Recommandations
+Les tests (niveau × interface × angle × type)
+Exemples concrets de combinaisons
+Formation continue

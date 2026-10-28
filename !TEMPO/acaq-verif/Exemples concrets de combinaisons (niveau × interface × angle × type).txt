@@ -1,0 +1,327 @@
+﻿Exemples concrets de combinaisons (niveau × interface × angle × type)
+Cette page est le compagnon pratique des pages de fondation sur les niveaux dʼintégration et les catégories de validation. Son objectif est de montrer, par lʼexemple, comment les axes se combinent concrètement.
+Important. Cette page nʼa pas pour but dʼêtre exhaustive dès le départ. Elle sert à rendre
+les concepts visibles, à éviter les ambiguïtés classiques et à aider les équipes à nommer précisément ce quʼelles valident.
+Note terminologique : cette page contient des exemples pratiques de combinaisons
+niveau × interface × angle × type. Les définitions de référence des termes utilisés sont maintenues dans le Lexique / Terminologies. Les exemples ci-dessous illustrent lʼusage opérationnel des termes, sans remplacer le lexique ni la page de fondation Les tests (niveau × interface × angle × type).
+Rappel des quatre axes
+Axe
+Valeurs
+Question
+Niveau dʼintégration
+Small (A), Medium (A→B),
+Large (A→B→A)
+Jusquʼoù assemble-t-on
+réellement ?
+Interface observée
+Utilisateur (UI), applicative (API/services), machine
+Par quelle frontière observe-t-on le système ?
+Angle dʼobservation
+Black-box, gray-box, white-
+box
+Que sait-on de lʼintérieur
+pendant la validation ?
+Type de validation
+Fonctionnel, performance, sécurité, résilience, contrat, intégrité, etc.
+Quelle propriété cherche-t-on à prouver ?
+Chaque exemple ci-dessous précise ces axes. Le but nʼest pas de mémoriser les tableaux, mais de développer le réflexe de dire : quel niveau, quelle interface, quel angle et quel type.
+Exemples simplifiés de lecture des niveaux
+Les exemples suivants reprennent les cas simples retirés de la page de fondation afin de garder celle-ci conceptuelle et de concentrer les illustrations concrètes ici.
+Situation
+Small
+Medium
+Large
+Authentification
+Valider la règle qui accepte ou refuse un mot de passe selon les critères attendus.
+Valider lʼéchange entre le formulaire, le service dʼauthentification et la gestion de session.
+Valider le parcours complet : connexion, redirection, session conservée, accès autorisé et déconnexion.
+Commande ou
+requête
+Valider une règle
+de calcul ou de transformation isolée.
+Valider lʼéchange
+entre le service qui reçoit la demande et le service qui la traite.
+Valider le flux
+complet depuis la demande jusquʼau résultat final observable.
+Navigateur / UI
+Valider un composant visuel isolé ou une règle dʼaffichage locale.
+Valider la navigation partielle entre deux vues ou lʼétat partagé entre composants.
+Valider un parcours utilisateur complet dans le navigateur.
+Exemple appliqué à une application web
+Dans une application web, les niveaux dʼintégration peuvent se situer à plusieurs endroits, y compris du côté utilisateur et navigateur. Lʼintégration ne se limite pas au backend.
+Zone
+Exemple de
+validation
+Niveau probable
+Observation
+possible
+Logique client
+Validation dʼune règle locale dans un composant dʼinterface.
+Small
+White-box ou gray-box.
+Session / cookies
+Validation de lʼintégration entre navigateur, session applicative et persistance dʼétat.
+Medium
+Gray-box ou black-box.
+Authentification
+complète
+Connexion,
+redirection, conservation de session, autorisation et navigation.
+Large
+Black-box ou
+gray-box.
+Résilience web
+Perte de réseau, expiration de session, reprise dʼaction, message dʼerreur.
+Medium ou large
+Gray-box ou black-box.
+Interface utilisateur (UI)
+Small × UI
+Type
+Angle
+Exemple concret
+Fonctionnel
+Black-box
+On rend un composant de
+formulaire isolé et on vérifie quʼun champ vide affiche un message de validation, sans inspecter son implémentation.
+Fonctionnel
+White-box
+Un composant reçoit une
+propriété status = "error" ; on vérifie dans le
+code quʼil rend la bonne classe CSS et le bon message.
+Accessibilité
+Black-box
+On vérifie quʼun bouton isolé possède un libellé accessible et quʼil est atteignable au clavier.
+Régression visuelle
+Black-box
+On capture lʼapparence dʼun
+composant isolé et on la compare à une référence visuelle.
+Medium × UI
+Type
+Angle
+Exemple concret
+Fonctionnel
+Black-box
+On navigue dʼun formulaire de
+création vers une page de confirmation et on vérifie que les données saisies apparaissent correctement.
+Contrat
+Gray-box
+On vérifie que le composant
+de liste appelle lʼAPI avec les bons paramètres de pagination et interprète correctement la réponse simulée.
+Résilience
+Black-box
+On simule un timeout API entre deux vues et on vérifie que lʼinterface affiche un message utile plutôt quʼun écran vide.
+Large × UI
+Type
+Angle
+Exemple concret
+Fonctionnel E2E
+Black-box
+Un utilisateur se connecte, crée un projet, lance une action et voit le résultat final.
+Le parcours complet est observé de lʼextérieur.
+Performance
+Gray-box
+On mesure le temps perçu par
+lʼutilisateur et on observe aussi les appels réseau intermédiaires pour diagnostiquer les goulots.
+Compatibilité
+Black-box
+On exécute le même parcours
+complet sur plusieurs navigateurs et on vérifie que le comportement reste cohérent.
+Interface applicative (API, services, logique métier)
+Small × Applicative
+Type
+Angle
+Exemple concret
+Fonctionnel
+White-box
+On appelle une fonction de calcul avec différentes entrées et on vérifie les sorties attendues, en connaissant le code.
+Validation dʼentrée
+Black-box
+On appelle un endpoint isolé avec une valeur invalide et on vérifie quʼil retourne une erreur claire et conforme.
+Idempotence
+Black-box
+On répète deux fois la même
+opération et on vérifie que lʼétat final reste identique, sans duplication ni effet secondaire inattendu.
+Medium × Applicative
+Type
+Angle
+Exemple concret
+Contrat
+Gray-box
+Le service A appelle le service B. On vérifie que la requête respecte le schéma attendu et que la réponse est interprétée correctement.
+Transaction
+Gray-box
+On provoque une erreur à mi-chemin entre un service et une base de données, puis on vérifie que le rollback laisse un état cohérent.
+Sécurité
+Black-box
+On appelle un endpoint
+protégé sans jeton, avec un jeton expiré et avec un rôle insuffisant, puis on vérifie les refus appropriés.
+Large × Applicative
+Type
+Angle
+Exemple concret
+Fonctionnel E2E
+Black-box
+Un appel API déclenche la
+chaîne complète : validation, orchestration, persistance, notification et résultat final observable.
+Intégrité des données
+Gray-box
+Après un lot dʼopérations complètes, on vérifie que les données restent cohérentes entre services, bases et événements.
+Observabilité
+Gray-box
+On vérifie quʼune requête traversant plusieurs services produit des traces, métriques et journaux corrélés.
+Interface machine (système, temps réel, matériel, drivers)
+Small × Machine
+Type
+Angle
+Exemple concret
+Fonctionnel
+White-box
+On vérifie quʼun driver
+convertit correctement une valeur brute en unité physique, en inspectant la logique de conversion.
+Déterminisme temporel
+White-box
+On mesure le temps dʼexécution dʼune fonction critique et on vérifie que le pire cas respecte la deadline.
+Limite
+Black-box
+On envoie une valeur hors
+plage à un module isolé et on vérifie quʼil sature ou rejette proprement au lieu de produire une valeur aberrante.
+Medium × Machine
+Type
+Angle
+Exemple concret
+Intégration
+Gray-box
+Un driver envoie des données
+à un module de traitement via un bus ; on vérifie que les données arrivent correctement et au bon format.
+Protocole
+White-box
+On inspecte les trames entre deux modules pour vérifier la séquence : handshake, échange, confirmation.
+Résilience
+Black-box
+On simule une perte de
+communication entre deux composants et on vérifie que
+le système passe dans un mode cohérent ou dégradé.
+Large × Machine
+Type
+Angle
+Exemple concret
+Simulation temps réel
+Gray-box
+On exécute une simulation
+complète avec matériel réel ou représentatif dans la boucle et on vérifie les résultats ainsi que les contraintes temporelles.
+Performance
+Gray-box
+On exécute un scénario complet sur une longue durée et on observe CPU, mémoire, I/O, stabilité du pas de temps et dérive éventuelle.
+Sûreté
+Black-box
+On simule une défaillance
+critique et on vérifie que le système atteint un état sûr sans dommage ni comportement dangereux.
+Exemple transversal : lancer une simulation depuis lʼUI
+Niveau
+Interface
+Angle
+Type
+Ce quʼon valide
+Small
+UI
+Black-box
+Fonctionnel
+Le bouton «
+Lancer » est actif seulement lorsquʼun modèle valide est chargé.
+Small
+Applicative
+White-box
+Règle métier
+La fonction qui
+détermine si un modèle peut être lancé retourne le
+bon résultat selon lʼétat du modèle.
+Medium
+UI → API
+Gray-box
+Contrat
+Le clic sur «
+Lancer » envoie la bonne requête et lʼAPI retourne le statut attendu.
+Medium
+API → Machine
+Gray-box
+Intégration
+LʼAPI transmet
+correctement les paramètres au moteur de simulation et reçoit une confirmation cohérente.
+Large
+UI → API →
+Machine → API → UI
+Black-box
+Fonctionnel E2E
+Lʼutilisateur lance
+la simulation, voit lʼétat progresser, obtient les résultats et peut interpréter la fin du scénario.
+Large
+UI → API → Machine → API → UI
+Gray-box
+Performance
+Le temps total entre le clic et les premiers résultats respecte la cible, avec diagnostic possible par étape.
+Doubles de test : mocks, stubs, simulateurs
+Le choix du montage change le niveau réel dʼintégration. Le niveau nʼest pas déterminé par
+lʼoutil utilisé, mais par ce qui est réellement assemblé.
+Ce quʼon fait
+Montage
+Niveau réel
+Pourquoi
+On appelle un service métier avec un stub de base de données.
+Stub
+Small
+Le service est isolé ; on ne valide pas lʼintégration avec la vraie base.
+On appelle un service
+métier avec une vraie base locale.
+Réel
+Medium
+On valide lʼinteraction
+service ↔ base de données.
+On teste une chaîne complète avec services et bases réels.
+Réel
+Large
+On valide le flux complet avec ses vraies dépendances.
+On teste un contrôleur
+temps réel avec un simulateur de plant.
+Simulateur
+Medium ou large selon
+le périmètre
+Le contrôleur est réel,
+mais le système physique est simulé ; il faut préciser la fidélité du simulateur.
+Anti-exemples : on pense que cʼest X, mais cʼest Y
+Ce quʼon dit
+Ce quʼon croit
+Ce que cʼest vraiment
+« Cʼest un test unitaire, il est
+dans JUnit. »
+Small
+Il peut être small, medium ou
+large selon les dépendances réelles incluses. Lʼoutil ne définit pas le niveau.
+« Cʼest un test E2E, il passe par lʼUI. »
+Large
+Il faut préciser les frontières du E2E. Si les dépendances derrière sont simulées, ce nʼest pas nécessairement large.
+« Cʼest un test dʼintégration, il est en pré-prod. »
+Medium
+Lʼenvironnement nʼest pas un niveau dʼintégration. Un test peut être small, medium ou large en pré-prod.
+« Cʼest un test de
+performance, donc cʼest large.
+Large
+La performance peut être
+validée en small, medium ou
+large selon le périmètre observé.
+« Cʼest black-box, donc cʼest
+large. »
+Large
+Black-box décrit lʼangle
+dʼobservation, pas le niveau dʼintégration.
+Comment utiliser ces exemples en équipe
+1. Planification. Pour chaque spécification, préciser le niveau, lʼinterface, lʼangle et le type de validation attendu.
+2. Revue de stratégie. Identifier les trous de couverture : trop de small applicatif, pas assez de medium machine, aucun large UI, etc.
+3. Désaccord de vocabulaire. Remplacer les débats sur « unitaire », « intégration » ou « E2E » par une description précise du périmètre réel.
+4. Architecture. Utiliser les combinaisons pour prévoir les contrats, mappings, mocks, stubs,
+simulateurs et environnements nécessaires.
+Références
+Les tests (niveau × interface × angle × type) — page de fondation conceptuelle.
+Lexique / Terminologies — définitions de référence des termes utilisés.
+(SDLC) Software Development Life Cycle (officiel)
+Contrat qualité Opal-RT
+Comment définir

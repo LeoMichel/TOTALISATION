@@ -1,0 +1,223 @@
+﻿Cérémonie de la qualimétrie
+La cérémonie de qualimétrie est une rencontre organisationnelle officielle qui permet de présenter, de façon transparente, lʼétat de santé du produit à toutes les personnes de lʼentreprise en lien avec celui-ci. Elle sert à faire un bilan régulier, à reconnaître les bons coups, à rendre visibles les difficultés, à suivre les actions prises et à nourrir une culture de confiance, de fierté et dʼamélioration continue. Elle agit aussi comme un retour intégré sur lʼensemble des phases du cycle produit : les objectifs, actions et décisions relevés durant la rencontre deviennent des métriques, des signaux ou des intrants qui retournent vers les phases appropriées pour être élicités, clarifiés, priorisés et suivis.
+Intention de la cérémonie
+Donner le portrait le plus honnête possible de la qualité réelle du produit, sans cacher les hauts ni les bas. Les bogues, incidents et écarts ne sont pas vus comme des échecs à dissimuler, mais comme des indicateurs utiles pour apprendre, sʼaméliorer et progresser ensemble.
+Portée élargie
+Cette rencontre ne mesure pas seulement la qualité du code ou du produit livré. Elle donne aussi de la visibilité sur tout ce qui influence directement ou indirectement la qualité : gouvernance, catalyseurs organisationnels, cadres Agile ou autres modes de fonctionnement, capacité des équipes, ressources, priorités, dette, support, processus, outils et décisions de gestion. En ce sens, elle permet de voir lʼétat de santé global du système qui produit la qualité.
+Note terminologique : cette page décrit la cérémonie de qualimétrie et son déroulement pratique. Pour les définitions de référence des termes utilisés ici — qualimétrie, métrique, signal, gouvernance, catalyseur, qualité produit, ÉLICITER, DÉFINIR, PLANIFIER, IMPLÉMENTER, DIFFUSER, CONFIRMER, CARE, SENSE, FORGE et rôles — consulter le Lexique / Terminologies. Les descriptions locales doivent être lues comme des règles dʼusage pour cette cérémonie, sans remplacer la terminologie officielle ni la matrice RACI.
+🎯 Objectif
+Partager un état de santé clair et commun du produit.
+Présenter les tendances visibles dans le board de qualimétrie.
+Donner une lecture globale de tout ce qui impacte la qualité du produit, directement ou indirectement : gouvernance, catalyseurs, cadres Agile, ressources, processus, outils et
+décisions organisationnelles.
+Faire remonter les objectifs, actions et décisions vers les bonnes phases afin quʼils soient
+élicités, clarifiés, priorisés, mesurés et suivis.
+Souligner les réussites, les apprentissages et les interventions efficaces.
+Rendre visibles les points à améliorer, sans blâme.
+Créer de la confiance par la transparence.
+Motiver les équipes en montrant les progrès réels, même lorsque le contexte est difficile.
+Fréquence et durée
+Cette cérémonie peut être tenue sur une base mensuelle, ce qui est le format recommandé pour une vue suffisamment stable et utile. Selon le contexte, une version plus légère peut aussi exister sur un rythme hebdomadaire pour certaines équipes, mais la cérémonie officielle organisationnelle devrait rester une rencontre mensuelle.
+La durée maximale est de 60 minutes. Si peu de changements significatifs sont observés
+durant la période, la rencontre peut être plus courte. Lʼobjectif nʼest pas de remplir une heure, mais de communiquer lʼessentiel avec clarté.
+Recommandation simple
+Prévoir un créneau récurrent de 30 à 60 minutes, une fois par mois, avec une règle claire : si les changements sont minimes, la rencontre est écourtée plutôt quʼallongée artificiellement.
+👥 Participants recommandés
+Rôle
+Responsabilité pendant la cérémonie
+Animateur / responsable qualimétrie
+Préparer les messages clés, animer la
+rencontre, garder le ton factuel et mobilisateur, puis assurer la traçabilité des suivis.
+Product Owner / Product Management
+Relier les signaux aux objectifs produit, à la valeur livrée, aux priorités et aux arbitrages à venir.
+QA / Validation / Xray
+Présenter les constats de qualité, de couverture, de tests, de conformité et de risques de validation.
+Développement / Architecture / DevOps
+Expliquer les tendances techniques importantes : stabilité, dette, CI/CD, environnements, architecture, sécurité et dépendances.
+Support / CARE
+Amener les signaux terrain : incidents, irritants
+récurrents, impacts utilisateurs, MTTR, adoption et feedback post-livraison.
+Agile / coordination / gouvernance
+Observer les impacts liés aux processus, cadres de travail, ressources, capacité, dépendances et décisions organisationnelles.
+Direction / parties prenantes concernées
+Recevoir une lecture transparente de la santé produit, soutenir les décisions et arbitrer les enjeux qui dépassent une seule équipe.
+📥 Inputs / Prérequis
+Avant la rencontre, les animateurs devraient rassembler les informations nécessaires pour éviter une discussion basée uniquement sur des impressions.
+Le board Grafana de qualimétrie à jour.
+Les tendances importantes de la période : améliorations, dégradations, stabilité, incidents,
+support et adoption.
+Les bons coups à souligner et les apprentissages importants.
+Les actions, interventions et décisions prises depuis la dernière rencontre.
+Les signaux provenant des phases ÉLICITER, DÉFINIR, PLANIFIER, IMPLÉMENTER, DIFFUSER et CONFIRMER.
+Les enjeux de gouvernance, ressources, processus, outils, cadres Agile ou dépendances qui influencent la qualité.
+📤 Outputs / Livrables attendus
+À la fin de la cérémonie, lʼorganisation devrait repartir avec une lecture commune et traçable de
+lʼétat de santé du produit et du système qui le produit.
+Un état de santé clair du produit et de ses tendances principales.
+Les constats importants : bons coups, risques, écarts, incidents, irritants et améliorations
+visibles.
+Les objectifs, actions et décisions à suivre.
+Les métriques ou signaux à retourner vers ÉLICITER pour clarification, analyse, priorisation
+ou nouvelle décision.
+Les sujets à rediriger vers les bons forums : gouvernance, équipe, architecture, support,
+amélioration continue ou direction.
+Une trace des messages clés communiqués à lʼorganisation.
+Support principal
+Le support principal de la rencontre est le board Grafana officiel de qualimétrie :
+https://grafana.opal-rt.com/d/fbb1eebc-eca1-41ce-8697-667f9a3b7ab8/executive-scorecard? orgId=1&amp;from=now-90d&amp;to=now&amp;timezone=browser
+Ce board sert de base factuelle à la discussion. Il permet dʼancrer la rencontre sur des signaux
+réels, des tendances et des observations concrètes plutôt que sur des impressions isolées.
+🔄 Déroulement suggéré
+Étape
+Durée indicative
+Contenu attendu
+1. Bonjour et mise en
+contexte
+5 min
+Accueillir les participants, rappeler le but de la
+rencontre, le ton attendu et la volonté de transparence. Confirmer que lʼobjectif est dʼapprendre et dʼaméliorer, non de blâmer.
+2. Présentation du
+board
+10 à 15 min
+Présenter le dashboard Grafana, les tendances
+principales, les indicateurs de santé, les variations notables et les points qui méritent lʼattention.
+3. Les bons coups
+5 à 10 min
+Mettre en valeur les améliorations observées, les
+correctifs efficaces, les bonnes décisions, la stabilité gagnée, les apprentissages utiles et les efforts qui ont porté fruit.
+4. Ce qui a moins bien été
+10 à 15 min
+Présenter avec honnêteté les incidents, bogues, régressions, ralentissements, hausses de support ou autres écarts importants. Expliquer les faits de manière simple et objective.
+5. Rétro et bilan
+10 min
+Faire un court retour sur ce que la période nous apprend : tendances, causes probables, zones de risque, signaux à surveiller et constats partagés.
+6. Actions et interventions
+10 min
+Présenter les mesures prises, les décisions déjà appliquées, les ajustements en cours et les actions prioritaires qui découlent de la période observée.
+7. Clôture
+5 min
+Résumer les messages clés, remercier les équipes, rappeler les priorités à suivre et terminer sur une note de confiance et de mobilisation.
+Script dʼouverture suggéré
+Bonjour à toutes et à tous, merci dʼêtre présents à cette rencontre de
+qualimétrie. Lʼobjectif aujourdʼhui est de partager un portrait clair, transparent
+et utile de lʼétat de santé de notre produit. Nous allons regarder ensemble les
+indicateurs, reconnaître ce qui va bien, nommer ce qui doit être amélioré et
+faire le point sur les actions prises. Cette rencontre nʼest pas là pour chercher
+des coupables, mais pour apprendre, bâtir la confiance et progresser
+ensemble.
+Principes de la cérémonie
+Transparence : on montre la réalité telle quʼelle est.
+Respect : on parle des problèmes sans attaquer les personnes.
+Fierté professionnelle : on peut être fiers de voir nos bogues, parce quʼils révèlent notre capacité à mesurer, comprendre et agir.
+Amélioration continue : chaque signal utile peut devenir une occasion de progresser.
+Simplicité : on priorise les messages qui aident réellement à comprendre et à agir.
+Message culturel important
+Être transparent sur les bogues et les incidents ne diminue pas la crédibilité de lʼorganisation. Au contraire, cela démontre de la maturité, de lʼhonnêteté et une vraie maîtrise de la qualité. Un produit sans signaux visibles nʼest pas forcément un produit sain; cʼest parfois seulement un produit mal observé.
+Ce quʼon présente dans le board
+Lʼétat de santé global et sa tendance récente.
+Les métriques qui se sont améliorées.
+Les métriques qui se sont dégradées.
+Les incidents marquants ou récurrents.
+Les gains de stabilité, de qualité, de delivery ou de support.
+Les zones de risque ou de vigilance.
+Les interventions déjà réalisées et leur effet observé.
+Rôle de rétroaction dans les phases
+La cérémonie de qualimétrie agit comme un mécanisme de rétroaction transversal. Elle rassemble les signaux provenant de toutes les phases et les redistribue vers les bons endroits pour alimenter lʼélicitation, lʼanalyse, la priorisation, lʼexécution et la gouvernance.
+Les objectifs observés ou ajustés deviennent des éléments à clarifier et à mesurer.
+Les actions décidées deviennent des suivis concrets dans les équipes ou les cérémonies
+appropriées.
+Les décisions prises deviennent des repères de gouvernance et doivent rester traçables.
+Les métriques qui révèlent un enjeu deviennent des intrants pour comprendre les causes,
+revoir les priorités ou ajuster les pratiques.
+Les signaux liés aux ressources, aux cadres de travail, aux processus ou aux outils sont
+traités comme des facteurs de qualité à part entière.
+🔁 Boucles de rétroaction
+La qualimétrie est la cérémonie méta du SDLC : elle nʼappartient pas à une seule phase. Elle observe lʼensemble du cycle, capte les signaux transversaux et les retourne vers les bons mécanismes dʼapprentissage, de décision et dʼaction.
+Signal observé
+Réaction attendue
+Ce quʼon évite
+Objectif produit non atteint ou ambigu
+Retourner vers ÉLICITER pour clarifier la valeur, le besoin, la mesure ou la priorité.
+Continuer à livrer sans comprendre lʼécart entre intention et réalité.
+Incident, bug ou régression
+récurrente
+Créer ou alimenter un signal
+dʼélicitation, un RCA, une
+Traiter chaque occurrence
+comme un cas isolé sans apprentissage systémique.
+action de prévention, une alerte ou un plan de réaction.
+Décision organisationnelle qui
+impacte la qualité
+Rendre la décision traçable et
+la rediriger vers le forum de gouvernance approprié.
+Laisser une décision invisible
+influencer la qualité sans responsabilité claire.
+Cadre Agile, processus ou
+rituel inefficace
+Le traiter comme un facteur
+de qualité et déclencher une amélioration de fonctionnement.
+Réduire la qualité uniquement
+au code ou aux tests.
+Manque de ressources, capacité ou expertise
+Escalader le signal comme risque qualité, arbitrer la capacité et ajuster les attentes.
+Faire porter le problème uniquement aux équipes dʼexécution.
+🎙 Règles dʼanimation
+Rester factuel et éviter les débats trop détaillés pendant la rencontre.
+Ne pas transformer la cérémonie en revue technique profonde ou en postmortem complet.
+Limiter la discussion aux signaux, aux constats, aux apprentissages et aux actions visibles.
+Rediriger les analyses détaillées vers les bons forums de travail lorsque nécessaire.
+Conserver un ton mobilisateur, calme et professionnel.
+✅ Conditions de succès
+Le board doit être à jour avant la rencontre.
+Les indicateurs présentés doivent être compris par le public visé.
+Les faits marquants doivent être préparés dʼavance.
+Les bons coups doivent être nommés explicitement.
+Les points difficiles doivent être présentés avec honnêteté et recul.
+Les actions en cours doivent être concrètes et crédibles.
+⚠ Pièges à éviter
+Utiliser la rencontre pour justifier ou défendre une équipe.
+Masquer les problèmes pour protéger une image.
+Entrer trop profondément dans les détails techniques.
+Faire une rencontre trop longue lorsque peu de choses ont changé.
+Sortir de la rencontre sans message clair ni suites visibles.
+Attention
+Si la cérémonie devient un espace de justification, de blâme ou de débat technique trop poussé, elle perd rapidement sa valeur. Elle doit rester un rendez-vous de visibilité, de bilan, de rétro et dʼalignement.
+Format recommandé pour que la cérémonie soit un succès à tout coup
+Préparer le board et valider les données avant la rencontre
+Identifier 3 à 5 messages clés maximum
+Prévoir au moins un bon coup à souligner
+Nommer clairement les enjeux à améliorer
+Présenter les actions ou interventions déjà prises
+Terminer avec une conclusion courte, claire et motivante
+Suggestion de conclusion
+Merci à tout le monde. Ce portrait nous aide à voir la réalité avec lucidité. Il
+nous permet aussi de reconnaître le travail accompli, dʼassumer ce qui doit
+être amélioré et de continuer à bâtir un produit plus stable, plus fiable et plus
+satisfaisant. Nos indicateurs, même lorsquʼils révèlent des bogues ou des
+difficultés, sont une force : ils nous donnent la capacité dʼapprendre et dʼagir.
+📝 Historique et traces des sessions
+La page de la cérémonie décrit le fonctionnement officiel de la rencontre. Les traces des rencontres réelles peuvent être conservées comme pages enfants sous cette page afin de garder un historique clair sans alourdir le déroulement standard.
+Chaque session mensuelle peut contenir les notes, captures du board, décisions, actions,
+signaux retournés vers ÉLICITER et messages clés communiqués à lʼorganisation.
+Gabarit recommandé pour une page enfant
+Date et période couverte
+Participants et rôles présents
+Messages clés à retenir
+Captures ou liens vers les dashboards utilisés
+Bons coups et améliorations observées
+Enjeux, risques, incidents ou dégradations importantes
+Actions, décisions et propriétaires
+Signaux retournés vers ÉLICITER ou vers les autres phases du SDLC
+Suivis à revoir à la prochaine cérémonie
+Références
+Executive Scorecard - Direction - Qualimétrie
+Qualimétrie officiel OPAL-RT
+La qualimétrie avec GRAFANA
+SDLC officiel
+Comment éliciter
+Cérémonie dʼélicitation
+Cérémonie de diffusion
+Cérémonie de confirmation
+Contrat qualité Opal-RT
+RACI — Rôles et responsabilités
+Lexique / Terminologies
