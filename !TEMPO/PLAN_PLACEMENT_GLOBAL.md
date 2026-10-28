@@ -130,6 +130,48 @@
 
 ---
 
+# D. BIS — LA RÈGLE DES LIVRES COULEUR : PRATIQUE SEULEMENT
+
+**Les livres guidances sont des carnets d'exercices — pas des livres de théorie.**
+
+Ce qui VA dans un livre couleur :
+- Un gabarit à remplir (avec un exemple rempli à côté)
+- Une checklist à suivre pas à pas
+- Un protocole d'animation avec les minutes
+- Un seuil chiffré avec la marge
+- Un exercice à faire en équipe (avec la durée)
+- Un script de conversation mot à mot
+- Une grille de décision concrète
+- Un cas réel avec les chiffres
+- Une fiche-outil d'une page
+
+Ce qui N'VA PAS dans un livre couleur :
+- Une théorie du pourquoi
+- Une définition conceptuelle
+- Un modèle mental à comprendre
+- Une taxonomie à mémoriser
+- Une philosophie à discuter
+- Un cadre de référence à appréhender
+- Une histoire sans action concrète
+- Une anecdote sans leçon appliquée
+
+**Résultat pour l'exploitation d'ideas/ :**
+- ACAQ Théorie du cycle complet (646 Ko) → il reste dans le livre 1 ou le livre 2, PAS dans les guidances
+- ACAQ RACI → seulement le tableau concret (qui fait quoi), pas la théorie des rôles
+- ACAQ Tests → seulement les gabarits de tests à remplir, pas la taxonomie des types
+- L10-L13 → seulement les exercices, les gabarits et les checklists — pas les chapitres de théorie
+- Petal → seulement les gabarits de documentation vivante — pas la philosophie de la culture libre
+- L17 → seulement les gabarits, les protocoles, les exercices — pas les chapitres d'analyse
+
+**Ce qui reste exploitable APRÈS cette correction :**
+La matière authentique à extraire est celle qui donne au lecteur quelque chose à FAIRE. Elle est principalement dans :
+1. ACAQ — les checklists, les gabarits, les seuils, les procédures d'animation
+2. Vécu — les anecdotes avec leçon appliquée (pas la philosophie)
+3. L17 — les gabarits et les exercices (le chapitre 2-4 a beaucoup de matière pratique)
+4. L13 — les gabarits et les procédures d'automatisation utile
+
+---
+
 # D. L'ORDRE DE TRAVAIL RECOMMANDÉ (pour finir les 7 à 45k+)
 
 L'ordre suit deux principes :
