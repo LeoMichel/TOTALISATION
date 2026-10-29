@@ -3697,3 +3697,191 @@ C'est le signe du passage.
 
 *Fin du gabarit de la lettre annuelle.*
 
+
+
+---
+
+# Atelier complémentaire : le système de mesures de la qualification croisée
+
+*Cet atelier transpose la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT au niveau 6 : la grille croisée devient un tableau de bord — chaque colonne produit une métrique, chaque croisement une décision.*
+
+## Les quatre métriques de la grille
+
+Au niveau 6, vous ne mesurez plus des frontières une par une : vous mesurez **le système de qualification entier**. Quatre métriques, une par colonne de la grille, collectées chaque trimestre lors des campagnes d'audit :
+
+| Colonne | Métrique | Définition opérationnelle | Cible |
+|---|---|---|---|
+| INTERFACE | **Taux de cartographie** | % de frontières avec carte à jour (< 1 trimestre) | ≥ 90 % |
+| TYPE | **Taux de combinaison** | % de frontières avec combinaison complète (3 cases) | ≥ 75 % |
+| ANGLE | **Taux d'adversité** | % d'angles écrits par le voisin (pas l'équipe propriétaire) | ≥ 60 % |
+| PREUVE | **Fraîcheur d'exécution** | % de tests déclarés avec exécution < 90 jours | ≥ 85 % |
+
+**Règle de collecte :** aucune métrique auto-déclarée. Les quatre taux proviennent uniquement des audits d'échantillonnage — c'est ce qui les rend invérifiables en bien et fiables en mal.
+
+## Exercice M1 : la première collecte de baseline (90 min)
+
+1. Prenez les résultats de la dernière campagne d'audit d'échantillonnage.
+2. Calculez les quatre taux pour la première fois. Ne comparez à rien : c'est votre **baseline**.
+3. Publiez la baseline avec la méthode de calcul à côté — une métrique sans méthode publiée sera recalculée différemment par chaque équipe et perdra toute force.
+
+**Gabarit — Fiche de baseline :**
+
+```
+Trimestre de baseline : ____________  Audits inclus : ____
+Taux de cartographie : ____ %   Taux de combinaison : ____ %
+Taux d'adversité : ____ %       Fraîcheur d'exécution : ____ %
+Méthode publiée le : ____  Par : ____
+```
+
+## Exercice M2 : la matrice de décision des quatre taux (2 h)
+
+Les taux ne servent à rien individuellement ; ils servent en **croisement**. Remplissez cette matrice de décision avec vos données :
+
+| Configuration | Diagnostic | Décision type |
+|---|---|---|
+| Cartographie haute + combinaison basse | On voit les frontières mais on ne les équipe pas | Prioriser les ateliers de plan de qualification, pas plus de cartographie |
+| Combinaison haute + adversité basse | La qualification est auto-complaisante | Imposer l'écriture d'angles par les voisins (protocole du niveau 3) |
+| Adversité haute + fraîcheur basse | On écrit les bons tests, on ne les rejoue pas | Investir dans l'automatisation de rejeu, pas dans de nouveaux tests |
+| Tout haut + incidents en hausse | La mesure ment — revoir la méthode de collecte | Audit de la méthode elle-même avant tout plan d'action |
+
+**L'exercice :** placez votre organisation dans la matrice, chiffrez le coût du dernier incident, et écrivez la décision type correspondante avec un nom et une date.
+
+## Exercice M3 : la cérémonie trimestrielle des quatre taux (60 min, à répéter)
+
+**Protocole (45 min chrono) :**
+1. **Publication (5 min)** : les quatre taux avec tendance vs trimestre précédent.
+2. **Un fait, pas un discours (10 min)** : pour chaque taux en baisse, le chiffre brut et le périmètre le plus déviant — sans commentaire justificatif.
+3. **Une décision par taux déviant (20 min)** : décision type de la matrice M2, nommée, datée, avec un seul responsable.
+4. **Vérification du trimestre passé (10 min)** : les décisions du trimestre précédent ont-elles bougé le taux ? Une décision qui ne bouge pas son taux deux trimestres de suite est remplacée, pas réexpliquée.
+
+**Le garde-fou :** la cérémonie ne dure jamais plus d'une heure. Si elle dure, c'est qu'on y débat — le débat appartient aux ateliers, pas à la mesure.
+
+## Exercice M4 : le test d'honnêteté de votre tableau de bord (60 min)
+
+Avant d'exposer vos quatre taux à un sponsor, passez le test :
+
+1. **Le test de la source** : chaque taux provient-il d'un audit, pas d'une auto-déclaration ? (Sinon, retirez-le du tableau plutôt que de l'exposer faux.)
+2. **Le test de la méthode** : la méthode de calcul est-elle publiée et stable ?
+3. **Le test de la conséquence** : chaque seuil a-t-il une conséquence mécanique annoncée à l'avance ?
+4. **Le test du pilote** : pouvez-vous nommer une décision prise ce trimestre à cause d'un taux ? Un tableau de bord qui n'a jamais causé de décision est de la décoration.
+
+**4/4 :** votre tableau de bord est opérationnel. **Moins de 3/4 :** le vrai problème n'est pas la mesure, c'est ce qu'on ose en faire — reprenez l'exercice M2 avant le prochain comité.
+
+
+---
+
+# Atelier complémentaire : la gouvernance des données de qualification (niveau 6)
+
+*Cet atelier approfondit la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT : les quatre taux deviennent un actif de données gouverné — collecté, purgé, archivé, défendu.*
+
+## Les quatre taux sont un actif, pas un rapport
+
+Au niveau 6, les taux de cartographie, de combinaison, d'adversité et de fraîcheur s'accumulent trimestre après trimestre. Cette série temporelle vaut plus que chaque instantané : c'est elle qui permet de voir si une décision a fonctionné, si une pratique résiste aux réorganisations, si la culture tient après les départs. Un actif de données se gouverne — sinon il pourrit.
+
+## Les quatre règles de gouvernance des données
+
+**Règle 1 — L'immutabilité du passé.** Une fois publié, un taux trimestriel ne se recalcule jamais, même si la méthode s'améliore. La nouvelle méthode s'applique à partir du prochain trimestre, avec une ligne de concordance expliquant le saut éventuel. Réécrire le passé détruit la confiance dans toute la série.
+
+**Règle 2 — La traçabilité jusqu'à l'audit.** Chaque taux publié renvoie aux procès-verbaux d'audit qui l'alimentent. Chemin obligatoire : taux → trimestre → liste des audits → PV individuels. Si ce chemin est cassé quelque part, le taux correspondant est marqué « non vérifiable » dans la publication.
+
+**Règle 3 — La purge annoncée.** Les PV d'audit détaillés se conservent 8 trimestres, puis ne restent que les taux agrégés. La purge est annoncée à l'avance et mécanique — elle protège les équipes (les constats d'hier ne poursuivent pas celles d'aujourd'hui) et allège la collecte.
+
+**Règle 4 — L'accès par défaut.** Les quatre taux, leur méthode, la matrice de décision et les PV dans leur fenêtre de rétention sont lisibles par toute l'organisation. Les données de qualification ne sont pas un instrument de notation individuelle — le jour où elles le deviennent, les équipes arrêtent de dire la vérité et la série meurt.
+
+## Exercice G1 : l'audit de votre actif de données (90 min)
+
+1. Listez où vivent aujourd'hui vos données de qualification (tableurs, outils, têtes de personnes).
+2. Pour chaque lieu, testez les quatre règles : immuable ? traçable ? purgé ? accessible ?
+3. Chaque règle échouée devient un chantier nommé, daté, avec un responsable unique.
+4. Priorisez la règle 2 (traçabilité) : sans elle, les trois autres sont indéfendables.
+
+## Exercice G2 : la série temporelle narrative (2 h, une fois par an)
+
+Une fois par an, transformez la série des quatre taux en un récit d'une page, pour les nouveaux arrivants et les décideurs :
+
+1. Tracez les quatre taux sur quatre trimestres minimum.
+2. Annotez chaque point d'inflexion avec la décision qui l'a causé (réorganisation, campagne d'ateliers, changement de méthode).
+3. Écrivez le paragraphe honnête : « voici ce qui a marché, voici ce qui a échoué, voici ce qu'on ne sait pas encore. »
+
+**Gabarit — Page annuelle :**
+
+```
+Année : ______  Taux finaux : C ___ % · K ___ % · A ___ % · F ___ %
+Inflexions majeures : ____________ (T__) · ____________ (T__)
+Ce qui a marché : ____________________
+Ce qui a échoué : ____________________
+Ce qu'on ne sait pas : ____________________
+```
+
+## Exercice G3 : le test de l'agent de remplacement (60 min)
+
+Demandez à un collègue qui ne gère pas les données : « Calcule le taux d'adversité du trimestre dernier, à partir des documents publics, sans m'appeler. » Chronométrez.
+
+- **< 30 minutes :** votre gouvernance est réelle — la méthode publiée suffit.
+- **30-90 minutes :** gouvernance correcte mais fatiguée — la trace s'est diluée, consolidez.
+- **> 90 minutes ou échec :** vos données dépendent de votre mémoire. C'est exactement la dette de legs que le niveau 7 traite — mieux vaut la découvrir ici que dans l'audit de disparition.
+
+## Le lien avec le niveau 7
+
+Tout cet actif — taux, PV, séries, récits annuels — est ce que le praticien N7 finira par léguer. La gouvernance exercée ici est ce qui rendra le legs possible : on ne transmet bien que ce qui est traçable, purgé et accessible sans soi.
+
+
+---
+
+# Fiche de clôture du carnet INDIGO : mes données parlent-elles sans moi ?
+
+*Dernière page du carnet, inspirée de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT : l'auto-évaluation finale par les preuves.*
+
+## Votre checklist de sortie du niveau INDIGO
+
+- [ ] Les quatre taux sont publiés chaque trimestre, avec tendance, depuis au moins trois trimestres.
+- [ ] Chaque taux renvoie aux PV d'audit qui l'alimentent — chemin de traçabilité testé.
+- [ ] La matrice de décision a causé au moins une décision nommée, datée, tenue par un responsable unique.
+- [ ] Les décisions du trimestre précédent ont été vérifiées : celle qui ne bougeait pas son taux a été remplacée, pas réexpliquée.
+- [ ] Les quatre règles de gouvernance des données sont appliquées : immutabilité, traçabilité, purge annoncée, accès par défaut.
+- [ ] Le test de l'agent de remplacement est passé en moins de 30 minutes par un collègue non gestionnaire.
+- [ ] La série temporelle narrative annuelle existe, avec son paragraphe honnête (« ce qu'on ne sait pas »).
+
+## Le gabarit de la page finale
+
+```
+Mes trimestres au niveau INDIGO :
+Baseline → dernier trimestre : C ___→___ % · K ___→___ % · A ___→___ % · F ___→___ %
+La décision qui a le plus bougé un taux : ____________________
+La décision remplacée pour inutilité : ____________________
+Ce que la série a révélé contre mon intuition : ____________________
+Question que j'emporte au niveau VIOLET : ____________________
+```
+
+**Le critère de passage :** le niveau VIOLET lègue le système. On n'y entre pas tant que les données dépendent d'une mémoire — on ne lègue bien que ce qui se lit, se trace et se vérifie sans soi.
+
+
+---
+
+# Annexe de terrain INDIGO : les cinq pannes du tableau des quatre taux et leurs remèdes
+
+*Issues de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT.*
+
+## Panne 1 — Les taux montent, la méthode change en silence
+**Symptôme :** un trimestre « exceptionnel » de +15 points — personne ne sait pourquoi, la méthode a changé discrètement.
+**Remède :** la règle d'immutabilité du passé : chaque publication liste la version de méthode utilisée. Un changement de méthode s'annonce un trimestre à l'avance et produit une ligne de concordance. Un saut inexpliqué est traité comme un défaut de données, pas une victoire.
+
+## Panne 2 — La cérémonie des taux devient une revue de projet
+**Symptôme :** l'heure s'étire, on discute les retards de livraison, les taux ne sont que l'ordre du jour n° 1.
+**Remède :** séparer physiquement : la cérémonie des taux dure 45 minutes et se tient debout ; la revue de projet a son propre créneau. Le mélange des deux formats tue les deux — les décisions de taux exigent le chiffre brut, pas le récit.
+
+## Panne 3 — Les décisions ne bougent pas les taux
+**Symptôme :** trois trimestres de décisions, courbes plates.
+**Remède :** soit les décisions étaient décoratives, soit les taux mesurent mal. Test en deux temps : prendre la décision la plus récente, nommer LE taux qu'elle devait bouger et l'ampleur attendue. Sans amplitude attendue, la décision n'était pas une décision. Avec amplitude attendue et taux plat, c'est le taux qu'il faut réparer.
+
+## Panne 4 — Les équipes optimisent le taux, pas la pratique
+**Symptôme :** le taux d'adversité bondit — parce que des équipes rédigent des angles symboliques pour le compteur.
+**Remède :** contre-mesure de fond : le jury de l'exercice de formation (BLEU) lit les angles eux-mêmes une fois par trimestre et classe : réel / symbolique. Le taux réel remplace le taux brut dans la publication. Un taux trompé doit rester trompé le moins longtemps possible — sinon il devient la vérité officielle.
+
+## Panne 5 — La purge n'a jamais lieu
+**Symptôme :** les PV s'accumulent, personne n'ose jeter, la collecte ralentit.
+**Remède :** rendre la purge mécanique et publique : chaque 1er jour de trimestre, les PV de plus de 8 trimestres partent en archive froide, et le journal de purge est publié. La purge qui dépend du courage d'une personne ne se fait jamais ; celle qui dépend du calendrier se fait toujours.
+
+## La règle du dépannage
+
+Le système de mesures tient sur une seule propriété : **les chiffres sont plus têtus que les personnes**. Toutes les pannes ci-dessus sont des tentatives humaines d'arrondir les chiffres. Quand une panne revient, ne pas durcir le discours — durcir la mécanique (publication automatique, purge calendaire, contre-lecture des angles).

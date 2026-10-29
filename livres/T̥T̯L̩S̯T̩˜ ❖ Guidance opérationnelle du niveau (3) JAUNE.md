@@ -3275,3 +3275,211 @@ de prévention exige un binôme.
 
 **Le test de la relève.** Montrez-moi les relèves nommées de votre circuit. Si chaque étape a une relève, votre circuit survit aux congés. Sinon, il survit aux bonnes semaines — et c'est le comportement des systèmes qui fonctionnent en temps calme et échouent en temps réel.
 
+
+
+---
+
+# Atelier complémentaire : le plan de qualification du niveau 3
+
+*Cet atelier exploite la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT : la grille de qualification croisée appliquée aux frontières du niveau 3.*
+
+## La grille de qualification croisée appliquée aux frontières
+
+Au niveau 2, on a vu la grille croisée (niveau × interface × angle × type). Au niveau 3, elle devient un **plan de qualification de frontière** : chaque frontière inter-équipes reçoit une combinaison explicite de tests, choisie AVANT l'intégration, pas après le premier incident.
+
+**Gabarit — Plan de qualification de frontière :**
+
+```
+FRONTIÈRE : ____________________  (équipe A ↔ équipe B)
+Contrat de frontière : lien vers la fiche ______
+
+Combinaison retenue (cocher et justifier) :
+[ ] Test d'INTERFACE — contrat : ____________________
+[ ] Test d'ANGLE — scénario adverse : ____________________
+[ ] Test de TYPE — classe de défaut ciblée : ____________________
+
+Qui écrit le test : __________  Qui l'approuve : __________
+Quand il doit exister (semaine) : ______
+Coût si absent (estimation honnête) : ____________________
+```
+
+**Règle des trois cases :** une frontière sans au moins trois cases cochées (une par colonne) n'est pas prête à intégrer. C'est le critère du Go/No-Go du comité de frontière.
+
+## Exercice Q1 : la revue de couverture de frontières (90 min)
+
+1. Listez toutes les frontières actives de votre périmètre (l'exercice F1 du carnet en donne la carte).
+2. Pour chaque frontière, retrouvez la combinaison de tests réellement en place.
+3. Marquez chaque frontière : **COUVERTE** (3 cases), **PARTIELLE** (1-2 cases), **NUDE** (0 case).
+4. Pour chaque frontière NUDE, chiffrez le coût du pire incident plausible des 12 derniers mois (heures × tarif).
+5. Ordonnez les NUDE par coût décroissant : c'est votre file de travail de qualification pour les 4 prochaines semaines.
+
+**Seuil de sortie d'atelier :** aucune frontière NUDE sans une fiche de plan de qualification datée et nommée.
+
+## Exercice Q2 : le test d'angle écrit par l'équipe adverse (2 h)
+
+Le test d'angle au niveau 3 a une particularité : c'est **l'équipe voisine qui l'écrit**, pas l'équipe propriétaire.
+
+Protocole :
+1. L'équipe A prépare un exposé de 10 minutes sur ce que sa frontière garantit.
+2. L'équipe B écrit trois questions d'angle : « et si on fait exactement l'inverse de ce que vous supposez ? »
+3. Chaque question d'angle devient un test automatisable ou un cas de recette manuel — au choix de B, mais tracé.
+4. Les tests d'angle sont ajoutés au plan de qualification de la frontière, signés par B.
+
+**Ce que ça change :** le test d'angle n'est plus une formalité interne, c'est un droit de regard contractuel de l'équipe voisine. Une équipe qui refuse d'écrire les angles d'une voisine signale une frontière non asumée.
+
+## Exercice Q3 : la matrice de régression de frontières (2 × 90 min)
+
+Quand une équipe modifie son côté de la frontière, que re-teste-t-on ? Sans matrice de régression, la réponse est « tout » (trop cher, jamais fait) ou « rien » (le pire).
+
+**Gabarit — Matrice de régression :**
+
+| Si l'équipe modifie… | Tests d'interface à rejouer | Tests d'angle à rejouer | Qui décide du rejeu |
+|---|---|---|---|
+| Son contrat public | Tous | Comité de frontière |
+| Son implémentation interne | Échantillon de fumée | Aucun | Propriétaire de frontière |
+| Ses données de configuration | Tests liés aux données | Tests d'angle sur données | Propriétaire + voisin |
+
+**Exercice :** remplissez la matrice pour vos trois frontières les plus coûteuses. Faites-la signer par les deux équipes de chaque frontière. Une matrice unsigned est une matrice qui ne sera pas suivie.
+
+## Exercice Q4 : le contre-audit du plan de qualification (60 min)
+
+Une fois par trimestre, une équipe externe au périmètre audite le plan de qualification :
+
+1. Piochez 5 frontières au hasard dans la matrice.
+2. Pour chaque test déclaré « en place », demandez : montrez-moi la dernière exécution (horodatée).
+3. Un test sans exécution tracée depuis 90 jours est reclassé NUDE — peu importe ce que dit le plan.
+
+**Le principe :** au niveau 3, la conformité documentaire ne vaut rien sans preuve d'exécution. Le contre-audit transforme le plan de qualification d'un document en un système vivant — et prépare le réflexe de qualimétrie que le niveau 4 institutionnalisera.
+
+## La grille d'auto-évaluation du plan de qualification
+
+| Critère | 0 point | 1 point | 2 points |
+|---|---|---|---|
+| Couverture | Frontières NUDE non listées | Listées, non planifiées | Toutes planifiées avec date |
+| Adversité | Angles écrits par le propriétaire | Angles écrits à deux | Angles écrits par le voisin |
+| Régression | Matrice inexistante | Matrice non signée | Matrice signée et appliquée |
+| Preuve | Exécutions non tracées | Tracées, > 90 jours | Tracées, < 30 jours |
+
+**12 points :** votre qualification de frontières est opérnelle. **Moins de 8 :** rejouez l'exercice Q1 avant toute nouvelle intégration.
+
+
+---
+
+# Atelier complémentaire : la revue d'angle adverse pour le niveau 3
+
+*Cet atelier approfondit la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT : au niveau 3, la revue d'angle devient un rituel de gouvernance entre équipes.*
+
+## Le problème spécifique du niveau 3
+
+Aux niveaux 1-2, vos frontières sont surtout internes. Au niveau 3, elles traversent les équipes, les priorités et les calendriers. Le test d'angle — « et si on faisait exactement l'inverse de ce que vous supposez ? » — devient l'outil de gouvernance le moins cher qui existe : il révèle les désaccords de supposition avant l'intégration, au moment où ils coûtent une conversation au lieu d'un trimestre.
+
+## Le rituel de la revue d'angle (90 min, mensuel entre équipes adjacentes)
+
+**Participants :** un représentant par équipe adjacente, plus le praticien N3 comme témoin silencieux.
+
+**Déroulement strict (cinq temps, chronométrés) :**
+
+1. **L'exposé des suppositions (15 min).** Chaque équipe énonce trois suppositions qu'elle fait sur le comportement de ses voisins. Formulation imposée : « Nous supposons que ___ fait ___. » Pas de supposition sur les intentions — seulement sur les comportements observables.
+2. **La chasse aux inverses (20 min).** Pour chaque supposition, le groupe formule l'inverse : « Et si ___ ne faisait pas ___ ? » Chaque inverse plausible reçoit un score d'impact (heures perdues si réaliste).
+3. **Le tri à trois bacs (20 min).** Bac A : l'inverse est impossible — justifier en une phrase et tracer. Bac B : l'inverse est possible mais couvert par un test existant — nommer le test et sa dernière exécution. Bac C : l'inverse est possible et non couvert — c'est la file de travail.
+4. **L'engagement d'écriture (25 min).** Chaque item du bac C reçoit : un rédacteur (l'équipe adverse, jamais le propriétaire), une échéance (avant la prochaine intégration), un lieu (le plan de qualification de la frontière).
+5. **La clôture (10 min).** Lecture des engagements à voix haute. Une revue sans engagement nouveau est une revue qui n'a rien vu — c'est un signal, pas une victoire.
+
+## Gabarit — Fiche d'angle adverse
+
+```
+Frontière : ____________________  Date de revue : ____________
+Supposition : « Nous supposons que ___ fait ___. »
+Inverse : « Et si ___ ne faisait pas ___ ? »
+Impact si réaliste : ____ heures
+Bac : A (impossible) / B (couvert par : ____) / C (non couvert)
+Rédacteur du test d'angle : ____________  Échéance : ____________
+Test écrit le : ______  Approuvé par le propriétaire : ______
+```
+
+## Exercice A1 : la première revue d'angle en conditions réelles (90 min)
+
+Tenez la revue avec vos deux frontières les plus coûteuses. Règles de réussite :
+- Le praticien N3 ne parle que pour chronométrer. L'adversité vient des équipes, pas de l'accompagnant.
+- Toute supposition formulée en termes d'intention (« ils ne veulent pas… ») est reformulée en comportement observable, sans exception.
+- Le bac C sort avec au moins un test engagé, sinon la revue est rejouée à la même frontière le mois suivant.
+
+## Exercice A2 : l'indice d'adversité inter-équipes (30 min, trimestriel)
+
+Comptez, sur vos trois dernières revues : angles écrits par l'adverse / angles totaux. Publiez l'indice par équipe.
+
+**Interprétation mécanique :**
+- **≥ 80 % :** l'adversité est culturelle — elle survivra aux absences.
+- **50-79 % :** l'adversité dépend des personnes présentes — fixez la désignation de rédacteur dans le rituel lui-même.
+- **< 50 % :** les équipes écrivent leurs propres angles — l'auto-complaisance est installée. Réinitialisez avec l'exercice A1 en interdisant la rédaction par le propriétaire pendant un trimestre complet.
+
+## Exercice A3 : le test de résistance du rituel (60 min)
+
+Un rituel de gouvernance se valide par sa survie aux perturbations :
+1. Simulez l'absence du praticien N3 : les équipes tiennent-elles les cinq temps seules ?
+2. Simulez un mois chargé : la revue est-elle reportée ou raccourcie ? (Raccourcie : acceptable. Reportée : le rituel n'est pas encore une habitude.)
+3. Simulez un désaccord frontal : les deux équipes revendiquent la même frontière. Qui tranche ? Décidez-le maintenant, par écrit, avant le vrai conflit.
+
+**Le critère de maturité du niveau 3 :** la revue d'angle se tient sans vous, à heure fixe, avec des engagements tracés — et vous n'en apprenez le contenu qu'en lisant les fiches.
+
+
+---
+
+# Fiche de clôture du carnet JAUNE : la gouvernance tient-elle sans moi ?
+
+*Dernière page du carnet, inspirée de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT : l'auto-évaluation finale par les preuves.*
+
+## Votre checklist de sortie du niveau JAUNE
+
+- [ ] La revue d'angle adverse se tient chaque mois, aux cinq temps chronométrés, avec des fiches tracées.
+- [ ] Les bacs A/B/C de chaque revue sont renseignés — y compris les « impossible » justifiés en une phrase.
+- [ ] Chaque item du bac C a un rédacteur adverse nommé et une échéance tenue.
+- [ ] Mon plan de qualification de frontières est signé par les deux équipes de chaque frontière.
+- [ ] Ma matrice de régression existe, est signée, et a servi au moins une fois (rejeu tracé).
+- [ ] L'indice d'adversité inter-équipes est calculé et publié (seuil de santé : ≥ 80 %).
+- [ ] Le test de résistance est passé : le rituel a tenu sans praticien, dans un mois chargé, et le mode de décision des conflits de frontière est écrit.
+
+## Le gabarit de la page finale
+
+```
+Mon trimestre au niveau JAUNE :
+Revolues d'angle tenues : ____ / ____ prévues
+Angles engagés en bac C : ____ — écrits par l'adverse : ____ (____ %)
+Frontières signées à deux équipes : ____ / ____
+Le conflit de frontière tranché cette période : ____________________
+Ce que la gouvernance a réglé sans escalade : ____________________
+Question que j'emporte au niveau VERT : ____________________
+```
+
+**Le critère de passage :** le niveau VERT s'occupe de *portefeuilles* entiers par échantillonnage. On n'y entre pas tant que les frontières existantes ne tiennent pas leur gouvernance de proximité — le rituel mensuel doit survivre à votre absence, pas seulement à votre présence.
+
+
+---
+
+# Annexe de terrain JAUNE : les cinq pannes de la revue d'angle et leurs remèdes
+
+*Issues de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT.*
+
+## Panne 1 — La revue devient une réunion d'information
+**Symptôme :** les équipes présentent leurs travaux, personne ne formule d'inverses, aucune fiche ne sort.
+**Remède :** revenir aux formulations imposées (« Nous supposons que ___ fait ___ » / « Et si ___ ne faisait pas ___ ? »). Interdire les slides : la revue se tient autour de la carte des frontières, stylo en main. L'information a d'autres lieux ; la revue ne produit que des fiches.
+
+## Panne 2 — Le bac A devient le bac poubelle
+**Symptôme :** tout inverse gênant est déclaré « impossible » en une phrase vague.
+**Remède :** la justification d'impossibilité doit citer un mécanisme, pas une intention : « impossible car le contrat force ___ », pas « impossible car ils ne feraient jamais ça ». Le praticien N3 audite une justification d'impossibilité par revue, au hasard.
+
+## Panne 3 — Les angles engagés ne sont jamais écrits
+**Symptôme :** le bac C sort des engagements, les fiches restent à « échéance passée ».
+**Remède :** la revue suivante s'ouvre sur le solde du bac C précédent avant tout nouveau sujet : écrit / non écrit. Deux manquements consécutifs du même rédacteur = le propriétaire de la frontière écrit le test lui-même, et le voisin doit l'approuver — l'inverse de la règle normale, en pénalité.
+
+## Panne 4 — Une équipe domine, l'autre subit
+**Symptôme :** les suppositions d'une équipe sont disséquées, celles de l'autre passent vite.
+**Remède :** chronométrer par équipe, pas par sujet : 15 minutes d'exposé et 20 minutes de chasse pour CHACUNE. Le témoin silencieux (praticien N3) ne chronomètre que ça — c'est sa seule parole autorisée.
+
+## Panne 5 — La revue saute les mois chargés
+**Symptôme :** « ce mois-là, on a vraiment pas eu le temps » — deux fois par trimestre.
+**Remède :** la version courte de 30 minutes existe : suppositions seulement, bac C seulement, un seul engagement. Une revue courte vaut une revue reportée. Le report, lui, est noté dans la fiche de la frontière — visible par tous.
+
+## La règle du dépannage
+
+Comme pour tout rituel de gouvernance : une panne identifiée se corrige dans le mois, une panne récurrente deux trimestres sans correction est un choix assumé par écrit. La gouvernance de frontière ne souffre pas l'entre-deux : soit elle gouverne, soit on admet qu'on intègre sans filet.

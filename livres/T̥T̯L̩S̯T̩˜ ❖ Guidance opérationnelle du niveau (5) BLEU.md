@@ -3423,3 +3423,193 @@ Le niveau 6 vous attend — et la lucidité humaine du niveau 5 vous y prépare.
 
 *Fin du livre BLEU — TOTALISATION ❖ Guidance opérationnelle du niveau (5). ORIGINALIUM · Québec, Canada · Édition 2026.*
 
+
+
+---
+
+# Atelier complémentaire : la formation continue par la grille de qualification
+
+*Cet atelier transpose la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT au niveau 5 : la grille croisée devient un curriculum de formation continue pour les praticiens que vous accompagnez.*
+
+## Pourquoi la grille est un curriculum
+
+Au niveau 5, votre produit n'est plus le code : c'est la **capacité des équipes à qualifier elles-mêmes leurs frontières**. La grille (niveau × interface × angle × type) a une propriété remarquable : chaque colonne est un skill enseignable, chaque croisement un module de formation. Vous n'avez pas à inventer un programme — la grille EST le programme.
+
+## Le curriculum en quatre modules (une demi-journée chacun)
+
+**Module 1 — Lire une frontière (colonne INTERFACE)**
+Exercice : chaque participant dessine la carte des frontières de son périmètre, puis la confronte à celle dessinée indépendamment par un collègue. Les divergences entre les deux cartes sont le contenu de formation : ce qui n'est pas dessiné pareil n'est pas compris pareil.
+
+**Module 2 — Choisir un test par colonne (colonne TYPE)**
+Exercice : sur une frontière réelle, chaque participant propose une combinaison complète (interface + angle + type), puis le groupe vote pour la combinaison la plus économique qui couvre le risque. Le vote est la leçon : les coûts réels apparaissent dans la délibération.
+
+**Module 3 — Écrire un angle adverse (colonne ANGLE)**
+Exercice en binômes croisés : A expose sa frontière, B écrit trois questions d'angle, A doit transformer chaque question en test exécutable ou déclarer formellement « angle non couvert, risque accepté par ___. » L'acceptation explicite est un résultat de formation autant qu'un résultat de test.
+
+**Module 4 — Prouver l'exécution (colonne PREUVE)**
+Exercice : chaque participant présente la dernière exécution horodatée d'un test de frontière. Pas d'exécution tracée = module à refaire. Le curriculum ne se termine pas sur « j'ai compris » mais sur « voici la preuve ».
+
+## Exercice F1 : le passeport de qualification (60 min + suivi)
+
+**Gabarit — Passeport de qualification individuelle :**
+
+```
+Nom : ____________  Date d'entrée : ____________
+Module 1 (carte) : validé le ____ par ____
+Module 2 (combinaison) : validé le ____ par ____
+Module 3 (angle) : validé le ____ par ____
+Module 4 (preuve) : validé le ____ par ____
+Frontière pilote (la sienne, suivie 1 trimestre) : ____________
+```
+
+**Règle :** un participant n'accompagne jamais une équipe avant d'avoir fait vivre sa propre frontière pilote un trimestre complet. On ne délègue pas une pratique qu'on n'a pas habitée.
+
+## Exercice F2 : la rotation des rôles d'atelier (plan trimestriel)
+
+Pour que la formation continue ne dépende pas d'une seule personne, faites tourner les rôles chaque trimestre :
+
+| Rôle | Trimestre 1 | Trimestre 2 | Trimestre 3 | Trimestre 4 |
+|---|---|---|---|---|
+| Animation du module 1 | ____ | ____ | ____ | ____ |
+| Animation du module 2 | ____ | ____ | ____ | ____ |
+| Animation du module 3 | ____ | ____ | ____ | ____ |
+| Animation du module 4 | ____ | ____ | ____ | ____ |
+| Tenue des passeports | ____ | ____ | ____ | ____ |
+
+**Test de vitalité :** si deux trimestres consécutifs gardent le même animateur sur un module, ce module est un goulot — doublez la prochaine promotion sur ce module.
+
+## Exercice F3 : l'évaluation par la frontière vivante (2 h, fin de trimestre)
+
+L'examen final du curriculum n'est pas un questionnaire : c'est la frontière pilote elle-même.
+
+1. Chaque diplômé présente sa frontière pilote : carte, plan de qualification, trois exécutions prouvées, un angle écrit par le voisin.
+2. Le jury (deux pairs déjà diplômés + un praticien N5) note sur la grille : couverture /4, adversité /4, preuve /4, économie /4.
+3. **12/20 = diplômé.** Moins de 12 : un trimestre supplémentaire sur la frontière pilote, pas de re-examen théorique — seulement plus de preuves.
+
+**Le principe directeur :** au niveau 5, on n'évalue jamais des connaissances sur la qualité, on évalue des preuves produites sur une frontière réelle. C'est la différence entre former des gens qui parlent de la grille et former des gens qui la font vivre.
+
+
+---
+
+# Atelier complémentaire : le coaching par la grille de qualification (niveau 5)
+
+*Cet atelier approfondit la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT : la grille devient un instrument de coaching quotidien, au-delà du curriculum.*
+
+## Du curriculum au coaching
+
+Le curriculum (modules 1-4) forme une fois. Le coaching accompagne en continu. La différence opérationnelle : le curriculum dit « voici la grille », le coaching demande « montrez-moi votre grille, cette semaine ». Trois outils de coaching, tous dérivés de la grille.
+
+## Outil 1 — La question d'ouverture hebdomadaire
+
+Chaque semaine, auprès de chaque équipe accompagnée, une seule question, toujours la même, choisie dans la rotation :
+
+| Semaine | Question | Ce qu'elle teste |
+|---|---|---|
+| S1 | « Quelle frontière avez-vous fait naître cette semaine ? » | Le rituel de naissance est vivant |
+| S2 | « Montrez-moi la dernière exécution d'un test de frontière » | La preuve, pas l'intention |
+| S3 | « Qui a écrit vos derniers tests d'angle ? » | L'adversité réelle |
+| S4 | « Quel croisement de votre plan de qualification est le plus faible ? » | L'honnêteté de la cartographie |
+
+**Règle du coach :** ne jamais poser deux questions la même semaine. La rotation crée une attente ; la redondance crée un filtre.
+
+## Outil 2 — Le tableau de coaching par frontière pilote
+
+Chaque personne accompagnée a une frontière pilote. Le coach suit un tableau simple, une ligne par personne, mis à jour à chaque contact :
+
+```
+Personne : ______  Frontière pilote : ______
+Promesse écrite : O/N   Voisin adversaire actif : O/N
+Dernière preuve : __/__/____  (rouge si > 30 jours)
+Blocage actuel : ____________________
+Prochain jalon (nommé + daté) : ____________________
+```
+
+**Le code couleur comme déclencheur :** une ligne rouge (preuve > 30 jours) déclenche une conversation de coaching sous 5 jours ouvrables — pas un rappel, une conversation. Le coaching par courriel ne forme personne.
+
+## Exercice C1 : la première semaine de coaching par la grille (semaine complète)
+
+1. Choisissez deux équipes ou deux praticiens en formation.
+2. Chaque jour, posez UNE question de la rotation et notez la réponse dans le tableau.
+3. En fin de semaine, relisez le tableau seul : quels blocages sont récurrents ? Quels jalons n'ont pas de date ?
+4. Constatez honnêtement : avez-vous coaché (conversations) ou supervisé (relances) ? La grille sert au coaching ; la relance est le signe qu'il faut reprendre le curriculum avec cette personne.
+
+## Exercice C2 : le jeu des trois frontières (atelier de 2 h avec un praticien en formation)
+
+Un exercice de calibrage pour praticiens N5 en devenir :
+
+1. Le formé choisit trois frontières d'une équipe qu'il accompagne : une qu'il juge **solide**, une **moyenne**, une **fragile**.
+2. Pour chacune, il remplit la grille complète (interface, angle, type, preuve) en 20 minutes.
+3. Le coach révèle ensuite son propre jugement des trois mêmes frontières, indépendamment.
+4. Les divergences sont le contenu de la séance : une frontière « solide » pour le formé et « fragile » pour le coach cache presque toujours une preuve ancienne ou un angle auto-écrit.
+
+**Objectif de calibrage :** après trois séances du jeu, le formé et le coach doivent diverger sur moins d'une case sur douze. C'est ce calibrage — pas un certificat — qui autorise le formé à coacher à son tour.
+
+## Outil 3 — La rétro de coaching trimestrielle (60 min)
+
+Le coach se soumet au même régime que les équipes : chaque trimestre, il publie trois lignes —
+1. Le nombre de conversations de coaching tenues (cible : ≥ 1 par personne accompagnée par mois).
+2. Le taux de lignes rouges résolues sous 5 jours (cible : ≥ 80 %).
+3. Le nombre de personnes passées au calibrage 3 frontières (cible : celui qui permet la rotation des rôles).
+
+**La règle de legs :** quand ces trois lignes tiennent deux trimestres consécutifs sans vous, votre coaching est devenu un système — et vous pouvez en transférer la tenue, comme tout le reste.
+
+
+---
+
+# Fiche de clôture du carnet BLEU : mes diplômés coachent-ils à leur tour ?
+
+*Dernière page du carnet, inspirée de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT : l'auto-évaluation finale par les preuves.*
+
+## Votre checklist de sortie du niveau BLEU
+
+- [ ] Le curriculum en quatre modules a tourné au moins deux promotions complètes.
+- [ ] Les passeports de qualification existent, sont tenus, et chaque validation renvoie à une date et un validateur.
+- [ ] La rotation des rôles d'atelier a produit au moins deux animateurs par module — aucun goulot sur deux trimestres.
+- [ ] Les frontières pilotes de mes diplômés vivent : promesse écrite, voisin actif, preuves de moins de 30 jours.
+- [ ] Au moins deux personnes ont passé le calibrage des trois frontières avec moins d'une divergence sur douze.
+- [ ] Ma rétro trimestrielle est publiée : conversations tenues, lignes rouges résolues sous 5 jours, calibrages passés.
+
+## Le gabarit de la page finale
+
+```
+Mes trimestres au niveau BLEU :
+Promotions formées : ____ — diplômés (12/20 au jury) : ____
+Conversations de coaching ce trimestre : ____
+Lignes rouges résolues sous 5 jours : ____ / ____ (____ %)
+La divergence de calibrage la plus instructive vue : ____________________
+Ce qu'un diplômé m'a appris en coachant : ____________________
+Question que j'emporte au niveau INDIGO : ____________________
+```
+
+**Le critère de passage :** le niveau INDIGO mesure le système entier. On n'y entre pas tant que la formation dépend encore d'un seul coach — la preuve qu'une pratique se transmet est qu'elle se transmet sans son inventeur.
+
+
+---
+
+# Annexe de terrain BLEU : les cinq pannes du coaching par la grille et leurs remèdes
+
+*Issues de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT.*
+
+## Panne 1 — La question hebdomadaire devient un courriel
+**Symptôme :** le coach pose la question de rotation par message, reçoit « oui c'est fait », coche.
+**Remède :** la question se pose en conversation, et la réponse attendue est un objet montré (carte, exécution, fiche d'angle) — jamais un « oui ». Une réponse verbale sans objet est comptée comme non-réponse dans le tableau.
+
+## Panne 2 — Le tableau de coaching devient un tableau de bord
+**Symptôme :** les lignes sont à jour, plus aucune conversation n'a lieu ; le coach gère des cases.
+**Remède :** réintroduire le ratio : conversations tenues / lignes mises à jour. Sous 1 conversation pour 3 mises à jour, arrêter la mise à jour pendant deux semaines et ne faire que des conversations. Le tableau suit le coaching ; il ne le remplace pas.
+
+## Panne 3 — La frontière pilote est un décor
+**Symptôme :** le formé a choisi une frontière sans risque, jamais intégrée, jamais modifiée — rien ne peut y arriver.
+**Remède :** critère d'éligibilité de la pilote : elle doit avoir au moins une intégration ou une modification prévue dans le trimestre. Une pilote immobile ne produit jamais de preuve — c'est la règle d'or du passeport : on apprend sur du vivant.
+
+## Panne 4 — Le calibrage diverge sans jamais converger
+**Symptôme :** après trois séances du jeu des trois frontières, le formé et le coach divergent toujours sur la moitié des cases.
+**Remède :** le divergence n'est pas un défaut d'élève, c'est un indicateur de case : isoler LA colonne qui diverge systématiquement (souvent PREUVE — le formé accepte des exécutions anciennes). Refaire un module du curriculum centré sur cette colonne uniquement, avec les propres exemples du formé.
+
+## Panne 5 — La rétro trimestrielle du coach n'est jamais publiée
+**Symptôme :** le coach évalue tout le monde, sauf lui.
+**Remède :** publier la rétro au même endroit, au même rythme, que les passeports des formés — et la faire commenter par un diplômé. Le coach qui n'est pas évalué par ses diplômés forme des imitateurs, pas des praticiens.
+
+## La règle du dépannage
+
+Le coaching par la grille tient sur une inversion constante : **le coach est le seul adulte du système qui doit prouver avant de demander**. Chaque panne ci-dessus est une fuite du coach hors de cette obligation. Quand ça coince, le coach reprend l'outil 3 (sa propre rétro) avant de retoucher quoi que ce soit chez les formés.

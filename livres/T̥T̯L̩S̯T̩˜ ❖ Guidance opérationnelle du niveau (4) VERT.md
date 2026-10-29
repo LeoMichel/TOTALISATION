@@ -3482,3 +3482,204 @@ Le carnet N4 est le test du niveau 4 : montrez-moi vos fiches de mesure (avec le
 
 Le praticien qui transmet son carnet transmet sa lucidité. Le praticien qui transmet la méthode transmet une théorie. La collection demande les deux — mais commence toujours par le premier.
 
+
+
+---
+
+# Atelier complémentaire : la campagne de qualification par échantillonnage
+
+*Cet atelier transpose la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT à l'échelle du niveau 4 : quand on ne peut plus tout tester soi-même, on qualifie par échantillonnage statistique.*
+
+## Le problème du niveau 4
+
+Aux niveaux 1-3, vous testez vos propres frontières. Au niveau 4, vous êtes responsable de la qualité de périmètres que vous ne connaissez pas en détail. Tester tout est impossible ; ne rien tester est impardonnable. La réponse opérationnelle : **l'échantillonnage structuré**.
+
+**Le principe :** on ne teste pas les périmètres, on teste des **échantillons tirés au sort avec une règle de tirage connue de tous**. Le tirage au sort est la seule défense honnête contre l'aveuglement de confirmation — les équipes savent qu'elles peuvent être tirées, donc elles entretiennent leur qualité en continu.
+
+## Exercice S1 : la roue de tirage trimestrielle (90 min)
+
+**Protocole d'installation :**
+1. Listez tous les périmètres de votre portefeuille avec un numéro stable.
+2. Fixez le taux d'échantillonnage : 20 % des périmètres par trimestre (ajustable selon la taille).
+3. Le tirage se fait en public, lors d'une cérémonie trimestrielle, avec un mécanisme non manipulable (date du jour + nombre de périmètres comme graine, méthode annoncée à l'avance).
+4. Les périmètres tirés entrent dans la file d'audit du trimestre — publiée immédiatement.
+
+**Gabarit — Procès-verbal de tirage :**
+
+```
+Trimestre : ____________  Date du tirage : ____________
+Méthode annoncée : ____________________
+Périmètres tirés (20 %) : ____________________
+File d'audit publiée le : ____________  Par : ____________
+```
+
+## Exercice S2 : l'audit d'échantillon en quatre gestes (demi-journée par périmètre)
+
+Pour chaque périmètre tiré, l'audit suit quatre gestes, dans l'ordre, sans négociation :
+
+1. **Le geste de la carte** (30 min) : demandez la carte des frontières du périmètre. Une carte absente ou vieillie (> 1 trimestre) est le premier constat d'audit.
+2. **Le geste du plan** (45 min) : demandez le plan de qualification de frontières (grille croisée). Vérifiez trois frontières au hasard : les tests déclarés « en place » ont-ils une exécution tracée de moins de 90 jours ?
+3. **Le geste de l'angle** (60 min) : demandez qui a écrit les tests d'angle de deux frontières. Si c'est l'équipe propriétaire elle-même, l'adversité est cassée — constat d'audit.
+4. **Le geste du coût** (45 min) : demandez le dernier incident de frontière et son coût. Corrélez avec l'état du plan : incident sur frontière NUDE = constat majeur.
+
+**Règle de sortie :** l'audit se termine toujours par une restitution de 30 minutes au périmètre audité, le jour même. Un audit sans restitution immédiate est un rapport qui dort.
+
+## Exercice S3 : la notation d'audit exploitable (60 min)
+
+Chaque audit produit une note sur 20, construite pour être actionnable :
+
+| Volet | Points | Barème |
+|---|---|---|
+| Carte des frontières | /4 | 4 = à jour · 2 = vieillie · 0 = absente |
+| Plan de qualification | /6 | 6 = complet et prouvé · 3 = complet non prouvé · 0 = partiel |
+| Adversité (angles) | /6 | 6 = écrite par les voisins · 3 = co-écrite · 0 = auto-écrite |
+| Corrélation coût | /4 | 4 = incidents corrélés et traités · 2 = corrélés non traités · 0 = non corrélés |
+
+**Seuils de conséquence (annoncés à l'avance, jamais improvisés) :**
+- **16-20 :** périmètre confiance — taux d'échantillonnage réduit au trimestre suivant (10 %).
+- **10-15 :** périmètre normal — ré-audit au prochain tirage.
+- **0-9 :** périmètre accompagné — ré-audit obligatoire le trimestre suivant, avec appui du praticien N4.
+
+**Le point clé :** les conséquences sont mécaniques. Le jour où la note dépend de l'humeur du sponsor, l'échantillonnage devient politique et meurt.
+
+## Exercice S4 : le bilan de campagne trimestrielle (90 min)
+
+À la fin du trimestre, consolidez tous les audits d'échantillons :
+
+1. Note moyenne de la campagne (vs trimestre précédent : tendance).
+2. Les trois constats majeurs les plus coûteux (coût chiffré, pas gravité ressentie).
+3. La liste des périmètres « accompagnés » et leur plan de sortie.
+4. Une décision pour la campagne suivante : ajuster le taux d'échantillonnage ? Ajouter un geste d'audit ?
+
+**Gabarit — Page de bilan :**
+
+```
+Campagne T___ : ____ audits · note moyenne ____ (T-1 : ____)
+Top 3 coûts des constats : ____ · ____ · ____
+Périmètres accompagnés : ____ (sortie prévue : ____)
+Ajustements décidés pour T___+1 : ____________________
+```
+
+**Le lien avec la qualimétrie :** la campagne d'échantillonnage est la source de données la plus honnête de votre système de qualimétrie — précisément parce que le tirage est au sort et les gestes standardisés. Ce que la campagne mesure, toute l'organisation peut y croire.
+
+
+---
+
+# Atelier complémentaire : l'échantillonnage croisé pour le niveau 4
+
+*Cet atelier approfondit la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT : la grille croisée devient l'instrument de tirage et de pondération des audits d'échantillonnage.*
+
+## Affiner le tirage : échantillonner les croisements, pas seulement les périmètres
+
+Au niveau 4, tirer 20 % des périmètres au sort est la base. Mais tous les risques ne sont pas uniformément répartis : un périmètre calme et un périmètre en pleine refonte n'ont pas le même besoin d'audit. L'affinage se fait par **pondération déclarée à l'avance** — jamais après le tirage.
+
+## Exercice P1 : la pondération déclarée (60 min)
+
+1. Classez chaque périmètre du portefeuille dans une des trois catégories, avec le critère écrit : **CALME** (aucune intégration majeure au trimestre), **ACTIF** (1-2 intégrations), **CHAUD** (3+ intégrations ou frontière nouvelle).
+2. Fixez les poids avant le tirage et publiez-les : par exemple CALME ×0,5 · ACTIF ×1 · CHAUD ×2. Un périmètre CHAUD peut ainsi apparaître deux fois dans la roue de tirage.
+3. Le tirage reste public et mécanique — seuls les poids sont stratégiques, jamais le résultat.
+
+**Gabarit — Table de pondération publiée :**
+
+```
+Trimestre : ____  Poids CALME : ____  Poids ACTIF : ____  Poids CHAUD : ____
+Critère CHAUD (écrit à l'avance) : ____________________
+Nombre d'audits prévus : ____  Périmètres dans la roue : ____
+```
+
+**Le garde-fou :** les poids changent entre les trimestres, jamais pendant. Un poids ajusté après un tirage défavorable détruit la crédibilité de la campagne entière.
+
+## Exercice P2 : la grille de tirage par croisement (90 min)
+
+Pour les périmètres tirés, l'audit ne regarde pas seulement la carte et le plan : il tire aussi un **croisement** de la grille (niveau × interface × angle × type) à examiner en profondeur.
+
+**Protocole :**
+1. Pour chaque périmètre audité, tirez au sort une ligne et une colonne de la grille.
+2. L'audit approfondit ce croisement sur deux frontières au choix de l'équipe auditée — le choix des frontières reste à l'audité, le croisement est imposé.
+3. Constat binaire par croisement : **prouvé** (exécution tracée < 90 jours) ou **non prouvé**.
+
+**Pourquoi ça marche :** l'équipe ne peut pas préparer « pour l'audit » sans maintenir toute la grille — elle ne sait pas quel croisement sera tiré. C'est la logique du contrôle aléatoire appliquée à la qualification.
+
+## Exercice P3 : le suivi de campagne croisé (60 min, fin de trimestre)
+
+Consolidez les résultats par croisement, pas seulement par périmètre :
+
+| Croisement tiré | Prouvés | Non prouvés | Taux | Tendance |
+|---|---|---|---|---|
+| Interface × Type | ___ | ___ | ___ % | ↑/↓ |
+| Angle × Preuve | ___ | ___ | ___ % | ↑/↓ |
+| … | ___ | ___ | ___ % | ↑/↓ |
+
+**Lecture décisionnelle :** le croisement avec le taux le plus bas indique où la pratique faiblit organisationnellement — c'est vers lui que vont les ateliers du trimestre suivant, pas vers les périmètres aux notes les plus basses. **On répare les croisements, on accompagne les périmètres.**
+
+## Exercice P4 : la simulation de pression (60 min)
+
+Testez la robustesse de votre campagne avant qu'un sponsor ne la teste :
+
+1. Un périmètre stratégique est tiré et son sponsor demande une « re-tirage ». Quelle est votre réponse écrite, préparée à l'avance ?
+2. Un audit sort une note de 4/20 sur un périmètre politiquement protégé. Quelle conséquence mécanique s'applique — et qui l'annonce ?
+3. Le taux de couverture d'un croisement chute de 20 points. Qui déclenche l'atelier correctif, et avec quel budget de temps ?
+
+**Règle :** les trois réponses doivent exister par écrit AVANT le premier incident. Une campagne d'échantillonnage qui improvise sa première crise devient décorative à jamais.
+
+
+---
+
+# Fiche de clôture du carnet VERT : la campagne fonctionne-t-elle sans moi ?
+
+*Dernière page du carnet, inspirée de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT : l'auto-évaluation finale par les preuves.*
+
+## Votre checklist de sortie du niveau VERT
+
+- [ ] La roue de tirage trimestrielle a tourné au moins deux fois, avec PV de tirage public.
+- [ ] Les poids de pondération sont publiés avant chaque tirage et n'ont jamais changé en cours de trimestre.
+- [ ] Chaque audit d'échantillon a suivi les quatre gestes, dans l'ordre, avec restitution le jour même.
+- [ ] Les notes d'audit ont déclenché les conséquences mécaniques annoncées — y compris pour les périmètres protégés.
+- [ ] Le suivi de campagne par croisement existe, et un atelier a été lancé vers le croisement le plus faible.
+- [ ] Les trois réponses de pression (re-tirage refusé, note dure annoncée, atelier déclenché) sont écrites et datées.
+
+## Le gabarit de la page finale
+
+```
+Mes trimestres au niveau VERT :
+Campagnes menées : ____ — audits réalisés : ____
+Note moyenne campagne : ____ (trimestre précédent : ____)
+Croisement le plus faible et atelier lancé : ____________________
+Périmètres accompagnés sortis du statut : ____
+La pression la plus dure subie et la réponse tenue : ____________________
+Ce que le tirage au sort a révélé que ma stratégie n'aurait pas vu : ____________________
+Question que j'emporte au niveau BLEU : ____________________
+```
+
+**Le critère de passage :** le niveau BLEU forme les gens à la grille. On n'y entre pas tant que la campagne d'audit n'est pas elle-même devenue un apprentissage partagé — la preuve qu'un système mécanique fonctionne est qu'on peut l'enseigner sans déformer ses chiffres.
+
+
+---
+
+# Annexe de terrain VERT : les cinq pannes de la campagne d'échantillonnage et leurs remèdes
+
+*Issues de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT.*
+
+## Panne 1 — Le tirage « au sort » devient un choix déguisé
+**Symptôme :** la graine du tirage change après coup, ou les périmètres « sont tirés » par la personne qui a un avis sur eux.
+**Remède :** mécaniser totalement : méthode annoncée à l'avance (graine = date du jour × nombre de périmètres), tirage exécuté en public, PV signé sur place. Si une seule main peut influer sur le résultat, le tirage n'existe pas.
+
+## Panne 2 — La restitution glisse à la semaine suivante
+**Symptôme :** les constats d'audit partent dans un rapport, la restitution « quand tout le monde sera disponible ».
+**Remède :** règle du jour même, non négociable : l'audit n'est terminé que si la restitution de 30 minutes a eu lieu avant la fin de la journée. Un constat non restitué le jour même est annulé et re-audité — l'équipe auditée ne doit jamais apprendre ses constats par un document.
+
+## Panne 3 — Les conséquences s'appliquent sauf quand ça dérange
+**Symptôme :** le périmètre accompagné stratégique n'est pas ré-audité « cette année ».
+**Remède :** publier chaque trimestre la table de correspondance note → conséquence → appliquée ou non, sans commentaire. Une seule ligne « non appliquée » non motivée publiquement tue la campagne. L'exception doit être aussi publique que la règle.
+
+## Panne 4 — Les équipes « préparent l'audit »
+**Symptôme :** les périmètres tirés brillent, les autres s'endorment.
+**Remède :** passer au tirage par croisement (exercice P2) : l'équipe ne sait pas quel croisement sera tiré, donc maintenir toute la grille devient la seule stratégie de préparation. La préparation pour l'audit EST la pratique — c'est le but, pas une triche.
+
+## Panne 5 — La note moyenne monte, les incidents aussi
+**Symptôme :** le paradoxe des deux courbes : audits de plus en plus bons, incidents de frontière en hausse.
+**Remède :** la mesure ment quelque part. Reprendre le geste du coût : les incidents comptés passent-ils par les frontières cartographiées ou par des frontières hors carte ? En général, la hausse d'incidents vient de frontières que personne n'a jamais déclarées — l'audit ne peut pas tirer au sort ce que la carte ne nomme pas. Chantier : cartographie des frontières non déclarées (entretiens équipe par équipe), pas amélioration des notes.
+
+## La règle du dépannage
+
+La campagne d'échantillonnage vit ou meurt sur un seul attribut : **l'inviolabilité mécanique**. Toutes les pannes ci-dessus sont des variantes d'une invasion humaine dans une mécanique. Quand une panne revient, ne pas réexpliquer la méthode — réduire la surface humaine.

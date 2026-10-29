@@ -3729,3 +3729,44 @@ Le nouveau qui lit le carnet apprend en trois étapes : ce qu'il doit remplir (l
 
 Le praticien qui transmet son carnet transmet son expérience. Le praticien qui transmet la méthode transmet une théorie. La collection demande les deux — mais commence toujours par le premier.
 
+
+
+---
+
+# Fiche de clôture du carnet ROUGE : mes six semaines, en preuves
+
+*Avec la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT : la dernière page du carnet n'est pas un bilan d'intentions — c'est une checklist de preuves.*
+
+## Votre checklist de sortie du niveau ROUGE
+
+Avant de passer au carnet ORANGE, cochez ce que vous pouvez **montrer**, pas ce que vous pensez savoir :
+
+**Ma carte (colonne INTERFACE)**
+- [ ] Ma carte de frontières est dessinée, datée, et quelqu'un d'autre l'a comprise en la lisant seule.
+- [ ] Chaque frontière porte un nom prononçable, pas un sigle d'équipe.
+
+**Mes premiers tests (colonne TYPE)**
+- [ ] Au moins une frontière a sa combinaison minimale : un test d'interface, un test d'angle, un test de type.
+- [ ] Je peux montrer la dernière exécution de chacun, horodatée.
+
+**Mon premier angle (colonne ANGLE)**
+- [ ] Au moins un de mes tests d'angle a été écrit par quelqu'un d'autre que moi.
+- [ ] J'ai écrit au moins un test d'angle pour la frontière d'un voisin.
+
+**Ma première preuve (colonne PREUVE)**
+- [ ] Tous mes tests déclarés « en place » ont une exécution de moins de 90 jours.
+- [ ] Ceux qui dépassent 90 jours sont marqués comme tels dans ma carte — honnêteté visible.
+
+## Le gabarit de la page finale
+
+```
+Mes six semaines (référence : mission ACAQ, semaines 1-6) :
+Frontière pilote : ____________________
+Combinaison en place : interface [ ] angle [ ] type [ ]
+Dernière preuve : __/__/____
+Ce que je sais faire seul : ____________________
+Ce pour quoi j'ai encore besoin d'un pair : ____________________
+Question que j'emporte au niveau ORANGE : ____________________
+```
+
+**Le critère de passage :** cinq cases cochées sur huit suffisent — le niveau 2 complète le reste. Mais zéro case sur la colonne PREUVE bloque le passage : on n'entre jamais au niveau suivant en n'emportant que des déclarations.

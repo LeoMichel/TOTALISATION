@@ -3432,3 +3432,126 @@ Le carnet du praticien N2 est aussi le pont vers le niveau 3. Le praticien qui a
 
 C'est le schéma de toute la progression : chaque niveau n'ajoute pas un carnet, il relie le carnet précédent à une dimension nouvelle. Le praticien qui comprend cela ne commence jamais un niveau de zéro — il ouvre le carnet qu'il a déjà, et y ajoute la colonne qui manquait.
 
+
+
+---
+
+# Atelier complémentaire : le rituel de démarrage des frontières du niveau 2
+
+*Cet atelier transpose la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT au niveau 2 : avant d'équiper une frontière, on la fait naître correctement.*
+
+## Pourquoi un rituel de naissance
+
+Au niveau 1, vous avez appris à voir vos frontières. Au niveau 2, chaque frontière nouvelle (nouvelle équipe, nouveau service, nouveau contrat) a droit à un démarrage explicite. Une frontière qui naît dans l'implicite coûte trois fois plus cher à équiper plus tard — le rituel prend 60 minutes et économise des trimestres.
+
+## Le rituel en cinq temps (60 min, à la création de toute frontière)
+
+**Temps 1 — Le nom (5 min).** La frontière reçoit un nom stable, prononçable, utilisé par les deux équipes. Un nom comme « frontière A/B » est un défaut de conception : on ne surveille bien que ce qu'on sait nommer.
+
+**Temps 2 — La promesse (10 min).** L'équipe propriétaire formule en une phrase ce que la frontière garantit, et une phrase sur ce qu'elle ne garantit pas. La seconde phrase est la plus importante : la moitié des incidents de frontière viennent de garanties supposées et jamais écrites.
+
+**Temps 3 — La combinaison minimale (15 min).** Les deux équipes choisissent ensemble la première combinaison de tests (interface + angle + type) qui sera en place avant la première intégration. Minimum, pas idéal : le plan se complètera, la naissance ne se reporte pas.
+
+**Temps 4 — Le voisin adversaire (15 min).** On désigne qui écrira les tests d'angle : toujours l'équipe voisine, jamais l'équipe propriétaire. Si le voisin n'est pas connu encore, la case reste ouverte et la frontière est marquée « angle en attente » — visible dans la carte.
+
+**Temps 5 — La signature (15 min).** Le procès-verbal de naissance est rempli, signé par les deux responsables, et déposé à l'endroit où la carte des frontières vit.
+
+## Gabarit — Procès-verbal de naissance de frontière
+
+```
+Nom de la frontière : ____________________
+Date de naissance : ____________  Équipes : ____ ↔ ____
+Promesse (garantit) : ____________________
+Promesse (ne garantit PAS) : ____________________
+Combinaison minimale : interface [ ] angle [ ] type [ ]
+Voisin adversaire désigné : ____________ (ou : angle en attente)
+Signé : ____________ / ____________
+```
+
+## Exercice N1 : la renaissance des frontières implicites (2 h)
+
+Vous avez hérité de frontières nées sans rituel. Faites-les renaître :
+
+1. Listez vos frontières existantes sans procès-verbal de naissance.
+2. Pour chacune, tenez le rituel en 60 minutes — mais avec une règle supplémentaire : la promesse « ne garantit PAS » doit être formulée à partir du dernier incident réel de cette frontière.
+3. Les frontières dont personne ne peut formuler la promesse sont des **frontières fantômes** : soit on les supprime (et on vérifie que rien ne casse), soit on les fait vraiment naître. Une frontière fantôme qui traîne un trimestre de plus est retirée d'office.
+
+## Exercice N2 : le registre des naissances (30 min + continu)
+
+Tenez un registre unique des naissances : chaque frontière créée dans l'organisation y entre avec sa date, ses signataires et sa combinaison minimale. Le registre est public.
+
+**Usage trimestriel :** comptez les naissances avec rituel complet vs naissances totales. Ce taux de naissance rituelle est votre premier indicateur de maturité du niveau 2 — avant même les plans de qualification, la question est : **les frontières nouvelles naissent-elles correctement ?**
+
+**Seuil :** sous 80 % de naissances rituelles, le problème n'est pas la qualification des frontières existantes, c'est l'usine à nouvelles frontières implicites — traitez la source, pas le stock.
+
+## L'auto-évaluation du rituel
+
+| Critère | 0 point | 1 point | 2 points |
+|---|---|---|---|
+| Universalité | Rituel occasionnel | Rituel pour les nouvelles frontières | Rituels + renaissances du stock |
+| Promesse négative | Absente | Présente, générique | Formée depuis un incident réel |
+| Adversité à la naissance | Jamais désignée | Désignée parfois | Désignée ou « en attente » visible |
+| Registre | Inexistant | Existe, non public | Public et tenu chaque trimestre |
+
+**8 points :** vos frontières naissent vivantes. **Moins de 6 :** rejouez N1 avant d'ouvrir toute nouvelle frontière.
+
+
+---
+
+# Fiche de clôture du carnet ORANGE : mes frontières naissent-elles bien ?
+
+*Dernière page du carnet, inspirée de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT : l'auto-évaluation finale par les preuves.*
+
+## Votre checklist de sortie du niveau ORANGE
+
+- [ ] Toute frontière créée dans mon équipe ce trimestre a un procès-verbal de naissance signé.
+- [ ] Chaque PV contient une promesse négative (« ne garantit PAS ») ancrée dans un incident réel.
+- [ ] Le voisin adversaire est désigné sur chaque frontière, ou « angle en attente » est visible dans la carte.
+- [ ] Le registre des naissances est public et à jour.
+- [ ] Le taux de naissance rituelle du trimestre est calculé et publié (seuil de santé : ≥ 80 %).
+- [ ] Au moins une frontière fantôme a été traitée : naissance réelle ou suppression assumée.
+
+## Le gabarit de la page finale
+
+```
+Mon trimestre au niveau ORANGE :
+Naissances rituelles : ____ / ____ frontières nouvelles (____ %)
+Frontières re-nées (stock implicite traité) : ____
+Promesse négative dont je suis le plus fier : ____________________
+Voisin adversaire le plus actif : ____________________
+Ce que le rituel a changé dans mon équipe : ____________________
+Question que j'emporte au niveau JAUNE : ____________________
+```
+
+**Le critère de passage :** le niveau JAUNE gouverne des frontières *entre* équipes. On n'y entre pas tant que les frontières *dans* l'équipe naissent encore dans l'implicite — le rituel de naissance doit être une habitude, pas un effort.
+
+
+---
+
+# Annexe de terrain ORANGE : les cinq pannes du rituel de naissance et leurs remèdes
+
+*Issues de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT — la panoplie de dépannage rapide quand le rituel s'enraye.*
+
+## Panne 1 — « On n'a pas le temps, on créera le PV après »
+**Symptôme :** la frontière est ouverte, le PV « suivra ». Il ne suit jamais.
+**Remède :** le PV se remplit AVANT la première intégration, même partiellement — trois cases vides valent mieux qu'un PV absent. Si le temps manque vraiment, version 10 minutes : nom, promesse, promesse négative. Le reste dans la semaine.
+
+## Panne 2 — La promesse négative générique
+**Symptôme :** « ne garantit pas la performance » — écrit pour passer la case, vrai pour toutes les frontières du monde.
+**Remède :** obliger l'ancrage incident : « la dernière fois que cette frontière a échoué, c'était ___. » Sans incident réel, prendre le plus grand doute des deux équipes. Une promesse négative qui n'évoque rien n'évitera rien.
+
+## Panne 3 — Le voisin adversaire introuvable
+**Symptôme :** « on saura qui est le voisin quand le service sera découpé » — et l'angle en attente reste en attente deux trimestres.
+**Remède :** règle d'expiration : un « angle en attente » de plus d'un trimestre force la désignation d'un adversaire provisoire (le praticien N2, ou l'équipe la plus proche dans la carte). Un adversaire provisoire imparfait bat un angle jamais écrit.
+
+## Panne 4 — Le registre devient un cimetière
+**Symptôme :** le registre existe, mais personne ne le consulte ; les naissances rituelles retombent sous 80 %.
+**Remède :** brancher le registre sur une cérémonie existante : chaque réunion d'équipe commence par « une naissance ou une renaissance cette semaine ? » Trente secondes. Le registre vit par la cérémonie, pas par la discipline.
+
+## Panne 5 — Le rituel tourne, la qualité ne bouge pas
+**Symptôme :** les PV se remplissent, les incidents de frontière continuent.
+**Remède :** audit croisé des PV : prendre trois incidents récents et rouvrir le PV de la frontière concernée. Dans neuf cas sur dix, la promesse négative manquait le vrai risque — la promesse disait ce que la frontière fait, pas ce qu'on a supposé qu'elle faisait. Corriger la formulation du rituel lui-même : la promesse doit être testable, pas déclarative.
+
+## La règle du dépannage
+
+Une panne identifiée doit être corrigée dans le mois. Une panne identifiée deux trimestres de suite sans correction n'est plus une panne : c'est une décision implicite de ne pas avoir le niveau 2 — et il faut alors l'assumer par écrit, devant les équipes, plutôt que de laisser le rituel simuler une maturité qui n'existe pas.

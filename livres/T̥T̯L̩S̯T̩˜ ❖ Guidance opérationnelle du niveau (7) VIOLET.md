@@ -3395,3 +3395,187 @@ Et si la collection ne dit jamais tout — c'est parce qu'elle ne peut pas dire 
 
 *(Fin du livre 9 — le niveau 7. La collection se referme ici. Elle se rouvre à chaque fois qu'une organisation la rend la sienne.)*
 
+
+
+---
+
+# Le legs du praticien : la grille comme héritage vivant
+
+*Cette dernière section du carnet VIOLET transpose la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT au niveau de la maîtrise : à ce stade, vous ne suivez plus la grille — vous la transmettez de façon qu'elle survive à votre départ.*
+
+## Le paradoxe du maître
+
+Un praticien N1 qui applique mal la grille fait des dégâts locaux. Un praticien N7 qui applique bien la grille mais sans la transmettre fait des dégâts systémiques : toute la qualification de l'organisation dépend d'une seule mémoire. La maîtrise se mesure au **test de disparition** : si vous partez demain, qu'est-ce qui continue de fonctionner sans vous ?
+
+## Exercice L1 : l'audit de disparition (demi-journée)
+
+Faites l'exercice une fois par an, seul puis avec un témoin :
+
+1. Listez tout ce qui, dans le système de qualification de l'organisation, existe uniquement parce que vous êtes là : routines non documentées, relations personnelles, décisions gardées dans votre tête, cérémonies que vous seul savez animer.
+2. Pour chaque item, notez : **D**ocumenté, **D**upliqué (quelqu'un sait le faire), ou **D**épendant de vous.
+3. Tout item trois fois D-votre-nom est une dette de legs. Priorisez : les cérémonies d'abord (elles cadencent tout), les relations ensuite, les routines enfin.
+
+**Gabarit — Registre de legs :**
+
+```
+Item dépendant de moi : ____________________
+État : D / D / D   Plan de transfert : ____________
+Personne relais : ____________  Échéance : ____________
+Preuve de transfert (le relais l'a fait seul) : ____________
+```
+
+**La preuve de transfert est la seule qui compte :** le relais a animé la cérémonie seul, a tenu la relation sans vous, a exécuté la routine de bout en bout. Un transfert sans preuve est un souhait, pas un legs.
+
+## Exercice L2 : la grille réécrite par ceux qui la vivent (2 × 2 h)
+
+Le legs le plus durable n'est pas un document : c'est une pratique que les équipes se réapproprient. Protocole :
+
+1. Réunissez six à huit praticiens et leads qui vivent la grille au quotidien.
+2. Passez la grille en revue, colonne par colonne, avec une seule question : « cette colonne, telle qu'écrite, aide-t-elle encore, ou est-elle devenue un rite ? »
+3. Chaque colonne sort avec l'un des trois verdicts : **conserver** (avec un exemple vécu), **réécrire** (les mots des praticiens, pas les vôtres), **retirer** (avec le coût assumé du retrait).
+4. La version réécrite est publiée sous les noms des participants — pas sous le vôtre.
+
+**Le critère de réussite :** un praticien nouveau, lisant la grille réécrite, doit reconnaître la pratique qu'il voit — pas une théorie qu'on lui demande de croire.
+
+## Exercice L3 : le relais des quatre taux (90 min)
+
+Votre système de mesures (les quatre taux du niveau 6) doit avoir un propriétaire qui n'est pas vous :
+
+1. Identifiez deux personnes capables de collecter et publier les taux sans vous.
+2. Faites-les co-animer la prochaine cérémonie trimestrielle des taux, puis l'animée seule la suivante.
+3. Retirez-vous de la cérémonie le trimestre suivant — mais assistez une dernière fois en spectateur silencieux, sans corriger.
+4. Ne corrigez qu'en privé, et seulement une erreur de méthode (jamais une différence de style).
+
+## Exercice L4 : la lettre de legs (2 h, à remettre au relais)
+
+Écrivez une page, datée, adressée à celui ou celle qui tiendra le système après vous :
+
+- **Ce qui ne doit jamais changer** : les trois invariants mécaniques (tirage au sort des audits, conséquences annoncées à l'avance, preuves plutôt que déclarations).
+- **Ce qui doit continuer de bouger** : la réécriture périodique de la grille, l'ajustement des taux cibles, les verdicts conserver/réécrire/retirer.
+- **Les pièges connus** : les deux ou trois circonstances où vous avez vu le système faillir, et le contrepied qui a fonctionné.
+- **Le droit de vous rappeler** : une seule question autorisée par trimestre, par écrit, répondue en une page maximum.
+
+**La forme finale de la maîtrise TOTALISATION** n'est pas d'être irremplaçable — c'est d'avoir construit un système dont le remplacement est prévu, répété, et vivant. Le cycle complet s'achève là où il a commencé : une grille simple, vivante, tenue par ceux qui l'utilisent. Continuez par l'amélioration continue : chaque trimestre, la cérémonie des quatre taux, chaque année, l'audit de disparition, chaque fois qu'une pratique devient un rite — la réécrire. Vous avez maintenant tout ce qu'il faut. Il faut juste continuer.
+
+
+---
+
+# L'école de la grille : transmettre aux générations suivantes (VIOLET)
+
+*Section finale du carnet VIOLET, nourrie de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT : au-delà du legs individuel, la mise en place d'une école interne qui reproduit des praticiens sans vous.*
+
+## Du praticien à l'école
+
+Le legs (registre, grille réécrite, lettre) transmet un système. L'école transmet la capacité à en produire d'autres. La différence : un système légué s'use si personne n'apprend à le réparer ; une école fabrique continuellement les réparateurs.
+
+## L'architecture minimale de l'école interne
+
+Trois composants, pas plus — tout ce qui s'ajoute devient de l'apparat :
+
+**1. Le parcours en trois paliers (6 à 9 mois)**
+- **Palier A — Vivre sa frontière (3 mois) :** le candidat fait naître et équipe sa propre frontière pilote (rituel de naissance, plan de qualification, angles par le voisin, preuves mensuelles). Aucun cours — seulement la pratique et le tableau de coaching.
+- **Palier B — Accompagner une équipe (3 mois) :** le candidat pose la rotation de questions hebdomadaires auprès d'une équipe réelle, sous supervision du tableau. Il rate au moins une question — c'est voulu : on apprend le rattrapage en étant rattrapé.
+- **Palier C — Calibrer et transmettre (2-3 mois) :** le candidat anime le jeu des trois frontières avec un nouveau venu, co-anime une cérémonie des quatre taux, puis rédige sa propre lettre de legs (à ce stade, exercice : une page, pour son palier B).
+
+**2. Le jury de passage (2 pairs + 1 maître)**
+Chaque palier se valide devant un jury avec la même grille : couverture /4, adversité /4, preuve /4, économie /4. Seuil 12/20. Le jury ne note pas des connaissances — il examine des preuves. Une validation sans preuve présentée est invalidée, quel que soit l'oral.
+
+**3. Le registre de l'école**
+Un document public : qui a validé quoi, quand, devant quel jury, avec quelles preuves. Le registre est à l'école ce que le PV de naissance est à la frontière — sans lui, tout repose sur la mémoire des gens, et la mémoire part.
+
+## Exercice É1 : la session zéro de votre école (demi-journée)
+
+1. Invitez trois à cinq volontaires (praticiens N2-N4 ou leads motivés).
+2. Présentez les trois paliers et le registre — une heure, pas plus.
+3. Chaque volontaire choisit sa frontière pilote et tient le rituel de naissance devant le groupe.
+4. Fixez la date du palier A du premier jury (3 mois) — avant même que la pratique commence. Une école sans première date de jury est une intention, pas une école.
+
+## Exercice É2 : le tour de table des maîtres (plan trimestriel)
+
+L'école a besoin de maîtres (jurys, supervisions). Établissez la rotation :
+
+| Rôle | T1 | T2 | T3 | T4 |
+|---|---|---|---|---|
+| Jury palier A | ____ | ____ | ____ | ____ |
+| Jury palier B | ____ | ____ | ____ | ____ |
+| Jury palier C | ____ | ____ | ____ | ____ |
+| Tenue du registre | ____ | ____ | ____ | ____ |
+
+**Test de survie :** un trimestre sans aucun jury tenu = l'école s'est arrêtée. Le registre le montrera sans ambiguïté — c'est son rôle.
+
+## Exercice É3 : la révision annuelle de l'école par ses diplômés (2 h, chaque année)
+
+Une fois par an, ceux qui ont traversé les trois paliers révisent l'école elle-même, avec les trois verdicts connus : **conserver** (palier, règle, exercice — avec un exemple vécu), **réécrire** (avec leurs mots), **retirer** (avec le coût assumé). Vous assistez en spectateur. C'est le même geste que la réécriture de la grille : ce qui n'est pas révisable par ceux qui le vivent est un rite, pas une pratique.
+
+## La boucle complète de TOTALISATION
+
+La collection s'achève ici, sur la boucle qu'elle avait ouverte au niveau 1 :
+1. **Une grille simple** — niveau × interface × angle × type — que chacun peut dessiner sur un tableau blanc.
+2. **Des rituels mécaniques** — naissance, revue d'angle, tirage au sort, cérémonie des taux — qui tiennent sans héros.
+3. **Des preuves plutôt que des déclarations** — exécutions tracées, PV signés, registres publics.
+4. **Une école** qui fabrique les générations suivantes, et se fait réviser par elles.
+
+Le cycle complet de la TOTALISATION n'a pas de niveau 8 : il a une direction — chaque trimestre, chaque année, chaque fois qu'une pratique devient un rite, appliquer le verdict : conserver, réécrire, retirer. Vous avez tout ce qu'il faut. Il faut juste continuer.
+
+
+---
+
+# Fiche de clôture du carnet VIOLET : le système m'a-t-il survécu assez tôt ?
+
+*Dernière page de la collection, inspirée de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT : l'auto-évaluation finale du maître, par les preuves.*
+
+## Votre checklist de sortie du niveau VIOLET — et de la collection
+
+- [ ] L'audit de disparition a été fait cette année, avec témoin, et le registre de legs est vivant.
+- [ ] Au moins un transfert a sa preuve : le relais a animé seul, tenu la relation seul, exécuté seul.
+- [ ] La grille a été réécrite par ceux qui la vivent, sous leurs noms, avec les trois verdicts (conserver / réécrire / retirer).
+- [ ] Les quatre taux ont un propriétaire qui n'est pas vous, confirmé sur deux cérémonies consécutives.
+- [ ] La lettre de legs est remise : invariants, ce qui doit bouger, pièges connus, droit de rappel limité.
+- [ ] L'école interne a tenu au moins un jury par palier cette année, avec un registre public.
+- [ ] L'école a été révisée par ses propres diplômés, en votre absence.
+
+## Le gabarit de la page finale
+
+```
+Mon année au niveau VIOLET :
+Items transférés avec preuve : ____ / ____ listés au registre
+La cérémonie qui tourne sans moi depuis : ____ trimestres
+La phrase de la grille réécrite que je n'aurais pas trouvée : ____________________
+Le nom de celui ou celle qui tiendra l'an prochain : ____________________
+Ce que la collection m'a appris, en une phrase : ____________________
+```
+
+**Le critère final :** il n'y a pas de niveau après le VIOLET — il y a la boucle. Chaque trimestre, la cérémonie des quatre taux. Chaque année, l'audit de disparition et la révision de l'école. Chaque fois qu'une pratique devient un rite : conserver, réécrire, retirer.
+
+La TOTALISATION ne se termine pas ; elle se poursuit par ceux qu'elle a formés. Vous avez tout ce qu'il faut. Il faut juste continuer.
+
+
+---
+
+# Annexe de terrain VIOLET : les cinq pannes du legs et leurs remèdes
+
+*Issues de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT — les pièges de la toute dernière étape.*
+
+## Panne 1 — Le legs devient une démission anticipée
+**Symptôme :** le maître transfère tout d'un coup, disparaît, et le système s'effondre faute d'habillage.
+**Remède :** le legs est graduel et preuve par preuve : un item à la fois, avec la preuve de transfert (le relais l'a fait seul) entre chaque. Un trimestre par item est un bon rythme. Le maître reste joignable par le droit de rappel : une question par trimestre, une page de réponse.
+
+## Panne 2 — Le relais désigné n'a jamais accepté
+**Symptôme :** le registre de legs nomme quelqu'un qui a appris sa nomination par la rumeur.
+**Remède :** aucune nomination sans acceptation nominale : le relais signe le registre lui-même. Une ligne « relais sollicité, réponse : ___ » vaut mieux qu'un nom supposé. La majorité des legs échoués ont échoué avant même de commencer.
+
+## Panne 3 — La réécriture de la grille devient une guerre de style
+**Symptôme :** les praticiens refont les mots pour marquer leur territoire, la grille perd sa précision.
+**Remède :** le critère de la réécriture : chaque mot nouveau doit être testable (« on peut montrer si c'est appliqué »). Un mot qui ne se prouve pas revient à l'ancien. Le style se dispute au café ; la grille se dispute en preuves.
+
+## Panne 4 — L'école produit des diplômés qui citent, pas qui font
+**Symptôme :** les jurys valident sur des présentations brillantes, les preuves se réduisent à des diapositives.
+**Remède :** règle du jury : pas d'oral sans objet physique ou horodaté (PV signé, exécution tracée, registre publié). Le jury qui valide sans preuve est révoqué du prochain jury — la rigueur du jury EST la réputation de l'école.
+
+## Panne 5 — La boucle d'amélioration continue devient une réunion de plus
+**Symptôme :** « conserver / réécrire / retirer » est devenu une case de formulaire remplie chaque année sans verdict réel.
+**Remède :** exiger au moins un retrait par an. Un système qui ne retire jamais rien ne révise rien — il collectionne. Si rien ne mérite le retrait, c'est la révision elle-même qui doit être réécrite : elle n'a plus de mordant.
+
+## La règle du dépannage
+
+Le legs tient sur une seule inversion : **le maître prépare son absence comme un livrable, pas comme un départ**. Toutes les pannes ci-dessus viennent d'un legs traité en émotion (partir, être fidèle, ne pas trahir) alors qu'il est un travail (registres, preuves, relais signés, retraits assumés). L'émotion a sa place — dans la lettre de legs. Le reste est mécanique.

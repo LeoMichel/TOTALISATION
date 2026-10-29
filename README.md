@@ -10,17 +10,22 @@
 
 ---
 
-## 📌 État d'avancement (17 octobre 2026)
+## 📌 État d'avancement (29 octobre 2026)
 
-| Livre | Statut |
-|---|---|
-| T̥T̯L̩S̯T̩˜ ❖ L'éveil de la TOTALISATION (L01) | ✅ Terminé, publié (couverture cover-L1) |
-| T̥T̯L̩S̯T̩˜ ❖ Toute la différence par la réconciliation du LEGACY | ✅ Terminé, publié (couverture cover-L2) |
-| T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (1) ROUGE (3e livre) | 🔄 En cours : squelette complet (8 semaines, 32 ateliers) |
-| T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (2) ORANGE (4e livre) | 🔄 En cours : squelette complet (8 semaines, 32 ateliers) |
-| T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (3) JAUNE (5e livre) | 🔄 En cours : squelette complet (8 semaines, 32 ateliers) |
-| Gabarit `livres/_gabarit.md` | ✅ Mis à jour : couverture uniforme + variante atelier (Guidance) |
-| L06 VERT à L09 VIOLET | 🔄 Squelettes en place, contenu à produire (voir `PLAN_COLLECTION.md`) |
+Les 9 livres sont au-dessus du plancher de ~45 000 mots. Les 7 guidances sont des carnets de pratique : exercices, ateliers, formation, protocoles opérationnels, évaluation.
+
+| Livre | Statut | Mots |
+|---|---|---|
+| T̥T̯L̩S̯T̩˜ ❖ L'éveil de la TOTALISATION (L01) | ✅ Terminé, publié (couverture cover-L1) | ~84 000 |
+| T̥T̯L̩S̯T̩˜ ❖ Toute la différence par la réconciliation du LEGACY (L02) | ✅ Terminé, publié (couverture cover-L2) | ~45 500 |
+| Guidance niveau (1) ROUGE (L03) | ✅ 45 000+ atteint (mission Faucon : mandat 6 semaines + prolongation) | ~50 300 |
+| Guidance niveau (2) ORANGE (L04) | ✅ 45 000+ atteint (incl. carnet du coach N2) | ~45 700 |
+| Guidance niveau (3) JAUNE (L05) | ✅ 45 000+ atteint (incl. annexe F, carnet N3) | ~45 100 |
+| Guidance niveau (4) VERT (L06) | ✅ 45 000+ atteint | ~45 100 |
+| Guidance niveau (5) BLEU (L07) | ✅ 45 000+ atteint | ~45 400 |
+| Guidance niveau (6) INDIGO (L08) | ✅ 45 000+ atteint (annexe A : correspondance vers LEGACY) | ~45 700 |
+| Guidance niveau (7) VIOLET (L09) | ✅ 45 000+ atteint (incl. collection LIVING, calendrier de lecture annuel) | ~45 000 |
+| Gabarit `livres/_gabarit.md` | ✅ Mis à jour : couverture uniforme + variante atelier (Guidance) | |
 
 ## 🌱 Le souhait : ce que je veux faire comme projet
 

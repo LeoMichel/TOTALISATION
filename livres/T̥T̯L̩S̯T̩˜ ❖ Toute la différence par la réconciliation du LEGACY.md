@@ -1972,3 +1972,65 @@ Section `COMMENT UTILISER CE REGISTRE` (feuille 1) : colonnes `Étape / Feuille 
 Feuille 2 : registre maître des expressions de test et testing. Exemple de ligne : Expression originale | EXP-XXX | Mirror validation | 1 | Technique comparative / réflexion, symétrie, réplication ou trafic miroir | Fixed et réconcilié ToTAL | Done | Famille de Validation utilisant un miroir déclaré...
 
 ---
+
+
+---
+
+# Annexe fondatrice : la grille de qualification comme origine commune
+
+*Cette annexe du livre LEGACY documente l'origine commune des livres guidance : la grille « niveau × interface × angle × type », issue de l'expérience ACAQ-OPAL-RT. C'est la théorie ici ; les sept livres couleur en déploient la pratique, palier par palier.*
+
+## Ce qu'est la grille
+
+Quatre colonnes, appliquées à chaque frontière entre équipes :
+
+1. **INTERFACE** — où le contact a lieu : quelle carte, quel contrat, quelle promesse explicite (y compris ce qu'on ne garantit pas).
+2. **TYPE** — quelle classe de test protège le contact : test d'interface, test de type (classe de défaut), test d'angle.
+3. **ANGLE** — qui pense l'inverse : « et si le voisin faisait exactement l'inverse de ce que je suppose ? » L'angle écrit par le voisin vaut l'angle écrit par soi, multiplié.
+4. **PREUVE** — la dernière exécution tracée. Un test sans exécution de moins de 90 jours est, en vérité, un test absent.
+
+La règle minimale qui traverse toute la collection : **une frontière sans combinaison complète (une case par colonne) n'est pas prête à intégrer.**
+
+## Pourquoi cette grille est l'origine commune
+
+Chaque livre guidance est un déploiement de la même grille à une échelle croissante :
+
+| Livre | Échelle | Ce que la grille y devient |
+|---|---|---|
+| ROUGE (1) | L'individu | La carte de ses propres frontières, les premiers tests |
+| ORANGE (2) | L'équipe | Le rituel de naissance des frontières, la promesse écrite |
+| JAUNE (3) | Les équipes adjacentes | La revue d'angle adverse, la gouvernance de frontière |
+| VERT (4) | Le portefeuille | L'échantillonnage au sort, la campagne d'audit |
+| BLEU (5) | La formation | La grille comme curriculum, le passeport, le calibrage |
+| INDIGO (6) | L'organisation | Les quatre taux, la cérémonie trimestrielle, l'actif de données |
+| VIOLET (7) | La maîtrise | Le legs, l'école interne, la boucle d'amélioration continue |
+
+Le lecteur qui comprend la grille ici comprend la cohérence de la collection : il ne s'agit pas de sept méthodes, mais d'une seule idée déployée à sept échelles.
+
+## Le fondement : pourquoi la preuve plutôt que la déclaration
+
+Le principe de preuve (colonne 4) est le socle philosophique de la TOTALISATION opérationnelle :
+
+- Une déclaration (« nos tests sont en place ») coûte une phrase et ne vaut rien face à un incident.
+- Une preuve (une exécution horodatée) coûte une discipline continue et vaut une décision de comité.
+- Toutes les pratiques de la collection — PV de naissance, fiches d'angle, procès-verbaux de tirage, registres de legs — sont des machines à produire des preuves.
+
+C'est aussi pourquoi les livres couleur n'acceptent que l'opérationnel : un exercice qui ne produit pas de trace vérifiable n'est pas un exercice TOTALISATION.
+
+## Le fondement : pourquoi le hasard plutôt que la stratégie
+
+L'échantillonnage au sort (livre VERT) heurte l'intuition managériale — on croit choisir mieux que le hasard. Trois raisons fondent le choix :
+
+1. **Contre l'aveuglement de confirmation** : nous auditons spontanément ce qui nous inquiète déjà — le tirage au sort regarde aussi ailleurs, là où vivent les surprises.
+2. **Contre la préparation cosmétique** : une équipe qui sait qu'elle sera auditée prépare cette équipe ; une équipe qui sait que *n'importe laquelle* peut être tirée maintient tout, en continu.
+3. **Contre la politique** : le jour où le choix des audits est stratégique, il est négociable. Le hasard annoncé à l'avance ne se négocie pas.
+
+Le même fondement explique les conséquences mécaniques : seuils et conséquences annoncés à l'avance, jamais improvisés. L'improvisation ouvre la porte du pouvoir discrétionnaire ; la mécanique la ferme.
+
+## Comment lire la collection à partir d'ici
+
+- Si vous vivez la pratique : commencez par votre livre de niveau, la grille s'y trouve déjà en exercices.
+- Si vous construisez la formation : BLEU déploie la grille en curriculum, INDIGO en mesures.
+- Si vous dirigez : cette annexe suffit à comprendre la cohérence ; les livres couleur vous donneront les rituels à demander, pas à imposer.
+
+La théorie tient en une page — le reste de la collection, plus de 450 000 mots, est fait de ce qui ne peut pas tenir en une page : les exercices, les gabarits, les cérémonies, les preuves. C'est voulu : la TOTALISATION se lit ici, mais elle se vit dans les carnets.

@@ -1,0 +1,10 @@
+﻿50676	T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (1) ROUGE.md
+47184	T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (2) ORANGE.md
+47409	T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (3) JAUNE.md
+47322	T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (4) VERT.md
+47552	T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (5) BLEU.md
+47987	T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (6) INDIGO.md
+47346	T̥T̯L̩S̯T̩˜ ❖ Guidance opérationnelle du niveau (7) VIOLET.md
+84010	T̥T̯L̩S̯T̩˜ ❖ L’éveil de la TOTALISATION.md
+46281	T̥T̯L̩S̯T̩˜ ❖ Toute la différence par la réconciliation du LEGACY.md
+1082	_gabarit.md

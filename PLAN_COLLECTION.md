@@ -23,13 +23,13 @@
 |---|---|---|---|---|
 | **L01** | L'Origine | `… L’éveil de la TOTALISATION.md` | Présentation / prise de conscience | ✅ publié |
 | **L02** | La réconciliation du LEGACY | `… Toute la différence par la réconciliation du LEGACY.md` | Réconciliation du LEGACY | ✅ publié |
-| **L03** | Rouge | `… Guidance opérationnelle du niveau (1) ROUGE.md` | Guide opérationnel (niveau 1) | 🔄 squelette complet (8 semaines, 32 ateliers) |
-| **L04** | Orange | `… Guidance opérationnelle du niveau (2) ORANGE.md` | Guide opérationnel (niveau 2) | 🔄 squelette complet (8 semaines, 32 ateliers) |
-| **L05** | Jaune | `… Guidance opérationnelle du niveau (3) JAUNE.md` | Guide opérationnel (niveau 3) | 🔄 squelette complet (8 semaines, 32 ateliers) |
-| **L06** | Vert | `… Guidance opérationnelle du niveau (4) VERT.md` | Guide opérationnel (niveau 4) | ⚪ à produire |
-| **L07** | Bleu | `… Guidance opérationnelle du niveau (5) BLEU.md` | Guide opérationnel (niveau 5) | ⚪ à produire |
-| **L08** | Indigo | `… Guidance opérationnelle du niveau (6) INDIGO.md` | Guide opérationnel (niveau 6) | ⚪ à produire |
-| **L09** | Violet | `… Guidance opérationnelle du niveau (7) VIOLET.md` | Guide opérationnel (niveau 7) | ⚪ à produire |
+| **L03** | Rouge | `… Guidance opérationnelle du niveau (1) ROUGE.md` | Carnet de pratique (niveau 1) | ✅ cible 45 000 atteinte (~50 300 mots) |
+| **L04** | Orange | `… Guidance opérationnelle du niveau (2) ORANGE.md` | Carnet de pratique (niveau 2) | ✅ cible 45 000 atteinte (~45 700 mots) |
+| **L05** | Jaune | `… Guidance opérationnelle du niveau (3) JAUNE.md` | Carnet de pratique (niveau 3) | ✅ cible 45 000 atteinte (~45 100 mots) |
+| **L06** | Vert | `… Guidance opérationnelle du niveau (4) VERT.md` | Carnet de pratique (niveau 4) | ✅ cible 45 000 atteinte (~45 100 mots) |
+| **L07** | Bleu | `… Guidance opérationnelle du niveau (5) BLEU.md` | Carnet de pratique (niveau 5) | ✅ cible 45 000 atteinte (~45 400 mots) |
+| **L08** | Indigo | `… Guidance opérationnelle du niveau (6) INDIGO.md` | Carnet de pratique (niveau 6) | ✅ cible 45 000 atteinte (~45 700 mots) |
+| **L09** | Violet | `… Guidance opérationnelle du niveau (7) VIOLET.md` | Carnet de pratique (niveau 7, conclusion de la collection) | ✅ cible 45 000 atteinte (~45 000 mots) |
 
 ### Historique de restructuration
 
@@ -73,15 +73,15 @@
 
 | Code | Niveau | État |
 |---|---|---|
-| L03 | ROUGE (1) | 🔄 contenu rédigé : 8 semaines, 3 modules formation, 6 exercices (~20 200 mots) |
-| L04 | ORANGE (2) | 🔄 contenu rédigé : 8 semaines, Parties 4-6 complètes, 13 fiches d'atelier, 6 exercices (~18 700 mots) |
-| L05 | JAUNE (3) | 🔄 contenu rédigé : 8 semaines, 5 modules formation, 6 exercices, grilles d'évaluation (~14 200 mots) |
-| L06 | VERT (4) | 🔄 contenu rédigé : 8 semaines, 5 modules formation, 6 exercices (~11 300 mots) |
-| L07 | BLEU (5) | 🔄 contenu rédigé : 8 semaines, 5 modules formation, 6 exercices, annexes complètes (~11 500 mots) |
-| L08 | INDIGO (6) | 🔄 contenu rédigé : 8 semaines, 5 modules formation, 6 exercices (~10 300 mots) |
-| L09 | VIOLET (7) | 🔄 contenu rédigé : 8 semaines, 5 modules formation, 6 exercices (~10 800 mots) |
+| L03 | ROUGE (1) | ✅ ~50 300 mots. 8 semaines, 3 modules formation, 6 exercices, cérémonies ACAQ, Parties 5-6, manuel de terrain, glossaire. Mission Faucon : mandat réel de 6 semaines (semaines 7-8 = prolongation après la mission). |
+| L04 | ORANGE (2) | ✅ ~45 700 mots. 8 semaines, Parties 4-6 complètes, 13 fiches d'atelier, 6 exercices, carnet du coach. |
+| L05 | JAUNE (3) | ✅ ~45 100 mots. 8 semaines, 5 modules formation, 6 exercices, grilles d'évaluation, annexe F, carnet du niveau. |
+| L06 | VERT (4) | ✅ ~45 100 mots. 8 semaines, 5 modules formation, 6 exercices, annexes complètes. |
+| L07 | BLEU (5) | ✅ ~45 400 mots. 8 semaines, 5 modules formation, 6 exercices, annexes complètes, guide de formation. |
+| L08 | INDIGO (6) | ✅ ~45 700 mots. 8 semaines, 5 modules formation, 6 exercices, annexe A de correspondance vers LEGACY. |
+| L09 | VIOLET (7) | ✅ ~45 000 mots. 8 semaines, 5 modules formation, 6 exercices, collection LIVING, calendrier de lecture annuel, mode autonome / maîtrise. |
 
-> Les 7 niveaux sont structuralement complets (8 semaines, Partie 4 formation/exercices/évaluation, épilogue, 0 placeholder). **Étape suivante : atteindre la cible de ~45 000 mots par livre** en ajoutant les gabarits remplis d'exemples, les études de cas détaillées et les variantes sectorielles. Les mots actuels sont du contenu opérationnel rédigé, pas des squelettes.
+> Les 7 niveaux sont **au-dessus de la cible de ~45 000 mots** (total collection ~453 000 mots). Chaque guidance est un carnet de pratique : exercices, ateliers, formation, protocoles minute par minute, gabarits à remplir, grilles d'évaluation, scripts de conversation, fiches d'outil. La théorie du pourquoi demeure dans L01/L02. Le dossier `ideas/` a été entièrement inventorié (voir `!TEMPO/ETAT_IDEAS.md`), la matière exploitable est intégrée.
 
 ## Réserve d'idées (sans livre dédié)
 
