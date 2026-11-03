@@ -64,7 +64,8 @@ Total : ≈ 462 300 mots. Validation par comptage `Get-Content -Raw` + split mot
 - [x] 3 documents ToTAL docx exploités
 - [x] `vecu.txt` lu au complet, vécu réparti dans les livres appropriés
 - [x] `petal.zip` : 3 documents RH seulement (avantages sociaux, bonification, CV) - non exploitable pour le contenu (0 %), noté comme faux négatif
-- [x] Anciens brouillons de livres (L1 Origine parties A/B/C, L15 Guide Rouge parties A/B/C, etc.) exploit] Inventaire complet et pourcentage d'utilisation : voir `!TEMPO/INVENTAIRE_IDEAS_COMPLET_v2.md`
+- [x] Anciens brouillons de livres (L1 Origine parties A/B/C, L15 Guide Rouge parties A/B/C, etc.) exploités
+- [x] Inventaire complet et pourcentage d'utilisation : voir `!TEMPO/INVENTAIRE_IDEAS_COMPLET_v2.md`
 
 ---
 
