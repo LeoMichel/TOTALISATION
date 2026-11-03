@@ -84,6 +84,6 @@ Total : ≈ 462 300 mots. Validation par comptage `Get-Content -Raw` + split mot
 - [ ] QA finale par livre : aucun `[À remplir]`, aucune prescription incomplète, ROUGE pages 1-4 dans les 4 premières semaines, chaque livre ≥ 45 000 mots
 - [x] Nettoyer `!TEMPO/petal-extrait/` (contenu RH non exploitable) : retiré du dépôt git
 - [x] `!TEMPO/livrables.tar.gz` (ancienne structure 21 livres) : retiré du dépôt git
-- [~] Commit final + `git push origin main` (le push précédent a été interrompu par une demande d'authentification)
+- [x] Commit final + `git push origin main` (push réussi 2026-11-03 : 1114076..b7df02c) (le push précédent a été interrompu par une demande d'authentification)
 - [ ] Couvertures d'images (cover-L1 à cover-L9) si disponible
 - [ ] Préparer l'export imprimé (PDF) par livre
