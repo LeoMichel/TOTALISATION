@@ -92,3 +92,14 @@ Si l'objectif est 45 000 mots par livre guidance, voici où nous sommes :
 | VIOLET | 45 010 | ✅ 0 | Idem |
 
 **Ce que cela veut dire :** les guidances ROUGE, ORANGE, JAUNE et VIOLET sont complètes. Les guidances VERT, BLEU et INDIGO ont encore besoin de 900 à 6 600 mots — et la matière est disponible dans ideas/ (ACAQ + vécu). Le travail restant est ciblé, pas général.
+
+---
+
+## 4. VERIFICATION FINALE (2026-11-03)
+
+Tous les 9 livres depassent 45 000 mots. Repartition mesuree :
+ROUGE 50 676 / ORANGE 47 184 / JAUNE 47 409 / VERT 47 322 / BLEU 47 552 / INDIGO 47 987 / VIOLET 47 346 / EVEIL 83 986 / LEGACY 46 271.
+
+Les priorites 1-4 ci-dessus (ACAQ, vecu etendu, Petal, docx ToTAL) ont ete integrees dans les guidances couleurs, en gardant la regle : livres couleur = pratique (ateliers, exercices, formations, evaluations, gabarits, checklists). Le vecu Opal-RT mission Faucon est limite aux 6 semaines du mandat dans ROUGE (semaines 5-8 = prolongation post-mandat, capsules retitrees).
+
+ideas/ est considere comme epuise : aucune matiere exploitable restante identifiee.
