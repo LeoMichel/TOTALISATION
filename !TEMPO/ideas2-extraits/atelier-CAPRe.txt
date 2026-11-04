@@ -1,0 +1,46 @@
+﻿=== SLIDE slide1.xml ===
+ToTAL SAFe – Atelier CARe | Réalité produit, opérations et validation de la valeur
+=== SLIDE slide2.xml ===
+Vision CARe | CARe observe la réalité produit | Expose la vraie valeur | Révèle les écarts entre attendu et réel
+=== SLIDE slide3.xml ===
+Métaphore ToTAL | SENSe |  =  | Raffinerie |  ( | DoR | ) | FORGe |  = Train ( | JiT | ) | CARe |  = GROUND |  (DoD) | La  | valeur |   | existe |  dans la  | réalité
+=== SLIDE slide4.xml ===
+Position | FORGe → CARe → SENSe | FORGe prépare (simulation) | CARe expose (réel) | SENSe comprend
+=== SLIDE slide5.xml ===
+Flot CARe | Diffuser | Exécuter | Veiller | Mesurer | Signaler
+=== SLIDE slide6.xml ===
+Activités CARe | Déploiement / publication | Monitoring / observabilité | Alertes / watchdogs | Support / assistance | Tests synthétiques / A/B | Collecte données
+=== SLIDE slide7.xml ===
+Objets CARe | Signal | Incident | Métrique | Logs / traces | Usage réel | Feedback
+=== SLIDE slide8.xml ===
+Qualimétrie | Données du réel | Dépôt des signaux | Source pour SENSe | Mémoire du réel
+=== SLIDE slide9.xml ===
+Specs dans CARe | Référence comportement attendu | Comparaison réel vs modèle | Détection d’écarts
+=== SLIDE slide10.xml ===
+Cycle EPIC | SENSe |  →  | défini | FORGe |  →  | construit |  (simulation) | CARe |  →  | utilisé |  et  | observé | Un EPIC vit dans la  | réalité | Elle  | meure |   | quand | ,  | elle |  est  | terminée |   | quand |  ?
+=== SLIDE slide11.xml ===
+DoR / DoD contextuels | SENSe |  →  | DoR | FORGe |  →  | JiT | CARe |  → DoD | Ceci est pour la vie  | d'une |  EPIC qui  | différent |  de  | DoR |  et DoD  | d'une |  story
+=== SLIDE slide12.xml ===
+Cycle des specs | RED → Defined ( | SENSe | ),  | ce |  qui  | valide |  le  | modèle | BLUE → Built ( | FORGe | ),  | ce |  qui  | valide |  la simulation prod | GREEN → Proven ( | CARe | ),  | ce |  qui  | valide |  le  | réel | ici |  on ne parle pas de pass/fail  | directement |   | mais |  d'état des  | spécification |  (TDD)
+=== SLIDE slide13.xml ===
+Rôle Qualité (QA) | Définit métriques | Garantit observabilité | Mesure réel | Compare attendu vs réel
+=== SLIDE slide14.xml ===
+Rôles | OPS/DevOps → déploie et surveille | QA → structure la qualité | Produit → interprète (via SENSe) | Support → capte feedback utilisateur
+=== SLIDE slide15.xml ===
+Rôle Direction | Pilote par données réelles | Arbitre par valeur réelle | Décision basée sur usage
+=== SLIDE slide16.xml ===
+IA &amp; Automatisation | Monitoring automatique | Détection anomalies | Analyse comportement | Alimente IA produit
+=== SLIDE slide17.xml ===
+Exercice | À  | partir |  d’un  | scénario |  : | Simuler |  le passage dans le  | flot |   | CARe | Identifier les points  | d’observation | Définir |  les  | mécanismes |  de  | mesure | Produire |  les  | signaux | 👉 Pour chaque groupe : | Quel est l’événement réel ? | Qu’est-ce qui est observable ? | Comment détecter l’événement ? | Quelle donnée capturer ? | Quel signal remonter ?
+=== SLIDE slide18.xml ===
+Scénarios CARe – du déploiement au signal | Réception EPIC (FORGe - BLUE) | Diffuser → rendre disponible | Exécuter → usage réel | Veiller → monitoring / support | Mesurer → qualimétrie | → Signal pour SENSe
+=== SLIDE slide19.xml ===
+Scénario – Incident | FORGe → EPIC validé en simulation (BLUE) | Diffusion → mise en production | Exécution → erreur réelle | Veille → alerte / support détecte | Mesure → logs / métriques capturés | Résultat → signal INCIDENT
+=== SLIDE slide20.xml ===
+Scénario – Usage | FORGe → EPIC livré (BLUE) | Diffusion → feature disponible | Exécution → usage utilisateur réel | Veille → observation du comportement | Mesure → analytics / usage | Résultat → signal USAGE
+=== SLIDE slide21.xml ===
+Scénario – Faux succès | FORGe → EPIC validé (BLUE) | Diffusion → feature disponible | Exécution → faible adoption | Veille → aucun incident visible | Mesure → métriques faibles | Résultat → signal NON-ADOPTION
+=== SLIDE slide22.xml ===
+Scénario – Opportunité | FORGe → EPIC livré (BLUE) | Diffusion → feature disponible | Exécution → usage inattendu | Veille → observation patterns | Mesure → augmentation usage | Résultat → signal OPPORTUNITÉ
+=== SLIDE slide23.xml ===
+Conclusion | CARe expose la réalité produit | Sans CARe → hypothèses | La valeur n’existe que dans le réel

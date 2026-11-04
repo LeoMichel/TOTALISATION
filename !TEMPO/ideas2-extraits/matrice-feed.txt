@@ -1,0 +1,59 @@
+﻿=== SHARED STRINGS (matrice-feed) ===
+Feed (source atomique)
+Livre ToTAL (destination)
+ToTAL_Art_Realiser_v31_part1 — Chapitre 12 : Excellence durable
+ToTAL_Art_Realiser_v31_part1 — Chapitre 13 : Ce que ToTAL apporte au cycle produit
+ToTAL_Art_Realiser_v31_part2 — Chapitre 19 : Veiller (CARE)
+Centre d’Excellence v1B — Lexique ToTAL
+Centre d’Excellence v1B — SDLC ToTAL
+Centre d’Excellence v1B — Rôles et RACI
+Centre d’Excellence v1B — Contrats ToTAL
+Petal — Politique bug
+Petal — Anti‑patterns
+Opal‑RT — Semaine 4 Jour 5 : Arrimage R&amp;D
+Alithya.xlsx — Tableau KPI
+Ancien brouillon — Guide Rouge
+📚 Liste finale des 21 livres ToTAL
+ToTAL - L’origine de l’art de l’excellence pour la réalisation dans le domaine du logiciel
+ToTAL - Réconciliation avec le cycle de vie de la réalisation du logiciel (SDLC)
+ToTAL - Réconciliation avec les spécifications par la modélisation en continu
+ToTAL - Guidance opérationnelle du niveau ROUGE
+ToTAL - Guidance opérationnelle du niveau ORANGE
+ToTAL - Guidance opérationnelle du niveau JAUNE
+ToTAL - Guidance opérationnelle du niveau VERT
+ToTAL - Guidance opérationnelle du niveau BLEU
+ToTAL - Guidance opérationnelle du niveau INDIGO
+ToTAL - Guidance opérationnelle du niveau VIOLET
+ToTAL - Réconciliation avec être sur la même longeur d'onde
+ToTAL - Réconciliation avec se mesurer pour s’améliorer par la qualimétrie
+ToTAL - Réconciliation avec la mystérieuse cité de la qualité perdue
+ToTAL - Réconciliation avec les méthodologies, terminologies et meilleures pratiques
+ToTAL - Réconciliation avec le "beastest" outil
+ToTAL - Réconciliation avec jongler intelligemment utilisant l’intelligence artificielle
+ToTAL - Réconciliation avec la confiance vers la satisfaction jusqu’au succès
+ToTAL - Réconciliation avec attrape‑moi donc ce bug !
+ToTAL - Réconciliation avec le génésis humain de l’automatisation 
+ToTAL - Réconciliation avec la science oubliée de l’investigation et de la recherche
+ToTAL - Réconciliation avec le produit logiciel
+Notes
+Livre fondateur : origine et vision de ToTAL, art de la réalisation, causes systémiques des échecs, Centre d’excellence et catalyseurs, interopérabilité, architecture distribuée et cohérence de l’ensemble.
+Réconcilier l’idée, la valeur et l’exploitation dans un cycle continu : découverte, priorisation, réalisation, intégration, livraison, déploiement, rétroaction, rôles, responsabilités et organisation opérationnelle.
+Faire de la spécification un modèle vivant et vérifiable : SDD, règles IF… THEN…, exemples, scénarios, critères de réalisation, tests comme preuves et évolution continue du besoin avec le logiciel.
+Aligner langage, intention et action : stratégie, tactique et plan; communication entre métiers et technologie; gestion du changement, médiation, gouvernance, contrats, conformité, désaccords et sabotage.
+Mesurer pour comprendre et décider plutôt que pour surveiller : traçabilité, observabilité, métriques, KPI, qualité des données, seuils, tendances, ROI, gouvernance et prévention des indicateurs trompeurs.
+Retrouver la qualité comme propriété du système entier : conception, prévention, sécurité opérationnelle, pratiques qualité, responsabilités partagées, compromis, dette, contrôle et amélioration continue.
+Distinguer principes, méthodes, cadres, pratiques et vocabulaire; comprendre leur contexte, leurs limites et leurs incompatibilités; composer une approche cohérente sans dogme ni imitation mécanique.
+Employer l’IA comme partenaire sous contrôle : problèmes appropriés, données, expérimentation, spécifications et évaluation, explicabilité, biais, risques, supervision humaine et intégration responsable au travail.
+Redéfinir le produit logiciel comme centre durable de valeur : raison d’être, utilisateurs, capacités, données, dépendances, écosystème, environnements, économie, gouvernance et cycle de vie. Le projet devient un paquet temporaire de réalisation du produit.
+Réhabiliter l’investigation avant la solution : observation, questionnement, hypothèses, exploration, recherche, expérimentation, preuves, réfutation, apprentissage et passage discipliné de l’inconnu à la découverte.
+Transformer chaque anomalie en connaissance : détection, reproduction, triage, diagnostic, correction, vérification, prévention, politique de bogues, post-mortems sans blâme et culture d’apprentissage.
+Revenir à la genèse humaine de l’automatisation : pourquoi automatiser, quoi préserver, coopération humain-machine, choix éthiques, limites, coûts cachés et philosophie d’une automatisation au service du travail.
+Construire la confiance qui mène à la satisfaction puis au succès : fiabilité, sécurité, transparence, attentes, expérience, engagements, preuves, rétroaction et responsabilité envers utilisateurs, clients et partenaires.
+Questionner le mythe du « beastest » outil : partir du problème et du contexte, évaluer utilité, adoption, intégration, tests, automatisation, dépendances, coût total, réversibilité et effets organisationnels.
+ROUGE — Stabiliser l’urgence : rendre les risques visibles, protéger les personnes et les opérations, contenir les défaillances, rétablir un minimum de contrôle et préparer la sortie du mode réactif.
+ORANGE — Reprendre le contrôle : clarifier responsabilités et priorités, rendre le travail visible, limiter l’encours, instaurer les contrôles essentiels et fiabiliser les premières boucles de rétroaction.
+JAUNE — Rendre la réalisation prévisible : harmoniser le langage, définir les pratiques communes, expliciter les critères, réduire la variabilité et construire une qualité reproductible.
+VERT — Installer l’amélioration continue : mesurer les résultats, apprendre des écarts, prévenir les défauts, optimiser le flux et donner aux équipes les moyens d’améliorer durablement le produit.
+BLEU — Intégrer et étendre : coordonner produits, équipes et plateformes; maîtriser les dépendances; automatiser avec discernement; gouverner sans étouffer l’autonomie.
+INDIGO — Anticiper et adapter : exploiter les signaux faibles, expérimenter, gérer l’incertitude, faire évoluer l’architecture et le portefeuille, et renforcer la résilience de l’écosystème.
+VIOLET — Transformer avec cohérence : unir vision, produit, personnes, données et technologie; cultiver l’excellence durable; renouveler le système sans perdre son sens ni sa capacité d’apprentissage.

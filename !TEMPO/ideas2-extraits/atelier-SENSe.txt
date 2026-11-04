@@ -1,0 +1,38 @@
+﻿=== SLIDE slide1.xml ===
+L’atelier | SENSe | ( | ToTAL | ) | Ingénierie de définition produit et livraison valeur | (le portefolio++  | SAFe | )
+=== SLIDE slide2.xml ===
+La vision | SENSe |  = moteur de décision et d’ingénierie produit | Transforme les signaux en valeur livrable | Crée le jumeau numérique avant  | FORGe | Prépare des  | Epics |  prêts à livrer
+=== SLIDE slide3.xml ===
+Le flot
+=== SLIDE slide4.xml ===
+Les activités | Analyser, comprendre, interpréter et apprendre | Décision | Officialisation du souhait | Design / UX / architecture | Modélisation | Spécifications | Priorisation | Validation
+=== SLIDE slide5.xml ===
+Les objets | Signal |  ( | qualimétrie | ) : incident, métrique, feedback, vision, objectif (OKR)… | Initiative |  : intention de valeur à modéliser | Epic |  : unité de livraison (mineur ou majeur) | Feature |  : ensemble de comportements modélisés (Test Set  | Xray | ) | Spécification |  : Définition exécutable du produit (BDD, règles, tests) | Note :  | Story |  est l’implémentation itérative interne ( | SAFe | )
+=== SLIDE slide6.xml ===
+Le signal | Transformer les  | signaux |   | en |   | compréhension | Observer la  | réalité |  ( | CARe | ,  | métriques | , feedback, voix du client…) | Identifier les  | problèmes |   | réels |  (pas les  | symptômes | ) | Analyser |  les impacts (client,  | produit | , technique) | Comprendre |  les causes (RCA)Transformer  | en |   | opportunité |  de  | valeur | Apprendre et améliorer par l’analyse des signaux
+=== SLIDE slide7.xml ===
+L’initiative (requis) | Point d’entrée  | SENSe | Basé sur un signal analysé | Définit une intention de valeur | Peut être très petit ou très grand | Définit un modèle produit/ | feature | (s) ( | specs | ) | Transforme un signal en intention de valeur modélisable
+=== SLIDE slide8.xml ===
+L’ | epic |  (release) | Unité de valeur livrée au client | Peut être mineur ou majeur | Toujours basé sur des  | specs |  validées | Visible en  | SAFe |  et en  | CARe | Base des roadmaps | Une livraison réelle de valeur (pas une tâche)
+=== SLIDE slide9.xml ===
+Feature |  ≠ Release | Documentation du produit/fonctionnalités | Regroupement de spécifications | Représenté en  | Xray | 100% testable | Utilisé pour :  | couverture, validation, etc.
+=== SLIDE slide10.xml ===
+La  | specs |  (spécification)  | Source de vérité | Spécifications exécutables (tests + règles + exigences) | BDD (comportement) | Xray |  Test Sets, couverture total… ( | features | ) | Règles métier | Critères d’acceptation | Base pour IA et automatisation++ | Modélisation
+=== SLIDE slide11.xml ===
+IA &amp; Automatisation | Specs |  = input IA | Génération tests automatique | Génération code | Validation continue | SENSe |  = clé de l’IA | Consommable par agents IA (génération, validation, simulation)
+=== SLIDE slide12.xml ===
+Definition of Ready | ( | DoR |   | SAFe | )
+=== SLIDE slide13.xml ===
+Agile Portefolio → Agile Release Train
+=== SLIDE slide14.xml ===
+Exercice atelier | Prendre chacun des signaux | Créer une Initiative (valeur ajoutée) | Définir problème/solution | Modèliser |  et créer les  | specs | Atomatiser |  les  | specs |  et les rendre disponible pour les agents IA | Identifier le(s) Epic(s) | Valider avec l’origine du signal si cela fait du sens. | Prioriser la release dans un ordre (roadmaps)
+=== SLIDE slide15.xml ===
+Scénario - Nouvelle valeur (OKR) | Signal business | Initiative | Design complet | Multiples  | Epics | Releases incrémentales majeur
+=== SLIDE slide16.xml ===
+Scénario - Incident | Signal  | CARe | Initiative créée | RCA et analyse | Specs | Epic | Release mineur et majeur
+=== SLIDE slide17.xml ===
+Scénario - Typo | Signal simple | Initiative minimale | Update specs | Epic | Release en secondes mineur et majeur
+=== SLIDE slide18.xml ===
+Scénario – Configuration de l’environnement de production | En extra  | 
+=== SLIDE slide19.xml ===
+Conclusion
