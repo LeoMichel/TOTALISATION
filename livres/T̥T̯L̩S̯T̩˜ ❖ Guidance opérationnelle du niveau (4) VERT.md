@@ -5,7 +5,7 @@
 **[Image de couverture : à insérer ici]**
 
 Titre : Guidance opérationnelle du niveau (4) VERT
-Sous-titre / accroche : 8 semaines pour installer BEASTEST et faire rayonner le niveau 4 — avec l'équipe pilote devenue modèle
+Sous-titre / accroche : 8 semaines pour installer l'outil d'automatisation et faire rayonner le niveau 4 — avec l'équipe pilote devenue modèle
 Logotype : T̥T̯L̩S̯T̩˜ · Maison d'édition : ORIGINALIUM
 
 ---
@@ -30,14 +30,14 @@ Illustrateur/couverture : Soléane Bélanger
 
 ## Quatrième de couverture
 
-**Du niveau 3 au niveau 4. Huit semaines. L'équipe pilote devient modèle. BEASTEST entre en jeu.**
+**Du niveau 3 au niveau 4. Huit semaines. L'équipe pilote devient modèle. l'outil d'automatisation entre en jeu.**
 
 > « Le niveau 3 apprend à tenir la cadence. Le niveau 4 apprend à faire de l'automatisation intelligente un levier de livraison, pas un fardeau. »
 
-**Ce livre est un carnet d'atelier de niveau 4.** Là où le livre JAUNE a forgé les processus de planification et d'implémentation en cadence, ce livre VERT fait entrer l'équipe pilote dans l'ère de l'automatisation intelligente : BEASTEST devient l'outil de génération de tests à partir des modèles, la couverture atteint tous les niveaux de test, et l'équipe commence à rayonner vers les autres équipes de l'organisation. C'est le niveau où la qualité cesse d'être une activité pour devenir un système qui tourne.
+**Ce livre est un carnet d'atelier de niveau 4.** Là où le livre JAUNE a forgé les processus de planification et d'implémentation en cadence, ce livre VERT fait entrer l'équipe pilote dans l'ère de l'automatisation intelligente : l'outil d'automatisation devient l'outil de génération de tests à partir des modèles, la couverture atteint tous les niveaux de test, et l'équipe commence à rayonner vers les autres équipes de l'organisation. C'est le niveau où la qualité cesse d'être une activité pour devenir un système qui tourne.
 
 **Ce que vous découvrirez :**
-- Comment installer et configurer BEASTEST comme générateur de tests à partir des spécifications modélisées
+- Comment installer et configurer l'outil d'automatisation comme générateur de tests à partir des spécifications modélisées
 - Comment passer d'une couverture partielle à une couverture systématique par types de test (unitaire, intégration, système, E2E, performance, sécurité, mutation)
 - Comment l'équipe pilote devient un centre de compétence que les autres équipes viennent consulter
 - Les capsules du vécu : ce qui change quand l'automatisation passe de l'outil à l'infrastructure
@@ -46,7 +46,7 @@ Illustrateur/couverture : Soléane Bélanger
 **À qui s'adresse ce livre :** Toute l'équipe pilote qui a implémenté le niveau 3 (JAUNE) et veut monter au niveau 4 : développeurs, architectes, testeurs/QA, ops, responsables qualité, product owners, et les coaches qui les accompagnent. Le livre s'adresse aux équipes qui veulent faire de l'automatisation un levier de livraison, pas un atelier isolé.
 
 **À propos de l'auteur :**
-Michel Bélanger, fondateur d'ORIGINALIUM et créateur de BEASTEST, accompagne les organisations dans la réconciliation entre vitesse, profitabilité et qualité. Il est l'auteur de la collection TOTALISATION.
+Michel Bélanger, fondateur d'ORIGINALIUM et créateur de l'outil d'automatisation, accompagne les organisations dans la réconciliation entre vitesse, profitabilité et qualité. Il est l'auteur de la collection TOTALISATION.
 
 **À propos de l'illustratrice :**
 Soléane Bélanger, illustration et direction visuelle de la collection.
@@ -64,19 +64,19 @@ Ce livre n'a pas été créé par l'IA : elle a été un outil de transformation
 
 - Avant-propos : quand l'automatisation devient infrastructure
 - Introduction : du JAUNE au VERT, de la cadence à l'automatisation intelligente
-- Partie 1 : Installer BEASTEST (semaines 1 à 2)
-  - Semaine 1 : BEASTEST en place, premiers tests générés
+- Partie 1 : Installer l'outil d'automatisation (semaines 1 à 2)
+  - Semaine 1 : l'outil d'automatisation en place, premiers tests générés
   - Semaine 2 : Couverture par types de test, pipeline automatisé
 - Partie 2 : Faire rayonner (semaines 3 à 4)
   - Semaine 3 : L'équipe pilote devient centre de compétence
   - Semaine 4 : Transfert vers une deuxième équipe
 - Partie 3 : Ancrer et préparer le niveau 5 (semaines 5 à 6)
   - Semaine 5 : Diagnostiquer les blocages d'automatisation
-  - Semaine 6 : Virage vers l'autonomie complète BEASTEST
+  - Semaine 6 : Virage vers l'autonomie complète l'outil d'automatisation
 - Partie 4 : Perpétuer et étendre (semaines 7 à 8)
   - Semaine 7 : Couverture systématique et qualité de génération
   - Semaine 8 : Contrat qualité v4.0, centre d'excellence rayonnant, préparation BLEU
-- Épilogue : ce n'est pas BEASTEST qui réconcilie, c'est vous
+- Épilogue : ce n'est pas l'outil d'automatisation qui réconcilie, c'est vous
 - Annexes
 - Notes de facilitation semaine par semaine (S1 à S8)
 
@@ -92,7 +92,7 @@ J'ai vu ce basculement une fois, et je ne l'ai pas vu venir. Une équipe qui gé
 
 C'est le sujet de ce livre : transformer l'automatisation en infrastructure. Une infrastructure ne dépend pas de l'humeur de la semaine, ni de la disponibilité de la personne qui la maintient. Elle tient parce qu'elle est documentée, gardée, transmise. Le niveau 4 ne demande pas d'être plus rapide : il demande que la vitesse ne repose plus sur personne.
 
-Une mise en garde honnête : BEASTEST, l'outil au centre de ce niveau, n'est pas une baguette magique. Sans les modèles du niveau 2 et les rituels du niveau 3, il génère vite des tests qui ne testent rien. L'ordre de la collection n'est pas un caprice d'éditeur : c'est l'ordre de la dépendance des fondations.
+Une mise en garde honnête : l'outil d'automatisation, l'outil au centre de ce niveau, n'est pas une baguette magique. Sans les modèles du niveau 2 et les rituels du niveau 3, il génère vite des tests qui ne testent rien. L'ordre de la collection n'est pas un caprice d'éditeur : c'est l'ordre de la dépendance des fondations.
 
 ---
 
@@ -106,7 +106,7 @@ Une mise en garde honnête : BEASTEST, l'outil au centre de ce niveau, n'est pas
 
 Le livre JAUNE vous a fait traverser huit semaines pour forger les processus de planification et d'implémentation au niveau 3. Vous en sortez avec une grille Go/No-Go fondée sur des preuves, des rituels qui tiennent sans le coach, une couverture par types de test commencée, des règles d'usage de l'IA écrites, et un contrat qualité v3.0. L'équipe est autonome. Elle livre en cadence.
 
-Mais l'automatisation reste souvent un atelier à part : quelques tests automatisés ici, quelques scripts là, générés à la main ou copiés d'un projet à l'autre. Le niveau 4 change la donne. Il fait de l'automatisation une infrastructure intégrée : BEASTEST génère les tests à partir des modèles BPMN/MBT, la couverture est systématique par types de test, et l'équipe pilote devient un centre de compétence que les autres équipes consultent.
+Mais l'automatisation reste souvent un atelier à part : quelques tests automatisés ici, quelques scripts là, générés à la main ou copiés d'un projet à l'autre. Le niveau 4 change la donne. Il fait de l'automatisation une infrastructure intégrée : l'outil d'automatisation génère les tests à partir des modèles BPMN/MBT, la couverture est systématique par types de test, et l'équipe pilote devient un centre de compétence que les autres équipes consultent.
 
 Huit semaines encore. Mais cette fois, l'objectif n'est plus seulement de livrer. C'est de **faire de l'automatisation un levier de livraison** : moins de tests manuels, plus de confiance, des livraisons plus fréquentes, et une équipe qui rayonne.
 
@@ -114,152 +114,152 @@ Huit semaines encore. Mais cette fois, l'objectif n'est plus seulement de livrer
 
 ### Comment lire ce livre
 
-Chaque semaine est un module d'exercices complet : objectif, résultat attendu, ateliers numérotés avec étapes précises et livrables, capsules du vécu, points de vigilance, et checklist de fin de semaine. Les semaines 1 à 4 installent BEASTEST et la couverture. Les semaines 5 à 6 font le virage vers l'autonomie complète. Les semaines 7 à 8 ancrent la pratique et préparent le passage au niveau 5 (BLEU).
+Chaque semaine est un module d'exercices complet : objectif, résultat attendu, ateliers numérotés avec étapes précises et livrables, capsules du vécu, points de vigilance, et checklist de fin de semaine. Les semaines 1 à 4 installent l'outil d'automatisation et la couverture. Les semaines 5 à 6 font le virage vers l'autonomie complète. Les semaines 7 à 8 ancrent la pratique et préparent le passage au niveau 5 (BLEU).
 
-Les capsules du vécu s'inspirent des récits de terrain de l'auteur : expériences chez Rayduf, Exaxe, CGI, Infor, Optel et autres organisations qui ont contribué à façonner ToTAL. Ce sont des tranches de vie, pas des études de cas idéalisées.
-
----
-## Partie 1 : Installer BEASTEST (semaines 1 à 2)
-
-Les deux premières semaines ont pour objectif d'installer BEASTEST comme générateur de tests à partir des spécifications modélisées existantes (niveau 2/3), et de construire la première couverture systématique par types de test.
+Les capsules du vécu s'inspirent des récits de terrain de l'auteur : expériences dans plusieurs organisations que j'ai accompagnées — organisations qui ont contribué à façonner ToTAL. Ce sont des tranches de vie, pas des études de cas idéalisées.
 
 ---
+## Partie 1 : Installer l'outil d'automatisation (semaines 1 à 2)
 
-## Semaine 1 : BEASTEST en place, premiers tests générés
+Les deux premières semaines ont pour objectif d'installer l'outil d'automatisation comme générateur de tests à partir des spécifications modélisées existantes (niveau 2/3), et de construire la première couverture systématique par types de test.
 
-**Objectif de la semaine :** installer et configurer BEASTEST, le connecter aux modèles BPMN/MBT existants, et générer les premiers tests automatisés. Répondre à la question : « comment faire en sorte que BEASTEST produise des tests utilisables à partir de nos spécifications, sans que l'équipe passe son temps à les écrire à la main ? »
+---
 
-**Résultat attendu à la fin de la semaine :** BEASTEST installé et configuré, premiers tests générés à partir d'un modèle BPMN/MBT, et une première exécution réussie dans le pipeline de livraison.
+## Semaine 1 : l'outil d'automatisation en place, premiers tests générés
 
-### Atelier 1.1 : Installation et configuration de BEASTEST
+**Objectif de la semaine :** installer et configurer l'outil d'automatisation, le connecter aux modèles BPMN/MBT existants, et générer les premiers tests automatisés. Répondre à la question : « comment faire en sorte que l'outil d'automatisation produise des tests utilisables à partir de nos spécifications, sans que l'équipe passe son temps à les écrire à la main ? »
 
-**Objectif :** mettre BEASTEST en place dans l'environnement de l'équipe pilote, avec les bons droits d'accès, les connexions aux dépôts de modèles, et l'intégration dans le pipeline CI/CD.
+**Résultat attendu à la fin de la semaine :** l'outil d'automatisation installé et configuré, premiers tests générés à partir d'un modèle BPMN/MBT, et une première exécution réussie dans le pipeline de livraison.
+
+### Atelier 1.1 : Installation et configuration de l'outil d'automatisation
+
+**Objectif :** mettre l'outil d'automatisation en place dans l'environnement de l'équipe pilote, avec les bons droits d'accès, les connexions aux dépôts de modèles, et l'intégration dans le pipeline CI/CD.
 
 **Durée :** 3 heures. **Participants :** lead technique, coach TOTALISATION, responsable outillage (si présent).
 
 **Étapes :**
-1. Installer BEASTEST sur un poste de référence ou un serveur dédié, selon l'infrastructure de l'équipe.
+1. Installer l'outil d'automatisation sur un poste de référence ou un serveur dédié, selon l'infrastructure de l'équipe.
 2. Configurer les connexions aux dépôts contenant les modèles BPMN/MBT (niveau 2/3 déjà en place).
-3. Configurer l'export des modèles vers BEASTEST et l'import des tests générés vers le dépôt de tests de l'équipe.
-4. Intégrer BEASTEST dans le pipeline CI/CD : génération de tests à chaque modification d'un modèle, exécution dans le pipeline de livraison.
+3. Configurer l'export des modèles vers l'outil d'automatisation et l'import des tests générés vers le dépôt de tests de l'équipe.
+4. Intégrer l'outil d'automatisation dans le pipeline CI/CD : génération de tests à chaque modification d'un modèle, exécution dans le pipeline de livraison.
 5. Tester le flux de bout en bout : modification d'un modèle → génération de tests → exécution → rapport.
 
-**Livrable :** BEASTEST installé, configuré, et intégré dans le pipeline. Premier flux modèle → test → exécution fonctionnel.
+**Livrable :** l'outil d'automatisation installé, configuré, et intégré dans le pipeline. Premier flux modèle → test → exécution fonctionnel.
 
 ### Atelier 1.2 : Premier modèle et premiers tests générés
 
-**Objectif :** choisir un modèle BPMN/MBT existant (niveau 2/3), le faire traiter par BEASTEST, et générer les premiers tests automatisés.
+**Objectif :** choisir un modèle BPMN/MBT existant (niveau 2/3), le faire traiter par l'outil d'automatisation, et générer les premiers tests automatisés.
 
 **Durée :** 3 heures. **Participants :** équipe pilote, lead technique, coach TOTALISATION.
 
 **Étapes :**
 1. Choisir un modèle BPMN/MBT simple et stable (une fonctionnalité critique, bien documentée).
-2. Faire traiter ce modèle par BEASTEST : génération des cas de test, des scénarios, des données de test.
+2. Faire traiter ce modèle par l'outil d'automatisation : génération des cas de test, des scénarios, des données de test.
 3. Examiner les tests générés : sont-ils pertinents ? Couvrent-ils les flux principaux ? Y a-t-il des tests redondants ou absurdes ?
-4. Ajuster les paramètres de génération de BEASTEST si nécessaire (profondeur d'exploration, exclusion de certains flux, priorisation).
+4. Ajuster les paramètres de génération de l'outil d'automatisation si nécessaire (profondeur d'exploration, exclusion de certains flux, priorisation).
 5. Exporter les tests générés vers le dépôt de tests de l'équipe.
 
-**Livrable :** premiers tests générés par BEASTEST à partir d'un modèle, exportés et examinés par l'équipe.
+**Livrable :** premiers tests générés par l'outil d'automatisation à partir d'un modèle, exportés et examinés par l'équipe.
 
 ### Atelier 1.3 : Première exécution dans le pipeline
 
-**Objectif :** faire exécuter les tests générés par BEASTEST dans le pipeline CI/CD de l'équipe, et vérifier que les résultats sont exploitables.
+**Objectif :** faire exécuter les tests générés par l'outil d'automatisation dans le pipeline CI/CD de l'équipe, et vérifier que les résultats sont exploitables.
 
 **Durée :** 2 heures. **Participants :** lead technique, équipe pilote, coach TOTALISATION.
 
 **Étapes :**
 1. Intégrer les tests générés dans le pipeline de livraison existant (niveau 3).
 2. Exécuter les tests et analyser les résultats : quels tests passent ? lesquels échouent ? pourquoi ?
-3. Distinguer les échecs réels (bugs dans le produit) des échecs de génération (tests mal générés par BEASTEST).
+3. Distinguer les échecs réels (bugs dans le produit) des échecs de génération (tests mal générés par l'outil d'automatisation).
 4. Corriger les tests générés ou ajuster la génération, puis réexécuter.
-5. Documenter le processus : comment lire un rapport de tests BEASTEST, comment réagir face à un échec.
+5. Documenter le processus : comment lire un rapport de tests l'outil d'automatisation, comment réagir face à un échec.
 
-**Livrable :** première exécution de tests BEASTEST dans le pipeline, avec rapport analysé par l'équipe.
+**Livrable :** première exécution de tests l'outil d'automatisation dans le pipeline, avec rapport analysé par l'équipe.
 
 ### Capsule du vécu — L'automatisation qui devient infrastructure
 
-Dans l'expérience chez Optel, l'automatisation commençait comme un atelier : un développeur écrivait quelques tests Selenium le vendredi, personne ne les maintenait le lundi. Quand BEASTEST a été installé, le changement n'a pas été technique seulement : c'était l'équipe entière qui devait apprendre à lire les tests générés, à faire confiance à la génération, et à ne plus écrire de tests à la main pour ce qui pouvait être généré. La première semaine a été inconfortable : les tests générés couvraient des cas que l'équipe n'avait pas prévus, et certains étaient redondants. Mais au bout de deux semaines, l'équipe ne revenait plus en arrière. L'automatisation n'était plus un atelier, c'était l'infrastructure.
+Dans une organisation que j'ai accompagnée, l'automatisation commençait comme un atelier : un développeur écrivait quelques tests Selenium le vendredi, personne ne les maintenait le lundi. Quand l'outil d'automatisation a été installé, le changement n'a pas été technique seulement : c'était l'équipe entière qui devait apprendre à lire les tests générés, à faire confiance à la génération, et à ne plus écrire de tests à la main pour ce qui pouvait être généré. La première semaine a été inconfortable : les tests générés couvraient des cas que l'équipe n'avait pas prévus, et certains étaient redondants. Mais au bout de deux semaines, l'équipe ne revenait plus en arrière. L'automatisation n'était plus un atelier, c'était l'infrastructure.
 
 ### Points de vigilance
 
 - Ne cherchez pas à automatiser 100% des tests dès la première semaine. Commencez par un modèle stable et critique.
-- Les tests générés par BEASTEST ne sont pas parfaits. L'équipe doit apprendre à les relire, à les corriger, et à ajuster la génération.
-- L'intégration dans le pipeline est critique : si les tests BEASTEST ne s'exécutent pas automatiquement à chaque changement, ils seront oubliés.
+- Les tests générés par l'outil d'automatisation ne sont pas parfaits. L'équipe doit apprendre à les relire, à les corriger, et à ajuster la génération.
+- L'intégration dans le pipeline est critique : si les tests l'outil d'automatisation ne s'exécutent pas automatiquement à chaque changement, ils seront oubliés.
 
 ### Checklist de fin de semaine 1
 
-- [ ] BEASTEST installé et configuré
+- [ ] l'outil d'automatisation installé et configuré
 - [ ] Connexion aux modèles BPMN/MBT fonctionnelle
 - [ ] Intégration dans le pipeline CI/CD réalisée
 - [ ] Premiers tests générés à partir d'un modèle
 - [ ] Première exécution dans le pipeline, rapport analysé
 ## Semaine 2 : Couverture par types de test, pipeline automatisé
 
-**Objectif de la semaine :** passer d'un premier test généré à une couverture systématique par types de test (unitaire, intégration, système, E2E, performance, sécurité, mutation), et faire de l'exécution BEASTEST une étape automatique du pipeline de livraison.
+**Objectif de la semaine :** passer d'un premier test généré à une couverture systématique par types de test (unitaire, intégration, système, E2E, performance, sécurité, mutation), et faire de l'exécution l'outil d'automatisation une étape automatique du pipeline de livraison.
 
-**Résultat attendu à la fin de la semaine :** matrice de couverture par types de test complétée, plusieurs modèles traités par BEASTEST, et l'exécution BEASTEST intégrée comme étape bloquante ou non-bloquante du pipeline selon le type de test.
+**Résultat attendu à la fin de la semaine :** matrice de couverture par types de test complétée, plusieurs modèles traités par l'outil d'automatisation, et l'exécution l'outil d'automatisation intégrée comme étape bloquante ou non-bloquante du pipeline selon le type de test.
 
 ### Atelier 2.1 : Matrice de couverture par types de test
 
-**Objectif :** construire la matrice qui associe chaque type de test aux modèles BEASTEST, aux seuils de qualité, et aux responsabilités.
+**Objectif :** construire la matrice qui associe chaque type de test aux modèles l'outil d'automatisation, aux seuils de qualité, et aux responsabilités.
 
 **Durée :** 3 heures. **Participants :** équipe pilote, lead technique, coach TOTALISATION, responsable qualité.
 
 **Étapes :**
 1. Lister les types de test : unitaire, intégration, système, E2E, performance, sécurité, mutation.
-2. Pour chaque type, définir : quels modèles BEASTEST le couvrent ? Quelle preuve apporte-t-il ? Quel seuil de qualité (taux de réussite, couverture de code, temps d'exécution) ? Qui est responsable ?
+2. Pour chaque type, définir : quels modèles l'outil d'automatisation le couvrent ? Quelle preuve apporte-t-il ? Quel seuil de qualité (taux de réussite, couverture de code, temps d'exécution) ? Qui est responsable ?
 3. Remplir la matrice pour les fonctionnalités critiques du produit.
 4. Identifier les trous de couverture (types de test manquants, fonctionnalités non couvertes par aucun modèle).
 5. Prioriser les types de test à combler en premier.
 
 **Livrable :** matrice de couverture par types de test, publiée dans le centre d'excellence.
 
-### Atelier 2.2 : Traitement de plusieurs modèles par BEASTEST
+### Atelier 2.2 : Traitement de plusieurs modèles par l'outil d'automatisation
 
-**Objectif :** étendre la génération de tests BEASTEST à plusieurs modèles BPMN/MBT, couvrant un périmètre fonctionnel plus large.
+**Objectif :** étendre la génération de tests l'outil d'automatisation à plusieurs modèles BPMN/MBT, couvrant un périmètre fonctionnel plus large.
 
 **Durée :** 3 heures. **Participants :** équipe pilote, lead technique, coach TOTALISATION.
 
 **Étapes :**
 1. Choisir 3 à 5 modèles supplémentaires (fonctionnalités critiques, flux transversaux).
-2. Faire traiter chaque modèle par BEASTEST : génération des tests, examen, ajustement.
+2. Faire traiter chaque modèle par l'outil d'automatisation : génération des tests, examen, ajustement.
 3. Vérifier la cohérence entre les tests générés par différents modèles (pas de doublons, pas de contradictions).
 4. Intégrer tous les tests générés dans le dépôt de tests de l'équipe.
 5. Documenter quels modèles ont été traités, quels tests ont été générés, et quelles sont les limites.
 
-**Livrable :** plusieurs modèles traités par BEASTEST, tests intégrés, limites documentées.
+**Livrable :** plusieurs modèles traités par l'outil d'automatisation, tests intégrés, limites documentées.
 
-### Atelier 2.3 : Pipeline automatisé avec BEASTEST
+### Atelier 2.3 : Pipeline automatisé avec l'outil d'automatisation
 
-**Objectif :** faire de l'exécution BEASTEST une étape automatique du pipeline de livraison, avec des règles claires sur ce qui bloque et ce qui ne bloque pas.
+**Objectif :** faire de l'exécution l'outil d'automatisation une étape automatique du pipeline de livraison, avec des règles claires sur ce qui bloque et ce qui ne bloque pas.
 
 **Durée :** 3 heures. **Participants :** lead technique, équipe pilote, coach TOTALISATION, responsable ops.
 
 **Étapes :**
 1. Définir quels types de test bloquent la livraison (par exemple : unitaire et intégration bloquent ; performance et sécurité sont non-bloquants mais alertent).
-2. Configurer le pipeline pour exécuter BEASTEST à chaque modification de modèle ou de code.
+2. Configurer le pipeline pour exécuter l'outil d'automatisation à chaque modification de modèle ou de code.
 3. Configurer les notifications : qui reçoit quoi, quand, et comment réagir.
 4. Tester le pipeline avec une modification de modèle : génération → exécution → rapport → décision de livraison.
-5. Documenter le processus de décision : quand un échec BEASTEST bloque-t-il la livraison ? qui peut lever le blocage ?
+5. Documenter le processus de décision : quand un échec l'outil d'automatisation bloque-t-il la livraison ? qui peut lever le blocage ?
 
-**Livrable :** pipeline automatisé avec exécution BEASTEST, règles de blocage définies et documentées.
+**Livrable :** pipeline automatisé avec exécution l'outil d'automatisation, règles de blocage définies et documentées.
 
 ### Capsule du vécu — La confiance dans la génération
 
-Chez Infor, l'équipe hésitait à faire confiance aux tests générés par BEASTEST : « et si BEASTEST rate un cas critique ? » La réponse n'était pas de vérifier chaque test généré à la main (cela reviendrait à écrire les tests soi-même), mais de faire confiance à la génération tout en gardant une couche de tests manuels exploratoires pour valider ce que la génération ne couvre pas. Au bout d'un mois, l'équipe a réalisé que les tests générés trouvaient plus de régressions que les tests manuels, car ils couvraient des combinaisons que personne n'avait pensées. La confiance s'est construite par les preuves, pas par les promesses.
+Chez Infor, l'équipe hésitait à faire confiance aux tests générés par l'outil d'automatisation : « et si l'outil d'automatisation rate un cas critique ? » La réponse n'était pas de vérifier chaque test généré à la main (cela reviendrait à écrire les tests soi-même), mais de faire confiance à la génération tout en gardant une couche de tests manuels exploratoires pour valider ce que la génération ne couvre pas. Au bout d'un mois, l'équipe a réalisé que les tests générés trouvaient plus de régressions que les tests manuels, car ils couvraient des combinaisons que personne n'avait pensées. La confiance s'est construite par les preuves, pas par les promesses.
 
 ### Points de vigilance
 
 - La matrice de couverture n'est pas un objectif en soi : une couverture de 100% sur des tests qui ne testent rien n'a pas de valeur.
-- Ne laissez pas BEASTEST devenir une boîte noire : l'équipe doit comprendre comment les tests sont générés et pourquoi.
-- Les tests de performance et de sécurité générés par BEASTEST nécessitent souvent une configuration spécifique ; ne les traitez pas comme des tests fonctionnels classiques.
+- Ne laissez pas l'outil d'automatisation devenir une boîte noire : l'équipe doit comprendre comment les tests sont générés et pourquoi.
+- Les tests de performance et de sécurité générés par l'outil d'automatisation nécessitent souvent une configuration spécifique ; ne les traitez pas comme des tests fonctionnels classiques.
 
 ### Checklist de fin de semaine 2
 
 - [ ] Matrice de couverture par types de test complétée et publiée
-- [ ] Plusieurs modèles BPMN/MBT traités par BEASTEST
+- [ ] Plusieurs modèles BPMN/MBT traités par l'outil d'automatisation
 - [ ] Tests générés intégrés dans le dépôt de tests de l'équipe
-- [ ] Exécution BEASTEST intégrée dans le pipeline CI/CD
+- [ ] Exécution l'outil d'automatisation intégrée dans le pipeline CI/CD
 - [ ] Règles de blocage définies et documentées
 ## Partie 2 : Faire rayonner (semaines 3 à 4)
 
@@ -269,42 +269,42 @@ Les semaines 3 et 4 ont pour objectif de faire de l'équipe pilote un centre de 
 
 ## Semaine 3 : L'équipe pilote devient centre de compétence
 
-**Objectif de la semaine :** structurer l'équipe pilote comme centre de compétence BEASTEST : documentation des pratiques, gardiens d'artefacts, accueil des premières demandes externes, et premiers ateliers de transfert.
+**Objectif de la semaine :** structurer l'équipe pilote comme centre de compétence l'outil d'automatisation : documentation des pratiques, gardiens d'artefacts, accueil des premières demandes externes, et premiers ateliers de transfert.
 
-**Résultat attendu à la fin de la semaine :** l'équipe pilote dispose d'une documentation de ses pratiques BEASTEST, des gardiens nommés pour chaque famille d'artefacts, et a accueilli au moins une demande externe (une autre équipe ou la direction).
+**Résultat attendu à la fin de la semaine :** l'équipe pilote dispose d'une documentation de ses pratiques l'outil d'automatisation, des gardiens nommés pour chaque famille d'artefacts, et a accueilli au moins une demande externe (une autre équipe ou la direction).
 
-### Atelier 3.1 : Documentation des pratiques BEASTEST
+### Atelier 3.1 : Documentation des pratiques l'outil d'automatisation
 
-**Objectif :** écrire la documentation de référence des pratiques BEASTEST de l'équipe : comment générer des tests, comment lire les rapports, comment ajuster la génération, comment déboguer un test généré.
+**Objectif :** écrire la documentation de référence des pratiques l'outil d'automatisation de l'équipe : comment générer des tests, comment lire les rapports, comment ajuster la génération, comment déboguer un test généré.
 
 **Durée :** 3 heures. **Participants :** équipe pilote, lead technique, coach TOTALISATION.
 
 **Étapes :**
-1. Inventaire des pratiques BEASTEST déjà en place : quels modèles sont traités ? quels tests sont générés ? quelles règles de génération sont utilisées ?
-2. Écrire la documentation : guide de génération, guide de lecture des rapports, guide de dépannage, glossaire des termes BEASTEST.
+1. Inventaire des pratiques l'outil d'automatisation déjà en place : quels modèles sont traités ? quels tests sont générés ? quelles règles de génération sont utilisées ?
+2. Écrire la documentation : guide de génération, guide de lecture des rapports, guide de dépannage, glossaire des termes l'outil d'automatisation.
 3. Publier la documentation dans le centre d'excellence (dépôt partagé, wiki, ou équivalent).
 4. Nommer un gardien pour chaque famille d'artefacts (modèles, tests générés, rapports, règles de génération).
 5. Prévoir le rythme de mise à jour de la documentation : qui relit quoi, et avec quelle fréquence ?
 
-**Livrable :** documentation des pratiques BEASTEST publiée, gardiens nommés.
+**Livrable :** documentation des pratiques l'outil d'automatisation publiée, gardiens nommés.
 
 ### Atelier 3.2 : Premier accueil externe
 
-**Objectif :** accueillir une première demande externe (une autre équipe, la direction, ou un sponsor) et lui montrer ce que BEASTEST apporte concrètement.
+**Objectif :** accueillir une première demande externe (une autre équipe, la direction, ou un sponsor) et lui montrer ce que l'outil d'automatisation apporte concrètement.
 
 **Durée :** 2 heures. **Participants :** équipe pilote, invités externes, coach TOTALISATION.
 
 **Étapes :**
-1. Préparer une démonstration : un modèle BPMN/MBT, les tests générés par BEASTEST, le rapport d'exécution, et une décision de livraison basée sur ces preuves.
+1. Préparer une démonstration : un modèle BPMN/MBT, les tests générés par l'outil d'automatisation, le rapport d'exécution, et une décision de livraison basée sur ces preuves.
 2. Animer la démonstration : montrer le flux de bout en bout, répondre aux questions, recueillir les retours.
 3. Identifier ce qui intéresse les autres équipes : quels sont leurs besoins en automatisation ? qu'est-ce qui les fait peur ?
-4. Convenir des prochaines étapes : une deuxième équipe veut-elle essayer BEASTEST ? sur quel périmètre ? avec quel accompagnement ?
+4. Convenir des prochaines étapes : une deuxième équipe veut-elle essayer l'outil d'automatisation ? sur quel périmètre ? avec quel accompagnement ?
 
 **Livrable :** démonstration réalisée, feedbacks collectés, prochaines étapes convenues.
 
 ### Atelier 3.3 : Gardiens et rythme de revue
 
-**Objectif :** formaliser le rôle des gardiens d'artefacts et le rythme de revue du centre d'excellence BEASTEST.
+**Objectif :** formaliser le rôle des gardiens d'artefacts et le rythme de revue du centre d'excellence l'outil d'automatisation.
 
 **Durée :** 2 heures. **Participants :** équipe pilote, coach TOTALISATION, responsable du centre d'excellence (le cas échéant).
 
@@ -318,26 +318,26 @@ Les semaines 3 et 4 ont pour objectif de faire de l'équipe pilote un centre de 
 
 ### Capsule du vécu — Quand l'équipe devient modèle
 
-Chez CGI, l'équipe pilote avait installé BEASTEST et tenait ses rituels. Une autre équipe est venue leur demander : « comment faites-vous pour générer des tests ? » L'équipe pilote a d'abord voulu envoyer un document par email. Puis elle a réalisé que ce n'était pas suffisant : il fallait une démonstration vivante, un modèle réel, et un accompagnement. Elle a donc organisé un atelier de transfert : une demi-journée où l'autre équipe a apporté un de ses modèles, et l'équipe pilote a montré comment BEASTEST le traite. C'est ce moment qui a marqué le passage de l'équipe pilote au centre de compétence.
+Cas d'atelier : une équipe pilote avait installé l'outil d'automatisation et tenait ses rituels. Une autre équipe est venue leur demander : « comment faites-vous pour générer des tests ? » L'équipe pilote a d'abord voulu envoyer un document par email. Puis elle a réalisé que ce n'était pas suffisant : il fallait une démonstration vivante, un modèle réel, et un accompagnement. Elle a donc organisé un atelier de transfert : une demi-journée où l'autre équipe a apporté un de ses modèles, et l'équipe pilote a montré comment l'outil d'automatisation le traite. C'est ce moment qui marque le passage de l'équipe pilote au centre de compétence. **Exercice :** identifiez dans votre organisation une équipe qui pourrait demander « comment faites-vous ? » — et concevez l'atelier de transfert d'une demi-journée qui lui répondrait (démonstration vivante, modèle réel, accompagnement).
 
 ### Points de vigilance
 
-- Ne tentez pas de transférer BEASTEST à toute l'organisation d'un coup. Commencez par une deuxième équipe, sur un périmètre limité.
+- Ne tentez pas de transférer l'outil d'automatisation à toute l'organisation d'un coup. Commencez par une deuxième équipe, sur un périmètre limité.
 - La documentation n'est pas suffisante : il faut une démonstration vivante et un accompagnement.
 - Les gardiens d'artefacts doivent avoir le temps de faire leur travail de gardiennage, pas seulement leur travail de développement.
 
 ### Checklist de fin de semaine 3
 
-- [ ] Documentation des pratiques BEASTEST publiée dans le centre d'excellence
+- [ ] Documentation des pratiques l'outil d'automatisation publiée dans le centre d'excellence
 - [ ] Gardiens nommés pour chaque famille d'artefacts
 - [ ] Première démonstration externe réalisée
 - [ ] Processus de contribution externe documenté
 - [ ] Rythme de revue défini
 ## Semaine 4 : Transfert vers une deuxième équipe
 
-**Objectif de la semaine :** accompagner une deuxième équipe dans l'adoption de BEASTEST, sur un périmètre limité, avec l'équipe pilote en tant que mentor et non comme exécuteur.
+**Objectif de la semaine :** accompagner une deuxième équipe dans l'adoption de l'outil d'automatisation, sur un périmètre limité, avec l'équipe pilote en tant que mentor et non comme exécuteur.
 
-**Résultat attendu à la fin de la semaine :** une deuxième équipe a un modèle traité par BEASTEST, des tests générés intégrés dans son pipeline, et une compréhension autonome de la pratique.
+**Résultat attendu à la fin de la semaine :** une deuxième équipe a un modèle traité par l'outil d'automatisation, des tests générés intégrés dans son pipeline, et une compréhension autonome de la pratique.
 
 ### Atelier 4.1 : Choix de la deuxième équipe et du périmètre
 
@@ -356,18 +356,18 @@ Chez CGI, l'équipe pilote avait installé BEASTEST et tenait ses rituels. Une a
 
 ### Atelier 4.2 : Atelier de transfert avec l'équipe secondaire
 
-**Objectif :** animer un atelier pratique avec l'équipe secondaire : elle apporte un modèle, l'équipe pilote montre comment BEASTEST le traite, et l'équipe secondaire génère ses premiers tests.
+**Objectif :** animer un atelier pratique avec l'équipe secondaire : elle apporte un modèle, l'équipe pilote montre comment l'outil d'automatisation le traite, et l'équipe secondaire génère ses premiers tests.
 
 **Durée :** 3 heures. **Participants :** équipe secondaire, équipe pilote (mentors), coach TOTALISATION.
 
 **Étapes :**
 1. L'équipe secondaire apporte un modèle BPMN/MBT (simple, stable).
-2. L'équipe pilote explique le flux : modèle → BEASTEST → tests générés → exécution → rapport.
-3. L'équipe secondaire fait traiter son modèle par BEASTEST, avec l'équipe pilote en soutien (pas aux manettes).
+2. L'équipe pilote explique le flux : modèle → l'outil d'automatisation → tests générés → exécution → rapport.
+3. L'équipe secondaire fait traiter son modèle par l'outil d'automatisation, avec l'équipe pilote en soutien (pas aux manettes).
 4. L'équipe secondaire examine les tests générés, ajuste si nécessaire, et les intègre dans son dépôt.
 5. L'équipe secondaire exécute les tests dans son propre pipeline (ou dans celui de l'équipe pilote pour commencer).
 
-**Livrable :** équipe secondaire a généré et exécuté ses premiers tests BEASTEST.
+**Livrable :** équipe secondaire a généré et exécuté ses premiers tests l'outil d'automatisation.
 
 ### Atelier 4.3 : Débrief et plan de suivi
 
@@ -385,13 +385,13 @@ Chez CGI, l'équipe pilote avait installé BEASTEST et tenait ses rituels. Une a
 
 ### Capsule du vécu — Le mentorat, pas l'exécution
 
-Chez Rayduf, l'équipe pilote avait transféré BEASTEST à une deuxième équipe en faisant tout à sa place : générer les tests, les intégrer, les exécuter. Résultat : la deuxième équipe ne savait rien faire sans l'équipe pilote. La deuxième fois, l'équipe pilote a adopté une posture de mentor : elle observait, répondait aux questions, mais ne touchait pas au clavier. La deuxième équipe a mis plus de temps, mais elle a été autonome dès la première semaine. Le mentorat est plus lent, mais il est durable.
+Dans une organisation que j'ai accompagnée, l'équipe pilote avait transféré l'outil d'automatisation à une deuxième équipe en faisant tout à sa place : générer les tests, les intégrer, les exécuter. Résultat : la deuxième équipe ne savait rien faire sans l'équipe pilote. La deuxième fois, l'équipe pilote a adopté une posture de mentor : elle observait, répondait aux questions, mais ne touchait pas au clavier. La deuxième équipe a mis plus de temps, mais elle a été autonome dès la première semaine. Le mentorat est plus lent, mais il est durable.
 
 ### Points de vigilance
 
 - L'équipe pilote ne doit pas exécuter à la place de l'équipe secondaire. Elle doit mentorer.
 - Le périmètre doit rester limité : un modèle, une fonctionnalité. Pas de transfert de toute la pratique d'un coup.
-- Le sponsor doit être impliqué : sans son soutien, la deuxième équipe n'aura pas le temps de s'approprier BEASTEST.
+- Le sponsor doit être impliqué : sans son soutien, la deuxième équipe n'aura pas le temps de s'approprier l'outil d'automatisation.
 
 ### Checklist de fin de semaine 4
 
@@ -402,19 +402,19 @@ Chez Rayduf, l'équipe pilote avait transféré BEASTEST à une deuxième équip
 - [ ] Transfert documenté dans le centre d'excellence
 ## Partie 3 : Ancrer et préparer le niveau 5 (semaines 5 à 6)
 
-Les semaines 5 et 6 ont pour objectif de diagnostiquer les blocages d'automatisation, puis de faire le virage vers l'autonomie complète BEASTEST, avant de préparer le passage au niveau 5 (BLEU).
+Les semaines 5 et 6 ont pour objectif de diagnostiquer les blocages d'automatisation, puis de faire le virage vers l'autonomie complète l'outil d'automatisation, avant de préparer le passage au niveau 5 (BLEU).
 
 ---
 
 ## Semaine 5 : Diagnostiquer les blocages d'automatisation
 
-**Objectif de la semaine :** identifier ce qui bloque l'automatisation complète avec BEASTEST, sans se voiler la face. Répondre à la question : « qu'est-ce qui nous empêche de générer, exécuter et faire confiance aux tests BEASTEST de manière systématique ? »
+**Objectif de la semaine :** identifier ce qui bloque l'automatisation complète avec l'outil d'automatisation, sans se voiler la face. Répondre à la question : « qu'est-ce qui nous empêche de générer, exécuter et faire confiance aux tests l'outil d'automatisation de manière systématique ? »
 
 **Résultat attendu à la fin de la semaine :** un diagnostic écrit des blocages d'automatisation, une liste d'actions correctives priorisées, et une décision claire sur ce qui est prêt pour le virage de la semaine 6.
 
 ### Atelier 5.1 : Diagnostic du point mort d'automatisation
 
-**Objectif :** faire l'inventaire honnête de ce qui fonctionne et de ce qui ne fonctionne pas avec BEASTEST, après les semaines 1-4 d'installation et de rayonnement.
+**Objectif :** faire l'inventaire honnête de ce qui fonctionne et de ce qui ne fonctionne pas avec l'outil d'automatisation, après les semaines 1-4 d'installation et de rayonnement.
 
 **Durée :** 2 heures. **Participants :** équipe pilote, coach TOTALISATION, lead technique, sponsor.
 
@@ -470,7 +470,7 @@ Les semaines 5 et 6 ont pour objectif de diagnostiquer les blocages d'automatisa
 
 ### Capsule du vécu — Le blocage n'est pas toujours technique
 
-Dans l'expérience chez Exaxe, le point mort de l'automatisation n'était pas technique : BEASTEST fonctionnait, les tests se généraient, mais personne ne les lisait. Le diagnostic a révélé que le vrai blocage était culturel : l'équipe avait l'habitude d'écrire ses tests à la main et ne faisait pas confiance à la génération. Une fois ce blocage nommé, l'équipe a pu travailler sur la confiance, pas sur l'outil.
+Dans une organisation que j'ai accompagnée, le point mort de l'automatisation n'était pas technique : l'outil d'automatisation fonctionnait, les tests se généraient, mais personne ne les lisait. Le diagnostic a révélé que le vrai blocage était culturel : l'équipe avait l'habitude d'écrire ses tests à la main et ne faisait pas confiance à la génération. Une fois ce blocage nommé, l'équipe a pu travailler sur la confiance, pas sur l'outil.
 
 ### Points de vigilance
 
@@ -485,20 +485,20 @@ Dans l'expérience chez Exaxe, le point mort de l'automatisation n'était pas te
 - [ ] Engagement écrit du sponsor sur les actions de déblocage
 - [ ] Plan de passage de relais prêt
 - [ ] Décision sur ce qui est prêt pour la semaine 6
-## Semaine 6 : Virage vers l'autonomie complète BEASTEST
+## Semaine 6 : Virage vers l'autonomie complète l'outil d'automatisation
 
-**Objectif de la semaine :** faire de BEASTEST une pratique autonome de l'équipe, sans dépendance au coach. Le lead technique anime la génération, l'exécution et l'analyse des tests. L'équipe pilote devient pleinement autonome sur BEASTEST.
+**Objectif de la semaine :** faire de l'outil d'automatisation une pratique autonome de l'équipe, sans dépendance au coach. Le lead technique anime la génération, l'exécution et l'analyse des tests. L'équipe pilote devient pleinement autonome sur l'outil d'automatisation.
 
-**Résultat attendu à la fin de la semaine :** génération et exécution BEASTEST tenues en autonomie par l'équipe, premier récit de virage écrit, et décision du sponsor sur l'autonomie de niveau 4.
+**Résultat attendu à la fin de la semaine :** génération et exécution l'outil d'automatisation tenues en autonomie par l'équipe, premier récit de virage écrit, et décision du sponsor sur l'autonomie de niveau 4.
 
 ### Atelier 6.1 : Récit du virage
 
-**Objectif :** écrire collectivement l'histoire du passage de l'installation à l'autonomie BEASTEST, en gardant la semaine 5 (le point mort) dans le récit. Une histoire sans creux n'est pas crédible.
+**Objectif :** écrire collectivement l'histoire du passage de l'installation à l'autonomie l'outil d'automatisation, en gardant la semaine 5 (le point mort) dans le récit. Une histoire sans creux n'est pas crédible.
 
 **Durée :** 2 heures. **Participants :** équipe pilote, coach TOTALISATION, lead technique.
 
 **Étapes :**
-1. Chaque membre raconte son moment le plus difficile des semaines 1 à 5 avec BEASTEST.
+1. Chaque membre raconte son moment le plus difficile des semaines 1 à 5 avec l'outil d'automatisation.
 2. L'équipe écrit le récit en trois actes : l'espoir des semaines 1-2 (installation), le point mort de la semaine 5 (blocages), la reprise des semaines 5-6 (diagnostic et préparation du virage).
 3. Le récit est publié dans le centre d'excellence, avec les leçons apprises.
 4. Le coach lit le récit mais ne le réécrit pas.
@@ -507,26 +507,26 @@ Dans l'expérience chez Exaxe, le point mort de l'automatisation n'était pas te
 
 ### Atelier 6.2 : Passage de relais (génération relayée)
 
-**Objectif :** le lead technique anime seul une session complète de génération et d'exécution BEASTEST (choix du modèle, génération, exécution, analyse du rapport, décision), sans que le coach n'intervienne.
+**Objectif :** le lead technique anime seul une session complète de génération et d'exécution l'outil d'automatisation (choix du modèle, génération, exécution, analyse du rapport, décision), sans que le coach n'intervienne.
 
 **Durée :** 2 heures. **Participants :** équipe pilote, lead technique, coach TOTALISATION (observateur silencieux).
 
 **Étapes :**
 1. Le coach explique son rôle : observateur, pas intervenant. Pas de « je voulais juste préciser... ».
-2. Le lead technique anime la session de A à Z : sélection du modèle, lancement de BEASTEST, examen des tests générés, exécution dans le pipeline, analyse du rapport.
+2. Le lead technique anime la session de A à Z : sélection du modèle, lancement de l'outil d'automatisation, examen des tests générés, exécution dans le pipeline, analyse du rapport.
 3. Le coach prend des notes, mais ne les partage qu'après, au débrief.
 4. Débrief : ce qui a bien fonctionné, ce qui manque, ce que le lead technique a besoin pour être totalement autonome.
 
-**Livrable :** première session BEASTEST relayée par le lead technique, avec débrief.
+**Livrable :** première session l'outil d'automatisation relayée par le lead technique, avec débrief.
 
 ### Atelier 6.3 : Démonstration d'autonomie aux voisins
 
-**Objectif :** montrer à une autre équipe ou à la direction que l'équipe pilote est autonome sur BEASTEST : elle génère, exécute et décide sans le coach.
+**Objectif :** montrer à une autre équipe ou à la direction que l'équipe pilote est autonome sur l'outil d'automatisation : elle génère, exécute et décide sans le coach.
 
 **Durée :** 1 heure 30. **Participants :** équipe pilote, invités (autre équipe, direction, sponsor), coach TOTALISATION.
 
 **Étapes :**
-1. Démonstration d'un cycle complet BEASTEST : modèle → génération → exécution → rapport → décision de livraison.
+1. Démonstration d'un cycle complet l'outil d'automatisation : modèle → génération → exécution → rapport → décision de livraison.
 2. Présentation des métriques : taux de réussite des tests générés, couverture, temps d'exécution.
 3. Questions-réponses avec les invités.
 4. Recueillir les retours : qu'est-ce qui intéresse les autres équipes ? qu'est-ce qui fait peur ?
@@ -549,7 +549,7 @@ Dans l'expérience chez Exaxe, le point mort de l'automatisation n'était pas te
 
 ### Capsule du vécu — L'autonomie se teste dans le silence
 
-Dans la mission chez Infor, le virage vers l'autonomie BEASTEST a eu lieu quand le lead technique a animé seul sa première session de génération et d'exécution. Le coach était présent mais silencieux. Le lead technique a présenté les preuves (tests générés, rapports, décision de livraison) et a pris la décision. L'équipe a compris que BEASTEST n'était pas l'outil du coach, mais le sien. Deux semaines plus tard, le coach n'était plus nécessaire aux sessions.
+Dans la mission chez Infor, le virage vers l'autonomie l'outil d'automatisation a eu lieu quand le lead technique a animé seul sa première session de génération et d'exécution. Le coach était présent mais silencieux. Le lead technique a présenté les preuves (tests générés, rapports, décision de livraison) et a pris la décision. L'équipe a compris que l'outil d'automatisation n'était pas l'outil du coach, mais le sien. Deux semaines plus tard, le coach n'était plus nécessaire aux sessions.
 
 ### Points de vigilance
 
@@ -560,31 +560,31 @@ Dans la mission chez Infor, le virage vers l'autonomie BEASTEST a eu lieu quand 
 ### Checklist de fin de semaine 6
 
 - [ ] Récit du virage écrit et publié dans le centre d'excellence
-- [ ] Première session BEASTEST relayée par le lead technique, sans coach
+- [ ] Première session l'outil d'automatisation relayée par le lead technique, sans coach
 - [ ] Démonstration d'autonomie aux voisins réalisée
 - [ ] Décision du sponsor sur l'autonomie N4 documentée
 - [ ] Coach en retrait (observateur, disponible à la demande)
 ## Partie 4 : Perpétuer et étendre (semaines 7 à 8)
 
-Les semaines 7 et 8 ont pour objectif d'ancrer la pratique BEASTEST dans la durée, d'atteindre une couverture systématique, et de préparer le passage au niveau 5 (BLEU).
+Les semaines 7 et 8 ont pour objectif d'ancrer la pratique l'outil d'automatisation dans la durée, d'atteindre une couverture systématique, et de préparer le passage au niveau 5 (BLEU).
 
 ---
 
 ## Semaine 7 : Couverture systématique et qualité de génération
 
-**Objectif de la semaine :** approfondir la couverture systématique par types de test au niveau 4 et améliorer la qualité de génération de BEASTEST. Répondre à la question : « comment être certains que tout est testé, à tous les niveaux, et que les tests générés sont de qualité ? »
+**Objectif de la semaine :** approfondir la couverture systématique par types de test au niveau 4 et améliorer la qualité de génération de l'outil d'automatisation. Répondre à la question : « comment être certains que tout est testé, à tous les niveaux, et que les tests générés sont de qualité ? »
 
-**Résultat attendu à la fin de la semaine :** matrice de couverture mise à jour avec tous les types de test, règles de qualité de génération écrites, et une première campagne de tests de mutation ou de sécurité exécutée avec BEASTEST.
+**Résultat attendu à la fin de la semaine :** matrice de couverture mise à jour avec tous les types de test, règles de qualité de génération écrites, et une première campagne de tests de mutation ou de sécurité exécutée avec l'outil d'automatisation.
 
 ### Atelier 7.1 : Mise à jour de la matrice de couverture N4
 
-**Objectif :** mettre à jour la matrice de couverture pour inclure tous les types de test (unitaire, intégration, système, E2E, performance, sécurité, mutation) et vérifier qu'ils sont tous couverts par des modèles BEASTEST.
+**Objectif :** mettre à jour la matrice de couverture pour inclure tous les types de test (unitaire, intégration, système, E2E, performance, sécurité, mutation) et vérifier qu'ils sont tous couverts par des modèles l'outil d'automatisation.
 
 **Durée :** 3 heures. **Participants :** équipe pilote, lead technique, coach TOTALISATION, responsable qualité.
 
 **Étapes :**
 1. Reprendre la matrice de la semaine 2 et la compléter avec les types de test manquants.
-2. Pour chaque type, vérifier qu'il existe au moins un modèle BEASTEST qui le couvre.
+2. Pour chaque type, vérifier qu'il existe au moins un modèle l'outil d'automatisation qui le couvre.
 3. Définir les seuils de qualité pour chaque type (taux de réussite minimum, couverture de code, temps d'exécution maximum).
 4. Identifier les trous de couverture restants et planifier leur traitement.
 5. Publier la matrice mise à jour dans le centre d'excellence.
@@ -593,7 +593,7 @@ Les semaines 7 et 8 ont pour objectif d'ancrer la pratique BEASTEST dans la dur�
 
 ### Atelier 7.2 : Règles de qualité de génération
 
-**Objectif :** rédiger les règles de qualité de génération BEASTEST : qu'est-ce qu'un test généré de qualité ? Comment le mesurer ? Comment l'améliorer ?
+**Objectif :** rédiger les règles de qualité de génération l'outil d'automatisation : qu'est-ce qu'un test généré de qualité ? Comment le mesurer ? Comment l'améliorer ?
 
 **Durée :** 3 heures. **Participants :** lead technique, équipe pilote, coach TOTALISATION.
 
@@ -604,17 +604,17 @@ Les semaines 7 et 8 ont pour objectif d'ancrer la pratique BEASTEST dans la dur�
 4. Tester les règles sur un échantillon de tests générés : sont-ils conformes aux règles ?
 5. Publier les règles dans le centre d'excellence.
 
-**Livrable :** règles de qualité de génération BEASTEST écrites et publiées.
+**Livrable :** règles de qualité de génération l'outil d'automatisation écrites et publiées.
 
 ### Atelier 7.3 : Première campagne de tests de mutation ou de sécurité
 
-**Objectif :** exécuter une première campagne de tests de mutation ou de sécurité avec BEASTEST, pour valider que la couverture va au-delà des tests fonctionnels.
+**Objectif :** exécuter une première campagne de tests de mutation ou de sécurité avec l'outil d'automatisation, pour valider que la couverture va au-delà des tests fonctionnels.
 
 **Durée :** 3 heures. **Participants :** lead technique, équipe pilote, coach TOTALISATION, responsable sécurité (si présent).
 
 **Étapes :**
 1. Choisir le type de test avancé : mutation (vérifier que les tests détectent les faults) ou sécurité (vérifier les vulnérabilités connues).
-2. Configurer BEASTEST pour générer des tests de ce type.
+2. Configurer l'outil d'automatisation pour générer des tests de ce type.
 3. Exécuter la campagne et analyser les résultats : quels mutants sont tués ? quelles vulnérabilités sont détectées ?
 4. Corriger les failles détectées et ajuster les règles de génération si nécessaire.
 5. Documenter la campagne : ce qui a été testé, ce qui a été trouvé, ce qui a été corrigé.
@@ -623,7 +623,7 @@ Les semaines 7 et 8 ont pour objectif d'ancrer la pratique BEASTEST dans la dur�
 
 ### Capsule du vécu — La qualité de génération
 
-Chez Optel, l'équipe s'est rendu compte que générer des tests ne suffisait pas : il fallait générer des tests de qualité. Certains tests générés étaient redondants, d'autres couvraient des cas irréalistes. L'équipe a écrit des règles de qualité de génération et a commencé à réviser les tests générés comme elle réviserait du code. Résultat : le taux de faux positifs a chuté, et l'équipe a fait confiance à la génération.
+Dans une organisation que j'ai accompagnée, l'équipe s'est rendu compte que générer des tests ne suffisait pas : il fallait générer des tests de qualité. Certains tests générés étaient redondants, d'autres couvraient des cas irréalistes. L'équipe a écrit des règles de qualité de génération et a commencé à réviser les tests générés comme elle réviserait du code. Résultat : le taux de faux positifs a chuté, et l'équipe a fait confiance à la génération.
 
 ### Points de vigilance
 
@@ -640,18 +640,18 @@ Chez Optel, l'équipe s'est rendu compte que générer des tests ne suffisait pa
 - [ ] Go/No-Go niveau 4 tenu avec couverture et preuves
 ## Semaine 8 : Contrat qualité v4.0, centre d'excellence rayonnant, préparation BLEU
 
-**Objectif de la semaine :** figer le niveau 4 comme norme de l'équipe. Contrat qualité v4.0 signé, centre d'excellence BEASTEST opérationnel et rayonant, audit de maturité niveau 4, et préparation du passage au niveau 5 (BLEU).
+**Objectif de la semaine :** figer le niveau 4 comme norme de l'équipe. Contrat qualité v4.0 signé, centre d'excellence l'outil d'automatisation opérationnel et rayonant, audit de maturité niveau 4, et préparation du passage au niveau 5 (BLEU).
 
-**Résultat attendu à la fin de la semaine :** contrat qualité v4.0 signé, centre d'excellence BEASTEST officiellement opérationnel, rapport de maturité niveau 4 présenté, et plan de passage au niveau 5 prêt.
+**Résultat attendu à la fin de la semaine :** contrat qualité v4.0 signé, centre d'excellence l'outil d'automatisation officiellement opérationnel, rapport de maturité niveau 4 présenté, et plan de passage au niveau 5 prêt.
 
 ### Atelier 8.1 : Audit de maturité niveau 4
 
-**Objectif :** évaluer l'équipe sur les pratiques de niveau 4 (BEASTEST, couverture systématique, qualité de génération, rayonnement), avec des preuves pour chaque niveau attribué.
+**Objectif :** évaluer l'équipe sur les pratiques de niveau 4 (l'outil d'automatisation, couverture systématique, qualité de génération, rayonnement), avec des preuves pour chaque niveau attribué.
 
 **Durée :** 3 heures. **Participants :** équipe pilote, coach TOTALISATION, lead technique, responsable qualité.
 
 **Étapes :**
-1. Auditer les 6 éléments de niveau 4 : installation BEASTEST, couverture par types de test, pipeline automatisé, qualité de génération, rayonnement vers d'autres équipes, autonomie complète.
+1. Auditer les 6 éléments de niveau 4 : installation l'outil d'automatisation, couverture par types de test, pipeline automatisé, qualité de génération, rayonnement vers d'autres équipes, autonomie complète.
 2. Pour chaque élément : attribuer un niveau (1 à 3) avec une preuve (artefact, décision datée, métrique).
 3. Identifier les deux faiblesses majeures, sans filtre.
 4. Convenir des actions pour les six prochains mois.
@@ -660,21 +660,21 @@ Chez Optel, l'équipe s'est rendu compte que générer des tests ne suffisait pa
 
 ### Atelier 8.2 : Contrat qualité v4.0
 
-**Objectif :** passer du contrat qualité v3.0 (niveau 3) au contrat qualité v4.0, qui intègre les pratiques de niveau 4 (BEASTEST, couverture systématique, qualité de génération).
+**Objectif :** passer du contrat qualité v3.0 (niveau 3) au contrat qualité v4.0, qui intègre les pratiques de niveau 4 (l'outil d'automatisation, couverture systématique, qualité de génération).
 
 **Durée :** 2 heures. **Participants :** équipe pilote, sponsor, décideur de livraison.
 
 **Étapes :**
 1. Relire le contrat v3.0 : qu'est-ce qui est toujours valable ? qu'est-ce qui évolue ?
-2. Ajouter les engagements de niveau 4 : BEASTEST comme générateur de tests, couverture systématique par types de test, règles de qualité de génération, rayonnement vers d'autres équipes.
+2. Ajouter les engagements de niveau 4 : l'outil d'automatisation comme générateur de tests, couverture systématique par types de test, règles de qualité de génération, rayonnement vers d'autres équipes.
 3. Définir la règle des dérogations : s'écarter du contrat si nécessaire, mais l'écrire (qui, pourquoi, jusqu'à quand, ce qu'on apprend).
 4. Faire signer le contrat v4.0 par l'équipe, le sponsor et le décideur de livraison.
 
 **Livrable :** contrat qualité v4.0 signé.
 
-### Atelier 8.3 : Centre d'excellence BEASTEST rayonnant
+### Atelier 8.3 : Centre d'excellence l'outil d'automatisation rayonnant
 
-**Objectif :** passer d'un centre d'excellence qui stocke des documents à un centre d'excellence qui garde vivants les modèles BEASTEST, les contrats, les décisions et les métriques, et qui est consulté par les autres équipes.
+**Objectif :** passer d'un centre d'excellence qui stocke des documents à un centre d'excellence qui garde vivants les modèles l'outil d'automatisation, les contrats, les décisions et les métriques, et qui est consulté par les autres équipes.
 
 **Durée :** 2 heures. **Participants :** équipe pilote, responsable du centre d'excellence (le cas échéant), coach TOTALISATION.
 
@@ -685,7 +685,7 @@ Chez Optel, l'équipe s'est rendu compte que générer des tests ne suffisait pa
 4. Définir comment le centre d'excellence est utilisé par les autres équipes (consultation, contribution, réutilisation).
 5. Prévoir l'ouverture vers une troisième équipe (préparation BLEU).
 
-**Livrable :** centre d'excellence BEASTEST opérationnel, avec gardiens et rythme de revue définis.
+**Livrable :** centre d'excellence l'outil d'automatisation opérationnel, avec gardiens et rythme de revue définis.
 
 ### Atelier 8.4 : Préparation du passage au niveau 5 (BLEU)
 
@@ -695,7 +695,7 @@ Chez Optel, l'équipe s'est rendu compte que générer des tests ne suffisait pa
 
 **Étapes :**
 1. Revue des pratiques de niveau 4 qui sont maintenant stables : qu'est-ce qui tourne sans coach ?
-2. Identifier ce qui change au niveau 5 : extension à l'organisation, industrialisation de BEASTEST, gouvernance qualité inter-équipes.
+2. Identifier ce qui change au niveau 5 : extension à l'organisation, industrialisation de l'outil d'automatisation, gouvernance qualité inter-équipes.
 3. Définir les prérequis pour le niveau 5 : qu'est-ce qui doit être en place avant de commencer ?
 4. Planifier les 8 semaines du niveau 5 (BLEU) : calendrier, ateliers, responsables.
 
@@ -703,7 +703,7 @@ Chez Optel, l'équipe s'est rendu compte que générer des tests ne suffisait pa
 
 ### Capsule du vécu — Le contrat qualité comme socle
 
-Chez CGI, le contrat qualité v4.0 a été le moment où l'équipe a arrêté de négocier sur la qualité : tout le monde savait ce qui était attendu, et les dérogations étaient écrites et datées. Cela a transformé les discussions interminables en décisions rapides. Le contrat qualité n'est pas une bureaucratie, c'est un socle de confiance.
+Cas d'atelier : dans une organisation ayant déployé le contrat qualité v4.0, ce document a été le moment où l'équipe a arrêté de négocier sur la qualité : tout le monde savait ce qui était attendu, et les dérogations étaient écrites et datées. Cela a transformé les discussions interminables en décisions rapides. Le contrat qualité n'est pas une bureaucratie, c'est un socle de confiance. **Exercice :** prenez trois débats récurrents sur la qualité dans votre équipe et vérifiez, pour chacun, si le contrat qualité tranche la question — sinon, rédigez la clause manquante.
 
 ### Points de vigilance
 
@@ -715,7 +715,7 @@ Chez CGI, le contrat qualité v4.0 a été le moment où l'équipe a arrêté de
 
 - [ ] Audit de maturité niveau 4 réalisé, avec preuves et niveaux
 - [ ] Contrat qualité v4.0 signé
-- [ ] Centre d'excellence BEASTEST opérationnel, avec gardiens et rythme de revue
+- [ ] Centre d'excellence l'outil d'automatisation opérationnel, avec gardiens et rythme de revue
 - [ ] Rapport de maturité niveau 4 présenté à la direction
 - [ ] Plan de passage au niveau 5 (BLEU) prêt
 ---
@@ -725,16 +725,16 @@ Chez CGI, le contrat qualité v4.0 a été le moment où l'équipe a arrêté de
 
 # Partie 4 : Formation, exercices et évaluation (niveau 4)
 
-Le niveau 4 rend l'automatisation infrastructurelle. Cette partie la rend transmissible : former à BEASTEST sans en faire un mystère, exercer la génération critique, évaluer la qualité de la génération — pas seulement sa vitesse. Un outil qui ne se transmet pas génère une dépendance ; un outil qui se transmet génère une capacité.
+Le niveau 4 rend l'automatisation infrastructurelle. Cette partie la rend transmissible : former à l'outil d'automatisation sans en faire un mystère, exercer la génération critique, évaluer la qualité de la génération — pas seulement sa vitesse. Un outil qui ne se transmet pas génère une dépendance ; un outil qui se transmet génère une capacité.
 
 ## Le principe du niveau 4 : former à l'outil, éduquer au jugement
 
-BEASTEST génère des tests à partir des modèles. Mais la génération sans jugement produit des tests qui ne testent rien : verts, rapides, vides. La formation du niveau 4 a donc deux volets indissociables :
+l'outil d'automatisation génère des tests à partir des modèles. Mais la génération sans jugement produit des tests qui ne testent rien : verts, rapides, vides. La formation du niveau 4 a donc deux volets indissociables :
 
 1. **Le volet outil** : configurer, lancer, lire les sorties, maintenir les gabarits. C'est technique, c'est transmissible en quelques sessions.
 2. **Le volet jugement** : reconnaître un test généré qui ne vérifie rien, repérer une couverture apparente, savoir quand ne pas faire confiance à la génération. C'est le volet qui distingue un utilisateur d'un praticien — et c'est lui qui demande le plus d'exercices.
 
-Chaque module ci-dessous combine les deux volets. La règle : **aucune session de formation BEASTEST sans au moins un exercice de critique de sortie générée.**
+Chaque module ci-dessous combine les deux volets. La règle : **aucune session de formation l'outil d'automatisation sans au moins un exercice de critique de sortie générée.**
 
 ---
 
@@ -746,7 +746,7 @@ Chaque module ci-dessous combine les deux volets. La règle : **aucune session d
 
 **Objectif :** à la fin de la session, le participant a généré une première série de tests à partir d'un modèle réel, et sait où sont les résultats.
 
-**Matériel :** un modèle BPMN/MBT stable de l'équipe, un environnement BEASTEST configuré (ou l'outil de génération en place), le guide de configuration de l'équipe.
+**Matériel :** un modèle BPMN/MBT stable de l'équipe, un environnement l'outil d'automatisation configuré (ou l'outil de génération en place), le guide de configuration de l'équipe.
 
 **Déroulé :**
 
@@ -768,7 +768,7 @@ Chaque module ci-dessous combine les deux volets. La règle : **aucune session d
 
 **Objectif :** rendre chaque participant capable d'évaluer un test généré : que vérifie-t-il ? Que manque-t-il ? Vaut-il la maintenance ?
 
-**Matériel :** 10 tests générés par BEASTEST sur un modèle réel, dont 3 volontairement faibles (assertions absentes, chemins redondants, données triviales).
+**Matériel :** 10 tests générés par l'outil d'automatisation sur un modèle réel, dont 3 volontairement faibles (assertions absentes, chemins redondants, données triviales).
 
 **Déroulé :**
 
@@ -856,7 +856,7 @@ Chaque module ci-dessous combine les deux volets. La règle : **aucune session d
 
 ### Exercice E1 : La chasse au test vert vide
 
-**Durée :** 60 minutes, en binôme. **Prérequis :** la dernière génération BEASTEST.
+**Durée :** 60 minutes, en binôme. **Prérequis :** la dernière génération l'outil d'automatisation.
 
 **Consigne :** prenez 20 tests générés récemment. Pour chacun, répondez en une phrase : « ce test échoue si… ». Si vous ne pouvez pas compléter la phrase (ou si la réponse est « si le serveur est en panne », ce qui n'est pas un test), le test est vide.
 
@@ -1129,12 +1129,12 @@ Le test a été supprimé, remplacé par un test manuel vérifiant le calcul ré
 - La passe nocturne « nocturne pour qui ? » : avec des fuseaux multiples, la fenêtre de nuit n'existe pas. Définissez la fenêtre de faible activité réelle (données d'usage, pas de intuition).
 - Le canal `#gen-support` devient le lieu principal de dépannage : sa tenue (questions/réponses archivées et consultables) remplace partiellement la conversation informelle.
 
-### V3 : legacy lourd
+### V3 : patrimoine applicatif lourd
 
-- La première génération sur un legacy produit souvent des tests sur des comportements surprenants du système actuel. Ne les supprimez pas d'office : chacun est une découverte du comportement réel. Classez-les « à qualifier » avant le tri standard.
-- Les gabarits de génération doivent gérer les zones d'ombre du legacy : des données partielles, des états historiques, des règles implicites. Prévoyez un profil « legacy » avec plus de tolérance et moins d'assertions fortes.
-- Le ratio utile sera plus bas au début (le modèle du legacy est approximatif) : c'est normal. La courbe de progression est le bon indicateur, pas le ratio absolu.
-- Le tour de garde des gabarits est critique : les gabarits legacy évoluent souvent (on découvre les règles implicites). Sans rotation, le savoir reste chez celui qui a écrit le gabarit.
+- La première génération sur un patrimoine applicatif produit souvent des tests sur des comportements surprenants du système actuel. Ne les supprimez pas d'office : chacun est une découverte du comportement réel. Classez-les « à qualifier » avant le tri standard.
+- Les gabarits de génération doivent gérer les zones d'ombre du patrimoine applicatif : des données partielles, des états historiques, des règles implicites. Prévoyez un profil « patrimoine applicatif » avec plus de tolérance et moins d'assertions fortes.
+- Le ratio utile sera plus bas au début (le modèle du patrimoine applicatif est approximatif) : c'est normal. La courbe de progression est le bon indicateur, pas le ratio absolu.
+- Le tour de garde des gabarits est critique : les gabarits patrimoine applicatif évoluent souvent (on découvre les règles implicites). Sans rotation, le savoir reste chez celui qui a écrit le gabarit.
 
 ### V4 : organisation réglementée
 
@@ -1204,11 +1204,11 @@ Le résultat a surpris les deux équipes : 70 % des demandes passaient en un all
 
 ## 4. L'histoire de l'équipe qui a renoncé à mesurer (et pourquoi c'était la bonne décision)
 
-Une équipe de maintenance (5 personnes, support applicatif legacy) au niveau 3 a tenté le passage au VERT. Le praticien a déployé les mesures standard (délai, retour, stabilité, disponibilité). Le résultat a été inhabituel : les mesures étaient stables, les conversations étaient stériles, et l'équipe s'est ennuyée.
+Une équipe de maintenance (5 personnes, support d'un patrimoine applicatif ancien) au niveau 3 a tenté le passage au VERT. Le praticien a déployé les mesures standard (délai, retour, stabilité, disponibilité). Le résultat a été inhabituel : les mesures étaient stables, les conversations étaient stériles, et l'équipe s'est ennuyée.
 
 Le diagnostic du praticien : l'équipe ne produisait pas de demandes — elle gérait des incidents récurrents sur un système en fin de vie, avec un cycle court et prévisible. Les mesures VERT (conçues pour des flux de demandes) ne mesuraient rien d'intéressant ici : le délai était constant (le même chaque semaine), le retour était nul (les incidents ne revenaient pas), la stabilité était inchangée (le système ne pouvait pas être plus stable).
 
-**La décision du praticien :** renoncer au VERT — et l'assumer. L'équipe est restée au niveau 3, avec une mesure unique (le nombre d'incidents récurrents, la seule chose qui pouvait régresser) et un rituel de maintenance. Le praticien a documenté le renoncement : « le VERT mesure des flux de transformation ; notre flux n'est pas transformable (le système legacy est en fin de vie, le coût d'une amélioration dépasse son bénéfice). Les mesures seraient stables par construction — les tenir serait du théâtre. »
+**La décision du praticien :** renoncer au VERT — et l'assumer. L'équipe est restée au niveau 3, avec une mesure unique (le nombre d'incidents récurrents, la seule chose qui pouvait régresser) et un rituel de maintenance. Le praticien a documenté le renoncement : « le VERT mesure des flux de transformation ; notre flux n'est pas transformable (le système patrimoine applicatif est en fin de vie, le coût d'une amélioration dépasse son bénéfice). Les mesures seraient stables par construction — les tenir serait du théâtre. »
 
 **La leçon :** le praticien VERT sait quand ne pas mesurer. La mesure est un investissement (collecte, revue, correction) — et elle n'est justifiée que si quelque chose peut régresser et être corrigé. Une équipe dont tout est stable et inchangeable n'a pas besoin de mesures : elle a besoin de paix. Le renoncement argumenté est une décision de praticien, pas un échec.
 
@@ -1219,9 +1219,9 @@ Le diagnostic du praticien : l'équipe ne produisait pas de demandes — elle g�
 | K.L. | La mesure devenue cible (Goodhart) | Mesures sans cible affichée, discutées au rituel, mesure-miroir |
 | L'équipe de dev | Mesurer l'activité au lieu du résultat | Quatre mesures de résultat, activités supprimées |
 | S.B. | La mesure tenue contre l'autre équipe | La mesure tenue ensemble (liste commune, revue commune) |
-| L'équipe legacy | Mesurer ce qui ne peut pas changer | Le renoncement argumenté, documenté |
+| L'équipe patrimoine applicatif | Mesurer ce qui ne peut pas changer | Le renoncement argumenté, documenté |
 
-Le praticien VERT apprend de ces quatre histoires que la mesure est un acte social autant que technique : elle crée des comportements (K.L.), des orientations (l'équipe de dev), des paix ou des guerres (S.B.), et parfois des évidences de renoncement (l'équipe legacy). La mesure n'est jamais neutre — et le praticien qui l'ignore produit de la triche, de l'activité, du conflit ou du théâtre.
+Le praticien VERT apprend de ces quatre histoires que la mesure est un acte social autant que technique : elle crée des comportements (K.L.), des orientations (l'équipe de dev), des paix ou des guerres (S.B.), et parfois des évidences de renoncement (l'équipe patrimoine applicatif). La mesure n'est jamais neutre — et le praticien qui l'ignore produit de la triche, de l'activité, du conflit ou du théâtre.
 
 
 ---
@@ -1430,7 +1430,7 @@ R : Le tableau N4 vit avec 6 à 8 : les 4 de résultat + les 2-4 signaux les mie
 R : Le niveau 4 mesure des résultats (délai, retour, stabilité, disponibilité) — qui sont des mélanges de qualité et de quantité par construction. La qualité seule (ex. : le taux de bugs par ligne) est mesurable mais demande un dénominateur qui compte — et le dénominateur ramène la quantité. La vraie réponse : mesurez le résultat perçu (retour, stabilité), pas la cause présumée (bugs par ligne).
 
 **Q : que faire quand les données sont indisponibles ou peu fiables ?**
-R : Trois niveaux de réponse : (1) collecter à la main temporairement, avec la date de fin de la collecte manuelle écrite (sinon elle devient permanente) ; (2) mesurer le substitut le plus proche et documenter l'approximation ; (3) si les données ne peuvent pas exister, ne pas mesurer — et documenter le renoncement (comme l'équipe legacy du vécu). Une mesure approximative documentée vaut mieux qu'une absence cachée par une mesure fictive.
+R : Trois niveaux de réponse : (1) collecter à la main temporairement, avec la date de fin de la collecte manuelle écrite (sinon elle devient permanente) ; (2) mesurer le substitut le plus proche et documenter l'approximation ; (3) si les données ne peuvent pas exister, ne pas mesurer — et documenter le renoncement (comme l'équipe patrimoine applicatif du vécu). Une mesure approximative documentée vaut mieux qu'une absence cachée par une mesure fictive.
 
 **Q : la mesure-miroir, comment la choisir quand on débute ?**
 R : La méthode simple : demandez « comment pourrait-on améliorer cette mesure sans améliorer le résultat ? » — la réponse est la triche probable, et la mesure-miroir est ce qui la détecterait. Exemples : délai de traitement → re-classifications ; taux de bugs résolus → taux de ré-ouverture ; vitesse de livraison → stabilité post-livraison. La triche est humaine, donc prévisible : la miroir est sa détection prévue.
@@ -1774,13 +1774,13 @@ Les dix questions du test des cérémonies (Partie 7) + les questions de fin de 
 
 Ces cinq réponses sont le passeport du niveau 5 (BLEU) : la mesure d'une équipe tient quand elle est honnête — la gouvernance inter-équipes (BLEU) exigera qu'elle le soit aussi entre les équipes.
 
-# Épilogue : ce n'est pas BEASTEST qui réconcilie, c'est vous
+# Épilogue : ce n'est pas l'outil d'automatisation qui réconcilie, c'est vous
 
-BEASTEST est un outil puissant. Il génère des tests à partir des modèles, il couvre tous les types de test, il s'intègre dans le pipeline. Mais BEASTEST ne réconcilie rien tout seul. Ce qui réconcilie vitesse, profitabilité et qualité, c'est l'équipe qui s'en empare, qui lui fait confiance, qui lui impose des règles de qualité, et qui en fait un levier de livraison plutôt qu'un atelier isolé.
+l'outil d'automatisation est un outil puissant. Il génère des tests à partir des modèles, il couvre tous les types de test, il s'intègre dans le pipeline. Mais l'outil d'automatisation ne réconcilie rien tout seul. Ce qui réconcilie vitesse, profitabilité et qualité, c'est l'équipe qui s'en empare, qui lui fait confiance, qui lui impose des règles de qualité, et qui en fait un levier de livraison plutôt qu'un atelier isolé.
 
-Huit semaines. Une équipe pilote devenue modèle. BEASTEST en place. La couverture systématique. Le centre d'excellence rayonnant. Et maintenant, le passage au niveau 5 (BLEU) — où l'automatisation s'industrialise à l'échelle de l'organisation.
+Huit semaines. Une équipe pilote devenue modèle. l'outil d'automatisation en place. La couverture systématique. Le centre d'excellence rayonnant. Et maintenant, le passage au niveau 5 (BLEU) — où l'automatisation s'industrialise à l'échelle de l'organisation.
 
-Ce n'est pas BEASTEST qui réconcilie. C'est vous.
+Ce n'est pas l'outil d'automatisation qui réconcilie. C'est vous.
 
 ---
 
@@ -1922,7 +1922,7 @@ Une équipe de développement avait introduit un nouveau pipeline automatisé (l
 
 ## Histoire 3 : Le praticien qui a arrêté de mesurer (et pourquoi)
 
-Une équipe de maintenance (5 personnes, support d'un système legacy en fin de vie) a tenté le passage au niveau 4. Le praticien a déployé les quatre mesures de résultat. Le résultat après un trimestre : les mesures étaient stables, les conversations étaient stériles, et l'équipe s'ennuyait.
+Une équipe de maintenance (5 personnes, support d'un système patrimoine applicatif en fin de vie) a tenté le passage au niveau 4. Le praticien a déployé les quatre mesures de résultat. Le résultat après un trimestre : les mesures étaient stables, les conversations étaient stériles, et l'équipe s'ennuyait.
 
 Le diagnostic du praticien : l'équipe ne produisait pas de demandes — elle gérait des incidents récurrents sur un système en fin de vie. Le délai était constant (le même chaque semaine), le retour était nul (les incidents ne revenaient pas), la stabilité était inchangée (le système ne pouvait pas être plus stable sans refonte). Les mesures ne mesuraient rien d'intéressant : elles seraient stables par construction.
 
@@ -2544,7 +2544,7 @@ Le praticien du niveau 4 n'est pas celui qui mesure le mieux. C'est celui que la
 
 7. **Le sponsor qui co-crée les mesures devient un allié.** Le sponsor qui définit seul les mesures les conteste (parti pris suspecté). Le praticien qui propose la construction conjointe transforme le sceptique en défenseur : « si les mesures disent que l'équipe est lente, nous le saurons, et nous pourrons décider. »
 
-8. **Renoncer à mesurer est parfois la bonne décision.** Une équipe qui vit dans un flux non transformable (système legacy en fin de vie, travail répétitif sans amélioration possible) n'a pas besoin de mesures : elle a besoin de paix. Le praticien qui documente le renoncement fabrique de la lucidité ; celui qui mesure du décor fabrique du théâtre.
+8. **Renoncer à mesurer est parfois la bonne décision.** Une équipe qui vit dans un flux non transformable (système patrimoine applicatif en fin de vie, travail répétitif sans amélioration possible) n'a pas besoin de mesures : elle a besoin de paix. Le praticien qui documente le renoncement fabrique de la lucidité ; celui qui mesure du décor fabrique du théâtre.
 
 9. **L'intuition de l'équipe est une donnée.** Si les mesures disent « tout va bien » et que l'équipe ressent « ça va mal », les mesures manquent quelque chose. La charge perçue (une enquête de 3 questions) est une mesure-miroir des mesures objectives — la dissonance entre les chiffres et le ressenti est elle-même un signal.
 
@@ -3291,7 +3291,7 @@ Si la mesure est choisie par la direction et imposée à l'équipe, c'est un con
 
 ## La libération des disputes sans fin
 
-Avant le régime de mesure, les disputes étaient infinies : chaque personne avait son impression, son anecdote, sa conviction. « On est lents. » « Non, on est rapides. » « Les bugs viennent du legacy. » « Non, ils viennent du code neuf. » Ces disputes n'avaient pas de fin, parce qu'elles n'avaient pas de fondement commun.
+Avant le régime de mesure, les disputes étaient infinies : chaque personne avait son impression, son anecdote, sa conviction. « On est lents. » « Non, on est rapides. » « Les bugs viennent du patrimoine applicatif. » « Non, ils viennent du code neuf. » Ces disputes n'avaient pas de fin, parce qu'elles n'avaient pas de fondement commun.
 
 Le régime de mesure donne le fondement commun : les données définies, protégées par les miroirs, co-créées avec les décideurs. Les disputes ne disparaissent pas — elles se terminent. Par les données. Et une dispute qui se termine par les données est une dispute qui enseigne.
 
@@ -3488,7 +3488,7 @@ Le praticien qui transmet son carnet transmet sa lucidité. Le praticien qui tra
 
 # Atelier complémentaire : la campagne de qualification par échantillonnage
 
-*Cet atelier transpose la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT à l'échelle du niveau 4 : quand on ne peut plus tout tester soi-même, on qualifie par échantillonnage statistique.*
+*Cet atelier transpose la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection à l'échelle du niveau 4 : quand on ne peut plus tout tester soi-même, on qualifie par échantillonnage statistique.*
 
 ## Le problème du niveau 4
 
@@ -3567,7 +3567,7 @@ Ajustements décidés pour T___+1 : ____________________
 
 # Atelier complémentaire : l'échantillonnage croisé pour le niveau 4
 
-*Cet atelier approfondit la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT : la grille croisée devient l'instrument de tirage et de pondération des audits d'échantillonnage.*
+*Cet atelier approfondit la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection : la grille croisée devient l'instrument de tirage et de pondération des audits d'échantillonnage.*
 
 ## Affiner le tirage : échantillonner les croisements, pas seulement les périmètres
 
@@ -3627,7 +3627,7 @@ Testez la robustesse de votre campagne avant qu'un sponsor ne la teste :
 
 # Fiche de clôture du carnet VERT : la campagne fonctionne-t-elle sans moi ?
 
-*Dernière page du carnet, inspirée de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT : l'auto-évaluation finale par les preuves.*
+*Dernière page du carnet, inspirée de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection : l'auto-évaluation finale par les preuves.*
 
 ## Votre checklist de sortie du niveau VERT
 
@@ -3658,7 +3658,7 @@ Question que j'emporte au niveau BLEU : ____________________
 
 # Annexe de terrain VERT : les cinq pannes de la campagne d'échantillonnage et leurs remèdes
 
-*Issues de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT.*
+*Issues de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection.*
 
 ## Panne 1 — Le tirage « au sort » devient un choix déguisé
 **Symptôme :** la graine du tirage change après coup, ou les périmètres « sont tirés » par la personne qui a un avis sur eux.

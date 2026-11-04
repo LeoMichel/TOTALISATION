@@ -88,11 +88,11 @@ Ce livre n'a pas été créé par l'IA : elle a été un outil de transformation
 
 Il y a quelques années, on m'a posé une question qui ne dormait plus dans un coin de table, un peu à la manière dont on pose une question qu'on espère sans réponse : "Est-ce que tu pourrais nous aider à mettre tout ça en place en six semaines ?"
 
-Le "tout ça", c'était TOTALISATION. Non pas le livre, non pas la théorie, mais l'application vivante : des spécifications avant le code, une qualimétrie qui sert à décider, une gouvernance qui tranche, un centre d'excellence qui garde la mémoire, et des équipes qui savent éliciter, définir, planifier, implémenter, diffuser et confirmer. En six semaines. Chez un client où le produit comportait une énorme part de legacy (héritage), où la qualité était "l'affaire de tout le monde" dans les discours et "l'affaire de personne" dans le calendrier, et où les camps se regardaient en chiens de faïence.
+Le "tout ça", c'était TOTALISATION. Non pas le livre, non pas la théorie, mais l'application vivante : des spécifications avant le code, une qualimétrie qui sert à décider, une gouvernance qui tranche, un centre d'excellence qui garde la mémoire, et des équipes qui savent éliciter, définir, planifier, implémenter, diffuser et confirmer. En six semaines. Chez un client où le produit comportait une énorme part de patrimoine applicatif (héritage), où la qualité était "l'affaire de tout le monde" dans les discours et "l'affaire de personne" dans le calendrier, et où les camps se regardaient en chiens de faïence.
 
 J'ai dit oui. Pas parce que j'étais sûr d'y arriver, mais parce que la question méritait d'être tentée honnêtement. Ce que j'ai appris pendant ces semaines, je l'ai consigné dans un journal quotidien, jour après jour, avec les blocages, les tensions, les petits triomphes et les grands doutes. Ce journal, je le partage ici sous forme de capsules, parce qu'un livre d'atelier sans le réel finit en recette de cuisine.
 
-Ce que vous tenez entre les mains n'est pas un livre de théorie de plus sur la qualité. C'est un carnet de bord. Chaque semaine y est un module d'exercices, à faire avec votre équipe pilote, dans votre contexte, avec vos legacy, vos politiques et vos résistances. Vous y trouverez les ateliers, les livrables attendus, les points de vigilance, et les capsules du vécu pour vous rappeler que si ça bloque chez vous, ça bloquait aussi ailleurs, et que le blocage n'est pas une fatalité.
+Ce que vous tenez entre les mains n'est pas un livre de théorie de plus sur la qualité. C'est un carnet de bord. Chaque semaine y est un module d'exercices, à faire avec votre équipe pilote, dans votre contexte, avec votre patrimoine applicatif, vos politiques et vos résistances. Vous y trouverez les ateliers, les livrables attendus, les points de vigilance, et les capsules du vécu pour vous rappeler que si ça bloque chez vous, ça bloquait aussi ailleurs, et que le blocage n'est pas une fatalité.
 
 Une seule promesse : à la fin des huit semaines, votre équipe saura faire. Pas raconter. Faire.
 
@@ -113,10 +113,10 @@ Pour que les ateliers du niveau (1) ROUGE fonctionnent réellement — et pour q
 1. **[L'éveil de la TOTALISATION](./T̥T̯L̩S̯T̩˜ ❖ L'éveil de la TOTALISATION.md)** *(niveau 0, ouvrage fondateur)*  
    Ce livre pose la question première : « Et si nos grands concepts — valeur, produit, qualité, test, terminé, livraison, IA — avaient aussi besoin d'assurance qualité ? » Il est la condition de compréhension de ce qui suit : sans la notion de clarté → qualité → confiance → excellence durable, les étapes de ce niveau resteront des recettes sans racine. Il vous aidera à comprendre **pourquoi** TOTALISATION existe, et **sous quelle contrainte** elle interviendra.
 
-2. **[Toute la différence par la réconciliation du LEGACY](./T̥T̯L̩S̯T̩˜ ❖ Toute la différence par la réconciliation du LEGACY.md)** *(livret de réconciliation — complément)*  
-   Ce livret s'intéresse au legacy : la crise de la représentation du passé, la double lecture des pratiques, la tension entre la tradition et le changement, et la différence entre **renier** le legacy et **le réconcilier**. Il est indispensable car l'équipe pilote de ce niveau (1) ROUGE va devoir agir dans un contexte où le legacy est présent, parfois majeur, et où les anciennes habitudes vont résister — tout comme les nouvelles pratiques. Il vous donnera les outils pour ne pas renier le passé, ni imposer le présent sans le comprendre.
+2. **[Toute la différence par la réconciliation du patrimoine applicatif](./T̥T̯L̩S̯T̩˜ ❖ Toute la différence par la réconciliation du patrimoine applicatif.md)** *(livret de réconciliation — complément)*  
+   Ce livret s'intéresse au patrimoine applicatif : la crise de la représentation du passé, la double lecture des pratiques, la tension entre la tradition et le changement, et la différence entre **renier** le patrimoine applicatif et **le réconcilier**. Il est indispensable car l'équipe pilote de ce niveau (1) ROUGE va devoir agir dans un contexte où le patrimoine applicatif est présent, parfois majeur, et où les anciennes habitudes vont résister — tout comme les nouvelles pratiques. Il vous donnera les outils pour ne pas renier le passé, ni imposer le présent sans le comprendre.
 
-> **Ordre de lecture conseillé :** lire d'abord *L'éveil de la TOTALISATION* (pour comprendre la philosophie et la définition de la qualité), puis *Toute la différence par la réconciliation du LEGACY* (pour comprendre comment le legacy se manifeste concrètement dans les équipes et les produits), puis revenir aux ateliers de ce niveau (1) ROUGE.
+> **Ordre de lecture conseillé :** lire d'abord *L'éveil de la TOTALISATION* (pour comprendre la philosophie et la définition de la qualité), puis *Toute la différence par la réconciliation du patrimoine applicatif* (pour comprendre comment le patrimoine applicatif se manifeste concrètement dans les équipes et les produits), puis revenir aux ateliers de ce niveau (1) ROUGE.
 
 > **Note :** ces deux livres ne sont pas des ateliers à proprement parler. Ce sont des ouvrages de support : ils ne remplacent pas la pratique, mais ils clarifient les concepts, les représentations et les tensions qui feront la différence entre une application superficielle et une appropriation réelle.
 Ce livre est le premier de la série des guidances opérationnelles. Il est le commencement : le niveau (1) ROUGE. Il ne prétend pas vous rendre maître de TOTALISATION en huit semaines. Il prétend rendre votre équipe pilote capable de mettre en place l'essentiel de TOTALISATION, au minimum vital, et de le faire tourner dans le cycle de vie complet, de l'élicitation à la confirmation.
@@ -142,7 +142,7 @@ Les capsules Opal-RT ne sont pas de la fiction embellie. Ce sont des extraits du
 Pour que les huit semaines fonctionnent, il faut trois rôles minimum, même si une personne porte deux chapeaux :
 
 - **Le coach** (QA, Agile ou les deux) : celui qui facilite les ateliers, pose les questions, tient le cadre, et refuse de faire le travail à la place de l'équipe.
-- **L'équipe pilote** : une équipe qui livre réellement, avec ses legacy, ses contraintes et son historique. Une équipe laboratoire qui ne livre rien ne sert à rien.
+- **L'équipe pilote** : une équipe qui livre réellement, avec son patrimoine applicatif, ses contraintes et son historique. Une équipe laboratoire qui ne livre rien ne sert à rien.
 - **Le sponsor** : la personne qui peut débloquer, endosser les décisions et protéger l'équipe des tempêtes politiques. Sans sponsor, l'atelier devient un hobby.
 
 Si vous êtes seul à lire ce livre et à vouloir le mettre en place, commencez par le capsule du vécu de chaque semaine : elles vous rappelleront que la solitude du transformateur est un symptôme connu, pas une condamnation.
@@ -1524,7 +1524,7 @@ Les capsules des semaines racontent l'essentiel. Ces cas étendus ajoutent ce qu
 
 ## 3. Variantes contextuelles
 
-Les 8 semaines supposent un contexte « standard » : une équipe colocalisée, un produit en développement actif, un sponsor disponible, un legacy modéré. Ces variantes adaptent le parcours aux contextes réels, sans dénaturer ses principes. **La règle du livrable et l'honnêteté des preuves ne s'adaptent jamais.**
+Les 8 semaines supposent un contexte « standard » : une équipe colocalisée, un produit en développement actif, un sponsor disponible, un patrimoine applicatif modéré. Ces variantes adaptent le parcours aux contextes réels, sans dénaturer ses principes. **La règle du livrable et l'honnêteté des preuves ne s'adaptent jamais.**
 
 ### Variante V1 : petite équipe (2 à 4 personnes)
 
@@ -1548,16 +1548,16 @@ Les 8 semaines supposent un contexte « standard » : une équipe colocalisée, 
 
 **Ce qui ne change pas :** les livrables écrits et publiés. À distance, ils sont même plus importants : c'est ce qui empêche la session vidéo de devenir de la fumée.
 
-### Variante V3 : legacy lourd (produit ancien, peu de tests, documentation obsolète)
+### Variante V3 : patrimoine applicatif lourd (produit ancien, peu de tests, documentation obsolète)
 
 **Ce qui change :** le point de départ. Vous ne spécifiez pas le comportement existant — vous le découvrez en spécifiant.
 
-- La semaine 2 s'étend sur deux semaines si nécessaire : la première spécification porte sur un comportement existant à clarifier (pas sur une nouvelle demande). Écrire la spécification de ce que le système fait *aujourd'hui* est l'exercice le plus rentable du parcours sur un legacy lourd.
+- La semaine 2 s'étend sur deux semaines si nécessaire : la première spécification porte sur un comportement existant à clarifier (pas sur une nouvelle demande). Écrire la spécification de ce que le système fait *aujourd'hui* est l'exercice le plus rentable du parcours sur un patrimoine applicatif lourd.
 - Les cas de validation existants sont rares : commencez par des tests de caractérisation (le test qui enregistre le comportement actuel sans juger s'il est bon). Ils rendent les refactorisations futures possibles.
 - La carte du SDLC (semaine 4) mettra en évidence le sentiment de « personne ne comprend le système » : c'est normal, c'est le point de départ. Le livrable est la carte de ce qu'on ne sait pas.
-- Attendez-vous à un point mort plus tôt et plus rude : le legacy résiste. La semaine 5 peut arriver en semaine 4. C'est correct.
+- Attendez-vous à un point mort plus tôt et plus rude : le patrimoine applicatif résiste. La semaine 5 peut arriver en semaine 4. C'est correct.
 
-**Ce qui ne change pas :** l'honnêteté du constat. Sur legacy lourd, la tentation de maquiller la situation est maximale — et le coût du maquillage aussi.
+**Ce qui ne change pas :** l'honnêteté du constat. Sur un patrimoine applicatif lourd, la tentation de maquiller la situation est maximale — et le coût du maquillage aussi.
 
 ### Variante V4 : organisation réglementée (processus formels, traçabilité obligatoire)
 
@@ -3132,7 +3132,7 @@ Les équipes finissent par écrire des entrées propres à leur contexte. Trois 
 
 **« Environnement de préparation » (équipe plateforme)** — « l'environnement où les tests de régression tournent avant le Go/No-Go. Il n'est PAS l'environnement de production, et un test qui passe en préparation ne garantit rien en production — c'est pourquoi la grille exige aussi la vérification post-diffusion. » Cette entrée est née d'un incident : un test vert en préparation, un bug en production, et un débat stérile. L'entrée a tué le débat.
 
-**« Donnée historique » (équipe avec legacy)** — « les enregistrements créés avant la mise en place des règles actuelles. Ils peuvent violer les règles d'aujourd'hui sans être des bugs : les règles de validation doivent préciser s'ils s'appliquent rétroactivement. » Cette entrée a mis fin à un débat récurrent : les données historiques sont un cas limite par défaut, pas une anomalie.
+**« Donnée historique » (équipe avec patrimoine applicatif)** — « les enregistrements créés avant la mise en place des règles actuelles. Ils peuvent violer les règles d'aujourd'hui sans être des bugs : les règles de validation doivent préciser s'ils s'appliquent rétroactivement. » Cette entrée a mis fin à un débat récurrent : les données historiques sont un cas limite par défaut, pas une anomalie.
 
 **« Urgence réelle vs urgence déclarée » (équipe avec support client pressé)** — « une urgence réelle perd de l'argent chaque heure (production arrêtée, client bloqué). Une urgence déclarée est inconfortable mais supportable. Les urgences réelles court-circuitent la file ; les urgences déclarées y entrent avec leur priorité calculée. » Cette entrée a réduit les « urgences » de 70 % — parce qu'elles devaient être prouvées.
 

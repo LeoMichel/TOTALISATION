@@ -41,13 +41,13 @@ Québec, Canada · Édition 2026 · ORIGINALIUM
 - Comment structurer les outils pour l'automatisation des spécifications et la documentation du produit
 - Pourquoi une base solide de spécifications et de documentation est la condition sine qua non pour utiliser l'IA avec discernement
 - La planification des livraisons, la qualimétrie, les politiques et conventions, et la couverture par types de test, au niveau 2
-- Les capsules du vécu de la mission Faucon chez Opal-RT : ce qui change quand on passe du minimum au niveau 2
+- Les capsules du vécu de la mission de rÃ©fÃ©rence dans l'organisation de la collection : ce qui change quand on passe du minimum au niveau 2
 
 **À qui s'adresse ce livre :** Coach Agile, coach QA, QA, responsable qualité, lead technique, architecte, product owner, directeur de programme, et toute équipe qui a déjà implémenté le niveau 1 (ROUGE) et veut passer au niveau 2 sans tout renverser.
 
 **À propos de l'auteur :**
 
-Michel Bélanger, fondateur d'ORIGINALIUM et créateur de BEASTEST, accompagne les organisations dans la réconciliation entre vitesse, profitabilité et qualité. Il est l'auteur de la collection TOTALISATION.
+Michel Bélanger, fondateur d'ORIGINALIUM et créateur de l'outil d'automatisation, accompagne les organisations dans la réconciliation entre vitesse, profitabilité et qualité. Il est l'auteur de la collection TOTALISATION.
 
 **À propos de l'illustratrice :**
 
@@ -204,9 +204,9 @@ La première partie passe l'équipe de la spécification écrite à la spécific
 
 **Livrable :** cartographie des spécifications modélisée, publiée et validée par l'équipe.
 
-### Capsule du vécu — Mission Faucon, Opal-RT
+### Capsule du vécu — Mission de rÃ©fÃ©rence de la collection
 
-Chez Opal-RT, la mission Faucon avait tenté d'automatiser des tests sans modèle de référence. Résultat : des centaines de cas de test qui ne reflétaient pas le comportement réel du produit, et une maintenance impossible. Quand l'équipe est passée à une modélisation BPMN des flux critiques, les cas de test ont pu être générés à partir du modèle, et l'automatisation est devenue maintenable. Leçon : automatiser sans modèle, c'est automatiser le chaos.
+Chez l'organisation de rÃ©fÃ©rence de la collection, la mission de rÃ©fÃ©rence avait tenté d'automatiser des tests sans modèle de référence. Résultat : des centaines de cas de test qui ne reflétaient pas le comportement réel du produit, et une maintenance impossible. Quand l'équipe est passée à une modélisation BPMN des flux critiques, les cas de test ont pu être générés à partir du modèle, et l'automatisation est devenue maintenable. Leçon : automatiser sans modèle, c'est automatiser le chaos.
 
 ### Points de vigilance
 
@@ -288,9 +288,9 @@ Chez Opal-RT, la mission Faucon avait tenté d'automatiser des tests sans modèl
 
 **Livrable :** boîte à outils niveau 2 documentée et validée.
 
-### Capsule du vécu — Mission Faucon, Opal-RT
+### Capsule du vécu — Mission de rÃ©fÃ©rence de la collection
 
-Dans la mission Faucon, l'automatisation et la documentation vivaient séparément : l'équipe QA automatisait des tests dans un outil, l'équipe produit documentait dans un Wiki. Les deux divergeaient en quelques semaines. Quand l'équipe a relié la documentation aux modèles et aux tests automatisés, une modification de spécification s'est répercutée partout. Le niveau 2, c'est cette liaison : une seule source de vérité, exécutable et lisible.
+Dans la mission de rÃ©fÃ©rence, l'automatisation et la documentation vivaient séparément : l'équipe QA automatisait des tests dans un outil, l'équipe produit documentait dans un Wiki. Les deux divergeaient en quelques semaines. Quand l'équipe a relié la documentation aux modèles et aux tests automatisés, une modification de spécification s'est répercutée partout. Le niveau 2, c'est cette liaison : une seule source de vérité, exécutable et lisible.
 
 ### Points de vigilance
 
@@ -374,9 +374,9 @@ Dans la mission Faucon, l'automatisation et la documentation vivaient séparéme
 
 **Livrable :** plan de livraison N2, engagements contractuels et rituel de revue de plan publiés.
 
-### Capsule du vécu — Mission Faucon, Opal-RT
+### Capsule du vécu — Mission de rÃ©fÃ©rence de la collection
 
-Dans la mission Faucon, le plan de livraison était une liste de dates négociée en comité. Personne ne savait sur quelle base les dates avaient été choisies, et chaque revue de plan tournait au débattage d'impressions. Quand l'équipe a relié chaque élément du plan à un modèle BPMN et à ses tests, la conversation a changé : on ne discutait plus des dates, on discutait de l'état des modèles et des preuves. Une date n'était plus une promesse, c'était la conséquence d'une base de preuves. Le sponsor a cessé de demander "est-ce qu'on va y être ?" et a commencé à demander "qu'est-ce qui manque pour que le modèle soit complet ?".
+Dans la mission de rÃ©fÃ©rence, le plan de livraison était une liste de dates négociée en comité. Personne ne savait sur quelle base les dates avaient été choisies, et chaque revue de plan tournait au débattage d'impressions. Quand l'équipe a relié chaque élément du plan à un modèle BPMN et à ses tests, la conversation a changé : on ne discutait plus des dates, on discutait de l'état des modèles et des preuves. Une date n'était plus une promesse, c'était la conséquence d'une base de preuves. Le sponsor a cessé de demander "est-ce qu'on va y être ?" et a commencé à demander "qu'est-ce qui manque pour que le modèle soit complet ?".
 
 ### Points de vigilance
 
@@ -461,9 +461,9 @@ Dans la mission Faucon, le plan de livraison était une liste de dates négocié
 
 **Livrable :** cadre de qualimétrie N2, tableau de bord minimal et politiques/conventions publiés.
 
-### Capsule du vécu — Mission Faucon, Opal-RT
+### Capsule du vécu — Mission de rÃ©fÃ©rence de la collection
 
-Dans la mission Faucon, la qualimétrie de niveau 1 produisait des rapports que personne ne lisait : des courbes de vélocité, des décomptes de bugs, des pourcentages d'automatisation. Rien ne déclenchait de décision. Quand l'équipe a transformé ses métriques en signaux de décision (seuil, responsable, action), le point de qualimétrie est devenu le rituel le plus court et le plus utile de la semaine. Un signal sans décision est une curiosité. Un signal avec décision est un gouvernail.
+Dans la mission de rÃ©fÃ©rence, la qualimétrie de niveau 1 produisait des rapports que personne ne lisait : des courbes de vélocité, des décomptes de bugs, des pourcentages d'automatisation. Rien ne déclenchait de décision. Quand l'équipe a transformé ses métriques en signaux de décision (seuil, responsable, action), le point de qualimétrie est devenu le rituel le plus court et le plus utile de la semaine. Un signal sans décision est une curiosité. Un signal avec décision est un gouvernail.
 
 ### Points de vigilance
 
@@ -546,9 +546,9 @@ Il ne veut pas dire que MBT/BPMN est une mauvaise idée. Il ne veut pas dire que
 
 Le diagnostic sans illusion, les demandes de débloquement remises au sponsor, et le plan d'allégement temporaire. La décision de poursuivre le niveau 2 est prise (ou reportée avec un plan de reprise).
 
-### Capsule du vécu — Mission Faucon, Opal-RT
+### Capsule du vécu — Mission de rÃ©fÃ©rence de la collection
 
-Lors de la mission Faucon, après l'enthousiasme initial de la modélisation, l'équipe a connu une semaine où plus personne ne touchait aux modèles BPMN. Les tests automatisés échouaient en silence. Le coach n'a pas essayé de motiver l'équipe par des discours : il a chiffré le temps perdu à cause des ambiguïtés non modélisées, et l'a présenté au sponsor. Le sponsor a débloqué une demi-journée par semaine pour la maintenance des modèles. Le point mort a été traversé parce qu'il a été mesuré, pas parce qu'il a été ignoré.
+Lors de la mission de rÃ©fÃ©rence, après l'enthousiasme initial de la modélisation, l'équipe a connu une semaine où plus personne ne touchait aux modèles BPMN. Les tests automatisés échouaient en silence. Le coach n'a pas essayé de motiver l'équipe par des discours : il a chiffré le temps perdu à cause des ambiguïtés non modélisées, et l'a présenté au sponsor. Le sponsor a débloqué une demi-journée par semaine pour la maintenance des modèles. Le point mort a été traversé parce qu'il a été mesuré, pas parce qu'il a été ignoré.
 
 ### Points de vigilance
 
@@ -618,9 +618,9 @@ Lors de la mission Faucon, après l'enthousiasme initial de la modélisation, l'
 
 Le récit du virage publié, le premier rituel relayé par le chargé de livraison, et la démonstration aux voisins. L'équipe est désormais autonome sur le niveau 2.
 
-### Capsule du vécu — Mission Faucon, Opal-RT
+### Capsule du vécu — Mission de rÃ©fÃ©rence de la collection
 
-Dans la mission Faucon, le virage a eu lieu quand le chargé de livraison a animé seul son premier Go/No-Go de niveau 2. Le coach était présent mais silencieux. Le chargé de livraison a présenté les preuves (modèles à jour, tests verts, documentation liée) et a pris la décision. L'équipe a compris que le niveau 2 n'était pas l'outil du coach, mais le sien. Deux semaines plus tard, le coach n'était plus nécessaire aux rituels.
+Dans la mission de rÃ©fÃ©rence, le virage a eu lieu quand le chargé de livraison a animé seul son premier Go/No-Go de niveau 2. Le coach était présent mais silencieux. Le chargé de livraison a présenté les preuves (modèles à jour, tests verts, documentation liée) et a pris la décision. L'équipe a compris que le niveau 2 n'était pas l'outil du coach, mais le sien. Deux semaines plus tard, le coach n'était plus nécessaire aux rituels.
 
 ### Points de vigilance
 
@@ -702,9 +702,9 @@ Au niveau 1, l'équipe savait quels tests exécuter et comment les prioriser. Au
 
 Matrice de couverture par types de test, premier usage encadré de l'IA sur une spécification existante, Go/No-Go niveau 2 tenu. L'équipe a un socle solide pour l'IA : des modèles, de la documentation, et une couverture structurée.
 
-### Capsule du vécu — Mission Faucon, Opal-RT
+### Capsule du vécu — Mission de rÃ©fÃ©rence de la collection
 
-Dans la mission Faucon, l'équipe a d'abord demandé à l'IA d'écrire les spécifications à partir de rien. Résultat : des spécifications plausibles mais fausses, des cas de test qui ne couvraient pas les flux critiques. Quand l'équipe a inversé l'approche — modèle BPMN d'abord, IA comme assistant pour générer des variantes de tests et de la documentation à partir du modèle — la fiabilité a augmenté. Leçon : l'IA est un multiplicateur de force sur une base solide, pas une source de vérité.
+Dans la mission de rÃ©fÃ©rence, l'équipe a d'abord demandé à l'IA d'écrire les spécifications à partir de rien. Résultat : des spécifications plausibles mais fausses, des cas de test qui ne couvraient pas les flux critiques. Quand l'équipe a inversé l'approche — modèle BPMN d'abord, IA comme assistant pour générer des variantes de tests et de la documentation à partir du modèle — la fiabilité a augmenté. Leçon : l'IA est un multiplicateur de force sur une base solide, pas une source de vérité.
 
 ### Points de vigilance
 
@@ -788,9 +788,9 @@ Dans la mission Faucon, l'équipe a d'abord demandé à l'IA d'écrire les spéc
 
 Contrat qualité v2.0 signé, centre d'excellence opérationnel, rapport de maturité présenté, décision de la direction. Le niveau 2 est ancré.
 
-### Capsule du vécu — Mission Faucon, Opal-RT
+### Capsule du vécu — Mission de rÃ©fÃ©rence de la collection
 
-À la fin de la mission Faucon, l'équipe a présenté son rapport de maturité à la direction. Elle n'a pas montré de diapositives : elle a montré un modèle BPMN en direct, les tests générés, et la documentation liée. La direction a décidé de pérenniser le niveau 2 et de l'étendre à une deuxième équipe. Le contrat qualité v2.0 a été signé, et le centre d'excellence est devenu le point de référence pour les nouvelles équipes.
+À la fin de la mission de rÃ©fÃ©rence, l'équipe a présenté son rapport de maturité à la direction. Elle n'a pas montré de diapositives : elle a montré un modèle BPMN en direct, les tests générés, et la documentation liée. La direction a décidé de pérenniser le niveau 2 et de l'étendre à une deuxième équipe. Le contrat qualité v2.0 a été signé, et le centre d'excellence est devenu le point de référence pour les nouvelles équipes.
 
 ### Points de vigilance
 
@@ -1323,7 +1323,7 @@ Cette partie complète les huit semaines du niveau 2 avec ce qu'un descriptif d'
 
 ### 1.1 Premier modèle BPMN — exemple rempli
 
-> Exemple de la mission Faucon, semaine 1 du niveau 2. Le processus modélisé : la correction d'un bug, de la détection à la vérification.
+> Exemple de la mission de rÃ©fÃ©rence, semaine 1 du niveau 2. Le processus modélisé : la correction d'un bug, de la détection à la vérification.
 
 **Éléments du modèle :**
 
@@ -1380,7 +1380,7 @@ Le filtre du rapport X s'applique aux colonnes sélectionnées. Règles :
 
 **Pourquoi la référence du modèle compte :** la documentation qui ne cite pas sa source ne peut pas être vérifiée. Avec la référence, un lecteur qui doute de la page peut ouvrir le modèle et comparer — la documentation devient falsifiable, donc digne de confiance.
 
-## 2. Cas vécus étendus : le niveau 2 de la mission Faucon
+## 2. Cas vécus étendus : le niveau 2 de la mission de rÃ©fÃ©rence
 
 ### Cas de la semaine 1 : le modèle que personne ne voulait dessiner
 
@@ -1445,11 +1445,11 @@ Le filtre du rapport X s'applique aux colonnes sélectionnées. Règles :
 - La confrontation des modèles fonctionne bien à distance : chaque binôme partage son écran, l'un décrit le modèle de l'autre. La règle « je décris ton modèle, tu me corriges » est même plus efficace à distance, où personne ne peut pointer le même écran.
 - La documentation liée au modèle est l'atout du travail distribué : c'est ce que les gens lisent quand ils ne peuvent pas demander. Investissez-y davantage.
 
-### V3 : legacy lourd
+### V3 : patrimoine applicatif lourd
 
 - Le premier modèle BPMN ne doit pas décrire le processus idéal : il doit décrire le processus réel, avec ses contournements et ses zones d'ombre. Le modèle du réel est le point de départ ; le modèle de l'idéal est l'objectif, atteint par itérations.
-- Les tests générés sur un legacy révèlent souvent des comportements inattendus du système actuel : traitez-les comme des découvertes, pas comme des bugs du générateur. Chaque comportement inattendu est documenté : « le système fait X, le modèle disait Y, qui a raison ? »
-- La documentation liée au modèle est l'outil le plus rentable sur un legacy : c'est souvent la première documentation à jour de l'histoire du produit.
+- Les tests générés sur un patrimoine applicatif révèlent souvent des comportements inattendus du système actuel : traitez-les comme des découvertes, pas comme des bugs du générateur. Chaque comportement inattendu est documenté : « le système fait X, le modèle disait Y, qui a raison ? »
+- La documentation liée au modèle est l'outil le plus rentable sur un patrimoine applicatif : c'est souvent la première documentation à jour de l'histoire du produit.
 
 ### V4 : organisation réglementée
 
@@ -1580,7 +1580,7 @@ Chaque capsule suit le format de ROUGE : description, raison, exemple, piège, e
 
 **Raison.** Le rapport du niveau 2 est la preuve que la modélisation vit au-delà de la mission. Sa structure est celle du rapport du niveau 1, avec les catégories du niveau 2.
 
-**Exemple.** Le rapport de la mission Faucon : deux modèles vivants, onze malentendus corrigés, trois pages de documentation citées, un test généré utile, un modèle marqué non fiable et restauré.
+**Exemple.** Le rapport de la mission de rÃ©fÃ©rence : deux modèles vivants, onze malentendus corrigés, trois pages de documentation citées, un test généré utile, un modèle marqué non fiable et restauré.
 
 **Piège.** Le rapport de succès sans les métriques honnêtes. Le rapport qui ne dit pas « 40 tests produits, 1 utile » n'est pas un rapport de maturité : c'est une brochure.
 
@@ -1592,7 +1592,7 @@ Chaque capsule suit le format de ROUGE : description, raison, exemple, piège, e
 
 **Consigne.** En binôme de rôles différents, modélisez votre processus de correction de bug tel qu'il se passe vraiment. Puis chacun décrit le modèle de l'autre. Comptez les écarts.
 
-**Corrigé (exemple de l'équipe Faucon).**
+**Corrigé (exemple de l'équipe de rÃ©fÃ©rence).**
 
 Modèle réel obtenu (extrait) :
 - Détection : 3 sources (test auto, client via support, interne).
@@ -1626,7 +1626,7 @@ Ce que la spécification contient que la demande ne disait pas : les points 1, 3
 
 **Consigne.** Vérifiez trois pages de documentation contre leurs sources. Comptez les divergences. Corrigez ou marquez.
 
-**Corrigé (exemple de l'équipe Faucon).**
+**Corrigé (exemple de l'équipe de rÃ©fÃ©rence).**
 
 | Page | Vérifiée contre | Divergences |
 |---|---|---|
@@ -1642,7 +1642,7 @@ Résultat : 3 divergences dans 2 pages vérifiables, 1 page orpheline. Les diver
 
 **Corrigé (exemple).**
 
-Répartition de l'équipe Faucon au début de la semaine 3 : 4 ferme (modélisés et confrontés), 1 modélisé non confronté, 2 non modélisés. Le sponsor a vu la répartition et a demandé : « Pourquoi les deux ne sont pas modélisés ? » Réponse : « Ils dépendent d'une décision métier pas encore prise. Voici la décision et la date. » Le plan a été validé avec cette transparence.
+Répartition de l'équipe de rÃ©fÃ©rence au début de la semaine 3 : 4 ferme (modélisés et confrontés), 1 modélisé non confronté, 2 non modélisés. Le sponsor a vu la répartition et a demandé : « Pourquoi les deux ne sont pas modélisés ? » Réponse : « Ils dépendent d'une décision métier pas encore prise. Voici la décision et la date. » Le plan a été validé avec cette transparence.
 
 ## 3. Les évaluations d'acquisition du niveau 2
 
@@ -1745,7 +1745,7 @@ Cette partie complète les huit semaines du niveau 2 avec ce qu'un descriptif d'
 
 ### 1.1 Premier modèle BPMN — exemple rempli
 
-> Exemple de la mission Faucon, semaine 1 du niveau 2. Le processus modélisé : la correction d'un bug, de la détection à la vérification.
+> Exemple de la mission de rÃ©fÃ©rence, semaine 1 du niveau 2. Le processus modélisé : la correction d'un bug, de la détection à la vérification.
 
 **Éléments du modèle :**
 
@@ -1802,7 +1802,7 @@ Le filtre du rapport X s'applique aux colonnes sélectionnées. Règles :
 
 **Pourquoi la référence du modèle compte :** la documentation qui ne cite pas sa source ne peut pas être vérifiée. Avec la référence, un lecteur qui doute de la page peut ouvrir le modèle et comparer — la documentation devient falsifiable, donc digne de confiance.
 
-## 2. Cas vécus étendus : le niveau 2 de la mission Faucon
+## 2. Cas vécus étendus : le niveau 2 de la mission de rÃ©fÃ©rence
 
 ### Cas de la semaine 1 : le modèle que personne ne voulait dessiner
 
@@ -1867,11 +1867,11 @@ Le filtre du rapport X s'applique aux colonnes sélectionnées. Règles :
 - La confrontation des modèles fonctionne bien à distance : chaque binôme partage son écran, l'un décrit le modèle de l'autre. La règle « je décris ton modèle, tu me corriges » est même plus efficace à distance, où personne ne peut pointer le même écran.
 - La documentation liée au modèle est l'atout du travail distribué : c'est ce que les gens lisent quand ils ne peuvent pas demander. Investissez-y davantage.
 
-### V3 : legacy lourd
+### V3 : patrimoine applicatif lourd
 
 - Le premier modèle BPMN ne doit pas décrire le processus idéal : il doit décrire le processus réel, avec ses contournements et ses zones d'ombre. Le modèle du réel est le point de départ ; le modèle de l'idéal est l'objectif, atteint par itérations.
-- Les tests générés sur un legacy révèlent souvent des comportements inattendus du système actuel : traitez-les comme des découvertes, pas comme des bugs du générateur. Chaque comportement inattendu est documenté : « le système fait X, le modèle disait Y, qui a raison ? »
-- La documentation liée au modèle est l'outil le plus rentable sur un legacy : c'est souvent la première documentation à jour de l'histoire du produit.
+- Les tests générés sur un patrimoine applicatif révèlent souvent des comportements inattendus du système actuel : traitez-les comme des découvertes, pas comme des bugs du générateur. Chaque comportement inattendu est documenté : « le système fait X, le modèle disait Y, qui a raison ? »
+- La documentation liée au modèle est l'outil le plus rentable sur un patrimoine applicatif : c'est souvent la première documentation à jour de l'histoire du produit.
 
 ### V4 : organisation réglementée
 
@@ -1956,7 +1956,7 @@ La génération de tests à partir de modèles (Model-Based Testing) est présen
 
 ### Le ratio honnête à présenter
 
-Chaque campagne de génération doit documenter trois nombres : tests produits, tests sélectionnés, tests utiles (ceux qui ont trouvé un défaut). Le ratio de la mission Faucon — 40 produits, 12 sélectionnés, 1 utile — est représentatif d'une première campagne. Il est honnête et il suffit : un bug trouvé par une combinaison que personne n'aurait écrite est une valeur réelle, et le rapport qui le dit tel quel est crédible. Les campagnes suivantes s'améliorent (le ratio monte vers 1 utile pour 10 sélectionnés) — mais c'est la courbe qui convainc, pas le nombre absolu.
+Chaque campagne de génération doit documenter trois nombres : tests produits, tests sélectionnés, tests utiles (ceux qui ont trouvé un défaut). Le ratio de la mission de rÃ©fÃ©rence — 40 produits, 12 sélectionnés, 1 utile — est représentatif d'une première campagne. Il est honnête et il suffit : un bug trouvé par une combinaison que personne n'aurait écrite est une valeur réelle, et le rapport qui le dit tel quel est crédible. Les campagnes suivantes s'améliorent (le ratio monte vers 1 utile pour 10 sélectionnés) — mais c'est la courbe qui convainc, pas le nombre absolu.
 
 ### Quand ne PAS faire du MBT
 
@@ -2312,20 +2312,20 @@ Ces six questions sont le test de passage au niveau 3 : une cérémonie qui les 
 
 Le niveau 2 transforme les rituels du niveau 1 en système modélisé. Les histoires qui suivent racontent ce que ce passage a coûté et rapporté sur le terrain — avec les échecs qui ont forgé la méthode.
 
-## Sherweb, l'héritage technique : quand la documentation sauve le legacy
+## l'organisation de référence, l'héritage technique : quand la documentation sauve le patrimoine applicatif
 
-**L'épisode étendu.** Chez Sherweb, après le retrait des QA, l'équipe a reconstruit sa qualité — mais le produit restait un legacy documenté de manière légendaire : des wiki de cinq révisions en arrière, des commentaires de code contradictoires, et un savoir oral fragile. Le tournant du niveau 2 a été un choix simple : ne plus écrire de documentation à côté du système, mais la faire dériver du système lui-même.
+**L'épisode étendu.** Dans une organisation que j'ai accompagnée, après le retrait des QA, l'équipe a reconstruit sa qualité — mais le produit restait un patrimoine applicatif documenté de manière légendaire : des wiki de cinq révisions en arrière, des commentaires de code contradictoires, et un savoir oral fragile. Le tournant du niveau 2 a été un choix simple : ne plus écrire de documentation à côté du système, mais la faire dériver du système lui-même.
 
 **La première documentation vivante.** Le modèle du processus de déploiement a été confronté (deux malentendus trouvés), et la première page de documentation en a dérivé. Elle a été relue par le support — qui a signalé deux informations manquantes. Ces deux informations ont rejoint le modèle (pas seulement la page) : la documentation et le modèle ont appris ensemble.
 
 **Ce que cet épisode enseigne au niveau 2 :**
-- La documentation vivante est la porte d'entrée la plus rentable du niveau 2 sur un legacy : elle rapporte immédiatement (le support lit), elle enrichit le modèle (les trous sont trouvés par les lecteurs), et elle prouve la valeur sans attendre l'automatisation complète.
+- La documentation vivante est la porte d'entrée la plus rentable du niveau 2 sur un patrimoine applicatif : elle rapporte immédiatement (le support lit), elle enrichit le modèle (les trous sont trouvés par les lecteurs), et elle prouve la valeur sans attendre l'automatisation complète.
 - Le support est le premier client de la documentation vivante — et son meilleur capteur de trous. Invitez-le dès la première page.
 - Ne demandez pas la documentation parfaite : demandez la documentation datée et sourcée. Une page qui cite son modèle peut être vérifiée ; une page non sourcée ne peut qu'être crue.
 
-**Pour l'atelier :** la semaine 2 (documentation vivante) peut s'ouvrir sur cet épisode. La question aux équipes : « qui lit votre documentation aujourd'hui ? » Si la réponse est « personne », l'épisode de Sherweb donne la route : partir de ce que le support demande réellement.
+**Pour l'atelier :** la semaine 2 (documentation vivante) peut s'ouvrir sur cet épisode. La question aux équipes : « qui lit votre documentation aujourd'hui ? » Si la réponse est « personne », l'épisode de l'organisation de référence donne la route : partir de ce que le support demande réellement.
 
-## Genius Solution, la modélisation à grande échelle : trois QA, quarante développeurs, un modèle
+## l'organisation de référence, la modélisation à grande échelle : trois QA, quarante développeurs, un modèle
 
 **L'épisode étendu.** Le ratio trois pour quarante rendait impossible la qualification unitaire de chaque demande. La solution du niveau 2 a été radicale : modéliser les flux critiques de l'ERP (facturation, inventaire, taxes) et faire des modèles la source de vérité. Les développeurs ont codé contre les modèles ; les trois QA ont revu les modèles (pas les 40 flux de code) ; les tests générés ont couvert les combinaisons.
 
@@ -2340,9 +2340,9 @@ Le niveau 2 transforme les rituels du niveau 1 en système modélisé. Les histo
 
 **Pour l'atelier :** la semaine 1 (modélisation BPMN) peut utiliser ce cas pour la règle de choix des processus : « quel flux coûte le plus cher en malentendus ? Commencez par lui. »
 
-## Opal-RT, l'automatisation en mission : le modèle qui a survécu à la production
+## l'organisation de rÃ©fÃ©rence de la collection, l'automatisation en mission : le modèle qui a survécu à la production
 
-**L'épisode étendu.** Pendant la mission Faucon, le niveau 2 a été installé en temps réel sur un produit en production active. Le modèle du processus de release a été construit, confronté, et — moment décisif — utilisé pour générer les tests de la mise en production suivante. Un test généré a détecté une configuration de déploiement que personne n'avait signalée : le chemin « déploiement avec historique de version incomplet » existait dans le modèle, pas dans les checklists manuelles.
+**L'épisode étendu.** Pendant la mission de rÃ©fÃ©rence, le niveau 2 a été installé en temps réel sur un produit en production active. Le modèle du processus de release a été construit, confronté, et — moment décisif — utilisé pour générer les tests de la mise en production suivante. Un test généré a détecté une configuration de déploiement que personne n'avait signalée : le chemin « déploiement avec historique de version incomplet » existait dans le modèle, pas dans les checklists manuelles.
 
 **La discussion qui a suivi.** Le test a-t-il trouvé un bug ? Non : il a trouvé une divergence entre le modèle et la réalité — la checklist manuelle était incomplète. Le modèle a corrigé la checklist, pas le code. C'est le signe le plus sain du niveau 2 : la divergence trouve son vrai propriétaire.
 
@@ -2457,7 +2457,7 @@ R : L'IA peut proposer un premier jet de modèle à partir d'une description —
 R : La divergence n'est pas un échec du modèle : c'est sa fonction. Une divergence détectée est une information (le modèle est périmé OU le code a dévié OU le réel a changé). Le niveau 2 transforme la divergence en routine : chaque détection est traitée dans la semaine. L'alternative (ne pas modéliser pour ne pas diverger) revient à ne pas se peser pour ne pas grossir : l'information disparaît, pas le problème.
 
 **Q : Comment justifier le temps de modélisation devant l'équipe ?**
-R : Par la confrontation, pas par la théorie. La première confrontation qui trouve une divergence réelle (« attends, toi tu testes après ? ») vaut tous les arguments. Et le cas Genius (Partie 11) : le modèle d'onboarding qui a fait passer la montée en compétence de six semaines à deux — la justification la plus concrète pour une équipe qui forme.
+R : Par la confrontation, pas par la théorie. La première confrontation qui trouve une divergence réelle (« attends, toi tu testes après ? ») vaut tous les arguments. Et le cas de référence (Partie 11) : le modèle d'onboarding qui a fait passer la montée en compétence de six semaines à deux — la justification la plus concrète pour une équipe qui forme.
 
 **Q : Peut-on modéliser un projet en démarrage ?**
 R : C'est le meilleur moment : le modèle se construit en même temps que le système, et chaque décision d'architecture se prend sur le modèle (visible, discutable) plutôt que dans le code (invisible jusqu'à l'implémentation). Le modèle d'un projet neuf est un outil de design ; le modèle d'un projet existant est un outil de découverte. Les deux sont valides.
@@ -2958,7 +2958,7 @@ Les huit semaines construisent le système. La vie le maintient — ou le laisse
 
 **La revue des gabarits de génération (60 minutes).** Les gabarits évoluent-ils ? Les tour de garde tourne-t-il ? Les signaux de dérive sont-ils actifs ? Les gabarits qui ne changent jamais sont des gabarits morts.
 
-**La revue des variantes contextuelles (60 minutes).** Ce qui a changé dans le contexte (nouvelle équipe, nouveau legacy, nouveau client) ? Les variantes du parcours doivent-elles être ajustées ? Un parcours qui ne s'ajuste pas à son contexte se dérègle en silence.
+**La revue des variantes contextuelles (60 minutes).** Ce qui a changé dans le contexte (nouvelle équipe, nouveau patrimoine applicatif, nouveau client) ? Les variantes du parcours doivent-elles être ajustées ? Un parcours qui ne s'ajuste pas à son contexte se dérègle en silence.
 
 ## La routine annuelle (une journée au total)
 
@@ -3069,7 +3069,7 @@ Le niveau 3 (JAUNE) vous attend, mais il n'est pas pressé. Un niveau 2 fragile 
 
 **Le mot de la fin :** une pratique de niveau 2 qui tient sans le coach, traverse la frontière de l'équipe, et se transmet à un nouveau arrivant — c'est ça, la TOTALISATION vivante. Le reste est littérature.
 
-Huit semaines. Une équipe pilote devenue modèle. BEASTEST en place. La couverture systématique. Le centre d'excellence rayonnant. Et maintenant, le passage au niveau 3 (JAUNE) — où la spécification modélisée quitte l'équipe pour devenir la langue de l'organisation.
+Huit semaines. Une équipe pilote devenue modèle. l'outil d'automatisation en place. La couverture systématique. Le centre d'excellence rayonnant. Et maintenant, le passage au niveau 3 (JAUNE) — où la spécification modélisée quitte l'équipe pour devenir la langue de l'organisation.
 
 Il y a deux façons de mesurer les huit semaines qui viennent de s'écouler. La première : compter les artefacts. Les modèles confrontés, les spécifications dérivées, les campagnes de génération avec leur tri, les pages de documentation citées, les plans reliés, les confirmations avec leurs apprentissages. C'est une belle pile, et elle est réelle.
 
@@ -3077,13 +3077,13 @@ La deuxième : regarder l'équipe. Est-ce que la confrontation a lieu sans qu'on
 
 Si la réponse est oui, même partiellement, alors quelque chose s'est passé qui n'apparaîtra dans aucun tableau de métriques. L'équipe a cessé de dépendre du modèle parfait et a commencé à dépendre de la confrontation — du geste, pas de l'objet. C'est le niveau 2 en une phrase : une équipe qui ne dépend plus de la perfection de ses artefacts pour continuer à se parler.
 
-La mission Faucon a commencé par une question : peut-on relier l'automatisation et la documentation en huit semaines ? La réponse honnête est : oui, et non. Oui, la chaîne se construit en huit semaines avec une équipe motivée et un sponsor qui débloque. Non, la chaîne ne devient vivante qu'après — quand les habitudes seules la font tourner, quand la divergence détectée sans le coach trouve son propriétaire seule, quand l'usage imprévu enrichit le modèle sans réunion.
+La mission de rÃ©fÃ©rence a commencé par une question : peut-on relier l'automatisation et la documentation en huit semaines ? La réponse honnête est : oui, et non. Oui, la chaîne se construit en huit semaines avec une équipe motivée et un sponsor qui débloque. Non, la chaîne ne devient vivante qu'après — quand les habitudes seules la font tourner, quand la divergence détectée sans le coach trouve son propriétaire seule, quand l'usage imprévu enrichit le modèle sans réunion.
 
 Ce que vous avez entre les mains, c'est un carnet d'atelier. Utilisez-le, annotez-le, trépignez dessus quand vos divergences s'accumuleront plus vite que vous ne les corrigez — c'est le signe que le système vit, pas qu'il échoue. Et quand vous vous demanderez si tout ça vaut la peine, relisez le ratio honnête de votre première campagne de génération : 247 produits, 89 gardés, 6 utiles. Le sixième vous a peut-être évité une semaine de production. Le ratio complet vous a rendu capable de savoir.
 
 Le niveau 2 est fini. Le niveau 3 vous attend — mais d'abord, relisez votre premier modèle. Celui de la semaine 1, celui que l'équipe a dessiné en riant de ses divergences. Comparez avec celui d'aujourd'hui. Vous serez surpris du chemin.
 
-Ce n'est pas BEASTEST qui réconcilie. C'est vous.
+Ce n'est pas l'outil d'automatisation qui réconcilie. C'est vous.
 
 Le niveau 2 est une étape, pas une destination. Continuez.
 
@@ -3388,7 +3388,7 @@ DETTE VISIBLE — Registre de l'équipe (extrait)
 |---|---|---|---|
 | Remise à jour auto de l'env. de test | cycle 3 | ~4 h/cycle | 30 nov. |
 | Fusion des deux scripts de déploiement | cycle 1 | ~1 h/cycle | 15 déc. |
-| Suppression du flag --legacy de l'API | T2 | confusion clients | 31 déc. |
+| Suppression du paramÃ¨tre obsolÃ¨te de l'API | T2 | confusion clients | 31 déc. |
 
 Règle de la fiche : une dette sans date limite n'est pas une dette
 documentée — c'est un vœu. Chaque entrée a un propriétaire et une
@@ -3438,7 +3438,7 @@ C'est le schéma de toute la progression : chaque niveau n'ajoute pas un carnet,
 
 # Atelier complémentaire : le rituel de démarrage des frontières du niveau 2
 
-*Cet atelier transpose la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT au niveau 2 : avant d'équiper une frontière, on la fait naître correctement.*
+*Cet atelier transpose la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection au niveau 2 : avant d'équiper une frontière, on la fait naître correctement.*
 
 ## Pourquoi un rituel de naissance
 
@@ -3500,7 +3500,7 @@ Tenez un registre unique des naissances : chaque frontière créée dans l'organ
 
 # Fiche de clôture du carnet ORANGE : mes frontières naissent-elles bien ?
 
-*Dernière page du carnet, inspirée de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT : l'auto-évaluation finale par les preuves.*
+*Dernière page du carnet, inspirée de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection : l'auto-évaluation finale par les preuves.*
 
 ## Votre checklist de sortie du niveau ORANGE
 
@@ -3530,7 +3530,7 @@ Question que j'emporte au niveau JAUNE : ____________________
 
 # Annexe de terrain ORANGE : les cinq pannes du rituel de naissance et leurs remèdes
 
-*Issues de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT — la panoplie de dépannage rapide quand le rituel s'enraye.*
+*Issues de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection — la panoplie de dépannage rapide quand le rituel s'enraye.*
 
 ## Panne 1 — « On n'a pas le temps, on créera le PV après »
 **Symptôme :** la frontière est ouverte, le PV « suivra ». Il ne suit jamais.

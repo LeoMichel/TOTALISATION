@@ -41,13 +41,13 @@ Québec, Canada · Édition 2026 · ORIGINALIUM
 - Comment implémenter en cadence, avec des rituels qui tiennent sans le coach
 - Comment approfondir la couverture par types de test et l'automatisation au niveau 3
 - Comment l'IA devient un partenaire de spécification et de vérification, encadré par des règles d'usage écrites
-- Les capsules du vécu de la mission Faucon chez Opal-RT : ce qui change quand on passe du niveau 2 au niveau 3
+- Les capsules du vécu de la mission de rÃ©fÃ©rence dans l'organisation de la collection : ce qui change quand on passe du niveau 2 au niveau 3
 
 **À qui s'adresse ce livre :** Toute l'équipe qui réalise un produit logiciel et veut monter au niveau 3 : product owners, développeurs, architectes, testeurs/QA, ops, scrum masters, responsables qualité, directeurs de programme — et les coaches qui les accompagnent. Le livre s'adresse aux équipes qui ont déjà implémenté le niveau 2 (ORANGE) et veulent forger, planifier et implémenter en cadence avant d'ouvrir la pratique aux autres équipes.
 
 **À propos de l'auteur :**
 
-Michel Bélanger, fondateur d'ORIGINALIUM et créateur de BEASTEST, accompagne les organisations dans la réconciliation entre vitesse, profitabilité et qualité. Il est l'auteur de la collection TOTALISATION.
+Michel Bélanger, fondateur d'ORIGINALIUM et créateur de l'outil d'automatisation, accompagne les organisations dans la réconciliation entre vitesse, profitabilité et qualité. Il est l'auteur de la collection TOTALISATION.
 
 **À propos de l'illustratrice :**
 
@@ -195,9 +195,9 @@ La première partie fait monter l'équipe pilote du niveau 2 au niveau 3 en quat
 
 **Livrable :** processus de planification N3 documenté et validé.
 
-### Capsule du vécu — Mission Faucon, Opal-RT
+### Capsule du vécu — Mission de rÃ©fÃ©rence de la collection
 
-Dans la mission Faucon, les livraisons étaient planifiées "au feeling" : le Go était décidé en réunion, sans preuve tangible. Résultat : des livraisons reportées à la dernière minute, des tests qui échouent en production, de la frustration. Quand l'équipe a commencé à exiger une preuve pour chaque critère de Go (couverture, automatisation, documentation à jour), le Go est devenu une évidence et les livraisons se sont fluidifiées. Le niveau 3, c'est cette discipline : on ne livre pas parce qu'on "sent" que c'est prêt, on livre parce qu'on a la preuve.
+Dans la mission de rÃ©fÃ©rence, les livraisons étaient planifiées "au feeling" : le Go était décidé en réunion, sans preuve tangible. Résultat : des livraisons reportées à la dernière minute, des tests qui échouent en production, de la frustration. Quand l'équipe a commencé à exiger une preuve pour chaque critère de Go (couverture, automatisation, documentation à jour), le Go est devenu une évidence et les livraisons se sont fluidifiées. Le niveau 3, c'est cette discipline : on ne livre pas parce qu'on "sent" que c'est prêt, on livre parce qu'on a la preuve.
 
 ### Points de vigilance
 
@@ -275,9 +275,9 @@ Dans la mission Faucon, les livraisons étaient planifiées "au feeling" : le Go
 
 **Livrable :** rituels d'implémentation N3 documentés et validés.
 
-### Capsule du vécu — Mission Faucon, Opal-RT
+### Capsule du vécu — Mission de rÃ©fÃ©rence de la collection
 
-Dans la mission Faucon, le coach animait tous les rituels au début. Quand le coach est parti, les rituels se sont effondrés : plus personne ne savait qui devait déclencher quoi. L'équipe a dû réinventer les rituels, cette fois avec des responsables nommés dans l'équipe. Le niveau 3, c'est cette anticipation : on forge les rituels pour qu'ils survivent au départ du coach, pas pour qu'ils dépendent de lui.
+Dans la mission de rÃ©fÃ©rence, le coach animait tous les rituels au début. Quand le coach est parti, les rituels se sont effondrés : plus personne ne savait qui devait déclencher quoi. L'équipe a dû réinventer les rituels, cette fois avec des responsables nommés dans l'équipe. Le niveau 3, c'est cette anticipation : on forge les rituels pour qu'ils survivent au départ du coach, pas pour qu'ils dépendent de lui.
 
 ### Points de vigilance
 
@@ -356,9 +356,9 @@ Dans la mission Faucon, le coach animait tous les rituels au début. Quand le co
 
 **Livrable :** tableau de bord N3 publié, registre des décisions actif, cadence de qualimétrie fixée.
 
-### Capsule du vécu — Mission Faucon, Opal-RT
+### Capsule du vécu — Mission de rÃ©fÃ©rence de la collection
 
-Dans la mission Faucon, l'équipe produisait des rapports de tests, mais personne ne les regardait : ils étaient produits « pour la trace », pas pour décider. Quand l'équipe a réduit le tableau de bord à six signaux — chacun avec une décision associée — le point de qualimétrie est devenu la réunion la plus courte et la plus utile de la semaine. Le jour où un signal rouge a déclenché un No-Go argumenté par la preuve, l'équipe a compris que la qualimétrie ne décrit pas la qualité : elle déclenche des décisions.
+Dans la mission de rÃ©fÃ©rence, l'équipe produisait des rapports de tests, mais personne ne les regardait : ils étaient produits « pour la trace », pas pour décider. Quand l'équipe a réduit le tableau de bord à six signaux — chacun avec une décision associée — le point de qualimétrie est devenu la réunion la plus courte et la plus utile de la semaine. Le jour où un signal rouge a déclenché un No-Go argumenté par la preuve, l'équipe a compris que la qualimétrie ne décrit pas la qualité : elle déclenche des décisions.
 
 ### Points de vigilance
 
@@ -423,9 +423,9 @@ Dans la mission Faucon, l'équipe produisait des rapports de tests, mais personn
 
 **Livrable :** bilan de mi-parcours N3 : fondations classées, actions correctrices datées, présentation au sponsor faite.
 
-### Capsule du vécu — Mission Faucon, Opal-RT
+### Capsule du vécu — Mission de rÃ©fÃ©rence de la collection
 
-Dans la mission Faucon, la documentation était riche et morte. Les pages existaient, mais personne ne les lisait, parce que personne ne les utilisait dans un rituel. Le tournant est venu du test du nouvel arrivant : un collègue d'une autre équipe a essayé de comprendre le processus de livraison en lisant la documentation seule, et il s'est perdu. Les points de rupture qu'il a signalés ont été corrigés en une après-midi — et la documentation est devenue vivante, parce qu'un rituel la lisait désormais chaque semaine. La leçon du niveau 3 : la documentation vivante n'est pas « à jour » ; elle est *utilisée*.
+Dans la mission de rÃ©fÃ©rence, la documentation était riche et morte. Les pages existaient, mais personne ne les lisait, parce que personne ne les utilisait dans un rituel. Le tournant est venu du test du nouvel arrivant : un collègue d'une autre équipe a essayé de comprendre le processus de livraison en lisant la documentation seule, et il s'est perdu. Les points de rupture qu'il a signalés ont été corrigés en une après-midi — et la documentation est devenue vivante, parce qu'un rituel la lisait désormais chaque semaine. La leçon du niveau 3 : la documentation vivante n'est pas « à jour » ; elle est *utilisée*.
 
 ### Points de vigilance
 
@@ -530,9 +530,9 @@ La seconde partie traverse la réalité du niveau 3 : le point mort, où l'équi
 
 **Livrable :** diagnostic N3 validé, plan de passage de relais prêt.
 
-### Capsule du vécu — Mission Faucon, Opal-RT
+### Capsule du vécu — Mission de rÃ©fÃ©rence de la collection
 
-Dans la mission Faucon, le point mort est arrivé à la semaine 5 : l'équipe avait installé des rituels, mais ils ne tenaient pas sans le coach. Le diagnostic a révélé que le vrai blocage n'était pas technique : c'était que personne dans l'équipe ne se sentait responsable des rituels. Une fois ce blocage nommé, l'équipe a pu le lever. Le niveau 3, c'est cette honnêteté : on ne progresse pas en cachant ce qui ne va pas.
+Dans la mission de rÃ©fÃ©rence, le point mort est arrivé à la semaine 5 : l'équipe avait installé des rituels, mais ils ne tenaient pas sans le coach. Le diagnostic a révélé que le vrai blocage n'était pas technique : c'était que personne dans l'équipe ne se sentait responsable des rituels. Une fois ce blocage nommé, l'équipe a pu le lever. Le niveau 3, c'est cette honnêteté : on ne progresse pas en cachant ce qui ne va pas.
 
 ### Points de vigilance
 
@@ -609,9 +609,9 @@ Dans la mission Faucon, le point mort est arrivé à la semaine 5 : l'équipe av
 
 **Livrable :** autonomie de niveau 3 validée, prêt pour l'ancrage.
 
-### Capsule du vécu — Mission Faucon, Opal-RT
+### Capsule du vécu — Mission de rÃ©fÃ©rence de la collection
 
-Dans la mission Faucon, le virage est arrivé quand le coach a cessé d'animer les rituels. L'équipe a d'abord hésité, puis a pris les commandes. Le moment clé a été quand le chargé de livraison a annoncé un No-Go, contre l'avis initial du sponsor, parce que les preuves n'étaient pas là. Ce No-Go a prouvé que l'équipe était autonome et qu'elle prenait ses responsabilités. Le niveau 3, c'est cette capacité à dire non quand les preuves ne sont pas au rendez-vous.
+Dans la mission de rÃ©fÃ©rence, le virage est arrivé quand le coach a cessé d'animer les rituels. L'équipe a d'abord hésité, puis a pris les commandes. Le moment clé a été quand le chargé de livraison a annoncé un No-Go, contre l'avis initial du sponsor, parce que les preuves n'étaient pas là. Ce No-Go a prouvé que l'équipe était autonome et qu'elle prenait ses responsabilités. Le niveau 3, c'est cette capacité à dire non quand les preuves ne sont pas au rendez-vous.
 
 ### Points de vigilance
 
@@ -693,9 +693,9 @@ La troisième partie ancre la pratique de niveau 3 dans la durée : couverture a
 
 **Livrable :** matrice de couverture N3 et règles d'usage de l'IA validées.
 
-### Capsule du vécu — Mission Faucon, Opal-RT
+### Capsule du vécu — Mission de rÃ©fÃ©rence de la collection
 
-Dans la mission Faucon, l'IA a d'abord été utilisée comme une boîte noire : quelqu'un demandait à l'IA d'écrire des tests, sans vérifier, et les tests générés étaient bogués. L'équipe a instauré une règle simple : "l'IA propose, l'humain valide, le modèle décide". Depuis, l'IA est un assistant de rédaction et de vérification, pas un décideur. Le niveau 3, c'est cet encadrement : l'IA est utile quand elle est sous contrôle.
+Dans la mission de rÃ©fÃ©rence, l'IA a d'abord été utilisée comme une boîte noire : quelqu'un demandait à l'IA d'écrire des tests, sans vérifier, et les tests générés étaient bogués. L'équipe a instauré une règle simple : "l'IA propose, l'humain valide, le modèle décide". Depuis, l'IA est un assistant de rédaction et de vérification, pas un décideur. Le niveau 3, c'est cet encadrement : l'IA est utile quand elle est sous contrôle.
 
 ### Points de vigilance
 
@@ -774,9 +774,9 @@ Dans la mission Faucon, l'IA a d'abord été utilisée comme une boîte noire : 
 
 **Livrable :** niveau 3 complété, équipe prête pour le niveau vert.
 
-### Capsule du vécu — Mission Faucon, Opal-RT
+### Capsule du vécu — Mission de rÃ©fÃ©rence de la collection
 
-Dans la mission Faucon, le centre d'excellence a commencé comme un simple dossier partagé. Avec le temps, il est devenu la référence de l'organisation : les autres équipes viennent y chercher les modèles, les règles, les rapports. Quand l'équipe pilote a commencé à former les autres équipes, le centre d'excellence est devenu le cœur de la transformation. Le niveau 3, c'est cet ancrage : ce n'est plus un projet, c'est une pratique qui dure.
+Dans la mission de rÃ©fÃ©rence, le centre d'excellence a commencé comme un simple dossier partagé. Avec le temps, il est devenu la référence de l'organisation : les autres équipes viennent y chercher les modèles, les règles, les rapports. Quand l'équipe pilote a commencé à former les autres équipes, le centre d'excellence est devenu le cœur de la transformation. Le niveau 3, c'est cet ancrage : ce n'est plus un projet, c'est une pratique qui dure.
 
 ### Points de vigilance
 
@@ -1201,9 +1201,9 @@ Ces huit questions sont le test de passage au niveau 4 : une cérémonie qui les
 
 Le niveau 3 forge l'autonomie. Les histoires qui suivent racontent ce que la cadence a coûté et rapporté — avec les échecs qui ont forgé les règles du forgeage.
 
-## Desjardins, la cadence contre le flou : le rendez-vous qui ne pouvait pas être reporté
+## L'organisation qui reportait tout : la cadence contre le flou : le rendez-vous qui ne pouvait pas être reporté
 
-**L'épisode étendu.** Chez Desjardins, le sabotage par le flou (réunions reportées, informations retenues) avait une arme fatale : la flexibilité. Tout pouvait être reporté, re-planifié, déplacé — et chaque report était raisonnable isolément. Le tournant du niveau 3 a été la cadence fixe : le point de qualimétrie le mardi 9h, le Go/No-Go le jeudi, la revue le vendredi. Incontrôlables. Les reports sont devenus des événements visibles (un report de rituel est noté au registre avec sa raison), et le pattern de sabotage est apparu en clair : les reports venaient toujours de la même direction, toujours avec des raisons vagues.
+**L'épisode étendu.** Dans une organisation que j'ai accompagnée, le sabotage par le flou (réunions reportées, informations retenues) avait une arme fatale : la flexibilité. Tout pouvait être reporté, re-planifié, déplacé — et chaque report était raisonnable isolément. Le tournant du niveau 3 a été la cadence fixe : le point de qualimétrie le mardi 9h, le Go/No-Go le jeudi, la revue le vendredi. Incontrôlables. Les reports sont devenus des événements visibles (un report de rituel est noté au registre avec sa raison), et le pattern de sabotage est apparu en clair : les reports venaient toujours de la même direction, toujours avec des raisons vagues.
 
 **La confrontation rendue possible.** La cadence n'a pas corrigé le sabotage : elle l'a rendu documentable. Le sponsor a reçu, à la remontée de la semaine 5, un historique des reports avec leurs raisons — et la question factuelle : « ces reports suivent-ils un pattern ? ». Le sponsor a tranché. Le flou a perdu son arme : on ne reporte plus impunément ce qui est cadencé.
 
@@ -1214,9 +1214,9 @@ Le niveau 3 forge l'autonomie. Les histoires qui suivent racontent ce que la cad
 
 **Pour l'atelier :** la semaine 3 (planification cadencée) peut s'ouvrir sur cet épisode. La question aux équipes : « qui reporte vos rituels, et où le voyez-vous ? » Si la réponse est « nulle part », le flou vous protège mal.
 
-## Sherweb, la cadence après le retrait des QA : le rythme qui remplace la garde
+## l'organisation de référence, la cadence après le retrait des QA : le rythme qui remplace la garde
 
-**L'épisode étendu.** Le niveau 2 de Sherweb avait reconstruit la documentation vivante et les critères. Le niveau 3 a posé la question suivante : ces pratiques tiendront-elles au rythme des urgences ? La réponse réelle a été non — les rituels existaient, mais sautaient à chaque pic d'activité. La forge a consisté à rendre les rituels plus courts ET systématiques : le point de qualimétrie réduit à 10 minutes (3 signaux), mais jamais reporté. La règle apprise : un rituel court tenu vaut mieux qu'un rituel riche reporté.
+**L'épisode étendu.** Le niveau 2 de l'organisation de référence avait reconstruit la documentation vivante et les critères. Le niveau 3 a posé la question suivante : ces pratiques tiendront-elles au rythme des urgences ? La réponse réelle a été non — les rituels existaient, mais sautaient à chaque pic d'activité. La forge a consisté à rendre les rituels plus courts ET systématiques : le point de qualimétrie réduit à 10 minutes (3 signaux), mais jamais reporté. La règle apprise : un rituel court tenu vaut mieux qu'un rituel riche reporté.
 
 **La découverte contre-intuitive.** Les semaines les plus chargées (avec les rituels tenus en version courte) avaient moins de reprises que les semaines calmes sans rituels. La micro-cadence protège mieux que la macro-absence : 10 minutes de vérité hebdomadaire valent plus qu'une révision mensuelle édulcorée.
 
@@ -1227,9 +1227,9 @@ Le niveau 3 forge l'autonomie. Les histoires qui suivent racontent ce que la cad
 
 **Pour l'atelier :** la semaine 2 (rituels qui tiennent) peut s'ouvrir sur cet épisode. La question : « vos rituels, tiennent-ils les semaines à 120 % ? » Si la réponse est non, taille-les — la cadence est plus importante que la profondeur.
 
-## Genius Solution, la cadence à grande échelle : trois QA et le pipeline des quarante
+## l'organisation de référence, la cadence à grande échelle : trois QA et le pipeline des quarante
 
-**L'épisode étendu.** Le niveau 3 de Genius Solution a résolu le problème que le niveau 2 n'avait fait qu'aménager : les 3 QA ne pouvaient pas suivre 40 développeurs même avec des modèles. La forge a été le pipeline cadencé : les tests générés tournent à chaque commit (2 min), à chaque merge (8 min), la nuit (complet). Les QA ne « testent » plus : ils forgent la grille, arborent les gabarits, traitent les signaux. Le pipeline est devenu le premier gardien — les trois QA sont devenus les gardiens du gardien.
+**L'épisode étendu.** Le niveau 3 de l'organisation de référence a résolu le problème que le niveau 2 n'avait fait qu'aménager : les 3 QA ne pouvaient pas suivre 40 développeurs même avec des modèles. La forge a été le pipeline cadencé : les tests générés tournent à chaque commit (2 min), à chaque merge (8 min), la nuit (complet). Les QA ne « testent » plus : ils forgent la grille, arborent les gabarits, traitent les signaux. Le pipeline est devenu le premier gardien — les trois QA sont devenus les gardiens du gardien.
 
 **La règle apprise.** Le niveau 3 à grande échelle demande de hiérarchiser les preuves : tout ne peut pas tourner tout le temps. La grille bloquante/informatif du Go/No-Go N3 a été appliquée au pipeline : les tests bloquants au commit, les informatifs en nocturne. Le même principe, deux niveaux.
 
@@ -1240,9 +1240,9 @@ Le niveau 3 forge l'autonomie. Les histoires qui suivent racontent ce que la cad
 
 **Pour l'atelier :** la semaine 4 (qualimétrie N3, signal temps de pipeline) peut s'ouvrir sur ce cas. La question : « votre pipeline, à quel point devient-il un obstacle au lieu d'une protection ? »
 
-## Opal-RT : la cadence qui a survécu au départ du coach
+## l'organisation de rÃ©fÃ©rence de la collection : la cadence qui a survécu au départ du coach
 
-**L'épisode étendu.** Le vrai test de la mission Faucon n'était pas les 8 semaines : c'était les 8 semaines SUIVANTES. Le coach est parti ; la cadence est restée. Le point de qualimétrie du mardi 9h a tenu (le chargé de livraison l'a animé 26 semaines consécutives), les Go/No-Go du jeudi ont continué, les confirmations systématiques ont tourné. Six mois après le départ, la cadence était la seule partie « méthode » que tout le monde citait : « chez nous, on décide le jeudi ».
+**L'épisode étendu.** Le vrai test de la mission de rÃ©fÃ©rence n'était pas les 8 semaines : c'était les 8 semaines SUIVANTES. Le coach est parti ; la cadence est restée. Le point de qualimétrie du mardi 9h a tenu (le chargé de livraison l'a animé 26 semaines consécutives), les Go/No-Go du jeudi ont continué, les confirmations systématiques ont tourné. Six mois après le départ, la cadence était la seule partie « méthode » que tout le monde citait : « chez nous, on décide le jeudi ».
 
 **Ce que la cadence a produit après le départ :** les nouveaux arrivants ont été intégrés par les rituels — pas par des sessions de formation. « Le jeudi, tu verras comment on décide. » La culture était dans la cadence : elle se transmettait par la pratique, sans discours.
 
@@ -1421,7 +1421,7 @@ TEST DE RÉUSSITE (comment je sais que le rituel a eu lieu) :
 ________________________________________________________
 ```
 
-**Exemple rempli (le point de qualimétrie de Sherweb, version 10 minutes) :**
+**Exemple rempli (le point de qualimétrie de l'organisation de référence, version 10 minutes) :**
 
 ```
 RITUEL — Point de qualimétrie hebdo          Mardi 9h00, 10 minutes
@@ -1960,12 +1960,12 @@ Cette partie complète les huit semaines du niveau 3 avec les gabarits remplis p
 - La rotation du chargé de livraison est l'outil anti-dépendance le plus important à distance : à distance, les habitudes de centralisation se forment plus vite (qui décide = qui répond le plus vite, et le fuseau décide).
 - Le bilan d'autonomie gagne une colonne : « tient sans le coach ET sans coïncidence de fuseaux ».
 
-### V3 : legacy lourd
+### V3 : patrimoine applicatif lourd
 
-- La couverture unitaire (80 %) est souvent inatteignable au début sur un legacy : la grille N3 doit définir des seuils progressifs (ex. : 40 % la première version, +10 % par trimestre). Un seuil inatteignable est un seuil décoratif.
-- Les tests flaky sont fréquents sur les legacy (environnement instable, données partagées) : le budget flaky doit être plus large, et la règle de quaran plus agressive.
-- Le No-Go pour divergence doc/modèle est le plus précieux sur un legacy : c'est souvent le seul mécanisme qui révèle que la documentation ne correspond plus au système. Attendez-vous à beaucoup de divergences au début — c'est le signe que le système fonctionne.
-- La performance est le signal le plus difficile à stabiliser sur un legacy : considérez-la comme informatif au début, bloquant après 2 trimestres de stabilisation.
+- La couverture unitaire (80 %) est souvent inatteignable au début sur un patrimoine applicatif : la grille N3 doit définir des seuils progressifs (ex. : 40 % la première version, +10 % par trimestre). Un seuil inatteignable est un seuil décoratif.
+- Les tests flaky sont fréquents sur les patrimoine applicatif (environnement instable, données partagées) : le budget flaky doit être plus large, et la règle de quaran plus agressive.
+- Le No-Go pour divergence doc/modèle est le plus précieux sur un patrimoine applicatif : c'est souvent le seul mécanisme qui révèle que la documentation ne correspond plus au système. Attendez-vous à beaucoup de divergences au début — c'est le signe que le système fonctionne.
+- La performance est le signal le plus difficile à stabiliser sur un patrimoine applicatif : considérez-la comme informatif au début, bloquant après 2 trimestres de stabilisation.
 
 ### V4 : organisation réglementée
 
@@ -3281,7 +3281,7 @@ de prévention exige un binôme.
 
 # Atelier complémentaire : le plan de qualification du niveau 3
 
-*Cet atelier exploite la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT : la grille de qualification croisée appliquée aux frontières du niveau 3.*
+*Cet atelier exploite la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection : la grille de qualification croisée appliquée aux frontières du niveau 3.*
 
 ## La grille de qualification croisée appliquée aux frontières
 
@@ -3367,7 +3367,7 @@ Une fois par trimestre, une équipe externe au périmètre audite le plan de qua
 
 # Atelier complémentaire : la revue d'angle adverse pour le niveau 3
 
-*Cet atelier approfondit la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT : au niveau 3, la revue d'angle devient un rituel de gouvernance entre équipes.*
+*Cet atelier approfondit la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection : au niveau 3, la revue d'angle devient un rituel de gouvernance entre équipes.*
 
 ## Le problème spécifique du niveau 3
 
@@ -3427,7 +3427,7 @@ Un rituel de gouvernance se valide par sa survie aux perturbations :
 
 # Fiche de clôture du carnet JAUNE : la gouvernance tient-elle sans moi ?
 
-*Dernière page du carnet, inspirée de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT : l'auto-évaluation finale par les preuves.*
+*Dernière page du carnet, inspirée de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection : l'auto-évaluation finale par les preuves.*
 
 ## Votre checklist de sortie du niveau JAUNE
 
@@ -3458,7 +3458,7 @@ Question que j'emporte au niveau VERT : ____________________
 
 # Annexe de terrain JAUNE : les cinq pannes de la revue d'angle et leurs remèdes
 
-*Issues de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT.*
+*Issues de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection.*
 
 ## Panne 1 — La revue devient une réunion d'information
 **Symptôme :** les équipes présentent leurs travaux, personne ne formule d'inverses, aucune fiche ne sort.

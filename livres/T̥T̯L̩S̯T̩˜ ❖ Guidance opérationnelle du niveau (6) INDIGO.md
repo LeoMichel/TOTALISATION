@@ -5,7 +5,7 @@
 **[Image de couverture : à insérer ici]**
 
 Titre : Guidance opérationnelle du niveau (6) INDIGO
-Sous-titre / accroche : 8 semaines pour industrialiser la qualité et préparer l'avenir — avec l'organisation devenue un centre d'excellence BEASTEST
+Sous-titre / accroche : 8 semaines pour industrialiser la qualité et préparer l'avenir — avec l'organisation devenue un centre d'excellence l'outil d'automatisation
 Logotype : T̥T̯L̩S̯T̩˜ · Maison d'édition : ORIGINALIUM
 
 ---
@@ -34,7 +34,7 @@ Illustrateur/couverture : Soléane Bélanger
 
 > « Le niveau 5 fait de la qualité une infrastructure. Le niveau 6 fait de la qualité une prudence, une anticipation, une sagesse organisationnelle. »
 
-**Ce livre est un carnet d'atelier de niveau 6.** Là où le livre BLEU a industrialisé BEASTEST et étendu la couverture à l'organisation, ce livre INDIGO prépare l'avenir : l'industrialisation de la qualité, la prévention des risques, l'émergence de l'intelligence de l'organisation, et l'alignement sur les enjeux de la transformation numérique. C'est le niveau où la qualité cesse d'être une case dans un cahier et devient une pensée de l'organisation.
+**Ce livre est un carnet d'atelier de niveau 6.** Là où le livre BLEU a industrialisé l'outil d'automatisation et étendu la couverture à l'organisation, ce livre INDIGO prépare l'avenir : l'industrialisation de la qualité, la prévention des risques, l'émergence de l'intelligence de l'organisation, et l'alignement sur les enjeux de la transformation numérique. C'est le niveau où la qualité cesse d'être une case dans un cahier et devient une pensée de l'organisation.
 
 **Ce que vous découvrirez :**
 - Comment industrialiser la qualité et le savoir de l'organisation
@@ -44,10 +44,10 @@ Illustrateur/couverture : Soléane Bélanger
 - Les capsules du vécu : ce qui change quand la qualité devient une anticipation
 - La préparation du passage au niveau 7 (VIOLET) et au-delà
 
-**À qui s'adresse ce livre :** l'équipe pilotante du niveau 5 (BLEU) et l'ensemble des organisations qui ont adopté le standard BEASTEST et souhaitent industrialiser la qualité et l'avenir. Le livre s'adresse aux organisations qui envisagent de devenir un centre d'excellence, qui veulent préparer l'avenir avec des outils et des pratiques émergents.
+**À qui s'adresse ce livre :** l'équipe pilotante du niveau 5 (BLEU) et l'ensemble des organisations qui ont adopté le standard l'outil d'automatisation et souhaitent industrialiser la qualité et l'avenir. Le livre s'adresse aux organisations qui envisagent de devenir un centre d'excellence, qui veulent préparer l'avenir avec des outils et des pratiques émergents.
 
 **À propos de l'auteur :**
-Michel Bélanger, fondateur d'ORIGINALIUM et créateur de BEASTEST, accompagne les organisations dans la réconciliation entre vitesse, profitabilité et qualité. Il est l'auteur de la collection TOTALISATION.
+Michel Bélanger, fondateur d'ORIGINALIUM et créateur de l'outil d'automatisation, accompagne les organisations dans la réconciliation entre vitesse, profitabilité et qualité. Il est l'auteur de la collection TOTALISATION.
 
 **À propos de l'illustratrice :**
 Soléane Bélanger, illustration et direction visuelle de la collection.
@@ -85,7 +85,7 @@ Ce livre n'a pas été créé par l'IA : elle a été un outil de transformation
 
 ## Avant-propos : quand la qualité devient une anticipation
 
-Le niveau 5 (BLEU) a fait de l'organisation un centre d'excellence BEASTEST : BEASTEST est partagé, les équipes adhèrent, la couverture est étendue, la gouvernance est inter-équipes. L'organisation est enfin une organisation qualité : une infrastructure solide, fiable, rentable.
+Le niveau 5 (BLEU) a fait de l'organisation un centre d'excellence l'outil d'automatisation : l'outil d'automatisation est partagé, les équipes adhèrent, la couverture est étendue, la gouvernance est inter-équipes. L'organisation est enfin une organisation qualité : une infrastructure solide, fiable, rentable.
 
 Mais il reste une question : cette infrastructure solide, c'est pour l'avenir ? Oui, pour l'immédiat. Mais qu'en sera-t-il dans cinq ans, dans dix ans, quand l'environnement changera, quand la technologie évoluera, quand les enjeux de l'organisation changeront ?
 
@@ -99,7 +99,7 @@ Huit semaines encore. Mais c'est le moment où l'organisation devient un organis
 
 Chaque semaine est un module d'exercices complet : objectif, résultat attendu, ateliers numérotés avec étapes précises et livrables, capsules du vécu, points de vigilance, et checklist de fin de semaine. Les semaines 1 à 2 industrialisent la qualité et le savoir. Les semaines 3 à 4 s'alignent sur l'avenir. Les semaines 5 à 6 émergent l'intelligence organisationnelle. Les semaines 7 à 8 ancrent la pratique et préparent le passage au niveau 7 (VIOLET).
 
-Les capsules du vécu s'inspirent des récits de terrain de l'auteur : expériences chez Rayduf, Exaxe, CGI, Infor, Optel et autres organisations qui ont contribué à façonner ToTAL. Ce sont des tranches de vie, pas des études de cas idéalisées.
+Les capsules du vécu s'inspirent des récits de terrain de l'auteur : expériences dans plusieurs organisations que j'ai accompagnées — organisations qui ont contribué à façonner ToTAL. Ce sont des tranches de vie, pas des études de cas idéalisées.
 
 ---
 ## Partie 1 : Industrialiser la qualité et le savoir (semaines 1 à 2)
@@ -121,7 +121,7 @@ Les deux premières semaines ont pour objectif d'industrialiser la qualité et l
 **Durée :** 3 heures. **Participants :** toutes les équipes, responsable qualité, coach TOTALISATION.
 
 **Étapes :**
-1. Inventaire des savoirs explicites : standards BEASTEST, modèles, contrats, décisions, rapports de maturité, matrices de couverture.
+1. Inventaire des savoirs explicites : standards l'outil d'automatisation, modèles, contrats, décisions, rapports de maturité, matrices de couverture.
 2. Inventaire des savoirs tacit : compétences des personnes, règles non écrites, savoir-faire.
 3. Inventaire des savoirs disséminés : ce qui est dans les documents, les emails, les conversations, les mémoires.
 4. Évaluer la réalité : quel pourcentage de savoirs est structuré et partagé ?
@@ -161,7 +161,7 @@ Les deux premières semaines ont pour objectif d'industrialiser la qualité et l
 
 ### Capsule du vécu — Le savoir, une courant
 
-Chez Exaxe, le problème n'était pas le manque d'expérience : c'était sa dispersion. Chaque personne connaissait une partie du beau monde, mais personne ne pouvait répondre à une question générique. Quand on a décidé d'organiser les savoirs de l'entreprise, on a commencé par le catalogue des compétences : les gens ont cité leurs compétences, leurs expertises, leurs équivalences. Ensuite, les savoirs structurés ont été capturés : les standards, les contrats, les règles. Et finalement, le processus de regularisation de la connaissance a permis que personne ne se retrouve privé d'un savoir en cas de départ.
+Chez l'organisation de référence, le problème n'était pas le manque d'expérience : c'était sa dispersion. Chaque personne connaissait une partie du beau monde, mais personne ne pouvait répondre à une question générique. Quand on a décidé d'organiser les savoirs de l'entreprise, on a commencé par le catalogue des compétences : les gens ont cité leurs compétences, leurs expertises, leurs équivalences. Ensuite, les savoirs structurés ont été capturés : les standards, les contrats, les règles. Et finalement, le processus de regularisation de la connaissance a permis que personne ne se retrouve privé d'un savoir en cas de départ.
 
 ### Points de vigilance
 
@@ -192,7 +192,7 @@ Chez Exaxe, le problème n'était pas le manque d'expérience : c'était sa disp
 1. Définir la régression : qu'est-ce que c'est, quand est-ce qu'on la fait, avec quels cas ?
 2. Définir les cas de régression : les modifications critiques, les modifications à haute valeur ajoutée, les changements de comportement métier.
 3. Définir le processus de régression : comment se déroule-t-il, qui participe, quelle est la fenêtre de régression ?
-4. Définir l'outil de régression : BEASTEST ou autre outil ?
+4. Définir l'outil de régression : l'outil d'automatisation ou autre outil ?
 5. Publier le standard de régression et le mettre en œuvre.
 
 **Livrable :** standard de régression opérationnel, avec procédure et outil.
@@ -229,7 +229,7 @@ Chez Exaxe, le problème n'était pas le manque d'expérience : c'était sa disp
 
 ### Capsule du vécu — La régression, une gageure
 
-Chez Optel, la régression était un cauchemar. Chaque équipe faisait sa propre régression, dans sa propre fenêtre, avec ses propres outils. Quand on a normalisé la régression, on a généré une plateforme commune, une fenêtre commune, et une méthode commune. Résultat : la régression est devenue une étape bien plus rapide, et les équipes ont pu investir plus de temps dans les nouvelles fonctionnalités. La régression n'est plus une gageure, c'est une question de méthode.
+Dans une organisation que j'ai accompagnée, la régression était un cauchemar. Chaque équipe faisait sa propre régression, dans sa propre fenêtre, avec ses propres outils. Quand on a normalisé la régression, on a généré une plateforme commune, une fenêtre commune, et une méthode commune. Résultat : la régression est devenue une étape bien plus rapide, et les équipes ont pu investir plus de temps dans les nouvelles fonctionnalités. La régression n'est plus une gageure, c'est une question de méthode.
 
 ### Points de vigilance
 
@@ -303,7 +303,7 @@ Les semaines 3 et 4 ont pour objectif de préparer l'avenir : l'alignement sur l
 
 ### Capsule du vécu — L'alignement, la clé
 
-Chez CGI, la priorité d'un projet n'est pas la technologie : c'est l'alignement. Quand l'IA est en jeu, on commence par définir ce que l'IA doit apporter, que l'on ne teste pas par rapport à des attentes non alignées. La cybersécurité est la base de la confiance. Le brain est la ressource la plus précieuse, et sa protection est une tâche de qualité. C'est ce qui permet à une organisation de passer des bonne idées à la viabilité durable.
+Cas d'atelier : dans une organisation accompagnée, la priorité d'un projet n'était pas la technologie : c'était l'alignement. Quand l'IA est en jeu, on commence par définir ce que l'IA doit apporter, que l'on ne teste pas par rapport à des attentes non alignées. La cybersécurité est la base de la confiance. Le cerveau est la ressource la plus précieuse, et sa protection est une tâche de qualité. C'est ce qui permet à une organisation de passer des bonnes idées à la viabilité durable. **Exercice :** pour votre projet actuel, rédigez en trois phrases ce que l'IA doit apporter, ce qu'elle ne doit pas faire, et comment vous saurez que c'est réussi — puis faites-les valider par le demandeur.
 
 ### Points de vigilance
 
@@ -445,7 +445,7 @@ Les semaines 5 et 6 ont pour objectif d'émerger l'intelligence organisationnell
 
 ### Capsule du vécu — L'organisme vivant
 
-Chez Optel, le centre d'excellence est devenu un organisme vivant : la communauté de pratique des experts, les experts locaux, les canaux de diffusion, et le droit à l'erreur avec le contrat de partage. L'organisation n'est plus une arborescence de documents, c'est un réseau de personnes qui partagent des savoirs. Chaque semaine, les experts se réunissent, partagent leurs retours, et actualisent les assets. C'est le vivant qui maintient la qualité, pas un standard figé.
+Dans une organisation que j'ai accompagnée, le centre d'excellence est devenu un organisme vivant : la communauté de pratique des experts, les experts locaux, les canaux de diffusion, et le droit à l'erreur avec le contrat de partage. L'organisation n'est plus une arborescence de documents, c'est un réseau de personnes qui partagent des savoirs. Chaque semaine, les experts se réunissent, partagent leurs retours, et actualisent les assets. C'est le vivant qui maintient la qualité, pas un standard figé.
 
 ### Points de vigilance
 
@@ -513,7 +513,7 @@ Chez Optel, le centre d'excellence est devenu un organisme vivant : la communaut
 
 ### Capsule du vécu — L'organisme, pas l'usine
 
-Chez Exaxe, le centre d'excellence a d'abord été conçu comme un entrepôt de documents : des actifs structurés, un catalogue, un processus de mise à jour. Puis, petit à petit, les gens ont compris qu'il s'agissait d'un organisme vivant : il ne faut pas gérer le centre d'excellence comme un produit à livrer, mais comme un organisme à nourrir. Il faut le cultiver, le faire grandir, le laisser reposer. Que l'organisme, pas l'usine, qui produit des produits, mais ne fabrique pas des êtres vivants. Il n'y a pas de rupture, c'est la différence d'approche qui fait émerger un organisme.
+Chez l'organisation de référence, le centre d'excellence a d'abord été conçu comme un entrepôt de documents : des actifs structurés, un catalogue, un processus de mise à jour. Puis, petit à petit, les gens ont compris qu'il s'agissait d'un organisme vivant : il ne faut pas gérer le centre d'excellence comme un produit à livrer, mais comme un organisme à nourrir. Il faut le cultiver, le faire grandir, le laisser reposer. Que l'organisme, pas l'usine, qui produit des produits, mais ne fabrique pas des êtres vivants. Il n'y a pas de rupture, c'est la différence d'approche qui fait émerger un organisme.
 
 ### Points de vigilance
 
@@ -651,7 +651,7 @@ Les semaines 7 et 8 ont pour objectif d'ancrer la pratique au niveau 6 et de pr�
 
 ### Capsule du vécu — L'organisation et la pratique
 
-Chez CGI, la priorité n'était pas la technologie. C'est la transformation du travail. Quand on parle de qualité, ce n'est pas de s'arrêter à une uniformité des produits, c'est de désigner la manière dont les personnes servent les personnes. Dans cette organisation, la qualité n'est pas un standard figé, c'est une posture que l'on adopte. Le centre d'excellence n'est pas une machine à produire des documents, c'est le lieu où la pratique de la qualité est discutée, améliorée et vécue.
+Cas d'atelier : dans une organisation accompagnée, la priorité n'était pas la technologie, mais la transformation du travail. Quand on parle de qualité, ce n'est pas s'arrêter à une uniformité des produits, c'est désigner la manière dont les personnes servent les personnes. Dans cette organisation, la qualité n'est pas un standard figé, c'est une posture que l'on adopte. Le centre d'excellence n'est pas une machine à produire des documents, c'est le lieu où la pratique de la qualité est discutée, améliorée et vécue. **Exercice :** listez trois rituels de votre centre d'excellence et vérifiez, pour chacun, s'il produit un document ou une transformation de pratique — transformez le rituel « document » en rituel « pratique ».
 
 ### Points de vigilance
 
@@ -1227,7 +1227,7 @@ Ces douze questions sont le test de passage au niveau 7 : une cérémonie qui le
 
 Quatre histoires vraies, tirées du vécu de l'organisation — là où la prévention et l'anticipation se sont jouées sur des personnes, pas sur des concepts. Chaque histoire est suivie de ce qu'elle enseigne au praticien du niveau 6.
 
-## Histoire 1 : Le signal faible qui a évité l'incident — Opal-RT
+## Histoire 1 : Le signal faible qui a évité l'incident — l'organisation de rÃ©fÃ©rence de la collection
 
 C'était pendant la migration de l'infrastructure de build. L'équipe avait un canal des signaux faibles (institué au niveau 5), et un jeudi, un message passait presque inaperçu : un ingénieur mentionnait qu'un script de build « prenait un peu plus de temps ces derniers jours ». Rien d'alarmant. Personne n'aurait ouvert un ticket pour ça.
 
@@ -1469,7 +1469,7 @@ ________________________________________________________
 que je le dépose.)
 ```
 
-**Exemple rempli (tiré du cas Opal-RT) :**
+**Exemple rempli (tiré du cas de rÃ©fÃ©rence de la collection) :**
 
 ```
 SIGNAL — 04/09                 Déposé par : M.G.
@@ -1544,7 +1544,7 @@ Chiffrée : _________________________________
 Documenté dans la mémoire : [référence]
 ```
 
-**Exemple rempli (tiré du cas Opal-RT) :**
+**Exemple rempli (tiré du cas de rÃ©fÃ©rence de la collection) :**
 
 ```
 CHANTIER DE PRÉVENTION — P-7         Cré le : 12/09
@@ -1814,7 +1814,7 @@ Que vos signaux soient lus, vos révisions sans orgueil, et vos transmissions vi
 ---
 
 # Annexe A — Table de correspondance des exercices du niveau 6
-Cette table relie chaque exercice du livre à son intention d'apprentissage, à sa durée, et au moment du calendrier où il prend le plus de valeur. Elle sert à construire un parcours de formation personnalisé. (On ne parle pas ici de réconciliation au sens de la collection — le geste de réconciliation du LEGACY est traité dans le livre 2, *Toute la différence par la réconciliation du LEGACY* — mais simplement de faire correspondre chaque exercice à son usage.)
+Cette table relie chaque exercice du livre à son intention d'apprentissage, à sa durée, et au moment du calendrier où il prend le plus de valeur. Elle sert à construire un parcours de formation personnalisé. (On ne parle pas ici de réconciliation au sens de la collection — le geste de réconciliation du patrimoine applicatif est traité dans le livre 2, *Toute la différence par la réconciliation du patrimoine applicatif* — mais simplement de faire correspondre chaque exercice à son usage.)
 
 | Exercice | Intention | Durée | Moment optimal |
 |---|---|---|---|
@@ -3703,7 +3703,7 @@ C'est le signe du passage.
 
 # Atelier complémentaire : le système de mesures de la qualification croisée
 
-*Cet atelier transpose la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT au niveau 6 : la grille croisée devient un tableau de bord — chaque colonne produit une métrique, chaque croisement une décision.*
+*Cet atelier transpose la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection au niveau 6 : la grille croisée devient un tableau de bord — chaque colonne produit une métrique, chaque croisement une décision.*
 
 ## Les quatre métriques de la grille
 
@@ -3772,7 +3772,7 @@ Avant d'exposer vos quatre taux à un sponsor, passez le test :
 
 # Atelier complémentaire : la gouvernance des données de qualification (niveau 6)
 
-*Cet atelier approfondit la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT : les quatre taux deviennent un actif de données gouverné — collecté, purgé, archivé, défendu.*
+*Cet atelier approfondit la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection : les quatre taux deviennent un actif de données gouverné — collecté, purgé, archivé, défendu.*
 
 ## Les quatre taux sont un actif, pas un rapport
 
@@ -3830,7 +3830,7 @@ Tout cet actif — taux, PV, séries, récits annuels — est ce que le praticie
 
 # Fiche de clôture du carnet INDIGO : mes données parlent-elles sans moi ?
 
-*Dernière page du carnet, inspirée de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT : l'auto-évaluation finale par les preuves.*
+*Dernière page du carnet, inspirée de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection : l'auto-évaluation finale par les preuves.*
 
 ## Votre checklist de sortie du niveau INDIGO
 
@@ -3860,7 +3860,7 @@ Question que j'emporte au niveau VIOLET : ____________________
 
 # Annexe de terrain INDIGO : les cinq pannes du tableau des quatre taux et leurs remèdes
 
-*Issues de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT.*
+*Issues de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection.*
 
 ## Panne 1 — Les taux montent, la méthode change en silence
 **Symptôme :** un trimestre « exceptionnel » de +15 points — personne ne sait pourquoi, la méthode a changé discrètement.

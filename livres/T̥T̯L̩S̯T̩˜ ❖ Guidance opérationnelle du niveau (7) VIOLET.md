@@ -47,7 +47,7 @@ Illustrateur/couverture : Soléane Bélanger
 **À qui s'adresse ce livre :** l'organisation qui a atteint le niveau 6 (INDIGO) et souhaite devenir une organisation où la qualité est une philosophie de vie. Le livre s'adresse aux dirigeants, aux équipes, aux coachs, et à toute la collectivité qui cherche à transformer la qualité en un mode de vie.
 
 **À propos de l'auteur :**
-Michel Bélanger, fondateur d'ORIGINALIUM et créateur de BEASTEST, accompagne les organisations dans la réconciliation entre vitesse, profitabilité et qualité. Il est l'auteur de la collection TOTALISATION.
+Michel Bélanger, fondateur d'ORIGINALIUM et créateur de l'outil d'automatisation, accompagne les organisations dans la réconciliation entre vitesse, profitabilité et qualité. Il est l'auteur de la collection TOTALISATION.
 
 **À propos de l'illustratrice :**
 Soléane Bélanger, illustration et direction visuelle de la collection.
@@ -99,7 +99,7 @@ Huit semaines encore. Mais c'est le moment où l'organisation devient un être v
 
 Chaque semaine est un module d'exercices complet : objectif, résultat attendu, ateliers numérotés avec étapes précises et livrables, capsules du vécu, points de vigilance, et checklist de fin de semaine. Les semaines 1 à 2 construisent la vision commune et la philosophie. Les semaines 3 à 4 transforment les postes et les décisions. Les semaines 5 à 6 visionnent l'avenir et transforment l'organisation en un art. Les semaines 7 à 8 ancrent la pratique et préparent le niveau 8.
 
-Les capsules du vécu s'inspirent des récits de terrain de l'auteur : expériences chez Rayduf, Exaxe, CGI, Infor, Optel et autres organisations qui ont contribué à façonner ToTAL. Ce sont des tranches de vie, pas des études de cas idéalisées.
+Les capsules du vécu s'inspirent des récits de terrain de l'auteur : expériences dans plusieurs organisations que j'ai accompagnées — organisations qui ont contribué à façonner ToTAL. Ce sont des tranches de vie, pas des études de cas idéalisées.
 
 ---
 ## Partie 1 : La vision commune et la philosophie de l'excellence (semaines 1 à 2)
@@ -161,7 +161,7 @@ Les deux premières semaines ont pour objectif de construire la vision commune e
 
 ### Capsule du vécu — La vision commune
 
-Chez Rayduf, le drapeau de la société était rajouté à un moment où le monde était en mutation. Comme une vague qui monte, le drapeau a rassemblé l'ensemble des équipes autour d'une vision commune : l'excellence. Quand la vision est claire, les gens comprennent ce qu'ils doivent faire, comment agir, et pourquoi. La vision commune devient la boussole de l'organisation.
+Dans une organisation que j'ai accompagnée, le drapeau de la société était rajouté à un moment où le monde était en mutation. Comme une vague qui monte, le drapeau a rassemblé l'ensemble des équipes autour d'une vision commune : l'excellence. Quand la vision est claire, les gens comprennent ce qu'ils doivent faire, comment agir, et pourquoi. La vision commune devient la boussole de l'organisation.
 
 ### Points de vigilance
 
@@ -229,7 +229,7 @@ Chez Rayduf, le drapeau de la société était rajouté à un moment où le mond
 
 ### Capsule du vécu — La culture, l'odeur de l'avenir
 
-Chez Exaxe, la culture organisait l'avenir. Tout le monde parlait d'excellence, mais la culture était lourde, les habitudes de travail étaient dirigées, et la peur de l'erreur découragée les cobayes. Lorsque le coach a commencé à poser les questions : « Qu'est-ce que vous faites, réellement, quand l'erreur survient ? Qui est puni, et quel est le sens de la punition ? », l'organisation a compris que la culture n'était pas un mythe : c'était un système qu'il fallait entretenir. La transformation n'était pas de changer les discours, mais de changer les habitudes.
+Chez l'organisation de référence, la culture organisait l'avenir. Tout le monde parlait d'excellence, mais la culture était lourde, les habitudes de travail étaient dirigées, et la peur de l'erreur découragée les cobayes. Lorsque le coach a commencé à poser les questions : « Qu'est-ce que vous faites, réellement, quand l'erreur survient ? Qui est puni, et quel est le sens de la punition ? », l'organisation a compris que la culture n'était pas un mythe : c'était un système qu'il fallait entretenir. La transformation n'était pas de changer les discours, mais de changer les habitudes.
 
 ### Points de vigilance
 
@@ -303,7 +303,7 @@ Les semaines 3 et 4 ont pour objectif de transformer les postes et les décision
 
 ### Capsule du vécu — Chacun dans son poste
 
-Chez Optel, la priorité était de transformer chaque poste en un poste de service. Les testeurs n'étaient plus des simple vérificateurs, mais des acteurs de la qualité. Les développeurs n'étaient plus des rédacteurs de code, mais des auteurs de solutions. Les ops n'étaient plus des exécutants, mais des gardiens du confort. Chacun a trouvé sa place, et l'organisation a vu sa qualité s'améliorer. Ce n'est pas la technique qui a transformé l'organisation, c'est la mission commune.
+Dans une organisation que j'ai accompagnée, la priorité était de transformer chaque poste en un poste de service. Les testeurs n'étaient plus des simple vérificateurs, mais des acteurs de la qualité. Les développeurs n'étaient plus des rédacteurs de code, mais des auteurs de solutions. Les ops n'étaient plus des exécutants, mais des gardiens du confort. Chacun a trouvé sa place, et l'organisation a vu sa qualité s'améliorer. Ce n'est pas la technique qui a transformé l'organisation, c'est la mission commune.
 
 ### Points de vigilance
 
@@ -371,7 +371,7 @@ Chez Optel, la priorité était de transformer chaque poste en un poste de servi
 
 ### Capsule du vécu — La décision qui transforme la sagesse
 
-Chez CGI, la décision de la qualité a été prise avec la vision commune : l'honnêteté, la confiance, la sagesse. En décidant ensemble, l'organisation a pu transformer la qualité en une philosophie. La décision n'est pas un acte de force, c'est un acte de sagesse. La sagesse de l'organisation est le fruit de la culture de la co-construction, l'honnêteté des retours, et la confiance mutuelle.
+Cas d'atelier : dans une organisation accompagnée, la décision de la qualité a été prise avec la vision commune : l'honnêteté, la confiance, la sagesse. En décidant ensemble, l'organisation a pu transformer la qualité en une philosophie. La décision n'est pas un acte de force, c'est un acte de sagesse. La sagesse de l'organisation est le fruit de la culture de la co-construction, l'honnêteté des retours, et la confiance mutuelle. **Exercice :** prenez une décision de qualité en attente dans votre organisation et appliquez le triptyque honnêteté–confiance–sagesse : énoncez la vérité, nommez le risque, proposez une décision co-construite.
 
 ### Points de vigilance
 
@@ -445,7 +445,7 @@ Les semaines 5 et 6 ont pour objectif de visionner l'avenir et de transformer l'
 
 ### Capsule du vécu — La vision de l'avenir
 
-Chez Exaxe, la vision de l'avenir était une concordance de mots, un drapeau, une phrase que tout le monde comprenait. C'est une forme : la globalité de la vision doit être comprise par chaque membre de l'organisation. L'avenir n'est pas une prophétie, c'est un choix. L'avenir est une invitation à décider : ne pas rester, mais se décider. C'est la sagesse de l'avenir qui permet de choisir, et la perspective de l'avenir qui donne du sens au présent.
+Chez l'organisation de référence, la vision de l'avenir était une concordance de mots, un drapeau, une phrase que tout le monde comprenait. C'est une forme : la globalité de la vision doit être comprise par chaque membre de l'organisation. L'avenir n'est pas une prophétie, c'est un choix. L'avenir est une invitation à décider : ne pas rester, mais se décider. C'est la sagesse de l'avenir qui permet de choisir, et la perspective de l'avenir qui donne du sens au présent.
 
 ### Points de vigilance
 
@@ -513,7 +513,7 @@ Chez Exaxe, la vision de l'avenir était une concordance de mots, un drapeau, un
 
 ### Capsule du vécu — L'art de l'avenir
 
-Chez Optel, l'organisation est devenue un art de l'avenir. Chaque poste a trouvé sa place, et la qualité n'est plus une obligation, mais un plaisir. Les personnes ont compris que la qualité n'est pas une contrainte de la vie, c'est une manière de vivre. La philosophie de la qualité n'est pas un standard, c'est une philosophie de vie, une manière de persévérer, de chercher, et de faire du monde un lieu plus beau.
+Dans une organisation que j'ai accompagnée, l'organisation est devenue un art de l'avenir. Chaque poste a trouvé sa place, et la qualité n'est plus une obligation, mais un plaisir. Les personnes ont compris que la qualité n'est pas une contrainte de la vie, c'est une manière de vivre. La philosophie de la qualité n'est pas un standard, c'est une philosophie de vie, une manière de persévérer, de chercher, et de faire du monde un lieu plus beau.
 
 ### Points de vigilance
 
@@ -1486,7 +1486,7 @@ BILAN DE VITALITÉ — [année]          Fait le : [date]
 
 ## Fiche 34 : Le gabarit d'arbitrage d'apprentissages
 
-**Usage :** quand deux apprentissages (souvent de deux personnes, de deux équipes) semblent contradictoires — le format de l'arbitrage documenté. **Remarque d'architecture :** si la contradiction est profonde (deux cultures, deux pratiques héritées, un legacy de représentations), le traitement relève du livre 2 de la collection — *Toute la différence par la réconciliation du LEGACY* — qui est le manuel du geste de réconciliation. La fiche ci-dessous traite l'arbitrage léger : deux mesures, deux méthodes, deux contextes — dans une même équipe, sur une même pratique.
+**Usage :** quand deux apprentissages (souvent de deux personnes, de deux équipes) semblent contradictoires — le format de l'arbitrage documenté. **Remarque d'architecture :** si la contradiction est profonde (deux cultures, deux pratiques héritées, un patrimoine applicatif de représentations), le traitement relève du livre 2 de la collection — *Toute la différence par la réconciliation du patrimoine applicatif* — qui est le manuel du geste de réconciliation. La fiche ci-dessous traite l'arbitrage léger : deux mesures, deux méthodes, deux contextes — dans une même équipe, sur une même pratique.
 
 ```
 ARBITRAGE D'APPRENTISSAGES — [n]  Cré le : [date]
@@ -1510,8 +1510,8 @@ la règle de bascule entre les deux) :
 ________________________________________________________
 
 SI LA TENSION EST CULTURELLE (deux pratiques héritées, deux
-représentations du métier, un legacy de méthodes) :
-→ renvoyer au livre 2 : la réconciliation du LEGACY. L'arbitrage
+représentations du métier, un patrimoine applicatif de méthodes) :
+→ renvoyer au livre 2 : la réconciliation du patrimoine applicatif. L'arbitrage
 léger ne suffit pas quand ce qui s'affronte sont deux passés.
 
 LE NOUVEL APPRENTISSAGE (relié aux deux sources) :
@@ -1547,7 +1547,7 @@ pas la même, parce que le pipeline a changé le travail.
 SI LA TENSION ÉTAIT CULTURELLE : si le vétéran défendait son
 ancien pipeline comme une identité (« notre façon de faire »)
 plutôt que comme une mesure d'effort, l'arbitrage léger ne
-suffirait pas — ce serait une réconciliation du LEGACY, et le
+suffirait pas — ce serait une réconciliation du patrimoine applicatif, et le
 livre 2 en serait le manuel. Ici, les deux parties acceptent
 la mesure d'effort comme mesure d'effort : l'arbitrage tient.
 
@@ -1585,9 +1585,9 @@ divergence peut révéler une transformation, pas une erreur. »
 
 **Bilan de vitalité** — la mesure annuelle de la culture (rituels, récits, jurisprudence, transmission, renoncement). Sa règle : il transforme la vitalité d'une impression en une mesure — et les rituels « partiel » sont diagnostiqués, pas condamnés.
 
-**Réconciliation culturelle** — l'intégration d'une culture différente (acquisition, nouvelle équipe) par identification des communs et discussion des divergences. Sa règle : la substitution produit une culture de façade. **Remarque d'architecture :** le geste complet de réconciliation — documenter ce qui est, décider ce qui devient, tracer ce qui est décidé — est le sujet du livre 2 de la collection, *Toute la différence par la réconciliation du LEGACY*. Le niveau 7 en reconnaît la nécessité et renvoie à ce livre pour la méthode.
+**Réconciliation culturelle** — l'intégration d'une culture différente (acquisition, nouvelle équipe) par identification des communs et discussion des divergences. Sa règle : la substitution produit une culture de façade. **Remarque d'architecture :** le geste complet de réconciliation — documenter ce qui est, décider ce qui devient, tracer ce qui est décidé — est le sujet du livre 2 de la collection, *Toute la différence par la réconciliation du patrimoine applicatif*. Le niveau 7 en reconnaît la nécessité et renvoie à ce livre pour la méthode.
 
-**Arbitrage d'apprentissages** — la résolution de la contradiction entre deux apprentissages par l'investigation de leurs contextes. Sa règle : la divergence de mesure révèle souvent une transformation, pas une erreur. **Remarque :** si la contradiction est profonde (deux cultures, deux pratiques héritées), le traitement relève du livre 2 — *Toute la différence par la réconciliation du LEGACY*.
+**Arbitrage d'apprentissages** — la résolution de la contradiction entre deux apprentissages par l'investigation de leurs contextes. Sa règle : la divergence de mesure révèle souvent une transformation, pas une erreur. **Remarque :** si la contradiction est profonde (deux cultures, deux pratiques héritées), le traitement relève du livre 2 — *Toute la différence par la réconciliation du patrimoine applicatif*.
 
 
 ---
@@ -2310,7 +2310,7 @@ Le praticien du niveau 7 a besoin d'un vocabulaire qui dépasse celui du niveau 
 
 **Renoncement** — ce que l'organisation abandonne (un rituel mort, une valeur aspirative, un projet dépassé), avec sa raison documentée. À ne pas confondre avec l'échec (qui se produit malgré soi) : le renoncement est une décision consciente de faire de la place. Le test du renoncement : il libère de l'énergie pour ce qui reste.
 
-**Arbitrage d'apprentissages** — la résolution de la contradiction entre deux apprentissages par l'investigation de leurs contextes. À ne pas confondre avec la réconciliation du LEGACY (qui traite les contradictions culturelles profondes — livre 2) : l'arbitrage traite les contradictions légères. Le test : la divergence révèle-t-elle une transformation (arbitrage) ou un affrontement de passés (réconciliation) ?
+**Arbitrage d'apprentissages** — la résolution de la contradiction entre deux apprentissages par l'investigation de leurs contextes. À ne pas confondre avec la réconciliation du patrimoine applicatif (qui traite les contradictions culturelles profondes — livre 2) : l'arbitrage traite les contradictions légères. Le test : la divergence révèle-t-elle une transformation (arbitrage) ou un affrontement de passés (réconciliation) ?
 
 **Valeur incarnée** — une valeur qui a coûté quelque chose à l'organisation : du temps, de l'argent, une opportunité, une réputation. À ne pas confondre avec la valeur aspirée (que l'organisation souhaite) : la valeur incarnée a payé son prix. Le test : on peut nommer le coût le plus récent que la valeur a fait payer.
 
@@ -2333,15 +2333,15 @@ Le praticien du niveau 7 a besoin d'un vocabulaire qui dépasse celui du niveau 
 
 ---
 
-# Partie 18 : Le vécu historique — Rayduf et la naissance d'une conviction
+# Partie 18 : Le vécu historique — l'organisation de référence et la naissance d'une conviction
 
-Cette partie raconte l'histoire complète de Rayduf — le sous-sol, l'oncle, la musique — parce qu'elle est l'origine de tout ce que les six autres niveaux ont construit. Elle est racontée au niveau 7 parce que c'est à ce niveau que le praticien comprend pourquoi les niveaux 1 à 6 existent : ils sont tous des extensions d'une conviction qui a commencé bien avant l'informatique.
+Cette partie raconte l'histoire complète de l'organisation de référence — le sous-sol, l'oncle, la musique — parce qu'elle est l'origine de tout ce que les six autres niveaux ont construit. Elle est racontée au niveau 7 parce que c'est à ce niveau que le praticien comprend pourquoi les niveaux 1 à 6 existent : ils sont tous des extensions d'une conviction qui a commencé bien avant l'informatique.
 
 ## Le sous-sol
 
-Rayduf n'était pas mon oncle de sang. Il était mon oncle de choix : le frère de ma mère n'avait pas l'oreille musicale que Rayduf avait, ni la patience. Rayduf, c'était le voisin d'en bas qui, quand j'avais dix ans, m'a dit un jour : « Tu sais ce qu'il te faudrait ? Un amplificateur. Je peux t'en monter un, si tu m'aides. »
+l'organisation de référence n'était pas mon oncle de sang. Il était mon oncle de choix : le frère de ma mère n'avait pas l'oreille musicale que l'organisation de référence avait, ni la patience. l'organisation de référence, c'était le voisin d'en bas qui, quand j'avais dix ans, m'a dit un jour : « Tu sais ce qu'il te faudrait ? Un amplificateur. Je peux t'en monter un, si tu m'aides. »
 
-Le sous-sol de Rayduf était un laboratoire avant que je sache ce que le mot voulait dire. Des fils partout. Des composants que je ne nommais pas encore. Une étagère de tours de vis, de pinces, de multimètres dont le cadran tremblait. Au mur, une étagère de vinyles. Et au centre, un banc de montage où Rayduf construisait — lentement, à l'oreille, avec le multimètre pour vérifier ce que son oreille disait.
+Le sous-sol de l'organisation de référence était un laboratoire avant que je sache ce que le mot voulait dire. Des fils partout. Des composants que je ne nommais pas encore. Une étagère de tours de vis, de pinces, de multimètres dont le cadran tremblait. Au mur, une étagère de vinyles. Et au centre, un banc de montage où l'organisation de référence construisait — lentement, à l'oreille, avec le multimètre pour vérifier ce que son oreille disait.
 
 Ce jour-là, il m'a dit : « On va construire un amplificateur. Je vais te montrer ce qu'est un bon son, et toi, tu vas me dire ce que tu entends. »
 
@@ -2349,63 +2349,63 @@ Je n'ai pas compris. Je pensais qu'il me demandait de dire si le son était fort
 
 ## La boucle
 
-Pendant des semaines, on a monté l'amplificateur. Rayduf montait, testait, ajustait. Puis il me donnait le câble et me disait : « Écoute. Dis-moi ce que tu entends. »
+Pendant des semaines, on a monté l'amplificateur. l'organisation de référence montait, testait, ajustait. Puis il me donnait le câble et me disait : « Écoute. Dis-moi ce que tu entends. »
 
-J'ai d'abord dit des choses fausses — des choses que je pensais qu'on voulait entendre. « Ça sonne bien. » Rayduf ne se décourageait pas. Il posait des questions : « Bien comment ? Plus de basses ? Moins de grésillement ? Plus de présence ? Qu'est-ce qui te manque ? »
+J'ai d'abord dit des choses fausses — des choses que je pensais qu'on voulait entendre. « Ça sonne bien. » l'organisation de référence ne se décourageait pas. Il posait des questions : « Bien comment ? Plus de basses ? Moins de grésillement ? Plus de présence ? Qu'est-ce qui te manque ? »
 
 Et petit à petit, j'ai appris à décrire ce que j'entendais. Pas en jargon technique (je n'en connaissais pas) : en sensations. « Ça gratte quand on monte fort. » « Le chant est noyé dans les guitares. » « Les basses font vibrer la fenêtre mais pas ma poitrine. »
 
-Chaque description m'a permis à Rayduf d'ajuster. Et chaque ajustement m'a permis d'entendre mieux. C'était une boucle : il construisait, j'écoutais, je décrivais, il ajustait. Et l'amplificateur devenait meilleur — pas parce que Rayduf était un génie (il l'était), mais parce que la boucle testait, ajustait, et retestait.
+Chaque description m'a permis à l'organisation de référence d'ajuster. Et chaque ajustement m'a permis d'entendre mieux. C'était une boucle : il construisait, j'écoutais, je décrivais, il ajustait. Et l'amplificateur devenait meilleur — pas parce que l'organisation de référence était un génie (il l'était), mais parce que la boucle testait, ajustait, et retestait.
 
-Un jour, Rayduf a monté le volume au maximum. Le son était pur. Il a dit : « Voilà. C'est ça, un bon ampli. Et tu es le seul à le savoir. »
+Un jour, l'organisation de référence a monté le volume au maximum. Le son était pur. Il a dit : « Voilà. C'est ça, un bon ampli. Et tu es le seul à le savoir. »
 
-## Ce que Rayduf m'a appris
+## Ce que l'organisation de référence m'a appris
 
-Ce que Rayduf m'a appris ce jour-là n'était pas l'électronique. C'était trois choses que j'ai retrouvées trente ans plus tard, dans TOTALISATION, sans les avoir jamais cherchées.
+Ce que l'organisation de référence m'a appris ce jour-là n'était pas l'électronique. C'était trois choses que j'ai retrouvées trente ans plus tard, dans TOTALISATION, sans les avoir jamais cherchées.
 
-**La boucle est la qualité.** Rayduf ne construisait pas « juste » et ne testait pas « après ». Il testait en construisant. Chaque ajustement était suivi d'un test, chaque test était suivi d'un ajustement. La boucle test-ajuster-retester n'était pas une étape après la construction : elle était la construction elle-même. Trente ans plus tard, quand j'ai entendu parler d'intégration continue, j'ai compris : c'est la boucle de Rayduf, industrialisée.
+**La boucle est la qualité.** l'organisation de référence ne construisait pas « juste » et ne testait pas « après ». Il testait en construisant. Chaque ajustement était suivi d'un test, chaque test était suivi d'un ajustement. La boucle test-ajuster-retester n'était pas une étape après la construction : elle était la construction elle-même. Trente ans plus tard, quand j'ai entendu parler d'intégration continue, j'ai compris : c'est la boucle de l'organisation de référence, industrialisée.
 
-**Le critère est dans l'usage.** Rayduf ne jugeait pas son ampli au multimètre. Il jugeait à mon oreille — l'oreille de l'usage. Un ampli pouvait être techniquement parfait (les mesures étaient bonnes) et mauvais à l'usage (il grésillait à fort volume). Le critère de qualité n'était pas dans la mesure : il était dans l'expérience. Trente ans plus tard, quand j'ai entendu parler de tests d'acceptation et de confirmation utilisateur, j'ai compris : c'est l'oreille de Rayduf, industrialisée.
+**Le critère est dans l'usage.** l'organisation de référence ne jugeait pas son ampli au multimètre. Il jugeait à mon oreille — l'oreille de l'usage. Un ampli pouvait être techniquement parfait (les mesures étaient bonnes) et mauvais à l'usage (il grésillait à fort volume). Le critère de qualité n'était pas dans la mesure : il était dans l'expérience. Trente ans plus tard, quand j'ai entendu parler de tests d'acceptation et de confirmation utilisateur, j'ai compris : c'est l'oreille de l'organisation de référence, industrialisée.
 
-**Tester tôt est une gentillesse.** Je ne jugeais pas Rayduf quand je disais « ça grésille ». Il ne se sentait pas jugé. Nous construisions ensemble, et le test était notre façon de construire ensemble. Tester tôt n'était pas une critique : c'était une collaboration. Trente ans plus tard, quand j'ai entendu parler de la revue de spécification avant le code, j'ai compris : c'est la gentillesse de Rayduf, industrialisée.
+**Tester tôt est une gentillesse.** Je ne jugeais pas l'organisation de référence quand je disais « ça grésille ». Il ne se sentait pas jugé. Nous construisions ensemble, et le test était notre façon de construire ensemble. Tester tôt n'était pas une critique : c'était une collaboration. Trente ans plus tard, quand j'ai entendu parler de la revue de spécification avant le code, j'ai compris : c'est la gentillesse de l'organisation de référence, industrialisée.
 
 ## La continuité
 
-Ce que Rayduf m'a appris n'est pas resté dans le sous-sol. Je l'ai retrouvé partout dans ma carrière — souvent sans le reconnaître, toujours en le vivant.
+Ce que l'organisation de référence m'a appris n'est pas resté dans le sous-sol. Je l'ai retrouvé partout dans ma carrière — souvent sans le reconnaître, toujours en le vivant.
 
-**À Exaxe** (le produit sans propriétaire), j'ai vu ce qui se passe quand il n'y a pas d'oreille : des équipes qui construisent sans écouter, des produits qui se vendent sans être compris, des modifications qui révèlent des surprises. Le sous-sol de Rayduf était le contraire : tout était écouté.
+**À l'organisation de référence** (le produit sans propriétaire), j'ai vu ce qui se passe quand il n'y a pas d'oreille : des équipes qui construisent sans écouter, des produits qui se vendent sans être compris, des modifications qui révèlent des surprises. Le sous-sol de l'organisation de référence était le contraire : tout était écouté.
 
-**À CGI** (la paix des braves et le stop qualité), j'ai vu ce qui se passe quand l'oreille n'a pas le droit de parler : des QA qui ne disent rien, des produits qui sortent « corrects » dans un sens que personne ne définit. Rayduf m'avait appris que l'oreille doit parler — même quand ce qu'elle dit n'est pas ce qu'on veut entendre.
+**Dans une organisation que j'ai accompagnée** (la paix des braves et le stop qualité), j'ai vu ce qui se passe quand l'oreille n'a pas le droit de parler : des QA qui ne disent rien, des produits qui sortent « corrects » dans un sens que personne ne définit. l'organisation de référence m'avait appris que l'oreille doit parler — même quand ce qu'elle dit n'est pas ce qu'on veut entendre.
 
-**À Desjardins** (le sabotage par le flou), j'ai vu ce qui se passe quand le flou protège des intérêts. Rayduf ne fonctionnait pas dans le flou : chaque ajustement était explicité (« c'est le condensateur de découplage qui manque »), chaque test était décrit (« ça grésille quand on monte à mi-volume »). Le clair n'était pas une option : c'était la condition de la collaboration.
+**Dans une organisation que j'ai accompagnée** (le sabotage par le flou), j'ai vu ce qui se passe quand le flou protège des intérêts. l'organisation de référence ne fonctionnait pas dans le flou : chaque ajustement était explicité (« c'est le condensateur de découplage qui manque »), chaque test était décrit (« ça grésille quand on monte à mi-volume »). Le clair n'était pas une option : c'était la condition de la collaboration.
 
-**À Opal-RT** (la première implémentation TOTALISATION), tout ce que Rayduf m'avait appris a convergé : la boucle (éliciter-définir-planifier-implémenter-diffuser-confirmer), l'oreille (les critères de validation écrits avant le code), la gentillesse (tester tôt pour construire ensemble).
+**À l'organisation de rÃ©fÃ©rence de la collection** (la première implémentation TOTALISATION), tout ce que l'organisation de référence m'avait appris a convergé : la boucle (éliciter-définir-planifier-implémenter-diffuser-confirmer), l'oreille (les critères de validation écrits avant le code), la gentillesse (tester tôt pour construire ensemble).
 
-Et quand j'ai écrit TOTALISATION, j'ai compris que Rayduf ne m'avait pas appris une technique : il m'avait appris une conviction. La conviction que la qualité n'est pas une discipline qu'on applique après coup — c'est une conversation qu'on a pendant qu'on construit. La conviction que l'usage juge, pas la mesure. La conviction que tester tôt est une gentillesse, pas une menace.
+Et quand j'ai écrit TOTALISATION, j'ai compris que l'organisation de référence ne m'avait pas appris une technique : il m'avait appris une conviction. La conviction que la qualité n'est pas une discipline qu'on applique après coup — c'est une conversation qu'on a pendant qu'on construit. La conviction que l'usage juge, pas la mesure. La conviction que tester tôt est une gentillesse, pas une menace.
 
-Ces convictions, Rayduf ne les a jamais nommées. Il les vivait. Et c'est parce qu'il les vivait que je les ai apprises — non pas par la théorie, mais par la pratique partagée.
+Ces convictions, l'organisation de référence ne les a jamais nommées. Il les vivait. Et c'est parce qu'il les vivait que je les ai apprises — non pas par la théorie, mais par la pratique partagée.
 
 ## Ce que ce récit enseigne au praticien du niveau 7
 
-Le praticien du niveau 7 porte la philosophie de son organisation — et cette philosophie a ses propres racines, ses propres Rayduf. Le praticien qui raconte ses origines raconte ce qui l'a convaincu avant même qu'il sache ce qu'il croyait.
+Le praticien du niveau 7 porte la philosophie de son organisation — et cette philosophie a ses propres racines, ses propres l'organisation de référence. Le praticien qui raconte ses origines raconte ce qui l'a convaincu avant même qu'il sache ce qu'il croyait.
 
 **Ce que ce récit enseigne :**
 
-1. **La philosophie n'est pas toujours formulée avant d'être vécue.** Rayduf et moi n'avions pas de manifeste, pas de valeurs documentées, pas de jurisprudence. Nous avions une pratique vivante — et la conviction est venue de la pratique, pas de la théorie. C'est la même chose pour la philosophie d'une organisation : elle est souvent vécue avant d'être formulée. Le praticien du niveau 7 ne formule pas ce qui n'existe pas : il nomme ce qui existe déjà.
+1. **La philosophie n'est pas toujours formulée avant d'être vécue.** l'organisation de référence et moi n'avions pas de manifeste, pas de valeurs documentées, pas de jurisprudence. Nous avions une pratique vivante — et la conviction est venue de la pratique, pas de la théorie. C'est la même chose pour la philosophie d'une organisation : elle est souvent vécue avant d'être formulée. Le praticien du niveau 7 ne formule pas ce qui n'existe pas : il nomme ce qui existe déjà.
 
-2. **L'oreille de l'usage est irremplaçable.** Tous les outils de mesure, tous les tests automatisés, tous les indicateurs ne remplacent pas l'oreille de l'usage. Rayduf mesurait (le multimètre), mais il écoutait (moi). Les deux sont nécessaires. Le niveau 6 mesure ; le niveau 7 écoute.
+2. **L'oreille de l'usage est irremplaçable.** Tous les outils de mesure, tous les tests automatisés, tous les indicateurs ne remplacent pas l'oreille de l'usage. l'organisation de référence mesurait (le multimètre), mais il écoutait (moi). Les deux sont nécessaires. Le niveau 6 mesure ; le niveau 7 écoute.
 
-3. **Les convictions fondatrices se vérifient dans la durée.** Ce que Rayduf m'a appris à dix ans, je le pratique à quarante. La conviction qui ne tient pas trente ans n'était pas une conviction — c'était une mode. Le praticien du niveau 7 vérifie que sa philosophie tient la durée : pas la durée d'un projet, la durée d'une carrière.
+3. **Les convictions fondatrices se vérifient dans la durée.** Ce que l'organisation de référence m'a appris à dix ans, je le pratique à quarante. La conviction qui ne tient pas trente ans n'était pas une conviction — c'était une mode. Le praticien du niveau 7 vérifie que sa philosophie tient la durée : pas la durée d'un projet, la durée d'une carrière.
 
 ## Ce que ce récit enseigne à l'organisation
 
-**Ce que l'organisation apprend du récit de Rayduf :**
+**Ce que l'organisation apprend du récit de l'organisation de référence :**
 
-1. **Chaque membre a un Rayduf.** La personne qui a fait naître sa conviction. Ce n'est pas toujours une personne formelle : c'est parfois un voisin, un collègue, un livre, un incident. Le praticien qui demande à chaque membre « qui est ton Rayduf ? » découvre les convictions individuelles — et les convictions individuelles sont les fondations de la philosophie collective.
+1. **Chaque membre a un l'organisation de référence.** La personne qui a fait naître sa conviction. Ce n'est pas toujours une personne formelle : c'est parfois un voisin, un collègue, un livre, un incident. Le praticien qui demande à chaque membre « qui est ton l'organisation de référence ? » découvre les convictions individuelles — et les convictions individuelles sont les fondations de la philosophie collective.
 
 2. **La philosophie qui tient n'est pas toujours la philosophie qui se formule bien.** Une organisation peut avoir une philosophie mal formulée mais bien vécue — et cette philosophie vaut plus qu'une philosophie bien formulée mais mal vécue. Le praticien du niveau 7 ne confond pas la formulation avec la conviction.
 
-3. **La qualité est une conversation, pas un verdict.** Rayduf et moi n'avons jamais eu de verdict (« l'ampli est bon / mauvais »). Nous avons eu une conversation continue (« qu'entends-tu ? — je grésille quand... — j'ajuste »). C'est exactement ce que TOTALISATION propose : la qualité comme conversation continue, pas comme verdict final.
+3. **La qualité est une conversation, pas un verdict.** l'organisation de référence et moi n'avons jamais eu de verdict (« l'ampli est bon / mauvais »). Nous avons eu une conversation continue (« qu'entends-tu ? — je grésille quand... — j'ajuste »). C'est exactement ce que TOTALISATION propose : la qualité comme conversation continue, pas comme verdict final.
 
 
 ---
@@ -2477,7 +2477,7 @@ Ces cinq épisodes sont les jalons du praticien du niveau 7. Chaque praticien en
 
 Ce que vous avez entre les mains, à la fin du niveau 7, n'est pas un outil de plus. C'est le moment où vous cessez de suivre une méthode et où vous devenez la méthode. C'est le moment où la collection cesse de vous enseigner — et où vous commencez à l'enseigner.
 
-Ce passage n'a pas de nom dans le management moderne. On parle de « maturité », d'« autonomie », de « culture d'excellence ». Ces mots sont justes, mais ils sont tièdes. Le mot juste, celui que Rayduf n'a jamais prononcé mais qu'il vivait, c'est la **maîtrise de l'art**. Pas la maîtrise d'un outil, pas la maîtrise d'un processus : la maîtrise de l'art de réaliser un produit logiciel. La différence est profonde.
+Ce passage n'a pas de nom dans le management moderne. On parle de « maturité », d'« autonomie », de « culture d'excellence ». Ces mots sont justes, mais ils sont tièdes. Le mot juste, celui que l'organisation de référence n'a jamais prononcé mais qu'il vivait, c'est la **maîtrise de l'art**. Pas la maîtrise d'un outil, pas la maîtrise d'un processus : la maîtrise de l'art de réaliser un produit logiciel. La différence est profonde.
 
 Un artisan qui maîtrise son art ne consulte plus son gabarit pour chaque décision. Il connaît les gabarits — ils sont dans ses mains, pas dans son classeur. Il adapte, il improvise, il fait des choix que le gabarit ne prévoyait pas — et ces choix sont justes parce qu'ils viennent de la compréhension, pas de l'application. C'est ce passage, de l'application à la compréhension, que le niveau 7 propose.
 
@@ -2567,11 +2567,11 @@ La deuxième : regarder ce qui a changé. Est-ce que les décisions sont différ
 
 C'est cette deuxième mesure qui importe. Et elle n'appartient pas à la collection : elle appartient à ceux qui la pratiquent.
 
-## La boucle de Rayduf, trente ans plus tard
+## La boucle de l'organisation de référence, trente ans plus tard
 
-Rayduf m'a appris la boucle dans son sous-sol, à l'oreille, avec le multimètre qui tremblait. J'ai passé trente ans à retrouver cette boucle sous des noms différents : l'intégration continue, le test d'acceptation, la revue de spécification, la confirmation utilisateur, la rétrospective, la révision philosophique.
+l'organisation de référence m'a appris la boucle dans son sous-sol, à l'oreille, avec le multimètre qui tremblait. J'ai passé trente ans à retrouver cette boucle sous des noms différents : l'intégration continue, le test d'acceptation, la revue de spécification, la confirmation utilisateur, la rétrospective, la révision philosophique.
 
-Trente ans plus tard, j'ai compris que Rayduf ne m'avait pas appris une technique de build d'ampli. Il m'avait appris une conviction : **la qualité n'est pas une discipline qu'on applique après coup — c'est une conversation qu'on a pendant qu'on construit.**
+Trente ans plus tard, j'ai compris que l'organisation de référence ne m'avait pas appris une technique de build d'ampli. Il m'avait appris une conviction : **la qualité n'est pas une discipline qu'on applique après coup — c'est une conversation qu'on a pendant qu'on construit.**
 
 C'est cette conviction que les sept livres de la collection traduisent en pratiques. Chaque livre est une extension de cette conviction — et chaque praticien la vit à sa manière, dans son contexte, avec ses contraintes.
 
@@ -2701,7 +2701,7 @@ Le praticien fondateur (celui qui a construit les niveaux 1 à 6) arrive au nive
 
 Le praticien fondateur qui part emporte trois choses que la collection ne peut pas lui retirer :
 
-1. **Sa conviction fondatrice** — la conviction de Rayduf, celle qui a commencé tout. Personne ne peut la lui retirer, et personne ne peut la lui donner.
+1. **Sa conviction fondatrice** — la conviction de l'organisation de référence, celle qui a commencé tout. Personne ne peut la lui retirer, et personne ne peut la lui donner.
 2. **Sa jurisprudence personnelle** — les dilemmes qu'il a résolus, les erreurs qu'il a commises, les apprentissages qu'il a tirés. Cette jurisprudence est la sienne — et elle est transmissible à d'autres contextes, pas seulement à celui-ci.
 3. **Ses contacts vivants** — les porteurs qu'il a transmis, les compagnons qu'il a formés, les nouveaux qu'il a accompagnés. Ces contacts sont ce qui reste vivant après lui — et c'est le seul témoignage de son travail qui compte.
 
@@ -2811,7 +2811,7 @@ par ses échecs d'infraction autant que par ses succès.
 La collection ne m'a pas appris des techniques. Elle m'a appris
 que la qualité n'est pas une discipline qu'on applique après
 coup — c'est une conversation qu'on a pendant qu'on construit.
-Cette conviction vient de Rayduf, du sous-sol, de l'oreille qui
+Cette conviction vient de l'organisation de référence, du sous-sol, de l'oreille qui
 savait ce qu'elle cherchait. Trente ans plus tard, elle tient.
 Elle tient contre la pression, contre la mode, contre la
 fatigue. Je ne sais pas si elle tiendra trente ans de plus —
@@ -2904,7 +2904,7 @@ a changé le travail.
 SI LA TENSION ÉTAIT CULTURELLE : si le vétéran défendait son
 ancien pipeline comme une identité (« notre façon de faire »)
 plutôt que comme une mesure d'effort, l'arbitrage léger ne
-suffirait pas — ce serait une réconciliation du LEGACY, et le
+suffirait pas — ce serait une réconciliation du patrimoine applicatif, et le
 livre 2 en serait le manuel. Ici, les deux parties acceptent
 la mesure d'effort comme mesure d'effort : l'arbitrage tient.
 
@@ -2923,7 +2923,7 @@ divergence peut révéler une transformation, pas une erreur. »
 
 # Partie 27 : Le connecteur final — la collection comme un organisme vivant
 
-Ce livre est le dernier des sept. Il ne ferme pas la collection : il la couronne. Et ce qu'il couronne n'est pas une série de techniques — c'est une conviction qui a commencé dans le sous-sol de Rayduf et qui se poursuit dans chaque praticien qui la vit.
+Ce livre est le dernier des sept. Il ne ferme pas la collection : il la couronne. Et ce qu'il couronne n'est pas une série de techniques — c'est une conviction qui a commencé dans le sous-sol de l'organisation de référence et qui se poursuit dans chaque praticien qui la vit.
 
 ## La collection n'est pas un livre fini — c'est un document vivant
 
@@ -2970,7 +2970,7 @@ La collection TOTALISATION, dans ses sept livres, n'est pas une méthode parfait
 - **Plus de 100 gabarits** qui font exister les pratiques dans le quotidien.
 - **Plus de 80 exercices** qui entraînent les compétences.
 - **Plus de 60 gabarits remplis** d'exemples réels pour montrer le niveau de spécificité attendu.
-- **Des récits** d'épisodes réels (Opal-RT, Sherweb, Desjardins, Genius Solution, Petal, Alithya, l'enfance) qui ancrent la méthode dans le vécu.
+- **Des récits** d'épisodes réels (les organisations de référence de la collection) qui ancrent la méthode dans le vécu.
 - **Des faiblesses assumées** : les dilemmes non résolus, les pratiques qui ne fonctionnent pas partout, les situations où la méthode n'est pas la réponse.
 
 La collection n'est pas parfaite. Elle est honnête — et c'est ce qui la rend utile.
@@ -2993,11 +2993,11 @@ Ce que nous vous confions :
 
 ## Dernier mot
 
-La collection TOTALISATION n'est pas un livre fini. C'est une conversation qui commence dans le sous-sol de Rayduf et qui continue dans chaque praticien qui la vit.
+La collection TOTALISATION n'est pas un livre fini. C'est une conversation qui commence dans le sous-sol de l'organisation de référence et qui continue dans chaque praticien qui la vit.
 
 À vous, praticiens qui venez après nous : cette conversation est à vous. Écrivez vos récits, forgez vos gabarits, assumez vos coûts, transmettez vos apprentissages. La collection que vous lisez est la nôtre — la collection que vous écrirez sera la vôtre.
 
-Et si, dans trente ans, quelqu'un raconte votre histoire de la même façon que nous racontons celle de Rayduf — avec ses erreurs, ses coûts, et sa conviction qui tient trente ans — alors la collection aura réussi.
+Et si, dans trente ans, quelqu'un raconte votre histoire de la même façon que nous racontons celle de l'organisation de référence — avec ses erreurs, ses coûts, et sa conviction qui tient trente ans — alors la collection aura réussi.
 
 Continuez.
 
@@ -3253,7 +3253,7 @@ La relecture de la philosophie n'est pas une formalité : c'est l'audit annuel d
 
 # Annexe A : Le gabarit de réconciliation d'apprentissages
 
-**Usage :** quand deux apprentissages semblent contradictoires — le format de l'arbitrage documenté. **Rappel d'architecture :** le geste complet de réconciliation (documenter ce qui est, décider ce qui devient, tracer ce qui est décidé) est le sujet du livre 2 — *Toute la différence par la réconciliation du LEGACY*. La fiche ci-dessous traite l'arbitrage léger : deux apprentissages qui mesurent des choses différentes, dans des contextes différents.
+**Usage :** quand deux apprentissages semblent contradictoires — le format de l'arbitrage documenté. **Rappel d'architecture :** le geste complet de réconciliation (documenter ce qui est, décider ce qui devient, tracer ce qui est décidé) est le sujet du livre 2 — *Toute la différence par la réconciliation du patrimoine applicatif*. La fiche ci-dessous traite l'arbitrage léger : deux apprentissages qui mesurent des choses différentes, dans des contextes différents.
 
 **Structure du gabarit :**
 
@@ -3279,8 +3279,8 @@ la règle de bascule entre les deux) :
 ________________________________________________________
 
 SI LA TENSION EST CULTURELLE (deux pratiques héritées, deux
-représentations du métier, un legacy de méthodes) :
-→ renvoyer au livre 2 : la réconciliation du LEGACY. L'arbitrage
+représentations du métier, un patrimoine applicatif de méthodes) :
+→ renvoyer au livre 2 : la réconciliation du patrimoine applicatif. L'arbitrage
 léger ne suffit pas quand ce qui s'affronte sont deux passés.
 
 LE NOUVEL APPRENTISSAGE (relié aux deux sources) :
@@ -3401,7 +3401,7 @@ Et si la collection ne dit jamais tout — c'est parce qu'elle ne peut pas dire 
 
 # Le legs du praticien : la grille comme héritage vivant
 
-*Cette dernière section du carnet VIOLET transpose la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT au niveau de la maîtrise : à ce stade, vous ne suivez plus la grille — vous la transmettez de façon qu'elle survive à votre départ.*
+*Cette dernière section du carnet VIOLET transpose la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection au niveau de la maîtrise : à ce stade, vous ne suivez plus la grille — vous la transmettez de façon qu'elle survive à votre départ.*
 
 ## Le paradoxe du maître
 
@@ -3462,7 +3462,7 @@ Votre système de mesures (les quatre taux du niveau 6) doit avoir un propriéta
 
 # L'école de la grille : transmettre aux générations suivantes (VIOLET)
 
-*Section finale du carnet VIOLET, nourrie de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT : au-delà du legs individuel, la mise en place d'une école interne qui reproduit des praticiens sans vous.*
+*Section finale du carnet VIOLET, nourrie de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection : au-delà du legs individuel, la mise en place d'une école interne qui reproduit des praticiens sans vous.*
 
 ## Du praticien à l'école
 
@@ -3522,7 +3522,7 @@ Le cycle complet de la TOTALISATION n'a pas de niveau 8 : il a une direction —
 
 # Fiche de clôture du carnet VIOLET : le système m'a-t-il survécu assez tôt ?
 
-*Dernière page de la collection, inspirée de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT : l'auto-évaluation finale du maître, par les preuves.*
+*Dernière page de la collection, inspirée de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection : l'auto-évaluation finale du maître, par les preuves.*
 
 ## Votre checklist de sortie du niveau VIOLET — et de la collection
 
@@ -3554,7 +3554,7 @@ La TOTALISATION ne se termine pas ; elle se poursuit par ceux qu'elle a formés.
 
 # Annexe de terrain VIOLET : les cinq pannes du legs et leurs remèdes
 
-*Issues de la matière « Les tests (niveau / interface / angle / type) » de l'expérience ACAQ-OPAL-RT — les pièges de la toute dernière étape.*
+*Issues de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection — les pièges de la toute dernière étape.*
 
 ## Panne 1 — Le legs devient une démission anticipée
 **Symptôme :** le maître transfère tout d'un coup, disparaît, et le système s'effondre faute d'habillage.
