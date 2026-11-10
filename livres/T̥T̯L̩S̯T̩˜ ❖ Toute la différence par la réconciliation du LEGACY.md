@@ -1,4 +1,4 @@
-﻿<!-- ===================== COUVERTURE (RECTO) ===================== -->
+<!-- ===================== COUVERTURE (RECTO) ===================== -->
 <!-- Zone réservée à l'illustration de couverture (image à insérer ici). -->
 <!-- Éléments à faire figurer sur le recto : logotype T̥T̯L̩S̯T̩˜, titre, sous-titre, auteur, "ORIGINALIUM". -->
 
@@ -18,7 +18,7 @@ Collection : L’art de l’excellence pour réaliser un produit logiciel
 
 ©️ Copyright
 
-Auteur : Michel Bélanger
+Auteur : Léo Michel Bélanger
 
 Illustrateur/couverture : Soléane Bélanger
 
@@ -30,25 +30,23 @@ Québec, Canada · Édition 2026 · ORIGINALIUM
 
 ## Quatrième de couverture
 
-**[Accroche : 1 à 2 phrases percutantes qui résument la promesse du livre.]**
+**Le patrimoine applicatif n’est pas un fardeau. C’est un capital qu’il faut réconcilier, comprendre et orienter.**
 
-> "le patrimoine applicatif n’est pas ce qu’on a perdu. C’est ce qu’on continue d’utiliser, à peine corrigé, pour ne pas rater le présent."
+> "Le patrimoine applicatif n’est pas ce qu’on a perdu. C’est ce qu’on continue d’utiliser, à peine corrigé, pour ne pas rater le présent."
 
-**[Développement : 3 à 5 lignes.]**
-
-[Élargir le problème, la tension, la façon dont le livre y répond. Rester accrocheur, concret, honnête.]
+La plupart des organisations n’ont pas un legacy à jeter. Elles ont un héritage qu’elles doivent regarder différemment : des systèmes, des habitudes, des décisions, des savoirs et des compromis qui ont été utiles hier et qui peuvent encore servir, à condition d’être réinterprétés. Ce livre montre que la réconciliation du patrimoine applicatif n’est ni une nostalgie ni une capitulation. C’est une façon d’aligner le passé sur le présent sans perdre la clarté, la vitesse ni la qualité.
 
 **Ce que vous découvrirez :**
-- La différence entre tomber dans le patrimoine applicatif et le réconcilier
+- La différence entre laisser le patrimoine applicatif nous diriger et le réconcilier consciemment
 - Les 10 sujets de réconciliation : les représentations (Partie 1) et les pratiques (Partie 2)
 - Ce que chaque réconciliation implique pour L01 (SDLC, ÉLICITER, CONFIRMER, centre d’excellence)
-- Comment appliquer la réconciliation sans renier le passé
+- Comment appliquer la réconciliation sans renier le passé ni sacrifier l’avenir
 
 **À qui s’adresse ce livre :** Les équipes qui ont survécu au legacy mais qui hésitent encore entre les anciennes habitudes et la nouvelle méthode.
 
 **À propos de l’auteur :**
 
-Michel Bélanger, fondateur d’ORIGINALIUM et créateur de BEASTEST, accompagne les organisations dans la réconciliation entre vitesse, profitabilité et qualité. Il est l’auteur de la collection TOTALISATION.
+Léo Michel Bélanger, fondateur d’ORIGINALIUM et créateur de BEASTEST, accompagne les organisations dans la réconciliation entre vitesse, profitabilité et qualité. Il est l’auteur de la collection TOTALISATION.
 
 **À propos de l’illustratrice :**
 
@@ -56,7 +54,7 @@ Soléane Bélanger, illustration et direction visuelle de la collection.
 
 **Une note sur l’intelligence artificielle**
 
-Ce livre n’a pas été créé par l’IA : elle a été un outil de transformation, j’ai dû à d’inombrables reprises tout refaire pour garantir/préserver l’intégrité, l’intention et l’exactitude. Par contre, sans elle, je n’aurais jamais crus pouvoir écrire : je suis dysphasique (neurodivergence), et donc le language, l’écriture, l’orthographe et la lecture me semblaient insurmontables. J’ai commencé avec une fausse promesse sur ce que l’IA m’apporterait ; elle ne m’a pas donné ce que j’attendais (écrire à ma place), mais bien plus. Parfois, on cherche une solution à ses limites pour découvrir que ces limites n’existaient pas vraiment.
+Ce livre n’a pas été créé par l’IA : elle a été un outil de transformation, j’ai dû à d’inombrables reprises tout refaire pour garantir et préserver l’intégrité, l’intention et l’exactitude. Par contre, sans elle, je n’aurais jamais cru pouvoir écrire : je suis dysphasique (neurodivergence), et donc le langage, l’écriture, l’orthographe et la lecture me semblaient insurmontables. J’ai commencé avec une fausse promesse sur ce que l’IA m’apporterait ; elle ne m’a pas donné ce que j’attendais (écrire à ma place), mais bien plus. Parfois, on cherche une solution à ses limites pour découvrir que ces limites n’existaient pas vraiment.
 
 **[Emplacements : code-barres / ISBN · prix · logo ORIGINALIUM · www.totalisation.com]**
 

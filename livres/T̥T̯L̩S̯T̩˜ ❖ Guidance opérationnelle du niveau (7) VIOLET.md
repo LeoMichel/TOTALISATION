@@ -5,7 +5,7 @@
 **[Image de couverture : à insérer ici]**
 
 Titre : Guidance opérationnelle du niveau (7) VIOLET
-Sous-titre / accroche : 8 semaines pour transformer l'organisation et préparer l'avenir — le sommet de ToTAL
+Sous-titre / accroche : 8 semaines pour transformer l'organisation et préparer l'avenir — le sommet de TOTALISATION
 Logotype : T̥T̯L̩S̯T̩˜ · Maison d'édition : ORIGINALIUM
 
 ---
@@ -18,7 +18,7 @@ Collection : L'art de l'excellence pour réaliser un produit logiciel
 
 ©️ Copyright
 
-Auteur : Michel Bélanger
+Auteur : Léo Michel Bélanger
 
 Illustrateur/couverture : Soléane Bélanger
 
@@ -47,7 +47,7 @@ Illustrateur/couverture : Soléane Bélanger
 **À qui s'adresse ce livre :** l'organisation qui a atteint le niveau 6 (INDIGO) et souhaite devenir une organisation où la qualité est une philosophie de vie. Le livre s'adresse aux dirigeants, aux équipes, aux coachs, et à toute la collectivité qui cherche à transformer la qualité en un mode de vie.
 
 **À propos de l'auteur :**
-Michel Bélanger, fondateur d'ORIGINALIUM et créateur de l'outil d'automatisation, accompagne les organisations dans la réconciliation entre vitesse, profitabilité et qualité. Il est l'auteur de la collection TOTALISATION.
+Léo Michel Bélanger, fondateur d'ORIGINALIUM et créateur de l'outil d'automatisation, accompagne les organisations dans la réconciliation entre vitesse, profitabilité et qualité. Il est l'auteur de la collection TOTALISATION.
 
 **À propos de l'illustratrice :**
 Soléane Bélanger, illustration et direction visuelle de la collection.
@@ -99,7 +99,7 @@ Huit semaines encore. Mais c'est le moment où l'organisation devient un être v
 
 Chaque semaine est un module d'exercices complet : objectif, résultat attendu, ateliers numérotés avec étapes précises et livrables, capsules du vécu, points de vigilance, et checklist de fin de semaine. Les semaines 1 à 2 construisent la vision commune et la philosophie. Les semaines 3 à 4 transforment les postes et les décisions. Les semaines 5 à 6 visionnent l'avenir et transforment l'organisation en un art. Les semaines 7 à 8 ancrent la pratique et préparent le niveau 8.
 
-Les capsules du vécu s'inspirent des récits de terrain de l'auteur : expériences dans plusieurs organisations que j'ai accompagnées — organisations qui ont contribué à façonner ToTAL. Ce sont des tranches de vie, pas des études de cas idéalisées.
+Les capsules du vécu s'inspirent des récits de terrain de l'auteur : expériences dans plusieurs organisations que j'ai accompagnées — organisations qui ont contribué à façonner TOTALISATION. Ce sont des tranches de vie, pas des études de cas idéalisées.
 
 ---
 ## Partie 1 : La vision commune et la philosophie de l'excellence (semaines 1 à 2)
@@ -1658,7 +1658,7 @@ Cinq oui = le régime culturel est organisationnel : il appartient à l'organisa
 
 **Annuelle (une demi-journée + 2 heures + 2 heures) :** le pèlerinage (transmission), la révision (la philosophie relue), le bilan de vitalité (le pouls mesuré). Les trois actes annuels forment la grande respiration de la culture.
 
-L'entretien culturel est le plus léger en heures (environ 1 heure par semaine au total) et le plus exigeant en honnêteté : chaque acte doit résister au test « est-ce vivant ou décoratif ? ». La règle de l'entretien : une heure honnête chaque semaine vaut mieux qu'une journée spectaculaire une fois par an.
+L'entretien culturel est le plus léger en heures (environ 1 heure par semaine au TOTALISATION) et le plus exigeant en honnêteté : chaque acte doit résister au test « est-ce vivant ou décoratif ? ». La règle de l'entretien : une heure honnête chaque semaine vaut mieux qu'une journée spectaculaire une fois par an.
 
 ## Le connecteur : ce que le niveau 7 couronne
 
@@ -2379,7 +2379,7 @@ Ce que l'organisation de référence m'a appris n'est pas resté dans le sous-so
 
 **Dans une organisation que j'ai accompagnée** (le sabotage par le flou), j'ai vu ce qui se passe quand le flou protège des intérêts. l'organisation de référence ne fonctionnait pas dans le flou : chaque ajustement était explicité (« c'est le condensateur de découplage qui manque »), chaque test était décrit (« ça grésille quand on monte à mi-volume »). Le clair n'était pas une option : c'était la condition de la collaboration.
 
-**À l'organisation de rÃ©fÃ©rence de la collection** (la première implémentation TOTALISATION), tout ce que l'organisation de référence m'avait appris a convergé : la boucle (éliciter-définir-planifier-implémenter-diffuser-confirmer), l'oreille (les critères de validation écrits avant le code), la gentillesse (tester tôt pour construire ensemble).
+**À l'organisation de référence de la collection** (la première implémentation TOTALISATION), tout ce que l'organisation de référence m'avait appris a convergé : la boucle (éliciter-définir-planifier-implémenter-diffuser-confirmer), l'oreille (les critères de validation écrits avant le code), la gentillesse (tester tôt pour construire ensemble).
 
 Et quand j'ai écrit TOTALISATION, j'ai compris que l'organisation de référence ne m'avait pas appris une technique : il m'avait appris une conviction. La conviction que la qualité n'est pas une discipline qu'on applique après coup — c'est une conversation qu'on a pendant qu'on construit. La conviction que l'usage juge, pas la mesure. La conviction que tester tôt est une gentillesse, pas une menace.
 
@@ -2413,7 +2413,7 @@ Le praticien du niveau 7 porte la philosophie de son organisation — et cette p
 # Partie 19 : FAQ direction du niveau 7
 
 **« Combien coûte le niveau 7 ? »**
-La réponse chiffrée : le niveau 7 est le plus léger en heures de tous les niveaux. Les 7 rituels du niveau 7 totalisent environ 1 heure par semaine pour l'équipe (récit du lundi 15 min, conversation de valeurs mensuelle 45 min amortie, revue d'horizon trimestrielle amortie, etc.), plus les ateliers avancés (2 heures par mois en moyenne). Ajoutez le temps du praticien : environ 5 heures par semaine en tout. Le coût total : environ 6 heures par semaine, soit 1,5 % de la capacité. Comparez : le niveau 1 (4h/sem), le niveau 2 (4h/sem), le niveau 3 (6h/sem), le niveau 4 (3h/sem), le niveau 5 (3h/sem), le niveau 6 (2h/sem), le niveau 7 (1h/sem). Le niveau 7 est le moins coûteux en heures — parce qu'il ne fait pas : il relie. Il donne du sens à ce que les autres niveaux produisent déjà.
+La réponse chiffrée : le niveau 7 est le plus léger en heures de tous les niveaux. Les 7 rituels du niveau 7 TOTALISATIONisent environ 1 heure par semaine pour l'équipe (récit du lundi 15 min, conversation de valeurs mensuelle 45 min amortie, revue d'horizon trimestrielle amortie, etc.), plus les ateliers avancés (2 heures par mois en moyenne). Ajoutez le temps du praticien : environ 5 heures par semaine en tout. Le coût TOTALISATION : environ 6 heures par semaine, soit 1,5 % de la capacité. Comparez : le niveau 1 (4h/sem), le niveau 2 (4h/sem), le niveau 3 (6h/sem), le niveau 4 (3h/sem), le niveau 5 (3h/sem), le niveau 6 (2h/sem), le niveau 7 (1h/sem). Le niveau 7 est le moins coûteux en heures — parce qu'il ne fait pas : il relie. Il donne du sens à ce que les autres niveaux produisent déjà.
 
 **« Une philosophie, des rituels, des récits — c'est du management 2.0 ? »**
 Non. Le management 2.0 décrète des valeurs et les affiche. Le niveau 7 les construit par les décisions, les mesure par les coûts assumés, les transmet par les récits, et les réforme par la révision annuelle. La différence n'est pas dans les mots : elle est dans la présence d'une jurisprudence (des précédents qui guident), d'une transmission (des porteurs vivants), et d'une révision (une philosophie qui évolue). Si votre organisation a des valeurs affichées mais pas de jurisprudence, pas de transmission, pas de révision — alors elle a du management 2.0, pas du niveau 7.
@@ -2641,7 +2641,7 @@ Lexique des termes qui traversent les sept livres — à relire chaque année.
 
 **Preuve** — un artefact daté et localisable qui étaye une affirmation. « Les tests passent » est une affirmation ; « 47/49, rapport du 03/07 14h02 » est une preuve. Sa règle : pas de preuve, pas d'affirmation.
 
-**Mesure de résultat** — ce qui mesure l'effet perçu par l'extérieur : délai total, taux de retour, stabilité, disponibilité. À ne pas confondre avec la mesure d'activité (ce que l'équipe fait).
+**Mesure de résultat** — ce qui mesure l'effet perçu par l'extérieur : délai TOTALISATION, taux de retour, stabilité, disponibilité. À ne pas confondre avec la mesure d'activité (ce que l'équipe fait).
 
 **Mesure-miroir** — la contre-mesure d'abus : ce qui détecte l'optimisation perverse de la mesure principale. Sa règle : chaque mesure a son miroir, sinon elle sera trichée.
 
@@ -2727,8 +2727,8 @@ que j'étais à l'époque. J'avais 10 ans.
 CE QUI S'EST PASSÉ :
 1. Mon père avait construit une application de comptabilité
    pour un client. Je regardais par-dessus son épaule, et j'ai
-   remarqué que le total de la colonne ne correspondait pas au
-   sous-total affiché plus haut. J'ai dit : « Papa, le chiffre
+   remarqué que le TOTALISATION de la colonne ne correspondait pas au
+   sous-TOTALISATION affiché plus haut. J'ai dit : « Papa, le chiffre
    est différent. »
 2. Mon père a répondu : « Non, c'est bon, je viens de vérifier. »
    Il ne l'avait pas vérifié — il l'avait cru vérifié, parce que
@@ -2805,7 +2805,7 @@ par ses échecs d'infraction autant que par ses succès.
 ## Gabarit 3 : Épilogue du praticien fondateur rempli
 
 ```
-ÉPILOGUE — Michel Bélanger                 Écrit le : [date de départ]
+ÉPILOGUE — Léo Michel Bélanger                 Écrit le : [date de départ]
 
 1. CE QUE LA COLLECTION A CHANGÉ CHEZ MOI
 La collection ne m'a pas appris des techniques. Elle m'a appris
@@ -3050,7 +3050,7 @@ Continuez.
 # Partie 29 : FAQ direction du niveau 7
 
 **« Combien coûte le niveau 7 ? »**
-La réponse chiffrée : environ 1 heure par semaine pour l'équipe (récit du lundi 15 min, conversation de valeurs mensuelle 45 min amortie, revue d'horizon trimestrielle amortie, etc.), plus les ateliers avancés (2 heures par mois en moyenne). Ajoutez le temps du praticien : environ 5 heures par semaine en tout. Le coût total : environ 6 heures par semaine, soit 1,5 % de la capacité. Comparez : le niveau 1 (4h/sem), le niveau 2 (4h/sem), le niveau 3 (6h/sem), le niveau 4 (3h/sem), le niveau 5 (3h/sem), le niveau 6 (2h/sem), le niveau 7 (1h/sem). Le niveau 7 est le moins coûteux en heures — parce qu'il ne fait pas : il relie. Il donne du sens à ce que les autres niveaux produisent déjà.
+La réponse chiffrée : environ 1 heure par semaine pour l'équipe (récit du lundi 15 min, conversation de valeurs mensuelle 45 min amortie, revue d'horizon trimestrielle amortie, etc.), plus les ateliers avancés (2 heures par mois en moyenne). Ajoutez le temps du praticien : environ 5 heures par semaine en tout. Le coût TOTALISATION : environ 6 heures par semaine, soit 1,5 % de la capacité. Comparez : le niveau 1 (4h/sem), le niveau 2 (4h/sem), le niveau 3 (6h/sem), le niveau 4 (3h/sem), le niveau 5 (3h/sem), le niveau 6 (2h/sem), le niveau 7 (1h/sem). Le niveau 7 est le moins coûteux en heures — parce qu'il ne fait pas : il relie. Il donne du sens à ce que les autres niveaux produisent déjà.
 
 **« Une philosophie, des rituels, des récits — c'est du management 2.0 ? »**
 Non. Le management 2.0 décrète des valeurs et les affiche. Le niveau 7 les construit par les décisions, les mesure par les coûts assumés, les transmet par les récits, et les réforme par la révision annuelle. La différence n'est pas dans les mots : elle est dans la présence d'une jurisprudence (des précédents qui guident), d'une transmission (des porteurs vivants), et d'une révision (une philosophie qui évolue). Si votre organisation a des valeurs affichées mais pas de jurisprudence, pas de transmission, pas de révision — alors elle a du management 2.0, pas du niveau 7.
@@ -3128,7 +3128,7 @@ BILAN ANNUEL PRÉVENTIF — [année]      Présenté le : [date]
 - [chantier 2] : [incident évité, chiffré]
 
 2. LE TAUX DE FIABILITÉ DES PROJECTIONS
-- Projections totales : [n]
+- Projections TOTALISATIONes : [n]
 - Projections confirmées : [n] ([x]%)
 - Tendance : [monte / descend / stable]
 
@@ -3196,7 +3196,7 @@ PROJECTIONS CLÔTURES (celles qui ont atteint leur échéance) :
 |---|----------|---------------|--------------|-------|---------|
 |   |          |               |              |       | fiable/faux |
 
-TAUX DE FIABILITÉ : [n fiables / n totales] = [x]%
+TAUX DE FIABILITÉ : [n fiables / n TOTALISATIONes] = [x]%
 
 AJUSTEMENTS AU GABARIT DE PROJECTION :
 - [si le taux est trop bas : pourquoi les projections échouent]
@@ -3401,7 +3401,7 @@ Et si la collection ne dit jamais tout — c'est parce qu'elle ne peut pas dire 
 
 # Le legs du praticien : la grille comme héritage vivant
 
-*Cette dernière section du carnet VIOLET transpose la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection au niveau de la maîtrise : à ce stade, vous ne suivez plus la grille — vous la transmettez de façon qu'elle survive à votre départ.*
+*Cette dernière section du carnet VIOLET transpose la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expérience de référence de la collection au niveau de la maîtrise : à ce stade, vous ne suivez plus la grille — vous la transmettez de façon qu'elle survive à votre départ.*
 
 ## Le paradoxe du maître
 
@@ -3462,7 +3462,7 @@ Votre système de mesures (les quatre taux du niveau 6) doit avoir un propriéta
 
 # L'école de la grille : transmettre aux générations suivantes (VIOLET)
 
-*Section finale du carnet VIOLET, nourrie de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection : au-delà du legs individuel, la mise en place d'une école interne qui reproduit des praticiens sans vous.*
+*Section finale du carnet VIOLET, nourrie de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expérience de référence de la collection : au-delà du legs individuel, la mise en place d'une école interne qui reproduit des praticiens sans vous.*
 
 ## Du praticien à l'école
 
@@ -3522,7 +3522,7 @@ Le cycle complet de la TOTALISATION n'a pas de niveau 8 : il a une direction —
 
 # Fiche de clôture du carnet VIOLET : le système m'a-t-il survécu assez tôt ?
 
-*Dernière page de la collection, inspirée de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection : l'auto-évaluation finale du maître, par les preuves.*
+*Dernière page de la collection, inspirée de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expérience de référence de la collection : l'auto-évaluation finale du maître, par les preuves.*
 
 ## Votre checklist de sortie du niveau VIOLET — et de la collection
 
@@ -3554,7 +3554,7 @@ La TOTALISATION ne se termine pas ; elle se poursuit par ceux qu'elle a formés.
 
 # Annexe de terrain VIOLET : les cinq pannes du legs et leurs remèdes
 
-*Issues de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection — les pièges de la toute dernière étape.*
+*Issues de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expérience de référence de la collection — les pièges de la toute dernière étape.*
 
 ## Panne 1 — Le legs devient une démission anticipée
 **Symptôme :** le maître transfère tout d'un coup, disparaît, et le système s'effondre faute d'habillage.
@@ -3579,3 +3579,5 @@ La TOTALISATION ne se termine pas ; elle se poursuit par ceux qu'elle a formés.
 ## La règle du dépannage
 
 Le legs tient sur une seule inversion : **le maître prépare son absence comme un livrable, pas comme un départ**. Toutes les pannes ci-dessus viennent d'un legs traité en émotion (partir, être fidèle, ne pas trahir) alors qu'il est un travail (registres, preuves, relais signés, retraits assumés). L'émotion a sa place — dans la lettre de legs. Le reste est mécanique.
+
+

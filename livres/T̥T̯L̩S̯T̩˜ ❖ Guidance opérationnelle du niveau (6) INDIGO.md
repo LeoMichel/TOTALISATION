@@ -5,7 +5,7 @@
 **[Image de couverture : à insérer ici]**
 
 Titre : Guidance opérationnelle du niveau (6) INDIGO
-Sous-titre / accroche : 8 semaines pour industrialiser la qualité et préparer l'avenir — avec l'organisation devenue un centre d'excellence l'outil d'automatisation
+Sous-titre / accroche : 8 semaines pour industrialiser la qualité et préparer l'avenir — avec l'organisation devenue un centre d'excellence
 Logotype : T̥T̯L̩S̯T̩˜ · Maison d'édition : ORIGINALIUM
 
 ---
@@ -18,11 +18,11 @@ Collection : L'art de l'excellence pour réaliser un produit logiciel
 
 ©️ Copyright
 
-Auteur : Michel Bélanger
+Auteur : Léo Michel Bélanger
 
 Illustrateur/couverture : Soléane Bélanger
 
- Québec, Canada · Édition 2026 · ORIGINALIUM
+Québec, Canada · Édition 2026 · ORIGINALIUM
 
 ---
 
@@ -44,20 +44,18 @@ Illustrateur/couverture : Soléane Bélanger
 - Les capsules du vécu : ce qui change quand la qualité devient une anticipation
 - La préparation du passage au niveau 7 (VIOLET) et au-delà
 
-**À qui s'adresse ce livre :** l'équipe pilotante du niveau 5 (BLEU) et l'ensemble des organisations qui ont adopté le standard l'outil d'automatisation et souhaitent industrialiser la qualité et l'avenir. Le livre s'adresse aux organisations qui envisagent de devenir un centre d'excellence, qui veulent préparer l'avenir avec des outils et des pratiques émergents.
+**À qui s'adresse ce livre :** L'équipe pilotante du niveau 5 (BLEU) et l'ensemble des organisations qui ont adopté le standard de l'outil d'automatisation et souhaitent industrialiser la qualité et l'avenir. Le livre s'adresse aux organisations qui envisagent de devenir un centre d'excellence, qui veulent préparer l'avenir avec des outils et des pratiques émergents.
 
 **À propos de l'auteur :**
-Michel Bélanger, fondateur d'ORIGINALIUM et créateur de l'outil d'automatisation, accompagne les organisations dans la réconciliation entre vitesse, profitabilité et qualité. Il est l'auteur de la collection TOTALISATION.
+Léo Michel Bélanger, fondateur d'ORIGINALIUM et créateur de l'outil d'automatisation, accompagne les organisations dans la réconciliation entre vitesse, profitabilité et qualité. Il est l'auteur de la collection TOTALISATION.
 
 **À propos de l'illustratrice :**
 Soléane Bélanger, illustration et direction visuelle de la collection.
 
 **Une note sur l'intelligence artificielle**
-Ce livre n'a pas été créé par l'IA : elle a été un outil de transformation, j'ai dû à d'innombrables reprises tout refaire pour garantir/préserver l'intégrité, l'intention et l'exactitude. Par contre, sans elle, je n'aurais jamais cru pouvoir écrire : je suis dysphasique (neurodivergence), et donc le langage, l'écriture, l'orthographe et la lecture me semblaient insurmontables. J'ai commencé avec une fausse promesse sur ce que l'IA m'apporterait ; elle ne m'a pas donné ce que j'attendais (écrire à ma place), mais bien plus. Parfois, on cherche une solution à ses limites pour découvrir que ces limites n'existaient pas vraiment.
+Ce livre n'a pas été créé par l'IA : elle a été un outil de transformation, j'ai dû à d'innombrables reprises tout refaire pour garantir et préserver l'intégrité, l'intention et l'exactitude. Par contre, sans elle, je n'aurais jamais cru pouvoir écrire : je suis dysphasique (neurodivergence), et donc le langage, l'écriture, l'orthographe et la lecture me semblaient insurmontables. J'ai commencé avec une fausse promesse sur ce que l'IA m'apporterait ; elle ne m'a pas donné ce que j'attendais (écrire à ma place), mais bien plus. Parfois, on cherche une solution à ses limites pour découvrir que ces limites n'existaient pas vraiment.
 
 [Emplacements : code-barres / ISBN · prix · logo ORIGINALIUM · www.totalisation.com]
-
----
 
 ---
 
@@ -85,7 +83,7 @@ Ce livre n'a pas été créé par l'IA : elle a été un outil de transformation
 
 ## Avant-propos : quand la qualité devient une anticipation
 
-Le niveau 5 (BLEU) a fait de l'organisation un centre d'excellence l'outil d'automatisation : l'outil d'automatisation est partagé, les équipes adhèrent, la couverture est étendue, la gouvernance est inter-équipes. L'organisation est enfin une organisation qualité : une infrastructure solide, fiable, rentable.
+Le niveau 5 (BLEU) a fait de l'organisation un centre d'excellence. L'outil d'automatisation est partagé, les équipes adhèrent, la couverture est étendue, la gouvernance est inter-équipes. L'organisation est enfin une organisation qualité : une infrastructure solide, fiable, rentable.
 
 Mais il reste une question : cette infrastructure solide, c'est pour l'avenir ? Oui, pour l'immédiat. Mais qu'en sera-t-il dans cinq ans, dans dix ans, quand l'environnement changera, quand la technologie évoluera, quand les enjeux de l'organisation changeront ?
 
@@ -99,7 +97,7 @@ Huit semaines encore. Mais c'est le moment où l'organisation devient un organis
 
 Chaque semaine est un module d'exercices complet : objectif, résultat attendu, ateliers numérotés avec étapes précises et livrables, capsules du vécu, points de vigilance, et checklist de fin de semaine. Les semaines 1 à 2 industrialisent la qualité et le savoir. Les semaines 3 à 4 s'alignent sur l'avenir. Les semaines 5 à 6 émergent l'intelligence organisationnelle. Les semaines 7 à 8 ancrent la pratique et préparent le passage au niveau 7 (VIOLET).
 
-Les capsules du vécu s'inspirent des récits de terrain de l'auteur : expériences dans plusieurs organisations que j'ai accompagnées — organisations qui ont contribué à façonner ToTAL. Ce sont des tranches de vie, pas des études de cas idéalisées.
+Les capsules du vécu s'inspirent des récits de terrain de l'auteur : expériences dans plusieurs organisations que j'ai accompagnées — organisations qui ont contribué à façonner TOTALISATION. Ce sont des tranches de vie, pas des études de cas idéalisées.
 
 ---
 ## Partie 1 : Industrialiser la qualité et le savoir (semaines 1 à 2)
@@ -1153,7 +1151,7 @@ Les cérémonies du niveau 5 (gouvernées) deviennent au niveau 6 des cérémoni
 
 **Les sorties attendues :** le code validé contre la régression prédictive, l'historique enrichi, les zones sensibles mises à jour.
 
-**Le piège du niveau 6 :** la prédiction qui se remplit de zones sensibles. Sans purges, toutes les zones deviennent « sensibles » et la régression prédictive devient la régression totale. La règle : les zones sensibles ont une demi-vie — une zone sans incident depuis 12 mois quitte la liste (sauf justification documentée).
+**Le piège du niveau 6 :** la prédiction qui se remplit de zones sensibles. Sans purges, toutes les zones deviennent « sensibles » et la régression prédictive devient la régression TOTALISATIONe. La règle : les zones sensibles ont une demi-vie — une zone sans incident depuis 12 mois quitte la liste (sauf justification documentée).
 
 **Le lien avec le niveau 5 :** le comité gouverne la qualité de la prédiction (les faux positifs et faux négatifs sont des sujets de comité : ils indiquent une historique mal calibré ou une zone mal purgée).
 
@@ -1227,7 +1225,7 @@ Ces douze questions sont le test de passage au niveau 7 : une cérémonie qui le
 
 Quatre histoires vraies, tirées du vécu de l'organisation — là où la prévention et l'anticipation se sont jouées sur des personnes, pas sur des concepts. Chaque histoire est suivie de ce qu'elle enseigne au praticien du niveau 6.
 
-## Histoire 1 : Le signal faible qui a évité l'incident — l'organisation de rÃ©fÃ©rence de la collection
+## Histoire 1 : Le signal faible qui a évité l'incident — l'organisation de référence de la collection
 
 C'était pendant la migration de l'infrastructure de build. L'équipe avait un canal des signaux faibles (institué au niveau 5), et un jeudi, un message passait presque inaperçu : un ingénieur mentionnait qu'un script de build « prenait un peu plus de temps ces derniers jours ». Rien d'alarmant. Personne n'aurait ouvert un ticket pour ça.
 
@@ -1469,7 +1467,7 @@ ________________________________________________________
 que je le dépose.)
 ```
 
-**Exemple rempli (tiré du cas de rÃ©fÃ©rence de la collection) :**
+**Exemple rempli (tiré du cas de référence de la collection) :**
 
 ```
 SIGNAL — 04/09                 Déposé par : M.G.
@@ -1544,7 +1542,7 @@ Chiffrée : _________________________________
 Documenté dans la mémoire : [référence]
 ```
 
-**Exemple rempli (tiré du cas de rÃ©fÃ©rence de la collection) :**
+**Exemple rempli (tiré du cas de référence de la collection) :**
 
 ```
 CHANTIER DE PRÉVENTION — P-7         Cré le : 12/09
@@ -1771,7 +1769,7 @@ Une fois installé, le régime ne demande pas de grands chantiers : il demande u
 
 **Trimestriel (90 minutes) :** le bilan de régime. La vitalité du canal, la fiabilité des projections, les morsures du trimestre, les ajustements. C'est le moment où le régime se répare lui-même — et où il se présente à la gouvernance.
 
-L'entretien du niveau 6 est léger en heures (environ 2 heures par semaine au total) mais exigeant en constance : chaque acte saqué fragilise l'ensemble. La règle de l'entretien : mieux vaut un acte court fait chaque semaine qu'un grand audit fait jamais.
+L'entretien du niveau 6 est léger en heures (environ 2 heures par semaine au TOTALISATION) mais exigeant en constance : chaque acte saqué fragilise l'ensemble. La règle de l'entretien : mieux vaut un acte court fait chaque semaine qu'un grand audit fait jamais.
 
 # Partie 12 — Épilogue du praticien prédictif
 
@@ -2125,7 +2123,7 @@ Les exercices E1–E6 couvrent le socle du niveau 6 (signaux, projections, mémo
 **Le format.** Chaque trimestre, à la revue des signaux :
 - **La liste des projections en cours** (celles dont l'échéance arrive)
 - **La liste des projections closes** (celles qui ont atteint leur échéance, avec le réel mesuré)
-- **Le taux de fiabilité** global du trimestre (projections vérifiées / projections totales)
+- **Le taux de fiabilité** global du trimestre (projections vérifiées / projections TOTALISATIONes)
 - **Les ajustements** au gabarit de projection (si le taux est trop bas, chercher pourquoi)
 
 **La règle d'or.** Le rituel n'est pas une évaluation de performance du praticien — c'est une maintenance du système de projection. Le praticien qui a un taux bas n'est pas « mauvais » : il apprend. Le praticien qui a un taux haut est fiable — et il doit le documenter (comment il fait ses projections).
@@ -3082,7 +3080,7 @@ Le bilan de l'année préventive est le rituel annuel du praticien du niveau 6. 
 | Panne de build (fenêtre CI) | P-7 | M.G. | 40 personnes-jours | 2 h |
 | Dégradation API (dépasser 500 ms) | P-11 | S.M. | 15 jours de latence | 3 h |
 | Divergence doc critique (déploiement faussé) | P-14 | L.N. | 3 jours de debug | 4 h |
-| **Total** | **3 chantiers livrés** | — | **~55 jours-personnes** | **9 h** |
+| **TOTALISATION** | **3 chantiers livrés** | — | **~55 jours-personnes** | **9 h** |
 
 **Les incidents NON évités (les chantiers abandonnés ou reportés) :**
 
@@ -3199,7 +3197,7 @@ Réponse : deux cas. Un chantier posé sur un signal qui ne se confirme pas : le
 Réponse : d'abord le binôme (chaque chantier a un porteur et un binôme), ensuite la relève formée (le praticien du niveau 6 forme au moins un successeur par an), enfin la mémoire organisationnelle (50+ entrées documentées : les règles survivent aux personnes). Notre test de solidité est le congé de deux semaines : si les rituels tiennent sans le praticien, la prévention est organisationnelle, pas personnelle.
 
 **Q6 — « La prévention ne ralentit-elle pas la livraison ? »**
-Réponse : elle la sécurise. Nos métriques de livraison sur l'année : aucune panne de build majeure, aucune régression de données, deux incidents mineurs (6 jours au total). Comparez avec l'année précédant le niveau 6 : quatre pannes majeures, deux régressions, 55 jours de debug et de reprise. La prévention ne ralentit pas la livraison — elle supprime les arrêts.
+Réponse : elle la sécurise. Nos métriques de livraison sur l'année : aucune panne de build majeure, aucune régression de données, deux incidents mineurs (6 jours au TOTALISATION). Comparez avec l'année précédant le niveau 6 : quatre pannes majeures, deux régressions, 55 jours de debug et de reprise. La prévention ne ralentit pas la livraison — elle supprime les arrêts.
 
 **Q7 — « Quelle est la différence avec la gestion des risques classique ? »**
 Réponse : trois différences. La gestion des risques identifie les risques connus ; le niveau 6 observe les signaux faibles, y compris ceux qu'aucun registre ne prévoyait. La gestion des risques produit des matrices ; le niveau 6 pose des chantiers livrés par l'équipe. La gestion des risques est un exercice annuel ; le niveau 6 est une pratique hebdomadaire. Les deux approches se complètent — mais seule la seconde est vivante.
@@ -3224,7 +3222,7 @@ Le bilan annuel du praticien N6 couvre la prévention sur douze mois. Ce gabarit
 |---|---|---|---|---|
 | | | | | |
 | | | | | |
-| **Total** | | | | |
+| **TOTALISATION** | | | | |
 
 **Les incidents NON évités (et leur coût) :**
 
@@ -3267,7 +3265,7 @@ Le bilan annuel du praticien N6 couvre la prévention sur douze mois. Ce gabarit
 | Entrées ajoutées | | |
 | Entrées améliorées | | |
 | Entrées archivées (obsolètes) | | |
-| Entrées totales vivantes | | |
+| Entrées TOTALISATIONes vivantes | | |
 | Règles actives | | |
 | Consultations réelles (avant décision) | | |
 | Héritages appliqués (une entrée a influencé une spécification) | | |
@@ -3601,14 +3599,14 @@ Fait le : 15/12/2025     Praticien : M.D.     Équipe : 9 personnes
 | Panne de build (CI) | P-7 | M.G. | 40 j-pers. | 2 h |
 | Dégradation API (500ms) | P-11 | S.M. | 15 jours | 3 h |
 | Divergence doc critique | P-14 | L.N. | 3 jours | 4 h |
-| TOTAL | 3 chantiers | — | 58 j-pers. | 9 h |
+| TOTALISATION | 3 chantiers | — | 58 j-pers. | 9 h |
 
 2. LES INCIDENTS SURVENUS
 | Incident | Coût | Pourquoi non évité |
 |----------|------|-------------------|
 | Régression migration | 4 j | P-9 abandonné (porteur en congés, sans relève) |
 | Divergence doc fournisseur | 2 j | P-16 jamais posé (signal non confirmé à temps) |
-| TOTAL | 6 j | — |
+| TOTALISATION | 6 j | — |
 
 3. LA MÉMOIRE ORGANISATIONNELLE
 | Indicateur | Valeur | Tendance |
@@ -3703,7 +3701,7 @@ C'est le signe du passage.
 
 # Atelier complémentaire : le système de mesures de la qualification croisée
 
-*Cet atelier transpose la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection au niveau 6 : la grille croisée devient un tableau de bord — chaque colonne produit une métrique, chaque croisement une décision.*
+*Cet atelier transpose la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expérience de référence de la collection au niveau 6 : la grille croisée devient un tableau de bord — chaque colonne produit une métrique, chaque croisement une décision.*
 
 ## Les quatre métriques de la grille
 
@@ -3772,7 +3770,7 @@ Avant d'exposer vos quatre taux à un sponsor, passez le test :
 
 # Atelier complémentaire : la gouvernance des données de qualification (niveau 6)
 
-*Cet atelier approfondit la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection : les quatre taux deviennent un actif de données gouverné — collecté, purgé, archivé, défendu.*
+*Cet atelier approfondit la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expérience de référence de la collection : les quatre taux deviennent un actif de données gouverné — collecté, purgé, archivé, défendu.*
 
 ## Les quatre taux sont un actif, pas un rapport
 
@@ -3830,7 +3828,7 @@ Tout cet actif — taux, PV, séries, récits annuels — est ce que le praticie
 
 # Fiche de clôture du carnet INDIGO : mes données parlent-elles sans moi ?
 
-*Dernière page du carnet, inspirée de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection : l'auto-évaluation finale par les preuves.*
+*Dernière page du carnet, inspirée de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expérience de référence de la collection : l'auto-évaluation finale par les preuves.*
 
 ## Votre checklist de sortie du niveau INDIGO
 
@@ -3860,7 +3858,7 @@ Question que j'emporte au niveau VIOLET : ____________________
 
 # Annexe de terrain INDIGO : les cinq pannes du tableau des quatre taux et leurs remèdes
 
-*Issues de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection.*
+*Issues de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expérience de référence de la collection.*
 
 ## Panne 1 — Les taux montent, la méthode change en silence
 **Symptôme :** un trimestre « exceptionnel » de +15 points — personne ne sait pourquoi, la méthode a changé discrètement.
@@ -3885,3 +3883,5 @@ Question que j'emporte au niveau VIOLET : ____________________
 ## La règle du dépannage
 
 Le système de mesures tient sur une seule propriété : **les chiffres sont plus têtus que les personnes**. Toutes les pannes ci-dessus sont des tentatives humaines d'arrondir les chiffres. Quand une panne revient, ne pas durcir le discours — durcir la mécanique (publication automatique, purge calendaire, contre-lecture des angles).
+
+

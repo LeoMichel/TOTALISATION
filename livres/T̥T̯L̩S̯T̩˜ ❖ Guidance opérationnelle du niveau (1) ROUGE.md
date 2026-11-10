@@ -1,4 +1,4 @@
-﻿﻿<!-- ===================== COUVERTURE (RECTO) ===================== -->
+﻿<!-- ===================== COUVERTURE (RECTO) ===================== -->
 <!-- Zone réservée à l'illustration de couverture (image à insérer ici). -->
 <!-- Éléments à faire figurer sur le recto : logotype T̥T̯L̩S̯T̩˜, titre, sous-titre, auteur, "ORIGINALIUM". -->
 
@@ -18,7 +18,7 @@ Collection : L'art de l'excellence pour réaliser un produit logiciel
 
 ©️ Copyright
 
-Auteur : Michel Bélanger
+Auteur : Léo Michel Bélanger
 
 Illustrateur/couverture : Soléane Bélanger
 
@@ -45,7 +45,7 @@ Québec, Canada · Édition 2026 · ORIGINALIUM
 
 **À propos de l'auteur :**
 
-Michel Bélanger, fondateur d'ORIGINALIUM et créateur de BEASTEST, accompagne les organisations dans la réconciliation entre vitesse, profitabilité et qualité. Il est l'auteur de la collection TOTALISATION.
+Léo Michel Bélanger, fondateur d'ORIGINALIUM et créateur de BEASTEST, accompagne les organisations dans la réconciliation entre vitesse, profitabilité et qualité. Il est l'auteur de la collection TOTALISATION.
 
 **À propos de l'illustratrice :**
 
@@ -96,7 +96,7 @@ Ce que vous tenez entre les mains n'est pas un livre de théorie de plus sur la 
 
 Une seule promesse : à la fin des huit semaines, votre équipe saura faire. Pas raconter. Faire.
 
-Michel Bélanger
+Léo Michel Bélanger
 
 ---
 

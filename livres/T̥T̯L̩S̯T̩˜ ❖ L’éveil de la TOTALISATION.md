@@ -1,4 +1,4 @@
-﻿<!-- ===================== COUVERTURE (RECTO) ===================== -->
+<!-- ===================== COUVERTURE (RECTO) ===================== -->
 <!-- Zone réservée à l’illustration de couverture (image à insérer ici). -->
 
 ![Couverture - L’éveil de la TOTALISATION](images/cover-L1.png)
@@ -36,7 +36,7 @@ Québec, Canada · Édition 2026 · ORIGINALIUM
 
 **La prise de conscience - le commencement**
 
-Michel Bélanger, fondateur d’ORIGINALIUM et créateur de BEASTEST, accompagne les organisations dans l'accompagnement entre vitesse, profitabilité et qualité. Il est l’auteur de la collection TOTALISATION.
+Léo Michel Bélanger, fondateur d’ORIGINALIUM et créateur de BEASTEST, accompagne les organisations dans la réconciliation entre vitesse, profitabilité et qualité. Il est l’auteur de la collection TOTALISATION.
 
 Ce livre n’a pas été créé par l’IA : elle a été un outil de transformation, j’ai dû, à de nombreuses reprises, tout refaire pour garantir/préserver l’intégrité, l’intention et l’exactitude. Par contre, sans elle, je n’aurais jamais cru pouvoir écrire : je suis dysphasique (neurodivergence), et donc le langage, l’écriture, l’orthographe et la lecture me semblaient insurmontables. J’ai commencé avec une fausse promesse sur ce que l’IA m’apporterait ; elle ne m’a pas donné ce que j’attendais (écrire à ma place), mais bien plus. Parfois, on cherche une solution à ses limites pour découvrir que ces limites n’existaient pas vraiment.
 
@@ -61,8 +61,8 @@ Annexes - Glossaire, références, distinctions clés et ressources avancées
 ## Note éditoriale - garder le lecteur captivé jusqu’à la fin
 Pour que ce livre reste captivant, chaque partie doit faire avancer une découverte. Le lecteur ne doit pas seulement recevoir des explications sur TOTALISATION ; il doit sentir une progression : d’abord reconnaître un malaise, ensuite comprendre ce qui le produit, puis découvrir une chaîne de maîtrise, voir cette chaîne prendre forme dans le cycle produit et, enfin, mesurer ce que l’intelligence artificielle amplifie lorsque la clarté ou le flou sont déjà présents.
 Le rôle d’ORIGINALIUM (organisation), DREAM-TEAM (équipe) et BEASTEST (produit) est donc essentiel : ils ne doivent pas être seulement des exemples ponctuels. Ils doivent devenir la tension narrative du livre. Au début, l’équipe subit le flou. Ensuite, elle apprend à le nommer. Puis elle transforme les mots en décisions, les décisions en critères, les critères en signaux et les signaux en apprentissages réinjectés. À la fin, le lecteur doit pouvoir dire : “j’ai vu une organisation passer de l’activité à la maîtrise”.
-La suite logique de complétion doit donc respecter un rythme précis : une idée forte, une tension concrète, une scène ou un carnet de terrain, un repère pratique, puis une question qui ouvre le chapitre suivant. Ce rythme évite que les notions de clarté, qualité, confiance, signaux et apprentissage deviennent répétitives. Chaque retour à ces mots doit révéler une couche nouvelle : d’abord le symptôme, ensuite le mécanisme, puis l’usage, puis la transformation durable.
-La complétion finale du livre doit conduire le lecteur vers une promesse simple : TOTALISATION n’est pas une méthode de plus, mais une manière de rendre la réalisation plus lucide, plus digne de confiance et plus habitable. La fin doit revenir au premier signal - le bug que personne ne voulait croire - pour boucler le parcours : apprendre à écouter les signaux avant qu’ils deviennent incidents, conflits, fatigue ou fausses certitudes amplifiées par l’IA.
+Le rythme du livre doit donc rester précis : une idée forte, une tension concrète, une scène ou un carnet de terrain, un repère pratique, puis une question qui ouvre le chapitre suivant. Ce rythme évite que les notions de clarté, qualité, confiance, signaux et apprentissage deviennent répétitives. Chaque retour à ces mots doit révéler une couche nouvelle : d’abord le symptôme, ensuite le mécanisme, puis l’usage, puis la transformation durable.
+Le parcours doit conduire le lecteur vers une promesse simple : TOTALISATION n’est pas une méthode de plus, mais une manière de rendre la réalisation plus lucide, plus digne de confiance et plus habitable. La fin revient au premier signal — le bug que personne ne voulait croire — pour boucler le parcours : apprendre à écouter les signaux avant qu’ils deviennent incidents, conflits, fatigue ou fausses certitudes amplifiées par l’IA.
 
 ## Comment lire ce livre
 Ce livre n’est pas un guide pratique complet ni un mode d’emploi d’implantation. Il se lit d’abord comme un ouvrage de fond : une invitation à mieux voir les pertes de maîtrise, à clarifier les concepts qui orientent le travail logiciel et à comprendre pourquoi la chaîne clarté → qualité → confiance → excellence durable devient essentielle. Les scènes ORIGINALIUM (organisation), DREAM-TEAM (équipe) et BEASTEST (produit) servent de miroirs narratifs inspirés du réel ; elles illustrent des tensions fréquentes sans prétendre fournir une démarche d’implantation étape par étape, et surtout un partage de mon expérience mais aussi l’expérience de l’évolution de la communauté de réalisation de produit logiciel.
@@ -2938,7 +2938,7 @@ Question de suspense : si DÉFINIR ne tient pas encore, peut-on vraiment réussi
 
 ## Semaine 4 - Prouver la valeur
 
-La quatrième semaine doit rendre la valeur tangible. Les participants ne veulent plus seulement comprendre TOTALISATION ; ils doivent voir ce que TOTALISATION change. Les conversations deviennent plus concrètes : quelle décision est meilleure, quelle attente est plus testable, quel risque est mieux assumé, quel signal est plus utile ? Des rôles catalyseurs apparaissent, l’accompagnement devient moins théorique, et l’équipe commence à distinguer l’activité de la maîtrise. Le succès n’est pas encore acquis, mais il devient observable.
+La quatrième semaine doit rendre la valeur tangible. Les participants ne veulent plus seulement comprendre TOTALISATION ; ils doivent voir ce que TOTALISATION change. Les conversations deviennent plus concrètes : quelle décision est meilleure, quelle attente est plus testable, quel risque est mieux assumé, quel signal est plus utile ? Des rôles catalyseurs apparaissent, la réconciliation devient moins théorique, et l’équipe commence à distinguer l’activité de la maîtrise. Le succès n’est pas encore acquis, mais il devient observable.
 
 ## Semaine 5 - Protéger ce qui commence à vivre
 

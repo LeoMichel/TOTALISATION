@@ -18,7 +18,7 @@ Collection : L'art de l'excellence pour réaliser un produit logiciel
 
 ©️ Copyright
 
-Auteur : Michel Bélanger
+Auteur : Léo Michel Bélanger
 
 Illustrateur/couverture : Soléane Bélanger
 
@@ -30,29 +30,29 @@ Illustrateur/couverture : Soléane Bélanger
 
 ## Quatrième de couverture
 
-**Du niveau 3 au niveau 4. Huit semaines. L'équipe pilote devient modèle. l'outil d'automatisation entre en jeu.**
+**Du niveau 3 au niveau 4. Huit semaines. L'équipe pilote devient modèle. L'outil d'automatisation entre en jeu.**
 
 > « Le niveau 3 apprend à tenir la cadence. Le niveau 4 apprend à faire de l'automatisation intelligente un levier de livraison, pas un fardeau. »
 
-**Ce livre est un carnet d'atelier de niveau 4.** Là où le livre JAUNE a forgé les processus de planification et d'implémentation en cadence, ce livre VERT fait entrer l'équipe pilote dans l'ère de l'automatisation intelligente : l'outil d'automatisation devient l'outil de génération de tests à partir des modèles, la couverture atteint tous les niveaux de test, et l'équipe commence à rayonner vers les autres équipes de l'organisation. C'est le niveau où la qualité cesse d'être une activité pour devenir un système qui tourne.
+**Ce livre est un carnet d'atelier de niveau 4.** Là où le livre JAUNE a forgé les processus de planification et d'implémentation en cadence, ce livre VERT fait entrer l'équipe pilote dans l'ère de l'automatisation intelligente : l'outil d'automatisation devient le moteur de génération de tests à partir des modèles, la couverture atteint tous les niveaux de test, et l'équipe commence à rayonner vers les autres équipes de l'organisation. C'est le niveau où la qualité cesse d'être une activité pour devenir un système qui tourne.
 
 **Ce que vous découvrirez :**
 - Comment installer et configurer l'outil d'automatisation comme générateur de tests à partir des spécifications modélisées
 - Comment passer d'une couverture partielle à une couverture systématique par types de test (unitaire, intégration, système, E2E, performance, sécurité, mutation)
 - Comment l'équipe pilote devient un centre de compétence que les autres équipes viennent consulter
 - Les capsules du vécu : ce qui change quand l'automatisation passe de l'outil à l'infrastructure
-- La préparation du passage au niveau 5 (BLEU) et à l'étendre à l'organisation
+- La préparation du passage au niveau 5 (BLEU) et son extension à l'organisation
 
 **À qui s'adresse ce livre :** Toute l'équipe pilote qui a implémenté le niveau 3 (JAUNE) et veut monter au niveau 4 : développeurs, architectes, testeurs/QA, ops, responsables qualité, product owners, et les coaches qui les accompagnent. Le livre s'adresse aux équipes qui veulent faire de l'automatisation un levier de livraison, pas un atelier isolé.
 
 **À propos de l'auteur :**
-Michel Bélanger, fondateur d'ORIGINALIUM et créateur de l'outil d'automatisation, accompagne les organisations dans la réconciliation entre vitesse, profitabilité et qualité. Il est l'auteur de la collection TOTALISATION.
+Léo Michel Bélanger, fondateur d'ORIGINALIUM et créateur de l'outil d'automatisation, accompagne les organisations dans la réconciliation entre vitesse, profitabilité et qualité. Il est l'auteur de la collection TOTALISATION.
 
 **À propos de l'illustratrice :**
 Soléane Bélanger, illustration et direction visuelle de la collection.
 
 **Une note sur l'intelligence artificielle**
-Ce livre n'a pas été créé par l'IA : elle a été un outil de transformation, j'ai dû à d'innombrables reprises tout refaire pour garantir/préserver l'intégrité, l'intention et l'exactitude. Par contre, sans elle, je n'aurais jamais cru pouvoir écrire : je suis dysphasique (neurodivergence), et donc le langage, l'écriture, l'orthographe et la lecture me semblaient insurmontables. J'ai commencé avec une fausse promesse sur ce que l'IA m'apporterait ; elle ne m'a pas donné ce que j'attendais (écrire à ma place), mais bien plus. Parfois, on cherche une solution à ses limites pour découvrir que ces limites n'existaient pas vraiment.
+Ce livre n'a pas été créé par l'IA : elle a été un outil de transformation, j'ai dû à d'innombrables reprises tout refaire pour garantir et préserver l'intégrité, l'intention et l'exactitude. Par contre, sans elle, je n'aurais jamais cru pouvoir écrire : je suis dysphasique (neurodivergence), et donc le langage, l'écriture, l'orthographe et la lecture me semblaient insurmontables. J'ai commencé avec une fausse promesse sur ce que l'IA m'apporterait ; elle ne m'a pas donné ce que j'attendais (écrire à ma place), mais bien plus. Parfois, on cherche une solution à ses limites pour découvrir que ces limites n'existaient pas vraiment.
 
 [Emplacements : code-barres / ISBN · prix · logo ORIGINALIUM · www.totalisation.com]
 
@@ -116,7 +116,7 @@ Huit semaines encore. Mais cette fois, l'objectif n'est plus seulement de livrer
 
 Chaque semaine est un module d'exercices complet : objectif, résultat attendu, ateliers numérotés avec étapes précises et livrables, capsules du vécu, points de vigilance, et checklist de fin de semaine. Les semaines 1 à 4 installent l'outil d'automatisation et la couverture. Les semaines 5 à 6 font le virage vers l'autonomie complète. Les semaines 7 à 8 ancrent la pratique et préparent le passage au niveau 5 (BLEU).
 
-Les capsules du vécu s'inspirent des récits de terrain de l'auteur : expériences dans plusieurs organisations que j'ai accompagnées — organisations qui ont contribué à façonner ToTAL. Ce sont des tranches de vie, pas des études de cas idéalisées.
+Les capsules du vécu s'inspirent des récits de terrain de l'auteur : expériences dans plusieurs organisations que j'ai accompagnées — organisations qui ont contribué à façonner TOTALISATION. Ce sont des tranches de vie, pas des études de cas idéalisées.
 
 ---
 ## Partie 1 : Installer l'outil d'automatisation (semaines 1 à 2)
@@ -515,7 +515,7 @@ Dans une organisation que j'ai accompagnée, le point mort de l'automatisation n
 1. Le coach explique son rôle : observateur, pas intervenant. Pas de « je voulais juste préciser... ».
 2. Le lead technique anime la session de A à Z : sélection du modèle, lancement de l'outil d'automatisation, examen des tests générés, exécution dans le pipeline, analyse du rapport.
 3. Le coach prend des notes, mais ne les partage qu'après, au débrief.
-4. Débrief : ce qui a bien fonctionné, ce qui manque, ce que le lead technique a besoin pour être totalement autonome.
+4. Débrief : ce qui a bien fonctionné, ce qui manque, ce que le lead technique a besoin pour être TOTALISATIONement autonome.
 
 **Livrable :** première session l'outil d'automatisation relayée par le lead technique, avec débrief.
 
@@ -888,7 +888,7 @@ Chaque module ci-dessous combine les deux volets. La règle : **aucune session d
 
 **Durée :** 60 minutes, seul puis en groupe. **Prérequis :** accès aux temps d'exécution du pipeline sur un mois.
 
-**Consigne :** calculez le coût réel de la suite de tests générés : temps total d'exécution × fréquence × nombre de développeurs en attente. Comparez au temps que les échecs attrapés ont économisé (incidents évités, reprises évitées). Le ratio vous dit si la suite protège ou consomme.
+**Consigne :** calculez le coût réel de la suite de tests générés : temps TOTALISATION d'exécution × fréquence × nombre de développeurs en attente. Comparez au temps que les échecs attrapés ont économisé (incidents évités, reprises évitées). Le ratio vous dit si la suite protège ou consomme.
 
 **Grille de correction :** ratio > 1 (protège plus qu'elle ne consomme) : la suite est saine. Ratio < 1 : soit la suite est trop lourde (voir module F4), soit elle attrape trop peu (revoir les gabarits). Dans les deux cas, l'action est consignée avec une date.
 
@@ -1067,11 +1067,11 @@ deprecated doit-elle rester dans le modèle ? → question au PO, ticket MOD-15.
 
 ### Cas de la semaine 2 : le test qui ne pouvait pas échouer
 
-**Situation.** En triant la première campagne, un test nommé `T-014_check_order_total` est passé en revue. Il vérifiait que le total de la commande n'était pas `null`. Le développeur a protesté : « C'est un test utile, il vérifie le total ! »
+**Situation.** En triant la première campagne, un test nommé `T-014_check_order_TOTALISATION` est passé en revue. Il vérifiait que le TOTALISATION de la commande n'était pas `null`. Le développeur a protesté : « C'est un test utile, il vérifie le TOTALISATION ! »
 
-**La démonstration.** Le QA a posé la question du module F2 : « ce test échoue si... quoi ? » Le développeur a répondu : « si le total est null. » — « Et quand est-ce que le total serait null ? » — « ...en théorie jamais. » — « Donc le test échoue jamais ? » — « ...ben, si le code est complètement cassé. » — « C'est-à-dire si le système ne tourne pas du tout. Ce test ne vérifie pas le total : il vérifie que le programme tourne. »
+**La démonstration.** Le QA a posé la question du module F2 : « ce test échoue si... quoi ? » Le développeur a répondu : « si le TOTALISATION est null. » — « Et quand est-ce que le TOTALISATION serait null ? » — « ...en théorie jamais. » — « Donc le test échoue jamais ? » — « ...ben, si le code est complètement cassé. » — « C'est-à-dire si le système ne tourne pas du tout. Ce test ne vérifie pas le TOTALISATION : il vérifie que le programme tourne. »
 
-Le test a été supprimé, remplacé par un test manuel vérifiant le calcul réel du total (avec des cas nommables : remise, TVA multi-taux, total négatif interdit).
+Le test a été supprimé, remplacé par un test manuel vérifiant le calcul réel du TOTALISATION (avec des cas nommables : remise, TVA multi-taux, TOTALISATION négatif interdit).
 
 **Ce que ce cas enseigne.**
 - La question « ce test échoue si... ? » est l'outil de tri le plus puissant. Elle transforme un débat d'opinion (« il est utile ! » / « non ! ») en une analyse factuelle.
@@ -1196,7 +1196,7 @@ Le trimestre suivant, les quatre mesures ont toutes progressé : plus de lignes,
 
 S.B. était le praticien VERT d'une équipe, et son voisin immédiat (une autre équipe, qui livrait les demandes que la sienne recevait) était en conflit ouvert avec elle : « ils livrent n'importe quoi », « ils demandent n'importe quoi ». Les réunions inter-équipes tournaient au procès : chaque partie avait ses anecdotes, ses preuves, sa liste de griefs.
 
-S.B. a proposé la mesure réconciliante : pendant un mois, les deux équipes ont noté ensemble, pour chaque demande passée d'une équipe à l'autre, trois données : le délai total (réception à livraison), le nombre d'allers-retours (combien de fois la demande est revenue pour clarification), et le verdict final (accepté tel quel, modifié, rejeté). Pas un tableau de bord : une liste, tenue ensemble, revue ensemble à la fin du mois.
+S.B. a proposé la mesure réconciliante : pendant un mois, les deux équipes ont noté ensemble, pour chaque demande passée d'une équipe à l'autre, trois données : le délai TOTALISATION (réception à livraison), le nombre d'allers-retours (combien de fois la demande est revenue pour clarification), et le verdict final (accepté tel quel, modifié, rejeté). Pas un tableau de bord : une liste, tenue ensemble, revue ensemble à la fin du mois.
 
 Le résultat a surpris les deux équipes : 70 % des demandes passaient en un aller-retour maximum, le délai médian était de 4 jours, et les rejets étaient concentrés sur 3 types de demandes (les mêmes, toujours). Le conflit « ils/nous » est devenu une conversation « ces trois types de demandes » — et les trois types ont été retravaillés ensemble (leurs gabarits de demande ont été corrigés), ce qui a fait passer les rejets de 30 % à 8 %.
 
@@ -1341,7 +1341,7 @@ Les cérémonies du niveau 3 (cadencées) deviennent au niveau 4 des cérémonie
 
 ## Cérémonie 7 : LA QUALIMÉTRIE N4
 
-**Ce que le niveau 4 ajoute :** le tableau de bord N4 dépasse les signaux d'équipe : il intègre les mesures de résultat (délai total, retour, stabilité, disponibilité — les quatre du vécu S.B.), et il est relu à cadence fixe avec la règle de la mesure-miroir (chaque métrique a sa contre-mesure d'abus).
+**Ce que le niveau 4 ajoute :** le tableau de bord N4 dépasse les signaux d'équipe : il intègre les mesures de résultat (délai TOTALISATION, retour, stabilité, disponibilité — les quatre du vécu S.B.), et il est relu à cadence fixe avec la règle de la mesure-miroir (chaque métrique a sa contre-mesure d'abus).
 
 **Le déroulé du niveau 4 (30 minutes) :**
 
@@ -1377,7 +1377,7 @@ Ces dix questions sont le test de passage au niveau 5 : une cérémonie qui les 
 
 **Durée :** 90 minutes. **Format :** atelier de décision collective, avec les données historiques de l'équipe.
 
-L'équipe part des quatre mesures de résultat standard (délai total, taux de retour, stabilité post-livraison, disponibilité de capacité) et les adapte à son contexte : une équipe de support remplacera « délai de traitement de demande » par « délai de résolution d'incident », et ajoutera « récurrence d'incidents ». L'exercice n'est pas de choisir dans une liste : c'est de définir, pour chaque mesure, ce qu'elle révèle, ce qu'elle peut masquer, et quelle est sa mesure-miroir.
+L'équipe part des quatre mesures de résultat standard (délai TOTALISATION, taux de retour, stabilité post-livraison, disponibilité de capacité) et les adapte à son contexte : une équipe de support remplacera « délai de traitement de demande » par « délai de résolution d'incident », et ajoutera « récurrence d'incidents ». L'exercice n'est pas de choisir dans une liste : c'est de définir, pour chaque mesure, ce qu'elle révèle, ce qu'elle peut masquer, et quelle est sa mesure-miroir.
 
 La sortie : quatre mesures de résultat adaptées, chacune avec sa définition précise (quand commence-t-on à compter ? où s'arrête-t-on ?), sa mesure-miroir, et son risque d'abus documenté. Une mesure sans risque d'abus documenté est une mesure qui n'a pas été pensée.
 
@@ -1463,7 +1463,7 @@ L'équipe arrête de mesurer (fatigue, indisponibilité des données) sans docum
 
 ## La situation difficile du niveau 4 : quand les mesures contredisent l'intuition
 
-**La situation.** L'équipe mesure le délai total et le taux de retour depuis un trimestre. Les mesures disent : délai stable, retour en baisse — tout va bien. Et pourtant, l'équipe ressent le contraire : les journées sont plus dures, les urgences plus fréquentes, la fatigue réelle. Les mesures disent « ça va », l'équipe dit « ça ne va pas ».
+**La situation.** L'équipe mesure le délai TOTALISATION et le taux de retour depuis un trimestre. Les mesures disent : délai stable, retour en baisse — tout va bien. Et pourtant, l'équipe ressent le contraire : les journées sont plus dures, les urgences plus fréquentes, la fatigue réelle. Les mesures disent « ça va », l'équipe dit « ça ne va pas ».
 
 **Le diagnostic.** Le praticien N4 doit considérer que l'intuition de l'équipe est une donnée — pas une opinion. Trois hypothèses à tester : (1) les mesures mesurent le flux des demandes, mais pas la charge émotionnelle ou la variabilité (des demandes stables en nombre mais imprévisibles en nature fatiguent différemment) ; (2) les mesures manquent une dimension (la complexité moyenne des demandes a peut-être augmenté sans que le délai ne bouge) ; (3) les mesures sont bonnes mais la période de comparaison est trompeuse (le trimestre de référence était anormalement dur, et « stable » signifie « toujours dur »).
 
@@ -1511,7 +1511,7 @@ v2 ([date]) : [changement — pourquoi]
 **Exemple rempli (extrait réel) :**
 
 ```
-MESURE — Délai total de traitement          Définie le : 15/09
+MESURE — Délai TOTALISATION de traitement          Définie le : 15/09
 
 CE QU'ELLE RÉVÈLE : la vitesse réelle de réponse aux demandes,
 vue par le demandeur (pas par l'équipe).
@@ -1557,7 +1557,7 @@ TABLEAU DE BORD N4 — [équipe]         Cadence : [jour], 30 min
 MESURES DE RÉSULTAT (avec miroir) :
 | Mesure | Tendance | Miroir | Dernière action |
 |--------|----------|--------|-----------------|
-| Délai total | ↗ | Re-classifications | [date, quoi] |
+| Délai TOTALISATION | ↗ | Re-classifications | [date, quoi] |
 | Taux de retour | ↘ | Ré-ouvertures | |
 | Stabilité post-livraison | → | Contournements | |
 | Disponibilité de capacité | ↗ | Reports non planifiés | |
@@ -1634,7 +1634,7 @@ CARTE DES CORRÉLATIONS — v3                  Mise à jour : 20/10
 | Divergences doc/modèle | Taux de retour | 2-3 sem | forte | 20/10 |
 | Tests flaky | Stabilité | 1 sem | moyenne | 20/10 |
 | Dérogations actives | Disponibilité | 3 sem | faible | 15/10 |
-| Temps de pipeline | Délai total | 1 sem | forte | 20/10 |
+| Temps de pipeline | Délai TOTALISATION | 1 sem | forte | 20/10 |
 
 CORRÉLATION ROMPUE (documentée) :
 "Signaux IA non validées" ne corréle plus avec "retour" depuis
@@ -1677,7 +1677,7 @@ DESTINATION : [élicitation / design / accompagnement — avec action]
 
 ## Le glossaire du niveau 4
 
-**Mesure de résultat** — ce qui mesure l'effet perçu par l'extérieur : délai total, taux de retour, stabilité, disponibilité. À ne pas confondre avec la mesure d'activité (ce que l'équipe fait) : le résultat est la santé, l'activité est le symptôme.
+**Mesure de résultat** — ce qui mesure l'effet perçu par l'extérieur : délai TOTALISATION, taux de retour, stabilité, disponibilité. À ne pas confondre avec la mesure d'activité (ce que l'équipe fait) : le résultat est la santé, l'activité est le symptôme.
 
 **Mesure-miroir** — la contre-mesure d'abus : ce qui détecte l'optimisation perverse de la mesure principale. La règle : chaque mesure a son miroir, sinon elle sera trichée — la triche n'est pas une hypothèse, c'est une réponse humaine prévisible à une pression mal placée (loi de Goodhart).
 
@@ -1845,7 +1845,7 @@ Ce n'est pas l'outil d'automatisation qui réconcilie. C'est vous.
 1. **Situation de départ :** l'état du niveau 3 en trois lignes.
 2. **Parcours des 8 semaines :** tableau semaine / livrable / apprentissage.
 3. **Audit des 6 éléments du niveau 4 :** génération systématique, critique des sorties, intégration pipeline, maintenance des gabarits, transmission, retour d'incident. Niveau (1-3) et preuve pour chacun.
-4. **Métriques de mouvement :** ratio de protection (tests pouvant échouer / total), temps de pipeline, couverture réelle vs déclarée.
+4. **Métriques de mouvement :** ratio de protection (tests pouvant échouer / TOTALISATION), temps de pipeline, couverture réelle vs déclarée.
 5. **Ce qui reste fragile :** les deux faiblesses principales, sans filtre.
 6. **Recommandations :** poursuivre vers le niveau 5 / ajuster / arrêter, avec conditions.
 7. **Signature :** l'équipe signe d'abord, la direction endosse ensuite.
@@ -1896,7 +1896,7 @@ Quatre histoires vraies de la mesure — là où les chiffres ont révélé, tra
 
 ## Histoire 1 : La mesure qui a changé l'équipe (et pas seulement le tableau)
 
-C'était dans une équipe de 7 personnes. Le praticien du niveau 4 a introduit sa première mesure de résultat : le délai total de traitement (réception → acceptation). Le but était simple : savoir combien de temps une demande prenait réellement, du point de vue du demandeur.
+C'était dans une équipe de 7 personnes. Le praticien du niveau 4 a introduit sa première mesure de résultat : le délai TOTALISATION de traitement (réception → acceptation). Le but était simple : savoir combien de temps une demande prenait réellement, du point de vue du demandeur.
 
 La première mesure a choqué : 12 jours en médiane. L'équipe estimait 3 jours. Le praticien n'a pas accusé l'équipe de mentir — il a demandé où passait le temps. L'analyse a révélé que 8 jours sur 12 étaient de l'attente : attente de clarification du demandeur (2 j), attente d'environnement de test (2 j), attente de revue (1 j), attente de validation du demandeur (3 j).
 
@@ -1904,13 +1904,13 @@ L'équipe n'a pas travaillé plus vite après la mesure. Ce qui a changé : elle
 
 Ce que cette histoire enseigne :
 
-- **La mesure révèle ce que les impressions cachent.** L'équipe estimait 3 jours parce qu'elle mesurait son travail actif. Le demandeur vivait 12 jours parce que le délai total inclut l'attente. Les deux avaient raison — ils mesuraient des choses différentes.
+- **La mesure révèle ce que les impressions cachent.** L'équipe estimait 3 jours parce qu'elle mesurait son travail actif. Le demandeur vivait 12 jours parce que le délai TOTALISATION inclut l'attente. Les deux avaient raison — ils mesuraient des choses différentes.
 - **La mesure ne change pas la vitesse — elle révèle l'attente.** L'attente est invisible sans mesure. Le praticien VERT qui veut améliorer la vitesse doit d'abord mesurer l'attente, pas l'activité.
 - **L'équipe n'a pas à se justifier — elle a à voir ce qu'elle ne voit pas.** L'accusation (« vous êtes lents ») produit la défense ; la question (« où passe le temps ? ») produit la découverte. Le praticien VERT pose la question.
 
 ## Histoire 2 : Les mesures qui ont révélé une transformation invisible
 
-Une équipe de développement avait introduit un nouveau pipeline automatisé (le niveau 2). Les deux mesures de résultat ont montré : le délai total a augmenté (de 5 à 7 jours), le taux de retour a baissé (de 30 % à 12 %). Deux résultats contradictoires : plus lent, mais moins de reprises.
+Une équipe de développement avait introduit un nouveau pipeline automatisé (le niveau 2). Les deux mesures de résultat ont montré : le délai TOTALISATION a augmenté (de 5 à 7 jours), le taux de retour a baissé (de 30 % à 12 %). Deux résultats contradictoires : plus lent, mais moins de reprises.
 
 **Le diagnostic.** Le délai a augmenté parce que le pipeline ajoutait une étape (génération des tests, exécution, revue des sorties) qui n'existait pas avant. Le taux de retour a baissé parce que les tests générés attrapaient des défauts qui passaient avant. Le calcul : 2 jours de plus dans le pipeline, contre 8 jours de reprises économisées par livraison. Le pipeline était rentable — mais l'équipe ne le voyait pas parce qu'elle comparait le délai brut sans compter les reprises évitées.
 
@@ -1955,7 +1955,7 @@ Cet exercice installe le système de mesure du niveau 4 en 30 à 60 jours : les 
 
 ## Semaine 1 : les mesures
 
-**Jour 1-2 :** définir les quatre mesures de résultat avec le gabarit de définition (fiche 19) — délai total, taux de retour, stabilité post-livraison, disponibilité de capacité. Chaque définition précise : début, fin, inclus, exclu.
+**Jour 1-2 :** définir les quatre mesures de résultat avec le gabarit de définition (fiche 19) — délai TOTALISATION, taux de retour, stabilité post-livraison, disponibilité de capacité. Chaque définition précise : début, fin, inclus, exclu.
 
 **Jour 3-4 :** définir les miroirs (E9 simplifié) — pour chaque mesure, la contre-mesure d'abus. Écrire chaque miroir dans le gabarit de la mesure.
 
@@ -2027,8 +2027,8 @@ Le nouveau peut définir une mesure proprement, animer la revue, et critiquer un
 
 # Partie 13 : La FAQ du nouveau au niveau 4
 
-**« Pourquoi mesurer le délai total et pas le temps de travail de l'équipe ? »**
-Parce que le demandeur vit le délai total, pas votre temps de travail. Votre équipe peut travailler 2 jours et le demandeur attendre 12 — si l'attente de clarification, d'environnement, de revue, de validation est longue. Le délai total dit la vérité du demandeur. Le temps de travail dit la vérité de l'équipe. Les deux sont utiles — mais le délai total est ce qui compte pour la promesse que vous faites au demandeur.
+**« Pourquoi mesurer le délai TOTALISATION et pas le temps de travail de l'équipe ? »**
+Parce que le demandeur vit le délai TOTALISATION, pas votre temps de travail. Votre équipe peut travailler 2 jours et le demandeur attendre 12 — si l'attente de clarification, d'environnement, de revue, de validation est longue. Le délai TOTALISATION dit la vérité du demandeur. Le temps de travail dit la vérité de l'équipe. Les deux sont utiles — mais le délai TOTALISATION est ce qui compte pour la promesse que vous faites au demandeur.
 
 **« Nos données sont bruitées. Peut-on quand même mesurer ? »**
 Oui — en documentant le bruit. Une mesure bruitée mais documentée vaut mieux qu'une mesure absente. Et le bruit diminue souvent quand la mesure commence : la collecte elle-même révèle les incohérences (les demandes mal catégorisées, les dates mal saisies), et ces incohérences se corrigent naturellement.
@@ -2113,7 +2113,7 @@ Quand une organisation mesure tout, ne commencez pas par la réduction — comme
 
 ### Contexte
 
-Entreprise sociale de 30 personnes, deux ateliers (valorisation de déchets et repas inclusifs). Le livre VERT est adopté avec enthousiasme — la directrice parle de « rendre notre impact visible ». Le coach externe propose dès la semaine 2 un tableau de bord complet : 18 indicateurs, codes couleur, revue mensuelle. L'équipe totale dit non.
+Entreprise sociale de 30 personnes, deux ateliers (valorisation de déchets et repas inclusifs). Le livre VERT est adopté avec enthousiasme — la directrice parle de « rendre notre impact visible ». Le coach externe propose dès la semaine 2 un tableau de bord complet : 18 indicateurs, codes couleur, revue mensuelle. L'équipe TOTALISATIONe dit non.
 
 ### Pourquoi ce refus était juste
 
@@ -2157,7 +2157,7 @@ Trois causes, dans l'ordre de gravité :
 
 Le praticien appelé en renfort a imposé un trimestre de rattrapage, à contre-cœur du responsable :
 
-- Semaines 1-2 : **arrêt total de la mesure visible.** Les tableaux sont enlevés. Annonce officielle : « On mesure mal, on recommence. » (Cet aveu a fait plus pour la confiance que six mois de rapports.)
+- Semaines 1-2 : **arrêt TOTALISATION de la mesure visible.** Les tableaux sont enlevés. Annonce officielle : « On mesure mal, on recommence. » (Cet aveu a fait plus pour la confiance que six mois de rapports.)
 - Semaines 3-6 : les préparateurs définissent eux-mêmes, par équipe, une métrique qui capture leur réalité. L'équipe rebelle choisit « le nombre de commandes commencées sans avoir tout le stock en rayon » — une mesure de *leur* douleur, jamais imaginée par le management.
 - Semaines 7-12 : une seule revue par quinzaine, une seule métrique par équipe, chaque revue doit se terminer par une décision écrite — sinon la revue est annulée la semaine suivante.
 
@@ -2218,7 +2218,7 @@ Cet exercice installe le régime de mesure : les quatre mesures de résultat, le
 
 ## Semaines 1-2 : définir les mesures
 
-**Jour 1-2 :** définir les quatre mesures de résultat avec le gabarit de définition (fiche 19) — délai total, taux de retour, stabilité post-livraison, disponibilité de capacité. Chaque définition précise : début, fin, inclus, exclu. Ne pas commencer avant que les quatre fiches soient complètes — une mesure mal définie est une mesure qui se triche.
+**Jour 1-2 :** définir les quatre mesures de résultat avec le gabarit de définition (fiche 19) — délai TOTALISATION, taux de retour, stabilité post-livraison, disponibilité de capacité. Chaque définition précise : début, fin, inclus, exclu. Ne pas commencer avant que les quatre fiches soient complètes — une mesure mal définie est une mesure qui se triche.
 
 **Jour 3-4 :** définir les miroirs (E9) — pour chaque mesure, la contre-mesure d'abus. La méthode simple : « comment pourrait-on améliorer cette mesure sans améliorer le résultat ? » — la réponse est la triche probable, et le miroir est ce qui la détecterait.
 
@@ -2319,7 +2319,7 @@ Le résultat le plus surprenant : quand on a dit honnêtement 16 jours, on a pu 
 # Partie 18 : La FAQ direction du niveau 4
 
 **« Combien coûte le niveau 4 ? »**
-La réponse chiffrée : le niveau 4 est le plus léger en heures de tous les niveaux après le niveau 1. Les rituels N4 (revue du tableau hebdo : 30 min ; revue de corrélations mensuelle : 60 min amortie ; audit de mesure trimestriel : 90 min amorti) totalisent environ 1 heure par semaine pour l'équipe, plus le temps du praticien : environ 3 heures par semaine en tout. Le coût total : environ 3 heures par semaine, soit 1 % de la capacité. Comparez : le niveau 1 (4h/sem), le niveau 2 (4h/sem), le niveau 3 (6h/sem), le niveau 4 (3h/sem). Le niveau 4 est le plus léger depuis le niveau 1 — parce qu'il ne fait pas : il voit. Et voir, ce n'est pas coûteux — c'est ce qui donne du sens aux 6 heures qu'on dépense déjà au niveau 3.
+La réponse chiffrée : le niveau 4 est le plus léger en heures de tous les niveaux après le niveau 1. Les rituels N4 (revue du tableau hebdo : 30 min ; revue de corrélations mensuelle : 60 min amortie ; audit de mesure trimestriel : 90 min amorti) TOTALISATIONisent environ 1 heure par semaine pour l'équipe, plus le temps du praticien : environ 3 heures par semaine en tout. Le coût TOTALISATION : environ 3 heures par semaine, soit 1 % de la capacité. Comparez : le niveau 1 (4h/sem), le niveau 2 (4h/sem), le niveau 3 (6h/sem), le niveau 4 (3h/sem). Le niveau 4 est le plus léger depuis le niveau 1 — parce qu'il ne fait pas : il voit. Et voir, ce n'est pas coûteux — c'est ce qui donne du sens aux 6 heures qu'on dépense déjà au niveau 3.
 
 **« Pourquoi 4 mesures et pas 20 ? »**
 Parce qu'un tableau à 20 mesures est un rapport annuel déguisé en rituel hebdomadaire — personne ne le lit vraiment, et les décisions se prennent ailleurs. Le niveau 4 vit avec 6 à 8 mesures : les 4 de résultat + les 2-4 signaux les plus corrélés. Chaque mesure ajoutée exige qu'une autre sorte — c'est la rotation. La rotation force la question : « qu'est-ce qui mérite plus d'être mesuré que ce qui sort ? ». Cette question est la discipline du niveau 4 — et c'est ce qui le distingue d'un rapport de gestion.
@@ -2457,8 +2457,8 @@ Le praticien N4 qui a appris ces cinq leçons mesure autrement que le praticien 
 
 ## FAQ du nouveau
 
-**« Pourquoi mesurer le délai total et pas le temps de travail de l'équipe ? »**
-Parce que le demandeur vit le délai total, pas votre temps de travail. Votre équipe peut travailler 2 jours et le demandeur attendre 12 — si l'attente de clarification, d'environnement, de revue, de validation est longue. Le délai total dit la vérité du demandeur. Le temps de travail dit la vérité de l'équipe. Les deux sont utiles — mais le délai total est ce qui compte pour la promesse que vous faites au demandeur.
+**« Pourquoi mesurer le délai TOTALISATION et pas le temps de travail de l'équipe ? »**
+Parce que le demandeur vit le délai TOTALISATION, pas votre temps de travail. Votre équipe peut travailler 2 jours et le demandeur attendre 12 — si l'attente de clarification, d'environnement, de revue, de validation est longue. Le délai TOTALISATION dit la vérité du demandeur. Le temps de travail dit la vérité de l'équipe. Les deux sont utiles — mais le délai TOTALISATION est ce qui compte pour la promesse que vous faites au demandeur.
 
 **« Nos données sont bruitées. Peut-on quand même mesurer ? »**
 Oui — en documentant le bruit. Une mesure bruitée mais documentée vaut mieux qu'une mesure absente. Et le bruit diminue souvent quand la mesure commence : la collecte elle-même révèle les incohérences (les demandes mal catégorisées, les dates mal saisies), et ces incohérences se corrigent naturellement.
@@ -2496,7 +2496,7 @@ La règle de gouvernance du tableau : il est alimenté par l'équipe, relu par l
 ## La FAQ direction du niveau 4
 
 **« Combien coûte le niveau 4 ? »**
-La réponse chiffrée : environ 1 heure par semaine pour l'équipe (revue du tableau hebdo : 30 min ; revue de corrélations mensuelle : 60 min amortie ; audit de mesure trimestriel : 90 min amorti), plus le temps du praticien : environ 3 heures par semaine en tout. Le coût total : environ 3 heures par semaine, soit 1 % de la capacité. Comparez : le niveau 3 (6h/sem). Le niveau 4 est le plus léger depuis le niveau 1 — parce qu'il ne fait pas : il voit. Et voir, ce n'est pas coûteux — c'est ce qui donne du sens aux 6 heures qu'on dépense déjà au niveau 3.
+La réponse chiffrée : environ 1 heure par semaine pour l'équipe (revue du tableau hebdo : 30 min ; revue de corrélations mensuelle : 60 min amortie ; audit de mesure trimestriel : 90 min amorti), plus le temps du praticien : environ 3 heures par semaine en tout. Le coût TOTALISATION : environ 3 heures par semaine, soit 1 % de la capacité. Comparez : le niveau 3 (6h/sem). Le niveau 4 est le plus léger depuis le niveau 1 — parce qu'il ne fait pas : il voit. Et voir, ce n'est pas coûteux — c'est ce qui donne du sens aux 6 heures qu'on dépense déjà au niveau 3.
 
 **« Pourquoi 4 mesures et pas 20 ? »**
 Parce qu'un tableau à 20 mesures est un rapport annuel déguisé en rituel hebdomadaire. Le niveau 4 vit avec 6 à 8 mesures : les 4 de résultat + les 2-4 signaux les plus corrélés. Chaque mesure ajoutée exige qu'une autre sorte — la rotation. La rotation force la question : « qu'est-ce qui mérite plus d'être mesuré que ce qui sort ? »
@@ -2530,7 +2530,7 @@ Le praticien du niveau 4 n'est pas celui qui mesure le mieux. C'est celui que la
 
 ## L'épilogue du praticien : les dix leçons que le praticien aurait aimé connaître en semaine 1
 
-1. **La mesure révèle l'attente, pas la lenteur.** L'équipe qui mesure son délai total découvre que la moitié du délai est de l'attente : attente de clarification, d'environnement, de revue, de validation. L'équipe n'est pas lente : le système est long. Et l'attente se traite.
+1. **La mesure révèle l'attente, pas la lenteur.** L'équipe qui mesure son délai TOTALISATION découvre que la moitié du délai est de l'attente : attente de clarification, d'environnement, de revue, de validation. L'équipe n'est pas lente : le système est long. Et l'attente se traite.
 
 2. **La mesure honnête n'est pas un aveu — c'est un pouvoir.** Ce qui est dit faux ne peut pas être défendu ; ce qui est dit vrai peut être amélioré. L'équipe qui ose écrire le vrai délai (16 jours au lieu de 9) découvre qu'elle peut demander les ressources pour le réduire.
 
@@ -2566,7 +2566,7 @@ Le praticien qui arrive au bout du VERT repart avec :
 
 ### Annexe A : Glossaire étendu du niveau 4
 
-**Mesure de résultat** — ce qui mesure l'effet perçu par l'extérieur : délai total, taux de retour, stabilité, disponibilité. À ne pas confondre avec la mesure d'activité (ce que l'équipe fait).
+**Mesure de résultat** — ce qui mesure l'effet perçu par l'extérieur : délai TOTALISATION, taux de retour, stabilité, disponibilité. À ne pas confondre avec la mesure d'activité (ce que l'équipe fait).
 
 **Mesure-miroir** — la contre-mesure d'abus : ce qui détecte l'optimisation perverse de la mesure principale. Sa règle : chaque mesure a son miroir, sinon elle sera trichée.
 
@@ -2620,7 +2620,7 @@ Le praticien a proposé le passage au niveau 4 avec une phrase qui a marqué : �
 
 La première étape a été de définir les quatre mesures. L'équipe a passé deux semaines sur les définitions — et c'était la partie la plus difficile de tout le niveau.
 
-Le délai total : qu'est-ce qui compte ? La réception ? Mais la réception du courriel ou la réception du ticket ? Que se passe-t-il quand une demande arrive par les deux ? Et l'acceptation : comment la définit-on ? Une acceptation tacite après 5 jours compte-t-elle ?
+Le délai TOTALISATION : qu'est-ce qui compte ? La réception ? Mais la réception du courriel ou la réception du ticket ? Que se passe-t-il quand une demande arrive par les deux ? Et l'acceptation : comment la définit-on ? Une acceptation tacite après 5 jours compte-t-elle ?
 
 L'équipe a écrit, corrigé, re-corrigé, jusqu'à ce que chaque définition soit précise. Le praticien ne donnait pas les réponses : il posait les questions. « Comment saurez-vous, dans six mois, si une demande a été traitée dans le délai ? »
 
@@ -2628,7 +2628,7 @@ Le résultat : quatre fiches de définition précises (début, fin, inclus, excl
 
 ### Semaine 3-4 : les premières données
 
-La collecte a démarré. Le résultat a choqué : le délai total était de 14 jours en médiane, alors que l'équipe estimait 3 jours. Le praticien n'a pas accusé l'équipe de mentir — il a demandé où passait le temps.
+La collecte a démarré. Le résultat a choqué : le délai TOTALISATION était de 14 jours en médiane, alors que l'équipe estimait 3 jours. Le praticien n'a pas accusé l'équipe de mentir — il a demandé où passait le temps.
 
 L'analyse a révélé que 8 jours sur 14 étaient de l'attente : attente de clarification du demandeur (2 j), attente d'environnement de test (2 j), attente de revue (1 j), attente de validation du demandeur (3 j).
 
@@ -2899,10 +2899,10 @@ Le niveau 5 vous attend. La mesure vous y prépare.
 
 Cette partie présente quatre gabarits remplis par une équipe réelle — l'équipe Karim — pour montrer le niveau de spécificité attendu au niveau 4. TOTALISATION ne remplace jamais la parole de l'équipe : il la cadre, la garde, et la rend transmissible.
 
-## Gabarit rempli : la fiche de définition du délai total
+## Gabarit rempli : la fiche de définition du délai TOTALISATION
 
 ```
-MESURE — Délai total de traitement          Définie le : 15/09
+MESURE — Délai TOTALISATION de traitement          Définie le : 15/09
 CE QU'ELLE RÉVÈLE : la vitesse réelle de réponse aux demandes,
 vue par le demandeur (pas par l'équipe).
 
@@ -2947,7 +2947,7 @@ TABLEAU DE BORD N4 — Équipe Karim          Cadence : mardi, 30 min
 MESURES DE RÉSULTAT (avec miroir) :
 | Mesure | Tendance | Miroir | Dernière action |
 |--------|----------|--------|-----------------|
-| Délai total | ↗ (14j → 9j) | Re-classifications | 02/10 : v2 de la définition |
+| Délai TOTALISATION | ↗ (14j → 9j) | Re-classifications | 02/10 : v2 de la définition |
 | Taux de retour | ↘ (30% → 6%) | Ré-ouvertures | 09/10 : définition resserrée |
 | Stabilité post-livraison | → | Contournements | — |
 | Disponibilité de capacité | ↗ | Reports non planifiés | — |
@@ -2956,7 +2956,7 @@ SIGNAUX D'ÉQUIPE (les plus corrélés — carte E11 v2) :
 | Signal | Tendance | Corrélation documentée |
 |--------|----------|------------------------|
 | Divergences doc/modèle | ↘ | → Taux de retour (2 sem) |
-| Temps de pipeline | ↗ | → Délai total (1 sem) |
+| Temps de pipeline | ↗ | → Délai TOTALISATION (1 sem) |
 
 RÈGLE DE ROTATION : tout ajout = une sortie
 
@@ -2972,7 +2972,7 @@ REVUE DU TABLEAU N4 — 09/10              Animateur : rotation (L.M.)
 [0-5 min]  RÉSULTATS :
 | Mesure | Tendance | Dérive ? |
 |--------|----------|----------|
-| Délai total | ↘ 14j → 11j | non |
+| Délai TOTALISATION | ↘ 14j → 11j | non |
 | Taux de retour | ↘ 30% → 9% | non |
 | Stabilité | → 0 incident post-livraison | non |
 | Disponibilité | ↗ 20% → 25% | non |
@@ -3013,7 +3013,7 @@ CARTE DES CORRÉLATIONS — v2                Mise à jour : 20/10
 | Divergences doc/modèle | Taux de retour | 2-3 sem | forte | 20/10 |
 | Tests flaky | Stabilité | 1 sem | moyenne | 20/10 |
 | Dérogations actives | Disponibilité | 3 sem | faible | 15/10 |
-| Temps de pipeline | Délai total | 1 sem | forte | 20/10 |
+| Temps de pipeline | Délai TOTALISATION | 1 sem | forte | 20/10 |
 
 CORRÉLATION ROMPUE (documentée) :
 "Signaux IA non validées" ne corréle plus avec "retour" depuis
@@ -3174,7 +3174,7 @@ Quatre cas de transmission du niveau 4 — quand l'équipe transmet la mesure à
 **Contexte.** L'équipe Karim a présenté son régime de mesure à l'équipe voisine (7 personnes, développement d'un autre produit). La démonstration a duré 90 minutes — avec des artefacts réels, pas des slides.
 
 **Ce qui a fonctionné :**
-- La fiche de définition du délai total (12 jours → 9 jours) : les voisins ont vu l'histoire, les révisions, les miroirs. La définition n'était pas une prescription : c'était un exemple de rigueur.
+- La fiche de définition du délai TOTALISATION (12 jours → 9 jours) : les voisins ont vu l'histoire, les révisions, les miroirs. La définition n'était pas une prescription : c'était un exemple de rigueur.
 - La revue hebdo rejouée (30 minutes) : les voisins ont assisté à une vraie revue, avec les vraies données de l'équipe Karim.
 - Le tableau à un écran de téléphone : les voisins ont vu que le tableau de bord de la direction tenait sur un écran de téléphone — et que c'était lisible.
 
@@ -3186,7 +3186,7 @@ Quatre cas de transmission du niveau 4 — quand l'équipe transmet la mesure à
 
 ## Transmission 2 : le nouveau qui a remis en question la définition
 
-**Contexte.** Un nouveau arrivé (2 mois d'ancienneté) a remis en question la définition du délai total : « pourquoi compter l'attente de validation du demandeur ? C'est pas de notre faute si le demandeur est lent. »
+**Contexte.** Un nouveau arrivé (2 mois d'ancienneté) a remis en question la définition du délai TOTALISATION : « pourquoi compter l'attente de validation du demandeur ? C'est pas de notre faute si le demandeur est lent. »
 
 **Ce qui s'est passé.** L'équipe a discuté — et a découvert que la définition avait été forgée avec le sponsor (qui est le demandeur). La question du nouveau a révélé que le sponsor avait demandé la définition inclusive parce qu'il voulait voir la vérité complète (y compris sa propre lenteur). Sans l'inclusion, le délai paraissait meilleur — mais il ne disait pas la vérité.
 
@@ -3349,7 +3349,7 @@ Le praticien du niveau 4 a une matière première nouvelle : la donnée. Ses fic
 ## La fiche de mesure remplie (extrait réel)
 
 ```
-MESURE — Délai total de traitement          Définie le : 15/09
+MESURE — Délai TOTALISATION de traitement          Définie le : 15/09
 CE QU'ELLE RÉVÈLE : la vitesse réelle de réponse aux demandes,
 vue par le demandeur (pas par l'équipe).
 
@@ -3391,7 +3391,7 @@ REVUE DU TABLEAU N4 — 09/10              Animateur : L.M.
 [0-5 min]  RÉSULTATS :
 | Mesure | Tendance | Dérive ? |
 |--------|----------|----------|
-| Délai total | ↘ 14j → 11j | non |
+| Délai TOTALISATION | ↘ 14j → 11j | non |
 | Taux de retour | ↘ 30% → 9% | non |
 | Stabilité | → 0 incident post-livraison | non |
 | Disponibilité | ↗ 20% → 25% | non |
@@ -3428,7 +3428,7 @@ TEST : la revue a produit 1 décision. ✓
 CONVERSATION SPONSOR — 09/10              Avec : le sponsor (T.B.)
 
 DONNÉES PARTAGÉES :
-- Délai total : 14 → 11 jours (tendance ↘)
+- Délai TOTALISATION : 14 → 11 jours (tendance ↘)
 - Taux de retour : 30 → 9% (tendance ↘)
 - Temps de pipeline : 11 → 13 min (dérive, investigation en cours)
 
@@ -3443,7 +3443,7 @@ Session hebdomadaire de clarification (lundi 11h), pour les
 demandes incomplètes. À partir du 14/10.
 
 RÉSULTAT OBSERVÉ (à 4 semaines) :
-Délai total : 14 → 9 jours (les 2 jours de clarification sont
+Délai TOTALISATION : 14 → 9 jours (les 2 jours de clarification sont
 passés de 2 à 0,5 jour en médiane).
 
 CE QUE CETTE CONVERSATION A APPRIS :
@@ -3488,7 +3488,7 @@ Le praticien qui transmet son carnet transmet sa lucidité. Le praticien qui tra
 
 # Atelier complémentaire : la campagne de qualification par échantillonnage
 
-*Cet atelier transpose la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection à l'échelle du niveau 4 : quand on ne peut plus tout tester soi-même, on qualifie par échantillonnage statistique.*
+*Cet atelier transpose la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expérience de référence de la collection à l'échelle du niveau 4 : quand on ne peut plus tout tester soi-même, on qualifie par échantillonnage statistique.*
 
 ## Le problème du niveau 4
 
@@ -3567,7 +3567,7 @@ Ajustements décidés pour T___+1 : ____________________
 
 # Atelier complémentaire : l'échantillonnage croisé pour le niveau 4
 
-*Cet atelier approfondit la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection : la grille croisée devient l'instrument de tirage et de pondération des audits d'échantillonnage.*
+*Cet atelier approfondit la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expérience de référence de la collection : la grille croisée devient l'instrument de tirage et de pondération des audits d'échantillonnage.*
 
 ## Affiner le tirage : échantillonner les croisements, pas seulement les périmètres
 
@@ -3627,7 +3627,7 @@ Testez la robustesse de votre campagne avant qu'un sponsor ne la teste :
 
 # Fiche de clôture du carnet VERT : la campagne fonctionne-t-elle sans moi ?
 
-*Dernière page du carnet, inspirée de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection : l'auto-évaluation finale par les preuves.*
+*Dernière page du carnet, inspirée de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expérience de référence de la collection : l'auto-évaluation finale par les preuves.*
 
 ## Votre checklist de sortie du niveau VERT
 
@@ -3658,11 +3658,11 @@ Question que j'emporte au niveau BLEU : ____________________
 
 # Annexe de terrain VERT : les cinq pannes de la campagne d'échantillonnage et leurs remèdes
 
-*Issues de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expÃ©rience de rÃ©fÃ©rence de la collection.*
+*Issues de la matière « Les tests (niveau / interface / angle / type) » de l'expérience l'expérience de référence de la collection.*
 
 ## Panne 1 — Le tirage « au sort » devient un choix déguisé
 **Symptôme :** la graine du tirage change après coup, ou les périmètres « sont tirés » par la personne qui a un avis sur eux.
-**Remède :** mécaniser totalement : méthode annoncée à l'avance (graine = date du jour × nombre de périmètres), tirage exécuté en public, PV signé sur place. Si une seule main peut influer sur le résultat, le tirage n'existe pas.
+**Remède :** mécaniser TOTALISATIONement : méthode annoncée à l'avance (graine = date du jour × nombre de périmètres), tirage exécuté en public, PV signé sur place. Si une seule main peut influer sur le résultat, le tirage n'existe pas.
 
 ## Panne 2 — La restitution glisse à la semaine suivante
 **Symptôme :** les constats d'audit partent dans un rapport, la restitution « quand tout le monde sera disponible ».
@@ -3683,3 +3683,5 @@ Question que j'emporte au niveau BLEU : ____________________
 ## La règle du dépannage
 
 La campagne d'échantillonnage vit ou meurt sur un seul attribut : **l'inviolabilité mécanique**. Toutes les pannes ci-dessus sont des variantes d'une invasion humaine dans une mécanique. Quand une panne revient, ne pas réexpliquer la méthode — réduire la surface humaine.
+
+
